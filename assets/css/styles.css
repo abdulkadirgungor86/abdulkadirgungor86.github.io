@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     background: linear-gradient(to bottom, #ffffff, #034934); 
     color: #000000;
     overflow: hidden;
