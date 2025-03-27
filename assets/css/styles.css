@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -6,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 110vh;
-    background: linear-gradient(to bottom, #ffffff, #034934); 
+    background: linear-gradient(to bottom, #00d9ff, #b14701); 
     color: #000000;
     overflow: hidden;
     text-align: center;
@@ -32,6 +34,7 @@ body {
 }
 
 .bubble {
+    font-family:  "Lobster", sans-serif;
     position: relative;
     display: inline-block;
     opacity: 0;
@@ -40,6 +43,7 @@ body {
 }
 
 .bubble-title {
+    font-family:  "Lobster", sans-serif;
     position: relative;
     display: inline-block;
     opacity: 0;
