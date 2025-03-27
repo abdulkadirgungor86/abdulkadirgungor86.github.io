@@ -79,6 +79,9 @@ footer {
     text-align: center;
     padding: 10px 0;
     z-index: 2;
+    margin-top: auto; /* Footer'ı sayfanın en altına iter */
+}
+
 }
 
 .footer-links {
