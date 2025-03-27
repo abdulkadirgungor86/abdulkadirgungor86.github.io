@@ -39,7 +39,7 @@ body {
     display: inline-block;
     opacity: 0;
     animation: fadeIn 3s ease-in-out forwards, bubbleEffect 6s infinite ease-in-out;
-    top: -70px; 
+    top: -60px; 
 }
 
 .bubble-title {
@@ -48,7 +48,7 @@ body {
     display: inline-block;
     opacity: 0;
     animation: fadeIn 3s ease-in-out forwards, bubbleEffect 6s infinite ease-in-out;
-    top: -70px; 
+    top: -60px; 
 }
 
 
