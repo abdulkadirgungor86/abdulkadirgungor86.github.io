@@ -35,6 +35,7 @@ body {
 
 .bubble {
     font-family:  "Lobster", sans-serif;
+    font-size:10px;
     position: relative;
     display: inline-block;
     opacity: 0;
