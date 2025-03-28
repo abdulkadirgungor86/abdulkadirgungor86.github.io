@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+:root {
+    --footer-height: 40px;
+    --menu-height: 60px;
+    --fixed-bottom-space: calc(var(--footer-height) + var(--menu-height));
+    --sea-height: 320px;
+    --wave-base-height: 440px;
+    --wave1-height: 480px;
+    --wave2-height: 400px;
+    --wave3-height: 460px;
+    --wave-horizontal-size: 33.33%;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #1c495b 10%, #3a6f83 25%, #f3904f 50%, #c55a44 75%, #b24536);
+    background-attachment: fixed;
+    position: relative;
+}
+
+.clouds {
+    position: absolute; top: 0; left: 0; width: 300%; height: 220px;
+    z-index: 1;
+    pointer-events: none; animation: move-clouds 120s linear infinite; opacity: 0.8;
+}
+.cloud {
+    position: absolute; background: rgba(255, 255, 255, 0.85); border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.85) 30px -15px 15px -5px, rgba(255, 255, 255, 0.8) 60px 0px 20px 0px, rgba(255, 255, 255, 0.85) 90px -10px 18px -3px, rgba(255, 255, 255, 0.75) 0px 15px 25px 5px, rgba(255, 255, 255, 0.8) -30px 5px 15px 0px;
+    filter: blur(6px); width: 90px; height: 55px; opacity: 1; visibility: visible;
+}
+.cloud1 { top: 30px; left: 5%; transform: scale(1.3); opacity: 0.95; }
+.cloud2 { top: 70px; left: 15%; transform: scale(1.0); opacity: 0.8; }
+.cloud3 { top: 40px; left: 28%; transform: scale(1.5); opacity: 0.9; }
+.cloud4 { top: 80px; left: 40%; transform: scale(0.9); opacity: 0.7; }
+.cloud5 { top: 25px; left: 55%; transform: scale(1.2); opacity: 0.9; }
+.cloud6 { top: 65px; left: 68%; transform: scale(1.1); opacity: 0.8; }
+.cloud7 { top: 35px; left: 82%; transform: scale(1.4); opacity: 0.92; }
+.cloud8 { top: 75px; left: 95%; transform: scale(0.8); opacity: 0.75; }
+.cloud9 { top: 50px; left: 110%; transform: scale(1.1); opacity: 0.85; }
+.cloud10 { top: 20px; left: 125%; transform: scale(1.3); opacity: 0.9; }
+.cloud11 { top: 85px; left: 140%; transform: scale(1.0); opacity: 0.8; }
+.cloud12 { top: 45px; left: 155%; transform: scale(1.2); opacity: 0.88; }
+
+@keyframes move-clouds { 0% { transform: translateX(0); } 100% { transform: translateX(-66.66%); } }
+
+.rain {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    z-index: 15;
+    pointer-events: none; overflow: hidden;
+}
+.raindrop {
+    position: absolute; bottom: 100%; width: 1px; height: 55px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+    animation: fall linear infinite;
+}
+@keyframes fall { to { transform: translateY(100vh); } }
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - var(--fixed-bottom-space));
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 16;
+    padding: 0;
+    background-color: transparent;
+}
+
+.content-inner {
+    padding: 40px;
+    width: 90%;
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content h1,
+.content p {
+    text-shadow:
+        -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000,
+         1px 1px 5px rgba(0, 0, 0, 0.7);
+    transition: opacity 0.4s ease-in-out; opacity: 1; visibility: visible;
+}
+
+.content h1 {
+    font-size: clamp(1.6em, 4.5vw, 3em); font-weight: 600; margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.content p {
+    font-size: clamp(0.9em, 2.2vw, 1.15em); font-weight: 400; line-height: 1.75;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sea {
+    position: absolute;
+    bottom: var(--fixed-bottom-space);
+    left: 0;
+    width: 100%;
+    height: var(--sea-height);
+    background-color: #1a3a4a;
+    overflow: hidden;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.wave {
+    position: absolute; bottom: 0; left: 0; width: 200%;
+    height: var(--wave-base-height);
+    background-size: var(--wave-horizontal-size) var(--wave-base-height);
+    background-repeat: repeat-x;
+}
+.wave1 {
+    animation: wave-move 14s linear infinite; opacity: 1; z-index: 3; bottom: 0;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"><path d="M 0 50 C 200 100 300 0 500 50 S 700 100 1000 50 L 1000 100 L 0 100 Z" fill="rgba(26, 58, 74, 0.85)"/></svg>');
+    background-size: var(--wave-horizontal-size) var(--wave1-height);
+}
+.wave2 {
+    animation: wave-move 10s linear infinite reverse; opacity: 0.9; z-index: 2; bottom: 10px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"><path d="M 0 60 C 150 100 350 0 500 60 S 650 120 1000 60 L 1000 100 L 0 100 Z" fill="rgba(44, 83, 100, 0.75)"/></svg>');
+    background-size: var(--wave-horizontal-size) var(--wave2-height);
+}
+.wave3 {
+    animation: wave-move 18s linear infinite; opacity: 0.7; z-index: 1; bottom: 20px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"><path d="M 0 55 C 250 110 250 10 500 55 S 750 110 1000 55 L 1000 100 L 0 100 Z" fill="rgba(243, 144, 79, 0.5)"/></svg>');
+    background-size: var(--wave-horizontal-size) var(--wave3-height);
+}
+
+@keyframes wave-move { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+footer {
+    position: fixed; bottom: 0; left: 0; right: 0; width: 100%; height: var(--footer-height);
+    background-color: #000000; /* Tam Siyah */
+    display: flex; justify-content: center; align-items: center;
+    z-index: 20;
+    border-top: 1px solid #444; /* Gri Çizgi */
+}
+footer a {
+    color: #e0e0e0; text-decoration: none;
+    /* Font büyüklüğünü menü ile aynı yap */
+    font-size: clamp(0.85em, 2.3vw, 1.05em);
+    font-weight: 300; /* Ağırlık farklı olabilir */
+    transition: color 0.3s ease;
+}
+footer a:hover { color: #6cace4; }
+
+.menu {
+    position: fixed; bottom: var(--footer-height); left: 0; right: 0; width: 100%; height: var(--menu-height);
+    background-color: #000000; /* Tam Siyah */
+    display: flex; justify-content: center; align-items: center;
+    z-index: 21;
+    border-top: none;
+}
+.menu ul {
+    list-style: none; display: flex; justify-content: center; align-items: center;
+    gap: 25px; padding: 0 15px; flex-wrap: wrap; margin: 0;
+}
+.menu ul li { margin-bottom: 0; }
+.menu ul li a {
+    color: #7cbde8; text-decoration: none; font-size: clamp(0.85em, 2.3vw, 1.05em);
+    font-weight: 400; padding: 8px 14px; transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px; display: inline-block; white-space: nowrap;
+}
+.menu ul li a:hover { color: #ffffff; background-color: rgba(124, 189, 232, 0.15); transform: translateY(-2px); }
+.menu ul li a.active { color: #ffffff; font-weight: 600; background-color: rgba(124, 189, 232, 0.25); }
+
+@media (min-width: 992px) {
+    .content-inner { max-width: 900px; }
+    .menu ul { gap: 35px; }
+}
+@media (min-width: 1200px) {
+    .content-inner { max-width: 1050px; padding: 40px 50px; }
+    .menu ul { gap: 40px; }
+}
+@media (min-width: 1400px) {
+    .content-inner { max-width: 1200px; }
+    .menu ul { gap: 45px; }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --footer-height: 35px; --menu-height: 55px;
+        --sea-height: 240px;
+        --wave-base-height: 340px; --wave1-height: 360px;
+        --wave2-height: 300px; --wave3-height: 340px;
+        --wave-horizontal-size: 33.33%;
+    }
+    .content-inner { padding: 25px 30px; width: 92%; }
+    .menu ul { gap: 15px; }
+    .menu ul li a { padding: 7px 10px; }
+    .clouds { height: 180px; opacity: 0.7; }
+    .raindrop { height: 45px; }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --footer-height: 30px; --menu-height: 50px;
+        --sea-height: 200px;
+        --wave-base-height: 280px; --wave1-height: 300px;
+        --wave2-height: 240px; --wave3-height: 280px;
+        --wave-horizontal-size: 33.33%;
+    }
+    .content-inner { width: 94%; padding: 20px 15px; }
+    .content h1 { font-size: clamp(1.5em, 5vw, 2.8em); margin-bottom: 15px; }
+    .content p { font-size: clamp(0.88em, 2.5vw, 1.1em); line-height: 1.7; }
+    .menu ul { gap: 10px; row-gap: 6px;}
+    .menu ul li a { padding: 6px 8px; }
+    footer { border-top-width: 1px; border-top-color: #444; }
+    footer a { font-size: clamp(0.85em, 2.3vw, 1.05em); /* Mobil için de clamp */ }
+    .clouds { height: 150px; }
+}
