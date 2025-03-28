@@ -39,6 +39,8 @@ body {
     display: inline-block;
     opacity: 0;
     animation: fadeIn 3s ease-in-out forwards, bubbleEffect 6s infinite ease-in-out;
+    text-align: justify;
+    margin: 0 10vh;
     top: -64px; 
 }
 
