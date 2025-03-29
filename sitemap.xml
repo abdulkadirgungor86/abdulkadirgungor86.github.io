@@ -23,21 +23,21 @@
   </url>
 
   <url>
-    <loc>https://abdulkadirgungor86.github.io/projects/BankAPI/ </loc>
-    <lastmod>2025-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://abdulkadirgungor86.github.io/projects/HibritNTier/</loc>
-    <lastmod>2025-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://abdulkadirgungor86.github.io/projects/</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://abdulkadirgungor86.github.io/projects/HibritNTier/index.html</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://abdulkadirgungor86.github.io/projects/BankAPI/index.html</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
