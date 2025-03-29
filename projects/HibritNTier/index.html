@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# ve .NET 8.0 ile Hibrit N-Katmanlı E-Ticaret Projesi: Kapsamlı Rehber</title>
+    
+    <!-- SEO Meta Etiketleri -->
+    <meta name="description" content=".NET 8.0 ve C# kullanarak modern, ölçeklenebilir ve yüksek performanslı bir hibrit N-Katmanlı e-ticaret projesinin nasıl geliştirileceğine dair derinlemesine bir inceleme. Mimari tasarım, teknoloji seçimi, katmanlar, SOLID prensipleri, EF Core kullanımı, API tasarımı, güvenlik, test ve dağıtım stratejileri.">
+    <meta name="keywords" content="C#, .NET 8, .NET Core, ASP.NET Core, N-Katmanlı Mimari, Hibrit Mimari, E-Ticaret Projesi, Yazılım Mimarisi, Entity Framework Core, EF Core 8, SOLID Prensipleri, Repository Pattern, Unit of Work, Dependency Injection, RESTful API, Mikroservisler, Monolitik Mimari, Yazılım Geliştirme, Web Uygulaması, E-Ticaret Çözümleri, Veritabanı Tasarımı, SQL Server, PostgreSQL, NoSQL, API Güvenliği, JWT, Kimlik Doğrulama, Yetkilendirme, ASP.NET Core Identity, Önbellekleme, Redis, Performans Optimizasyonu, Asenkron Programlama, Test Güdümlü Geliştirme (TDD), Unit Test, Entegrasyon Testi, Docker, Konteynerleştirme, Azure, AWS, CI/CD, DevOps, Yazılım Mühendisliği, E-Ticaret Altyapısı, Ölçeklenebilirlik, Güvenlik Açıkları, XSS, CSRF, SQL Injection Önleme, Arka Plan Görevleri, Hangfire, RabbitMQ, Clean Architecture, Domain-Driven Design (DDD) İlkeleri, Türkçe Yazılım Rehberi, .NET Projesi, E-Ticaret Sitesi Geliştirme, Modern Web Geliştirme">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml"> 
+    
+    <!-- CSS Dosyası Bağlantısı -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- Ek Head İçerikleri (Varsa Favicon, Fontlar vb.) -->
+
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>C# ile .NET 8.0 Üzerinde Hibrit N-Katmanlı E-Ticaret Projesi</h1>
+        <p class="subtitle">Modern Web Uygulamaları İçin Kapsamlı Bir Mimari ve Geliştirme Rehberi</p>
+    </header>
+
+    <main class="container">
+        <article>
+            
+            <section id="giris">
+                <h2>Giriş: Projenin Amacı ve Kapsamı</h2>
+                <p>Günümüz dijital çağında e-ticaret, işletmeler için vazgeçilmez bir başarı faktörü haline gelmiştir. Müşterilerin beklentileri artarken, rekabetin yoğunlaşması, sağlam, ölçeklenebilir, güvenli ve yüksek performanslı e-ticaret platformlarına olan ihtiyacı kritik seviyeye taşımıştır. Bu kapsamlı rehber, Microsoft'un en son Uzun Süreli Destek (LTS) sürümü olan .NET 8.0 ve güçlü C# programlama dilini kullanarak modern bir e-ticaret projesinin nasıl hayata geçirilebileceğini adım adım ele almaktadır. Projenin temelini, geleneksel N-Katmanlı mimarinin sağlamlığını ve modülerliğini, mikroservis benzeri yaklaşımların esnekliğiyle birleştiren **Hibrit N-Katmanlı Mimari** oluşturmaktadır.</p>
+                <p>Bu projenin temel hedefleri şunlardır:</p>
+                <ul>
+                    <li><strong>Ölçeklenebilirlik:</strong> Artan kullanıcı trafiği ve veri yükünü karşılayabilecek esnek bir yapı tasarlamak.</li>
+                    <li><strong>Bakım Kolaylığı:</strong> Kodun anlaşılır, test edilebilir ve kolayca güncellenebilir olmasını sağlamak.</li>
+                    <li><strong>Performans:</strong> Hızlı yanıt süreleri ve verimli kaynak kullanımı ile kullanıcı deneyimini optimize etmek.</li>
+                    <li><strong>Güvenlik:</strong> Modern tehditlere karşı dayanıklı, güvenli bir uygulama geliştirmek.</li>
+                    <li><strong>Teknolojik Güncellik:</strong> .NET 8.0 ve C# 12'nin sunduğu en son özelliklerden faydalanmak.</li>
+                </ul>
+                <p>Bu rehber, hem deneyimli .NET geliştiricileri için ileri düzey konuları kapsayacak hem de orta seviyedeki geliştiricilere modern mimari prensiplerini ve en iyi uygulamaları öğrenme fırsatı sunacaktır. Proje boyunca, SOLID prensipleri, Tasarım Desenleri (Design Patterns), Temiz Kod (Clean Code) yaklaşımları ve Test Güdümlü Geliştirme (TDD) gibi temel yazılım mühendisliği ilkelerine bağlı kalınacaktır.</p>
+            </section>
+
+            <section id="mimari-tasarim">
+                <h2>Mimari Tasarım: Neden Hibrit N-Katmanlı?</h2>
+                <p>Yazılım mimarisi, bir uygulamanın iskeletidir ve projenin uzun vadeli başarısı için kritik öneme sahiptir. E-ticaret gibi karmaşık sistemler için doğru mimariyi seçmek, geliştirme sürecini, bakım maliyetlerini ve uygulamanın gelecekteki evrimini doğrudan etkiler.</p>
+                
+                <h3>Klasik N-Katmanlı Mimari</h3>
+                <p>Geleneksel N-Katmanlı mimari (genellikle 3 katman: Sunum, İş Mantığı, Veri Erişim), sorumlulukların ayrılması (Separation of Concerns - SoC) ilkesine dayanır. Bu, kodun daha organize, anlaşılır ve test edilebilir olmasını sağlar. Katmanlar arasındaki bağımlılık genellikle tek yönlüdür (Sunum -> İş Mantığı -> Veri Erişim). Bu yapının avantajları modülerlik ve bakım kolaylığıdır. Ancak, büyük monolitik uygulamalarda, katmanların aşırı büyümesi ve katı bağımlılıklar esnekliği azaltabilir ve belirli modüllerin bağımsız olarak ölçeklendirilmesini zorlaştırabilir.</p>
+
+                <h3>Mikroservis Mimarisi</h3>
+                <p>Mikroservis mimarisi, büyük bir uygulamayı bağımsız olarak geliştirilebilen, dağıtılabilen ve ölçeklendirilebilen küçük, odaklanmış servislere ayırır. Her servis kendi veri tabanına sahip olabilir ve genellikle REST API'ler veya mesajlaşma kuyrukları aracılığıyla iletişim kurar. Bu mimari, yüksek ölçeklenebilirlik, teknoloji çeşitliliği ve bağımsız geliştirme ekipleri gibi avantajlar sunar. Ancak, dağıtık sistemlerin karmaşıklığı, ağ gecikmeleri, dağıtık işlem yönetimi (distributed transactions) ve operasyonel yük gibi zorlukları da beraberinde getirir.</p>
+
+                <h3>Hibrit N-Katmanlı Yaklaşım: İki Dünyanın En İyisi</h3>
+                <p>Projemizde benimsediğimiz **Hibrit N-Katmanlı Mimari**, klasik N-Katmanlı yapının temel modülerliğini korurken, belirli alanlarda mikroservis benzeri yaklaşımları veya daha granüler modülleri entegre etmeyi hedefler. Bu yaklaşım şu şekilde özetlenebilir:</p>
+                <ul>
+                    <li><strong>Çekirdek Monolitik Yapı:</strong> Uygulamanın ana işlevselliği (ürün kataloğu, sipariş yönetimi, kullanıcı yönetimi gibi temel e-ticaret akışları) iyi tanımlanmış katmanlara sahip bir monolit içinde yer alır. Bu, geliştirme sürecini basitleştirir ve temel işlevler arasındaki tutarlılığı sağlar.</li>
+                    <li><strong>Modüler Tasarım:</strong> Monolit içindeki katmanlar (özellikle İş Mantığı Katmanı), belirgin iş yeteneklerine (business capabilities) göre daha küçük modüllere veya servislere ayrılır. Bu modüller, daha gevşek bağlı (loosely coupled) olacak şekilde tasarlanır.</li>
+                    <li><strong>Bağımsız Ölçeklenebilen Bileşenler (Opsiyonel):</strong> Yoğun kaynak kullanan veya sık değişen bazı işlevler (örneğin, arama servisi, ödeme entegrasyonu, bildirim servisi) potansiyel olarak ayrı servislere veya arka plan görevlerine dönüştürülerek bağımsız olarak ölçeklendirilebilir ve dağıtılabilir. Bu, tam bir mikroservis karmaşıklığına girmeden ölçeklenebilirlik sağlar.</li>
+                    <li><strong>Paylaşılan Çekirdek Kütüphanesi (Core Layer):** Tüm katmanlar veya modüller tarafından kullanılan temel varlıklar (entities), veri transfer nesneleri (DTOs), arayüzler (interfaces), enum'lar ve özel istisnalar (custom exceptions) gibi paylaşılan bileşenleri içeren bir çekirdek katman bulunur.</li>
+                </ul>
+                <p>Bu hibrit yaklaşım, monolitik mimarinin geliştirme kolaylığı ile mikroservislerin esnekliği ve ölçeklenebilirliği arasında bir denge kurmayı amaçlar. Özellikle orta ve büyük ölçekli projeler için pragmatik bir çözüm sunar.</p>
+            </section>
+
+            <section id="katmanlar">
+                <h2>Proje Katmanlarının Detaylı Açıklaması</h2>
+                <p>Hibrit N-Katmanlı mimarimizdeki temel katmanlar ve sorumlulukları şunlardır:</p>
+
+                <h3>1. Sunum Katmanı (Presentation Layer)</h3>
+                <p>Kullanıcıların etkileşimde bulunduğu ve uygulamanın dış dünyaya açılan kapısıdır. Bu katman, kullanıcı arayüzünü (UI) oluşturur, kullanıcı girdilerini alır ve iş mantığı katmanından aldığı verileri kullanıcıya sunar.</p>
+                <ul>
+                    <li><strong>Teknolojiler:</strong> ASP.NET Core MVC, Razor Pages, Blazor veya modern JavaScript framework'leri (React, Angular, Vue) ile oluşturulmuş bir Single Page Application (SPA) olabilir. SPA kullanılıyorsa, bu katman aynı zamanda backend ile iletişim kuracak API istemcisini de içerir. Projemizde temel olarak ASP.NET Core MVC/Razor Pages veya bir API backend'i düşünülebilir.</li>
+                    <li><strong>Sorumluluklar:</strong> Kullanıcı arayüzü yönetimi, istek yönlendirme (routing), model-view bağlama (model binding), kullanıcı girdisi doğrulama (client-side & server-side initial checks), İş Mantığı Katmanı servislerini çağırma, sonuçları DTO'lardan (Data Transfer Objects) ViewModel'lere dönüştürme ve kullanıcıya gösterme.</li>
+                    <li><strong>Önemli Not:</strong> Bu katman kesinlikle doğrudan Veri Erişim Katmanı'na veya veritabanına erişmemelidir. Tüm iş mantığı ve veri işlemleri için İş Mantığı Katmanı'nı kullanmalıdır.</li>
+                </ul>
+
+                <h3>2. İş Mantığı Katmanı (Business Logic Layer - BLL)</h3>
+                <p>Uygulamanın kalbidir. Tüm iş kuralları, süreçler, hesaplamalar ve validasyon mantığı bu katmanda yer alır. Sunum katmanından gelen istekleri alır, gerekli işlemleri yapar ve Veri Erişim Katmanı aracılığıyla veritabanı operasyonlarını koordine eder.</p>
+                <ul>
+                    <li><strong>Yapı:</strong> Genellikle Servis (Service) sınıflarından oluşur. Her servis, belirli bir iş alanı veya varlık (entity) ile ilgili operasyonları gruplar (örn: `ProductService`, `OrderService`, `UserService`).</li>
+                    <li><strong>Sorumluluklar:</strong> İş kurallarını uygulama, veri doğrulama (validation), iş akışlarını yönetme (workflows), Veri Erişim Katmanı'ndaki Repository'leri kullanma, Unit of Work deseni ile işlemleri (transactions) yönetme, DTO (Data Transfer Object) dönüşümleri, yetkilendirme kontrolleri.</li>
+                    <li><strong>Hibrit Unsurlar:</strong> Bu katmandaki servisler, daha küçük, odaklanmış modüller şeklinde tasarlanabilir. Gerekirse, bazı servisler arasındaki iletişim olay tabanlı (event-driven) veya mesajlaşma kuyrukları üzerinden gerçekleştirilebilir.</li>
+                    <li><strong>Bağımlılıklar:</strong> Veri Erişim Katmanı'na ve Çekirdek Katmanı'na bağımlıdır. Sunum Katmanı bu katmanı kullanır.</li>
+                </ul>
+
+                <h3>3. Veri Erişim Katmanı (Data Access Layer - DAL)</h3>
+                <p>Veritabanı ile olan tüm etkileşimlerden sorumludur. Verilerin nasıl saklandığına dair detayları diğer katmanlardan soyutlar.</p>
+                <ul>
+                    <li><strong>Tasarım Desenleri:</strong> Genellikle Repository Pattern ve Unit of Work Pattern kullanılır.
+                        <ul>
+                            <li><strong>Repository Pattern:</strong> Her bir ana varlık (aggregate root) için bir Repository tanımlanır (örn: `IProductRepository`, `IOrderRepository`). Bu Repository'ler, CRUD (Create, Read, Update, Delete) operasyonları ve özel sorgular için metotlar içerir. Veritabanı teknolojisine (örn: EF Core, Dapper) özgü kodlar bu katmanda kalır.</li>
+                            <li><strong>Unit of Work Pattern:</strong> Birden fazla Repository operasyonunu tek bir atomik işlem (transaction) içinde gruplamak için kullanılır. Veritabanı değişikliklerinin toplu olarak kaydedilmesini (`SaveChanges`) yönetir.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Teknolojiler:</strong> Entity Framework Core (EF Core) 8 gibi bir ORM (Object-Relational Mapper) veya Dapper gibi bir micro-ORM kullanılabilir. Projemizde EF Core 8'in güçlü özelliklerinden faydalanacağız.</li>
+                    <li><strong>Sorumluluklar:</strong> Veritabanı bağlantısını yönetme, sorguları oluşturma ve çalıştırma, verileri Varlık (Entity) nesnelerine veya DTO'lara dönüştürme, işlemleri (transactions) yönetme (Unit of Work ile).</li>
+                    <li><strong>Bağımlılıklar:</strong> Sadece Çekirdek Katmanı'na (Varlıklar için) bağımlıdır. İş Mantığı Katmanı bu katmanı kullanır.</li>
+                </ul>
+                 
+                <h3>4. Çekirdek / Alan Katmanı (Core / Domain Layer)</h3>
+                <p>Uygulamanın temelini oluşturan, diğer tüm katmanlar tarafından referans alınabilen merkezi bir katmandır. Projenin iş alanına (domain) özgü temel yapıları içerir.</p>
+                <ul>
+                    <li><strong>İçerik:</strong>
+                        <ul>
+                            <li><strong>Varlıklar (Entities):</strong> İş alanındaki temel nesneleri temsil eder (örn: `Product`, `Order`, `Customer`, `Category`). Veritabanı tablolarıyla eşleşirler. DDD (Domain-Driven Design) prensipleri uygulanıyorsa, Aggregate Root'lar, Value Object'ler gibi kavramlar da burada tanımlanır.</li>
+                            <li><strong>Arayüzler (Interfaces):** Özellikle Repository ve Servis arayüzleri (örn: `IProductRepository`, `IOrderService`) burada tanımlanarak Bağımlılıkların Tersine Çevrilmesi (Dependency Inversion Principle - DIP) prensibi desteklenir.</li>
+                            <li><strong>Veri Transfer Nesneleri (DTOs - Data Transfer Objects):** Katmanlar arasında veri taşımak için kullanılan basit sınıflardır. Özellikle Sunum Katmanı ile İş Mantığı Katmanı arasında veya servisler arası iletişimde kullanılır. Varlıkları doğrudan dış dünyaya açmaktan kaçınmaya yardımcı olur.</li>
+                            <li><strong>Enum'lar (Enumerations):** Proje genelinde kullanılacak sabit değerleri tanımlar (örn: `OrderStatus`, `PaymentMethod`).</li>
+                            <li><strong>Özel İstisnalar (Custom Exceptions):** Uygulamaya özgü hata durumlarını temsil etmek için kullanılır (örn: `ProductNotFoundException`, `InsufficientStockException`).</li>
+                            <li><strong>Yardımcı Sınıflar ve Genişletme Metotları (Helpers & Extensions):** Proje genelinde kullanılacak küçük, bağımsız yardımcı fonksiyonlar.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Bağımlılıklar:</strong> Bu katman, projedeki **en bağımsız** katmandır. İdeal olarak başka hiçbir katmana (özellikle altyapı veya veritabanı teknolojilerine) bağımlı olmamalıdır. Diğer tüm katmanlar (Sunum, İş Mantığı, Veri Erişim, Altyapı) bu katmana bağımlı olabilir.</li>
+                </ul>
+
+                <h3>5. Altyapı Katmanı (Infrastructure Layer)</h3>
+                <p>Uygulamanın çalışması için gerekli olan ancak doğrudan iş mantığıyla ilgili olmayan teknik detayları ve dış servis entegrasyonlarını içerir. Çekirdek katmanındaki arayüzlerin somut implementasyonlarını barındırabilir.</p>
+                <ul>
+                    <li><strong>Sorumluluklar:</strong>
+                        <ul>
+                            <li><strong>Günlükleme (Logging):</strong> Serilog, NLog gibi kütüphanelerin konfigürasyonu ve kullanımı.</li>
+                            <li><strong>Önbellekleme (Caching):</strong> In-Memory Cache, Distributed Cache (Redis, Memcached) implementasyonları.</li>
+                            <li><strong>E-posta Gönderimi:** E-posta servisleriyle entegrasyon.</li>
+                            <li><strong>Dosya Sistemi İşlemleri:** Dosya okuma/yazma operasyonları.</li>
+                            <li><strong>Dış API Entegrasyonları:** Üçüncü parti servislerle (Ödeme sistemleri, Kargo takip vb.) iletişim kuran istemci kodları.</li>
+                            <li><strong>Kimlik Doğrulama ve Yetkilendirme Detayları:** ASP.NET Core Identity'nin veritabanı entegrasyonu veya JWT (JSON Web Token) oluşturma/doğrulama mekanizmaları.</li>
+                            <li><strong>Veritabanı Migrasyonları:** EF Core migrasyonlarının yönetimi.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Bağımlılıklar:</strong> Genellikle Çekirdek Katmanı'na bağımlıdır (uyguladığı arayüzler için). İş Mantığı Katmanı veya diğer katmanlar, Altyapı Katmanı'ndaki servisleri Dependency Injection aracılığıyla kullanır.</li>
+                </ul>
+                <p>Bu katmanlı yapı, her bir bileşenin kendi sorumluluğuna odaklanmasını sağlayarak kodun okunabilirliğini, test edilebilirliğini ve bakımını kolaylaştırır. Hibrit yaklaşım ise gerektiğinde belirli modüllerin daha esnek bir şekilde yönetilmesine olanak tanır.</p>
+            </section>
+
+            <section id="teknolojiler">
+                <h2>Kullanılan Teknolojiler ve Araçlar (.NET 8.0 Ekosistemi)</h2>
+                <p>Projemizin temelini oluşturan ve modern bir e-ticaret platformu geliştirmemizi sağlayan kilit teknolojiler ve araçlar şunlardır:</p>
+                <ul>
+                    <li><strong>.NET 8.0 (LTS):</strong> Microsoft'un en güncel Uzun Süreli Destek (Long-Term Support) sürümü. Performans iyileştirmeleri, yeni C# 12 özellikleri, geliştirilmiş ASP.NET Core yetenekleri ve platform genelindeki yenilikler sunar.</li>
+                    <li><strong>C# 12:</strong> .NET 8.0 ile birlikte gelen en son C# sürümü. Primary Constructors, Collection Expressions gibi yeni dil özellikleri ile daha kısa ve okunaklı kod yazmayı sağlar.</li>
+                    <li><strong>ASP.NET Core 8:</strong> Yüksek performanslı, platformlar arası (cross-platform) web uygulamaları ve API'ler geliştirmek için kullanılan modern web framework'ü. MVC, Razor Pages, Minimal APIs gibi farklı geliştirme modellerini destekler.</li>
+                    <li><strong>Entity Framework Core 8 (EF Core 8):</strong> Popüler ORM aracı. Veritabanı işlemlerini nesne yönelimli bir şekilde yapmayı kolaylaştırır. LINQ (Language Integrated Query) desteği, migrasyon yönetimi, performans iyileştirmeleri ve .NET 8.0 ile gelen yeni özellikler (örneğin, Complex Types as Value Objects) sunar.</li>
+                    <li><strong>SQL Server / PostgreSQL:</strong> İlişkisel veritabanı yönetim sistemi olarak tercih edilebilirler. EF Core her ikisini de destekler. Proje gereksinimlerine göre NoSQL veritabanları (örn: MongoDB) da belirli senaryolar için (örn: ürün yorumları, loglar) düşünülebilir.</li>
+                    <li><strong>RESTful API'ler:</strong> Uygulamanın farklı istemcilerle (web arayüzü, mobil uygulama, üçüncü parti sistemler) iletişim kurmasını sağlamak için standartlaşmış bir yöntem. ASP.NET Core Web API veya Minimal APIs ile kolayca geliştirilebilir.</li>
+                    <li><strong>ASP.NET Core Identity:</strong> Kullanıcı kimlik doğrulama (authentication) ve yetkilendirme (authorization) işlemleri için kapsamlı bir framework. Kullanıcı kaydı, giriş, parola yönetimi, roller ve talepler (claims) gibi özellikleri içerir.</li>
+                    <li><strong>JWT (JSON Web Tokens):</strong> Özellikle API tabanlı kimlik doğrulama ve SPA (Single Page Application) senaryolarında durumsuz (stateless) kimlik doğrulama için yaygın olarak kullanılır.</li>
+                    <li><strong>Dependency Injection (DI):</strong> ASP.NET Core'un yerleşik olarak sunduğu, sınıflar arasındaki bağımlılıkları gevşek bir şekilde (loosely coupled) yönetmeyi sağlayan temel bir tasarım desenidir. Test edilebilirliği ve modülerliği artırır.</li>
+                    <li><strong>AutoMapper / Mapster:</strong> Katmanlar arasında (özellikle Varlıklar ve DTO'lar arasında) nesne dönüşümlerini otomatikleştirmek için kullanılan popüler kütüphaneler. Kod tekrarını azaltır.</li>
+                    <li><strong>FluentValidation:</strong> İş mantığı katmanında veya DTO'larda karmaşık ve zincirleme doğrulama kuralları tanımlamak için kullanılan güçlü bir kütüphane.</li>
+                    <li><strong>Serilog / NLog:</strong> Esnek ve yapılandırılabilir günlükleme (logging) için kullanılan popüler kütüphaneler. Farklı hedeflere (dosya, konsol, veritabanı, merkezi log sunucuları) log yazmayı destekler.</li>
+                    <li><strong>Redis / Memcached:</strong> Dağıtık önbellekleme (distributed caching) çözümleri. Sık erişilen verileri bellekte tutarak veritabanı yükünü azaltır ve performansı artırır. ASP.NET Core IDistributedCache arayüzü ile entegre edilebilir.</li>
+                    <li><strong>Hangfire / Quartz.NET:</strong> Arka plan görevlerini (background jobs) zamanlamak ve yönetmek için kullanılır. E-posta gönderimi, rapor oluşturma, veri senkronizasyonu gibi uzun süren veya periyodik işlemler için idealdir.</li>
+                    <li><strong>RabbitMQ / Azure Service Bus / Kafka:</strong> Mesajlaşma kuyrukları (message queues). Servisler arası asenkron iletişim, olay tabanlı mimariler ve iş yükünü dengelemek için kullanılır. Hibrit mimaride modüller arası iletişimi sağlamak için kritik olabilir.</li>
+                    <li><strong>xUnit / NUnit / MSTest:</strong> .NET için popüler birim testi (unit testing) framework'leri. İş mantığı ve diğer bileşenlerin doğruluğunu otomatik olarak kontrol etmek için kullanılır.</li>
+                    <li><strong>Docker:</strong> Uygulamayı ve bağımlılıklarını konteynerler içinde paketleyerek farklı ortamlarda (geliştirme, test, üretim) tutarlı bir şekilde çalıştırmayı sağlar. Dağıtım sürecini basitleştirir.</li>
+                    <li><strong>Git:</strong> Dağıtık versiyon kontrol sistemi. Kodun geçmişini takip etmek, ekip çalışmasını kolaylaştırmak ve farklı özellikleri paralel olarak geliştirmek için kullanılır (GitHub, GitLab, Azure Repos gibi platformlarla birlikte).</li>
+                    <li><strong>Azure DevOps / GitHub Actions:</strong> Sürekli Entegrasyon (Continuous Integration - CI) ve Sürekli Dağıtım (Continuous Deployment - CD) süreçlerini otomatikleştirmek için kullanılan platformlar. Kod değişikliklerinin otomatik olarak derlenmesini, test edilmesini ve dağıtılmasını sağlar.</li>
+                </ul>
+                <p>Bu teknoloji yığını, modern, performanslı ve bakımı kolay bir e-ticaret platformu oluşturmak için sağlam bir temel sunmaktadır.</p>
+            </section>
+
+            <section id="e-ticaret-ozellikleri">
+                <h2>Temel E-Ticaret Projesi Özellikleri</h2>
+                <p>Geliştireceğimiz hibrit N-Katmanlı e-ticaret projesi, temel işlevselliği kapsayacak şekilde aşağıdaki modülleri içerecektir:</p>
+                <ul>
+                    <li><strong>Kullanıcı Yönetimi:</strong>
+                        <ul>
+                            <li>Kullanıcı Kaydı (Registration)</li>
+                            <li>Kullanıcı Girişi (Login) / Çıkış (Logout)</li>
+                            <li>Parola Sıfırlama / Yönetimi</li>
+                            <li>Kullanıcı Profili Görüntüleme ve Güncelleme</li>
+                            <li>Rol Bazlı Yetkilendirme (Admin, Müşteri vb.)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ürün Kataloğu Yönetimi:</strong>
+                        <ul>
+                            <li>Kategoriler (Oluşturma, Listeleme, Güncelleme, Silme - CRUD)</li>
+                            <li>Ürünler (CRUD operasyonları, Kategori ilişkilendirme, Resim yükleme)</li>
+                            <li>Ürün Detay Sayfası</li>
+                            <li>Ürün Listeleme (Sayfalama, Sıralama)</li>
+                            <li>Ürün Arama (Basit metin bazlı arama)</li>
+                            <li>Ürün Filtreleme (Kategoriye, fiyata, özelliklere göre - Gelişmiş)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Alışveriş Sepeti İşlemleri:</strong>
+                        <ul>
+                            <li>Sepete Ürün Ekleme</li>
+                            <li>Sepetteki Ürün Adedini Güncelleme</li>
+                            <li>Sepetten Ürün Çıkarma</li>
+                            <li>Sepet İçeriğini Görüntüleme</li>
+                            <li>Sepet Toplam Tutarını Hesaplama</li>
+                            <li>Oturum bazlı veya kalıcı sepet yönetimi</li>
+                        </ul>
+                    </li>
+                    <li><strong>Sipariş Yönetimi:</strong>
+                        <ul>
+                            <li>Sipariş Oluşturma (Checkout Süreci - Adres bilgisi, Kargo seçimi)</li>
+                            <li>Sipariş Geçmişini Görüntüleme (Müşteri bazında)</li>
+                            <li>Sipariş Detaylarını Görüntüleme</li>
+                            <li>Sipariş Durumunu Güncelleme (Admin tarafından - Örn: Hazırlanıyor, Kargoda, Teslim Edildi)</li>
+                            <li>Temel Stok Kontrolü (Sipariş sonrası stok düşme)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ödeme Entegrasyonu (Placeholder):**
+                        <ul>
+                            <li>Popüler ödeme ağ geçitleri (örn: Iyzico, PayTR, Stripe) için entegrasyon noktaları tanımlama.</li>
+                            <li>Güvenli ödeme süreci akışı tasarımı. (Gerçek entegrasyon projenin kapsamına göre eklenir)</li>
+                        </ul>
+                    </li>
+                     <li><strong>Admin Paneli:</strong>
+                        <ul>
+                            <li>Basit bir yönetim arayüzü.</li>
+                            <li>Kategori ve Ürün Yönetimi (CRUD)</li>
+                            <li>Siparişleri Listeleme ve Durum Güncelleme</li>
+                            <li>Kullanıcıları Listeleme (Temel bilgiler)</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Bu temel özellikler, e-ticaret platformunun çekirdek işlevselliğini oluşturur. Projenin ilerleyen aşamalarında kupon kodları, ürün yorumları, favori listeleri, gelişmiş raporlama gibi ek özellikler de entegre edilebilir.</p>
+            </section>
+            
+            <section id="tasarim-prensipleri">
+                <h2>Tasarım Prensipleri ve Desen Kullanımı</h2>
+                <p>Yazılım kalitesini artırmak, bakımı kolaylaştırmak ve esnekliği sağlamak için projemizde aşağıdaki temel tasarım prensiplerine ve desenlerine bağlı kalacağız:</p>
+                <ul>
+                    <li><strong>SOLID Prensipleri:</strong> Nesne yönelimli tasarımın temel taşlarıdır.
+                        <ul>
+                            <li><strong>S - Single Responsibility Principle (Tek Sorumluluk Prensibi):</strong> Her sınıfın veya modülün sadece tek bir sorumluluğu olmalıdır.</li>
+                            <li><strong>O - Open/Closed Principle (Açık/Kapalı Prensibi):** Yazılım bileşenleri (sınıflar, modüller) genişletmeye açık, değiştirmeye kapalı olmalıdır.</li>
+                            <li><strong>L - Liskov Substitution Principle (Liskov Yerine Geçme Prensibi):** Alt sınıflar, üst sınıfların yerine geçebilmeli ve programın doğruluğunu bozmamalıdır.</li>
+                            <li><strong>I - Interface Segregation Principle (Arayüz Ayırma Prensibi):** Kapsamlı tek bir arayüz yerine, daha küçük ve amaca özel birden fazla arayüz tercih edilmelidir.</li>
+                            <li><strong>D - Dependency Inversion Principle (Bağımlılıkların Tersine Çevrilmesi Prensibi):** Üst seviye modüller, alt seviye modüllere doğrudan bağımlı olmamalıdır. Her ikisi de soyutlamalara (arayüzler) bağımlı olmalıdır. Detaylar, soyutlamalara bağlı olmalıdır.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Repository Pattern:</strong> Veri erişim mantığını iş mantığından ayırır. Veri kaynağına (veritabanı) erişim detaylarını soyutlar. Test edilebilirliği artırır.</li>
+                    <li><strong>Unit of Work Pattern:</strong> Birden fazla Repository operasyonunu tek bir atomik işlem (transaction) altında yönetir. Veri tutarlılığını sağlar.</li>
+                    <li><strong>Dependency Injection (DI) Pattern:</strong> Sınıfların bağımlılıklarını dışarıdan (genellikle bir DI konteyneri aracılığıyla) almasını sağlar. Bağımlılıkları gevşetir (loose coupling), esnekliği ve test edilebilirliği artırır. ASP.NET Core'da yerleşik olarak bulunur.</li>
+                    <li><strong>Options Pattern:</strong> Uygulama yapılandırma (configuration) ayarlarını güçlü tipli (strongly-typed) nesneler aracılığıyla yönetmeyi sağlar. `appsettings.json` gibi kaynaklardan okunan ayarları kullanmayı kolaylaştırır.</li>
+                    <li><strong>DTO (Data Transfer Object) Pattern:</strong> Katmanlar arasında veya servisler arasında veri taşımak için kullanılır. Varlıkların (Entities) iç yapısını veya tüm detaylarını dış dünyaya açmaktan kaçınmayı sağlar. API kontratlarını tanımlamak için de kullanılır.</li>
+                    <li><strong>Domain-Driven Design (DDD) İlkeleri (Etkileri):** Tam bir DDD uygulaması olmasa da, özellikle Çekirdek/Alan katmanında DDD'nin temel kavramlarından (Varlıklar, Değer Nesneleri - Value Objects, Aggregate Roots) ilham alınarak iş alanının daha doğru modellenmesi hedeflenebilir. Bu, iş mantığının daha zengin ve merkezi olmasını teşvik eder.</li>
+                    <li><strong>Clean Code Prensipleri:</strong> Anlaşılır isimlendirme, kısa metotlar, kod tekrarından kaçınma (DRY - Don't Repeat Yourself), yorum satırlarını minimumda tutma gibi kodun okunabilirliğini ve bakımını kolaylaştıran prensipler.</li>
+                </ul>
+                <p>Bu prensip ve desenlerin tutarlı bir şekilde uygulanması, projenin uzun ömürlü, esnek ve yönetilebilir olmasını sağlayacaktır.</p>
+            </section>
+
+            <section id="guvenlik">
+                <h2>Güvenlik Konuları</h2>
+                <p>E-ticaret uygulamaları, hassas kullanıcı verileri (kişisel bilgiler, ödeme detayları) ve finansal işlemler içerdiğinden güvenlik en öncelikli konulardan biridir. Projemizde dikkat edilmesi gereken temel güvenlik başlıkları:</p>
+                <ul>
+                    <li><strong>Kimlik Doğrulama (Authentication):</strong> Sadece geçerli kullanıcıların sisteme erişimini sağlamak. ASP.NET Core Identity'nin güçlü parola politikaları, iki faktörlü kimlik doğrulama (2FA) gibi özelliklerinden faydalanmak. API'ler için JWT veya benzeri token tabanlı mekanizmalar kullanmak.</li>
+                    <li><strong>Yetkilendirme (Authorization):</strong> Kimliği doğrulanmış kullanıcıların sadece yetkili oldukları kaynaklara ve işlemlere erişebilmesini sağlamak. Rol bazlı (Role-Based Access Control - RBAC) veya talep bazlı (Claim-Based Access Control) yetkilendirme modellerini kullanmak.</li>
+                    <li><strong>Veri Koruma:</strong>
+                        <ul>
+                            <li><strong>HTTPS Kullanımı:** Tüm iletişimde SSL/TLS şifrelemesi kullanarak verilerin ağ üzerinde güvenli bir şekilde iletilmesini sağlamak.</li>
+                            <li>**Hassas Verilerin Şifrelenmesi:** Gerekirse veritabanında saklanan bazı hassas verileri (örn: API anahtarları) şifrelemek. ASP.NET Core Data Protection API'lerini kullanmak.</li>
+                            <li>**Parola Güvenliği:** Parolaları asla düz metin olarak saklamamak. Güçlü hash algoritmaları (örn: bcrypt, Argon2) ve salt kullanarak hash'lemek. ASP.NET Core Identity bunu otomatik olarak yapar.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Girdi Doğrulama (Input Validation):</strong> Kullanıcıdan gelen tüm girdileri (form verileri, URL parametreleri, API istek gövdeleri) hem istemci (client-side) hem de sunucu (server-side) tarafında dikkatlice doğrulamak ve temizlemek (sanitize). Bu, XSS ve SQL Injection gibi saldırıları önlemenin ilk adımıdır. FluentValidation gibi kütüphaneler bu konuda yardımcı olur.</li>
+                    <li><strong>Cross-Site Scripting (XSS) Önlemleri:** Kullanıcı girdilerini HTML olarak yorumlanmayacak şekilde kodlamak (HTML encoding). ASP.NET Core Razor engine bunu varsayılan olarak yapar, ancak JavaScript tarafında dikkatli olmak gerekir. Content Security Policy (CSP) başlıklarını kullanmak.</li>
+                    <li><strong>Cross-Site Request Forgery (CSRF) Önlemleri:** Durum değiştiren (POST, PUT, DELETE gibi) isteklere karşı koruma sağlamak. ASP.NET Core'un yerleşik anti-forgery token mekanizmasını kullanmak (özellikle form tabanlı işlemlerde).</li>
+                    <li><strong>SQL Injection Önlemleri:** Parametreli sorgular veya ORM (EF Core gibi) kullanarak kullanıcı girdilerinin doğrudan SQL sorgularına enjekte edilmesini önlemek. EF Core bunu büyük ölçüde otomatik olarak halleder.</li>
+                    <li><strong>Güvenli API Tasarımı:** API endpoint'lerini dikkatli tasarlamak, gereksiz veri ifşasından kaçınmak, hız sınırlama (rate limiting) uygulamak, uygun HTTP metotlarını kullanmak ve detaylı hata mesajlarını üretim ortamında göstermemek.</li>
+                    <li><strong>Güvenlik Başlıkları (Security Headers):** `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Strict-Transport-Security (HSTS)` gibi HTTP güvenlik başlıklarını yapılandırmak.</li>
+                    <li><strong>Bağımlılık Yönetimi:** Kullanılan kütüphanelerin (NuGet paketleri vb.) güncel ve güvenli sürümlerini kullanmak. Bilinen güvenlik açıklarına karşı düzenli tarama yapmak.</li>
+                    <li><strong>Günlükleme ve İzleme (Logging & Monitoring):** Şüpheli aktiviteleri tespit etmek için güvenlik olaylarını (başarısız giriş denemeleri, yetkisiz erişim girişimleri vb.) detaylı olarak loglamak ve izlemek.</li>
+                </ul>
+                <p>Güvenlik, tek seferlik bir iş değil, sürekli dikkat ve güncelleme gerektiren bir süreçtir.</p>
+            </section>
+            
+            <section id="test-ve-dagitim">
+                <h2>Test Stratejileri ve Dağıtım (Deployment)</h2>
+                <p>Yazılımın kalitesini sağlamak ve hataları erken aşamada yakalamak için kapsamlı bir test stratejisi uygulamak, başarılı bir projenin olmazsa olmazıdır.</p>
+
+                <h3>Test Stratejileri</h3>
+                <ul>
+                    <li><strong>Birim Testleri (Unit Tests):</strong> En küçük kod birimlerinin (genellikle metotlar veya sınıflar) işlevselliğini izole bir şekilde test eder. Bağımlılıklar mock/stub objelerle taklit edilir. İş mantığı katmanındaki servisler, yardımcı sınıflar, doğrulama kuralları için kritik öneme sahiptir. xUnit, NUnit gibi framework'ler ve Moq, NSubstitute gibi mocking kütüphaneleri kullanılır.</li>
+                    <li><strong>Entegrasyon Testleri (Integration Tests):** Birden fazla bileşenin birlikte nasıl çalıştığını test eder. Örneğin, bir API endpoint'inin çağrılmasından veritabanına kayıt yapılmasına kadar olan tüm akışı test edebilir. Genellikle gerçek veritabanı (veya in-memory veritabanı) ve diğer dış bağımlılıklarla yapılır. ASP.NET Core, entegrasyon testleri yazmak için `WebApplicationFactory` gibi yardımcılar sunar.</li>
+                    <li><strong>Uçtan Uca Testler (End-to-End Tests - E2E):</strong> Kullanıcı arayüzü üzerinden gerçek bir kullanıcı senaryosunu baştan sona simüle eder. Örneğin, bir kullanıcının giriş yapması, ürün araması, sepete eklemesi ve sipariş vermesi gibi akışları test eder. Selenium, Playwright, Cypress gibi araçlarla yapılır. Daha yavaş çalışır ve bakımı daha zordur ancak sistemin bütünsel olarak çalıştığını doğrular.</li>
+                    <li><strong>API Testleri:** RESTful API'lerin doğruluğunu, performansını ve güvenliğini test etmek için kullanılır. Postman, Insomnia gibi araçlar manuel testler için, kod tabanlı testler (örn: RestSharp veya HttpClient ile xUnit/NUnit içinde) otomatik testler için kullanılabilir.</li>
+                </ul>
+                <p>Test Güdümlü Geliştirme (TDD) veya Davranış Güdümlü Geliştirme (BDD) yaklaşımları benimsenerek testlerin geliştirme sürecinin bir parçası olması teşvik edilebilir.</p>
+
+                <h3>Dağıtım (Deployment)</h3>
+                <p>Uygulamanın geliştirme ortamından test ve üretim ortamlarına taşınması sürecidir.</p>
+                <ul>
+                    <li><strong>Ortam Yapılandırması:** Farklı ortamlar (Development, Staging, Production) için farklı yapılandırma ayarlarını (`appsettings.Development.json`, `appsettings.Production.json`) yönetmek. Hassas bilgileri (API anahtarları, bağlantı dizeleri) yapılandırma dosyaları yerine User Secrets, Azure Key Vault, AWS Secrets Manager gibi güvenli yerlerde saklamak.</li>
+                    <li><strong>Konteynerleştirme (Docker):** Uygulamayı ve bağımlılıklarını bir Docker imajı olarak paketlemek. Bu, ortamlar arası tutarlılık sağlar ve dağıtımı basitleştirir. `Dockerfile` oluşturularak imajın nasıl inşa edileceği tanımlanır. Docker Compose ile birden fazla konteyneri (uygulama, veritabanı, Redis vb.) birlikte yönetmek mümkündür.</li>
+                    <li><strong>Bulut Platformları:**
+                        <ul>
+                            <li><strong>Azure:** Azure App Service, Azure Kubernetes Service (AKS), Azure SQL Database, Azure Cache for Redis gibi PaaS (Platform as a Service) veya IaaS (Infrastructure as a Service) hizmetleri kullanılarak uygulama barındırılabilir.</li>
+                            <li><strong>AWS:** AWS Elastic Beanstalk, Amazon Elastic Kubernetes Service (EKS), Amazon RDS, Amazon ElastiCache gibi benzer hizmetler sunar.</li>
+                            <li><strong>Diğerleri:** Google Cloud Platform (GCP), Heroku gibi platformlar da .NET uygulamalarını barındırmak için kullanılabilir.</li>
+                        </ul>
+                    </li>
+                    <li><strong>CI/CD (Sürekli Entegrasyon / Sürekli Dağıtım):** Kod değişikliklerinin Git deposuna gönderildiğinde otomatik olarak tetiklenen süreçlerdir.
+                        <ul>
+                            <li><strong>CI (Continuous Integration):</strong> Kodun otomatik olarak derlenmesi, testlerin çalıştırılması ve Docker imajının oluşturulması.</li>
+                            <li><strong>CD (Continuous Deployment/Delivery):</strong> Başarılı CI süreçlerinden sonra uygulamanın otomatik olarak test veya üretim ortamlarına dağıtılması.</li>
+                            <li><strong>Araçlar:** Azure DevOps Pipelines, GitHub Actions, Jenkins, GitLab CI/CD gibi araçlarla CI/CD pipeline'ları oluşturulabilir.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Veritabanı Migrasyonları:** EF Core migrasyonlarının dağıtım sırasında otomatik veya kontrollü bir şekilde hedef veritabanına uygulanması. CI/CD pipeline'ına entegre edilebilir.</li>
+                    <li><strong>İzleme ve Günlükleme (Monitoring & Logging):** Dağıtım sonrası uygulamanın performansını, hatalarını ve sistem durumunu izlemek için Azure Application Insights, AWS CloudWatch, Datadog, ELK Stack (Elasticsearch, Logstash, Kibana) gibi araçları kullanmak.</li>
+                </ul>
+                <p>Otomatikleştirilmiş test ve dağıtım süreçleri, hataları azaltır, geliştirme hızını artırır ve daha güvenilir uygulamalar sunmayı sağlar.</p>
+            </section>
+
+            <section id="sonuc">
+                <h2>Sonuç ve Gelecek Geliştirmeler</h2>
+                <p>Bu rehber, C# ve .NET 8.0 kullanarak modern bir e-ticaret platformu geliştirmek için hibrit N-Katmanlı bir mimarinin nasıl tasarlanıp uygulanabileceğine dair kapsamlı bir bakış sunmuştur. Katmanların sorumlulukları, kullanılan teknolojiler, temel e-ticaret özellikleri, tasarım prensipleri, güvenlik önlemleri ve test/dağıtım stratejileri detaylı olarak ele alınmıştır.</p>
+                <p>Hibrit N-Katmanlı mimari, monolitik yapıların geliştirme kolaylığı ile mikroservislerin esnekliği arasında pragmatik bir denge sunarak orta ve büyük ölçekli projeler için güçlü bir temel oluşturur. .NET 8.0'ın performans ve geliştirici verimliliği odaklı yenilikleri, EF Core 8'in gelişmiş veri erişim yetenekleri ve ASP.NET Core'un robust web framework'ü ile birleştiğinde, bu mimari üzerinde yüksek kaliteli, ölçeklenebilir ve bakımı kolay uygulamalar geliştirmek mümkündür.</p>
+                
+                <h3>Öğrenilenler ve Dikkat Edilmesi Gerekenler:</h3>
+                <ul>
+                    <li>Mimari kararlar projenin başında dikkatlice verilmeli ve projenin yaşam döngüsü boyunca tutarlı bir şekilde uygulanmalıdır.</li>
+                    <li>Katmanlar arasındaki sorumlulukların net bir şekilde ayrılması (SoC) kritik öneme sahiptir.</li>
+                    <li>SOLID prensipleri ve temiz kod alışkanlıkları kod kalitesini doğrudan etkiler.</li>
+                    <li>Güvenlik, geliştirme sürecinin her aşamasında göz önünde bulundurulmalıdır.</li>
+                    <li>Otomatik testler ve CI/CD süreçleri, projenin sürdürülebilirliği için yatırımdır.</li>
+                    <li>Teknoloji seçimi, projenin gereksinimleri, ekibin yetkinliği ve uzun vadeli hedefler göz önünde bulundurularak yapılmalıdır.</li>
+                </ul>
+
+                <h3>Gelecek Geliştirmeler İçin Fikirler:</h3>
+                <ul>
+                    <li>Daha Gelişmiş Arama Entegrasyonu (Elasticsearch vb.)</li>
+                    <li>Ürün Yorumları ve Puanlama Sistemi</li>
+                    <li>Kupon Kodları ve Promosyon Yönetimi</li>
+                    <li>Favori Listeleri / İstek Listeleri</li>
+                    <li>Çoklu Dil / Çoklu Para Birimi Desteği</li>
+                    <li>Gelişmiş Raporlama ve Analitik Paneli</li>
+                    <li>Mikroservislere Doğru Evrim (Gerektiğinde belirli modüllerin ayrılması)</li>
+                    <li>Mobil Uygulama API Entegrasyonu</li>
+                    <li>Makine Öğrenmesi ile Ürün Öneri Sistemi</li>
+                    <li>Olay Tabanlı Mimari (Event-Driven Architecture) Unsurlarının Güçlendirilmesi</li>
+                </ul>
+                <p>Bu proje, modern .NET ekosistemiyle neler yapılabileceğini gösteren sağlam bir örnektir ve sürekli öğrenme ve geliştirme için bir başlangıç noktasıdır.</p>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            <a class="footer-a" href="https://abdulkadirgungor86.github.io" target="_blank" rel="noopener noreferrer">Website</a> |
+            <a class="footer-a" href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a> |
+            <a class="footer-a" href="https://abdulkadirgungor86.github.io/cv/" target="_blank" rel="noopener noreferrer">© 2025 Abdulkadir Güngör</a>
+        </p>
+    </footer>
+
+</body>
+</html>
