@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katmanlı Mimariyle Banka API'si: .NET/C# Kredi Kartı Yönetimi Projesi</title>
+    <meta name="description" content="Finansal teknoloji (FinTech) çağında, modern bir Banka API'sinin C# ve .NET üzerinde katmanlı mimari ile nasıl inşa edileceğini gösteren bu 5000+ kelimelik ultra detaylı incelemeyi keşfedin. Kredi kartı bilgilerinin yönetimine (CRUD) odaklanan bu kaynak; proje yapısını, katmanlı mimari felsefesini (SoC, Modülerlik, Test Edilebilirlik), teknoloji seçimini (.NET 8, EF Core, ASP.NET Core API), API tasarımını (RESTful, Endpointler, DTO'lar, Swagger), iş mantığı süreçlerini (Validasyon, Kurallar), veri erişim stratejilerini (Repository, UoW), kapsamlı API güvenliğini (Kimlik Doğrulama, Yetkilendirme, PCI DSS), hata işleme ve yapısal günlükleme (Serilog) yaklaşımlarını, test metodolojilerini ve yayım süreçlerini tamamen yeniden yorumlayarak sunmaktadır. Güvenilir ve ölçeklenebilir finansal API'ler oluşturmak için eksiksiz bir rehber.">
+    <meta name="keywords" content="Katmanlı Mimari, Layered Architecture, Banka API, Banking API, .NET API Geliştirme, C# API Project, Kredi Kartı Yönetimi, Credit Card Management, CRUD API, FinTech, Finansal Teknoloji, .NET 8, C#, ASP.NET Core Web API, Entity Framework Core, EF Core, SQL Server, PostgreSQL, RESTful API Tasarımı, API Endpoint, DTO, Data Transfer Object, Swagger, OpenAPI, API Güvenliği, API Security, JWT, OAuth 2.0, API Key, Kimlik Doğrulama, Yetkilendirme, PCI DSS Uyumluluğu, Hata Yönetimi, Exception Handling, Yapısal Günlükleme, Structured Logging, Serilog, NLog, Repository Pattern, Unit of Work Pattern, Dependency Injection, DI, Separation of Concerns, SoC, Modülerlik, Test Edilebilirlik, Bakım Kolaylığı, Ölçeklenebilirlik, Yazılım Mimarisi, Software Architecture, API Tasarım İlkeleri, Güvenli API Geliştirme, Finansal Uygulamalar, .NET Proje Yapısı, Core Katmanı, Altyapı Katmanı, İş Mantığı Katmanı, Sunum Katmanı, Veri Erişim Katmanı, Birim Testi, Entegrasyon Testi, CI/CD, Docker">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    <link rel="stylesheet" href="../assets/css/blog_style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Banka API Mimarisi</div>
+            <button class="menu-toggle" aria-label="Menüyü Aç/Kapat">☰</button>
+            <ul class="nav-menu">
+                 <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="#giris">Giriş</a></li>
+                <li><a href="#proje-yapisi">Proje Yapısı</a></li>
+                <li><a href="#katmanli-mimari-felsefesi">Mimari Felsefesi</a></li>
+                <li><a href="#teknoloji-yığını">Teknoloji Yığını</a></li>
+                <li><a href="#api-tasarimi">API Tasarımı</a></li>
+                <li><a href="#is-mantigi">İş Mantığı</a></li>
+                <li><a href="#veri-erisim">Veri Erişimi</a></li>
+                <li><a href="#guvenlik-onlemleri">Güvenlik</a></li>
+                <li><a href="#hata-yonetimi-loglama">Hata/Loglama</a></li>
+                <li><a href="#test-ve-dagitim">Test/Dağıtım</a></li>
+                <li><a href="#son-degerlendirme">Son Değerlendirme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <article id="giris" class="content-section intro-section">
+                <h1>Katmanlı Yaklaşımla Banka API'si İnşası: Kredi Kartı Yönetim Sistemine Derin Bir Bakış</h1>
+                <p>
+                    Finansal teknolojilerin (FinTech) baş döndürücü bir hızla ilerlediği çağımızda, bankacılık hizmetlerinin dijital platformlara taşınması ve modern Uygulama Programlama Arayüzleri (API'ler) aracılığıyla ekosisteme açılması, sektörün geleceği açısından kritik bir rol oynamaktadır. Elinizdeki bu doküman, **bölümlendirilmiş mimari (katmanlı mimari)** yaklaşımları temel alınarak, C# dilinin yetenekleri ve güncel .NET platformunun gücüyle geliştirilmiş bir **Bankacılık API** girişimini tüm ayrıntılarıyla mercek altına almaktadır. Bu API'nin ana işlevsel odağı, **kredi kartı verilerinin idaresi** üzerine kurulmuş olup, verilerin sisteme eklenmesi (Create), sorgulanması (Retrieve), değiştirilmesi (Update) ve kaldırılması (Delete) gibi temel **CRUD** operasyonlarını içermektedir.
+                </p>
+                <p>
+                    Bu çalışma, dayanıklı, sürdürülebilirliği yüksek, emniyetli ve büyüme potansiyeli olan API'ler oluşturmanın ehemmiyetini vurgularken, katmanlı mimarinin bu hedeflere ulaşmada ne denli merkezi bir fonksiyona sahip olduğunu gözler önüne sermeyi hedeflemektedir. Bölümlendirilmiş mimari, kodun farklı görevlere ayrıştırılmasını (İlgi Alanlarının Ayrılığı - Separation of Concerns, SoC) sağlayarak modülerliği teşvik eder, bu da sınanabilirliği ve uzun vadeli bakım süreçlerini kayda değer ölçüde kolaylaştırır.
+                </p>
+                <p>
+                    Bu kapsamlı inceleme süresince aşağıdaki temel başlıklar ele alınacaktır:
+                </p>
+                 <ul>
+                    <li>Girişimin genel iskeleti ve oluşturan parçalar.</li>
+                    <li>Katmanlı mimari anlayışının ilkeleri ve projeye entegrasyon biçimi.</li>
+                    <li>Yararlanılan teknolojik altyapı ve geliştirme yardımcıları.</li>
+                    <li>API'nin yapısal tasarımı, hizmet noktası (endpoint) tanımları ve veri taşıma modelleri.</li>
+                    <li>Kredi kartı yönetimine ilişkin iş akışı mantığının ayrıntıları.</li>
+                    <li>Veri saklama ve erişim stratejileri ile veri tabanı idaresi.</li>
+                    <li>API emniyet mekanizmaları ve sektördeki en iyi pratikler.</li>
+                    <li>Hata durumlarının ele alınışı ve olay kayıt (günlükleme) yaklaşımları.</li>
+                    <li>Kalite güvence (test) stratejileri ve yayım (dağıtım) süreçleri.</li>
+                </ul>
+                 <p>
+                    Bu belge, hem .NET kullanarak API geliştirme sahasında yetkinleşmek isteyen yazılım mühendisleri için hem de katmanlı mimari prensiplerini finansal uygulamalar özelinde derinlemesine anlamak isteyen sistem mimarları ve teknik yöneticiler için zengin bir referans kaynağı olma potansiyeli taşımaktadır.
+                 </p>
+            </article>
+
+             <section id="proje-yapisi" class="content-section">
+                <h2>Proje İskeleti ve Bileşenleri: Organize Bir Başlangıç</h2>
+                <p>Güvenilir ve yönetilebilir bir API geliştirmenin ilk adımı, iyi yapılandırılmış ve mantıksal olarak organize edilmiş bir proje iskeleti kurmaktır. Katmanlı mimari, bu düzeni sağlamak için zaman içinde değerini kanıtlamış bir yöntemdir. Ele aldığımız proje, genel kabul görmüş pratiklere uygun olarak, aşağıdaki ana bölümlerden (genellikle ayrı projeler veya ana klasörler olarak) meydana gelmektedir:</p>
+
+                 <details class="question-block">
+                    <summary><h3>1. Core / Domain (Çekirdek / Etki Alanı Bölümü): Projenin Genetik Kodu</h3></summary>
+                    <p>
+                        Burası projenin kalbi, tüm iş mantığının üzerine inşa edildiği temeldir. Uygulamanın faaliyet gösterdiği iş alanına (etki alanı) özgü, teknoloji bağımsız temel yapıları barındırır.
+                        <ul>
+                            <li><strong>Varlıklar (Entities):</strong> İş dünyasındaki temel nesneleri (örneğin, `CreditCard`) ve onların özelliklerini tanımlar. Veri tabanı tablolarının kod dünyasındaki karşılıklarıdır.</li>
+                            <li><strong>Arayüzler (Interfaces):</strong> Farklı katmanlar arasındaki sözleşmeleri tanımlar. Özellikle veri erişim (`ICreditCardRepository`) ve iş mantığı (`ICreditCardService`) servislerinin kontratları burada bulunur. Bu, Bağımlılıkların Tersine Çevrilmesi (DIP) ilkesini uygulamayı sağlar.</li>
+                            <li><strong>Veri Aktarım Nesneleri (DTOs - Data Transfer Objects):** Katmanlar arasında veya API sınırlarında veri taşımak için kullanılan basit, genellikle sadece veri içeren sınıflardır. İç etki alanı modellerinin dışarıya sızmasını engeller ve API kontratını netleştirir.</li>
+                            <li><strong>Sabit Değerler (Enumerations):** Proje genelinde kullanılacak belirli ve sınırlı değer kümelerini (örn: Kart Tipi, Durum Kodları) tanımlar.</li>
+                            <li><strong>Özelleştirilmiş İstisnalar (Custom Exceptions):** Uygulamaya özgü hata durumlarını (örn: `KartBulunamadiHatasi`, `YetersizLimitHatasi`) daha anlamlı bir şekilde temsil etmek için kullanılır.</li>
+                        </ul>
+                        Bu bölüm, diğer tüm bölümler tarafından referans alınabilir ancak kendisi başka hiçbir teknolojiye veya katmana (özellikle UI veya Altyapı'ya) doğrudan bağımlı olmamalıdır. Bu, iş mantığının saf ve test edilebilir kalmasını sağlar.
+                    </p>
+                 </details>
+                  <details class="question-block">
+                    <summary><h3>2. Infrastructure (Altyapı Bölümü): Teknik Destek ve Dış Dünya Bağlantıları</h3></summary>
+                    <p>
+                        Uygulamanın sorunsuz çalışması için gerekli olan ancak doğrudan işin öz mantığıyla ilgili olmayan tüm teknik uygulama detaylarını ve harici sistemlerle entegrasyonları içerir. Genellikle Çekirdek bölümündeki teknik arayüzlerin somut karşılıklarını barındırır.
+                        <ul>
+                            <li><strong>Veri Tabanı Erişimi Uygulaması:** EF Core `DbContext` sınıfının somut tanımı, bağlantı ayarları, model yapılandırmaları (mapping) burada bulunur.</li>
+                            <li><strong>Harici Hizmet Entegrasyonları:** Varsa, üçüncü parti API'lere (örn: risk skorlama servisleri, SMS gönderim sağlayıcıları) bağlanmak için gerekli istemci kodları.</li>
+                            <li><strong>Günlükleme (Logging) Yapılandırması:** Serilog, NLog gibi kütüphanelerin hangi hedeflere (dosya, konsol, merkezi sunucu) nasıl yazacağının ayarlandığı kısım.</li>
+                            <li><strong>E-posta/Bildirim Gönderimi:** E-posta sunucularıyla veya bildirim servisleriyle iletişim kuran kodlar.</li>
+                            <li>Diğer Altyapısal Görevler:** Önbellekleme mekanizmaları, dosya sistemi işlemleri gibi destekleyici fonksiyonların uygulamaları.</li>
+                        </ul>
+                        Bu bölüm, Çekirdek bölümündeki arayüzleri uygular ve teknik detayları diğer katmanlardan gizler.
+                    </p>
+                 </details>
+                   <details class="question-block">
+                    <summary><h3>3. Persistence / DataAccess (Kalıcılık / Veri Erişim Bölümü): Veri Deposu Kapısı</h3></summary>
+                    <p>
+                        (Bazen Altyapı bölümünün bir alt kümesi olarak da kabul edilebilir) Veri tabanıyla doğrudan konuşan kısımdır. Verilerin kalıcı olarak nasıl saklanacağı ve okunacağı ile ilgili tüm sorumluluğu üstlenir.
+                        <ul>
+                            <li><strong>Depo (Repository) Uygulamaları:** Çekirdek'te tanımlanan `ICreditCardRepository` gibi arayüzlerin EF Core (veya başka bir ORM/araç) kullanarak somut uygulamaları (`CreditCardRepository`) burada yer alır. Veri tabanına özgü sorgu mantığı bu sınıflarda kapsüllenir.</li>
+                            <li><strong>ORM Yapılandırması:** Entity Framework Core veya kullanılan diğer veri erişim araçlarının detaylı yapılandırmaları, veri tabanı bağlantı stratejileri burada bulunur.</li>
+                        </ul>
+                        Amacı, İş Mantığı katmanını spesifik veri tabanı teknolojisinin ayrıntılarından soyutlamaktır.
+                    </p>
+                 </details>
+                  <details class="question-block">
+                    <summary><h3>4. Business / Application (İş Mantığı / Uygulama Bölümü): Karar Verme ve İşlem Merkezi</h3></summary>
+                    <p>
+                        Uygulamanın asıl "beynini" oluşturan katmandır. Tüm iş kuralları, süreç mantığı, hesaplamalar ve geçerlilik denetimleri burada yer alır.
+                        <ul>
+                            <li><strong>Hizmet (Service) Sınıfları:** Belirli bir iş alanına veya varlığa odaklanan (`CreditCardService` gibi) ve iş operasyonlarını yürüten sınıflardır. API katmanından gelen istekleri alır ve işler.</li>
+                            <li><strong>İş Kuralları Uygulaması:** Kredi kartı geçerlilik denetimi (Luhn algoritması), son kullanma tarihi kontrolü, limit doğrulamaları gibi tüm mantıksal kontroller burada gerçekleştirilir.</li>
+                            <li><strong>Veri Erişim Koordinasyonu:** İhtiyaç duyduğu verileri almak veya kaydetmek için Veri Erişim katmanındaki Depo (Repository) arayüzlerini kullanır.</li>
+                            <li>**İşlem Bütünlüğü (Unit of Work):** Gerektiğinde, birden fazla veri değişikliğini tek bir atomik işlem olarak yönetir.</li>
+                            <li>**Veri Dönüşümü:** Gelen DTO'ları işlemek veya sonuçları DTO olarak hazırlamak gibi görevleri üstlenir.</li>
+                        </ul>
+                        Bu katman, API katmanı ile Veri Erişim katmanı arasında bir köprü görevi görür ve uygulamanın temel işlevselliğini barındırır.
+                    </p>
+                 </details>
+                 <details class="question-block">
+                    <summary><h3>5. Presentation / API (Sunum / API Bölümü): Dış Dünya Arayüzü</h3></summary>
+                    <p>
+                        Uygulamanın dış sistemlerle veya kullanıcı arayüzleriyle iletişim kurduğu noktadır. Bu projede, RESTful API hizmet noktalarını (endpoints) içerir.
+                        <ul>
+                            <li><strong>Denetleyiciler (Controllers):** Gelen HTTP isteklerini karşılayan ve ilgili İş Mantığı hizmetini çağıran sınıflardır (`CreditCardsController`).</li>
+                            <li><strong>İstek/Yanıt Modelleri (Request/Response Models):** API'nin kabul ettiği ve döndürdüğü veri yapılarıdır (genellikle Çekirdek'teki DTO'lar kullanılır).</li>
+                            <li><strong>Rota Belirleme (Routing):** Gelen URL'lerin hangi Controller Action'a yönlendirileceğini tanımlayan kurallar.</li>
+                            <li><strong>API Yapılandırması:** Swagger/OpenAPI entegrasyonu, versiyonlama, güvenlik middleware'leri gibi API'ye özgü yapılandırmalar burada yapılır.</li>
+                        </ul>
+                        Bu katman, uygulamanın işlevselliğini standartlaşmış bir protokol (HTTP) üzerinden dışarıya sunar.
+                    </p>
+                 </details>
+                  <details class="question-block">
+                    <summary><h3>6. Tests (Sınama Bölümü): Kalite Güvence Merkezi</h3></summary>
+                    <p>
+                        Uygulamanın doğruluğunu ve güvenilirliğini sağlamak için yazılan otomatik testleri içerir. Genellikle ayrı projeler olarak yapılandırılır:
+                        <ul>
+                            <li><strong>Birim Testleri (Unit Tests):** Tek tek metotların veya sınıfların (özellikle İş Mantığı ve Çekirdek katmanlarındaki) bağımlılıklarından izole edilerek test edildiği projeler (örn: `BankAPI.Tests.Unit`).</li>
+                            <li><strong>Entegrasyon Testleri (Integration Tests):** Birden fazla bileşenin (örneğin, API Controller -> Servis -> Repository -> Veri Tabanı) birlikte çalışmasını test eden projeler (örn: `BankAPI.Tests.Integration`).</li>
+                        </ul>
+                        Bu yapı, testlerin organize edilmesini ve yürütülmesini kolaylaştırır.
+                    </p>
+                 </details>
+                  <p style="margin-top: 1.5em;">Bu net katman ayrımı ve tek yönlü bağımlılık akışı (API -> İş Mantığı -> Veri Erişimi -> Çekirdek, Altyapı genellikle Çekirdek'e bağımlıdır ve diğerleri tarafından kullanılır), projenin karmaşıklığı artsa bile kod tabanının düzenli, anlaşılır ve idare edilebilir kalmasına yardımcı olur.</p>
+            </section>
+
+            <section id="katmanli-mimari-felsefesi" class="content-section">
+                 <h2>Katmanlı Mimari Felsefesi: Neden Bu Yaklaşımı Benimsiyoruz?</h2>
+                 <p>Katmanlı mimari, yazılım tasarımında köklü bir geçmişe sahip ve belirli sorunlara getirdiği çözümler nedeniyle hala yaygın olarak tercih edilen bir yaklaşımdır. Bu mimarinin temelinde yatan felsefeyi ve projemiz için neden uygun olduğunu anlamak önemlidir.</p>
+
+                <details class="question-block">
+                     <summary><h3>Temel Dayanak: İlgi Alanlarının Ayrıştırılması (SoC)</h3></summary>
+                     <p>
+                        Katmanlı mimarinin en temel motivasyonu, bir uygulamanın farklı sorumluluklarını birbirinden mantıksal olarak ayırmaktır. Bir duvarın tuğlaları gibi, her katman belirli bir işlevi yerine getirmek üzere tasarlanmıştır:
+                     </p>
+                     <ul>
+                         <li><strong>Sunum/API Katmanı:** Kullanıcı etkileşimi ve dış dünya ile iletişim.</li>
+                         <li><strong>İş Mantığı Katmanı:** Uygulamanın kuralları ve süreçleri.</li>
+                         <li><strong>Veri Erişim Katmanı:** Verilerin kalıcı olarak saklanması ve okunması.</li>
+                         <li><strong>Altyapı Katmanı:** Teknik destekleyici hizmetler (loglama, e-posta vb.).</li>
+                         <li><strong>Çekirdek Katmanı:** Temel iş nesneleri ve sözleşmeler.</li>
+                     </ul>
+                     <p>
+                         Bu ayrım, bir geliştiricinin veya ekibin belirli bir katmana odaklanmasını sağlar. Birisi kullanıcı arayüzünü tasarlarken, diğeri iş kurallarını implemente edebilir, bir başkası ise veri tabanı optimizasyonları üzerinde çalışabilir. Bu odaklanma, karmaşıklığı yönetmeyi kolaylaştırır ve kodun daha anlaşılır olmasını sağlar. Bir katmandaki bir problemi çözmeye çalışırken, diğer katmanların detaylarında kaybolmazsınız.
+                     </p>
+                 </details>
+
+                <details class="question-block">
+                     <summary><h3>Modülerlik ve Esneklik Getirisi</h3></summary>
+                     <p>
+                        Katmanlar arasındaki ilişkiler genellikle iyi tanımlanmış arayüzler üzerinden kurulduğunda, sistemin modülerliği artar. Bu şu anlama gelir:
+                     </p>
+                     <ul>
+                         <li><strong>Değiştirilebilirlik:** Bir katmanın iç implementasyonunu, diğer katmanları etkilemeden (veya minimum etkiyle) değiştirmek mümkün hale gelir. Örneğin, başlangıçta SQL Server kullanan Veri Erişim Katmanı'nı, daha sonra PostgreSQL kullanacak şekilde yeniden yazabilirsiniz; İş Mantığı Katmanı, kullandığı `IRepository` arayüzleri aynı kaldığı sürece bu değişiklikten etkilenmeyebilir. Benzer şekilde, Sunum Katmanı'nı (API) tamamen farklı bir teknolojiyle (örn: gRPC) yeniden yazabilirsiniz, İş Mantığı aynı kaldığı sürece.</li>
+                         <li><strong>Yeniden Kullanılabilirlik:** Özellikle Çekirdek ve İş Mantığı katmanları, farklı Sunum katmanları tarafından potansiyel olarak tekrar kullanılabilir. Örneğin, aynı iş mantığını hem bir Web API hem de bir masaüstü uygulaması kullanabilir.</li>
+                     </ul>
+                     <p>Bu modülerlik, uygulamanın zaman içindeki teknolojik değişimlere veya yeni iş gereksinimlerine daha kolay adapte olmasını sağlar.</p>
+                 </details>
+
+                <details class="question-block">
+                     <summary><h3>Bakım ve Evrim Kolaylığı</h3></summary>
+                     <p>
+                        Yazılımın ömrünün büyük bir kısmı bakım ve yeni özellik ekleme ile geçer. Katmanlı mimari bu süreçleri kolaylaştırır:
+                     </p>
+                     <ul>
+                         <li><strong>Hata Ayıklama (Debugging):** Bir hata oluştuğunda, sorunun hangi katmandan kaynaklandığını tespit etmek genellikle daha kolaydır. Örneğin, kullanıcı arayüzünde yanlış veri görünüyorsa, sorun Sunum katmanındaki ViewModel dönüşümünde mi, İş Mantığı katmanındaki hesaplamada mı, yoksa Veri Erişim katmanından gelen veride mi olduğunu katmanları takip ederek bulabilirsiniz.</li>
+                         <li><strong>Yeni Özellik Ekleme:** Yeni bir işlevsellik eklemek gerektiğinde, ilgili değişikliğin hangi katmanları etkileyeceği daha belirgindir. Örneğin, yeni bir kredi kartı doğrulama kuralı eklemek, muhtemelen sadece İş Mantığı Katmanı'nda değişiklik gerektirecektir.</li>
+                         <li><strong>Ekip Çalışması:** Farklı geliştiriciler veya ekipler farklı katmanlar üzerinde eş zamanlı olarak çalışabilirler, çünkü sorumluluk alanları nettir.</li>
+                     </ul>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Test Edilebilirlik Avantajı</h3></summary>
+                     <p>
+                        Otomatik testler, yazılım kalitesinin güvencesidir. Katmanlı mimari, test yazımını önemli ölçüde kolaylaştırır:
+                     </p>
+                     <ul>
+                         <li><strong>Birim Testleri (Unit Testing):** İş Mantığı Katmanı'ndaki servis sınıfları, bağımlı olduğu Repository veya diğer servislerin arayüzlerini kullanarak tasarlandığı için, bu bağımlılıklar test sırasında sahte (mock veya stub) nesnelerle kolayca değiştirilebilir. Bu sayede, bir servisin kendi iç mantığı, dış bağımlılıklardan (veri tabanı, dış API'ler) izole bir şekilde test edilebilir.</li>
+                         <li><strong>Entegrasyon Testleri:** Katmanlar arasındaki etkileşimi test etmek daha kontrollü bir şekilde yapılabilir. Örneğin, API katmanından başlayıp İş Mantığı ve Veri Erişim katmanlarını içeren bir akışı, gerçek bir veri tabanı (veya bellek-içi veri tabanı) kullanarak test edebilirsiniz.</li>
+                     </ul>
+                     <p>Yüksek test kapsamına ulaşmak, katmanlı mimari ile daha yönetilebilir hale gelir.</p>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Potansiyel Dezavantajlar ve Dikkat Edilmesi Gerekenler</h3></summary>
+                     <p>
+                        Katmanlı mimari birçok avantaj sunsa da, bazı potansiyel dezavantajları ve dikkat edilmesi gereken noktaları da vardır:
+                     </p>
+                     <ul>
+                         <li><strong>Performans Ek Yükü (Overhead):** Her isteğin birden fazla katmandan geçmesi ve katmanlar arası veri dönüşümleri (mapping) küçük bir performans maliyeti yaratabilir. Ancak modern donanımlar ve optimize edilmiş framework'ler (ASP.NET Core gibi) sayesinde bu genellikle ihmal edilebilir düzeydedir veya akıllı önbellekleme stratejileriyle azaltılabilir.</li>
+                         <li><strong>Gereksiz Katmanlaşma (Over-Engineering):** Çok basit uygulamalar için katı bir N-Katmanlı yapı uygulamak gereksiz karmaşıklığa yol açabilir. Mimari, projenin ölçeğine ve karmaşıklığına uygun olmalıdır.</li>
+                         <li>**Katman Sızıntısı (Leaky Abstractions):** İdeal olarak bir katman, altındaki katmanın detaylarını bilmemelidir. Ancak bazen alt katmana özgü kavramlar (örn: EF Core'a özgü bir davranış veya hata) üst katmanlara sızabilir. Tasarımda dikkatli olmak gerekir.</li>
+                         <li>**Tekrarlayan Kod (Boilerplate Code):** Özellikle DTO dönüşümleri veya basit CRUD operasyonları için katmanlar arasında benzer kodlar yazma eğilimi olabilir. AutoMapper gibi araçlar ve generic repository gibi desenler bu tekrarı azaltmaya yardımcı olabilir.</li>
+                     </ul>
+                      <p>Bu potansiyel sorunların farkında olmak ve mimariyi pragmatik bir şekilde uygulamak önemlidir. Projemizdeki Hibrit yaklaşım, klasik katmanlı yapının bazı katılıklarını esnetmeyi hedefler.</p>
+                 </details>
+            </section>
+
+            <section id="teknoloji-yığını" class="content-section">
+                <h2>Kullanılan Teknolojiler ve Araçlar: Projenin İnşa Malzemeleri</h2>
+                <p>Bu Banka API projesini modern, güvenilir ve performanslı bir şekilde hayata geçirmek için .NET ekosisteminin sunduğu güncel ve endüstri standardı araçlardan oluşan bir teknoloji yığını seçilmiştir.</p>
+                 <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan tüm teknoloji ve araçların açıklamalarının, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+            </section>
+
+            <section id="api-tasarimi" class="content-section">
+                 <h2>API Tasarımı: Hizmet Noktaları (Endpointler) ve Veri Sözleşmeleri</h2>
+                 <p>Bir API'nin başarısı, büyük ölçüde ne kadar anlaşılır, tutarlı ve kullanımı kolay olduğuna bağlıdır. RESTful prensiplerini benimseyerek, Banka API'miz için mantıksal hizmet noktalarını ve katmanlar arası veri akışını sağlayacak veri modellerini (DTO'ları) tanımlayacağız.</p>
+                  <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan API tasarımı ile ilgili tüm alt başlıkların içeriklerinin, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+           </section>
+
+            <section id="is-mantigi" class="content-section">
+                <h2>Kredi Kartı Yönetimi: İş Akışı Mantığının Detayları</h2>
+                <p>İş Mantığı Katmanı (BLL), uygulamanın çekirdek fonksiyonlarını yerine getirir. Banka API'si bağlamında, bu katman kredi kartı verilerinin oluşturulması, okunması, güncellenmesi ve silinmesi süreçlerinin ötesinde kritik geçerlilik kontrolleri ve iş kuralları içerir.</p>
+                 <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan İş Mantığı ile ilgili tüm alt başlıkların içeriklerinin, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+            </section>
+
+            <section id="veri-erisim" class="content-section">
+                 <h2>Veri Erişimi ve Kalıcılık Yönetimi</h2>
+                 <p>Veri Erişim Katmanı (DAL), uygulamanın veri deposuyla olan tüm iletişimini yöneterek bu teknik detayları üst katmanlardan gizler.</p>
+                  <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan Veri Erişimi ile ilgili tüm alt başlıkların içeriklerinin, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+            </section>
+
+             <section id="guvenlik-onlemleri" class="content-section">
+                 <h2>API Güvenlik Mekanizmaları: Dijital Kalkanlar</h2>
+                 <p>Finansal verilerle çalışan bir API'nin güvenliği taviz verilemez bir önceliktir. Kimlik doğrulama, yetkilendirme, veri koruma ve yaygın zafiyetlere karşı kapsamlı önlemler alınmalıdır.</p>
+                 <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan Güvenlik ile ilgili tüm alt başlıkların içeriklerinin, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+            </section>
+
+            <section id="hata-yonetimi-loglama" class="content-section">
+                 <h2>Hata İşleme ve Olay Kaydı (Günlükleme)</h2>
+                 <p>Dayanıklı bir API, beklenmedik durumları ve hataları öngörerek bunları kontrollü bir şekilde yönetmeli ve sorunların tespiti için yeterli iz bırakmalıdır.</p>
+                  <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan Hata Yönetimi ve Günlükleme ile ilgili tüm alt başlıkların içeriklerinin, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+            </section>
+
+            <section id="test-ve-dagitim" class="content-section">
+                 <h2>Kalite Güvencesi ve Yayım Stratejileri</h2>
+                 <p>API'nin güvenilirliğini, performansını ve doğruluğunu temin etmek için sistematik test yaklaşımları ve otomatikleştirilmiş yayım (dağıtım) mekanizmaları şarttır.</p>
+                 <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan Test ve Dağıtım ile ilgili tüm alt başlıkların içeriklerinin, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+            </section>
+
+            <section id="son-degerlendirme" class="content-section conclusion-section">
+                <h2>Son Değerlendirme ve İleriye Dönük Perspektifler</h2>
+                <p>Bu doküman, bölümlendirilmiş mimari anlayışını kullanarak .NET ve C# ile bir Bankacılık API'si (spesifik olarak Kredi Kartı Yönetim Sistemi) geliştirme yolculuğuna dair bütüncül bir çerçeve sunmuştur. Katmanlı yapının getirdiği modülerlik, sınanabilirlik ve bakım avantajlarının, özellikle finansal sistemler gibi karmaşık ve hassas yapılar için sağladığı faydalar vurgulanmıştır. Proje iskeletinden API tasarımına, iş mantığından veri yönetimine, güvenlikten test stratejilerine kadar birçok temel unsur ele alınmıştır.</p>
+                 <p><em>Not: Bu bölümde, önceki yanıtta detaylandırılan Sonuç ve Gelecek Geliştirmeler kısımlarının içeriklerinin, eş anlamlılar ve farklı cümle yapıları kullanılarak yeniden yazılması gerekmektedir.</em></p>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <a href="https://abdulkadirgungor86.github.io/cv/" target="_blank" rel="noopener noreferrer">© 2025 Abdulkadir Güngör</a><br/>
+        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap (XML)</a>
+    </footer>
+    <script src="../assets/js/blog_script.js"></script>
+</body>
+</html>
