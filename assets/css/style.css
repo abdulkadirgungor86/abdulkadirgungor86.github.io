@@ -29,6 +29,7 @@ html {
 
 body {
     font-family: var(--font-family-base);
+    border: 1px solid black;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--body-bg);
