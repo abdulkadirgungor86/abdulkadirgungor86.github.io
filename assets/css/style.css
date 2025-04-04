@@ -9,7 +9,7 @@
     --dark-color: #343A40;
     --text-color: #212529;
     --body-bg: #FFFFFF;
-    --font-family-base: 'Poppins', sans-serif;
+    --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     --navbar-height: 70px;
     --section-padding: 60px 0;
 }
