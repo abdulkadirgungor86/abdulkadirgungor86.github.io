@@ -217,20 +217,22 @@ ul {
 }
 
 .hero-content {
-    border: 5px solid red;
     position: relative;
     z-index: 2;
     max-width: 800px;
 }
 
 .hero h1 {
+    border: 5px solid red;
     font-size: 3rem;
     margin-bottom: 1rem;
     color: #fff;
     font-weight: 700;
+    
 }
 
 .hero p {
+    border: 5px solid red;
     font-size: 1.1rem;
     margin-bottom: 0;
     font-weight: 300;
