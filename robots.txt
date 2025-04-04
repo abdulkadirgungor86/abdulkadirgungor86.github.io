@@ -1,0 +1,6 @@
+# Tüm arama motoru botlarına izin ver
+User-agent: *
+Allow: /
+
+# Site haritasının konumunu belirt
+Sitemap: https://abdulkadirgungor86.github.io/sitemap.xml

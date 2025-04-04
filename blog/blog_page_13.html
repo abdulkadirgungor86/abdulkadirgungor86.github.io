@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapsamlı OOP Rehberi: Nesne Yönelimli Programlamanın Temel Kavramları</title>
+    <meta name="description" content="Nesne Yönelimli Programlama (OOP) temel kavramlarını öğrenmek için kapsamlı bir rehber. Sınıflar, nesneler, kapsülleme, kalıtım, çok biçimlilik ve soyutlama prensipleri detaylı örneklerle (C#, Python, Java) açıklanmaktadır. OOP'nin faydaları ve modern yazılımdaki yeri ele alınmıştır. Abdulkadir Güngör tarafından hazırlanmıştır.">
+    <meta name="keywords" content="OOP, Nesne Yönelimli Programlama, Object Oriented Programming, Sınıf, Class, Nesne, Object, Kapsülleme, Encapsulation, Kalıtım, Inheritance, Çok Biçimlilik, Polymorphism, Soyutlama, Abstraction, OOP İlkeleri, OOP Kavramları, C# OOP, Python OOP, Java OOP, Yazılım Tasarımı, Programlama Paradigmaları, Abdulkadir Güngör, OOP Tutorial Türkçe">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="canonical" href="https://abdulkadirgungor86.github.io/blog/blog_page_13.html" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    <link rel="stylesheet" href="../assets/css/blog_style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">OOP Temel Kavramları</div>
+            <button class="menu-toggle" aria-label="Menüyü Aç/Kapat">☰</button>
+            <ul class="nav-menu">
+                <li><a href="#giris">Giriş</a></li>
+                <li><a href="#sinif-nesne">Sınıf/Nesne</a></li>
+                <li><a href="#kapsulleme">Kapsülleme</a></li>
+                <li><a href="#kalitim">Kalıtım</a></li>
+                <li><a href="#cokbicimlilik">Çok Biçimlilik</a></li>
+                <li><a href="#soyutlama">Soyutlama</a></li>
+                <li><a href="#sonuc">Sonuç</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <article id="giris" class="content-section intro-section">
+                <h1>Nesne Yönelimli Programlama (OOP): Modern Yazılımın Temeli</h1>
+                <p>
+                    Yazılım geliştirme dünyası, karmaşık problemleri çözmek ve büyük ölçekli sistemleri yönetmek için sürekli olarak yeni yaklaşımlar ve paradigmalar üretmiştir. Bu paradigmalar arasında, modern yazılım mühendisliğinin temel taşlarından biri haline gelen Nesne Yönelimli Programlama (Object-Oriented Programming - OOP), kodun organize edilmesi, yeniden kullanılması ve bakımının yapılması konusunda devrim niteliğinde bir yaklaşım sunmuştur. Prosedürel programlamanın (işlemlerin sıralı olarak yapıldığı yaklaşım) aksine OOP, dünyayı birbirleriyle etkileşim halinde olan "nesneler" olarak modeller. Her nesne, kendi verilerini (nitelikler) ve bu veriler üzerinde işlem yapabilen davranışları (metotlar) içerir.
+                </p>
+                <p>
+                    OOP'nin temel amacı, gerçek dünyadaki varlıkları ve kavramları yazılım içinde daha doğal ve sezgisel bir şekilde temsil etmektir. Bir araba, bir müşteri, bir banka hesabı veya bir geometrik şekil gibi soyut veya somut herhangi bir şey bir nesne olarak modellenebilir. Bu yaklaşım, karmaşık sistemleri daha küçük, yönetilebilir ve bağımsız parçalara (nesnelere) ayırmayı kolaylaştırır. Bu modülerlik, kodun anlaşılabilirliğini artırır, hata ayıklamayı kolaylaştırır ve takım çalışmasını daha verimli hale getirir.
+                </p>
+                 <p>
+                    OOP'nin gücü, dört temel prensip üzerine kuruludur: Kapsülleme (Encapsulation), Kalıtım (Inheritance), Çok Biçimlilik (Polymorphism) ve Soyutlama (Abstraction). Bu prensipler, kodun esnekliğini, genişletilebilirliğini ve yeniden kullanılabilirliğini en üst düzeye çıkarmayı hedefler. Kapsülleme ile nesnenin iç detayları gizlenirken, kalıtım ile mevcut kodun üzerine yeni özellikler eklenir. Çok biçimlilik, farklı nesnelerin aynı mesaja farklı şekillerde yanıt vermesini sağlarken, soyutlama karmaşıklığı azaltarak sadece gerekli arayüzleri sunar. C++, Java, C#, Python, Ruby, Smalltalk gibi birçok popüler programlama dili OOP prensiplerini destekler veya temel alır. Bu rehber, OOP'nin bu temel kavramlarını detaylı bir şekilde inceleyerek, nesne yönelimli düşünce yapısını anlamanıza ve modern yazılım geliştirme pratiğinde nasıl uygulandığını görmenize yardımcı olacaktır.
+                </p>
+            </article>
+
+            <section id="sinif-nesne" class="content-section">
+                <h2>Sınıflar ve Nesneler: OOP'nin Yapı Taşları</h2>
+                <p>
+                    Nesne Yönelimli Programlama'nın merkezinde sınıf (class) ve nesne (object) kavramları yer alır. Bu iki kavram, OOP paradigmasının temelini oluşturur ve diğer tüm prensipler bu temel üzerine inşa edilir.
+                </p>
+
+                <details class="question-block">
+                    <summary><h3>Sınıf (Class) Nedir?</h3></summary>
+                    <p>
+                        Bir sınıf, belirli bir türdeki nesnelerin ortak özelliklerini (nitelikler - attributes) ve davranışlarını (metotlar - methods) tanımlayan bir plan, şablon veya kalıptır. Soyut bir kavramdır ve kendi başına bellekte yer kaplamaz. Tıpkı bir araba tasarımı veya bir ev planı gibi düşünülebilir; gerçek arabayı veya evi değil, onların nasıl olacağını tanımlar.
+                    </p>
+                    <p>Sınıf tanımı şunları içerir:</p>
+                    <ul>
+                        <li><strong>Sınıf Adı:</strong> Sınıfı tanımlayan isim (genellikle büyük harfle başlar ve CamelCase kullanılır).</li>
+                        <li><strong>Nitelikler (Attributes/Fields/Properties):</strong> Sınıftan türetilecek nesnelerin sahip olacağı veriler veya özelliklerdir. Örneğin, bir <code>Araba</code> sınıfı için <code>renk</code>, <code>model</code>, <code>hiz</code> gibi nitelikler tanımlanabilir.</li>
+                        <li><strong>Metotlar (Methods/Behaviors):</strong> Sınıftan türetilecek nesnelerin gerçekleştirebileceği eylemler veya davranışlardır. Nitelikler üzerinde işlem yapabilirler. Örneğin, bir <code>Araba</code> sınıfı için <code>hizlan()</code>, <code>yavasla()</code>, <code>bilgiGoster()</code> gibi metotlar tanımlanabilir.</li>
+                        <li><strong>Yapıcı Metot (Constructor):</strong> Sınıftan yeni bir nesne oluşturulduğunda otomatik olarak çağrılan özel bir metottur. Genellikle nesnenin başlangıç niteliklerini ayarlamak için kullanılır.</li>
+                    </ul>
+                     <p>Örnek (Python):</p>
+                     <pre><code class="language-python">
+class Kopek:
+    # Yapıcı Metot (__init__)
+    def __init__(self, isim, cins):
+        # Nitelikler (instance attributes)
+        self.ad = isim
+        self.cins = cins
+        self.enerji = 100 # Başlangıç enerjisi
+        print(f"{self.ad} ({self.cins}) dünyaya geldi!")
+
+    # Metotlar (instance methods)
+    def havla(self):
+        if self.enerji &gt; 10:
+            print(f"{self.ad}: Hav hav!")
+            self.enerji -= 10
+        else:
+            print(f"{self.ad} havlamak için çok yorgun.")
+
+    def kos(self, mesafe):
+        tukenen_enerji = mesafe * 5
+        if self.enerji &gt;= tukenen_enerji:
+            print(f"{self.ad} {mesafe} metre koştu.")
+            self.enerji -= tukenen_enerji
+        else:
+            print(f"{self.ad} koşmak için yeterli enerjisi yok.")
+
+    def dinlen(self):
+        print(f"{self.ad} dinleniyor...")
+        self.enerji = 100 # Enerjiyi doldur
+                     </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Nesne (Object / Instance) Nedir?</h3></summary>
+                    <p>
+                        Bir nesne, bir sınıfın bellekte oluşturulmuş somut bir örneğidir. Sınıf, planı temsil ederken, nesne o plana göre inşa edilmiş gerçek varlıktır. Her nesne, sınıf tanımında belirtilen niteliklerin kendi kopyalarına ve metotlara erişime sahiptir. Aynı sınıftan birden fazla nesne oluşturulabilir ve her nesnenin nitelikleri birbirinden bağımsız değerlere sahip olabilir.
+                    </p>
+                    <p>Nesneler genellikle <code>new</code> anahtar kelimesi (C#, Java gibi dillerde) veya sınıf adını fonksiyon gibi çağırarak (Python'da) oluşturulur. Bu işlem "örnekleme" (instantiation) olarak adlandırılır ve sınıfın yapıcı metodunu (constructor) çağırır.</p>
+                    <p>Örnek (Python - önceki <code>Kopek</code> sınıfını kullanarak):</p>
+                    <pre><code class="language-python">
+# Kopek sınıfından nesneler oluşturma
+kopek1 = Kopek("Karabaş", "Sivas Kangalı") # __init__ çağrılır
+kopek2 = Kopek("Fındık", "Terrier")     # __init__ çağrılır
+
+# Nesnelerin nitelikleri farklı olabilir
+print(f"{kopek1.ad}'ın cinsi: {kopek1.cins}") # Sivas Kangalı
+print(f"{kopek2.ad}'ın cinsi: {kopek2.cins}") # Terrier
+
+# Nesneler üzerinden metotları çağırma
+kopek1.havla()
+kopek2.kos(15)
+kopek1.dinlen()
+kopek2.havla()
+
+print(f"{kopek1.ad} Enerji: {kopek1.enerji}") # 100 (dinlendi)
+print(f"{kopek2.ad} Enerji: {kopek2.enerji}") # 100 - 15*5 = 25
+                    </code></pre>
+                     <p>Örnek (C#):</p>
+                     <pre><code class="language-csharp">
+public class Kopek
+{
+    public string Ad { get; set; }
+    public string Cins { get; set; }
+    public int Enerji { get; private set; } // Dışarıdan sadece okunabilir
+
+    public Kopek(string isim, string cins) // Constructor
+    {
+        this.Ad = isim;
+        this.Cins = cins;
+        this.Enerji = 100;
+        Console.WriteLine($"{this.Ad} ({this.Cins}) dünyaya geldi!");
+    }
+
+    public void Havla() { /* ... */ }
+    public void Kos(int mesafe) { /* ... */ }
+    public void Dinlen() { this.Enerji = 100; /* ... */ }
+}
+
+// Nesne Oluşturma
+Kopek kopek1 = new Kopek("Karabaş", "Sivas Kangalı");
+Kopek kopek2 = new Kopek("Fındık", "Terrier");
+
+kopek1.Havla();
+Console.WriteLine($"{kopek2.Ad} Enerji: {kopek2.Enerji}");
+                    </code></pre>
+                    <p>Sınıf ve nesne kavramları, veriyi ve o veri üzerinde çalışan fonksiyonları mantıksal birimler halinde bir araya getirerek OOP'nin temelini oluşturur.</p>
+                </details>
+
+                 <details class="question-block">
+                    <summary><h3>`this` ve `self` Anahtar Kelimeleri</h3></summary>
+                    <p>OOP dillerinde, bir sınıfın metotları içinde, o an üzerinde işlem yapılan nesnenin kendisine referans vermek için özel bir anahtar kelime kullanılır.</p>
+                    <ul>
+                        <li><strong>Python'da `self`:</strong> Sınıf içindeki metotların **ilk parametresi** olarak açıkça yazılır (geleneksel olarak `self` adı verilir). Python, metot çağrıldığında bu ilk parametreye otomatik olarak nesne referansını atar. Nesnenin niteliklerine (<code>self.nitelik_adi</code>) ve diğer metotlarına (<code>self.metot_adi()</code>) erişmek için kullanılır.</li>
+                        <li><strong>C#, Java, JavaScript'te `this`:</strong> Metot içinde **örtük (implicit)** olarak bulunur, parametre olarak yazılmaz. Nesnenin kendi üyelerine (alanlar, özellikler, metotlar) erişmek için kullanılır (<code>this.nitelikAdi</code>, <code>this.metotAdi()</code>). Bazen isim çakışmalarını çözmek (parametre adı ile nitelik adı aynıysa) veya bir yapıcı metottan başka bir yapıcı metodu çağırmak için açıkça kullanılması gerekebilir.</li>
+                    </ul>
+                    <p>Her iki anahtar kelime de temelde aynı amaca hizmet eder: Metotun hangi nesne üzerinde çalıştığını belirtmek ve o nesnenin üyelerine erişimi sağlamak.</p>
+                     <pre><code class="language-python">
+# Python örneği (yukarıdaki Kopek sınıfından)
+class Kopek:
+    def __init__(self, isim, cins):
+        self.ad = isim # 'self' ile nesnenin 'ad' niteliğine erişiliyor
+        self.cins = cins
+
+    def bilgi_ver(self):
+        # 'self' ile aynı nesnenin 'ad' ve 'cins' niteliklerine erişiliyor
+        print(f"Benim adım {self.ad}, cinsim {self.cins}.")
+                     </code></pre>
+                      <pre><code class="language-csharp">
+// C# örneği
+public class Kopek
+{
+    public string Ad { get; set; }
+    public string Cins { get; set; }
+
+    public Kopek(string Ad, string Cins) // Parametre isimleri özellik isimleri ile aynı
+    {
+        // 'this' kullanarak sınıf üyesi olan Ad/Cins ile parametre olan Ad/Cins'i ayır
+        this.Ad = Ad;
+        this.Cins = Cins;
+    }
+
+    public void BilgiVer()
+    {
+        // 'this' burada zorunlu değil ama kullanılabilir
+        Console.WriteLine($"Benim adım {this.Ad}, cinsim {this.Cins}.");
+    }
+}
+                     </code></pre>
+                 </details>
+            </section>
+
+            <section id="kapsulleme" class="content-section">
+                <h2>Kapsülleme (Encapsulation): Veri Gizleme ve Koruma</h2>
+                <p>
+                    Kapsülleme, OOP'nin temel ilkelerinden biridir ve bir nesnenin verilerini (nitelikler) ve bu veriler üzerinde işlem yapan metotları tek bir birim (sınıf) içinde birleştirme ve nesnenin iç durumunu dış dünyadan gizleme anlamına gelir. Amaç, nesnenin iç yapısının karmaşıklığını yönetmek, veri bütünlüğünü korumak ve kodun modülerliğini artırmaktır.
+                </p>
+
+                <details class="question-block">
+                    <summary><h3>Veri Gizleme (Data Hiding)</h3></summary>
+                    <p>
+                        Kapsüllemenin önemli bir yönü veri gizlemedir. Bu, bir nesnenin niteliklerine (alanlarına) dışarıdan doğrudan erişimi kısıtlamak anlamına gelir. Neden önemlidir?
+                    </p>
+                    <ul>
+                        <li><strong>Veri Bütünlüğü:</strong> Niteliklere doğrudan erişim, geçersiz veya anlamsız değerlerin atanmasına yol açabilir. Örneğin, bir `yas` niteliğine negatif bir değer atanması veya bir `email` niteliğine geçersiz formatta bir string atanması engellenebilir.</li>
+                        <li><strong>Esneklik ve Bakım Kolaylığı:</strong> Nesnenin iç veri yapısı veya implementasyon detayları değiştirildiğinde (refactoring), bu değişikliğin nesneyi kullanan dış kodu etkileme olasılığı azalır. Dış kod, nesnenin public arayüzüne (metotlar, özellikler) bağımlı kalır.</li>
+                        <li><strong>Karmaşıklığın Azaltılması:</strong> Nesneyi kullanan geliştiricinin, nesnenin iç işleyişinin tüm detaylarını bilmesi gerekmez. Sadece public arayüzü kullanarak nesneyle etkileşim kurabilir.</li>
+                    </ul>
+                    <p>Veri gizleme, erişim belirleyiciler (access modifiers) veya isimlendirme kuralları (Python'da olduğu gibi) ile sağlanır.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Erişim Belirleyiciler (Access Modifiers)</h3></summary>
+                    <p>
+                        C#, Java gibi dillerde, sınıf üyelerinin (alanlar, özellikler, metotlar, sınıflar) nereden erişilebileceğini kontrol etmek için erişim belirleyici anahtar kelimeler kullanılır:
+                    </p>
+                    <ul>
+                        <li><strong><code>public</code>:</strong> Üyeye her yerden (aynı sınıf, alt sınıflar, farklı paketler/assembly'ler) erişilebilir. En az kısıtlayıcı seviyedir.</li>
+                        <li><strong><code>private</code>:</strong> Üyeye sadece tanımlandığı sınıfın içinden erişilebilir. Alt sınıflardan veya dışarıdan erişilemez. En kısıtlayıcı seviyedir ve veri gizleme için varsayılan tercihtir.</li>
+                        <li><strong><code>protected</code>:</strong> Üyeye tanımlandığı sınıfın içinden ve o sınıftan türetilmiş alt sınıflardan erişilebilir. Dışarıdan erişilemez. Kalıtım hiyerarşisi içinde paylaşım için kullanılır.</li>
+                        <li><strong><code>internal</code> (C#):</strong> Üyeye sadece tanımlandığı aynı assembly (proje veya kütüphane) içinden erişilebilir. Farklı assembly'lerden erişilemez.</li>
+                        <li><strong><code>protected internal</code> (C#):</strong> Hem <code>protected</code> hem de <code>internal</code> erişimine izin verir (aynı assembly içinden veya farklı assembly'deki alt sınıflardan).</li>
+                        <li><strong>Python'da Durum:</strong> Python'da C# veya Java'daki gibi katı erişim belirleyiciler yoktur. Erişimi kontrol etmek için isimlendirme kuralları kullanılır:
+                            <ul>
+                                <li><strong>Normal İsim (<code>nitelik</code>):</strong> Public kabul edilir.</li>
+                                <li><strong>Tek Alt Çizgi (<code>_nitelik</code>):</strong> "Internal use only" veya "protected" anlamına gelen bir konvansiyondur. Geliştiriciye bu üyeye dışarıdan doğrudan erişmemesi gerektiğini belirtir, ancak Python bunu teknik olarak engellemez.</li>
+                                <li><strong>Çift Alt Çizgi (<code>__nitelik</code>):</strong> "Private" anlamına gelir. Python, isim mangling (<code>_SinifAdi__nitelik</code>) uygulayarak dışarıdan ve alt sınıflardan doğrudan erişimi zorlaştırır, ancak tamamen engellemez.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                     <p>Örnek (C#):</p>
+                     <pre><code class="language-csharp">
+public class BankaHesabi
+{
+    private string hesapSahibi; // Sadece sınıf içinden erişilebilir
+    private decimal bakiye;    // Sadece sınıf içinden erişilebilir
+    public string HesapNo { get; private set; } // Dışarıdan okunabilir, sadece içeriden atanabilir
+
+    public BankaHesabi(string sahip, string hesapNo, decimal ilkBakiye = 0)
+    {
+        this.hesapSahibi = sahip;
+        this.HesapNo = hesapNo; // Public property'ye atama
+        if (ilkBakiye >= 0)
+        {
+            this.bakiye = ilkBakiye;
+        } else {
+            this.bakiye = 0;
+        }
+    }
+
+    public decimal BakiyeSorgula() // Public metot
+    {
+        // 'bakiye' private alana erişim
+        return this.bakiye;
+    }
+
+    public bool ParaYatir(decimal miktar) // Public metot
+    {
+        if (miktar &lt;= 0) return false;
+        this.bakiye += miktar; // private alanı değiştirme
+        return true;
+    }
+
+    public bool ParaCek(decimal miktar) // Public metot
+    {
+        if (miktar &lt;= 0 || miktar > this.bakiye) return false;
+        this.bakiye -= miktar; // private alanı değiştirme
+        return true;
+    }
+
+    // Bu metoda dışarıdan erişilemez
+    private void Logla(string mesaj)
+    {
+        Console.WriteLine($"LOG [{DateTime.Now}]: {mesaj}");
+    }
+}
+
+// Kullanım:
+BankaHesabi hesap = new BankaHesabi("Ali Veli", "12345", 500m);
+// hesap.bakiye = 1000000; // Hata! 'bakiye' private olduğu için erişilemez.
+// hesap.hesapSahibi = "Başka Biri"; // Hata! 'hesapSahibi' private.
+// hesap.HesapNo = "9876"; // Hata! set'i private.
+
+Console.WriteLine($"Hesap No: {hesap.HesapNo}"); // Okunabilir
+decimal mevcutBakiye = hesap.BakiyeSorgula(); // Public metotla erişim
+Console.WriteLine($"Mevcut Bakiye: {mevcutBakiye:C}");
+hesap.ParaYatir(200m);
+hesap.ParaCek(150m);
+Console.WriteLine($"Yeni Bakiye: {hesap.BakiyeSorgula():C}");
+                     </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Getter ve Setter Metotları / Özellikler (Properties)</h3></summary>
+                    <p>
+                        Private alanlara kontrollü erişim sağlamak için public metotlar veya özellikler kullanılır:
+                    </p>
+                    <ul>
+                        <li><strong>Getter Metotları:</strong> Private bir alanın değerini okuyup döndüren public metotlardır (örn: <code>GetBakiye()</code>).</li>
+                        <li><strong>Setter Metotları:</strong> Private bir alana değer atayan public metotlardır. Bu metotlar içinde genellikle gelen değerin geçerliliği kontrol edilir (örn: <code>SetYas(int yeniYas)</code>).</li>
+                        <li><strong>Özellikler (Properties - C#, Python):</strong> Getter ve setter metotlarının daha zarif ve okunabilir bir şekilde uygulanmasını sağlayan dil özellikleridir. Dışarıdan normal bir alana erişir gibi görünürler (<code>nesne.OzellikAdi</code>) ancak arka planda getter (değer okunduğunda) ve setter (değer atandığında) metotları çalışır.
+                            <ul>
+                                <li><strong>C#'ta Properties:</strong> <code>get</code> ve <code>set</code> blokları ile tanımlanır. Erişim belirleyicileri (<code>private set</code> gibi) ile kontrol daha da artırılabilir. Otomatik uygulanan özellikler (<code>public string Ad { get; set; }</code>) arka planda private bir alan ve basit getter/setter oluşturur.</li>
+                                <li><strong>Python'da Properties:</strong> <code>@property</code>, <code>@*.setter</code>, <code>@*.deleter</code> decorator'ları ile tanımlanır.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                     <p>Özellikler, kapsülleme ilkesini uygularken kodun daha temiz ve doğal görünmesini sağlar.</p>
+                     <p>Yukarıdaki C# <code>BankaHesabi</code> örneğinde <code>HesapNo</code> ve Python <code>Calisan</code> örneğinde <code>maas</code> ve <code>departman</code> özellikleri (property) kullanılarak kapsülleme sağlanmıştır.</p>
+                </details>
+            </section>
+
+            <section id="kalitim" class="content-section">
+                <h2>Kalıtım (Inheritance): Kodu Yeniden Kullanma ve Hiyerarşi Oluşturma</h2>
+                <p>
+                    Kalıtım, bir sınıfın başka bir sınıfın özelliklerini ve davranışlarını miras alarak kendi üzerine yeni özellikler veya davranışlar eklemesine olanak tanıyan temel bir OOP prensibidir. "Bir ...dır" (is-a) ilişkisini temsil eder ve kod tekrarını azaltarak yazılımın daha organize ve genişletilebilir olmasını sağlar.
+                </p>
+
+                 <details class="question-block">
+                    <summary><h3>Temel Kavramlar: Üst Sınıf ve Alt Sınıf</h3></summary>
+                    <ul>
+                        <li><strong>Üst Sınıf (Superclass / Base Class / Parent Class):</strong> Özellikleri ve davranışları miras alınan sınıftır. Daha genel bir kavramı temsil eder.</li>
+                        <li><strong>Alt Sınıf (Subclass / Derived Class / Child Class):</strong> Üst sınıftan miras alan sınıftır. Üst sınıfın özelliklerini devralır ve kendi özel özelliklerini veya davranışlarını ekleyebilir veya miras aldığı bazı davranışları değiştirebilir (override). Daha özel bir kavramı temsil eder.</li>
+                    </ul>
+                    <p>Örneğin:</p>
+                    <ul>
+                        <li><code>Hayvan</code> (Üst Sınıf) -> <code>Kedi</code> (Alt Sınıf), <code>Kopek</code> (Alt Sınıf)</li>
+                        <li><code>Tasit</code> (Üst Sınıf) -> <code>Araba</code> (Alt Sınıf), <code>Motosiklet</code> (Alt Sınıf)</li>
+                        <li><code>Sekil</code> (Üst Sınıf) -> <code>Daire</code> (Alt Sınıf), <code>Kare</code> (Alt Sınıf)</li>
+                    </ul>
+                    <p>Alt sınıf, üst sınıfın bir türüdür ("Kedi bir Hayvan'dır"). Bu sayede, üst sınıf türünden bir değişken, alt sınıf türünden bir nesneyi referans edebilir (bu, çok biçimliliğin temelidir).</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Kalıtımın Uygulanması (`extends`, `:` , `super()`, `base()`)</h3></summary>
+                     <p>Farklı dillerde kalıtım farklı anahtar kelimelerle ifade edilir:</p>
+                     <ul>
+                         <li><strong>Java, JavaScript (ES6 Classes):</strong> <code>class AltSinif extends UstSinif { ... }</code></li>
+                         <li><strong>C#:</strong> <code>class AltSinif : UstSinif { ... }</code></li>
+                         <li><strong>Python:</strong> <code>class AltSinif(UstSinif): ...</code></li>
+                     </ul>
+                     <p>Alt sınıfın yapıcı metodunda (constructor), genellikle üst sınıfın yapıcı metodunu çağırarak miras alınan özelliklerin başlatılması gerekir:</p>
+                     <ul>
+                         <li><strong>Java, JavaScript:</strong> <code>super(ust_sinif_argumanlari);</code></li>
+                         <li><strong>C#:</strong> <code>public AltSinif(...) : base(ust_sinif_argumanlari) { ... }</code></li>
+                         <li><strong>Python:</strong> <code>super().__init__(ust_sinif_argumanlari)</code> veya <code>UstSinif.__init__(self, ust_sinif_argumanlari)</code></li>
+                     </ul>
+                      <p>Örnek (Python):</p>
+                      <pre><code class="language-python">
+class Calisan:
+    def __init__(self, ad, maas):
+        self.ad = ad
+        self.maas = maas
+        print(f"Çalışan {self.ad} oluşturuldu.")
+
+    def bilgileri_goster(self):
+        print(f"Ad: {self.ad}, Maaş: {self.maas}")
+
+class Yonetici(Calisan): # Calisan'dan miras al
+    def __init__(self, ad, maas, departman):
+        super().__init__(ad, maas) # Üst sınıfın __init__'ini çağır
+        self.departman = departman # Yeni özellik ekle
+        print(f"Yönetici {self.ad} oluşturuldu.")
+
+    # Miras alınan metodu override etme
+    def bilgileri_goster(self):
+        super().bilgileri_goster() # Üst sınıfın metodunu çağır
+        print(f"Departman: {self.departman}") # Ek bilgi yazdır
+
+    # Yeni metot
+    def toplanti_yap(self):
+        print(f"{self.ad} ({self.departman}) toplantı yapıyor.")
+
+calisan1 = Calisan("Ali", 5000)
+yonetici1 = Yonetici("Ayşe", 8000, "İK")
+
+calisan1.bilgileri_goster()
+print("-" * 10)
+yonetici1.bilgileri_goster() # Override edilmiş metot çalışır
+yonetici1.toplanti_yap()   # Sadece Yonetici'ye özgü metot
+# calisan1.toplanti_yap() # Hata! Calisan sınıfında bu metot yok
+                      </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Metot Geçersiz Kılma (Method Overriding)</h3></summary>
+                     <p>Bir alt sınıfın, üst sınıftan miras aldığı bir metodun implementasyonunu kendi ihtiyacına göre değiştirmesidir. Alt sınıfta, üst sınıftaki metotla aynı isimde, aynı parametre listesine (ve genellikle aynı dönüş tipine) sahip yeni bir metot tanımlanır.</p>
+                     <ul>
+                         <li><strong>C#'ta:</strong> Üst sınıftaki metodun <code>virtual</code> veya <code>abstract</code> olarak işaretlenmesi, alt sınıftaki metodun ise <code>override</code> anahtar kelimesi ile işaretlenmesi gerekir.</li>
+                         <li><strong>Java'da:</strong> Alt sınıftaki metot aynı imzaya sahipse otomatik olarak override eder. <code>@Override</code> anotasyonu kullanmak, derleyiciye niyetinizi belirtmek ve hataları önlemek için iyi bir pratiktir.</li>
+                         <li><strong>Python'da:</strong> Özel bir anahtar kelime gerekmez. Alt sınıfta aynı isimde bir metot tanımlamak yeterlidir.</li>
+                     </ul>
+                     <p>Override etme, çok biçimliliğin (polymorphism) temelini oluşturur. Üst sınıf türünden bir referans, alt sınıf nesnesini tuttuğunda ve override edilmiş bir metot çağrıldığında, alt sınıftaki metot çalıştırılır.</p>
+                     <p>Yukarıdaki Python <code>Yonetici</code> sınıfı örneğinde <code>bilgileri_goster</code> metodu override edilmiştir.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Kalıtımın Avantajları ve Dezavantajları</h3></summary>
+                     <p><strong>Avantajları:</strong></p>
+                     <ul>
+                         <li><strong>Kod Yeniden Kullanımı:</strong> Ortak özellikler ve davranışlar üst sınıfta bir kez tanımlanır ve alt sınıflar tarafından tekrar kullanılır.</li>
+                         <li><strong>Genişletilebilirlik:</strong> Mevcut bir sınıfı değiştirmeden yeni alt sınıflar oluşturarak sisteme yeni işlevsellikler eklenebilir (Açık/Kapalı Prensibi'ne yardımcı olur).</li>
+                         <li><strong>Hiyerarşik Yapı:</strong> Gerçek dünyadaki ilişkileri modelleyerek kodun daha organize ve anlaşılır olmasını sağlar.</li>
+                         <li><strong>Çok Biçimlilik Desteği:</strong> Farklı alt sınıfların aynı metot çağrısına farklı şekillerde yanıt vermesini sağlar.</li>
+                     </ul>
+                     <p><strong>Dezavantajları ve Dikkat Edilmesi Gerekenler:</strong></p>
+                     <ul>
+                         <li><strong>Sıkı Bağlılık (Tight Coupling):</strong> Alt sınıf, üst sınıfın implementasyon detaylarına (özellikle protected üyelere) bağımlı hale gelebilir. Üst sınıfta yapılan bir değişiklik, tüm alt sınıfları etkileyebilir ("Fragile Base Class" problemi).</li>
+                         <li><strong>Yanlış Kullanım:</strong> Kalıtım sadece "is-a" ilişkisi mantıklı olduğunda kullanılmalıdır. "Has-a" (sahip olma) ilişkisi için kalıtım yerine Kompozisyon (Composition) veya Agregasyon (Aggregation) tercih edilmelidir.</li>
+                         <li><strong>Çoklu Kalıtım Sorunları:</strong> Bazı dillerde (C++, Python) desteklenen çoklu kalıtım (bir sınıfın birden fazla sınıftan miras alması), "Diamond Problem" gibi karmaşıklıklara yol açabilir. C# ve Java gibi diller bu nedenle doğrudan çoklu sınıf kalıtımına izin vermez (ancak çoklu arayüz implementasyonuna izin verir).</li>
+                     </ul>
+                     <p>Kalıtım güçlü bir araçtır ancak dikkatli kullanılmalıdır. Alternatif olarak Kompozisyon (nesneleri başka nesnelerin içinde kullanma) genellikle daha esnek ve daha az kırılgan tasarımlar sunar ("Favor Composition Over Inheritance" prensibi).</p>
+                 </details>
+            </section>
+
+            <section id="cokbicimlilik" class="content-section">
+                <h2>Çok Biçimlilik (Polymorphism): Farklı Formlarda Aynı Davranış</h2>
+                <p>
+                    Yunanca "çok biçim" anlamına gelen polimorfizm, OOP'nin en güçlü kavramlarından biridir. Bir nesnenin, metoda veya operatöre, kendi tipine veya sınıfına bağlı olarak farklı şekillerde yanıt verme yeteneğini ifade eder. Bu, kodun daha esnek, genişletilebilir ve yönetilebilir olmasını sağlar. Farklı nesne türlerini tek bir arayüz üzerinden yönetmeye olanak tanır.
+                </p>
+
+                <details class="question-block">
+                    <summary><h3>Çalışma Zamanı Çok Biçimliliği (Runtime Polymorphism / Dynamic Binding / Overriding)</h3></summary>
+                    <p>
+                        En yaygın ve güçlü çok biçimlilik türüdür. Kalıtım hiyerarşisi içinde, bir üst sınıf referans değişkeninin, çalışma zamanında farklı alt sınıf nesnelerini işaret edebilmesi ve çağrılan metodun, referansın türüne değil, **nesnenin gerçek türüne** göre belirlenmesi prensibine dayanır. Bu, metot geçersiz kılma (method overriding) ile sağlanır.
+                    </p>
+                    <p>Özellikleri:</p>
+                    <ul>
+                        <li>Üst sınıfta bir metot <code>virtual</code> (C#) veya normal (Java, Python - override edilebilir olmalı) olarak tanımlanır.</li>
+                        <li>Alt sınıflar bu metodu kendi ihtiyaçlarına göre <code>override</code> ederler.</li>
+                        <li>Üst sınıf türünden bir referans veya koleksiyon (örn: <code>List<Hayvan></code>) farklı alt sınıf nesnelerini (<code>Kedi</code>, <code>Kopek</code>) tutabilir.</li>
+                        <li>Bu referans üzerinden override edilmiş metot çağrıldığında, hangi alt sınıfın metodunun çalışacağı çalışma zamanında belirlenir (geç bağlama - late binding).</li>
+                    </ul>
+                     <p>Örnek (Python):</p>
+                     <pre><code class="language-python">
+class Hayvan:
+    def __init__(self, ad):
+        self.ad = ad
+    def ses_cikar(self): # Override edilecek metot
+        print("Hayvan sesi...")
+
+class Kedi(Hayvan):
+    def ses_cikar(self): # Override etme
+        print(f"{self.ad}: Miyav!")
+
+class Kopek(Hayvan):
+    def ses_cikar(self): # Override etme
+        print(f"{self.ad}: Hav hav!")
+
+# Üst sınıf türünden referanslar farklı alt sınıf nesnelerini tutuyor
+hayvanlar = [
+    Kedi("Tekir"),
+    Kopek("Karabaş"),
+    Hayvan("Genel Hayvan"), # Üst sınıf nesnesi
+    Kedi("Pamuk")
+]
+
+# Tüm hayvanların ses çıkarmasını isteyelim
+print("Hayvan sesleri:")
+for hayvan in hayvanlar:
+    # Hangi ses_cikar metodunun çağrılacağı çalışma zamanında belirlenir
+    hayvan.ses_cikar()
+
+# Çıktı:
+# Hayvan sesleri:
+# Tekir: Miyav!
+# Karabaş: Hav hav!
+# Hayvan sesi...
+# Pamuk: Miyav!
+                     </code></pre>
+                     <p>Örnek (C#):</p>
+                     <pre><code class="language-csharp">
+public class Hayvan
+{
+    public string Ad { get; set; }
+    public virtual void SesCikar() // virtual olmalı
+    {
+        Console.WriteLine("Hayvan sesi...");
+    }
+}
+public class Kedi : Hayvan
+{
+    public override void SesCikar() // override edilmeli
+    {
+        Console.WriteLine($"{Ad}: Miyav!");
+    }
+}
+public class Kopek : Hayvan
+{
+    public override void SesCikar() // override edilmeli
+    {
+         Console.WriteLine($"{Ad}: Hav hav!");
+    }
+}
+
+// Kullanım
+List<Hayvan> hayvanlar = new List<Hayvan>
+{
+    new Kedi { Ad = "Tekir" },
+    new Kopek { Ad = "Karabaş" },
+    new Hayvan { Ad = "Genel" },
+    new Kedi { Ad = "Pamuk" }
+};
+
+Console.WriteLine("Hayvan sesleri:");
+foreach (Hayvan h in hayvanlar)
+{
+    h.SesCikar(); // Çalışma zamanında doğru metot çağrılır
+}
+                     </code></pre>
+                     <p>Çalışma zamanı çok biçimliliği, kodun yeni hayvan türleri eklendiğinde bile ana döngüyü değiştirmeden çalışmasını sağlar (Genişletilebilirlik).</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Derleme Zamanı Çok Biçimliliği (Compile-time Polymorphism / Static Binding / Overloading)</h3></summary>
+                    <p>
+                        Aynı isimde ancak farklı parametre listelerine (parametre sayısı, türü veya sırası farklı) sahip birden fazla metodun aynı sınıf içinde tanımlanmasıdır. Hangi metodun çağrılacağına, fonksiyona geçirilen argümanların türüne ve sayısına göre derleme zamanında karar verilir (erken bağlama - early binding).
+                    </p>
+                    <p>Bu, aynı temel işlemi farklı veri tipleri veya farklı sayıda girdi ile yapabilen metotlar oluşturmayı sağlar.</p>
+                    <p>Örnek (C#):</p>
+                     <pre><code class="language-csharp">
+public class Hesaplayici
+{
+    public int Topla(int a, int b)
+    {
+        Console.WriteLine("İki int toplandı.");
+        return a + b;
+    }
+
+    // Aynı isim, farklı parametre türleri
+    public double Topla(double a, double b)
+    {
+        Console.WriteLine("İki double toplandı.");
+        return a + b;
+    }
+
+    // Aynı isim, farklı parametre sayısı
+     public int Topla(int a, int b, int c)
+    {
+        Console.WriteLine("Üç int toplandı.");
+        return a + b + c;
+    }
+}
+
+// Kullanım
+Hesaplayici calc = new Hesaplayici();
+calc.Topla(5, 3);      // İlk metot çağrılır
+calc.Topla(2.5, 3.7);  // İkinci metot çağrılır
+calc.Topla(1, 2, 3);   // Üçüncü metot çağrılır
+                    </code></pre>
+                    <p>Python, doğrudan metot overloading'i C# veya Java gibi desteklemez. Aynı isimde birden fazla metot tanımlarsanız, son tanımlanan önceki tanımları geçersiz kılar. Python'da benzer davranışlar genellikle varsayılan parametre değerleri, <code>*args</code>, <code>**kwargs</code> veya tip kontrolü (<code>isinstance</code>) ile elde edilir.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Duck Typing (Python'da Çok Biçimlilik Yaklaşımı)</h3></summary>
+                    <p>
+                        Python gibi dinamik tipli dillerde yaygın olan bir çok biçimlilik anlayışıdır. Bir nesnenin tipinden ziyade, sahip olduğu metotlara ve özelliklere odaklanır. "Eğer ördek gibi yürüyorsa ve ördek gibi vaklıyorsa, o bir ördektir" sözü bu yaklaşımı özetler.
+                    </p>
+                    <p>
+                        Bir fonksiyon veya metot, kendisine geçirilen nesnenin belirli bir sınıftan miras alıp almadığına bakmaksızın, ihtiyaç duyduğu metotlara (örneğin <code>konus()</code> veya <code>__len__()</code>) sahip olup olmadığını kontrol eder. Eğer nesne beklenen davranışları sergileyebiliyorsa (gerekli metotlara sahipse), fonksiyon o nesne ile çalışabilir.
+                    </p>
+                     <pre><code class="language-python">
+class Kedi:
+    def konus(self): return "Miyav"
+class Kopek:
+    def konus(self): return "Hav hav"
+class Araba:
+    def korna_cal(self): return "Düt düt" # Farklı metot adı
+class Insan:
+     def konus(self): return "Merhaba"
+
+def konustur(nesne):
+    # Nesnenin tipine bakmadan 'konus' metodu var mı diye kontrol et
+    if hasattr(nesne, 'konus') and callable(getattr(nesne, 'konus')):
+        print(nesne.konus())
+    else:
+        print("Bu nesne konuşamıyor.")
+
+konustur(Kedi())   # Miyav
+konustur(Kopek())  # Hav hav
+konustur(Araba())  # Bu nesne konuşamıyor.
+konustur(Insan())  # Merhaba
+                     </code></pre>
+                    <p>Duck Typing, kodu daha esnek hale getirir ancak tip güvenliğini azaltabilir. Dikkatli kullanılmalı ve nesnelerin beklenen arayüze uyup uymadığı kontrol edilmelidir.</p>
+                </details>
+            </section>
+
+            <section id="soyutlama" class="content-section">
+                <h2>Soyutlama (Abstraction): Karmaşıklığı Gizleme Sanatı</h2>
+                <p>
+                    Soyutlama, bir nesnenin veya sistemin karmaşık iç çalışma detaylarını gizleyerek, kullanıcıya sadece gerekli olan temel özellikleri ve işlevleri sunma prensibidir. Kullanıcının (veya başka bir geliştiricinin) bir bileşeni anlaması ve kullanması için bilmesi gerekenleri basitleştirir. "Ne" yaptığına odaklanılır, "nasıl" yaptığı gizlenir.
+                </p>
+                <p>OOP'de soyutlama genellikle soyut sınıflar (abstract classes) ve arayüzler (interfaces) aracılığıyla gerçekleştirilir.</p>
+
+                 <details class="question-block">
+                    <summary><h3>Soyut Sınıflar (Abstract Classes)</h3></summary>
+                    <p>Soyut sınıflar, hem soyut (implementasyonu olmayan, <code>abstract</code> anahtar kelimesiyle işaretlenmiş) hem de somut (implementasyonu olan) üyeler (metotlar, özellikler) içerebilen sınıflardır. Temel özellikleri:</p>
+                    <ul>
+                        <li>Doğrudan nesnesi oluşturulamaz (<code>new</code> ile örneklenemez).</li>
+                        <li>Sadece başka sınıflar tarafından kalıtım alınmak (türetilmek) için tasarlanmışlardır.</li>
+                        <li>Alt sınıflar, üst sınıftaki tüm <strong>soyut</strong> üyeleri (metotları) override etmek zorundadır.</li>
+                        <li>Somut metotları sayesinde alt sınıflara ortak bir implementasyon sağlayabilirler.</li>
+                        <li>Bir sınıf, C# ve Java'da sadece tek bir soyut sınıftan kalıtım alabilir. Python'da <code>abc</code> (Abstract Base Classes) modülü ile benzer bir yapı kurulur.</li>
+                    </ul>
+                    <p>Soyut sınıflar, bir grup ilişkili sınıf için ortak bir temel ve bir "şablon" sağlamak istendiğinde, ancak bazı davranışların alt sınıflara bırakılması gerektiğinde kullanılır.</p>
+                     <p>Örnek (C#):</p>
+                     <pre><code class="language-csharp">
+// Soyut Sınıf
+public abstract class Sekil
+{
+    public string Renk { get; set; }
+
+    // Soyut Metot (Gövdesi yok, alt sınıflar implemente etmek zorunda)
+    public abstract double AlanHesapla();
+
+    // Soyut Özellik (Alt sınıflar implemente etmek zorunda)
+    public abstract double CevreHesapla();
+
+    // Somut Metot (Ortak davranış)
+    public virtual void BilgiYazdir() // virtual: override edilebilir ama zorunlu değil
+    {
+        Console.WriteLine($"Renk: {Renk}, Alan: {AlanHesapla():F2}, Çevre: {CevreHesapla():F2}");
+    }
+}
+
+// Alt Sınıf 1
+public class Daire : Sekil
+{
+    public double YariCap { get; set; }
+
+    public Daire(double r, string renk) { this.YariCap = r; this.Renk = renk; }
+
+    public override double AlanHesapla() // Zorunlu override
+    {
+        return Math.PI * YariCap * YariCap;
+    }
+
+    public override double CevreHesapla() // Zorunlu override
+    {
+        return 2 * Math.PI * YariCap;
+    }
+}
+
+// Alt Sınıf 2
+public class Dikdortgen : Sekil
+{
+    public double Genislik { get; set; }
+    public double Yukseklik { get; set; }
+
+     public Dikdortgen(double g, double y, string renk) { this.Genislik = g; this.Yukseklik = y; this.Renk = renk; }
+
+    public override double AlanHesapla() // Zorunlu override
+    {
+        return Genislik * Yukseklik;
+    }
+     public override double CevreHesapla() // Zorunlu override
+    {
+        return 2 * (Genislik + Yukseklik);
+    }
+
+    // Üst sınıfın virtual metodunu override etme
+    public override void BilgiYazdir()
+    {
+        Console.WriteLine($"Dikdörtgen - Renk: {Renk}, Alan: {AlanHesapla()}, Çevre: {CevreHesapla()}");
+    }
+}
+
+// Kullanım
+// Sekil s = new Sekil(); // Hata! Soyut sınıftan nesne oluşturulamaz.
+
+Sekil daire = new Daire(5, "Mavi");
+Sekil dikdortgen = new Dikdortgen(4, 6, "Kırmızı");
+
+daire.BilgiYazdir();
+dikdortgen.BilgiYazdir(); // Dikdörtgenin override ettiği metot çalışır
+                    </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Arayüzler (Interfaces)</h3></summary>
+                    <p>Arayüzler, bir sınıfın sahip olması gereken public üyelerin (metotlar, özellikler, olaylar, indexer'lar) imzalarını tanımlayan bir **sözleşmedir (contract)**. Hiçbir implementasyon içermezler (C# 8.0+ ve Java 8+ ile varsayılan metot implementasyonları mümkün olsa da, temel amaç sözleşmedir).</p>
+                     <ul>
+                        <li>Bir sınıf, bir veya birden fazla arayüzü uygulayabilir (implement edebilir). Bu, çoklu kalıtımın getirebileceği sorunlar olmadan, bir sınıfın birden fazla "rol" veya "yeteneğe" sahip olmasını sağlar.</li>
+                        <li>Arayüzü uygulayan sınıf, arayüzdeki tüm üyeleri (metotları, özellikleri vb.) implemente etmek (gövdesini yazmak) zorundadır.</li>
+                        <li>Arayüzler, farklı sınıflar arasında gevşek bağlılık (loose coupling) oluşturmak için kullanılır. Kod, belirli bir sınıf implementasyonuna değil, arayüz sözleşmesine bağımlı hale gelir. Bu, sistemin daha esnek ve değiştirilebilir olmasını sağlar.</li>
+                        <li>Arayüz isimleri genellikle 'I' harfi ile başlar (C# konvansiyonu).</li>
+                    </ul>
+                     <p>Örnek (C#):</p>
+                     <pre><code class="language-csharp">
+// Arayüz Tanımı
+public interface IYazdirilabilir
+{
+    void Yazdir(); // Metot imzası
+    string Baslik { get; } // Sadece okunabilir özellik imzası
+}
+
+public interface ISifrelenebilir
+{
+    string Sifrele(string veri);
+    string SifreCoz(string sifreliVeri);
+}
+
+// Arayüzleri Uygulayan Sınıf
+public class Rapor : IYazdirilabilir, ISifrelenebilir // Birden fazla arayüz
+{
+    public string RaporAdi { get; set; }
+    private string icerik;
+
+    public Rapor(string ad, string icerik)
+    {
+        this.RaporAdi = ad;
+        this.icerik = icerik;
+    }
+
+    // IYazdirilabilir implementasyonu
+    public string Baslik =&gt; $"Rapor: {RaporAdi}"; // Özellik implementasyonu
+
+    public void Yazdir()
+    {
+        Console.WriteLine($"--- {Baslik} ---");
+        Console.WriteLine(icerik);
+        Console.WriteLine("--- Rapor Sonu ---");
+    }
+
+    // ISifrelenebilir implementasyonu
+    public string Sifrele(string veri)
+    {
+        Console.WriteLine("Veri basitçe şifreleniyor...");
+        return Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(veri));
+    }
+
+     public string SifreCoz(string sifreliVeri)
+    {
+        Console.WriteLine("Şifre çözülüyor...");
+         try {
+            return System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(sifreliVeri));
+         } catch { return "Çözme Başarısız!"; }
+    }
+}
+
+// Başka bir sınıf
+public class Eposta : IYazdirilabilir
+{
+     public string Konu { get; set; }
+     public string Alici { get; set; }
+     public string Govde { get; set; }
+
+     public string Baslik =&gt; $"E-posta: {Konu}";
+
+     public void Yazdir()
+     {
+         Console.WriteLine($"Kime: {Alici}\nKonu: {Konu}\n{Govde}");
+     }
+}
+
+
+// Kullanım
+public class Yazdirici
+{
+    // Metot, belirli bir sınıf yerine arayüzü kabul ediyor (Gevşek Bağlılık)
+    public void BelgeYazdir(IYazdirilabilir belge)
+    {
+        Console.WriteLine($"\n'{belge.Baslik}' yazdırılıyor...");
+        belge.Yazdir();
+    }
+}
+
+Rapor rapor1 = new Rapor("Aylık Satış", "Satışlar iyi durumda...");
+Eposta eposta1 = new Eposta { Konu="Toplantı", Alici="ekip@mail.com", Govde="Yarın..."};
+
+Yazdirici yaz = new Yazdirici();
+yaz.BelgeYazdir(rapor1); // Rapor nesnesi gönderiliyor
+yaz.BelgeYazdir(eposta1); // Eposta nesnesi gönderiliyor
+
+// ISifrelenebilir kullanımı
+ISifrelenebilir sifreleyici = rapor1; // Arayüz üzerinden erişim
+string sifreli = sifreleyici.Sifrele("Gizli Bilgi");
+Console.WriteLine($"Şifreli: {sifreli}");
+Console.WriteLine($"Çözülmüş: {sifreleyici.SifreCoz(sifreli)}");
+                     </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Soyut Sınıf vs. Arayüz: Ne Zaman Hangisi?</h3></summary>
+                    <p>Her ikisi de soyutlama sağlasa da, kullanım amaçları ve yetenekleri farklıdır:</p>
+                    <p><strong>Soyut Sınıf (Abstract Class) Kullanın:</strong></p>
+                    <ul>
+                        <li>İlişkili sınıflar arasında ortak bir **temel implementasyon** (somut metotlar) veya ortak **durum (alanlar)** paylaşmak istediğinizde.</li>
+                        <li>Alt sınıfların **aynı temel türden** olmasını ve ortak bir şablona uymasını istediğinizde ("is-a" ilişkisi güçlü olduğunda).</li>
+                        <li><code>public</code> olmayan (<code>protected</code>, <code>internal</code>) üyeler tanımlamak istediğinizde (arayüz üyeleri genellikle public'tir).</li>
+                        <li>Gelecekte sınıfa yeni somut metotlar eklemeniz gerektiğinde ve mevcut tüm alt sınıfları kırmak istemediğinizde.</li>
+                    </ul>
+                    <p><strong>Arayüz (Interface) Kullanın:</strong></p>
+                    <ul>
+                         <li>Birbirleriyle doğrudan ilişkili olmayan sınıflara **ortak bir yetenek veya rol** kazandırmak istediğinizde (örn: <code>IYazdirilabilir</code>, <code>ISerializable</code>, <code>IComparable</code>).</li>
+                         <li>Bir sınıfın **birden fazla sözleşmeyi** uygulamasını istediğinizde (çoklu kalıtım benzeri yapı).</li>
+                         <li>Sınıflar arasında **tamamen gevşek bağlılık** oluşturmak istediğinizde (sadece sözleşmeye bağımlılık).</li>
+                         <li>Bir API'nin veya kütüphanenin public sözleşmesini tanımlamak istediğinizde.</li>
+                    </ul>
+                    <p>Genel bir kural olarak, bir "şeyin ne olduğu" (is-a) ilişkisi için soyut sınıflar, bir "şeyin ne yapabildiği" (can-do) ilişkisi veya bir sözleşme tanımlamak için arayüzler daha uygundur. Modern tasarım desenlerinde genellikle arayüzler daha fazla tercih edilir.</p>
+                 </details>
+            </section>
+
+            <section id="sonuc" class="content-section">
+                 <h2>Sonuç: OOP'nin Gücü ve Önemi</h2>
+                 <p>
+                     Nesne Yönelimli Programlama, sadece bir dizi teknik kuraldan ibaret değildir; aynı zamanda karmaşık problemleri modellemek, çözümleri organize etmek ve yazılımı daha yönetilebilir kılmak için güçlü bir düşünce biçimidir. Kapsülleme, kalıtım, çok biçimlilik ve soyutlama gibi temel ilkeleri, geliştiricilere daha modüler, esnek, yeniden kullanılabilir ve bakımı kolay kodlar yazma imkanı sunar.
+                 </p>
+                 <p>
+                     Sınıflar ve nesneler aracılığıyla gerçek dünya varlıklarını modellemek, kapsülleme ile iç detayları korumak, kalıtım ile kod tekrarını azaltıp hiyerarşi kurmak, çok biçimlilik ile esnek arayüzler tasarlamak ve soyutlama ile karmaşıklığı yönetmek, OOP'nin sağladığı temel avantajlardır. Bu prensipler, özellikle büyük ölçekli projelerde, takım çalışmalarında ve zaman içinde gelişen yazılımlarda vazgeçilmez hale gelir.
+                 </p>
+                 <p>
+                     Elbette OOP, her probleme uygun tek çözüm değildir ve kendi karmaşıklıklarını da getirebilir. Ancak modern programlama dillerinin büyük çoğunluğu tarafından desteklenmesi ve yazılım mühendisliği pratiğinde yaygın olarak kullanılması, onun önemini ve etkinliğini kanıtlar niteliktedir. OOP kavramlarını iyi anlamak ve doğru şekilde uygulamak, daha kaliteli, sürdürülebilir ve başarılı yazılım projeleri geliştirmenin anahtarlarından biridir. Bu rehberde ele alınan temel kavramlar, OOP dünyasına sağlam bir adım atmanız için size gerekli temeli sunmayı amaçlamıştır.
+                 </p>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <a href="https://abdulkadirgungor86.github.io/cv/" target="_blank" rel="noopener noreferrer">© 2025 Abdulkadir Güngör</a><br/>
+        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap (XML)</a>
+    </footer>
+    <script src="../assets/js/blog_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #00d9ff, #b14701); 
+    color: #000000;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.rain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.content {
+    z-index: 1;
+}
+
+.bubble {
+    font-family:  "Lobster", sans-serif;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards, bubbleEffect 6s infinite ease-in-out;
+    text-align: justify;
+    margin: 0 5vh;
+    top: -64px; 
+}
+
+.bubble-title {
+    font-family:  "Lobster", sans-serif;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards, bubbleEffect 6s infinite ease-in-out;
+    top: -64px; 
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bubbleEffect {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #000000;
+    color: #fefefe;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 2;
+    margin-top: auto; /* Footer'ı sayfanın en altına iter */
+}
+
+}
+
+.footer-links {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #2f9cbf;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #53b4db;
+}
+
+.drop {
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    background: #4a92f0; /* Yağmur damlası rengi */
+    opacity: 0.25;
+    border-radius: 50%;
+    animation: rainFall linear infinite;
+}
+
+@keyframes rainFall {
+    0% {
+        top: -20px;
+        opacity: 0.6;
+    }
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, #004f91, #00509e); /* Deniz renkleri */
+    opacity: 0.6;
+    animation: waveIdle 4s infinite ease-in-out;
+    z-index: 1;
+}
+
+@keyframes waveIdle {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+}

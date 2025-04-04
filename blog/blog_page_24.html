@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapsamlı Siber Güvenlik Rehberi: Dijital Kalenizi İnşa Edin</title>
+    <meta name="description" content="Siber güvenlik dünyasına derinlemesine bir bakış sunan kapsamlı rehber. Temel kavramlar (CIA, Tehdit, Zafiyet, Risk), yaygın saldırı türleri (Malware, Phishing, DDoS, SQLi, XSS), savunma stratejileri (Ağ, Uç Nokta, Uygulama, Veri Güvenliği), kimlik yönetimi, bulut güvenliği ve siber hijyen konuları detaylı olarak incelenmektedir. Abdulkadir Güngör tarafından hazırlanmıştır.">
+    <meta name="keywords" content="Siber Güvenlik, Cybersecurity, Bilgi Güvenliği, Ağ Güvenliği, Uygulama Güvenliği, Veri Güvenliği, Kimlik Yönetimi, IAM, Bulut Güvenliği, Malware, Phishing, Ransomware, SQL Injection, XSS, DDoS, VPN, Firewall, Antivirüs, Şifreleme, Encryption, Hashing, MFA, Siber Saldırı, Siber Tehdit, OWASP, Güvenli Kodlama, Dijital Hijyen, Abdulkadir Güngör">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="canonical" href="https://abdulkadirgungor86.github.io/blog/blog_page_24.html" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    <link rel="stylesheet" href="../assets/css/blog_style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Siber Güvenlik Kapsamlı Rehber</div>
+            <button class="menu-toggle" aria-label="Menüyü Aç/Kapat">☰</button>
+            <ul class="nav-menu">
+                <li><a href="#giris">Giriş</a></li>
+                <li><a href="#temel-kavramlar">Temel Kavramlar</a></li>
+                <li><a href="#tehdit-manzarasi">Tehdit Manzarası</a></li>
+                <li><a href="#savunma-katmanlari">Savunma Katmanları</a></li>
+                <li><a href="#insan-faktoru">İnsan Faktörü</a></li>
+                <li><a href="#gelecek">Gelecek ve Kariyer</a></li>
+                <li><a href="#sonuc">Sonuç</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <article id="giris" class="content-section intro-section">
+                <h1>Siber Güvenlik: Dijital Çağda Var Olmanın Anahtarı</h1>
+                <p>
+                    Yaşadığımız çağ, dijital teknolojilerin bireysel yaşamlarımızdan küresel ekonomiye kadar her alanda devrim yarattığı bir dönemdir. Bilgiye anında erişim, küresel iletişim, çevrimiçi ticaret ve sayısız dijital hizmet hayatımızı kolaylaştırırken, bu artan bağlantılılık ve veri akışı beraberinde benzeri görülmemiş güvenlik risklerini de getirmiştir. Siber güvenlik, bu dijital ekosistemi oluşturan bilgisayar sistemlerini, ağları, cihazları, uygulamaları ve en önemlisi verileri; hırsızlık, hasar, kesinti ve yetkisiz erişim gibi tehditlere karşı koruma disiplini ve pratiğidir. Artık sadece IT departmanlarının veya büyük şirketlerin sorunu değil, dijital vatandaş olan herkesin temel bir sorumluluğu haline gelmiştir.
+                </p>
+                <p>
+                    Siber saldırılar her geçen gün daha karmaşık, daha sık ve daha yıkıcı hale gelmektedir. Kötü niyetli aktörler; bireysel kullanıcılardan küçük işletmelere, kritik altyapılardan devlet kurumlarına kadar geniş bir yelpazedeki hedeflere yönelmektedir. Motivasyonları finansal kazançtan (fidye yazılımları, veri hırsızlığı) casusluğa, politik hedeflerden aktivizme kadar çeşitlilik göstermektedir. Bu saldırıların sonuçları sadece maddi kayıplarla sınırlı kalmamakta, aynı zamanda itibar zedelenmesi, operasyonel felç, yasal yaptırımlar, müşteri güveninin sarsılması ve hatta fiziksel güvenlik tehditleri gibi ciddi boyutlara ulaşabilmektedir.
+                </p>
+                 <p>
+                    Bu sürekli tehdit ortamında, siber güvenlik reaktif bir yaklaşımdan (saldırı olduktan sonra müdahale etmek) proaktif bir yaklaşıma (saldırıları olmadan önce önlemek veya etkisini en aza indirmek) doğru evrilmektedir. Güvenlik, artık sadece teknolojik çözümlerle (güvenlik duvarları, antivirüsler) değil, aynı zamanda süreçlerle (güvenli geliştirme pratikleri, risk yönetimi, olay müdahalesi), politikalarla (erişim kontrolü, veri sınıflandırması) ve en önemlisi insan faktörüyle (farkındalık, eğitim) bütünleşik olarak ele alınmalıdır. Bu rehber, siber güvenliğin karmaşık dünyasına bir giriş yaparak temel kavramları açıklayacak, günümüzün en yaygın tehditlerini ve saldırı vektörlerini tanıtacak, hem bireysel hem de kurumsal düzeyde alınması gereken savunma önlemlerini detaylandıracak ve bu alandaki kariyer fırsatları ile gelecekteki trendlere ışık tutacaktır. Amacımız, dijital dünyada daha bilinçli, daha hazırlıklı ve dolayısıyla daha güvende olmanıza yardımcı olmaktır.
+                </p>
+            </article>
+
+            <section id="temel-kavramlar" class="content-section">
+                <h2>Siber Güvenliğin Temel Kavramları: Sözlüğü Anlamak</h2>
+                <p>
+                    Siber güvenlik alanındaki tartışmaları ve stratejileri anlayabilmek için bazı temel terim ve kavramlara aşina olmak gerekir. Bu kavramlar, riskleri, tehditleri ve savunma mekanizmalarını tanımlamak için ortak bir dil oluşturur.
+                </p>
+
+                <details class="question-block">
+                    <summary><h3>CIA Üçgeni: Güvenliğin Köşe Taşları</h3></summary>
+                    <p>Bilgi güvenliğinin üç temel ve birbiriyle ilişkili hedefi genellikle CIA Üçgeni olarak adlandırılan kavramlarla ifade edilir:</p>
+                    <ul>
+                        <li><strong>Gizlilik (Confidentiality):</strong> Bilginin yalnızca yetkili kişiler, sistemler veya süreçler tarafından erişilebilir olmasını sağlama prensibidir. Yetkisiz ifşanın önlenmesini hedefler. Şifreleme (veriyi okunamaz hale getirme) ve erişim kontrolü (kimin neye erişebileceğini belirleme) gizliliği sağlamanın temel yöntemleridir.</li>
+                        <li><strong>Bütünlük (Integrity):</strong> Verinin doğruluğunu, tutarlılığını ve değiştirilmemiş olduğunu garanti etme prensibidir. Verinin yetkisiz veya yanlışlıkla değiştirilmesini, silinmesini veya bozulmasını engellemeyi hedefler. Hash fonksiyonları (veri bütünlüğünü kontrol etmek için), dijital imzalar (verinin kaynağını ve değiştirilmediğini doğrulamak için) ve erişim kontrolleri bütünlüğü korumaya yardımcı olur.</li>
+                        <li><strong>Erişilebilirlik (Availability):</strong> Bilgi ve sistemlerin, yetkili kullanıcılar tarafından ihtiyaç duyulduğunda kullanılabilir ve erişilebilir olmasını sağlama prensibidir. Sistemlerin çalışır durumda olması, hizmet kesintilerinin (donanım arızası, yazılım hatası, doğal afet veya DoS/DDoS saldırıları gibi nedenlerle) önlenmesi veya en aza indirilmesi erişilebilirliği sağlar. Yedeklilik (redundancy), yük dengeleme (load balancing), felaket kurtarma (disaster recovery) planları ve düzenli yedekleme gibi mekanizmalarla desteklenir.</li>
+                    </ul>
+                    <p>Etkili bir güvenlik stratejisi, bu üç hedef arasında uygulamanın veya sistemin gereksinimlerine uygun bir denge kurmayı amaçlar.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Risk Yönetimi: Tehdit, Zafiyet, Risk ve Etki</h3></summary>
+                    <p>Siber güvenlik, temelinde risk yönetimi disiplinidir.</p>
+                    <ul>
+                        <li><strong>Varlık (Asset):</strong> Korunması gereken değerli herhangi bir şeydir (veri, donanım, yazılım, itibar, fikri mülkiyet vb.).</li>
+                        <li><strong>Tehdit (Threat):</strong> Bir varlığa zarar verme potansiyeli olan herhangi bir kaynak veya olaydır (örn: hacker, malware, doğal afet, çalışan hatası).</li>
+                        <li><strong>Zafiyet / Güvenlik Açığı (Vulnerability):</strong> Bir varlıktaki, bir tehdit tarafından istismar edilebilecek bir zayıflık veya kusurdur (örn: yazılım hatası, zayıf parola, yanlış yapılandırma).</li>
+                        <li><strong>İstismar (Exploit):</strong> Bir zafiyetten faydalanarak sisteme zarar veren veya yetkisiz erişim sağlayan kod veya yöntemdir.</li>
+                        <li><strong>Etki (Impact):</strong> Bir tehdidin bir zafiyeti başarıyla istismar etmesi durumunda varlık üzerinde oluşacak potansiyel zarardır (finansal kayıp, itibar kaybı, veri kaybı, operasyonel kesinti vb.).</li>
+                        <li><strong>Risk:</strong> Belirli bir tehdidin belirli bir zafiyeti istismar etme **olasılığı** ile bunun sonucunda ortaya çıkacak **etkinin** birleşimidir. (Risk ≈ Olasılık x Etki).</li>
+                    </ul>
+                    <p>Risk Yönetimi Süreci:</p>
+                    <ol>
+                        <li><strong>Risk Değerlendirmesi (Risk Assessment):</strong> Varlıkları belirleme, tehditleri ve zafiyetleri tanımlama, potansiyel etkileri analiz etme ve risk seviyelerini belirleme.</li>
+                        <li><strong>Risk İşleme (Risk Treatment):</strong> Belirlenen risklere karşı nasıl hareket edileceğine karar verme:
+                            <ul>
+                                <li><strong>Risk Azaltma (Mitigation):</strong> Riski kabul edilebilir bir seviyeye indirmek için güvenlik kontrolleri uygulama (örn: firewall kurma, yama yapma).</li>
+                                <li><strong>Risk Transferi (Transfer):</strong> Riski başka bir tarafa devretme (örn: siber sigorta yaptırma).</li>
+                                <li><strong>Risk Kabulü (Acceptance):</strong> Riskin seviyesi düşükse veya kontrol maliyeti potansiyel zarardan yüksekse riski kabul etme.</li>
+                                <li><strong>Risk Kaçınma (Avoidance):</strong> Riske yol açan aktiviteden veya sistemden vazgeçme.</li>
+                            </ul>
+                        </li>
+                        <li><strong>İzleme ve Gözden Geçirme:</strong> Risk ortamı sürekli değiştiği için riskleri ve uygulanan kontrolleri düzenli olarak izleme ve gözden geçirme.</li>
+                    </ol>
+                </details>
+
+                 <details class="question-block">
+                     <summary><h3>Kimlik Doğrulama, Yetkilendirme ve Hesap Verebilirlik (AAA)</h3></summary>
+                     <p>AAA, güvenli erişim kontrolünün temel bileşenlerini ifade eden bir kısaltmadır:</p>
+                     <ul>
+                         <li><strong>Authentication (Kimlik Doğrulama):</strong> Kullanıcının kim olduğunu doğrulama ("Sen kimsin?"). Parola, MFA, biyometri gibi yöntemlerle yapılır.</li>
+                         <li><strong>Authorization (Yetkilendirme):</strong> Kimliği doğrulanmış kullanıcının hangi kaynaklara erişebileceğini ve neler yapabileceğini belirleme ("Ne yapabilirsin?"). Roller, izinler, erişim kontrol listeleri (ACL) ile yapılır.</li>
+                         <li><strong>Accounting/Accountability (Hesap Verebilirlik/Kayıt Tutma):</strong> Kullanıcıların sistem üzerindeki eylemlerinin (giriş zamanı, erişilen kaynaklar, yapılan değişiklikler vb.) kaydedilmesi (loglanması) ve bu kayıtlardan sorumlu tutulabilmesidir ("Ne yaptın?"). Log yönetimi ve SIEM sistemleri bu amaca hizmet eder.</li>
+                     </ul>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Savunmada Derinlik (Defense in Depth)</h3></summary>
+                    <p>Tek bir güvenlik önleminin başarısız olabileceği varsayımına dayanarak, birden fazla bağımsız güvenlik kontrol katmanı oluşturma stratejisidir. Eğer bir katman (örn: firewall) aşılırsa, diğer katmanların (örn: IDS/IPS, endpoint security, erişim kontrolü) saldırganı durdurma veya yavaşlatma şansı olur. Kalelerdeki katmanlı savunma yapısına benzetilebilir.</p>
+                    <p>Katmanlar şunları içerebilir:</p>
+                    <ul>
+                        <li>Politikalar, Prosedürler ve Farkındalık (En dış katman)</li>
+                        <li>Fiziksel Güvenlik</li>
+                        <li>Ağ Güvenliği (Perimeter Security - Firewall, IDS/IPS, Segmentasyon)</li>
+                        <li>İşletim Sistemi Güvenliği (Hardening, Yama Yönetimi)</li>
+                        <li>Uygulama Güvenliği (Güvenli Kodlama, WAF)</li>
+                        <li>Veri Güvenliği (Şifreleme, Erişim Kontrolü, DLP)</li>
+                        <li>İzleme ve Müdahale</li>
+                    </ul>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>En Az Yetki Prensibi (Principle of Least Privilege)</h3></summary>
+                    <p>Kullanıcılara, uygulamalara veya sistem bileşenlerine, görevlerini yerine getirmeleri için gereken **minimum düzeyde** erişim hakkı ve yetki verilmesi prensibidir. Bir hesabın veya sürecin yetkileri ne kadar azsa, ele geçirildiğinde veya kötüye kullanıldığında verebileceği zarar da o kadar sınırlı olur. Örneğin, bir web sunucusunun veritabanına sadece okuma yetkisiyle bağlanması (eğer yazma gerekmiyorsa) veya bir kullanıcının sadece kendi departmanının verilerine erişebilmesi bu prensibin uygulamalarıdır.</p>
+                 </details>
+            </section>
+
+            <section id="tehdit-manzarasi" class="content-section">
+                <h2>Tehdit Manzarası: Yaygın Siber Saldırı Vektörleri</h2>
+                <p>Saldırganlar, sistemlere sızmak, veri çalmak veya hizmetleri aksatmak için sürekli olarak yeni yöntemler geliştirirler. Ancak bazı saldırı türleri ve vektörleri diğerlerinden daha yaygındır.</p>
+
+                <details class="question-block">
+                    <summary><h3>Kötü Amaçlı Yazılımlar (Malware) Türleri</h3></summary>
+                    <p>Daha önce bahsedildiği gibi virüsler, solucanlar, truva atları, fidye yazılımları, casus yazılımlar ve reklam yazılımları en bilinen türlerdir. Bunlara ek olarak:</p>
+                    <ul>
+                        <li><strong>Rootkit'ler:</strong> İşletim sistemi seviyesinde derinlere gizlenerek saldırgana sürekli ve gizli erişim sağlayan, tespit edilmesi zor zararlı yazılımlardır.</li>
+                        <li><strong>Keylogger'lar:</strong> Kullanıcının klavye vuruşlarını kaydederek şifreleri ve diğer hassas bilgileri çalmaya çalışır.</li>
+                        <li><strong>Kripto Madenciliği Zararlıları (Cryptojacking):</strong> Kullanıcının bilgisayar kaynaklarını (CPU, GPU) izinsiz olarak kripto para madenciliği yapmak için kullanır, sistem performansını düşürür.</li>
+                        <li><strong>Fileless Malware:</strong> Diske dosya yazmak yerine doğrudan bellekte çalışan veya işletim sisteminin meşru araçlarını (PowerShell, WMI vb.) kötüye kullanan, tespiti zor zararlı yazılımlardır.</li>
+                    </ul>
+                     <p><strong>Korunma:</strong> Güncel endpoint security çözümleri (antivirüs, EDR), işletim sistemi ve uygulama yamaları, kullanıcı eğitimi, ağ güvenliği önlemleri.</p>
+                </details>
+
+                 <details class="question-block">
+                    <summary><h3>Sosyal Mühendislik Taktikleri</h3></summary>
+                    <p>İnsan faktörünü hedef alan bu saldırılar, kandırma ve manipülasyon üzerine kuruludur.</p>
+                     <ul>
+                        <li><strong>Phishing/Spear Phishing/Whaling:</strong> Sahte e-posta/mesaj/web sitesi ile kimlik bilgisi çalma.</li>
+                        <li><strong>Baiting (Yemleme):</strong> Merak uyandıran fiziksel (USB) veya dijital yemlerle kullanıcıyı tuzağa düşürme.</li>
+                        <li><strong>Pretexting (Bahane Uydurma):</strong> Belirli bir senaryo yaratarak güven kazanıp bilgi alma.</li>
+                        <li><strong>Tailgating/Piggybacking:</strong> Yetkili bir kişinin ardından fiziksel güvenlik kontrol noktalarından (örn: kartlı kapı) izinsiz geçme.</li>
+                        <li><strong>Quid Pro Quo:</strong> Bir iyilik veya hizmet karşılığında bilgi veya erişim talep etme (sahte teknik destek gibi).</li>
+                     </ul>
+                     <p><strong>Korunma:</strong> Güvenlik farkındalığı eğitimleri, şüphecilik, kimlik doğrulama prosedürleri, bilgi paylaşımında dikkat.</p>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Web Uygulama Zafiyetleri (OWASP Top 10)</h3></summary>
+                    <p>Web uygulamaları en sık hedeflenen sistemler arasındadır.</p>
+                     <ul>
+                        <li><strong>Enjeksiyon (SQL, NoSQL, OS Command, XSS):</strong> Güvenilmeyen girdinin komut olarak yorumlanması.</li>
+                        <li><strong>Bozuk Kimlik Doğrulama ve Oturum Yönetimi:</strong> Zayıf şifreler, session hijacking, MFA eksikliği.</li>
+                        <li><strong>Bozuk Erişim Kontrolü:</strong> Yetkisiz veri veya işlev erişimi.</li>
+                        <li><strong>Kriptografik Hatalar:</strong> Hassas verilerin korunmaması.</li>
+                        <li><strong>Güvenlik Yanlış Yapılandırması:</strong> Varsayılan ayarlar, gereksiz açık portlar.</li>
+                        <li><strong>Zafiyetli ve Güncel Olmayan Bileşenler:</strong> Üçüncü parti kütüphanelerdeki açıklar.</li>
+                        <li><strong>Güvensiz Tasarım:</strong> Güvenliğin baştan düşünülmemesi.</li>
+                        <li><strong>Yazılım ve Veri Bütünlüğü Hataları:</strong> Güvensiz güncellemeler, deserialization.</li>
+                        <li><strong>Yetersiz Loglama ve İzleme:</strong> Olayların tespit edilememesi.</li>
+                        <li><strong>Sunucu Taraflı İstek Sahteciliği (SSRF):</strong> Sunucunun istenmeyen istek yapmaya zorlanması.</li>
+                     </ul>
+                     <p><strong>Korunma:</strong> Güvenli kodlama pratikleri, girdi doğrulama, çıktı kodlama, parametreli sorgular, WAF, SCA, düzenli testler.</p>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Ağ ve Altyapı Saldırıları</h3></summary>
+                    <ul>
+                        <li><strong>DoS/DDoS:</strong> Hizmeti erişilemez kılma.</li>
+                        <li><strong>Man-in-the-Middle (MitM):</strong> İletişimi dinleme/değiştirme.</li>
+                        <li><strong>DNS Hijacking/Spoofing:</strong> Kullanıcıları sahte sitelere yönlendirme.</li>
+                        <li><strong>Port Taraması:</strong> Açık portları ve servisleri bulma.</li>
+                        <li><strong>Sniffing:</strong> Ağ trafiğini dinleme (şifresizse).</li>
+                    </ul>
+                     <p><strong>Korunma:</strong> Firewall, IDS/IPS, DDoS koruma, HTTPS, VPN, ağ segmentasyonu.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Gelişmiş Kalıcı Tehditler (Advanced Persistent Threats - APT)</h3></summary>
+                     <p>Genellikle devlet destekli veya iyi organize olmuş gruplar tarafından yürütülen, belirli bir hedef (kurum, devlet) üzerinde uzun süre gizlice kalarak veri çalmayı veya casusluk yapmayı amaçlayan karmaşık ve sürekli saldırılardır. Çok aşamalıdırlar ve tespit edilmeleri zordur.</p>
+                     <p><strong>Korunma:</strong> Derinlemesine savunma, gelişmiş tehdit tespiti (EDR, NDR, SIEM), tehdit istihbaratı, proaktif tehdit avcılığı, güçlü olay müdahale yeteneği.</p>
+                 </details>
+            </section>
+
+            <section id="savunma-katmanlari" class="content-section">
+                <h2>Savunma Katmanları: Güvenliği İnşa Etmek</h2>
+                <p>Etkili siber güvenlik, tek bir çözüme dayanmak yerine, birbirini tamamlayan birden fazla savunma katmanı oluşturmayı gerektirir (Defense in Depth).</p>
+
+                 <details class="question-block">
+                    <summary><h3>Ağ Güvenliği</h3></summary>
+                    <p>Ağ altyapısını korumak için alınan önlemler.</p>
+                    <ul>
+                        <li><strong>Firewall:</strong> Ağ trafiğini filtreler.</li>
+                        <li><strong>IDS/IPS:</strong> Şüpheli trafiği tespit eder/engeller.</li>
+                        <li><strong>VPN:</strong> Güvensiz ağlarda güvenli bağlantı sağlar.</li>
+                        <li><strong>Ağ Segmentasyonu (VLANs):</strong> Ağı izole bölümlere ayırır.</li>
+                        <li><strong>NAC:</strong> Ağa bağlanan cihazları kontrol eder.</li>
+                        <li><strong>Kablosuz Ağ Güvenliği (WPA2/WPA3):</strong> Wi-Fi erişimini şifreler ve kontrol eder.</li>
+                    </ul>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Uç Nokta Güvenliği (Endpoint Security)</h3></summary>
+                    <p>Kullanıcı cihazlarını ve sunucuları korur.</p>
+                     <ul>
+                        <li><strong>Antivirüs/Antimalware:</strong> Bilinen zararlıları tespit eder/engeller.</li>
+                        <li><strong>EDR (Endpoint Detection & Response):</strong> Gelişmiş tehdit tespiti ve müdahale sağlar.</li>
+                        <li><strong>Yama Yönetimi:</strong> İşletim sistemi ve uygulama açıklarını kapatır.</li>
+                        <li><strong>Disk Şifreleme:</strong> Cihaz çalınsa bile veriyi korur.</li>
+                        <li><strong>Host-based Firewall/IPS:</strong> Cihaz üzerinde ek ağ koruması sağlar.</li>
+                        <li><strong>Uygulama Kontrolü (Application Whitelisting):</strong> Sadece izin verilen uygulamaların çalışmasını sağlar.</li>
+                    </ul>
+                 </details>
+
+                <details class="question-block">
+                     <summary><h3>Uygulama Güvenliği (AppSec)</h3></summary>
+                     <p>Yazılımın kendisindeki zafiyetleri önlemeye odaklanır.</p>
+                     <ul>
+                        <li><strong>Güvenli SDLC:</strong> Güvenliği geliştirme sürecine entegre etme.</li>
+                        <li><strong>Güvenli Kodlama Pratikleri:</strong> Input validation, output encoding, güvenli API kullanımı vb.</li>
+                        <li><strong>SAST/DAST/IAST:</strong> Otomatik güvenlik testleri.</li>
+                        <li><strong>SCA:</strong> Üçüncü parti kütüphane güvenliği.</li>
+                        <li><strong>WAF:</strong> Web uygulamalarına yönelik saldırıları engelleme.</li>
+                        <li><strong>Kod Gözden Geçirme (Security Focus):</strong> Güvenlik açıklarına odaklanan manuel veya otomatik incelemeler.</li>
+                    </ul>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Veri Güvenliği</h3></summary>
+                     <p>Verinin gizliliğini, bütünlüğünü ve erişilebilirliğini korur.</p>
+                     <ul>
+                        <li><strong>Şifreleme (At Rest & In Transit):</strong> Veriyi okunamaz hale getirme.</li>
+                        <li><strong>Erişim Kontrolü ve IAM:</strong> Veriye kimin erişebileceğini yönetme.</li>
+                        <li><strong>Veri Sınıflandırması:</strong> Hassasiyet seviyesine göre koruma uygulama.</li>
+                        <li><strong>DLP (Data Loss Prevention):</strong> Hassas veri sızıntısını önleme.</li>
+                        <li><strong>Yedekleme ve Kurtarma:</strong> Veri kaybına karşı koruma.</li>
+                        <li><strong>Veri Maskeleme/Anonimleştirme:</strong> Hassas veriyi gizleyerek kullanma.</li>
+                    </ul>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Kimlik ve Erişim Yönetimi (IAM)</h3></summary>
+                    <p>Doğru kişilerin doğru kaynaklara erişmesini sağlar.</p>
+                    <ul>
+                        <li><strong>Güçlü Kimlik Doğrulama (MFA):</strong> Kimlik hırsızlığını önler.</li>
+                        <li><strong>Yetkilendirme (RBAC/ABAC):</strong> Erişim haklarını yönetir.</li>
+                        <li><strong>SSO:</strong> Kullanıcı deneyimini iyileştirir, parola yönetimini merkezileştirir.</li>
+                        <li><strong>PAM:</strong> Ayrıcalıklı hesapları korur.</li>
+                        <li><strong>Düzenli Erişim Gözden Geçirme:</strong> Gereksiz yetkilerin kaldırılmasını sağlar.</li>
+                    </ul>
+                 </details>
+            </section>
+
+             <section id="bulut-guvenlik" class="content-section">
+                <h2>Bulut Güvenliği: Paylaşılan Sorumluluk ve Dikkat Edilmesi Gerekenler</h2>
+                <p>Bulut bilişim, güvenlik sorumluluğunun sağlayıcı ve müşteri arasında paylaşıldığı bir model sunar. Müşterinin kendi sorumluluk alanını doğru yapılandırması kritiktir.</p>
+                 <details class="question-block">
+                    <summary><h3>Paylaşılan Sorumluluk Modeli</h3></summary>
+                    <ul>
+                        <li><strong>Sağlayıcı ("Bulutun Güvenliği"):</strong> Fiziksel altyapı, temel ağ, hipervizör gibi katmanlardan sorumludur.</li>
+                        <li><strong>Müşteri ("Buluttaki Güvenlik"):</strong> İşletim sistemi (IaaS'ta), ağ yapılandırması (güvenlik grupları vb.), kimlik ve erişim yönetimi (IAM), uygulama güvenliği ve verilerin güvenliğinden sorumludur. Kullanılan hizmet modeline (IaaS, PaaS, SaaS) göre sorumluluklar değişir.</li>
+                    </ul>
+                 </details>
+                  <details class="question-block">
+                    <summary><h3>Önemli Bulut Güvenliği Kontrolleri</h3></summary>
+                    <ul>
+                        <li><strong>IAM Yapılandırması:</strong> En az yetki prensibiyle kullanıcı, grup ve rol izinlerini dikkatlice ayarlamak. Root hesabını günlük işler için kullanmamak. MFA'yı etkinleştirmek.</li>
+                        <li><strong>Ağ Güvenliği:</strong> VPC/VNet'leri segmentlere ayırmak, Güvenlik Grupları/NSG'ler ile sıkı firewall kuralları uygulamak, public IP'leri dikkatli kullanmak.</li>
+                        <li><strong>Veri Şifreleme:</strong> Sağlayıcının sunduğu yönetilen anahtar servisleri (KMS, Key Vault) ile hem duran hem de hareket halindeki veriyi şifrelemek.</li>
+                        <li><strong>Loglama ve İzleme:</strong> CloudTrail, CloudWatch, Azure Monitor gibi servislerle aktiviteleri loglamak ve şüpheli durumlar için uyarılar ayarlamak.</li>
+                        <li><strong>Güvenlik Yanlış Yapılandırmalarını Önleme:</strong> CSPM araçları veya manuel denetimlerle S3 bucket'larının public olması, güvenlik gruplarının fazla açık olması gibi yaygın yanlış yapılandırmaları tespit etmek ve düzeltmek.</li>
+                        <li><strong>Yama ve Zafiyet Yönetimi:</strong> Özellikle IaaS kullanılıyorsa sanal makinelerin işletim sistemi ve uygulamalarını düzenli olarak güncellemek ve taramak.</li>
+                    </ul>
+                  </details>
+            </section>
+
+            <section id="insan-faktoru" class="content-section">
+                <h2>İnsan Faktörü ve Güvenlik Farkındalığı: En Zayıf Halka mı, En Güçlü Savunma mı?</h2>
+                <p>Teknolojik savunmalar ne kadar güçlü olursa olsun, siber güvenlik zincirinin en kritik halkası genellikle insandır. Çalışanların veya bireysel kullanıcıların farkındalık eksikliği veya dikkatsizliği, en gelişmiş güvenlik sistemlerini bile aşmak için bir kapı aralayabilir. Bu nedenle, güvenlik farkındalığı eğitimleri ve güvenli alışkanlıkların teşvik edilmesi büyük önem taşır.</p>
+                <details class="question-block">
+                    <summary><h3>Güvenlik Farkındalığı Eğitiminin Önemi</h3></summary>
+                    <ul>
+                        <li><strong>Phishing ve Sosyal Mühendisliği Tanıma:</strong> Çalışanları sahte e-postaları, şüpheli bağlantıları, kimlik avı girişimlerini ve diğer sosyal mühendislik taktiklerini tanımaları ve bildirmeleri konusunda eğitmek.</li>
+                        <li><strong>Güvenli Parola Kullanımı:</strong> Güçlü, benzersiz parolalar oluşturma ve parola yöneticisi kullanma alışkanlığı kazandırmak. MFA'nın önemini vurgulamak.</li>
+                        <li><strong>Güvenli İnternet Kullanımı:</strong> Güvenli olmayan Wi-Fi ağları, şüpheli web siteleri ve güvenilmeyen yazılım indirmeleri konusundaki riskleri anlatmak.</li>
+                        <li><strong>Veri Gizliliği ve Paylaşımı:</strong> Hassas kurumsal veya kişisel verilerin nasıl korunması gerektiğini, kimlerle ve hangi kanallardan paylaşılıp paylaşılamayacağını öğretmek.</li>
+                        <li><strong>Cihaz Güvenliği:</strong> İş veya kişisel cihazların (laptop, telefon) fiziksel güvenliği, kilit ekranı kullanımı ve kayıp/çalınma durumunda yapılması gerekenler hakkında bilgi vermek.</li>
+                        <li><strong>Olay Bildirimi:</strong> Şüpheli bir durumla karşılaştıklarında (şüpheli e-posta, garip sistem davranışı vb.) bunu kime ve nasıl bildirmeleri gerektiğini öğretmek. Erken bildirim, potansiyel bir saldırının etkisini azaltabilir.</li>
+                    </ul>
+                    <p>Eğitimler tek seferlik olmamalı, düzenli aralıklarla tekrarlanmalı ve interaktif (simülasyonlar, testler) yöntemlerle desteklenmelidir.</p>
+                </details>
+            </section>
+
+            <section id="gelecek" class="content-section">
+                <h2>Siber Güvenliğin Geleceği ve Kariyer Fırsatları</h2>
+                <p>Siber güvenlik, teknolojinin ilerlemesiyle birlikte sürekli evrilen ve önemi giderek artan bir alandır. Gelecekte yeni tehditler ve savunma teknolojileri ortaya çıkarken, bu alandaki kariyer fırsatları da çeşitlenerek artmaktadır.</p>
+                 <details class="question-block">
+                    <summary><h3>Gelecek Trendleri</h3></summary>
+                     <ul>
+                        <li><strong>Yapay Zeka (AI) Odaklı Güvenlik:</strong> Hem saldırıların (daha sofistike phishing, malware) hem de savunmanın (anomali tespiti, otomatik müdahale) merkezinde AI daha fazla yer alacak.</li>
+                        <li><strong>IoT ve OT Güvenliği:</strong> Bağlı cihazların artmasıyla Nesnelerin İnterneti (IoT) ve Operasyonel Teknolojiler (OT - endüstriyel kontrol sistemleri) güvenliği daha kritik hale gelecek.</li>
+                        <li><strong>Bulut Güvenliği Otomasyonu:</strong> Karmaşık bulut ortamlarının güvenliğini yönetmek için otomasyon (CSPM, kod olarak altyapı güvenliği) daha da önem kazanacak.</li>
+                        <li><strong>Kuantuma Dayanıklı Kriptografi:</strong> Kuantum bilgisayarların mevcut şifrelemeyi kırma potansiyeline karşı yeni algoritmalar geliştirilecek.</li>
+                        <li><strong>Sıfır Güven Mimarisi (Zero Trust):</strong> "Asla güvenme, her zaman doğrula" prensibine dayalı olarak, ağın içinde veya dışında olduğuna bakılmaksızın her kullanıcı ve cihaza minimum yetkiyle erişim verme ve sürekli doğrulama yapma yaklaşımı yaygınlaşacak.</li>
+                        <li><strong>Veri Gizliliği Teknolojileri:</strong> Artan düzenlemelerle birlikte homomorfik şifreleme, diferansiyel gizlilik gibi gizliliği koruyan teknolojilere ilgi artacak.</li>
+                     </ul>
+                 </details>
+                 <details class="question-block">
+                    <summary><h3>Kariyer Fırsatları</h3></summary>
+                     <p>Siber güvenlik alanında uzmanlaşmış profesyonellere olan talep çok yüksektir ve artmaya devam etmektedir. Bazı kariyer yolları:</p>
+                     <ul>
+                         <li>Güvenlik Analisti (SOC Analisti)</li>
+                         <li>Sızma Testi Uzmanı (Pentester)</li>
+                         <li>Güvenlik Mühendisi / Mimarı</li>
+                         <li>Uygulama Güvenliği Uzmanı</li>
+                         <li>Bulut Güvenliği Uzmanı</li>
+                         <li>Adli Bilişim Analisti</li>
+                         <li>Güvenlik Danışmanı</li>
+                         <li>Tehdit İstihbaratı Analisti</li>
+                         <li>Risk ve Uyumluluk Uzmanı</li>
+                         <li>Kriptografi Uzmanı</li>
+                     </ul>
+                     <p>Bu alanda başarılı olmak için sürekli öğrenme, analitik düşünme, problem çözme ve iletişim becerileri önemlidir. İlgili sertifikalar (CompTIA Security+, CEH, CISSP, OSCP vb.) kariyer başlangıcında veya ilerlemesinde faydalı olabilir.</p>
+                 </details>
+            </section>
+
+            <section id="sonuc" class="content-section">
+                 <h2>Sonuç: Siber Güvenlik Ortak Sorumluluğumuzdur</h2>
+                 <p>
+                    Siber güvenlik, dijitalleşen dünyamızın karmaşıklığı ve tehditlerin sürekli evrimi nedeniyle göz ardı edilemeyecek bir gerçektir. İnternete bağlı her birey ve kurum, bu tehditlerin farkında olmalı ve kendini korumak için gerekli adımları atmalıdır. Temel kavramları anlamak, yaygın saldırı türlerini tanımak, katmanlı savunma stratejileri uygulamak ve güvenlik farkındalığını artırmak, dijital varlıklarımızı korumanın temelini oluşturur.
+                 </p>
+                 <p>
+                    Teknolojik çözümler önemli olsa da, siber güvenliğin en güçlü veya en zayıf halkası insandır. Güvenli alışkanlıklar edinmek, şüpheli durumlara karşı dikkatli olmak ve sürekli öğrenmek, bireysel düzeyde büyük fark yaratabilir. Kurumlar için ise güvenlik, sadece IT departmanının değil, tüm organizasyonun benimsemesi gereken bir kültür haline gelmelidir. Güvenli tasarım prensiplerini benimsemek, çalışanları eğitmek, süreçleri iyileştirmek ve proaktif savunma mekanizmalarına yatırım yapmak, siber saldırıların yıkıcı etkilerini en aza indirmek için zorunludur.
+                 </p>
+                 <p>
+                    Siber güvenlik, sürekli devam eden bir öğrenme ve adaptasyon sürecidir. Tehditler değiştikçe savunmalar da gelişmelidir. Bu rehberde sunulan bilgiler, bu önemli alana bir giriş niteliğindedir. Daha derinlemesine bilgi edinmek, güncel tehditleri takip etmek ve kişisel/kurumsal güvenlik duruşunuzu sürekli iyileştirmek, dijital dünyada güvende kalmanın ve teknolojinin sunduğu fırsatlardan güvenle yararlanmanın anahtarıdır. Unutmayın, siber güvenlik herkesin ortak sorumluluğudur.
+                 </p>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <a href="https://abdulkadirgungor86.github.io/cv/" target="_blank" rel="noopener noreferrer">© 2025 Abdulkadir Güngör</a><br/>
+        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap (XML)</a>
+    </footer>
+    <script src="../assets/js/blog_script.js"></script>
+</body>
+</html>

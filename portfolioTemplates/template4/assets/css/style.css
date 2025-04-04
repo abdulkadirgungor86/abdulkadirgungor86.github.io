@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0eadd; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.kitaplik-alani {
+    flex-grow: 1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.kitaplik-alani h1 {
+    margin-bottom: 40px;
+    color: #5c3d2e; 
+}
+
+.kitaplar-konteyner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end; 
+    gap: 25px;
+    min-height: 350px; 
+    padding: 20px 0;
+    border-bottom: 15px solid #8b5e3c; 
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.kitap {
+    cursor: pointer;
+    border: 1px solid #444;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    text-align: center;
+    writing-mode: vertical-rl; 
+    text-orientation: mixed;
+    transform-origin: bottom center;
+}
+
+.kitap:hover,
+.kitap:focus {
+    transform: translateY(-15px) scale(1.03);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    outline: 2px solid #a0522d; 
+    outline-offset: 2px;
+}
+
+/* Farklı Kitap Stilleri */
+#kitap1 {
+    background-color: #8B4513; /* Koyu Kahve */
+    width: 50px;
+    height: 280px;
+}
+
+#kitap2 {
+    background-color: #4682B4; /* Çelik Mavi */
+    width: 70px;
+    height: 240px;
+    transform: rotate(-3deg);
+}
+
+#kitap3 {
+    background-color: #2E8B57; /* Deniz Yeşili */
+    width: 45px;
+    height: 300px;
+}
+
+#kitap4 {
+    background-color: #B22222; /* Ateş Tuğlası Kırmızısı */
+    width: 80px;
+    height: 220px;
+    transform: rotate(2deg);
+}
+
+#kitap5 {
+    background-color: #DAA520; /* Altın Sarısı */
+    width: 60px;
+    height: 260px;
+}
+
+
+/* Modal Stilleri */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.aktif {
+    display: flex; 
+}
+
+.modal-icerik {
+    background-color: #fffaf0; /* Krem Rengi */
+    margin: auto;
+    padding: 30px 40px;
+    border: 1px solid #888;
+    width: 85%;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    animation: modalAc 0.4s ease-out;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-kapat-btn {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-kapat-btn:hover,
+.modal-kapat-btn:focus {
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+#modal-baslik {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #5c3d2e; /* Koyu Kahve */
+    text-align: center;
+}
+
+#modal-metin {
+    color: #444;
+    text-align: justify;
+}
+
+@keyframes modalAc {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Footer Stilleri */
+.footer {
+    background-color: #5c3d2e; /* Koyu Kahve */
+    color: #f0eadd; /* Açık Krem */
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: auto; /* Sayfa içeriği az olsa bile en altta kalmasını sağlar */
+}
+
+.footer p {
+    margin-bottom: 8px;
+}
+
+.footer a {
+    color: #ffffff; /* Ten Rengi */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover,
+.footer a:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Responsive Tasarım Ayarlamaları */
+@media (max-width: 768px) {
+    .kitaplar-konteyner {
+        gap: 20px;
+        min-height: 300px;
+        border-bottom-width: 12px;
+    }
+
+    .kitap {
+        width: 40px; /* Daha ince kitaplar */
+        font-size: 0.9em;
+    }
+    #kitap1 { height: 240px; }
+    #kitap2 { width: 55px; height: 210px; }
+    #kitap3 { width: 35px; height: 260px; }
+    #kitap4 { width: 65px; height: 190px; }
+    #kitap5 { width: 50px; height: 230px; }
+
+    .modal-icerik {
+        width: 90%;
+        padding: 25px 30px;
+    }
+     #modal-baslik {
+        font-size: 1.3em;
+     }
+     #modal-metin {
+         font-size: 0.95em;
+     }
+}
+
+@media (max-width: 480px) {
+     .kitaplik-alani {
+        padding: 30px 15px;
+    }
+     .kitaplik-alani h1 {
+        font-size: 1.8em;
+        margin-bottom: 30px;
+    }
+    .kitaplar-konteyner {
+        gap: 15px;
+        min-height: 250px;
+        border-bottom-width: 10px;
+        justify-content: space-around; /* Küçük ekranda daha iyi dağılım */
+    }
+    .kitap {
+        width: 35px; /* Daha da ince kitaplar */
+        height: auto; /* Yüksekliği içeriğe göre ayarlayabilir veya sabit tutabiliriz */
+        min-height: 180px; /* Minimum yükseklik */
+        font-size: 0.8em;
+    }
+     /* Sabit yükseklikler gerekirse tekrar ayarlanabilir */
+    #kitap1 { min-height: 200px; }
+    #kitap2 { width: 45px; min-height: 180px; }
+    #kitap3 { width: 30px; min-height: 220px; }
+    #kitap4 { width: 55px; min-height: 160px; }
+    #kitap5 { width: 40px; min-height: 190px; }
+
+    .modal-icerik {
+        width: 95%;
+        padding: 20px 25px;
+        max-height: 85vh;
+    }
+    #modal-baslik {
+        font-size: 1.2em;
+     }
+     #modal-metin {
+         font-size: 0.9em;
+     }
+      .modal-kapat-btn {
+         font-size: 24px;
+         top: 5px;
+         right: 15px;
+     }
+}

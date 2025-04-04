@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapsamlı JavaScript Öğrenme Rehberi: Web'e Hayat Verin</title>
+    <meta name="description" content="JavaScript öğrenmek için temelden ileri seviyeye uzanan kapsamlı bir rehber. Değişkenler, veri tipleri, operatörler, DOM manipülasyonu, olay yönetimi, fonksiyonlar, nesneler, diziler, ES6+ özellikleri, asenkron programlama (Promise, async/await) ve en iyi uygulamalar hakkında detaylı bilgi ve örnekler içerir. Abdulkadir Güngör tarafından hazırlanmıştır.">
+    <meta name="keywords" content="JavaScript, JS, JavaScript Öğren, JavaScript Dersleri, Frontend, Backend (Node.js), JavaScript Nedir, Değişkenler, Veri Tipleri, Operatörler, DOM, Document Object Model, Olaylar, Events, Fonksiyonlar, Nesneler, Diziler, ES6, ECMAScript, Asenkron JavaScript, Promise, Async Await, Fetch API, JavaScript Temelleri, JavaScript Kılavuzu, JavaScript Rehberi, Abdulkadir Güngör, JavaScript Tutorial Türkçe">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="canonical" href="https://abdulkadirgungor86.github.io/blog/blog_page_10.html" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    <link rel="stylesheet" href="../assets/css/blog_style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">JavaScript Öğrenme Rehberi</div>
+            <button class="menu-toggle" aria-label="Menüyü Aç/Kapat">☰</button>
+            <ul class="nav-menu">
+                <li><a href="#giris">Giriş</a></li>
+                <li><a href="#temeller">Temeller</a></li>
+                <li><a href="#dom">DOM</a></li>
+                <li><a href="#events">Olaylar</a></li>
+                <li><a href="#veri-tipleri">Veri Tipleri</a></li>
+                <li><a href="#fonksiyonlar">Fonksiyonlar</a></li>
+                <li><a href="#es6">ES6+</a></li>
+                <li><a href="#asenkron">Asenkron</a></li>
+                <li><a href="#ileri">İleri</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <article id="giris" class="content-section intro-section">
+                <h1>JavaScript: Dinamik ve Etkileşimli Web'in Dili</h1>
+                <p>
+                    Modern web geliştirmenin üç temel taşından biri olan JavaScript (JS), web sayfalarına hayat veren, onları statik bilgi yığınları olmaktan çıkarıp dinamik ve etkileşimli deneyimlere dönüştüren güçlü bir betik dilidir. HTML içeriği yapılandırır, CSS görünümü stilize ederken, JavaScript kullanıcının eylemlerine tepki vermeyi, içeriği anında güncellemeyi, animasyonlar oluşturmayı, sunucuyla iletişim kurmayı ve çok daha fazlasını mümkün kılar. Başlangıçta sadece tarayıcılar içinde basit görevler için tasarlanmış olsa da, günümüzde Node.js gibi platformlar sayesinde sunucu tarafında, mobil uygulamalarda, masaüstü uygulamalarında ve hatta IoT cihazlarında bile kullanılabilen çok yönlü bir dil haline gelmiştir.
+                </p>
+                <p>
+                    JavaScript'in en belirgin özelliği, istemci tarafında (kullanıcının tarayıcısında) çalışabilmesidir. Bu, sayfanın yeniden yüklenmesine gerek kalmadan anlık geri bildirimler vermeyi, formları doğrulamayı, kullanıcı arayüzünü dinamik olarak değiştirmeyi sağlar. Örneğin, bir butona tıkladığınızda bir menünün açılması, bir form gönderildiğinde hata mesajlarının gösterilmesi, sayfa kaydırıldıkça yeni içeriğin yüklenmesi gibi işlemler JavaScript sayesinde gerçekleşir. HTML'in Document Object Model (DOM) yapısına erişerek HTML elemanlarını manipüle etme yeteneği, JavaScript'in web sayfaları üzerindeki kontrolünün temelini oluşturur.
+                </p>
+                 <p>
+                    1995 yılında Netscape tarafından "LiveScript" adıyla geliştirilen ve kısa süre sonra popüler Java dilinden esinlenerek "JavaScript" adını alan bu dil, ECMA International tarafından standartlaştırılmıştır. ECMAScript adı verilen bu standart, dilin temel özelliklerini ve sözdizimini belirler. Tarayıcılar ve Node.js gibi ortamlar, ECMAScript standardını kendi motorları (V8, SpiderMonkey, JavaScriptCore vb.) ile uygularlar. Özellikle 2015'te yayınlanan ECMAScript 6 (ES6) sürümüyle birlikte dile eklenen let/const, arrow functions, sınıflar, modüller, Promise'ler gibi modern özellikler, JavaScript'i daha güçlü, okunabilir ve yönetilebilir hale getirmiştir. Bu rehber, JavaScript'in temellerinden başlayarak DOM manipülasyonu, olay yönetimi, modern ES6+ özellikleri ve asenkron programlama gibi kritik konuları kapsayarak size sağlam bir başlangıç sunmayı ve web'e dinamizm katma yolculuğunuzda rehberlik etmeyi amaçlamaktadır.
+                </p>
+            </article>
+
+            <section id="temeller" class="content-section">
+                <h2>JavaScript Temelleri: Sözdizimi, Değişkenler ve Operatörler</h2>
+                <p>
+                    JavaScript kodunu anlamak ve yazmak için öncelikle dilin temel kurallarını, verileri saklama yöntemlerini (değişkenler) ve bu verilerle işlem yapma yollarını (operatörler) öğrenmek gerekir.
+                </p>
+
+                <details class="question-block">
+                    <summary><h3>JavaScript Kodunu HTML'e Ekleme</h3></summary>
+                    <p>JavaScript kodunu HTML sayfalarına dahil etmenin birkaç yolu vardır:</p>
+                    <ul>
+                        <li><strong>Dahili (Internal) Script:</strong> Kodlar, HTML dosyasının içinde, genellikle <code>&amp;lt;head&amp;gt;</code> veya <code>&amp;lt;body&amp;gt;</code> bölümünün sonunda yer alan <code>&amp;lt;script&amp;gt;</code> etiketleri arasına yazılır. Küçük kod parçaları veya sadece o sayfaya özgü scriptler için kullanılabilir.
+                            <pre><code class="language-html">
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;title&amp;gt;Dahili JavaScript&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;h1 id="baslik"&amp;gt;Merhaba!&amp;lt;/h1&amp;gt;
+  &amp;lt;button onclick="mesajGoster()"&amp;gt;Tıkla&amp;lt;/button&amp;gt;
+
+  &amp;lt;script&amp;gt;
+    function mesajGoster() {
+      alert('Butona tıklandı!');
+      document.getElementById('baslik').textContent = 'JavaScript Çalıştı!';
+    }
+    console.log('Sayfa yüklendi.');
+  &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+                            </code></pre>
+                        </li>
+                        <li><strong>Harici (External) Script:</strong> Kodlar ayrı bir <code>.js</code> uzantılı dosyaya yazılır ve <code>&amp;lt;script&amp;gt;</code> etiketinin <code>src</code> niteliği kullanılarak HTML dosyasına bağlanır. Bu, en yaygın ve tavsiye edilen yöntemdir. Kodun tekrar kullanılabilirliğini artırır, HTML dosyasını temiz tutar ve tarayıcıların script dosyasını önbelleğe almasına olanak tanır.
+                            <pre><code class="language-html">
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;title&amp;gt;Harici JavaScript&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;!-- Sayfa içeriği --&amp;gt;
+
+  &amp;lt;!-- Script dosyasını genellikle body kapanmadan önce eklemek önerilir --&amp;gt;
+  &amp;lt;script src="scriptim.js"&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+                            </code></pre>
+                            <p><code>scriptim.js</code> dosyası:</p>
+                            <pre><code class="language-javascript">
+console.log('Harici script çalıştı!');
+// Diğer JavaScript kodları...
+                            </code></pre>
+                             <p><strong>Not:</strong> <code>&amp;lt;script&amp;gt;</code> etiketi <code>src</code> niteliği ile kullanıldığında, etiketler arasına kod yazılmaz.</p>
+                             <p><strong><code>async</code> ve <code>defer</code> Nitelikleri:</strong> Harici scriptleri eklerken performansı optimize etmek için kullanılırlar.</p>
+                             <ul>
+                                 <li>Normalde (niteliksiz), tarayıcı bir <code>&amp;lt;script&amp;gt;</code> etiketine rastladığında HTML işlemeyi durdurur, scripti indirir ve çalıştırır, sonra HTML işlemeye devam eder. Bu, sayfa yüklenmesini bloke edebilir.</li>
+                                 <li><code>&lt;script async src="..."&gt;</code>: Script, HTML işlenirken asenkron olarak indirilir ve indirildiği anda çalıştırılır (HTML işlemesi yine duraklatılır). Çalışma sırası garanti değildir. DOM manipülasyonu yapmayan veya sırası önemli olmayan scriptler için uygundur.</li>
+                                 <li><code>&lt;script defer src="..."&gt;</code>: Script, HTML işlenirken asenkron olarak indirilir ancak HTML işlemesi bittikten *sonra*, DOMContentLoaded olayından hemen önce, eklendikleri sırayla çalıştırılır. Genellikle DOM ile etkileşime giren scriptler için en iyi seçenektir.</li>
+                             </ul>
+                        </li>
+                        <li><strong>Satır İçi (Inline) Olay İşleyiciler:</strong> JavaScript kodu doğrudan HTML elemanlarının olay niteliklerine (<code>onclick</code>, <code>onmouseover</code> vb.) yazılır. Çok kısa ve basit işlemler dışında genellikle önerilmez, çünkü HTML ve JavaScript kodunu karıştırır ve bakımı zorlaştırır.
+                            <pre><code class="language-html">
+&amp;lt;button onclick="alert('Merhaba Dünya!'); console.log('Buton tıklandı');"&amp;gt;Bana Tıkla&amp;lt;/button&amp;gt;
+                            </code></pre>
+                        </li>
+                    </ul>
+                    <p>En iyi pratik, JavaScript kodunu harici <code>.js</code> dosyalarında tutmak ve <code>defer</code> niteliği ile <code>&amp;lt;body&amp;gt;</code> etiketinin kapanışından hemen önce eklemektir.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Temel Sözdizimi, Yorumlar ve Konsol</h3></summary>
+                    <ul>
+                        <li><strong>İfadeler (Statements):</strong> JavaScript kodu ifadelerden oluşur. Her ifade genellikle bir eylemi gerçekleştirir ve noktalı virgül (<code>;</code>) ile sonlandırılır. Noktalı virgül çoğu durumda isteğe bağlıdır (ASI - Automatic Semicolon Insertion nedeniyle), ancak hataları önlemek ve kod okunabilirliği için kullanılması şiddetle tavsiye edilir.</li>
+                        <li><strong>Büyük/Küçük Harf Duyarlılığı:</strong> JavaScript büyük/küçük harfe duyarlı bir dildir. Yani <code>degisken</code> ile <code>Degisken</code> farklıdır.</li>
+                        <li><strong>Boşluklar (Whitespace):</strong> JavaScript, kod okunabilirliğini etkilemeyen ekstra boşlukları, tabları ve yeni satırları genellikle göz ardı eder.</li>
+                        <li><strong>Yorumlar:</strong>
+                            <ul>
+                                <li>Tek satır yorumları: <code>//</code> ile başlar ve satır sonuna kadar devam eder.</li>
+                                <li>Çok satır yorumları: <code>/*</code> ile başlar ve <code>*/</code> ile biter.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Konsol (Console):</strong> Tarayıcı geliştirici araçlarının (genellikle F12 ile açılır) önemli bir parçasıdır. <code>console.log()</code> fonksiyonu, hata ayıklama veya bilgi gösterme amacıyla konsola mesajlar yazdırmak için kullanılır. Diğer yararlı <code>console</code> metodları: <code>console.warn()</code>, <code>console.error()</code>, <code>console.table()</code> (dizi/nesneleri tablo olarak gösterir), <code>console.time()</code> / <code>console.timeEnd()</code> (işlem süresini ölçer).</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+// Bu tek satırlık bir yorumdur.
+let mesaj = "Merhaba Dünya!"; // Bir ifade: değişkene değer atama
+console.log(mesaj);          // Başka bir ifade: konsola yazdırma
+
+/*
+ Bu çok satırlı
+ bir yorum örneğidir.
+*/
+let sayi1 = 10;
+let sayi2 = 20;
+let toplam = sayi1 + sayi2; // Operatör kullanımı
+
+console.warn("Bu bir uyarı mesajıdır.");
+console.error("Bu bir hata mesajıdır.");
+
+let kullanicilar = [
+  { ad: "Ahmet", yas: 30 },
+  { ad: "Ayşe", yas: 25 }
+];
+console.table(kullanicilar);
+                    </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Değişkenler (`var`, `let`, `const`)</h3></summary>
+                    <p>Değişkenler, verileri (sayılar, metinler vb.) saklamak için kullanılan isimlendirilmiş depolama alanlarıdır. JavaScript'te değişken tanımlamak için üç anahtar kelime kullanılır:</p>
+                    <ul>
+                        <li><strong><code>var</code> (Eski Yöntem):</strong> ES6 öncesinde değişken tanımlamanın tek yoluydu. Fonksiyon kapsamlıdır (function scope) veya global kapsamlıdır. Aynı kapsam içinde tekrar tanımlanabilir ve değeri değiştirilebilir. "Hoisting" adı verilen bir davranış sergiler (tanımlama yukarı taşınır, atama değil). Modern JavaScript'te genellikle <code>let</code> ve <code>const</code> kullanımı tercih edilir.</li>
+                        <li><strong><code>let</code> (ES6+):</strong> Blok kapsamlıdır (block scope - <code>{ }</code> içinde tanımlandığında sadece orada geçerlidir). Değeri sonradan değiştirilebilir ancak aynı kapsam içinde tekrar tanımlanamaz. Hoisting davranışı <code>var</code>'dan farklıdır (Temporal Dead Zone - TDZ). Modern JavaScript'te değeri değişebilecek değişkenler için kullanılır.</li>
+                        <li><strong><code>const</code> (ES6+):</strong> Blok kapsamlıdır. Değeri tanımlandığı anda atanmalıdır ve sonradan **tekrar atanamaz** (sabit). Ancak, eğer <code>const</code> ile tanımlanan bir nesne (object) veya dizi (array) ise, nesnenin/dizinin *içeriği* (elemanları veya özellikleri) değiştirilebilir, sadece değişkenin kendisi başka bir nesneye/diziye atanamaz. Hoisting davranışı <code>let</code> gibidir (TDZ). Değeri değişmeyecek değişkenler için (sabitler) varsayılan olarak tercih edilmelidir.</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+// var kullanımı (Eski - Genellikle Kaçınılır)
+var eskiMesaj = "Eski yöntem";
+var eskiMesaj = "Tekrar tanımlandı"; // Hata vermez
+eskiMesaj = "Değeri değişti";
+console.log(eskiMesaj);
+
+if (true) {
+  var fonksiyonKapsamli = "Dışarıdan erişilebilir";
+}
+console.log(fonksiyonKapsamli); // Erişilebilir
+
+// let kullanımı (Değeri Değişebilir, Blok Kapsamlı)
+let yeniMesaj = "Merhaba";
+// let yeniMesaj = "Hata!"; // Tekrar tanımlanamaz
+yeniMesaj = "Merhaba Dünya"; // Değeri değiştirilebilir
+console.log(yeniMesaj);
+
+if (true) {
+  let blokKapsamli = "Sadece blok içinde";
+  console.log(blokKapsamli);
+}
+// console.log(blokKapsamli); // Hata! Dışarıdan erişilemez
+
+// const kullanımı (Sabit Değer, Blok Kapsamlı)
+const PI = 3.14159;
+// PI = 3.14; // Hata! Tekrar atanamaz
+// const PI = 3; // Hata! Tekrar tanımlanamaz
+console.log(PI);
+
+const kullanici = { ad: "Ali", yas: 28 };
+kullanici.yas = 29; // Geçerli! Nesnenin içeriği değişebilir.
+// kullanici = { ad: "Veli", yas: 40 }; // Hata! Başka bir nesne atanamaz.
+console.log(kullanici);
+
+const renkler = ["kırmızı", "yeşil"];
+renkler.push("mavi"); // Geçerli! Dizinin içeriği değişebilir.
+// renkler = ["sarı", "turuncu"]; // Hata! Başka bir dizi atanamaz.
+console.log(renkler);
+
+// Hoisting örneği
+console.log(a); // undefined (var ile tanımlandığı için hata vermez ama değeri yoktur)
+var a = 5;
+
+// console.log(b); // Hata! Temporal Dead Zone (let/const TDZ'dedir)
+let b = 10;
+                    </code></pre>
+                    <p>Modern JavaScript'te, değişkenler için varsayılan olarak <code>const</code> kullanın. Değişkenin değerinin daha sonra değişmesi gerekiyorsa <code>let</code> kullanın. <code>var</code> kullanımından mümkün olduğunca kaçının.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Operatörler</h3></summary>
+                    <p>Değerler üzerinde işlemler yapmak için kullanılırlar:</p>
+                    <ul>
+                        <li><strong>Atama Operatörleri:</strong> Değişkenlere değer atamak için kullanılır (<code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code>, <code>%=</code>).
+                            <pre><code class="language-javascript">let x = 10; x += 5; // x = x + 5 anlamına gelir, x şimdi 15</code></pre>
+                        </li>
+                        <li><strong>Aritmetik Operatörler:</strong> Matematiksel işlemler yapar (<code>+</code> (toplama/string birleştirme), <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code> (modülüs - kalan), <code>**</code> (üs alma - ES6+), <code>++</code> (arttırma), <code>--</code> (azaltma)).
+                            <pre><code class="language-javascript">let yas = 30; let gelecekYas = yas + 1; let kalan = 10 % 3; // kalan = 1</code></pre>
+                        </li>
+                        <li><strong>Karşılaştırma Operatörleri:</strong> İki değeri karşılaştırır ve bir boolean (<code>true</code> veya <code>false</code>) sonuç döndürür.
+                            <ul>
+                                <li>Eşitlik: <code>==</code> (değer eşitliği, tip dönüşümü yapabilir - genellikle önerilmez), <code>===</code> (katı eşitlik - değer VE tip eşitliği - önerilir).</li>
+                                <li>Eşitsizlik: <code>!=</code> (değer eşitsizliği), <code>!==</code> (katı eşitsizlik - önerilir).</li>
+                                <li>Büyüklük/Küçüklük: <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>.</li>
+                            </ul>
+                             <pre><code class="language-javascript">
+console.log(5 == "5");  // true (tip dönüşümü yapar)
+console.log(5 === "5"); // false (tipler farklı)
+console.log(10 &gt; 5);    // true
+console.log("a" &lt; "b"); // true (alfabetik karşılaştırma)
+                            </code></pre>
+                        </li>
+                        <li><strong>Mantıksal Operatörler:</strong> Boolean değerler üzerinde mantıksal işlemler yapar.
+                            <ul>
+                                <li><code>&amp;&amp;</code> (VE - AND): Her iki koşul da doğruysa <code>true</code> döner.</li>
+                                <li><code>||</code> (VEYA - OR): Koşullardan en az biri doğruysa <code>true</code> döner.</li>
+                                <li><code>!</code> (DEĞİL - NOT): Bir boolean değeri tersine çevirir.</li>
+                            </ul>
+                             <pre><code class="language-javascript">
+let sicaklik = 25;
+let yagisVar = false;
+if (sicaklik &gt; 20 &amp;amp;&amp;amp; !yagisVar) {
+  console.log("Hava dışarı çıkmak için güzel!");
+}
+                            </code></pre>
+                        </li>
+                        <li><strong>Koşul (Ternary) Operatörü:</strong> <code>if/else</code> ifadesinin kısa yoludur. <code>koşul ? deger_dogruysa : deger_yanlissa</code>
+                            <pre><code class="language-javascript">let yas = 18; let durum = (yas &gt;= 18) ? "Yetişkin" : "Çocuk"; console.log(durum); // "Yetişkin"</code></pre>
+                        </li>
+                         <li><strong>typeof Operatörü:</strong> Bir değişkenin veya değerin veri tipini string olarak döndürür (örn: <code>"number"</code>, <code>"string"</code>, <code>"boolean"</code>, <code>"object"</code>, <code>"undefined"</code>, <code>"function"</code>). <code>null</code> için <code>"object"</code> döndürmesi bilinen bir garipliktir.</li>
+                    </ul>
+                </details>
+            </section>
+
+            <section id="dom" class="content-section">
+                <h2>DOM Manipülasyonu: Web Sayfasını Değiştirmek</h2>
+                <p>Document Object Model (DOM), bir HTML veya XML belgesinin tarayıcı tarafından oluşturulan programlama arayüzüdür. Belgenin mantıksal yapısını bir ağaç (tree) gibi temsil eder ve her HTML elemanı, niteliği ve metin parçası bu ağaçta bir düğüm (node) olur. JavaScript, DOM API'si aracılığıyla bu ağaca erişebilir, elemanları bulabilir, içeriklerini ve stillerini değiştirebilir, yeni elemanlar ekleyebilir veya mevcutları silebilir.</p>
+
+                <details class="question-block">
+                    <summary><h3>DOM Nedir?</h3></summary>
+                    <p>DOM, statik bir HTML belgesini canlı, değiştirilebilir bir nesneye dönüştürür. Tarayıcı HTML kodunu okuduğunda, bu kodu temel alarak bir DOM ağacı oluşturur. Bu ağaç, belgenin yapısını hiyerarşik olarak temsil eder:</p>
+                    <ul>
+                        <li>En üstte `document` nesnesi bulunur.</li>
+                        <li>Onun altında `&lt;html&gt;` elemanı vardır.</li>
+                        <li>`&lt;html&gt;`'in altında `&lt;head&gt;` ve `&lt;body&gt;` elemanları bulunur.</li>
+                        <li>Bu elemanların altında da diğer etiketler (<code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;div&gt;</code> vb.), nitelikler ve metin düğümleri yer alır.</li>
+                    </ul>
+                    <p>JavaScript, bu `document` nesnesi aracılığıyla DOM'a erişir ve onu manipüle eder. Yapılan değişiklikler anında tarayıcıda görüntülenen sayfaya yansır.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>HTML Elemanlarını Seçme</h3></summary>
+                    <p>DOM'daki belirli HTML elemanlarına erişmek için çeşitli metodlar kullanılır:</p>
+                    <ul>
+                        <li><strong><code>document.getElementById('id_adi')</code>:</strong> Belirtilen `id` niteliğine sahip tek bir elemanı döndürür. ID'ler benzersiz olduğu için bu en hızlı yöntemlerden biridir. Bulamazsa `null` döner.</li>
+                        <li><strong><code>document.getElementsByTagName('etiket_adi')</code>:</strong> Belirtilen etiket adına (örn: 'p', 'div', 'li') sahip tüm elemanları canlı bir `HTMLCollection` (dizi benzeri bir yapı) olarak döndürür.</li>
+                        <li><strong><code>document.getElementsByClassName('sinif_adi')</code>:</strong> Belirtilen sınıf adına sahip tüm elemanları canlı bir `HTMLCollection` olarak döndürür.</li>
+                        <li><strong><code>document.querySelector('css_secici')</code>:</strong> Belirtilen CSS seçicisine uyan **ilk** elemanı döndürür. CSS seçicilerinin gücünü kullanır (örn: <code>'#menu li.aktif a'</code>). Bulamazsa `null` döner. Çok yönlü ve yaygın kullanılır.</li>
+                        <li><strong><code>document.querySelectorAll('css_secici')</code>:</strong> Belirtilen CSS seçicisine uyan **tüm** elemanları statik bir `NodeList` (dizi benzeri bir yapı) olarak döndürür.</li>
+                    </ul>
+                     <pre><code class="language-javascript">
+// ID ile seçme
+const anaBaslik = document.getElementById('ana-baslik');
+console.log(anaBaslik);
+
+// Etiket adıyla seçme (HTMLCollection)
+const paragraflar = document.getElementsByTagName('p');
+console.log(paragraflar); // Tüm p elemanları
+console.log(paragraflar[0]); // İlk paragraf
+
+// Sınıf adıyla seçme (HTMLCollection)
+const uyariKutulari = document.getElementsByClassName('uyari');
+console.log(uyariKutulari); // 'uyari' sınıfına sahip elemanlar
+
+// CSS seçici ile ilk elemanı seçme
+const ilkAktifLink = document.querySelector('#menu li.aktif a');
+console.log(ilkAktifLink);
+
+// CSS seçici ile tüm elemanları seçme (NodeList)
+const tumLinkler = document.querySelectorAll('a');
+console.log(tumLinkler); // Sayfadaki tüm a elemanları
+
+// NodeList üzerinde döngü ile gezinme (forEach kullanılabilir)
+tumLinkler.forEach(function(link, index) {
+  console.log(`Link ${index + 1}: ${link.href}`);
+});
+
+// HTMLCollection üzerinde döngü (forEach doğrudan desteklemez, Array.from ile çevrilebilir)
+Array.from(paragraflar).forEach(p =&gt; {
+    console.log(p.textContent.substring(0, 20) + "...");
+});
+                    </code></pre>
+                    <p>Canlı `HTMLCollection` ile statik `NodeList` arasındaki fark: DOM'a yeni elemanlar eklendiğinde veya silindiğinde, `HTMLCollection` otomatik olarak güncellenir, ancak `querySelectorAll` ile elde edilen `NodeList` güncellenmez (elde edildiği andaki durumu yansıtır).</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Eleman İçeriğini ve Niteliklerini Değiştirme</h3></summary>
+                    <p>Seçilen elemanların içeriğini, HTML yapısını ve niteliklerini değiştirebiliriz:</p>
+                    <ul>
+                        <li><strong><code>element.innerHTML</code>:</strong> Bir elemanın içindeki HTML kodunu alır veya ayarlar. HTML etiketlerini yorumlar. Güvenilmeyen kaynaklardan gelen verilerle kullanırken dikkatli olunmalıdır (XSS saldırılarına açık olabilir).</li>
+                        <li><strong><code>element.textContent</code>:</strong> Bir elemanın içindeki sadece metin içeriğini alır veya ayarlar. HTML etiketlerini metin olarak işler (yorumlamaz). Genellikle <code>innerHTML</code>'den daha güvenli ve performanslıdır.</li>
+                        <li><strong><code>element.innerText</code>:</strong> <code>textContent</code>'a benzer, ancak CSS ile gizlenmiş metinleri dikkate alır ve metin formatlamasını (örn: satır atlamaları) korumaya çalışır. Genellikle <code>textContent</code> tercih edilir.</li>
+                        <li><strong><code>element.style.özellikAdı</code>:</strong> Elemanın satır içi (inline) stillerini değiştirmek için kullanılır. CSS özellik adları camelCase olarak yazılır (örn: <code>backgroundColor</code>, <code>fontSize</code>).
+                            <pre><code class="language-javascript">
+const baslik = document.getElementById('ana-baslik');
+baslik.style.color = 'red';
+baslik.style.backgroundColor = 'yellow';
+baslik.style.fontSize = '2em';
+                            </code></pre>
+                        </li>
+                        <li><strong><code>element.setAttribute('nitellik_adi', 'yeni_deger')</code>:</strong> Bir elemanın niteliğinin değerini ayarlar veya yeni bir nitelik ekler.</li>
+                        <li><strong><code>element.getAttribute('nitellik_adi')</code>:</strong> Bir elemanın belirtilen niteliğinin değerini alır.</li>
+                        <li><strong><code>element.removeAttribute('nitellik_adi')</code>:</strong> Bir elemandan belirtilen niteliği kaldırır.</li>
+                        <li><strong><code>element.classList</code>:</strong> Elemanın sınıf listesini yönetmek için kullanılır:
+                            <ul>
+                                <li><code>element.classList.add('yeni-sinif')</code>: Sınıf ekler.</li>
+                                <li><code>element.classList.remove('eski-sinif')</code>: Sınıf kaldırır.</li>
+                                <li><code>element.classList.toggle('aktif-sinif')</code>: Sınıf varsa kaldırır, yoksa ekler.</li>
+                                <li><code>element.classList.contains('sinif-adi')</code>: Elemanın belirtilen sınıfa sahip olup olmadığını kontrol eder (true/false döner).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Form Elemanları Değerleri:</strong> <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code> gibi form elemanlarının değerlerini almak veya ayarlamak için genellikle <code>element.value</code> özelliği kullanılır. Checkbox ve radio butonları için <code>element.checked</code> (boolean) kullanılır.</li>
+                    </ul>
+                     <pre><code class="language-javascript">
+// İçerik değiştirme
+const aciklama = document.querySelector('.aciklama');
+if (aciklama) {
+    aciklama.innerHTML = '&amp;lt;strong&amp;gt;Yeni&amp;lt;/strong&amp;gt; HTML içerik.'; // HTML yorumlanır
+    // aciklama.textContent = 'Sadece metin içerik.'; // HTML yorumlanmaz
+}
+
+// Nitelik değiştirme
+const logo = document.getElementById('logo');
+if (logo) {
+    logo.setAttribute('src', 'yeni-logo.png');
+    logo.setAttribute('alt', 'Yeni Logo Açıklaması');
+    console.log(logo.getAttribute('width')); // Genişlik niteliğini oku
+}
+
+// Sınıf yönetimi
+const menu = document.getElementById('ana-menu');
+if (menu) {
+    menu.classList.add('aktif');
+    menu.classList.remove('gizli');
+    menu.classList.toggle('mobil-görünüm');
+    if (menu.classList.contains('aktif')) {
+        console.log("Menü aktif!");
+    }
+}
+
+// Form değeri alma
+const kullaniciAdiInput = document.getElementById('kullanici-adi');
+if (kullaniciAdiInput) {
+    let kullaniciAdi = kullaniciAdiInput.value;
+    console.log('Girilen Kullanıcı Adı:', kullaniciAdi);
+    kullaniciAdiInput.value = "Varsayılan Değer"; // Değeri değiştirme
+}
+                    </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Yeni Eleman Oluşturma ve Ekleme/Silme</h3></summary>
+                    <p>JavaScript ile dinamik olarak yeni HTML elemanları oluşturabilir ve bunları DOM'a ekleyebilir veya mevcut elemanları kaldırabiliriz.</p>
+                    <ul>
+                        <li><strong><code>document.createElement('etiket_adi')</code>:</strong> Belirtilen etiket adına sahip yeni bir HTML elemanı (DOM düğümü) oluşturur (ancak henüz DOM'a eklenmez).</li>
+                        <li><strong><code>document.createTextNode('metin')</code>:</strong> Yeni bir metin düğümü oluşturur.</li>
+                        <li><strong><code>parentElement.appendChild(childElement)</code>:</strong> Oluşturulan bir elemanı (<code>childElement</code>), belirtilen üst elemanın (<code>parentElement</code>) son çocuğu olarak DOM'a ekler.</li>
+                        <li><strong><code>parentElement.insertBefore(newElement, referenceElement)</code>:</strong> <code>newElement</code>'ı, <code>parentElement</code> içinde <code>referenceElement</code>'dan hemen önce ekler.</li>
+                        <li><strong><code>element.remove()</code>:</strong> Elemanı DOM'dan kaldırır.</li>
+                        <li><strong><code>parentElement.removeChild(childElement)</code> (Eski):</strong> Belirtilen çocuk elemanı üst elemandan kaldırır.</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+// Yeni bir liste öğesi oluşturup listeye ekleme
+const liste = document.querySelector('#urun-listesi');
+
+if (liste) {
+    // Yeni li elemanı oluştur
+    const yeniOge = document.createElement('li');
+
+    // İçine metin ekle (metin düğümü oluşturup ekleyerek)
+    const metin = document.createTextNode('Yeni Ürün');
+    yeniOge.appendChild(metin);
+
+    // Alternatif olarak textContent veya innerHTML kullanılabilir
+    // yeniOge.textContent = 'Yeni Ürün';
+
+    // li elemanına sınıf ekle
+    yeniOge.classList.add('urun');
+
+    // Oluşturulan li elemanını listenin sonuna ekle
+    liste.appendChild(yeniOge);
+
+    // Yeni bir öğeyi listenin başına ekleme
+    const ilkOge = liste.querySelector('li'); // İlk li'yi referans al
+    const basaEklenecekOge = document.createElement('li');
+    basaEklenecekOge.textContent = "En Yeni Ürün";
+    if (ilkOge) {
+        liste.insertBefore(basaEklenecekOge, ilkOge);
+    } else { // Liste boşsa sona ekle
+        liste.appendChild(basaEklenecekOge);
+    }
+}
+
+// Belirli bir elemanı silme
+const silinecek = document.getElementById('eski-reklam');
+if (silinecek) {
+    silinecek.remove(); // Modern ve basit yöntem
+    // Veya eski yöntem: silinecek.parentNode.removeChild(silinecek);
+}
+                    </code></pre>
+                </details>
+            </section>
+
+            <section id="events" class="content-section">
+                <h2>Olaylar (Events): Kullanıcı Etkileşimlerine Tepki Verme</h2>
+                <p>JavaScript'in en güçlü yanlarından biri, kullanıcı eylemlerine (tıklama, fare hareketi, klavye girişi vb.) veya tarayıcı olaylarına (sayfa yüklenmesi, boyut değişimi vb.) tepki verebilmesidir. Bu, "olay dinleyicileri" (event listeners) aracılığıyla yapılır.</p>
+
+                <details class="question-block">
+                    <summary><h3>Olay Dinleyici Ekleme (`addEventListener`)</h3></summary>
+                    <p>Bir HTML elemanına olay dinleyici eklemenin modern ve en esnek yolu <code>addEventListener()</code> metodunu kullanmaktır. Bu metod, aynı elemana aynı olay türü için birden fazla dinleyici eklemeye olanak tanır.</p>
+                    <p>Sözdizimi: <code>element.addEventListener('olayTürü', fonksiyonAdıVeyaIfadesi, [seçenekler]);</code></p>
+                    <ul>
+                        <li><strong><code>element</code>:</strong> Olayı dinleyecek olan HTML elemanı (<code>document</code>, <code>window</code> veya <code>querySelector</code> ile seçilmiş bir eleman olabilir).</li>
+                        <li><strong><code>olayTürü</code>:</strong> Dinlenecek olayın adı (string olarak, 'on' öneki olmadan - örn: <code>'click'</code>, <code>'mouseover'</code>, <code>'keydown'</code>).</li>
+                        <li><strong><code>fonksiyonAdıVeyaIfadesi</code>:</strong> Olay gerçekleştiğinde çalıştırılacak olan JavaScript fonksiyonudur. Bu, isimlendirilmiş bir fonksiyon, anonim bir fonksiyon veya bir arrow function olabilir. Bu fonksiyona otomatik olarak bir olay nesnesi (event object) parametre olarak geçer.</li>
+                        <li><strong><code>seçenekler</code> (İsteğe bağlı):</strong> Olay dinleyicinin davranışını ayarlayan bir nesne veya boolean değer.
+                            <ul>
+                                <li><code>capture</code> (boolean): Olayın yakalama (capturing) aşamasında mı yoksa kabarcıklanma (bubbling - varsayılan) aşamasında mı çalışacağını belirler.</li>
+                                <li><code>once</code> (boolean): Eğer <code>true</code> ise, dinleyici olay ilk kez tetiklendikten sonra otomatik olarak kaldırılır.</li>
+                                <li><code>passive</code> (boolean): Eğer <code>true</code> ise, dinleyicinin <code>event.preventDefault()</code> metodunu çağırmayacağını tarayıcıya bildirir. Bu, özellikle dokunmatik olaylarda (<code>touchstart</code>, <code>touchmove</code>) kaydırma performansını iyileştirebilir.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>Olay dinleyicisini kaldırmak için <code>removeEventListener('olayTürü', fonksiyonAdı, [seçenekler])</code> metodu kullanılır. Kaldırma işleminin çalışması için eklerken kullanılan fonksiyon referansının aynı olması gerekir (anonim fonksiyonlar doğrudan kaldırılamaz).</p>
+                    <pre><code class="language-javascript">
+const buton = document.getElementById('hesaplaButonu');
+const sonucDiv = document.getElementById('sonucAlani');
+
+// İsimlendirilmiş fonksiyon kullanarak
+function hesaplamaYap() {
+  console.log('Hesaplama yapılıyor...');
+  sonucDiv.textContent = 'Sonuç: ' + Math.random();
+  // Dinleyiciyi kaldır (sadece bir kez çalışsın)
+  buton.removeEventListener('click', hesaplamaYap);
+}
+
+if (buton) {
+  buton.addEventListener('click', hesaplamaYap);
+}
+
+// Anonim fonksiyon kullanarak
+const temizleButonu = document.getElementById('temizleButonu');
+if (temizleButonu) {
+    temizleButonu.addEventListener('mouseover', function() {
+        console.log('Fare temizle butonunun üzerinde!');
+        // Bu anonim fonksiyonu removeEventListener ile doğrudan kaldıramazsınız.
+    });
+
+    // Arrow function kullanarak
+    temizleButonu.addEventListener('mouseout', () =&gt; {
+        console.log('Fare temizle butonundan ayrıldı!');
+    });
+}
+
+// Olay dinleyiciyi kaldırma örneği (isimlendirilmiş fonksiyonla)
+// buton.removeEventListener('click', hesaplamaYap);
+
+// Seçenekler kullanımı
+const link = document.getElementById('pasifLink');
+if(link) {
+    link.addEventListener('click', (event) =&gt; {
+        // event.preventDefault(); // Passive: true olduğu için bu hataya neden olabilir veya yok sayılır
+        console.log("Pasif link tıklandı, varsayılan engellenmiyor.");
+    }, { passive: true });
+}
+                    </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Yaygın Olay Türleri</h3></summary>
+                    <p>JavaScript'te dinlenebilecek çok sayıda olay türü vardır. En yaygın olanlardan bazıları:</p>
+                    <ul>
+                        <li><strong>Fare Olayları:</strong>
+                            <ul>
+                                <li><code>click</code>: Elemana tıklandığında.</li>
+                                <li><code>dblclick</code>: Elemana çift tıklandığında.</li>
+                                <li><code>mousedown</code> / <code>mouseup</code>: Fare tuşuna basıldığında / bırakıldığında.</li>
+                                <li><code>mouseover</code> / <code>mouseout</code>: Fare imleci elemanın üzerine geldiğinde / elemandan ayrıldığında.</li>
+                                <li><code>mouseenter</code> / <code>mouseleave</code>: <code>mouseover/mouseout</code> gibidir ancak olay kabarcıklanması (bubbling) yapmaz, genellikle daha kullanışlıdır.</li>
+                                <li><code>mousemove</code>: Fare imleci eleman üzerinde hareket ettiğinde.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Klavye Olayları:</strong>
+                            <ul>
+                                <li><code>keydown</code>: Bir tuşa basıldığında (tuş basılı tutulursa tekrarlanır).</li>
+                                <li><code>keyup</code>: Basılı bir tuş bırakıldığında.</li>
+                                <li><code>keypress</code>: Karakter üreten bir tuşa basıldığında (genellikle <code>keydown</code> tercih edilir, <code>keypress</code> bazı tarayıcılarda farklı çalışabilir veya deprecated olabilir).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Form Olayları:</strong>
+                            <ul>
+                                <li><code>submit</code>: Bir form gönderilmeye çalışıldığında (genellikle <code>&lt;form&gt;</code> elemanında dinlenir). Formun varsayılan gönderimini engellemek için <code>event.preventDefault()</code> sıkça kullanılır.</li>
+                                <li><code>change</code>: Bir form elemanının değeri değiştiğinde ve eleman odaktan çıktığında (<code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>).</li>
+                                <li><code>input</code>: Bir form elemanının değeri her değiştiğinde anında tetiklenir (<code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>).</li>
+                                <li><code>focus</code>: Bir eleman odaklandığında.</li>
+                                <li><code>blur</code>: Bir eleman odaktan çıktığında.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Pencere/Belge Olayları:</strong>
+                            <ul>
+                                <li><code>load</code>: Sayfanın tüm kaynakları (resimler, scriptler, stiller vb.) tamamen yüklendiğinde (genellikle <code>window</code> nesnesinde dinlenir).</li>
+                                <li><code>DOMContentLoaded</code>: HTML belgesi tamamen yüklenip işlendiğinde (DOM hazır), ancak stil şablonları, resimler gibi dış kaynakların yüklenmesi beklenmeden tetiklenir (genellikle <code>document</code> nesnesinde dinlenir). Scriptlerin çalışması için genellikle <code>load</code>'dan daha erken ve daha uygundur.</li>
+                                <li><code>resize</code>: Tarayıcı penceresi yeniden boyutlandırıldığında (<code>window</code> nesnesinde dinlenir).</li>
+                                <li><code>scroll</code>: Sayfa kaydırıldığında (<code>window</code> veya kaydırılabilir bir elemanda dinlenir).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Dokunmatik Olaylar (Mobil):</strong> <code>touchstart</code>, <code>touchmove</code>, <code>touchend</code>, <code>touchcancel</code>.</li>
+                    </ul>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Olay Nesnesi (Event Object)</h3></summary>
+                    <p>Bir olay tetiklendiğinde, olay dinleyici fonksiyonuna otomatik olarak bir olay nesnesi (genellikle <code>event</code>, <code>evt</code> veya <code>e</code> olarak adlandırılır) parametre olarak geçirilir. Bu nesne, olay hakkında birçok yararlı bilgi ve metot içerir:</p>
+                    <ul>
+                        <li><strong><code>event.type</code>:</strong> Tetiklenen olayın türünü (örn: <code>'click'</code>, <code>'keydown'</code>) string olarak verir.</li>
+                        <li><strong><code>event.target</code>:</strong> Olayın başlangıçta tetiklendiği elemanı (olayın kaynağını) referans eder.</li>
+                        <li><strong><code>event.currentTarget</code>:</strong> Olay dinleyicisinin eklendiği elemanı referans eder (olay kabarcıklanması durumunda <code>target</code>'tan farklı olabilir).</li>
+                        <li><strong><code>event.preventDefault()</code>:</strong> Tarayıcının olayla ilişkili varsayılan eylemini engeller (örn: bir linke tıklandığında sayfaya gitmeyi, bir form gönderildiğinde sayfayı yenilemeyi engellemek için).</li>
+                        <li><strong><code>event.stopPropagation()</code>:</strong> Olayın DOM ağacında daha yukarıdaki elemanlara doğru kabarcıklanmasını (bubbling) durdurur.</li>
+                        <li><strong>Fare Olayları İçin Ek Bilgiler:</strong> <code>event.clientX</code>, <code>event.clientY</code> (pencereye göre koordinatlar), <code>event.pageX</code>, <code>event.pageY</code> (sayfaya göre koordinatlar), <code>event.button</code> (hangi fare tuşuna basıldığı).</li>
+                        <li><strong>Klavye Olayları İçin Ek Bilgiler:</strong> <code>event.key</code> (basılan tuşun değeri, örn: 'a', 'Enter', 'Shift'), <code>event.code</code> (basılan fiziksel tuşun kodu, örn: 'KeyA', 'Enter', 'ShiftLeft'), <code>event.altKey</code>, <code>event.ctrlKey</code>, <code>event.shiftKey</code>, <code>event.metaKey</code> (yardımcı tuşlara basılıp basılmadığı - boolean).</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+const form = document.getElementById('iletisimFormu');
+const link = document.getElementById('engellenecekLink');
+const kutu = document.getElementById('fareKoordinatKutusu');
+
+if (form) {
+  form.addEventListener('submit', function(event) {
+    console.log('Form gönderilmeye çalışıldı!');
+    event.preventDefault(); // Formun gerçekten gönderilmesini engelle
+    console.log('Varsayılan gönderme engellendi.');
+    // Burada form verilerini alıp AJAX ile gönderme vb. yapılabilir.
+    const isimInput = document.getElementById('isim');
+    if (isimInput.value.trim() === '') {
+        alert('İsim alanı boş bırakılamaz!');
+    } else {
+        console.log('Form gönderiliyor (AJAX vb.)...');
+        // form.submit(); // Eğer engellemeyi kaldırıp göndermek isterseniz
+    }
+  });
+}
+
+if (link) {
+  link.addEventListener('click', function(e) {
+    e.preventDefault(); // Linkin varsayılan davranışını (sayfaya gitme) engelle
+    alert('Linke gitme engellendi!');
+    console.log('Olay Türü:', e.type); // "click"
+    console.log('Hedef Eleman:', e.target); // Linkin kendisi (&lt;a&gt;)
+  });
+}
+
+if (kutu) {
+    kutu.addEventListener('mousemove', (e) =&gt; {
+        kutu.textContent = `X: ${e.clientX}, Y: ${e.clientY}`;
+    });
+}
+
+// Klavye olayı örneği
+const inputAlani = document.getElementById('metinGirisi');
+if (inputAlani) {
+    inputAlani.addEventListener('keydown', (event) =&gt; {
+        console.log(`Basılan Tuş: ${event.key} (Kod: ${event.code})`);
+        if (event.key === 'Enter') {
+            console.log('Enter tuşuna basıldı!');
+            // Belki bir işlem yap...
+        }
+    });
+}
+                    </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Olay Kabarcıklanması (Bubbling) ve Yakalama (Capturing)</h3></summary>
+                    <p>Bir eleman üzerinde bir olay tetiklendiğinde (örn: bir butona tıklama), olay aslında DOM ağacında iki aşamada yayılır:</p>
+                    <ol>
+                        <li><strong>Yakalama (Capturing) Aşaması:</strong> Olay, pencereden (window) başlayarak hedef elemana doğru iner. Bu aşamada dinleyiciler varsayılan olarak çalışmaz, ancak <code>addEventListener</code>'da <code>capture: true</code> seçeneği ile etkinleştirilebilir.</li>
+                        <li><strong>Hedef Aşaması:</strong> Olay doğrudan hedef elemana ulaşır.</li>
+                        <li><strong>Kabarcıklanma (Bubbling) Aşaması:</strong> Olay, hedef elemandan başlayarak DOM ağacında yukarı doğru, yani üst elemanlarına doğru yayılır (pencereye kadar). Varsayılan olarak olay dinleyicileri bu aşamada çalışır.</li>
+                    </ol>
+                    <p>Bu mekanizma sayesinde, bir olayı doğrudan hedef elemana eklemek yerine, üst elemanlardan birine ekleyerek (event delegation) yönetmek mümkün olur. Örneğin, bir listedeki tüm <code>&lt;li&gt;</code> elemanlarına ayrı ayrı tıklama dinleyicisi eklemek yerine, listenin kendisine (<code>&lt;ul&gt;</code>) tek bir dinleyici ekleyip, tıklanan elemanın <code>event.target</code> ile bir <code>&lt;li&gt;</code> olup olmadığını kontrol edebilirsiniz. Bu, özellikle dinamik olarak eklenen elemanlar için performansı artırır ve kod tekrarını azaltır.</p>
+                    <p><code>event.stopPropagation()</code> metodu, olayın bu yakalama veya kabarcıklanma aşamasında daha fazla yayılmasını engeller.</p>
+                     <pre><code class="language-javascript">
+const liste = document.getElementById('dinamikListe');
+
+if (liste) {
+  // Üst elemana (ul) tek bir dinleyici ekle (Event Delegation)
+  liste.addEventListener('click', function(event) {
+    // Tıklanan elemanın bir LI olup olmadığını kontrol et
+    if (event.target &amp;amp;&amp;amp; event.target.nodeName === 'LI') {
+      console.log('Liste öğesi tıklandı:', event.target.textContent);
+      event.target.classList.toggle('secili');
+    } else if (event.target.nodeName === 'BUTTON') {
+        // Eğer LI içindeki bir butona tıklandıysa
+        console.log("Buton tıklandı, olay yayılması durduruluyor.");
+        event.stopPropagation(); // Olayın LI veya UL'e gitmesini engelle
+        event.target.closest('li').remove(); // Butonun ait olduğu LI'yi sil
+    }
+  });
+
+  // Dinamik olarak yeni öğe ekleme butonu
+  const ekleButon = document.getElementById('ogeEkleButon');
+  if(ekleButon) {
+      ekleButon.addEventListener('click', () =&gt; {
+          const yeniLi = document.createElement('li');
+          yeniLi.textContent = `Yeni Öğe ${liste.children.length + 1}`;
+          const silButon = document.createElement('button');
+          silButon.textContent = 'Sil';
+          yeniLi.appendChild(silButon);
+          liste.appendChild(yeniLi);
+          // Yeni eklenen öğe için ayrıca listener eklemeye gerek yok!
+      });
+  }
+}
+                    </code></pre>
+                </details>
+            </section>
+
+            <section id="veri-tipleri" class="content-section">
+                 <h2>JavaScript Veri Tipleri ve Yapıları</h2>
+                 <p>JavaScript, farklı türde verileri temsil etmek için çeşitli yerleşik veri tiplerine sahiptir. Bu tipler temel olarak iki kategoriye ayrılır: İlkel (Primitive) Tipler ve Nesne (Object) Tipi.</p>
+
+                 <details class="question-block">
+                    <summary><h3>İlkel (Primitive) Veri Tipleri</h3></summary>
+                    <p>İlkel tipler, değiştirilemez (immutable) olan tek bir değeri temsil ederler. Değişkene ilkel bir değer atandığında, değişken doğrudan o değeri tutar.</p>
+                    <ul>
+                        <li><strong><code>string</code>:</strong> Metin verilerini temsil eder. Tek tırnak (<code>' '</code>), çift tırnak (<code>" "</code>) veya backtick (<code>` `</code> - template literals için) içine alınır.
+                            <pre><code class="language-javascript">let ad = "Ahmet"; let mesaj = 'Merhaba!'; let aciklama = `Kullanıcı adı: ${ad}`;</code></pre>
+                        </li>
+                        <li><strong><code>number</code>:</strong> Hem tam sayıları (integers) hem de ondalıklı sayıları (floating-point numbers) temsil eder. Özel sayısal değerler de vardır: <code>Infinity</code>, <code>-Infinity</code> ve <code>NaN</code> (Not a Number - geçerli olmayan bir matematiksel işlemin sonucu).
+                            <pre><code class="language-javascript">let yas = 30; let pi = 3.14; let sonuc = 10 / 0; // Infinity; let hatali = "abc" * 2; // NaN</code></pre>
+                        </li>
+                        <li><strong><code>boolean</code>:</strong> Sadece iki değeri olabilen mantıksal tipi temsil eder: <code>true</code> (doğru) ve <code>false</code> (yanlış). Genellikle koşullu ifadelerde kullanılır.
+                             <pre><code class="language-javascript">let aktifMi = true; let yetkili = false;</code></pre>
+                        </li>
+                        <li><strong><code>null</code>:</strong> "Boş değer" veya "hiçbir nesne değeri" anlamına gelen özel bir değerdir. Bir değişkenin bilinçli olarak boş bırakıldığını belirtmek için kullanılır. <code>typeof null</code>'ın <code>"object"</code> döndürmesi tarihsel bir hatadır.
+                            <pre><code class="language-javascript">let seciliKullanici = null;</code></pre>
+                        </li>
+                        <li><strong><code>undefined</code>:</strong> Bir değişkene henüz bir değer atanmadığını belirtir. Bir fonksiyon değer döndürmezse (<code>return</code> kullanmazsa) varsayılan olarak <code>undefined</code> döner.
+                            <pre><code class="language-javascript">let deger; console.log(deger); // undefined</code></pre>
+                        </li>
+                        <li><strong><code>symbol</code> (ES6+):</strong> Benzersiz ve değiştirilemez tanımlayıcılar oluşturmak için kullanılır. Genellikle nesne özellik anahtarları olarak çakışmaları önlemek amacıyla kullanılır.
+                            <pre><code class="language-javascript">const id1 = Symbol('id'); const id2 = Symbol('id'); console.log(id1 === id2); // false</code></pre>
+                        </li>
+                        <li><strong><code>bigint</code> (ES2020+):</strong> Normal <code>number</code> tipinin güvenli tamsayı sınırından (<code>Number.MAX_SAFE_INTEGER</code>) daha büyük tamsayıları temsil etmek için kullanılır. Sayının sonuna <code>n</code> eklenerek oluşturulur.
+                            <pre><code class="language-javascript">const buyukSayi = 1234567890123456789012345678901234567890n;</code></pre>
+                        </li>
+                    </ul>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Nesne (Object) Tipi</h3></summary>
+                    <p>İlkel tiplerin aksine, nesneler daha karmaşık veri yapılarıdır ve birden fazla değeri (özellikleri) bir arada tutabilirler. Nesneler değiştirilebilir (mutable) yapıdadır. JavaScript'te ilkel tipler dışındaki hemen her şey (diziler, fonksiyonlar, tarihler vb.) aslında birer nesnedir.</p>
+                    <ul>
+                        <li><strong>Nesne Literali (Object Literal):</strong> Nesne oluşturmanın en yaygın yoludur. Süslü parantezler <code>{ }</code> içine <code>anahtar: deger</code> çiftleri yazılarak tanımlanır. Anahtarlar genellikle string'dir (tırnaksız yazılabilir), değerler ise herhangi bir veri tipi olabilir (başka bir nesne veya dizi dahil).
+                             <pre><code class="language-javascript">
+let araba = {
+  marka: "Toyota",
+  model: "Corolla",
+  yil: 2022,
+  renkler: ["beyaz", "gri"],
+  calistir: function() { // Nesne içinde fonksiyon (metot)
+    console.log("Motor çalıştı!");
+  },
+  "yakıt tipi": "Benzin" // Anahtar boşluk içeriyorsa tırnak zorunlu
+};
+
+// Özelliklere erişim
+console.log(araba.marka); // "Toyota" (Nokta notasyonu)
+console.log(araba["model"]); // "Corolla" (Köşeli parantez notasyonu)
+console.log(araba["yakıt tipi"]); // Boşluklu anahtar için köşeli parantez zorunlu
+
+// Metot çağırma
+araba.calistir(); // "Motor çalıştı!"
+
+// Özellik değeri değiştirme
+araba.yil = 2023;
+
+// Yeni özellik ekleme
+araba.hasarliMi = false;
+                            </code></pre>
+                        </li>
+                        <li><strong>Yapıcı Fonksiyonlar (Constructor Functions):</strong> <code>new</code> anahtar kelimesi ile birlikte özel fonksiyonlar kullanarak nesneler oluşturulabilir (örn: <code>new Date()</code>, <code>new Object()</code>, veya kendi tanımladığınız yapıcılar).</li>
+                        <li><strong>Sınıflar (Classes - ES6+):</strong> Nesne oluşturmak için daha modern ve yapılandırılmış bir yol sunar (arka planda prototipleri kullanır).</li>
+                    </ul>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Diziler (Arrays)</h3></summary>
+                    <p>Diziler, sıralı bir veri koleksiyonunu tutan özel bir nesne türüdür. Elemanlar herhangi bir veri tipinde olabilir ve index numaraları (0'dan başlayarak) ile erişilir.</p>
+                    <ul>
+                        <li><strong>Dizi Literali (Array Literal):</strong> Dizi oluşturmanın en yaygın yoludur. Köşeli parantezler <code>[ ]</code> içine elemanlar virgülle ayrılarak yazılır.</li>
+                        <li><strong>Elemanlara Erişim:</strong> <code>diziAdi[index]</code> şeklinde erişilir.</li>
+                        <li><strong><code>length</code> Özelliği:</strong> Dizideki eleman sayısını verir.</li>
+                        <li><strong>Yaygın Dizi Metotları:</strong>
+                            <ul>
+                                <li><code>push(eleman)</code>: Dizinin sonuna eleman ekler.</li>
+                                <li><code>pop()</code>: Dizinin sonundaki elemanı çıkarır ve döndürür.</li>
+                                <li><code>shift()</code>: Dizinin başındaki elemanı çıkarır ve döndürür.</li>
+                                <li><code>unshift(eleman)</code>: Dizinin başına eleman ekler.</li>
+                                <li><code>indexOf(eleman)</code>: Elemanın ilk bulunduğu index'i döndürür (bulamazsa -1).</li>
+                                <li><code>includes(eleman)</code> (ES7+): Elemanın dizide olup olmadığını kontrol eder (true/false).</li>
+                                <li><code>slice(baslangic, bitis)</code>: Dizinin belirli bir bölümünün kopyasını yeni bir dizi olarak döndürür (orijinal diziyi değiştirmez).</li>
+                                <li><code>splice(baslangic, silinecekSayi, eklenecekElemanlar...)</code>: Diziden eleman siler ve/veya yerine yenilerini ekler (orijinal diziyi değiştirir).</li>
+                                <li><code>concat(dizi2, dizi3...)</code>: Dizileri birleştirerek yeni bir dizi oluşturur.</li>
+                                <li><code>join(ayirici)</code>: Dizi elemanlarını belirtilen ayırıcı ile birleştirerek bir string oluşturur.</li>
+                                <li><strong>Döngü Metotları (Fonksiyonel):</strong> <code>forEach()</code>, <code>map()</code>, <code>filter()</code>, <code>reduce()</code>, <code>find()</code>, <code>findIndex()</code>, <code>some()</code>, <code>every()</code> (detayları fonksiyonlar bölümünde veya ayrıca ele alınabilir).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <pre><code class="language-javascript">
+let meyveler = ["elma", "armut", "muz"];
+console.log(meyveler[0]); // "elma"
+console.log(meyveler.length); // 3
+
+meyveler.push("çilek"); // ["elma", "armut", "muz", "çilek"]
+meyveler.shift(); // "elma"yı çıkarır, dizi ["armut", "muz", "çilek"] olur
+
+console.log(meyveler.indexOf("muz")); // 1
+console.log(meyveler.includes("portakal")); // false
+
+let kesit = meyveler.slice(0, 2); // ["armut", "muz"] (orijinal değişmez)
+console.log(kesit);
+console.log(meyveler); // ["armut", "muz", "çilek"]
+
+meyveler.splice(1, 1, "kavun", "karpuz"); // 1. indexten başla 1 eleman sil, yerine kavun ve karpuz ekle
+// meyveler şimdi: ["armut", "kavun", "karpuz", "çilek"]
+console.log(meyveler);
+
+let meyveString = meyveler.join(" - "); // "armut - kavun - karpuz - çilek"
+console.log(meyveString);
+                    </code></pre>
+                 </details>
+
+                <details class="question-block">
+                    <summary><h3>JSON (JavaScript Object Notation)</h3></summary>
+                    <p>JSON, veri alışverişi için kullanılan hafif, metin tabanlı bir formattır. JavaScript nesne literali sözdizimine çok benzer, ancak bazı farkları vardır:</p>
+                    <ul>
+                        <li>Anahtarlar (keys) her zaman çift tırnak (<code>" "</code>) içinde olmalıdır.</li>
+                        <li>Değerler sadece string, number, boolean, array, null veya başka bir JSON nesnesi olabilir. Fonksiyonlar veya <code>undefined</code> kullanılamaz.</li>
+                        <li>Yorum satırı içermez.</li>
+                    </ul>
+                    <p>JavaScript, JSON verilerini işlemek için yerleşik <code>JSON</code> nesnesi sunar:</p>
+                    <ul>
+                        <li><strong><code>JSON.stringify(javascriptNesnesi)</code>:</strong> Bir JavaScript nesnesini veya değerini JSON formatında bir string'e dönüştürür.</li>
+                        <li><strong><code>JSON.parse(jsonString)</code>:</strong> JSON formatındaki bir string'i ayrıştırarak bir JavaScript nesnesine veya değerine dönüştürür.</li>
+                    </ul>
+                     <pre><code class="language-javascript">
+// JavaScript Nesnesi
+let kisi = {
+  ad: "Ayşe",
+  yas: 25,
+  sehir: "İzmir",
+  aktif: true,
+  hobiler: ["kitap", "müzik"]
+};
+
+// JavaScript nesnesini JSON string'ine çevirme
+let jsonString = JSON.stringify(kisi, null, 2); // null, 2 okunabilirlik için girinti ekler
+console.log(jsonString);
+/* Çıktı:
+{
+  "ad": "Ayşe",
+  "yas": 25,
+  "sehir": "İzmir",
+  "aktif": true,
+  "hobiler": [
+    "kitap",
+    "müzik"
+  ]
+}
+*/
+
+// JSON string'ini JavaScript nesnesine çevirme
+let jsonVerisi = '{ "urunAdi": "Laptop", "fiyat": 15000, "stoktaVar": true }';
+let urunNesnesi = JSON.parse(jsonVerisi);
+console.log(urunNesnesi.urunAdi); // "Laptop"
+console.log(urunNesnesi.fiyat); // 15000
+                    </code></pre>
+                    <p>JSON, özellikle web API'leri ile veri alışverişi yaparken (sunucudan veri alma/gönderme) yaygın olarak kullanılır.</p>
+                </details>
+            </section>
+
+            <section id="fonksiyonlar" class="content-section">
+                 <h2>Fonksiyonlar: Tekrar Kullanılabilir Kod Blokları</h2>
+                 <p>Fonksiyonlar, belirli bir görevi yerine getiren, tekrar tekrar çağrılabilen kod bloklarıdır. JavaScript'in temel yapı taşlarından biridirler. Kod tekrarını azaltır, programı modüler hale getirir ve okunabilirliği artırırlar.</p>
+
+                 <details class="question-block">
+                     <summary><h3>Fonksiyon Tanımlama Yöntemleri</h3></summary>
+                     <p>JavaScript'te fonksiyon tanımlamanın birkaç yolu vardır:</p>
+                     <ol>
+                         <li><strong>Fonksiyon Bildirimi (Function Declaration):</strong> En yaygın yöntemdir. <code>function</code> anahtar kelimesi, fonksiyon adı, parantez içinde parametre listesi ve süslü parantez içinde fonksiyon gövdesi ile tanımlanır. Bu şekilde tanımlanan fonksiyonlar "hoist" edilir, yani kod içinde tanımlandıkları yerden önce çağrılabilirler.
+                             <pre><code class="language-javascript">
+selamVer("Ali"); // Hoisting nedeniyle hata vermez
+
+function selamVer(isim) {
+  console.log("Merhaba, " + isim + "!");
+}
+
+function topla(a, b) {
+  return a + b; // return ifadesi fonksiyonun sonucunu döndürür
+}
+
+let sonuc = topla(5, 3); // 8
+console.log(sonuc);
+                            </code></pre>
+                         </li>
+                         <li><strong>Fonksiyon İfadesi (Function Expression):</strong> Bir fonksiyon oluşturulur ve bir değişkene atanır. Fonksiyon anonim olabilir (adı olmaz) veya bir adı olabilir (genellikle hata ayıklama için faydalıdır). Fonksiyon ifadeleri hoist edilmez, yani tanımlandıkları satırdan önce çağrılamazlar.
+                            <pre><code class="language-javascript">
+// vedaEt("Ayşe"); // Hata! vedaEt henüz tanımlanmadı (hoist edilmez)
+
+const vedaEt = function(isim) {
+  console.log("Hoşça kal, " + isim + "!");
+};
+
+vedaEt("Ayşe"); // Şimdi çağrılabilir
+
+const carp = function carpmaIslemi(x, y) { // İsimli fonksiyon ifadesi
+  return x * y;
+};
+
+console.log(carp(4, 6)); // 24
+// console.log(carpmaIslemi(2, 3)); // Hata! Fonksiyon adı dışarıdan erişilemez
+                            </code></pre>
+                         </li>
+                         <li><strong>Arrow Functions (Ok Fonksiyonları - ES6+):</strong> Fonksiyon ifadelerine göre daha kısa bir sözdizimi sunar. Özellikle anonim fonksiyonlar ve callback'ler için kullanışlıdır. Kendi <code>this</code>, <code>arguments</code>, <code>super</code>, veya <code>new.target</code> bağlamlarını oluşturmazlar (içinde bulundukları kapsamın bağlamını kullanırlar).
+                            <pre><code class="language-javascript">
+// Tek parametreli, tek ifadeli (return otomatik)
+const ikiKatiniAl = sayi =&gt; sayi * 2;
+console.log(ikiKatiniAl(7)); // 14
+
+// Çok parametreli
+const fark = (a, b) =&gt; {
+  console.log(`Çıkarma işlemi: ${a} - ${b}`);
+  return a - b;
+};
+console.log(fark(10, 4)); // 6
+
+// Parametresiz
+const mesajYaz = () =&gt; console.log("Bu bir ok fonksiyonu!");
+mesajYaz();
+
+// Nesne döndüren (parantez kullanımı önemli)
+const kisiOlustur = (ad, yas) =&gt; ({ ad: ad, yas: yas });
+console.log(kisiOlustur("Zeynep", 22));
+                            </code></pre>
+                         </li>
+                     </ol>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Parametreler ve Argümanlar</h3></summary>
+                     <ul>
+                         <li><strong>Parametreler:</strong> Fonksiyon tanımında parantez içinde belirtilen değişken isimleridir. Fonksiyona dışarıdan değer almak için kullanılırlar.</li>
+                         <li><strong>Argümanlar:</strong> Fonksiyon çağrılırken parantez içinde fonksiyona gönderilen gerçek değerlerdir.</li>
+                         <li><strong>Varsayılan Parametreler (Default Parameters - ES6+):</strong> Fonksiyon çağrılırken bir argüman gönderilmezse, parametrenin alacağı varsayılan değeri tanımlamayı sağlar.</li>
+                         <li><strong>Rest Parametreleri (Rest Parameters - ES6+):</strong> Fonksiyonun belirsiz sayıda argümanı bir dizi olarak almasını sağlar. Parametre listesindeki son parametre olmalıdır ve üç nokta (<code>...</code>) ile başlar.</li>
+                         <li><strong><code>arguments</code> Nesnesi (Eski):</strong> Arrow functions hariç tüm fonksiyonlarda kullanılabilen, fonksiyona geçirilen tüm argümanları içeren dizi benzeri bir nesnedir. Modern JavaScript'te genellikle rest parametreleri tercih edilir.</li>
+                     </ul>
+                      <pre><code class="language-javascript">
+function tanistir(ad, soyad = "Bilgi Yok") { // soyad varsayılan parametre
+  console.log(`Ad: ${ad}, Soyad: ${soyad}`);
+}
+
+tanistir("Mehmet", "Yılmaz"); // Ad: Mehmet, Soyad: Yılmaz
+tanistir("Fatma");          // Ad: Fatma, Soyad: Bilgi Yok
+
+function sayilariTopla(...sayilar) { // Rest parametresi (sayilar bir dizi olur)
+  let toplam = 0;
+  for (let sayi of sayilar) {
+    toplam += sayi;
+  }
+  return toplam;
+}
+
+console.log(sayilariTopla(1, 2, 3));       // 6
+console.log(sayilariTopla(10, 20, 30, 40)); // 100
+
+function eskiArgumanlar() {
+  console.log(arguments); // Fonksiyona geçirilen tüm argümanları gösterir
+  console.log(arguments[0]);
+  // arguments.forEach(...); // Hata! arguments gerçek bir dizi değildir
+  // Array.from(arguments).forEach(...); // Diziye çevirerek kullanılabilir
+}
+
+eskiArgumanlar("a", "b", 10);
+                    </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Return İfadesi</h3></summary>
+                     <p><code>return</code> ifadesi, bir fonksiyonun çalışmasını sonlandırır ve isteğe bağlı olarak bir değeri fonksiyonun çağrıldığı yere geri döndürür.</p>
+                     <ul>
+                         <li>Bir fonksiyon içinde <code>return</code>'e ulaşıldığında, fonksiyonun geri kalan kodları çalıştırılmaz.</li>
+                         <li>Eğer <code>return</code> ifadesinden sonra bir değer belirtilmezse veya fonksiyon içinde hiç <code>return</code> kullanılmazsa, fonksiyon varsayılan olarak <code>undefined</code> döndürür.</li>
+                         <li>Bir fonksiyon sadece bir değer döndürebilir. Birden fazla değer döndürmek gerekiyorsa, bu değerler bir dizi veya nesne içinde gruplanarak döndürülebilir.</li>
+                     </ul>
+                      <pre><code class="language-javascript">
+function karesiniAl(sayi) {
+  if (typeof sayi !== 'number') {
+    console.error("Lütfen bir sayı girin.");
+    return; // Fonksiyonu sonlandırır, undefined döner
+  }
+  return sayi * sayi; // Hesaplanan değeri döndürür
+}
+
+let kare = karesiniAl(5); // kare = 25
+console.log(kare);
+
+let gecersiz = karesiniAl("metin"); // Konsola hata yazar, gecersiz = undefined
+console.log(gecersiz);
+
+function kullaniciBilgileri(id) {
+    // ... id'ye göre kullanıcı bulunur varsayalım ...
+    let kullanici = { ad: "Selin", email: "selin@example.com" };
+    if (kullanici) {
+        return kullanici; // Nesne döndürme
+    } else {
+        return null; // Kullanıcı bulunamadıysa null döndür
+    }
+}
+
+let aktifKullanici = kullaniciBilgileri(1);
+if(aktifKullanici) {
+    console.log(aktifKullanici.ad); // Selin
+}
+                    </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Kapsam (Scope) ve Closures</h3></summary>
+                     <ul>
+                         <li><strong>Kapsam (Scope):</strong> Bir değişkenin veya fonksiyonun kodun hangi bölümünden erişilebilir olduğunu belirler. JavaScript'te temel olarak iki tür kapsam vardır:
+                             <ul>
+                                 <li><strong>Global Kapsam (Global Scope):</strong> Herhangi bir fonksiyonun veya bloğun dışında tanımlanan değişkenler global kapsama sahiptir ve kodun her yerinden erişilebilir. Global değişkenler genellikle önerilmez çünkü isim çakışmalarına ve beklenmedik yan etkilere yol açabilirler.</li>
+                                 <li><strong>Yerel Kapsam (Local Scope):</strong>
+                                     <ul>
+                                         <li><strong>Fonksiyon Kapsamı (Function Scope):</strong> <code>var</code> ile tanımlanan değişkenler, içinde bulundukları fonksiyonun kapsamında geçerlidir.</li>
+                                         <li><strong>Blok Kapsamı (Block Scope - ES6+):</strong> <code>let</code> ve <code>const</code> ile tanımlanan değişkenler, içinde bulundukları süslü parantez bloğu (<code>{ }</code> - if, for, while veya tek başına blok) kapsamında geçerlidir.</li>
+                                     </ul>
+                                 </li>
+                             </ul>
+                             İç içe geçmiş kapsamlarda, içteki kapsam dıştaki kapsamdaki değişkenlere erişebilir, ancak dıştaki kapsam içteki kapsamdaki değişkenlere (genellikle) erişemez.
+                         </li>
+                         <li><strong>Closure (Kapanış):</strong> Bir fonksiyonun, kendi kapsamı dışındaki (tanımlandığı çevreleyen kapsamdaki) değişkenlere erişme ve onları "hatırlama" yeteneğidir. Bir fonksiyon başka bir fonksiyon tarafından döndürüldüğünde bile, döndürülen fonksiyon hala tanımlandığı kapsamdaki değişkenlere erişebilir. Closures, özel değişkenler oluşturma, callback'ler ve modül deseni gibi birçok ileri JavaScript tekniğinin temelini oluşturur.</li>
+                     </ul>
+                      <pre><code class="language-javascript">
+let globalDegisken = "Ben Globalim"; // Global Kapsam
+
+function disFonksiyon() {
+  let disDegisken = "Ben Dış Fonksiyondayım"; // Fonksiyon Kapsamı (disFonksiyon için yerel)
+  var varDis = "Dış Var";
+
+  console.log(globalDegisken); // Erişilebilir
+
+  if (true) {
+    let blokDegisken = "Ben Blok Kapsamındayım"; // Blok Kapsamı
+    const blokSabit = "Sabit Blok";
+    var varIc = "İç Var"; // Fonksiyon kapsamlı olduğu için dışarıdan erişilebilir
+    console.log(disDegisken); // Erişilebilir
+    console.log(blokDegisken); // Erişilebilir
+  }
+
+  // console.log(blokDegisken); // Hata! Blok dışından erişilemez
+  console.log(varIc); // Erişilebilir (var fonksiyon kapsamlı)
+
+  function icFonksiyon() {
+    let icDegisken = "Ben İç Fonksiyondayım";
+    console.log(globalDegisken); // Erişilebilir
+    console.log(disDegisken);    // Erişilebilir (Closure!)
+    console.log(varDis);         // Erişilebilir (Closure!)
+    // console.log(blokDegisken); // Hata! Bu kapsama ait değil
+  }
+
+  icFonksiyon();
+  // console.log(icDegisken); // Hata! Dış kapsamdan iç kapsama erişilemez
+}
+
+disFonksiyon();
+// console.log(disDegisken); // Hata! Fonksiyon dışından erişilemez
+// console.log(varDis); // Hata! Fonksiyon dışından erişilemez
+// console.log(varIc); // Hata! Fonksiyon dışından erişilemez
+
+// --- Closure Örneği ---
+function sayacOlustur() {
+  let sayac = 0; // Bu değişken dışarıdan erişilemez ama iç fonksiyonlar hatırlar
+
+  return { // Nesne içinde fonksiyonlar döndürülüyor
+    arttir: function() {
+      sayac++;
+      console.log(sayac);
+    },
+    azalt: function() {
+      sayac--;
+      console.log(sayac);
+    },
+    deger: function() {
+      return sayac;
+    }
+  };
+}
+
+const benimSayacim = sayacOlustur();
+benimSayacim.arttir(); // 1
+benimSayacim.arttir(); // 2
+benimSayacim.azalt(); // 1
+console.log(benimSayacim.deger()); // 1
+// console.log(sayac); // Hata! 'sayac' dışarıdan erişilemez
+
+const baskaSayac = sayacOlustur(); // Her çağrı kendi bağımsız sayacını oluşturur
+baskaSayac.arttir(); // 1
+                    </code></pre>
+                 </details>
+            </section>
+
+            <section id="es6" class="content-section">
+                 <h2>Modern JavaScript: ES6+ Özellikleri</h2>
+                 <p>ECMAScript 2015 (ES6) ve sonraki sürümler, JavaScript diline birçok önemli yenilik ve sözdizimsel kolaylık getirmiştir. Bu özellikler kodu daha okunabilir, yazması daha kolay ve daha güçlü hale getirir.</p>
+
+                 <details class="question-block">
+                     <summary><h3>`let` ve `const`</h3></summary>
+                     <p>Daha önce bahsedildiği gibi, ES6 ile gelen <code>let</code> ve <code>const</code>, <code>var</code>'ın yerine blok kapsamlı değişken tanımlama imkanı sunar. Bu, kapsam hatalarını azaltır ve kodu daha öngörülebilir kılar. Değeri değişmeyecek değişkenler için <code>const</code>, değişebilecekler için <code>let</code> kullanmak modern bir standarttır.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Arrow Functions (Ok Fonksiyonları)</h3></summary>
+                     <p>Fonksiyon ifadeleri için daha kısa bir sözdizimi sunarlar ve en önemlisi, kendi <code>this</code> bağlamını oluşturmazlar; içinde bulundukları (lexical) kapsamın <code>this</code> değerini miras alırlar. Bu, özellikle nesne metotları içindeki callback'lerde veya olay dinleyicilerde <code>this</code> ile ilgili kafa karışıklığını önler.</p>
+                     <pre><code class="language-javascript">
+// ES5 fonksiyon ifadesi ve 'this' sorunu
+function SayacES5() {
+  this.saniye = 0;
+  setInterval(function() {
+    // Buradaki 'this', setInterval'ın çağrıldığı global scope'u (veya strict modda undefined) gösterir,
+    // SayacES5 nesnesini göstermez!
+    // console.log(this.saniye++); // NaN veya Hata verir
+    // Çözüm genellikle bind, call, apply veya that = this gibi yöntemlerdi.
+  }, 1000);
+}
+// const s1 = new SayacES5();
+
+// ES6 Arrow Function ile 'this' çözümü
+function SayacES6() {
+  this.saniye = 0;
+  setInterval(() =&gt; {
+    // Arrow function kendi 'this'ini oluşturmaz, dış kapsamın (SayacES6'nın) 'this'ini kullanır.
+    console.log(this.saniye++); // Doğru şekilde çalışır
+  }, 1000);
+}
+// const s2 = new SayacES6(); // Konsolda saniyeler artarak görünür
+                    </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Template Literals (Şablon Dizgeleri)</h3></summary>
+                     <p>Backtick (<code>` `</code>) karakterleri ile tanımlanan string'lerdir. Şu avantajları sunarlar:</p>
+                     <ul>
+                         <li><strong>String İçinde Değişken Kullanımı (Interpolation):</strong> <code>${degiskenAdi}</code> sözdizimi ile string içine kolayca değişken veya ifade yerleştirmeyi sağlar (artık <code>+</code> ile birleştirme yapmaya gerek kalmaz).</li>
+                         <li><strong>Çok Satırlı String'ler:</strong> Özel karakterlere (<code>\n</code>) gerek kalmadan doğrudan çok satırlı string'ler oluşturmayı sağlar.</li>
+                     </ul>
+                      <pre><code class="language-javascript">
+let kullaniciAdi = "Elif";
+let puan = 85;
+
+// Eski yöntem
+let mesajEski = "Merhaba " + kullaniciAdi + ",\npuanınız: " + puan + ".";
+console.log(mesajEski);
+
+// Template Literals ile
+let mesajYeni = `Merhaba ${kullaniciAdi},
+Puanınız: ${puan}.
+Başarı durumunuz: ${puan &gt;= 50 ? 'Geçti' : 'Kaldı'}`; // İçinde ifade de kullanılabilir
+console.log(mesajYeni);
+                    </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Destructuring (Yapı Bozma)</h3></summary>
+                     <p>Dizilerin veya nesnelerin içindeki değerleri kolayca ayrı değişkenlere atamayı sağlayan kısa bir sözdizimidir.</p>
+                     <ul>
+                         <li><strong>Dizi Yapı Bozma:</strong>
+                            <pre><code class="language-javascript">
+const renkler = ["kırmızı", "yeşil", "mavi"];
+const [ilkRenk, ikinciRenk, ucuncuRenk] = renkler;
+console.log(ilkRenk); // "kırmızı"
+console.log(ikinciRenk); // "yeşil"
+
+const [ , , maviRenk] = renkler; // İstenmeyen elemanları atlama
+console.log(maviRenk); // "mavi"
+
+let a = 1, b = 3;
+[a, b] = [b, a]; // Değişken değerlerini takas etme
+console.log(a, b); // 3 1
+                            </code></pre>
+                         </li>
+                         <li><strong>Nesne Yapı Bozma:</strong> Özellik adları ile aynı isimde değişkenler oluşturur. Farklı isim vermek için <code>:</code> kullanılır. Varsayılan değer atanabilir.
+                            <pre><code class="language-javascript">
+const kisi = {
+  isim: "Can",
+  yas: 35,
+  sehir: "Ankara",
+  meslek: "Mühendis"
+};
+
+const { isim, yas, ulke = "Türkiye" } = kisi; // ulke özelliği yoksa varsayılan değer atanır
+console.log(isim); // "Can"
+console.log(yas); // 35
+console.log(ulke); // "Türkiye"
+
+const { sehir: yasadigiSehir, meslek } = kisi; // 'sehir' özelliğini 'yasadigiSehir' değişkenine ata
+console.log(yasadigiSehir); // "Ankara"
+
+function ayarlarıYazdir({ tema = "açık", fontSize = 16 }) { // Fonksiyon parametrelerinde yapı bozma
+    console.log(`Tema: ${tema}, Font Boyutu: ${fontSize}px`);
+}
+ayarlarıYazdir({ tema: "koyu" }); // Tema: koyu, Font Boyutu: 16px
+ayarlarıYazdir({}); // Tema: açık, Font Boyutu: 16px
+                            </code></pre>
+                         </li>
+                     </ul>
+                 </details>
+
+                  <details class="question-block">
+                     <summary><h3>Default, Rest ve Spread Operatörleri</h3></summary>
+                     <ul>
+                         <li><strong>Default Parameters (Varsayılan Parametreler):</strong> Fonksiyon tanımında parametrelere varsayılan değer atamayı sağlar (Fonksiyonlar bölümünde değinilmişti).</li>
+                         <li><strong>Rest Parameters (Kalan Parametreler - <code>...</code>):</strong> Fonksiyon tanımında kullanıldığında, belirsiz sayıda argümanı tek bir dizi içinde toplar (Fonksiyonlar bölümünde değinilmişti).</li>
+                         <li><strong>Spread Operator (Yayma Operatörü - <code>...</code>):</strong> Rest parametresinin tersi gibi çalışır. Bir diziyi veya nesneyi (veya yinelenebilir başka bir şeyi) tek tek elemanlarına/özelliklerine ayırarak başka bir diziye, nesneye veya fonksiyon çağrısına yaymak için kullanılır.
+                             <pre><code class="language-javascript">
+// Dizilerde Spread
+const sayilar1 = [1, 2, 3];
+const sayilar2 = [4, 5, 6];
+const birlesikSayilar = [...sayilar1, 0, ...sayilar2, 7]; // [1, 2, 3, 0, 4, 5, 6, 7]
+console.log(birlesikSayilar);
+
+const kopyaSayilar = [...sayilar1]; // Diziyi kopyalama
+kopyaSayilar.push(4);
+console.log(sayilar1); // [1, 2, 3] (Orijinal değişmez)
+console.log(kopyaSayilar); // [1, 2, 3, 4]
+
+// Fonksiyon Çağrılarında Spread
+function topla(x, y, z) {
+  return x + y + z;
+}
+const degerler = [10, 20, 30];
+const toplam = topla(...degerler); // topla(10, 20, 30) gibi çağırır
+console.log(toplam); // 60
+
+// Nesnelerde Spread (ES2018+)
+const varsayilanAyarlar = { tema: "açık", bildirimler: true };
+const kullaniciAyarlari = { bildirimler: false, dil: "tr" };
+const sonAyarlar = { ...varsayilanAyarlar, ...kullaniciAyarlari, kullaniciAdi: "admin" };
+// { tema: "açık", bildirimler: false, dil: "tr", kullaniciAdi: "admin" }
+// (kullaniciAyarlari'ndaki bildirimler varsayılanı ezer)
+console.log(sonAyarlar);
+
+const nesneKopya = { ...sonAyarlar }; // Nesne kopyalama (sığ kopya)
+console.log(nesneKopya);
+                             </code></pre>
+                         </li>
+                     </ul>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Sınıflar (Classes)</h3></summary>
+                     <p>ES6 sınıfları, nesne yönelimli programlama (OOP) konseptlerini JavaScript'te uygulamak için daha temiz ve tanıdık bir sözdizimi sunar. Arka planda hala prototip tabanlı kalıtımı kullanırlar, ancak yazımı kolaylaştırırlar.</p>
+                     <ul>
+                         <li><strong><code>class</code> Anahtar Kelimesi:</strong> Sınıf tanımını başlatır.</li>
+                         <li><strong><code>constructor</code> Metodu:</strong> Sınıftan <code>new</code> ile bir nesne oluşturulduğunda otomatik olarak çalışan özel bir metottur. Genellikle nesnenin başlangıç özelliklerini ayarlamak için kullanılır. Bir sınıfta en fazla bir <code>constructor</code> olabilir.</li>
+                         <li><strong>Metotlar:</strong> Sınıf içinde tanımlanan fonksiyonlardır. <code>function</code> anahtar kelimesi kullanılmaz.</li>
+                         <li><strong>Kalıtım (Inheritance):</strong> <code>extends</code> anahtar kelimesi ile bir sınıf başka bir sınıftan özellik ve metotları miras alabilir. Alt sınıfın <code>constructor</code>'ı içinde üst sınıfın <code>constructor</code>'ını çağırmak için <code>super()</code> kullanılır.</li>
+                         <li><strong>Getter ve Setter:</strong> Özelliklere erişimi ve atamayı kontrol etmek için özel metotlar tanımlanabilir (<code>get özellikAdi() { ... }</code>, <code>set özellikAdi(deger) { ... }</code>).</li>
+                         <li><strong>Static Metotlar:</strong> <code>static</code> anahtar kelimesi ile tanımlanan metotlardır. Sınıfın örneği (instance) üzerinden değil, doğrudan sınıfın kendisi üzerinden çağrılırlar (örn: <code>SinifAdi.staticMetot()</code>).</li>
+                     </ul>
+                      <pre><code class="language-javascript">
+class Hayvan {
+  constructor(ad) {
+    this.ad = ad;
+    console.log(`${ad} oluşturuldu.`);
+  }
+
+  konus() {
+    console.log(`${this.ad} bir ses çıkarır.`);
+  }
+
+  // Static metot
+  static genelBilgi() {
+      console.log("Bu bir hayvan sınıfıdır.");
+  }
+}
+
+class Kopek extends Hayvan { // Hayvan sınıfından kalıtım al
+  constructor(ad, cins) {
+    super(ad); // Üst sınıfın constructor'ını çağır
+    this.cins = cins;
+  }
+
+  // Üst sınıftaki metodu override etme
+  konus() {
+    console.log(`${this.ad} havlar!`);
+  }
+
+  // Yeni metot
+  getir() {
+    console.log(`${this.ad} (${this.cins}) topu getiriyor.`);
+  }
+
+  // Getter
+  get tamAd() {
+      return `${this.ad} (${this.cins})`;
+  }
+}
+
+Hayvan.genelBilgi(); // "Bu bir hayvan sınıfıdır."
+
+const hayvan1 = new Hayvan("Canavar"); // "Canavar oluşturuldu."
+hayvan1.konus(); // "Canavar bir ses çıkarır."
+
+const kopek1 = new Kopek("Karabaş", "Sivas Kangalı"); // "Karabaş oluşturuldu."
+kopek1.konus(); // "Karabaş havlar!"
+kopek1.getir(); // "Karabaş (Sivas Kangalı) topu getiriyor."
+console.log(kopek1.tamAd); // Getter kullanımı: "Karabaş (Sivas Kangalı)"
+                    </code></pre>
+                 </details>
+
+                  <details class="question-block">
+                     <summary><h3>Modüller (Modules - import/export)</h3></summary>
+                     <p>ES6 Modülleri, JavaScript kodunu farklı dosyalara ayırarak organize etmeyi ve tekrar kullanılabilir bileşenler oluşturmayı sağlar. Kodun belirli bölümlerini (değişkenler, fonksiyonlar, sınıflar) bir dosyadan dışa aktarmak (<code>export</code>) ve başka bir dosyada içe aktarmak (<code>import</code>) için standart bir yol sunar.</p>
+                     <p>Modülleri kullanmak için genellikle HTML'deki <code>&lt;script&gt;</code> etiketine <code>type="module"</code> niteliği eklenir.</p>
+                     <p><strong>Dışa Aktarma (<code>export</code>):</strong></p>
+                     <ul>
+                         <li><strong>Named Exports (İsimlendirilmiş):</strong> Birden fazla değeri ismiyle dışa aktarır.
+                            <pre><code class="language-javascript">// matematik.js
+export const PI = 3.14;
+export function topla(a, b) { return a + b; }
+export class HesapMakinesi { /* ... */ }
+                            </code></pre>
+                         </li>
+                         <li><strong>Default Export (Varsayılan):</strong> Bir dosyadan sadece tek bir ana değeri varsayılan olarak dışa aktarır. Her dosyada en fazla bir tane olabilir.
+                            <pre><code class="language-javascript">// kullanici.js
+export default class Kullanici {
+    constructor(ad) { this.ad = ad; }
+    // ...
+}
+// VEYA
+// class Kullanici { ... }
+// export default Kullanici;
+                            </code></pre>
+                         </li>
+                     </ul>
+                     <p><strong>İçe Aktarma (<code>import</code>):</strong></p>
+                      <ul>
+                         <li><strong>Named Imports:</strong> İsimlendirilmiş değerleri süslü parantez içinde alır. İsim değişikliği için <code>as</code> kullanılabilir.
+                            <pre><code class="language-javascript">// ana.js
+import { PI, topla as addition } from './matematik.js';
+console.log(PI);
+console.log(addition(2, 3)); // 5
+                            </code></pre>
+                         </li>
+                          <li><strong>Default Import:</strong> Varsayılan değeri alır. Süslü parantez kullanılmaz ve herhangi bir isim verilebilir.
+                            <pre><code class="language-javascript">// ana.js
+import BenimKullaniciSinifim from './kullanici.js';
+const user = new BenimKullaniciSinifim("Ayşe");
+                            </code></pre>
+                         </li>
+                          <li><strong>Namespace Import:</strong> Bir modüldeki tüm named export'ları tek bir nesne altında toplar.
+                             <pre><code class="language-javascript">// ana.js
+import * as MathLib from './matematik.js';
+console.log(MathLib.PI);
+console.log(MathLib.topla(5, 5));
+                            </code></pre>
+                          </li>
+                           <li>Hem default hem de named import'ları birleştirmek mümkündür:
+                               <pre><code class="language-javascript">import DefaultDeger, { namedDeger1, namedDeger2 } from './modul.js';</code></pre>
+                           </li>
+                     </ul>
+                     <p>Modüller, kodun kapsamını korur (modül içindeki değişkenler varsayılan olarak global olmaz) ve bağımlılıkları açıkça belirtmeyi sağlar.</p>
+                      <pre><code class="language-html">&lt;!-- HTML içinde modül kullanımı --&gt;
+&amp;lt;script type="module" src="ana.js"&amp;gt;&amp;lt;/script&amp;gt;
+                     </code></pre>
+                 </details>
+            </section>
+
+            <section id="asenkron" class="content-section">
+                <h2>Asenkron JavaScript: Beklemeden İşlem Yapma</h2>
+                <p>JavaScript temelde tek iş parçacıklı (single-threaded) bir dildir, yani aynı anda sadece tek bir işlem yapabilir. Ancak web'de sıkça karşılaşılan ağ istekleri (veri çekme), zamanlayıcılar (setTimeout) veya kullanıcı olayları gibi işlemler zaman alabilir. Eğer bu işlemler senkron (eş zamanlı) olarak yapılsaydı, işlem bitene kadar tüm sayfa donardı (bloke olurdu). Asenkron programlama, bu tür zaman alan işlemlerin arka planda çalışmasına izin verirken, JavaScript motorunun diğer işlemlere devam etmesini sağlar. İşlem tamamlandığında ise bir geri bildirim mekanizması ile sonuçlar işlenir.</p>
+
+                <details class="question-block">
+                    <summary><h3>Callback Fonksiyonları</h3></summary>
+                    <p>Asenkron işlemlerin sonuçlarını işlemenin en temel yollarından biri callback fonksiyonlarıdır. Bir fonksiyon, başka bir fonksiyona parametre olarak geçilir ve asenkron işlem tamamlandığında bu callback fonksiyonu çağrılır.</p>
+                    <pre><code class="language-javascript">
+console.log("İşlem 1 Başladı");
+
+// setTimeout asenkron bir fonksiyondur.
+// Belirtilen süre (milisaniye) sonra verilen fonksiyonu çalıştırır.
+setTimeout(function() { // Bu bir callback fonksiyonu
+  console.log("İşlem 2 (Asenkron) Tamamlandı");
+}, 2000); // 2 saniye bekle
+
+console.log("İşlem 3 Başladı");
+
+// Beklenen Konsol Çıktısı:
+// İşlem 1 Başladı
+// İşlem 3 Başladı
+// (2 saniye sonra)
+// İşlem 2 (Asenkron) Tamamlandı
+                    </code></pre>
+                    <p>Birden fazla iç içe asenkron işlem gerektiğinde, callback'ler "Callback Hell" veya "Pyramid of Doom" adı verilen karmaşık ve okunması zor bir yapıya yol açabilir:</p>
+                     <pre><code class="language-javascript">
+// Callback Hell Örneği (Sadece Konsept)
+veriCek('/api/kullanici/1', function(kullanici) {
+  console.log("Kullanıcı:", kullanici.ad);
+  siparisleriCek(kullanici.id, function(siparisler) {
+    console.log("Sipariş Sayısı:", siparisler.length);
+    ilkSiparisDetayiniCek(siparisler[0].id, function(detay) {
+      console.log("İlk Sipariş Detayı:", detay.urunAdi);
+      // ... ve bu böyle devam edebilir ...
+    }, function(hataDetay) {
+        console.error("Detay çekilemedi:", hataDetay);
+    });
+  }, function(hataSiparis) {
+      console.error("Siparişler çekilemedi:", hataSiparis);
+  });
+}, function(hataKullanici) {
+    console.error("Kullanıcı çekilemedi:", hataKullanici);
+});
+                    </code></pre>
+                     <p>Bu tür durumlar için Promise'ler ve async/await daha modern ve okunabilir çözümler sunar.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Promise'ler (Sözler)</h3></summary>
+                    <p>Promise'ler, asenkron bir işlemin nihai sonucunu (başarı veya başarısızlık) temsil eden nesnelerdir. Callback'lere göre daha yönetilebilir ve zincirlenebilir bir yapı sunarlar.</p>
+                    <p>Bir Promise üç durumda olabilir:</p>
+                    <ol>
+                        <li><strong>Pending (Beklemede):</strong> İşlem henüz tamamlanmadı.</li>
+                        <li><strong>Fulfilled (Başarılı):</strong> İşlem başarıyla tamamlandı.</li>
+                        <li><strong>Rejected (Reddedildi):</strong> İşlem bir hatayla sonuçlandı.</li>
+                    </ol>
+                    <p>Promise'ler genellikle <code>.then()</code> ve <code>.catch()</code> metotları ile kullanılır:</p>
+                    <ul>
+                        <li><strong><code>.then(onFulfilled, onRejected)</code>:</strong> Promise başarılı olduğunda (fulfilled) <code>onFulfilled</code> fonksiyonunu, reddedildiğinde (rejected) ise isteğe bağlı <code>onRejected</code> fonksiyonunu çalıştırır. <code>.then()</code> metodu kendisi de yeni bir Promise döndürdüğü için işlemler zincirlenebilir (chaining).</li>
+                        <li><strong><code>.catch(onRejected)</code>:</strong> Sadece Promise reddedildiğinde çalışacak fonksiyonu belirtmenin kısa yoludur (<code>.then(null, onRejected)</code> ile aynıdır). Zincirdeki herhangi bir yerde oluşan hatayı yakalamak için genellikle zincirin sonuna eklenir.</li>
+                        <li><strong><code>.finally(onFinally)</code>:</strong> Promise başarılı da olsa, reddedilse de her zaman çalışacak bir fonksiyon belirtir (örn: yükleniyor göstergesini kaldırmak için).</li>
+                    </ul>
+                     <pre><code class="language-javascript">
+// Promise oluşturan basit bir fonksiyon (örnek)
+function veriCekPromise(url) {
+  return new Promise((resolve, reject) =&gt; {
+    // Asenkron işlemi simüle etme (örneğin setTimeout veya fetch)
+    console.log(`${url} adresinden veri çekiliyor...`);
+    setTimeout(() =&gt; {
+      const basarili = Math.random() &gt; 0.2; // %80 başarı ihtimali
+      if (basarili) {
+        resolve({ data: `Veri ${url} adresinden geldi!` }); // Başarılı sonuç
+      } else {
+        reject(new Error(`${url} için veri çekme başarısız!`)); // Hata durumu
+      }
+    }, 1500);
+  });
+}
+
+// Promise kullanımı ve zincirleme
+veriCekPromise('/api/veri1')
+  .then(sonuc1 =&gt; {
+    console.log("1. İstek Başarılı:", sonuc1.data);
+    // İlk istek başarılı olursa ikinci isteği yap
+    return veriCekPromise('/api/veri2'); // Yeni bir Promise döndür
+  })
+  .then(sonuc2 =&gt; {
+    console.log("2. İstek Başarılı:", sonuc2.data);
+    // Başka bir işlem...
+    return "Tüm işlemler tamamlandı.";
+  })
+  .then(sonMesaj =&gt; {
+      console.log(sonMesaj);
+  })
+  .catch(hata =&gt; {
+    // Zincirdeki herhangi bir Promise reddedilirse burası çalışır
+    console.error("Bir hata oluştu:", hata.message);
+  })
+  .finally(() =&gt; {
+      console.log("Promise zinciri tamamlandı (başarılı veya hatalı).");
+  });
+
+console.log("Promise başlatıldı, sonuç bekleniyor...");
+                    </code></pre>
+                    <p><code>Promise.all()</code> (tüm promise'ler başarılı olunca çalışır), <code>Promise.race()</code> (ilk tamamlanan promise'in sonucunu alır), <code>Promise.allSettled()</code> (tüm promise'lerin sonucunu (başarı/hata) bekler) gibi yardımcı metotlar da bulunur.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>`async`/`await` (ES2017+)</h3></summary>
+                    <p><code>async</code> ve <code>await</code> anahtar kelimeleri, Promise tabanlı asenkron kodları daha senkron gibi görünen, okunması ve yazması daha kolay bir şekilde yazmayı sağlar. Aslında Promise'lerin üzerine kurulmuş sözdizimsel bir kolaylıktır.</p>
+                    <ul>
+                        <li><strong><code>async</code>:</strong> Bir fonksiyon tanımının önüne eklenir (<code>async function fonksiyonAdi() { ... }</code> veya <code>const f = async () =&gt; { ... }</code>). Bu, fonksiyonun her zaman bir Promise döndüreceğini belirtir. Fonksiyon içinde <code>return deger;</code> kullanılırsa, Promise bu değerle resolve olur. Hata fırlatılırsa Promise reject olur.</li>
+                        <li><strong><code>await</code>:</strong> Sadece <code>async</code> fonksiyonların içinde kullanılabilir. Bir Promise'in önüne eklenir. JavaScript motorunun, Promise tamamlanana (resolve veya reject olana) kadar fonksiyonun çalışmasını *duraklatmasını* sağlar. Promise resolve olduğunda, <code>await</code> ifadesi Promise'in çözümlenmiş değerini döndürür. Promise reject olursa, <code>await</code> bir hata fırlatır (bu hata <code>try...catch</code> bloğu ile yakalanabilir).</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+// Önceki Promise örneğini async/await ile yazalım
+
+// Promise oluşturan fonksiyon aynı kalır
+function veriCekPromise(url) {
+  return new Promise((resolve, reject) =&gt; {
+    console.log(`${url} adresinden veri çekiliyor...`);
+    setTimeout(() =&gt; {
+      const basarili = Math.random() &gt; 0.2;
+      if (basarili) {
+        resolve({ data: `Veri ${url} adresinden geldi!` });
+      } else {
+        reject(new Error(`${url} için veri çekme başarısız!`));
+      }
+    }, 1500);
+  });
+}
+
+// async fonksiyon tanımı
+async function verileriIsle() {
+  console.log("async fonksiyon başladı...");
+  try {
+    // await ile Promise'in sonucunu bekle
+    const sonuc1 = await veriCekPromise('/api/veri1');
+    console.log("1. İstek Başarılı (async):", sonuc1.data);
+
+    // İlk işlem bitince ikinciyi başlat ve bekle
+    const sonuc2 = await veriCekPromise('/api/veri2');
+    console.log("2. İstek Başarılı (async):", sonuc2.data);
+
+    console.log("Tüm işlemler async/await ile tamamlandı.");
+    return "Başarılı Sonuç"; // Bu değer Promise olarak dönecek
+
+  } catch (hata) {
+    // await ile beklenen Promise reject olursa burası çalışır
+    console.error("async/await içinde hata yakalandı:", hata.message);
+    return "Hatalı Sonuç"; // Bu değer de Promise olarak dönecek
+
+  } finally {
+      console.log("async fonksiyon (try veya catch sonrası) tamamlandı.");
+  }
+}
+
+// async fonksiyonu çağırma (bir Promise döndürür)
+verileriIsle()
+  .then(nihaiSonuc =&gt; {
+    console.log("verileriIsle fonksiyonunun nihai sonucu:", nihaiSonuc);
+  })
+  .catch(hata => {
+      // Genellikle async fonksiyon içindeki catch bloğu hataları yakalar,
+      // ama yine de bir güvenlik ağı olarak eklenebilir.
+      console.error("async fonksiyon çağrısında beklenmedik hata:", hata);
+  });
+
+console.log("async fonksiyon çağrıldı, işlemler bekleniyor...");
+
+                    </code></pre>
+                    <p><code>async/await</code>, asenkron kodu daha okunabilir hale getirerek Callback Hell ve karmaşık <code>.then()</code> zincirlerinin önüne geçer.</p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Fetch API</h3></summary>
+                    <p>Fetch API, ağ istekleri yapmak (örneğin bir sunucudan veri çekmek veya sunucuya veri göndermek) için modern, Promise tabanlı bir arayüzdür. Eski <code>XMLHttpRequest</code> nesnesine göre daha güçlü ve esnektir.</p>
+                    <p>Temel kullanımı <code>fetch(url, [options])</code> şeklindedir:</p>
+                    <ul>
+                        <li><code>url</code>: İstek yapılacak kaynak (API endpoint).</li>
+                        <li><code>options</code> (İsteğe bağlı): İstek ayarlarını içeren bir nesne (<code>method</code>: 'GET', 'POST', 'PUT', 'DELETE' vb., <code>headers</code>: HTTP başlıkları, <code>body</code>: gönderilecek veri (POST/PUT için, genellikle JSON.stringify ile)).</li>
+                    </ul>
+                    <p><code>fetch()</code> bir Promise döndürür. Bu Promise, HTTP yanıtının başlıkları geldiğinde resolve olur. Yanıtın gövdesini (body) okumak için (örn: JSON, text) yanıt nesnesinin (Response object) <code>.json()</code>, <code>.text()</code>, <code>.blob()</code> gibi metotları kullanılır ve bu metotlar da *yeni bir Promise* döndürür.</p>
+                     <pre><code class="language-javascript">
+const apiUrl = 'https://jsonplaceholder.typicode.com/posts/1'; // Örnek API
+
+// GET isteği (veri çekme) - Promise ile
+fetch(apiUrl)
+  .then(response =&gt; {
+    // HTTP yanıt durumunu kontrol et (fetch 404 gibi hatalarda reject olmaz)
+    if (!response.ok) { // ok özelliği 200-299 arası durum kodları için true olur
+      throw new Error(`HTTP Hatası! Durum: ${response.status}`);
+    }
+    // Yanıt gövdesini JSON olarak oku (bu da bir Promise döndürür)
+    return response.json();
+  })
+  .then(veri =&gt; {
+    console.log("Promise ile Gelen Veri:", veri);
+    // Gelen veri ile DOM'u güncelle vb.
+    document.getElementById('veriAlani').textContent = `Başlık: ${veri.title}`;
+  })
+  .catch(hata =&gt; {
+    console.error("Fetch hatası (Promise):", hata);
+    document.getElementById('veriAlani').textContent = `Hata: ${hata.message}`;
+  });
+
+// GET isteği - async/await ile (daha okunabilir)
+async function veriCekAsync(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP Hatası! Durum: ${response.status}`);
+    }
+    const veri = await response.json(); // JSON okuma işlemini de await ile bekle
+    console.log("Async/Await ile Gelen Veri:", veri);
+    document.getElementById('veriAlaniAsync').textContent = `İçerik: ${veri.body}`;
+  } catch (hata) {
+    console.error("Fetch hatası (async/await):", hata);
+    document.getElementById('veriAlaniAsync').textContent = `Hata: ${hata.message}`;
+  }
+}
+
+veriCekAsync(apiUrl);
+
+// POST isteği (veri gönderme) örneği
+async function veriGonder(url, gonderilecekVeri) {
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json' // Gönderilen verinin tipini belirt
+            },
+            body: JSON.stringify(gonderilecekVeri) // JavaScript nesnesini JSON string'e çevir
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP Hatası! Durum: ${response.status}`);
+        }
+
+        const donenVeri = await response.json(); // Sunucudan dönen yanıtı işle
+        console.log("Sunucudan Dönen Yanıt:", donenVeri);
+        return donenVeri;
+
+    } catch (hata) {
+        console.error("POST isteği hatası:", hata);
+    }
+}
+
+const yeniGonderi = { title: 'foo', body: 'bar', userId: 1 };
+// veriGonder('https://jsonplaceholder.typicode.com/posts', yeniGonderi); // Örnek çağırma
+                    </code></pre>
+                </details>
+            </section>
+
+            <section id="ileri" class="content-section">
+                <h2>İleri Konular ve En İyi Uygulamalar</h2>
+                <p>JavaScript'in temellerini ve modern özelliklerini öğrendikten sonra, kod kalitesini artırmak, hataları yönetmek ve daha büyük projeler geliştirmek için bazı ileri konulara ve en iyi uygulamalara odaklanmak önemlidir.</p>
+
+                <details class="question-block">
+                    <summary><h3>Hata Yönetimi (`try...catch...finally`)</h3></summary>
+                    <p>Program çalışırken oluşabilecek hataları (exceptions) yakalamak ve programın çökmesini önlemek için <code>try...catch...finally</code> bloğu kullanılır.</p>
+                    <ul>
+                        <li><strong><code>try</code> Bloğu:</strong> Hata oluşturma potansiyeli olan kodlar bu bloğa yazılır.</li>
+                        <li><strong><code>catch (hata)</code> Bloğu:</strong> <code>try</code> bloğu içinde bir hata oluşursa, programın akışı bu bloğa geçer. Hata nesnesi (genellikle <code>hata</code> veya <code>error</code> olarak adlandırılır) hata hakkında bilgi içerir (örn: <code>hata.message</code>, <code>hata.name</code>, <code>hata.stack</code>).</li>
+                        <li><strong><code>finally</code> Bloğu (İsteğe bağlı):</strong> Hata oluşsa da oluşmasa da her zaman çalıştırılacak kodları içerir (örn: açılan bir kaynağı kapatmak için).</li>
+                    </ul>
+                    <p><code>throw</code> ifadesi ile özel hatalar da fırlatılabilir.</p>
+                     <pre><code class="language-javascript">
+function bolmeYap(a, b) {
+  try {
+    if (b === 0) {
+      // Özel bir hata fırlat
+      throw new Error("Sıfıra bölme hatası!");
+    }
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new TypeError("Parametreler sayı olmalıdır!");
+    }
+    let sonuc = a / b;
+    console.log("Bölme işlemi başarılı.");
+    return sonuc;
+
+  } catch (hata) {
+    // Fırlatılan hatayı yakala
+    console.error("Bir hata oluştu!");
+    console.error("Hata Adı:", hata.name); // Örn: "Error", "TypeError"
+    console.error("Hata Mesajı:", hata.message);
+    // console.error("Hata Stack:", hata.stack); // Hatanın oluştuğu yerin izi
+    return null; // Hata durumunda null döndür
+
+  } finally {
+    // Bu blok her zaman çalışır
+    console.log("Hata kontrolü tamamlandı.");
+  }
+}
+
+console.log(bolmeYap(10, 2)); // 5 (Başarılı)
+console.log("---");
+console.log(bolmeYap(10, 0)); // null (Hata yakalandı)
+console.log("---");
+console.log(bolmeYap("abc", 2)); // null (Hata yakalandı)
+                    </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Strict Mode (`'use strict';`)</h3></summary>
+                    <p>"Strict Mode" (Katı Mod), JavaScript kodunda daha güvenli ve daha az hataya açık bir çalışma şeklini etkinleştiren özel bir moddur. Normalde sessizce görmezden gelinecek bazı hataları belirgin hatalara dönüştürür ve bazı güvensiz kabul edilen özelliklerin kullanımını kısıtlar.</p>
+                    <p>Strict modu etkinleştirmek için, bir script dosyasının veya bir fonksiyonun başına <code>'use strict';</code> (veya <code>"use strict";</code>) ifadesi eklenir.</p>
+                    <p>Sağladığı bazı faydalar:</p>
+                    <ul>
+                        <li>Tanımlanmamış değişkenlere değer atamaya çalışmayı hataya dönüştürür (normalde global değişken oluşturur).</li>
+                        <li>Silinemeyen özellikleri (örn: <code>Object.prototype</code>) silmeye çalışmayı hataya dönüştürür.</li>
+                        <li>Fonksiyon parametre isimlerinin benzersiz olmasını gerektirir.</li>
+                        <li>Oktal (sekizlik taban) sayı literallerini (<code>010</code> gibi) yasaklar.</li>
+                        <li><code>this</code> değerinin global nesneye (window) dönüşmesini engeller (fonksiyon normal şekilde çağrıldığında <code>this</code> <code>undefined</code> olur).</li>
+                        <li><code>eval</code> ve <code>arguments</code> üzerinde bazı kısıtlamalar getirir.</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+'use strict'; // Script'in tamamı için strict modu etkinleştir
+
+// x = 10; // Hata! x tanımlanmadı (strict mod olmasaydı global x oluşturulurdu)
+let y = 20;
+
+function katıFonksiyon(a, a) { // Hata! Parametre isimleri tekrar ediyor
+    // ...
+}
+
+// delete Object.prototype; // Hata! Silinemeyen özellik
+
+function testThis() {
+    console.log(this); // undefined (strict modda)
+}
+testThis();
+
+console.log("Strict mod aktif.");
+                    </code></pre>
+                    <p>Modern JavaScript projelerinde (özellikle modüller kullanılıyorsa, çünkü modüller varsayılan olarak strict moddadır) strict modu kullanmak genellikle iyi bir pratiktir.</p>
+                </details>
+
+                <details class="question-block">
+                     <summary><h3>Kodlama Standartları ve Linting</h3></summary>
+                     <p>Büyük projelerde veya takım çalışmalarında tutarlı, okunabilir ve hatasız kod yazmak çok önemlidir. Kodlama standartları, kodun nasıl biçimlendirileceği (girintileme, boşluklar, noktalı virgül kullanımı vb.) ve hangi dil özelliklerinin nasıl kullanılacağı konusunda kurallar belirler.</p>
+                     <p><strong>Linting Araçları (Linters):</strong> ESLint, JSHint, Prettier gibi araçlar, yazılan JavaScript kodunu otomatik olarak analiz ederek potansiyel hataları, stil tutarsızlıklarını ve kötü pratikleri tespit eder. Bu araçlar, belirlenen kodlama standartlarına (Airbnb, Google, StandardJS gibi popüler standartlar veya özel kurallar) uyulmasını sağlamaya yardımcı olur.</p>
+                     <ul>
+                         <li><strong>ESLint:</strong> En popüler ve yapılandırılabilir linting aracıdır. Hem kod kalitesini hem de stilini kontrol edebilir.</li>
+                         <li><strong>Prettier:</strong> Daha çok kod biçimlendirmeye odaklanır. Kodu otomatik olarak belirli bir stile göre yeniden biçimlendirir. Genellikle ESLint ile birlikte kullanılır.</li>
+                     </ul>
+                     <p>Linting araçlarını kullanmak:</p>
+                     <ul>
+                         <li>Hataları erken aşamada yakalamayı sağlar.</li>
+                         <li>Kodun okunabilirliğini ve tutarlılığını artırır.</li>
+                         <li>Takım içindeki farklı kodlama stillerinden kaynaklanan sorunları azaltır.</li>
+                         <li>En iyi uygulamaların takip edilmesine yardımcı olur.</li>
+                     </ul>
+                     <p>Bu araçlar genellikle kod editörlerine entegre edilebilir ve geliştirme sürecinin bir parçası haline getirilebilir.</p>
+                </details>
+
+                 <details class="question-block">
+                    <summary><h3>Tarayıcı API'ları ve Web API'ları</h3></summary>
+                    <p>JavaScript dilinin kendisi çekirdek özellikler sunarken (veri tipleri, operatörler, kontrol yapıları, fonksiyonlar vb.), tarayıcılar ve Node.js gibi ortamlar, çevreleriyle etkileşim kurmak için ek API'lar (Application Programming Interfaces) sağlarlar. Tarayıcı ortamında en sık kullanılan Web API'larından bazıları şunlardır:</p>
+                    <ul>
+                        <li><strong>DOM API:</strong> HTML ve XML belgelerini işlemek için (daha önce detaylandırıldı).</li>
+                        <li><strong>Fetch API / XMLHttpRequest:</strong> Ağ istekleri yapmak için (daha önce detaylandırıldı).</li>
+                        <li><strong>Console API:</strong> Tarayıcı konsoluna mesaj yazdırmak için (<code>console.log</code> vb.).</li>
+                        <li><strong>Timers:</strong> Belirli bir süre sonra veya düzenli aralıklarla kod çalıştırmak için (<code>setTimeout()</code>, <code>setInterval()</code>, <code>clearTimeout()</code>, <code>clearInterval()</code>).</li>
+                        <li><strong>Web Storage API:</strong> Tarayıcıda veri depolamak için (<code>localStorage</code> ve <code>sessionStorage</code>).</li>
+                        <li><strong>Geolocation API:</strong> Kullanıcının coğrafi konumunu almak için.</li>
+                        <li><strong>History API:</strong> Tarayıcı geçmişini yönetmek ve tek sayfa uygulamalarında (SPA) gezinmeyi sağlamak için (<code>history.pushState()</code>, <code>history.back()</code>, <code>popstate</code> olayı).</li>
+                        <li><strong>Canvas API:</strong> 2D grafik çizmek için.</li>
+                        <li><strong>Web Audio API:</strong> Ses işlemek ve sentezlemek için gelişmiş yetenekler sunar.</li>
+                        <li><strong>Web Workers API:</strong> Arka planda script çalıştırmak için.</li>
+                    </ul>
+                    <p>Bu API'lar, JavaScript'in web sayfalarıyla, tarayıcı özellikleriyle ve dış dünyayla etkileşim kurmasını sağlar.</p>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>JavaScript Ekosistemi: Kütüphaneler, Framework'ler ve Araçlar</h3></summary>
+                    <p>JavaScript'in popülaritesi, etrafında devasa bir ekosistemin oluşmasını sağlamıştır. Bu ekosistem, geliştirmeyi hızlandıran ve kolaylaştıran sayısız kütüphane, framework ve araç içerir:</p>
+                    <ul>
+                        <li><strong>Kütüphaneler (Libraries):</strong> Belirli görevleri kolaylaştıran tekrar kullanılabilir kod koleksiyonlarıdır (örn: jQuery (DOM manipülasyonu - eskisi kadar popüler olmasa da), Lodash/Underscore (yardımcı fonksiyonlar), Moment.js/Day.js (tarih/saat işlemleri), Axios (Promise tabanlı HTTP istemcisi)).</li>
+                        <li><strong>Framework'ler (Çatılar):</strong> Uygulama geliştirmek için daha kapsamlı bir yapı ve kurallar bütünü sunarlar. Genellikle belirli bir mimariyi (örn: MVC, MVVM, Component-based) takip ederler. Popüler frontend framework'leri:
+                            <ul>
+                                <li><strong>React:</strong> Facebook tarafından geliştirilen, bileşen tabanlı kullanıcı arayüzleri oluşturmaya odaklanan popüler bir kütüphane (genellikle framework olarak anılır).</li>
+                                <li><strong>Angular:</strong> Google tarafından geliştirilen, kapsamlı bir frontend framework'üdür. TypeScript kullanır.</li>
+                                <li><strong>Vue.js:</strong> Öğrenmesi kolay ve esnek yapısıyla bilinen ilerleyici (progressive) bir framework'tür.</li>
+                                <li><strong>Svelte:</strong> Geleneksel framework'lerden farklı olarak, sanal DOM kullanmak yerine derleme aşamasında optimize edilmiş vanilla JavaScript kodu üreten bir yaklaşımdır.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Paket Yöneticileri:</strong> Proje bağımlılıklarını (kütüphaneler, framework'ler) yönetmek için kullanılır (<code>npm</code> - Node Package Manager, <code>yarn</code>).</li>
+                        <li><strong>Build Araçları (Module Bundlers):</strong> Modern JavaScript kodunu (ES6+, modüller, Sass/Less vb.) tarayıcıların anlayabileceği formata dönüştüren, dosyaları birleştiren, küçülten ve optimize eden araçlardır (Webpack, Parcel, Rollup, Vite).</li>
+                        <li><strong>Transpiler'lar:</strong> Yeni JavaScript özelliklerini (ES6+) eski tarayıcıların da anlayabileceği ES5 gibi sürümlere çeviren araçlardır (Babel en popüler olanıdır).</li>
+                        <li><strong>Test Araçları:</strong> Kodun doğru çalıştığını doğrulamak için birim (unit), entegrasyon (integration) ve uçtan uca (end-to-end) testler yazmayı sağlayan araçlardır (Jest, Mocha, Jasmine, Cypress, Playwright).</li>
+                    </ul>
+                    <p>Bu ekosistemi anlamak ve uygun araçları seçmek, modern JavaScript projeleri geliştirmek için önemlidir.</p>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Sonuç: JavaScript Öğrenme Yolculuğu</h3></summary>
+                    <p>
+                        JavaScript, web geliştirmenin vazgeçilmez bir parçasıdır ve sürekli gelişen, dinamik bir dildir. Temellerini sağlam bir şekilde öğrenmek, DOM manipülasyonu ve olay yönetimi gibi tarayıcı etkileşimlerini kavramak, ES6+ ile gelen modern özellikleri benimsemek ve asenkron programlamanın mantığını anlamak, etkili web uygulamaları geliştirmek için kritik adımlardır.
+                    </p>
+                    <p>
+                        Bu rehber, JavaScript dünyasına bir giriş niteliğindedir. Pratik yapmak, küçük projeler geliştirmek, başkalarının kodlarını okumak ve MDN Web Docs gibi güvenilir kaynaklardan yararlanmak öğrenme sürecinizi hızlandıracaktır. JavaScript ekosistemindeki kütüphaneleri, framework'leri ve araçları keşfetmek de ufkunuzu genişletecektir.
+                    </p>
+                    <p>
+                        Sabır, merak ve sürekli pratikle, JavaScript'in sunduğu sınırsız olanakları keşfedebilir ve web'e kendi dinamizminizi katabilirsiniz.
+                    </p>
+                 </details>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <a href="https://abdulkadirgungor86.github.io/cv/" target="_blank" rel="noopener noreferrer">© 2025 Abdulkadir Güngör</a><br/>
+        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap (XML)</a>
+    </footer>
+    <script src="../assets/js/blog_script.js"></script>
+</body>
+</html>
