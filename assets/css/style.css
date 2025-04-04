@@ -223,7 +223,7 @@ ul {
 }
 
 .hero h1 {
-    border: 5px solid red;
+    -webkit-text-stroke: 1px black;
     font-size: 3rem;
     margin-bottom: 1rem;
     color: #fff;
@@ -232,7 +232,7 @@ ul {
 }
 
 .hero p {
-    border: 5px solid red;
+    -webkit-text-stroke: 1px black;
     font-size: 1.1rem;
     margin-bottom: 0;
     font-weight: 300;
