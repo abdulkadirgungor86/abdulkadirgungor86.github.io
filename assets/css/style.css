@@ -29,7 +29,6 @@ html {
 
 body {
     font-family: var(--font-family-base);
-    border: 5px solid red;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--body-bg);
@@ -218,6 +217,7 @@ ul {
 }
 
 .hero-content {
+    border: 5px solid red;
     position: relative;
     z-index: 2;
     max-width: 800px;
