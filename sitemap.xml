@@ -9,7 +9,7 @@
   <url>
     <loc>https://abdulkadirgungor86.github.io/cv/</loc>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority> <!-- Düzeltildi: 1 -> 1.0 -->
+    <priority>1.0</priority>
   </url>
 
   <url>
@@ -47,7 +47,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- Hata düzeltildi: Fazla <url> etiketi kaldırıldı -->
   <url>
     <loc>https://abdulkadirgungor86.github.io/blog/blog_page_7.html</loc>
     <changefreq>weekly</changefreq>
@@ -63,7 +62,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- Hata düzeltildi: Fazla <url> etiketi kaldırıldı -->
   <url>
     <loc>https://abdulkadirgungor86.github.io/blog/blog_page_10.html</loc>
     <changefreq>weekly</changefreq>
@@ -99,7 +97,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- Hata düzeltildi: Fazla <url> etiketi kaldırıldı -->
   <url>
     <loc>https://abdulkadirgungor86.github.io/blog/blog_page_17.html</loc>
     <changefreq>weekly</changefreq>
@@ -110,7 +107,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- Hata düzeltildi: Fazla <url> etiketi kaldırıldı -->
   <url>
     <loc>https://abdulkadirgungor86.github.io/blog/blog_page_19.html</loc>
     <changefreq>weekly</changefreq>
@@ -151,7 +147,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- Hata düzeltildi: Fazla <url> etiketi kaldırıldı -->
   <url>
     <loc>https://abdulkadirgungor86.github.io/blog/blog_page_27.html</loc>
     <changefreq>weekly</changefreq>
