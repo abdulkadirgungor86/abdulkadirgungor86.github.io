@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="siteTitle">Yazılım Güvenliği Rehberi: Uygulamalarınızı Koruma Altına Alın</title>
+    <meta name="description" content="Yazılım güvenliği temelleri üzerine kapsamlı bir rehber. OWASP Top 10 zafiyetleri (SQL Injection, XSS, Broken Access Control vb.), güvenli kodlama pratikleri (Input Validation, Authentication/Authorization) ve API güvenliği (JWT, OAuth 2.0, Rate Limiting) konuları C#, Python, JavaScript örnekleriyle detaylı olarak açıklanmaktadır. Güvenli yazılımlar geliştirmek için en iyi pratikleri öğrenin. Abdulkadir Güngör tarafından hazırlanmıştır.">
+    <meta name="keywords" content="Yazılım Güvenliği, Siber Güvenlik, OWASP Top 10, Güvenli Kodlama, Secure Coding, API Güvenliği, SQL Injection, XSS, Cross-Site Scripting, Authentication, Authorization, JWT, OAuth 2.0, Input Validation, Dependency Security, Rate Limiting, HTTPS, Web Güvenliği, Uygulama Güvenliği, C#, Python, JavaScript, Abdulkadir Güngör">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="canonical" href="https://abdulkadirgungor86.github.io/blog/blog_page_21.html" />
+
+    <link rel="icon" type="image/png" href="../assets/images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../assets/images/icons/favicon.svg" />
+    <link rel="shortcut icon" href="../assets/images/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../assets/images/icons/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    
+    <script type="application/ld+json" id="siteData">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article", 
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://abdulkadirgungor86.github.io/blog/blog_page_21.html"
+      },
+      "headline": "Yazılım Güvenliği Rehberi: Uygulamalarınızı Koruma Altına Alın",
+      "name": "Yazılım Güvenliği Rehberi | Abdulkadir Güngör", 
+      "author": {
+        "@type": "Person",
+        "name": "Abdulkadir Güngör"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Abdulkadir Güngör",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://abdulkadirgungor86.github.io/assets/images/icons/favicon-96x96.png" 
+        }
+      },
+      "datePublished": "2025-05-13", 
+      "dateModified": "2025-05-13", 
+      "description": "Yazılım güvenliği temelleri üzerine kapsamlı bir rehber.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://abdulkadirgungor86.github.io/"
+      },
+      "footerText": "© {YEAR} Abdulkadir Güngör. Tüm Hakları Saklıdır." 
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GFQC3DYZF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5GFQC3DYZF');
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5L6M34JW');</script>
+    
+</head>
+<body id="pageTop"> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L6M34JW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <main class="section-padding">
+        <div class="container">
+            <article id="giris" class="content-section intro-section">
+                <h1>Yazılım Güvenliği: Dijital Dünyanın Kalkanı</h1>
+                <p>
+                    Günümüzün birbirine bağlı dijital dünyasında, yazılım uygulamaları hayatımızın her alanına nüfuz etmiş durumda. Finansal işlemlerden kişisel iletişimlere, sağlık verilerinden kritik altyapı yönetimine kadar birçok hassas bilgi ve süreç yazılımlar aracılığıyla yönetiliyor. Bu durum, yazılım güvenliğini sadece teknik bir detay olmaktan çıkarıp, bireyler, kurumlar ve hatta ulusal güvenlik için hayati bir zorunluluk haline getiriyor. Kötü niyetli saldırganlar sürekli olarak sistemlerdeki zafiyetleri ararken, geliştiricilerin ve kurumların bu tehditlere karşı proaktif ve bilinçli bir savunma hattı oluşturması gerekiyor.
+                </p>
+                <p>
+                    Yazılım güvenliği, uygulamaların tasarımından geliştirilmesine, dağıtımından bakımına kadar tüm yaşam döngüsü boyunca dikkate alınması gereken çok katmanlı bir konsepttir. Sadece güvenlik duvarları veya antivirüs yazılımları gibi dış katman korumaları yeterli değildir; güvenliğin uygulamanın koduna, mimarisine ve geliştirme süreçlerine entegre edilmesi şarttır. OWASP (Open Web Application Security Project) gibi kuruluşlar tarafından belirlenen yaygın zafiyetler (SQL Injection, Cross-Site Scripting - XSS, Broken Access Control vb.), saldırganların en çok hedef aldığı alanları gösterirken, güvenli kodlama pratikleri bu zafiyetlerin oluşmasını en baştan engellemeyi hedefler.
+                </p>
+                 <p>
+                    Modern uygulamaların birbirleriyle ve dış dünyayla etkileşim kurmasını sağlayan API'ler (Uygulama Programlama Arayüzleri) ise yeni bir saldırı yüzeyi oluşturmaktadır. API'lerin doğru şekilde kimlik doğrulaması (authentication) ve yetkilendirmesi (authorization), veri aktarımının şifrelenmesi ve kötüye kullanımı önleyici mekanizmaların (rate limiting gibi) uygulanması, API güvenliğinin temelini oluşturur. Bu rehber, yazılım güvenliğinin temel direklerini oluşturan OWASP Top 10 zafiyetlerini, güvenli kodlama alışkanlıklarını ve API güvenliği için alınması gereken önlemleri ele alarak, daha güvenli, dayanıklı ve güvenilir yazılımlar geliştirmeniz için size pratik bilgiler ve yol gösterici ilkeler sunmayı amaçlamaktadır. Unutmayın, güvenlik bir ürün değil, sürekli devam eden bir süreçtir.
+                </p>
+            </article>
+
+            <section id="owasp" class="content-section">
+                <h2>OWASP Top 10: En Kritik Web Uygulama Riskleri</h2>
+                <p>
+                    OWASP (Open Web Application Security Project), web uygulama güvenliğini iyileştirmeye odaklanmış, kar amacı gütmeyen küresel bir topluluktur. OWASP Top 10, web uygulamalarındaki en kritik güvenlik risklerini belirleyen ve farkındalık yaratmayı amaçlayan standart bir referans belgesidir. Periyodik olarak güncellenen bu liste, geliştiricilerin, güvenlik uzmanlarının ve kurumların en yaygın ve tehlikeli zafiyetlere odaklanmasına yardımcı olur. Burada, OWASP Top 10 2021 listesindeki bazı önemli risklere ve korunma yöntemlerine değineceğiz.
+                </p>
+
+                <details class="question-block">
+                    <summary><h3>A01:2021 – Broken Access Control (Bozuk Erişim Kontrolü)</h3></summary>
+                    <p><strong>Nedir?</strong> Kullanıcıların yetkileri dahilinde olmayan işlevlere veya verilere erişmesine izin veren zafiyetlerdir. Kimlik doğrulama (authentication) sonrası yetkilendirme (authorization) kontrollerinin eksik veya hatalı uygulanmasından kaynaklanır.</p>
+                    <p><strong>Örnek Senaryolar:</strong></p>
+                    <ul>
+                        <li>URL'deki ID parametresini değiştirerek başka bir kullanıcının bilgilerini görüntüleyebilme (Insecure Direct Object References - IDOR).</li>
+                        <li>Normal bir kullanıcının, sadece admin yetkisine sahip olması gereken bir yönetim paneline erişebilmesi.</li>
+                        <li>HTTP metodunu değiştirerek (örn: GET yerine PUT) yetkisiz işlem yapabilme.</li>
+                        <li>Rol tabanlı kontrollerin atlatılabilmesi.</li>
+                    </ul>
+                    <p><strong>Korunma Yöntemleri:</strong></p>
+                    <ul>
+                        <li>Varsayılan olarak erişimi reddet (deny by default).</li>
+                        <li>Her istekte, kullanıcının istenen kaynağa veya işlevselliğe erişim yetkisinin olup olmadığını sunucu tarafında <strong>tekrar</strong> kontrol et. İstemci tarafındaki kontrollere (örn: JavaScript ile butonu gizleme) güvenme.</li>
+                        <li>Rol tabanlı (RBAC) veya yetenek tabanlı (Capability-based) erişim kontrol mekanizmalarını tutarlı bir şekilde uygula.</li>
+                        <li>Doğrudan nesne referansları yerine (örn: <code>/kullanici/123</code>), dolaylı veya kullanıcı oturumuna bağlı referanslar kullanmayı düşün veya her erişimde sahiplik kontrolü yap.</li>
+                        <li>Erişim kontrol mekanizmalarını kapsamlı bir şekilde test et (hem normal kullanıcı hem de potansiyel saldırgan senaryolarıyla).</li>
+                        <li>Gereksiz API endpoint'lerini veya özellikleri kapat.</li>
+                    </ul>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>A02:2021 – Cryptographic Failures (Kriptografik Hatalar)</h3></summary>
+                    <p><strong>Nedir?</strong> Hassas verilerin (şifreler, kredi kartı bilgileri, kişisel veriler) iletim sırasında (in transit) veya saklanırken (at rest) yeterince korunmaması veya zayıf kriptografik algoritmalar/anahtarlar kullanılması sonucu ortaya çıkan zafiyetlerdir. Eski adı "Sensitive Data Exposure" idi.</p>
+                    <p><strong>Örnek Senaryolar:</strong></p>
+                    <ul>
+                        <li>Hassas verilerin HTTP üzerinden (şifresiz) iletilmesi.</li>
+                        <li>Şifrelerin veritabanında düz metin veya zayıf hash algoritmaları (MD5, SHA1) ile saklanması.</li>
+                        <li>Zayıf veya varsayılan şifreleme anahtarları kullanılması.</li>
+                        <li>Eski veya güvensiz şifreleme algoritmalarının (DES, RC4) kullanılması.</li>
+                        <li>Hata mesajlarında veya loglarda hassas bilgilerin ifşa edilmesi.</li>
+                        <li>Gereksiz yere hassas veri toplama veya saklama.</li>
+                    </ul>
+                    <p><strong>Korunma Yöntemleri:</strong></p>
+                    <ul>
+                        <li>Tüm veri iletimini <strong>HTTPS (TLS)</strong> ile şifrele. HSTS (HTTP Strict Transport Security) başlığını kullan.</li>
+                        <li>Hassas verileri saklarken güçlü, endüstri standardı şifreleme algoritmaları (AES gibi) kullan.</li>
+                        <li>Şifreleri <strong>asla</strong> düz metin saklama. Güçlü, tuzlanmış (salted) ve yavaşlatılmış (key stretching - örn: PBKDF2, bcrypt, scrypt, Argon2) hash algoritmaları kullanarak sakla.</li>
+                        <li>Kriptografik anahtarları güvenli bir şekilde yönet (ayrı saklama, düzenli rotasyon).</li>
+                        <li>Gereksiz hassas verileri toplama veya saklama. Veri minimizasyonu prensibini uygula.</li>
+                        <li>Tarayıcı önbelleğinin hassas verileri saklamasını önlemek için uygun HTTP başlıklarını (<code>Cache-Control: no-store</code>, <code>Pragma: no-cache</code>) kullan.</li>
+                        <li>Hata mesajlarında ve loglarda hassas bilgileri maskele veya çıkarma.</li>
+                    </ul>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>A03:2021 – Injection (Enjeksiyon)</h3></summary>
+                    <p><strong>Nedir?</strong> Güvenilmeyen kullanıcı girdisinin, bir yorumlayıcıya (interpreter - SQL, NoSQL, OS, LDAP, ORM, HTML vb.) komut veya sorgu olarak gönderilmesi sonucu ortaya çıkan zafiyetlerdir. Saldırgan, bu sayede yorumlayıcıyı kandırarak istenmeyen komutları çalıştırabilir.</p>
+                    <p><strong>Yaygın Türleri:</strong></p>
+                    <ul>
+                        <li><strong>SQL Injection:</strong> Kullanıcı girdisinin doğrudan SQL sorgularına eklenmesiyle veritabanına yetkisiz erişim veya manipülasyon sağlanır.</li>
+                        <li><strong>NoSQL Injection:</strong> NoSQL veritabanlarına yönelik benzer saldırılar.</li>
+                        <li><strong>OS Command Injection:</strong> Kullanıcı girdisinin işletim sistemi komutlarına eklenmesiyle sunucuda rastgele komut çalıştırılır.</li>
+                        <li><strong>Cross-Site Scripting (XSS):</strong> Kullanıcı girdisindeki kötü niyetli scriptlerin başka kullanıcıların tarayıcısında çalıştırılmasıdır. Reflected XSS, Stored XSS, DOM-based XSS gibi türleri vardır. Oturum çalma, kimlik avı gibi saldırılara yol açabilir.</li>
+                        <li><strong>LDAP Injection:</strong> LDAP sorgularına müdahale edilmesi.</li>
+                    </ul>
+                    <p><strong>Korunma Yöntemleri (Genel):</strong></p>
+                    <ul>
+                        <li><strong>Veriyi Koddan Ayır:</strong> Güvenilmeyen girdiyi asla doğrudan komut veya sorgu olarak yorumlatma.</li>
+                        <li><strong>Parametreli Sorgular (Prepared Statements):</strong> SQL ve birçok NoSQL veritabanı için en etkili korunma yöntemidir. Kullanıcı girdisi sorgu metninden ayrı olarak veritabanına gönderilir ve veritabanı motoru bunu güvenli bir şekilde işler.</li>
+                        <li><strong>ORM Kullanımı:</strong> Entity Framework, Hibernate, Django ORM gibi ORM'ler genellikle parametreli sorguları otomatik kullanarak SQL Injection riskini azaltır (ancak ham SQL sorguları kullanılıyorsa dikkatli olunmalıdır).</li>
+                        <li><strong>Input Validation (Girdi Doğrulama):</strong> Beklenen veri formatını (uzunluk, tip, karakter seti) sunucu tarafında doğrula (Whitelist yaklaşımı tercih edilir). Ancak tek başına yeterli değildir.</li>
+                        <li><strong>Output Encoding/Escaping (Çıktı Kodlama/Kaçış):</strong> Kullanıcı girdisini HTML, JavaScript, URL veya başka bir bağlamda görüntülerken ilgili bağlama uygun şekilde encode/escape et. Bu, özellikle XSS saldırılarını önlemek için kritiktir. Güvenilir kütüphaneler kullan (örn: OWASP Java Encoder, Python'un <code>html.escape()</code>).</li>
+                        <li><strong>En Az Yetki Prensibi:</strong> Veritabanı veya işletim sistemi hesaplarının sadece gerekli minimum yetkilere sahip olmasını sağla.</li>
+                        <li><strong>Güvenlik Başlıkları:</strong> XSS'i azaltmak için <code>Content-Security-Policy</code> (CSP) gibi HTTP başlıklarını kullan.</li>
+                    </ul>
+                     <pre><code class="language-csharp">
+// SQL Injection Riski (C# - Yanlış Yöntem)
+// string kullaniciGirdisi = request.QueryString["id"]; // Örnek: "1; DELETE FROM Kullanicilar"
+// string sql = "SELECT * FROM Urunler WHERE KategoriID = " + kullaniciGirdisi; // !!! TEHLİKELİ !!!
+// SqlCommand command = new SqlCommand(sql, connection);
+// ...
+
+// SQL Injection Koruması (C# - Parametreli Sorgu)
+// string kullaniciGirdisi = request.QueryString["id"];
+// string sql = "SELECT * FROM Urunler WHERE KategoriID = @KategoriIdParam";
+// SqlCommand command = new SqlCommand(sql, connection);
+// Parametre ekle (tipini belirtmek önemlidir)
+// command.Parameters.Add("@KategoriIdParam", SqlDbType.Int).Value = Convert.ToInt32(kullaniciGirdisi); // Girdi int'e çevrilir veya hata verir
+// ... command.ExecuteReader() ...
+
+// XSS Koruması (C# - Razor/ASP.NET Core Örneği - Output Encoding)
+// Kullanıcıdan gelen yorumu gösterirken:
+// @Html.Raw(kullaniciYorumu) // !!! TEHLİKELİ - XSS Riski !!!
+// <p>@kullaniciYorumu</p> // Doğru - Razor varsayılan olarak encode eder (&lt;script> tagları metin olarak görünür)
+// Veya manuel encode: System.Web.HttpUtility.HtmlEncode(kullaniciYorumu)
+                    </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>A04:2021 – Insecure Design (Güvensiz Tasarım)</h3></summary>
+                    <p><strong>Nedir?</strong> Güvenliğin en baştan, tasarım aşamasında yeterince düşünülmemesinden kaynaklanan zafiyetlerdir. Kodlama hatalarından ziyade mimari veya tasarım kararlarındaki eksiklikleri ifade eder.</p>
+                    <p><strong>Örnek Senaryolar:</strong></p>
+                    <ul>
+                        <li>Tehdit modellemesi (threat modeling) yapılmaması.</li>
+                        <li>İş mantığı kusurları (örn: sepete negatif sayıda ürün ekleyebilme).</li>
+                        <li>Güvenlik kontrollerinin kolayca atlatılabileceği iş akışları.</li>
+                        <li>Yetersiz veya eksik erişim kontrolü tasarımı.</li>
+                        <li>Kaynakların (CPU, bellek, ağ) kötüye kullanımına (DoS) açık algoritmalar veya tasarımlar.</li>
+                    </ul>
+                    <p><strong>Korunma Yöntemleri:</strong></p>
+                    <ul>
+                        <li><strong>Güvenli Tasarım Prensiplerini Uygula:</strong> En az yetki, savunmada derinlik (defense in depth), güvenli varsayılanlar gibi prensipleri benimse.</li>
+                        <li><strong>Tehdit Modellemesi Yap:</strong> Uygulamanın potansiyel tehditlerini, saldırı yüzeylerini ve güvenlik açıklarını tasarım aşamasında belirle ve önlemler al.</li>
+                        <li><strong>Güvenlik Gereksinimlerini Baştan Belirle:</strong> Fonksiyonel gereksinimler kadar güvenlik gereksinimlerini de projenin başında tanımla.</li>
+                        <li><strong>Güvenli Tasarım Desenlerini Kullan:</strong> Güvenlikle ilgili yaygın sorunlara çözüm sunan tasarım desenlerini araştır ve uygula.</li>
+                        <li><strong>Kütüphane ve Framework Seçiminde Güvenliği Göz Önünde Bulundur:</strong> Kullanılacak araçların güvenlik geçmişini ve özelliklerini değerlendir.</li>
+                        <li><strong>Sürekli Gözden Geçirme:</strong> Tasarım kararlarını ve mimariyi düzenli olarak güvenlik açısından gözden geçir.</li>
+                    </ul>
+                </details>
+
+                 <details class="question-block">
+                    <summary><h3>Diğer Önemli OWASP Top 10 Riskleri (2021)</h3></summary>
+                    <ul>
+                        <li><strong>A05: Security Misconfiguration (Güvenlik Yanlış Yapılandırması):</strong> Güvenlik ayarlarının eksik veya yanlış yapılandırılması (örn: varsayılan şifreler, gereksiz açık portlar, detaylı hata mesajları, bulut servislerinde yanlış izinler). Korunma: Güvenli yapılandırma standartları (hardening), otomasyon, düzenli denetimler.</li>
+                        <li><strong>A06: Vulnerable and Outdated Components (Zafiyetli ve Güncel Olmayan Bileşenler):</strong> Kullanılan kütüphanelerin, framework'lerin veya diğer yazılım bileşenlerinin bilinen güvenlik açıklarını içermesi. Korunma: Bağımlılıkları düzenli olarak tarama (SCA araçları), güncel tutma, güvenilir kaynaklardan bileşen kullanma.</li>
+                        <li><strong>A07: Identification and Authentication Failures (Kimlik Tanıma ve Doğrulama Hataları):</strong> Kimlik doğrulama ve oturum yönetimi işlevlerindeki zafiyetler (örn: zayıf şifre politikaları, oturumların düzgün sonlandırılmaması, brute force saldırılarına açıklık, MFA eksikliği). Korunma: Güçlü şifre politikaları, MFA, güvenli oturum yönetimi, kaba kuvvet saldırılarına karşı koruma (rate limiting, captcha).</li>
+                        <li><strong>A08: Software and Data Integrity Failures (Yazılım ve Veri Bütünlüğü Hataları):</strong> Yazılım güncellemelerinin, kritik verilerin veya CI/CD pipeline'larının bütünlüğünü doğrulamadan yapılan varsayımlarla ilgili hatalar (örn: güvenilmeyen kaynaklardan güncelleme çekme, güvensiz deserialization). Korunma: Dijital imzalar, bütünlük kontrolleri, güvenilir güncelleme kaynakları, güvenli CI/CD pratikleri, deserialization risklerini anlama ve önleme.</li>
+                        <li><strong>A09: Security Logging and Monitoring Failures (Güvenlik Kayıt ve İzleme Hataları):</strong> Saldırıları veya şüpheli aktiviteleri tespit etmek, analiz etmek ve bunlara yanıt vermek için yeterli loglamanın ve izlemenin yapılmaması. Korunma: Önemli güvenlik olaylarını (giriş denemeleri, erişim hataları vb.) loglama, logları merkezi olarak toplama ve analiz etme, etkili uyarı (alerting) sistemleri kurma.</li>
+                        <li><strong>A10: Server-Side Request Forgery (SSRF - Sunucu Taraflı İstek Sahteciliği):</strong> Sunucunun, saldırgan tarafından kontrol edilen harici bir kaynağa veya kendi içindeki başka bir kaynağa istenmeyen bir ağ isteği yapmaya zorlanması. Korunma: Kullanıcı girdisiyle oluşturulan URL'leri dikkatlice doğrulama, bir izin listesi (allow-list) kullanma, ağ segmentasyonu.</li>
+                    </ul>
+                    <p>OWASP Top 10 listesi, web uygulama güvenliğinde odaklanılması gereken en önemli alanları belirlemek için değerli bir kaynaktır.</p>
+                 </details>
+            </section>
+
+            <section id="guvenli-kodlama" class="content-section">
+                <h2>Güvenli Kodlama Pratikleri: Savunmanın İlk Hattı</h2>
+                <p>Güvenli yazılım geliştirme, sadece bilinen zafiyetleri düzeltmek değil, aynı zamanda kodlama aşamasında güvenliği en baştan düşünerek potansiyel açıkların oluşmasını engellemeyi içerir. Güvenli kodlama pratikleri, geliştiricilerin daha dayanıklı ve saldırılara karşı dirençli kod yazmasına yardımcı olur.</p>
+
+                 <details class="question-block">
+                    <summary><h3>Input Validation (Girdi Doğrulama)</h3></summary>
+                    <p>Uygulamaya dış kaynaklardan (kullanıcı arayüzü, API çağrıları, dosyalar, veritabanı vb.) gelen tüm verilerin <strong>güvenilmez</strong> kabul edilmesi ve işlenmeden önce doğrulanması prensibidir.</p>
+                    <p><strong>Neden Önemli?</strong> Enjeksiyon saldırıları (SQL, XSS, Command), hatalı iş mantığı, DoS saldırıları gibi birçok zafiyetin temelinde geçersiz veya kötü niyetli girdiler yatar.</p>
+                    <p><strong>Nasıl Yapılır?</strong></p>
+                    <ul>
+                        <li><strong>Sunucu Tarafında Yapılmalı:</strong> İstemci tarafı doğrulama (JavaScript ile) kullanıcı deneyimini iyileştirir ancak kolayca atlatılabilir. Güvenlik için <strong>tüm kritik doğrulamalar sunucu tarafında</strong> yapılmalıdır.</li>
+                        <li><strong>Whitelist (İzin Listesi) Yaklaşımı:</strong> Sadece beklenen ve geçerli olan karakterleri, formatları veya değerleri kabul et. Örneğin, bir posta kodu sadece rakamlardan oluşmalıysa, sadece rakamları kabul et. Blacklist (yasaklı listesi - örn: <code>&lt;script></code> tagını engelle) yaklaşımı genellikle eksik kalır ve atlatılması daha kolaydır.</li>
+                        <li><strong>Tip Kontrolü:</strong> Gelen verinin beklenen tipte olduğundan emin ol (sayı, string, boolean vb.).</li>
+                        <li><strong>Uzunluk Kontrolü:</strong> Verinin minimum ve maksimum uzunluk sınırlarına uyup uymadığını kontrol et.</li>
+                        <li><strong>Format Kontrolü:</strong> E-posta adresi, telefon numarası, tarih gibi belirli formatlara uyması gereken verileri düzenli ifadeler (regex) veya özel kütüphanelerle doğrula.</li>
+                        <li><strong>Aralık Kontrolü:</strong> Sayısal değerlerin belirli bir aralıkta olup olmadığını kontrol et.</li>
+                        <li><strong>Mantıksal Doğrulama:</strong> İş kurallarına uygunluğu kontrol et (örn: sipariş miktarı stoktan fazla olamaz).</li>
+                    </ul>
+                     <pre><code class="language-python">
+# Input Validation Örneği (Python - Flask)
+# from flask import Flask, request, jsonify
+
+# app = Flask(__name__)
+
+# @app.route('/kayit', methods=['POST'])
+# def kullanici_kayit():
+#     data = request.get_json()
+#     kullanici_adi = data.get('username')
+#     email = data.get('email')
+#     yas_str = data.get('age')
+
+#     hatalar = []
+
+#     # Kullanıcı Adı Doğrulama
+#     if not kullanici_adi or not isinstance(kullanici_adi, str) or len(kullanici_adi) &lt; 3 or len(kullanici_adi) > 20:
+#         hatalar.append("Kullanıcı adı 3 ile 20 karakter arasında olmalıdır.")
+#     elif not kullanici_adi.isalnum(): # Sadece harf ve rakam (Whitelist örneği)
+#          hatalar.append("Kullanıcı adı sadece harf ve rakam içerebilir.")
+
+#     # E-posta Doğrulama (Basit format kontrolü)
+#     import re
+#     email_regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+#     if not email or not isinstance(email, str) or not re.match(email_regex, email):
+#         hatalar.append("Geçerli bir e-posta adresi girin.")
+
+#     # Yaş Doğrulama
+#     yas = None
+#     if not yas_str:
+#         hatalar.append("Yaş alanı boş bırakılamaz.")
+#     else:
+#         try:
+#             yas = int(yas_str)
+#             if yas &lt; 18 or yas > 100: # Aralık kontrolü
+#                 hatalar.append("Yaş 18 ile 100 arasında olmalıdır.")
+#         except ValueError: # Tip kontrolü
+#             hatalar.append("Yaş sayısal bir değer olmalıdır.")
+
+#     if hatalar:
+#         return jsonify({"basarili": False, "hatalar": hatalar}), 400 # Bad Request
+
+#     # Doğrulama başarılıysa işlemlere devam et...
+#     print(f"Kullanıcı kaydediliyor: {kullanici_adi}, {email}, {yas}")
+#     # ... veritabanına kaydetme vb. ...
+#     return jsonify({"basarili": True, "mesaj": "Kayıt başarılı!"}), 201 # Created
+                     </code></pre>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Kimlik Doğrulama (Authentication) ve Yetkilendirme (Authorization)</h3></summary>
+                    <p>Bu iki kavram sıklıkla karıştırılır ancak farklı anlamlara gelir:</p>
+                    <ul>
+                        <li><strong>Authentication (Kimlik Doğrulama):</strong> Bir kullanıcının veya sistemin <strong>kim olduğunu</strong> doğrulama işlemidir. Genellikle kullanıcı adı/şifre, token (JWT, API Key), sertifika veya biyometrik yöntemlerle yapılır. "Sen kimsin?" sorusunun cevabıdır.</li>
+                        <li><strong>Authorization (Yetkilendirme):</strong> Kimliği doğrulanmış bir kullanıcının veya sistemin <strong>hangi kaynaklara erişebileceğini veya hangi işlemleri yapabileceğini</strong> belirleme işlemidir. Rol tabanlı (RBAC), nitelik tabanlı (ABAC) veya izin tabanlı kontrollerle yapılır. "Ne yapabilirsin?" sorusunun cevabıdır.</li>
+                    </ul>
+                    <p><strong>Güvenli Pratikler:</strong></p>
+                    <ul>
+                        <li>Güçlü şifre politikaları uygula (uzunluk, karmaşıklık, geçmiş kontrolü).</li>
+                        <li>Şifreleri asla düz metin saklama (güçlü, tuzlanmış hash kullan - bkz: Kriptografik Hatalar).</li>
+                        <li>Çok Faktörlü Kimlik Doğrulama (MFA/2FA) seçenekleri sun.</li>
+                        <li>Güvenli oturum yönetimi kullan (rastgele, uzun session ID'leri, HTTPS üzerinden iletim, <code>HttpOnly</code> ve <code>Secure</code> cookie flag'leri, düzenli oturum sonlandırma).</li>
+                        <li>Brute force saldırılarına karşı hesap kilitleme veya rate limiting uygula.</li>
+                        <li>Yetkilendirme kontrollerini her istekte sunucu tarafında yap. İstemci tarafı kontrollere güvenme.</li>
+                        <li>En Az Yetki Prensibini uygula: Kullanıcılara veya servislere sadece işlerini yapmak için gereken minimum yetkileri ver.</li>
+                        <li>Rolleri ve izinleri dikkatlice tanımla ve yönet.</li>
+                    </ul>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Bağımlılık Yönetimi Güvenliği (Dependency Management)</h3></summary>
+                     <p>Modern uygulamalar, işlevselliklerini hızlandırmak için genellikle çok sayıda üçüncü parti kütüphane ve pakete (bağımlılık) güvenir. Ancak bu bağımlılıklar güvenlik açıkları içerebilir.</p>
+                      <p><strong>Riskler:</strong></p>
+                      <ul>
+                          <li>Kullanılan bir kütüphanede keşfedilen bir zafiyet (CVE), uygulamanızı da savunmasız hale getirebilir.</li>
+                          <li>Kütüphanenin kendisi veya onun bağımlı olduğu başka bir kütüphane (geçişli bağımlılık - transitive dependency) zafiyet içerebilir.</li>
+                          <li>Kötü niyetli paketler (typosquatting vb.) yanlışlıkla projeye dahil edilebilir.</li>
+                      </ul>
+                     <p><strong>Güvenli Pratikler:</strong></p>
+                     <ul>
+                         <li><strong>Bağımlılıkları Düzenli Olarak Güncelle:</strong> Kütüphane yazarları genellikle bulunan açıkları yamalarla düzeltir. Paket yöneticinizi (npm, pip, nuget vb.) kullanarak bağımlılıkları düzenli olarak en son güvenli sürümlere güncelleyin.</li>
+                         <li><strong>Güvenlik Açığı Taraması (SCA):</strong> Yazılım Kompozisyon Analizi (Software Composition Analysis - SCA) araçları (GitHub Dependabot, Snyk, OWASP Dependency-Check vb.) kullanarak projenizdeki bağımlılıkları bilinen güvenlik açıkları için otomatik olarak tarayın ve uyarılar alın.</li>
+                         <li><strong>Kullanılmayan Bağımlılıkları Kaldırın:</strong> Projede artık kullanılmayan kütüphaneleri temizleyerek saldırı yüzeyini azaltın.</li>
+                         <li><strong>Güvenilir Kaynakları Kullanın:</strong> Paketleri resmi depolardan (npm registry, PyPI, NuGet Gallery) indirin. Şüpheli veya doğrulanmamış kaynaklardan kaçının.</li>
+                         <li><strong>Lock Dosyaları Kullanın:</strong> <code>package-lock.json</code> (npm), <code>yarn.lock</code> (yarn), <code>Pipfile.lock</code>/<code>poetry.lock</code> (Python), <code>packages.lock.json</code> (NuGet) gibi lock dosyaları, projenin belirli bağımlılık sürümlerini kilitleyerek farklı ortamlarda tutarlı ve tekrarlanabilir build'ler sağlar.</li>
+                     </ul>
+                 </details>
+
+                  <details class="question-block">
+                     <summary><h3>Diğer Güvenli Kodlama Pratikleri</h3></summary>
+                     <ul>
+                         <li><strong>Hata Yönetimi ve Loglama:</strong> Hata mesajlarında hassas sistem bilgilerini (stack trace, veritabanı detayları vb.) kullanıcıya göstermeyin. Loglara hassas verileri (şifre, kredi kartı vb.) yazmaktan kaçının veya maskeleyin. Güvenlik olaylarını (başarısız girişler, yetki hataları) loglayın.</li>
+                         <li><strong>En Az Yetki Prensibi (Principle of Least Privilege):</strong> Uygulama süreçlerinin veya kullanıcıların sadece görevlerini yerine getirmek için gereken minimum izinlere sahip olmasını sağlayın.</li>
+                         <li><strong>Güvenli Varsayılanlar (Secure Defaults):</strong> Uygulamanın varsayılan ayarlarının en güvenli seçenekler olmasını sağlayın. Kullanıcıların güvenliği artırmak için ekstra ayar yapması gerekmemeli.</li>
+                         <li><strong>Bellek Yönetimi Güvenliği:</strong> Buffer overflow gibi bellek hatalarına karşı dikkatli olun (özellikle C/C++ gibi dillerde).</li>
+                         <li><strong>Concurrency (Eşzamanlılık) Güvenliği:</strong> Çoklu thread ortamlarında race condition gibi sorunlara karşı senkronizasyon mekanizmalarını doğru kullanın.</li>
+                         <li><strong>Kod Gözden Geçirme (Security Focus):</strong> Kod gözden geçirmeleri sırasında potansiyel güvenlik açıklarına özellikle dikkat edin.</li>
+                     </ul>
+                 </details>
+            </section>
+
+             <section id="api-guvenlik" class="content-section">
+                <h2>API Güvenliği: Servisler Arası İletişimi Koruma</h2>
+                <p>API'ler, uygulamaların ve servislerin birbirleriyle veri alışverişi yapmasını sağlayan kritik köprülerdir. Bu nedenle, yetkisiz erişimi, veri sızıntısını ve kötüye kullanımı önlemek için API güvenliği büyük önem taşır.</p>
+
+                 <details class="question-block">
+                    <summary><h3>Kimlik Doğrulama (Authentication) Yöntemleri</h3></summary>
+                    <p>API'ye istek yapan istemcinin veya kullanıcının kimliğini doğrulamak için kullanılır.</p>
+                     <ul>
+                        <li><strong>API Anahtarları (API Keys):</strong> En basit yöntemlerden biridir. Her istemciye benzersiz bir anahtar verilir ve bu anahtar her istekte (genellikle HTTP başlığında - örn: <code>Authorization: ApiKey YOUR_API_KEY</code> veya <code>X-API-Key: YOUR_API_KEY</code> veya sorgu parametresi olarak - daha az güvenli) gönderilir.
+                            <ul>
+                                <li><strong>Avantajları:</strong> Basit implementasyon.</li>
+                                <li><strong>Dezavantajları:</strong> Anahtar çalınırsa veya sızdırılırsa tam erişim sağlar. Genellikle kullanıcı bazlı yetkilendirme için uygun değildir. Güvenli bir şekilde saklanması ve iletilmesi gerekir (HTTPS zorunludur). Rotasyonu zordur. Genellikle herkese açık olmayan veya düşük riskli API'ler için kullanılır.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Temel Kimlik Doğrulama (HTTP Basic Authentication):</strong> Kullanıcı adı ve şifre Base64 ile kodlanarak <code>Authorization: Basic base64(username:password)</code> başlığında gönderilir. <strong>Kesinlikle önerilmez</strong>, çünkü Base64 kolayca geri çözülebilir ve şifreler açık metin gibi iletilir. Sadece HTTPS üzerinden kullanılsa bile güvenli değildir.</li>
+                        <li><strong>JWT (JSON Web Tokens):</strong> İstemci ile sunucu arasında güvenli bir şekilde bilgi (claims - iddialar) aktarmak için kullanılan, imzalanmış (ve isteğe bağlı olarak şifrelenmiş), kompakt ve kendi kendine yeterli (self-contained) bir standarttır (RFC 7519). Genellikle kimlik doğrulama sonrası kullanılır.
+                            <ul>
+                                <li><strong>Yapısı:</strong> Üç bölümden oluşur (Başlık.Payload.İmza - <code>xxxxx.yyyyy.zzzzz</code>), Base64Url ile kodlanmıştır.
+                                    <ul>
+                                        <li>Başlık (Header): Token tipi (JWT) ve kullanılan imzalama algoritmasını (örn: HMAC SHA256 veya RSA) içerir.</li>
+                                        <li>Payload (Yük): İddiaları (claims) içerir. İddialar, kullanıcı ID, roller, son kullanma tarihi (<code>exp</code>), yayınlanma zamanı (<code>iat</code>) gibi bilgiler içeren anahtar-değer çiftleridir. Hassas bilgileri payload'a koymaktan kaçınılmalıdır (imzalı olsa bile şifreli değilse okunabilir).</li>
+                                        <li>İmza (Signature): Başlık ve payload'un, gizli bir anahtar (HMAC ile) veya özel/açık anahtar çifti (RSA/ECDSA ile) kullanılarak imzalanmasıyla oluşturulur. Bu imza, token'ın değiştirilmediğini doğrulamak için kullanılır.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Nasıl Çalışır (Genel Akış):</strong> Kullanıcı giriş yapar -> Sunucu kimliği doğrular -> Sunucu bir JWT oluşturur (içine kullanıcı ID, roller, son kullanma tarihi gibi bilgiler ekler) ve gizli anahtarla imzalar -> Sunucu JWT'yi istemciye gönderir -> İstemci JWT'yi saklar (localStorage, sessionStorage - XSS riski; veya HttpOnly cookie - CSRF riski olabilir) -> İstemci sonraki her istekte JWT'yi <code>Authorization: Bearer <token></code> başlığında gönderir -> Sunucu gelen token'ın imzasını kendi gizli anahtarıyla doğrular, son kullanma tarihini kontrol eder ve payload'daki bilgilere güvenerek isteği işler.</li>
+                                <li><strong>Avantajları:</strong> Durumsuz (Stateless - sunucuda oturum saklamaya gerek kalmaz, ölçeklenebilir), kendi kendine yeterli (payload bilgi taşır), farklı domainler arasında çalışabilir (CORS).</li>
+                                <li><strong>Dezavantajları/Dikkat Edilmesi Gerekenler:</strong> Token çalınırsa süresi dolana kadar kullanılabilir (kısa ömür önemlidir, refresh token mekanizması gerekebilir), gizli anahtarın güvenli saklanması kritiktir, payload şifreli değilse hassas veri konulmamalıdır.</li>
+                            </ul>
+                        </li>
+                         <li><strong>OAuth 2.0 ve OpenID Connect (OIDC):</strong>
+                            <ul>
+                                <li><strong>OAuth 2.0:</strong> Bir <strong>yetkilendirme (authorization)</strong> framework'üdür. Kullanıcıların, şifrelerini vermeden, bir uygulamanın (istemci) başka bir uygulamadaki (kaynak sunucusu - örn: Google, Facebook) kendi verilerine sınırlı erişim izni vermesini sağlar. Farklı akış türleri (Authorization Code, Implicit - artık önerilmiyor, Client Credentials, Resource Owner Password Credentials - genellikle önerilmiyor) vardır. Sonucunda genellikle bir Erişim Token'ı (Access Token) alınır.</li>
+                                <li><strong>OpenID Connect (OIDC):</strong> OAuth 2.0 üzerine inşa edilmiş bir <strong>kimlik doğrulama (authentication)</strong> katmanıdır. OAuth 2.0 akışlarını kullanarak kullanıcının kimliğini doğrulamayı ve temel profil bilgilerini almayı standartlaştırır. Sonucunda Erişim Token'ına ek olarak bir Kimlik Token'ı (ID Token - genellikle JWT formatında) da alınır.</li>
+                            </ul>
+                            OAuth 2.0 ve OIDC, özellikle üçüncü parti uygulamalara yetki verme veya merkezi kimlik doğrulama sistemleri (Single Sign-On - SSO) oluşturma senaryolarında kullanılır. API güvenliği için Erişim Token'ları (genellikle JWT veya opak token) kullanılır.
+                         </li>
+                     </ul>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Yetkilendirme (Authorization)</h3></summary>
+                     <p>Kimliği doğrulanmış bir istemcinin veya kullanıcının belirli bir API endpoint'ine veya kaynağa erişim izni olup olmadığını kontrol etme işlemidir.</p>
+                     <ul>
+                         <li><strong>Rol Tabanlı Erişim Kontrolü (RBAC):</strong> Kullanıcılara roller (admin, editör, okuyucu vb.) atanır ve API endpoint'lerine erişim bu rollere göre kısıtlanır.</li>
+                         <li><strong>Kapsam Tabanlı Erişim Kontrolü (Scope-based - OAuth 2.0):</strong> Erişim token'ları belirli "kapsamlar" (scopes - örn: <code>read:profile</code>, <code>write:posts</code>) içerir. API endpoint'leri, gelen token'da gerekli kapsamın olup olmadığını kontrol eder.</li>
+                         <li><strong>Nitelik Tabanlı Erişim Kontrolü (ABAC):</strong> Erişim kararları sadece role değil, kullanıcının, kaynağın veya ortamın çeşitli niteliklerine (örn: kullanıcının departmanı, kaynağın gizlilik seviyesi, günün saati) dayalı kurallarla verilir. Daha esnek ama daha karmaşıktır.</li>
+                     </ul>
+                     <p>Yetkilendirme kontrolleri her zaman sunucu tarafında yapılmalı ve en az yetki prensibine uygun olmalıdır.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Diğer API Güvenlik Önlemleri</h3></summary>
+                     <ul>
+                         <li><strong>Veri Doğrulama ve Sanitization:</strong> API'ye gelen tüm parametrelerin, istek gövdesindeki verilerin ve başlıklardaki değerlerin doğrulanması (input validation) ve gerektiğinde temizlenmesi (sanitization) enjeksiyon saldırılarını ve beklenmedik hataları önler.</li>
+                         <li><strong>Hız Sınırlama (Rate Limiting):</strong> Belirli bir zaman diliminde bir istemcinin (IP adresi, API anahtarı, kullanıcı hesabı bazında) yapabileceği istek sayısını sınırlamaktır. Brute force saldırılarını, DoS (Denial of Service) saldırılarını ve API'nin kötüye kullanılmasını önlemeye yardımcı olur.</li>
+                         <li><strong>HTTPS Zorunluluğu:</strong> Tüm API trafiği (istekler ve yanıtlar) HTTPS (TLS) üzerinden şifrelenmelidir. Bu, verilerin ağ üzerinde dinlenmesini (eavesdropping) ve değiştirilmesini (tampering) engeller.</li>
+                         <li><strong>Güvenlik Başlıkları (HTTP Security Headers):</strong> Yanıtlarda uygun güvenlik başlıklarını (<code>Strict-Transport-Security</code> - HSTS, <code>Content-Security-Policy</code> - CSP, <code>X-Content-Type-Options</code>, <code>X-Frame-Options</code> vb.) göndermek, tarayıcı tabanlı bazı saldırı türlerini (XSS, clickjacking vb.) önlemeye yardımcı olabilir.</li>
+                         <li><strong>Hata Yönetimi:</strong> Detaylı sistem bilgilerini veya stack trace'leri ifşa etmeyen genel ve bilgilendirici hata mesajları döndürülmelidir.</li>
+                         <li><strong>Loglama ve İzleme:</strong> API kullanımını, hataları ve şüpheli aktiviteleri loglamak ve izlemek, sorunları tespit etmek ve güvenlik olaylarına müdahale etmek için kritiktir.</li>
+                         <li><strong>API Gateway Kullanımı:</strong> API Gateway'ler, kimlik doğrulama, yetkilendirme, hız sınırlama, önbelleğe alma, loglama gibi ortak API yönetimi görevlerini merkezi bir noktadan yönetmek için kullanılabilir.</li>
+                     </ul>
+                     <p>API güvenliği, modern uygulama mimarilerinin temel bir gerekliliğidir ve sürekli dikkat ve güncelleme gerektirir.</p>
+                 </details>
+            </section>
+
+            <section id="sonuc" class="content-section">
+                 <h2>Sonuç: Güvenliği Sürecin Bir Parçası Haline Getirmek</h2>
+                 <p>
+                    Yazılım güvenliği, geliştirme sürecinin sonradan eklenen bir adımı veya sadece belirli bir ekibin sorumluluğu değildir. Güvenlik, uygulamanın tasarımından kodlanmasına, test edilmesinden dağıtımına ve bakımına kadar tüm yaşam döngüsüne entegre edilmesi gereken temel bir kalite ölçütüdür. OWASP Top 10 gibi kaynaklar en kritik riskler konusunda farkındalık yaratırken, güvenli kodlama pratikleri bu risklerin koda sızmasını engellemenin ilk savunma hattını oluşturur. API'lerin artan önemiyle birlikte, bu arayüzlerin güvenliğini sağlamak da modern uygulamalar için hayati hale gelmiştir.
+                 </p>
+                 <p>
+                    Güvenli yazılım geliştirmek, sadece belirli araçları veya teknikleri bilmekle kalmaz, aynı zamanda bir "güvenlik düşünce yapısı" (security mindset) benimsemeyi gerektirir. Geliştiricilerin yazdıkları kodun potansiyel güvenlik etkilerini düşünmesi, varsayılan olarak güvenli yaklaşımları tercih etmesi ve sürekli olarak yeni tehditler ve korunma yöntemleri hakkında bilgi sahibi olması önemlidir. Input validation, output encoding, güvenli kimlik doğrulama ve yetkilendirme, bağımlılıkların kontrolü gibi temel pratikler, geliştirme alışkanlıklarının bir parçası haline gelmelidir.
+                 </p>
+                 <p>
+                    Unutulmamalıdır ki, %100 güvenlik mümkün olmasa da, riskleri en aza indirmek ve saldırılara karşı dayanıklılığı artırmak mümkündür. Bu, sürekli bir çaba, eğitim, farkındalık ve doğru araçların kullanımı ile başarılabilir. Güvenliği, geliştirme sürecinin her aşamasında bir öncelik olarak ele almak, sadece kullanıcıların verilerini ve sistemin bütünlüğünü korumakla kalmaz, aynı zamanda kurumun itibarını ve müşteri güvenini de sağlar. Güvenli yazılım, kaliteli yazılımın ayrılmaz bir parçasıdır.
+                 </p>
+            </section>
+        </div>
+    </main>
+
+    <div class="back-to-top-container">
+        <a href="#pageTop" class="back-to-top" aria-label="Sayfanın başına dön">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+   </div>
+
+    <footer id="mainFooter">
+        <div class="container">
+            <div class="footer-layout">
+                <div class="footer-left-links">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul class="footer-nav-links">
+                        <li><a href="https://abdulkadirgungor86.github.io/">Ana Sayfa</a></li>
+                        <li><a href="https://abdulkadirgungor86.github.io/cv" target="_blank" rel="noopener noreferrer">Özgeçmiş</a></li>
+                        <li><a href="https://abdulkadirgungor86.github.io/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center-content">
+                    <h4 class="sitemap-link-heading">
+                        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
+                    </h4>
+                    <p id="footerTextContent">
+                        <!-- Content will be loaded by script.js -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../assets/js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="siteTitle">İleri Yazılım Tasarım Prensipleri ve Kavramları Rehberi</title>
+    <meta name="description" content="Yazılım tasarımında ustalaşmak için SOLID ötesi önemli prensipler ve kavramlar. Static, SoC, DI, Kalıtım vs Kompozisyon, Coupling, DRY, KISS, YAGNI ve test edilebilirlik gibi konular C# ve Python örnekleriyle detaylı olarak açıklanmaktadır. Daha kaliteli ve sürdürülebilir yazılımlar oluşturmak için bu rehberi kullanın. Abdulkadir Güngör tarafından hazırlanmıştır.">
+    <meta name="keywords" content="Yazılım Tasarımı, Tasarım Prensipleri, Design Principles, Static, Separation of Concerns, SoC, Dependency Injection, DI, Kalıtım, Kompozisyon, Inheritance, Composition, Coupling, Cohesion, DRY, KISS, YAGNI, Unit Testing, Birim Test, Yazılım Mimarisi, C#, Python, Programlama, Yazılım Mühendisliği, Design Patterns, Gevşek Bağlılık, Yüksek Uyum, Abdulkadir Güngör">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="canonical" href="https://abdulkadirgungor86.github.io/blog/blog_page_15.html" />
+
+    <link rel="icon" type="image/png" href="../assets/images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../assets/images/icons/favicon.svg" />
+    <link rel="shortcut icon" href="../assets/images/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../assets/images/icons/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    
+    <script type="application/ld+json" id="siteData">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article", 
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://abdulkadirgungor86.github.io/blog/blog_page_15.html"
+      },
+      "headline": "İleri Yazılım Tasarım Prensipleri ve Kavramları Rehberi",
+      "name": "İleri Yazılım Tasarım Prensipleri | Abdulkadir Güngör", 
+      "author": {
+        "@type": "Person",
+        "name": "Abdulkadir Güngör"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Abdulkadir Güngör",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://abdulkadirgungor86.github.io/assets/images/icons/favicon-96x96.png" 
+        }
+      },
+      "datePublished": "2025-05-13", 
+      "dateModified": "2025-05-13", 
+      "description": "Yazılım tasarımında ustalaşmak için SOLID ötesi önemli prensipler ve kavramlar.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://abdulkadirgungor86.github.io/"
+      },
+      "footerText": "© {YEAR} Abdulkadir Güngör. Tüm Hakları Saklıdır." 
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GFQC3DYZF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5GFQC3DYZF');
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5L6M34JW');</script>
+    
+</head>
+<body id="pageTop"> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L6M34JW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <main class="section-padding">
+        <div class="container">
+            <article id="giris" class="content-section intro-section">
+                <h1>Yazılım Tasarımında Ustalık: SOLID'in Ötesindeki Kavramlar</h1>
+                <p>
+                    Sürdürülebilir, esnek ve bakımı kolay yazılımlar geliştirmek, sadece çalışan kod yazmaktan çok daha fazlasını gerektirir. Nesne Yönelimli Programlama (OOP) ve SOLID prensipleri sağlam bir temel oluştursa da, usta bir yazılım geliştiricinin cephaneliğinde daha birçok önemli prensip ve kavram bulunur. Bu rehber, SOLID'in ötesine geçerek yazılım kalitesini artırmada kritik rol oynayan diğer temel taşlarını ele almayı amaçlamaktadır. Static üyelerin doğru kullanımından Sorumlulukların Ayrılması (SoC) ve Bağımlılık Enjeksiyonu (DI) gibi mimari desenlere, Kalıtım ve Kompozisyon arasındaki dengeden DRY, KISS, YAGNI gibi pratik geliştirme felsefelerine kadar birçok konuya değineceğiz.
+                </p>
+                <p>
+                    Bu kavramlar, kodumuzun sadece bugünün ihtiyaçlarını karşılamakla kalmayıp, aynı zamanda gelecekteki değişikliklere ve büyümeye de kolayca adapte olabilmesini hedefler. Static üyelerin ne zaman ve nasıl kullanılacağını bilmek, global durumun getireceği risklerden kaçınmamızı sağlarken, SoC ve DI prensipleri modüler, test edilebilir ve gevşek bağlı sistemler kurmamıza yardımcı olur. Kalıtım ve Kompozisyon arasındaki doğru tercihi yapmak, kodun yeniden kullanılabilirliğini ve esnekliğini doğrudan etkiler. DRY, KISS ve YAGNI gibi daha pragmatik prensipler ise gereksiz karmaşıklıktan kaçınarak daha temiz, anlaşılır ve odaklı kodlar yazmamızı teşvik eder.
+                </p>
+                 <p>
+                    Ayrıca, bu prensiplerin birbirleriyle nasıl ilişkili olduğunu anlamak da önemlidir. Örneğin, Bağımlılıkların Tersine Çevrilmesi Prensibi (DIP), Bağımlılık Enjeksiyonu (DI) ile nasıl hayata geçirilir? Tek Sorumluluk Prensibi (SRP), Sorumlulukların Ayrılması (SoC) ile nasıl birleşir? Ve tüm bu tasarım prensipleri, yazılımın en önemli kalite güvencelerinden biri olan Birim Test (Unit Testing) yeteneğini nasıl etkiler? Bu rehberde, bu soruların cevaplarını arayacak, her bir kavramı tanımlayacak, önemini vurgulayacak ve C# ile Python gibi dillerden pratik örneklerle nasıl uygulanabileceğini göstereceğiz. Amacımız, yazılım tasarımı konusundaki anlayışınızı derinleştirerek daha bilinçli ve etkili kodlama pratiği geliştirmenize yardımcı olmaktır.
+                </p>
+            </article>
+
+            <section id="static" class="content-section">
+                <h2>Static Anahtar Kelimesi: Nesnesiz Erişim</h2>
+                <p>
+                    OOP dillerinde (özellikle C# ve Java gibi), <code>static</code> anahtar kelimesi, bir sınıf üyesinin (metot, alan, özellik, hatta sınıfın kendisi) sınıfa ait olduğunu, o sınıftan türetilen belirli bir nesneye (instance) ait olmadığını belirtir. Static üyeler, sınıfın bir örneği oluşturulmadan doğrudan sınıf adı üzerinden erişilebilirler.
+                </p>
+
+                <details class="question-block">
+                    <summary><h3>Static Üyeler (Metotlar, Alanlar, Özellikler, Sınıflar - C#)</h3></summary>
+                    <ul>
+                        <li><strong>Static Metotlar:</strong> Sınıfın bir nesnesini gerektirmeden doğrudan çağrılabilen metotlardır (<code>SinifAdi.StaticMetot()</code>). Genellikle belirli bir nesnenin durumuna bağlı olmayan yardımcı (utility) fonksiyonlar veya fabrika (factory) metotları için kullanılırlar. Static metotlar, sınıfın static olmayan (instance) üyelerine doğrudan erişemezler.</li>
+                        <li><strong>Static Alanlar/Özellikler:</strong> Sınıfın tüm nesneleri tarafından paylaşılan tek bir kopyası olan değişkenlerdir. Sabit değerleri veya sınıf genelinde tutulması gereken sayaç gibi durumları saklamak için kullanılabilirler.</li>
+                        <li><strong>Static Sınıflar:</strong> Sadece static üyeler içeren ve nesnesi oluşturulamayan sınıflardır (Örn: C#'daki <code>System.Math</code>, <code>System.Console</code>).</li>
+                        <li><strong>Static Yapıcı Metot (Static Constructor):</strong> Sınıfın static üyelerini başlatmak veya sınıf ilk kez kullanıldığında sadece bir kez çalıştırılması gereken işlemleri yapmak için kullanılır.</li>
+                    </ul>
+                     <pre><code class="language-csharp">
+using System;
+
+public static class MatematikYardimcisi // Static sınıf
+{
+    public static readonly double PI = 3.14159; // Static sabit benzeri özellik
+
+    public static int KareAl(int sayi) // Static metot
+    {
+        return sayi * sayi;
+    }
+}
+
+public class Oyuncu
+{
+    public string Ad { get; set; }
+    public static int ToplamOyuncuSayisi { get; private set; } = 0; // Static alan
+
+    static Oyuncu() // Static constructor
+    {
+        Console.WriteLine("Oyuncu sınıfı yükleniyor...");
+    }
+
+    public Oyuncu(string ad)
+    {
+        this.Ad = ad;
+        ToplamOyuncuSayisi++;
+        Console.WriteLine($"{ad} katıldı. Toplam oyuncu: {ToplamOyuncuSayisi}");
+    }
+}
+
+// Kullanım:
+Console.WriteLine($"Pi: {MatematikYardimcisi.PI}");
+Console.WriteLine($"Kare(5): {MatematikYardimcisi.KareAl(5)}");
+
+Oyuncu o1 = new Oyuncu("Can"); // Static constructor burada çalışır
+Oyuncu o2 = new Oyuncu("Ece");
+Console.WriteLine($"Toplam Oyuncu: {Oyuncu.ToplamOyuncuSayisi}"); // Static alana erişim
+                    </code></pre>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Static Kullanım Senaryoları ve Dikkat Edilmesi Gerekenler</h3></summary>
+                    <p><strong>Kullanım Senaryoları:</strong> Yardımcı fonksiyonlar (utility methods), sabit değerler (constants), fabrika metotları (factory methods), singleton deseni, sayaçlar gibi sınıfın geneline ait durumlar.</p>
+                    <p><strong>Dikkat Edilmesi Gerekenler:</strong></p>
+                    <ul>
+                        <li><strong>Global Durum Riski:</strong> Static değişkenler global değişkenler gibi davranabilir, bu da durumu takip etmeyi zorlaştırır ve yan etkilere yol açabilir.</li>
+                        <li><strong>Test Edilebilirlik Zorluğu:</strong> Static bağımlılıkları mocklamak zordur, bu da birim testleri karmaşıklaştırır.</li>
+                        <li><strong>OOP İhlali Potansiyeli:</strong> Aşırı kullanımı nesne yönelimli yaklaşımı zayıflatabilir.</li>
+                        <li><strong>Thread Güvenliği:</strong> Birden fazla thread'in aynı anda static değişkenlere erişmesi durumunda ek senkronizasyon gerekebilir.</li>
+                    </ul>
+                    <p>Static üyeler dikkatli kullanılmalı, mümkün olduğunca nesne örnekleri tercih edilmelidir.</p>
+                </details>
+            </section>
+
+            <section id="soc" class="content-section">
+                 <h2>Sorumlulukların Ayrılması (Separation of Concerns - SoC)</h2>
+                 <p>
+                    SoC, karmaşık bir sistemi, her biri belirli bir ilgi alanına veya sorumluluğa odaklanan farklı, ayrı bileşenlere veya katmanlara ayırma prensibidir. Her bileşen kendi özel göreviyle ilgilenmeli ve diğerlerinin iç işleyişi hakkında minimum bilgiye sahip olmalıdır.
+                 </p>
+                 <details class="question-block">
+                    <summary><h3>SoC'nin Amacı ve Faydaları</h3></summary>
+                    <p>Karmaşıklığı yönetmek, modülerlik sağlamak, yeniden kullanılabilirliği artırmak, bakım kolaylığı sağlamak, takım çalışmasını kolaylaştırmak ve test edilebilirliği iyileştirmektir.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>SoC Örnekleri (UI/Logic/Data Ayrımı, Katmanlı Mimari)</h3></summary>
+                     <ul>
+                         <li><strong>Katmanlı Mimari:</strong> En yaygın uygulamadır. Tipik katmanlar:
+                            <ul>
+                                <li><strong>Sunum Katmanı (UI):</strong> Kullanıcı etkileşimi.</li>
+                                <li><strong>İş Mantığı Katmanı (BLL):</strong> Uygulama kuralları ve süreçleri.</li>
+                                <li><strong>Veri Erişim Katmanı (DAL):</strong> Veritabanı veya diğer veri kaynakları ile etkileşim.</li>
+                            </ul>
+                            Bağımlılık genellikle tek yönlüdür (UI -> BLL -> DAL).
+                         </li>
+                         <li><strong>MVC (Model-View-Controller):</strong> Web uygulamalarında yaygındır (Model: Veri/Mantık, View: Sunum, Controller: Akış Kontrolü).</li>
+                         <li><strong>MVVM (Model-View-ViewModel):</strong> Özellikle UI geliştirmede kullanılır.</li>
+                         <li><strong>Mikroservis Mimarisi:</strong> SoC'nin ileri düzey uygulamasıdır.</li>
+                         <li><strong>Fonksiyon Seviyesi:</strong> Tek bir fonksiyonun tek bir iş yapması.</li>
+                     </ul>
+                      <pre><code class="language-csharp">
+// Katmanlı Mimari Konsepti (Basit Örnek)
+
+// --- Veri Erişim Katmanı (DAL) ---
+public interface IKullaniciRepository
+{
+    Kullanici Getir(int id);
+    void Kaydet(Kullanici k);
+}
+public class SqlKullaniciRepository : IKullaniciRepository // Somut DAL
+{
+    public Kullanici Getir(int id) { /* ... SQL ile kullanıcı getir ... */ return new Kullanici(); }
+    public void Kaydet(Kullanici k) { /* ... SQL ile kullanıcı kaydet ... */ }
+}
+
+// --- İş Mantığı Katmanı (BLL) ---
+public class KullaniciServisi
+{
+    private readonly IKullaniciRepository _repository;
+    // DI ile DAL bağımlılığı alınır (SoC ve Gevşek Bağlılık)
+    public KullaniciServisi(IKullaniciRepository repository) { _repository = repository; }
+
+    public bool KayitOl(string ad, string email)
+    {
+        if (string.IsNullOrWhiteSpace(ad) || !email.Contains("@")) return false;
+        // ... diğer iş kuralları ...
+        Kullanici yeniKullanici = new Kullanici { Ad = ad, Email = email };
+        _repository.Kaydet(yeniKullanici); // DAL'ı kullan
+        return true;
+    }
+}
+
+// --- Sunum Katmanı (UI - Örn: Web Controller) ---
+public class HesapController // : Controller (ASP.NET Core)
+{
+    private readonly KullaniciServisi _servis;
+    // DI ile BLL bağımlılığı alınır
+    public HesapController(KullaniciServisi servis) { _servis = servis; }
+
+    public string Kayit(string kullaniciAdi, string eposta) // Action Metodu
+    {
+        bool sonuc = _servis.KayitOl(kullaniciAdi, eposta); // BLL'yi kullan
+        return sonuc ? "Kayıt Başarılı" : "Kayıt Başarısız"; // View döndürülür
+    }
+}
+
+// Model Sınıfı
+public class Kullanici { public int Id { get; set; } public string Ad { get; set; } public string Email { get; set; } }
+                      </code></pre>
+                 </details>
+            </section>
+
+            <section id="di" class="content-section">
+                <h2>Bağımlılık Enjeksiyonu (Dependency Injection - DI)</h2>
+                <p>
+                    DI, bir nesnenin bağımlılıklarının dışarıdan verilmesi işlemidir. IoC prensibinin bir uygulamasıdır ve gevşek bağlılık sağlar.
+                </p>
+                 <details class="question-block">
+                    <summary><h3>DI Nedir? Amacı</h3></summary>
+                    <p>Bir sınıfın, ihtiyaç duyduğu nesneleri (bağımlılıkları) kendisi oluşturmak yerine, bu nesnelerin ona dışarıdan sağlanmasıdır. Amacı sınıflar arasındaki bağımlılıkları azaltmak (gevşek bağlılık), test edilebilirliği artırmak, esnekliği ve değiştirilebilirliği sağlamaktır.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>DI Türleri (Constructor, Setter, Interface Injection)</h3></summary>
+                     <ol>
+                         <li><strong>Constructor Injection:</strong> En yaygın ve önerilen yöntem. Bağımlılıklar yapıcı metot parametresi olarak alınır. Nesnenin ihtiyaç duyduğu her şeyin başlangıçta sağlanmasını garanti eder.</li>
+                         <li><strong>Setter Injection:</strong> Bağımlılıklar public özellikler (properties) veya metotlar aracılığıyla nesne oluşturulduktan sonra atanır. İsteğe bağlı bağımlılıklar için kullanılır.</li>
+                         <li><strong>Interface Injection:</strong> Nesne, bağımlılıklarını alabilmek için özel bir arayüzü uygular. Daha az yaygındır.</li>
+                     </ol>
+                     <p>Örnekler önceki bölümde (SoC örneği ve SOLID DIP örneği) verilmiştir.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>DI Konteynerları (Containers) ve Görevleri (Genel Kavram)</h3></summary>
+                     <p>Büyük uygulamalarda nesne oluşturma, bağımlılık çözümleme ve yaşam süresi yönetimi işini otomatikleştiren araçlardır.</p>
+                     <p>Görevleri:</p>
+                     <ul>
+                         <li><strong>Servis Kaydı (Registration):</strong> Arayüz-sınıf eşleştirmelerini ve yaşam sürelerini (Transient, Scoped, Singleton) tanımlama.</li>
+                         <li><strong>Bağımlılık Çözümleme (Resolution):</strong> Bir nesne istendiğinde, gerekli tüm bağımlılıkları otomatik olarak oluşturup enjekte etme.</li>
+                         <li><strong>Yaşam Süresi Yönetimi (Lifetime Management):</strong> Nesnelerin ne zaman oluşturulup yok edileceğini yönetme.</li>
+                     </ul>
+                     <p>Örnekler: Microsoft.Extensions.DependencyInjection (ASP.NET Core yerleşik), Autofac, Ninject.</p>
+                 </details>
+            </section>
+
+            <section id="kalitim-kompozisyon" class="content-section">
+                <h2>Kalıtım vs Kompozisyon (Inheritance vs Composition)</h2>
+                <p>Kod yeniden kullanımı ve ilişki modelleme için iki temel OOP yaklaşımıdır.</p>
+
+                 <details class="question-block">
+                    <summary><h3>Kalıtım ("is-a" İlişkisi)</h3></summary>
+                    <p>Bir sınıfın başka bir sınıfın üyelerini devralmasıdır. "Bir ...dır" ilişkisini modeller. Kod tekrarını azaltır ancak sınıflar arasında sıkı bağlılık yaratabilir.</p>
+                 </details>
+
+                 <details class="question-block">
+                    <summary><h3>Kompozisyon ("has-a" İlişkisi)</h3></summary>
+                    <p>Bir sınıfın başka sınıfların nesnelerini kendi içinde barındırmasıdır. "Bir ...a sahiptir" veya "... kullanır" ilişkisini modeller. Daha esnektir ve gevşek bağlılık sağlar.</p>
+                 </details>
+
+                  <details class="question-block">
+                    <summary><h3>Ne Zaman Hangisi? "Favor Composition Over Inheritance"</h3></summary>
+                    <p>Genel prensip, <strong>kalıtım yerine kompozisyonu tercih etmektir</strong>. Kompozisyon daha fazla esneklik sunar ve kalıtımın getirdiği sıkı bağlılık risklerini azaltır. Kalıtım, sadece gerçekten güçlü bir "is-a" ilişkisi olduğunda ve LSP'ye uyulduğunda düşünülmelidir.</p>
+                     <pre><code class="language-python">
+# Kompozisyon Örneği (Python)
+class YayinMotoru:
+    def yayinla(self, mesaj): print(f"Yayınlanıyor: {mesaj}")
+
+class Depolama:
+    def kaydet(self, veri): print(f"Kaydediliyor: {veri}")
+
+class BlogYazisi:
+    def __init__(self, baslik, icerik):
+        self.baslik = baslik
+        self.icerik = icerik
+        # Kompozisyon: BlogYazisi, yayinlama ve depolama işlevlerini
+        # başka nesneleri kullanarak sağlar.
+        self._yayinlayici = YayinMotoru()
+        self._depolayici = Depolama()
+
+    def yayinla(self):
+        self._yayinlayici.yayinla(f"{self.baslik} - {self.icerik}")
+
+    def kaydet(self):
+        self._depolayici.kaydet(self.icerik)
+
+# yazi = BlogYazisi("Yeni Başlık", "İçerik...")
+# yazi.yayinla()
+# yazi.kaydet()
+# Kalıtım yerine (class BlogYazisi(YayinMotoru, Depolama): ...) kompozisyon kullanıldı.
+                    </code></pre>
+                  </details>
+            </section>
+
+            <section id="coupling" class="content-section">
+                 <h2>Sıkı Bağımlılık vs Gevşek Bağımlılık (Coupling)</h2>
+                 <p>Bağlılık, modüllerin birbirine ne kadar bağımlı olduğunu ölçer.</p>
+
+                 <details class="question-block">
+                    <summary><h3>Sıkı Bağımlılık (Tight Coupling)</h3></summary>
+                    <p>Modüller birbirlerinin iç detaylarına yakından bağımlıdır. Değişiklikler kolayca yayılır, yeniden kullanım ve test zorlaşır. Genellikle kaçınılması gereken bir durumdur.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>Gevşek Bağımlılık (Loose Coupling)</h3></summary>
+                     <p>Modüller birbirleri hakkında minimum bilgiye sahiptir ve etkileşimleri iyi tanımlanmış arayüzler üzerinden olur. Esneklik, bakım kolaylığı, yeniden kullanılabilirlik ve test edilebilirliği artırır. Hedeflenen durumdur. Arayüzler, DI, olaylar gibi tekniklerle sağlanır.</p>
+                     <p>Daha önceki SoC ve DIP bölümlerindeki örnekler gevşek bağlılığın nasıl sağlandığını göstermektedir.</p>
+                 </details>
+            </section>
+
+            <section id="dry-kiss-yagni" class="content-section">
+                 <h2>Pratik Prensipler: DRY, KISS, YAGNI</h2>
+                 <p>Günlük kodlama pratiğinde yol gösteren pragmatik felsefelerdir.</p>
+
+                 <details class="question-block">
+                     <summary><h3>DRY Prensibi (Don't Repeat Yourself)</h3></summary>
+                     <p>Kendini Tekrar Etme. Her bilginin (kod, mantık) tek, belirgin bir temsili olmalıdır. Kopyala-yapıştır'dan kaçının. Bakımı kolaylaştırır, hata riskini azaltır. Fonksiyonlar, sınıflar, modüllerle uygulanır.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>KISS Prensibi (Keep It Simple, Stupid)</h3></summary>
+                     <p>Basit Tut Aptalca. Gereksiz karmaşıklıktan kaçının. En basit çözüm genellikle en iyisidir. Anlaşılabilirliği, bakımı ve hızı artırır, hata riskini azaltır.</p>
+                 </details>
+
+                  <details class="question-block">
+                     <summary><h3>YAGNI Prensibi (You Ain't Gonna Need It)</h3></summary>
+                     <p>Ona İhtiyacın Olmayacak. Şu anda gerçekten ihtiyaç duyulmayan işlevselliği eklemeyin. "Belki lazım olur" diyerek kod eklemekten kaçının. Gereksiz çabayı, karmaşıklığı önler ve odaklanmayı sağlar.</p>
+                  </details>
+            </section>
+
+            <section id="iliskiler" class="content-section">
+                <h2>Prensipler Arası İlişkiler</h2>
+                <p>Bu bölümde ele alınan prensipler ve SOLID prensipleri genellikle birbirleriyle ilişkilidir ve birbirlerini destekler.</p>
+
+                 <details class="question-block">
+                    <summary><h3>DIP (SOLID) ve Dependency Injection (DI) İlişkisi</h3></summary>
+                    <p>DIP bir tasarım prensibidir (soyutlamalara bağımlı ol), DI ise bu prensibi uygulamanın bir yoludur (bağımlılıkları dışarıdan verme). DI, DIP'yi hayata geçirerek gevşek bağlılık sağlar.</p>
+                 </details>
+
+                 <details class="question-block">
+                     <summary><h3>SoC ve SRP Arasındaki İlişki/Farklılık</h3></summary>
+                     <p>SoC daha genel ve mimari düzeydedir (sistemi ilgi alanlarına ayırma), SRP ise daha spesifik ve sınıf düzeyindedir (bir sınıfın tek sorumluluğu olması). İyi bir SoC uygulaması genellikle SRP'yi de teşvik eder. SRP, SoC'nin sınıf seviyesindeki bir yansımasıdır.</p>
+                 </details>
+            </section>
+
+             <section id="test" class="content-section">
+                 <h2>Birim Test (Unit Testing) ve Prensiplerin Katkısı</h2>
+                 <p>Tasarım prensipleri, kodun test edilebilirliğini doğrudan etkiler.</p>
+
+                 <details class="question-block">
+                    <summary><h3>Birim Test ve Prensiplerin Test Edilebilirliğe Katkısı</h3></summary>
+                    <p><strong>Birim Test:</strong> Yazılımın en küçük test edilebilir parçalarının (metot/sınıf) izole olarak test edilmesidir.</p>
+                    <p>Prensiplerin Katkısı:</p>
+                    <ul>
+                        <li><strong>SRP/SoC:</strong> Odaklı birimleri test etmek daha kolaydır.</li>
+                        <li><strong>Gevşek Bağlılık (DIP/DI):</strong> Bağımlılıkları sahte (mock) nesnelerle değiştirmeyi kolaylaştırır, böylece birimler izole olarak test edilebilir. Testler harici sistemlere (veritabanı, ağ) bağımlı olmaz, daha hızlı ve güvenilir çalışır.</li>
+                        <li><strong>LSP:</strong> Üst sınıf/arayüz üzerinden yapılan testlerin alt sınıflar için de geçerli olmasını sağlar (veya beklenir).</li>
+                        <li><strong>ISP:</strong> Küçük arayüzler için sahte nesneler oluşturmak daha basittir.</li>
+                    </ul>
+                    <p>İyi tasarlanmış (bu prensiplere uyan) kod, neredeyse her zaman daha kolay test edilebilir koddur.</p>
+                     <pre><code class="language-csharp">
+// Önceki DI bölümündeki test örneği, prensiplerin
+// test edilebilirliğe katkısını göstermektedir.
+// Mock<IUrunRepository> ve Mock<IBildirimServisi> kullanımı,
+// SiparisIsleyici sınıfının gerçek veritabanı veya bildirim
+// sistemine ihtiyaç duymadan test edilmesini sağlar.
+// Bu, DI ve DIP sayesinde mümkün olmaktadır.
+                    </code></pre>
+                 </details>
+            </section>
+
+            <section id="sonuc" class="content-section">
+                 <h2>Sonuç: Tasarım Prensipleriyle Daha Kaliteli Yazılımlar</h2>
+                 <p>
+                    Bu rehberde ele alınan static kavramının incelikleri, Sorumlulukların Ayrılması (SoC), Bağımlılık Enjeksiyonu (DI), Kalıtım/Kompozisyon dengesi, bağlılık yönetimi (Coupling) ve DRY, KISS, YAGNI gibi pratik prensipler, SOLID ilkeleriyle birlikte modern yazılım geliştirmenin temelini oluşturur. Bu kavramlar sadece teorik bilgiler değil, aynı zamanda günlük kodlama pratiğinde karşılaşılan zorluklara çözüm üreten, kod kalitesini artıran ve uzun vadede projelerin başarısını sağlayan somut araçlardır.
+                 </p>
+                 <p>
+                    Static üyeleri bilinçli kullanmak, SoC ile sistemi mantıksal parçalara ayırmak, DI ile gevşek bağlılık sağlamak, doğru ilişki modelini (kalıtım veya kompozisyon) seçmek, kod tekrarından kaçınmak (DRY), gereksiz karmaşıklıktan uzak durmak (KISS) ve henüz ihtiyaç duyulmayan özellikleri eklememek (YAGNI), sonuçta daha anlaşılır, esnek, test edilebilir ve sürdürülebilir yazılımlar ortaya çıkarır. Özellikle bu prensiplerin test edilebilirliğe olan doğrudan katkısı, yazılım kalitesini güvence altına almada hayati rol oynar.
+                 </p>
+                 <p>
+                    Bu prensipleri öğrenmek ve uygulamak bir yolculuktur. Her projede mükemmel bir şekilde uygulamak mümkün olmasa da, arkalarındaki mantığı anlamak ve tasarım kararlarını bu prensipler ışığında vermek, sizi daha yetkin ve bilinçli bir yazılım geliştirici yapacaktır. Unutmayın, iyi yazılım sadece çalışan yazılım değil, aynı zamanda iyi tasarlanmış yazılımdır.
+                 </p>
+            </section>
+        </div>
+    </main>
+
+    <div class="back-to-top-container">
+        <a href="#pageTop" class="back-to-top" aria-label="Sayfanın başına dön">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+   </div>
+
+    <footer id="mainFooter">
+        <div class="container">
+            <div class="footer-layout">
+                <div class="footer-left-links">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul class="footer-nav-links">
+                        <li><a href="https://abdulkadirgungor86.github.io/">Ana Sayfa</a></li>
+                        <li><a href="https://abdulkadirgungor86.github.io/cv" target="_blank" rel="noopener noreferrer">Özgeçmiş</a></li>
+                        <li><a href="https://abdulkadirgungor86.github.io/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center-content">
+                    <h4 class="sitemap-link-heading">
+                        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
+                    </h4>
+                    <p id="footerTextContent">
+                        <!-- Content will be loaded by script.js -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../assets/js/script.js" defer></script>
+</body>
+</html>

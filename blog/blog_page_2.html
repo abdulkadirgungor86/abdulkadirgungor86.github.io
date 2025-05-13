@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="siteTitle">SOLID Prensipleri: Modern Yazılım Tasarımının Temel Taşları</title>
+    <meta name="description" content="SOLID prensipleri (Tek Sorumluluk, Açık/Kapalı, Liskov Yerine Geçme, Arayüz Ayırma, Bağımlılıkların Tersine Çevrilmesi) üzerine derinlemesine bir inceleme. Bu temel ilkelerin yanı sıra KISS, YAGNI, DRY gibi tamamlayıcı prensiplerle nasıl daha anlaşılır, esnek, sürdürülebilir ve test edilebilir yazılımlar geliştirebileceğinizi keşfedin. Yazılım mimarisi ve nesne yönelimli tasarım (OOP) için vazgeçilmez bir rehber.">
+    <meta name="keywords" content="SOLID, SOLID Principles, Yazılım Tasarımı, Software Design Principles, Nesne Yönelimli Programlama, OOP, Object-Oriented Programming, Robert C. Martin, Uncle Bob, Single Responsibility Principle, Tek Sorumluluk Prensibi, SRP, Open/Closed Principle, Açık/Kapalı Prensibi, OCP, Liskov Substitution Principle, Liskov Yerine Geçme Prensibi, LSP, Interface Segregation Principle, Arayüz Ayırma Prensibi, ISP, Dependency Inversion Principle, Bağımlılıkların Tersine Çevrilmesi Prensibi, DIP, Yazılım Mimarisi, Software Architecture, Kod Kalitesi, Code Quality, Sürdürülebilir Yazılım, Maintainable Software, Esnek Yazılım, Flexible Software, Test Edilebilirlik, Testability, Bağımlılık Yönetimi, Dependency Management, Coupling, Cohesion, KISS, Keep It Simple Stupid, YAGNI, You Aren't Gonna Need It, DRY, Don't Repeat Yourself, Reuse Release Equivalence Principle, REP, Common Closure Principle, CCP, Temiz Kod, Clean Code, Tasarım Desenleri, Design Patterns, Yazılım Mühendisliği, Software Engineering, C#, Java, Python, Yazılım Geliştirme, Software Development">
+    <meta name="author" content="Abdulkadir Güngör">
+    <link rel="canonical" href="https://abdulkadirgungor86.github.io/blog/blog_page_2.html" />
+
+    <link rel="icon" type="image/png" href="../assets/images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../assets/images/icons/favicon.svg" />
+    <link rel="shortcut icon" href="../assets/images/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../assets/images/icons/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    
+    <script type="application/ld+json" id="siteData">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article", 
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://abdulkadirgungor86.github.io/blog/blog_page_2.html"
+      },
+      "headline": "SOLID Prensipleri: Modern Yazılım Tasarımının Temel Taşları",
+      "name": "SOLID Prensipleri: Modern Yazılım Tasarımının Temel Taşları | Abdulkadir Güngör", 
+      "author": {
+        "@type": "Person",
+        "name": "Abdulkadir Güngör"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Abdulkadir Güngör",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://abdulkadirgungor86.github.io/assets/images/icons/favicon-96x96.png" 
+        }
+      },
+      "datePublished": "2025-05-13", 
+      "dateModified": "2025-05-13", 
+      "description": "SOLID prensipleri (Tek Sorumluluk, Açık/Kapalı, Liskov Yerine Geçme, Arayüz Ayırma, Bağımlılıkların Tersine Çevrilmesi) üzerine derinlemesine bir inceleme.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://abdulkadirgungor86.github.io/"
+      },
+      "footerText": "© {YEAR} Abdulkadir Güngör. Tüm Hakları Saklıdır." 
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GFQC3DYZF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5GFQC3DYZF');
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5L6M34JW');</script>
+    
+</head>
+<body id="pageTop"> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L6M34JW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <main class="section-padding">
+        <div class="container">
+            <article class="content-section intro-section">
+                <h1>SOLID Prensipleri: Yazılımda Ustalığın Anahtarı</h1>
+                <p>
+                    Modern yazılım geliştirme pratiğinde, özellikle Nesne Yönelimli Programlama (OOP) paradigması benimsendiğinde, kodun kalitesi, sürdürülebilirliği ve esnekliği hayati önem taşır. İşte tam bu noktada, yazılım dünyasının duayenlerinden Robert C. Martin (namıdiğer "Uncle Bob") tarafından derlenip popülerleştirilen SOLID prensipleri devreye girer. SOLID, aslında beş temel tasarım ilkesinin baş harflerinden oluşan bir akronimdir ve yazılımcılara daha anlaşılır, yönetilebilir, test edilebilir ve değişime kolay adapte olabilen sistemler kurma yolunda rehberlik eder.
+                </p>
+                <p>
+                    Bu prensipler, sadece teorik kavramlar olmanın ötesinde, günlük kodlama pratiklerimize entegre edildiğinde somut faydalar sağlayan güçlü araçlardır. Kod karmaşıklığını azaltmaktan, bağımlılıkları yönetmeye, yeniden kullanılabilirliği artırmaktan, gelecekteki değişikliklere karşı sistemi daha dayanıklı hale getirmeye kadar pek çok avantaj sunarlar. Bu makalede, SOLID'in her bir harfinin temsil ettiği prensibi derinlemesine inceleyecek, ne anlama geldiklerini, neden önemli olduklarını ve pratikte nasıl uygulanabileceklerini örneklerle açıklamaya çalışacağız. Ayrıca, SOLID'i tamamlayan KISS, YAGNI ve DRY gibi diğer önemli tasarım felsefelerine de değineceğiz.
+                </p>
+            </article>
+
+            <section id="solid-prensipleri" class="content-section">
+                <h2>SOLID Prensiplerinin Derinlemesine İncelenmesi</h2>
+
+                <details class="question-block" id="single-responsibility">
+                    <summary><h3>(<code>S</code>) Single Responsibility Principle (Tek Sorumluluk Prensibi)</h3></summary>
+                    <p>
+                        SOLID'in ilk harfi olan 'S', belki de anlaşılması en kolay ama uygulaması bazen en zorlayıcı olan prensiptir: Tek Sorumluluk Prensibi. Bu ilke, bir sınıfın veya modülün değişmek için yalnızca tek bir nedeni olması gerektiğini savunur. Başka bir deyişle, her sınıfın iyi tanımlanmış, tek bir sorumluluğu olmalıdır.
+                    </p>
+                    <p>
+                        <strong>Neden Önemlidir?</strong> Bir sınıf birden fazla sorumluluğu üstlendiğinde, bu sorumluluklardan birindeki değişiklik, diğer sorumlulukları da etkileyebilir ve beklenmedik hatalara yol açabilir. Örneğin, hem kullanıcı verilerini yöneten hem de bu verileri bir rapora formatlayan bir sınıf düşünün. Rapor formatında bir değişiklik gerektiğinde, kullanıcı verilerini yöneten kodun da test edilmesi gerekebilir veya tam tersi. Bu durum, sınıfın "kırılgan" hale gelmesine neden olur. Ayrıca, birden fazla sorumluluğu olan sınıfların anlaşılması, test edilmesi ve bakımı daha zordur. Kodun farklı bölümleri birbirine sıkı sıkıya bağlanır (yüksek coupling), bu da esnekliği azaltır.
+                    </p>
+                    <p>
+                        <strong>Pratik Uygulama:</strong> Bir sınıfın birden fazla sorumluluğu olduğunu düşünüyorsanız, bu sorumlulukları ayrı sınıflara bölmeyi düşünmelisiniz. Veritabanı işlemlerini yapan bir sınıf (<code>UserRepository</code>), loglama yapan başka bir sınıf (<code>FileLogger</code> veya <code>DatabaseLogger</code>), raporlama yapan ayrı bir sınıf (<code>SalesReportGenerator</code>) gibi. Metotlar düzeyinde de bu prensip geçerlidir; bir metot ideal olarak tek bir iş yapmalıdır. Eğer bir metot içerisinde çok sayıda <code>if/else</code> veya <code>switch</code> bloğu ile farklı işler yapılıyorsa, bu genellikle Tek Sorumluluk Prensibi'nin ihlal edildiğinin bir işaretidir ve metodun daha küçük, odaklanmış metotlara bölünmesi gerekebilir. Bu prensip, kodun daha modüler, okunabilir ve yönetilebilir olmasını sağlar.
+                    </p>
+                     <p>
+                        Bir benzetme yapacak olursak, İsviçre çakısı birçok işlevi yerine getirebilir ancak genellikle hiçbir işlevi özel bir alet kadar iyi yapamaz. Özel tornavida, özel bıçak veya özel makas her zaman daha etkilidir. Yazılımda da benzer şekilde, her iş için özelleşmiş sınıflar ve metotlar kullanmak genellikle daha sağlam ve verimli bir yaklaşım sunar.
+                    </p>
+                </details>
+
+                <details class="question-block" id="open-closed">
+                    <summary><h3>(<code>O</code>) Open/Closed Principle (Açık/Kapalı Prensibi)</h3></summary>
+                    <p>
+                        SOLID'in ikinci harfi 'O', yazılım varlıklarının (sınıflar, modüller, fonksiyonlar vb.) davranışını değiştirmeden genişletilebilmesi gerektiğini ifade eder. Yani, sistem yeni gereksinimlere veya özelliklere (genişletmeye) açık olmalı, ancak bu eklemeler için mevcut, çalışan ve test edilmiş kodun değiştirilmesine (değişime) kapalı olmalıdır. Bertrand Meyer tarafından ortaya atılan bu prensip, yazılımın zamanla evrilirken istikrarını korumasını hedefler.
+                    </p>
+                     <p>
+                        <strong>Neden Önemlidir?</strong> Mevcut kodu değiştirmek her zaman risk taşır. Yapılan değişiklikler, beklenmedik yan etkilere neden olabilir ve sistemin daha önce çalışan kısımlarını bozabilir. Bu da kapsamlı regresyon testleri gerektirir ve geliştirme sürecini yavaşlatır. Açık/Kapalı Prensibi'ne uymak, yeni özellikler eklerken bu riskleri en aza indirir. Kod tabanının daha istikrarlı, bakımı daha kolay ve yeniden kullanılabilir olmasını sağlar.
+                    </p>
+                    <p>
+                        <strong>Pratik Uygulama:</strong> Bu prensip genellikle soyutlama (abstraction) ve polimorfizm (polymorphism) kullanılarak uygulanır. En yaygın yöntemler şunlardır:
+                        <ul>
+                            <li><strong>Arayüzler (Interfaces) ve Soyut Sınıflar (Abstract Classes):</strong> Yeni işlevsellikler, mevcut bir arayüzü veya soyut sınıfı implemente eden yeni sınıflar oluşturularak eklenebilir. Örneğin, farklı ödeme yöntemlerini desteklemek isteyen bir e-ticaret sistemi düşünün. Bir <code>IPaymentProcessor</code> arayüzü tanımlanır. Başlangıçta <code>CreditCardProcessor</code> sınıfı bu arayüzü implemente eder. Daha sonra PayPal veya başka bir yöntem eklemek istendiğinde, <code>PayPalProcessor</code> gibi yeni bir sınıf oluşturulur ve <code>IPaymentProcessor</code> arayüzünü implemente eder. Mevcut kod (<code>IPaymentProcessor</code> kullanan kısımlar) değiştirilmeden yeni ödeme yöntemi sisteme entegre edilebilir.</li>
+                            <li><strong>Strateji Tasarım Deseni (Strategy Pattern):</strong> Algoritmaları veya davranışları çalışma zamanında değiştirmek için kullanılır. Farklı stratejiler (örneğin, farklı sıralama algoritmaları, farklı indirim hesaplama yöntemleri) ayrı sınıflar olarak tanımlanır ve istemci sınıf, kullanmak istediği stratejiyi enjekte eder.</li>
+                            <li><strong>Kalıtım (Inheritance):</strong> Temel sınıfın davranışını genişletmek için kullanılabilir, ancak dikkatli olunmalıdır (Liskov Yerine Geçme Prensibi'ne uyulmalıdır).</li>
+                        </ul>
+                        Açık/Kapalı Prensibi'nin ihlal edildiği yaygın durumlar, yeni bir tip eklendiğinde mevcut koddaki <code>if/else</code> veya <code>switch</code> bloklarının sürekli güncellenmesi gereken durumlardır. Bu tür yapılar yerine polimorfik davranışlar tercih edilmelidir.
+                    </p>
+                </details>
+
+                <details class="question-block" id="liskov-substitution">
+                    <summary><h3>(<code>L</code>) Liskov Substitution Principle (Liskov'un Yerine Geçme Prensibi)</h3></summary>
+                    <p>
+                        Barbara Liskov tarafından formüle edilen bu prensip, nesne yönelimli programlamada kalıtımın doğru kullanımının temelini oluşturur. Prensibe göre, eğer S sınıfı, T sınıfının bir alt türü (sub-type) ise, o zaman T türündeki nesnelerin yerine S türündeki nesneler, programın istenen özelliklerini (doğruluğunu, beklenen davranışını) değiştirmeden kullanılabilmelidir. Daha basit bir ifadeyle, türetilmiş sınıflar, temel sınıflarının yerine sorunsuzca geçebilmelidir.
+                    </p>
+                     <p>
+                        <strong>Neden Önemlidir?</strong> Liskov Yerine Geçme Prensibi ihlal edildiğinde, alt sınıflar temel sınıfların sözleşmesini (beklenen davranışını) bozar. Bu durum, temel sınıf türü üzerinden alt sınıfları kullanmaya çalıştığınızda beklenmedik hatalara veya yanlış davranışlara yol açar. Bu tür durumlarla başa çıkmak için genellikle kod içerisinde tip kontrolü (<code>if (nesne is Kare)</code> gibi) yapmak veya <code>is</code>/<code>as</code> operatörlerini kullanmak gerekir. Bu tür kontroller, Açık/Kapalı Prensibi'ni ihlal eder, kodu karmaşıklaştırır ve bakımı zorlaştırır. LSP'ye uymak, polimorfizmin güvenli ve etkili bir şekilde kullanılmasını sağlar ve daha sağlam, esnek hiyerarşiler oluşturmaya yardımcı olur.
+                    </p>
+                    <p>
+                        <strong>Pratik Uygulama:</strong> LSP'yi sağlamak için alt sınıfların şunları yapmaması gerekir:
+                        <ul>
+                            <li>Temel sınıftaki metotların ön koşullarını (preconditions) güçlendirmemelidir (yani, temel sınıfın kabul ettiğinden daha azını kabul etmemelidir).</li>
+                            <li>Temel sınıftaki metotların son koşullarını (postconditions) zayıflatmamalıdır (yani, temel sınıfın garanti ettiğinden daha azını garanti etmemelidir).</li>
+                            <li>Temel sınıftaki metotların değişmezlerini (invariants) bozmamalıdır.</li>
+                            <li>Temel sınıfta çalışan bir metodu override edip boş bırakmamalı veya <code>NotImplementedException</code> gibi istisnalar fırlatmamalıdır.</li>
+                        </ul>
+                        Klasik bir örnek kare/dikdörtgen problemidir. Eğer <code>Kare</code> sınıfı, <code>Dikdortgen</code> sınıfından türetilirse ve <code>Dikdortgen</code>'in <code>GenislikAyarla</code> ve <code>YukseklikAyarla</code> metotları varsa, <code>Kare</code> sınıfı bu metotları override ederek hem genişliği hem yüksekliği aynı anda ayarlamak zorunda kalır. Bu durum, <code>Dikdortgen</code> bekleyen bir kodun <code>Kare</code> nesnesiyle çalıştığında beklenmedik sonuçlar doğurmasına neden olabilir (örneğin, genişliği ayarladıktan sonra yüksekliğin de değişmesi). Bu, LSP ihlalidir ve genellikle bu tür bir kalıtım ilişkisinin yanlış olduğunu gösterir.
+                    </p>
+                </details>
+
+                <details class="question-block" id="interface-segregation">
+                    <summary><h3>(<code>I</code>) Interface Segregation Principle (Arayüz Ayırma Prensibi)</h3></summary>
+                    <p>
+                        SOLID'in dördüncü harfi 'I', istemcilerin (arayüzü kullanan sınıfların) kullanmadıkları metotları içeren arayüzleri implemente etmeye zorlanmaması gerektiğini belirtir. Başka bir deyişle, "şişman" (fat) arayüzler yerine, daha küçük, özelleşmiş ve istemcinin ihtiyaçlarına odaklanmış arayüzler tercih edilmelidir.
+                    </p>
+                    <p>
+                        <strong>Neden Önemlidir?</strong> Büyük ve çok fazla metot içeren bir arayüz, onu implemente eden sınıfları gereksiz yere karmaşıklaştırabilir. Sınıflar, aslında hiç kullanmayacakları veya ihtiyaç duymayacakları metotları implemente etmek zorunda kalabilirler. Bu durum, kodun okunabilirliğini azaltır, anlaşılmasını zorlaştırır ve yanlışlıkla kullanılmayan metotların çağrılması gibi potansiyel hatalara yol açabilir. Ayrıca, şişman bir arayüzde yapılan bir değişiklik (kullanılmayan bir metoda bile olsa), bu arayüzü implemente eden tüm sınıfları etkileyebilir ve yeniden derleme veya değişiklik gerektirebilir. ISP'ye uymak, sistemin daha modüler olmasını sağlar, sınıflar arasındaki bağımlılığı (coupling) azaltır ve kodun daha esnek ve bakımı kolay olmasına yardımcı olur.
+                    </p>
+                    <p>
+                        <strong>Pratik Uygulama:</strong> Eğer bir arayüzün çok fazla sorumluluğu olduğunu fark ederseniz, bu arayüzü daha küçük, daha odaklı arayüzlere bölmelisiniz. Örneğin, hem yazdırma hem de tarama işlemlerini içeren bir <code>IMakine</code> arayüzü yerine, <code>IYazici</code> ve <code>ITarayici</code> gibi iki ayrı arayüz tanımlamak daha uygun olabilir. Böylece, sadece yazdırma yeteneği olan bir sınıf <code>IYazici</code> arayüzünü, sadece tarama yeteneği olan bir sınıf <code>ITarayici</code> arayüzünü, her iki yeteneğe de sahip olan bir sınıf ise her iki arayüzü birden implemente edebilir. Bu şekilde, hiçbir sınıf kullanmadığı bir metodu implemente etmek zorunda kalmaz. Rol arayüzleri (Role Interfaces) olarak da bilinen bu yaklaşım, daha temiz ve amaca yönelik tasarımlar oluşturmayı sağlar.
+                    </p>
+                </details>
+
+                <details class="question-block" id="dependency-inversion">
+                    <summary><h3>(<code>D</code>) Dependency Inversion Principle (Bağımlılıkların Tersine Çevrilmesi Prensibi)</h3></summary>
+                    <p>
+                        SOLID'in son harfi 'D', yazılım modülleri arasındaki bağımlılıkların nasıl yönetilmesi gerektiğiyle ilgilidir. Bu prensip, iki temel kurala dayanır:
+                        <ol>
+                            <li>Yüksek seviyeli modüller (örneğin, iş mantığını içeren sınıflar), düşük seviyeli modüllere (örneğin, veritabanı erişimi, dosya sistemi işlemleri gibi detayları içeren sınıflar) doğrudan bağımlı olmamalıdır. Her ikisi de soyutlamalara (genellikle arayüzler veya soyut sınıflar) bağımlı olmalıdır.</li>
+                            <li>Soyutlamalar, detaylara (somut implementasyonlara) bağlı olmamalıdır. Detaylar, soyutlamalara bağlı olmalıdır.</li>
+                        </ol>
+                        Prensibin adı "Tersine Çevirme"dir çünkü geleneksel yapısal programlamadaki bağımlılık akışını (yüksek seviyeden düşük seviyeye doğru) tersine çevirir. Yüksek seviyeli modüller, neye ihtiyaç duyduklarını soyutlamalar aracılığıyla tanımlar ve düşük seviyeli modüller bu soyutlamaları implemente ederek bu ihtiyacı karşılar.
+                    </p>
+                     <p>
+                        <strong>Neden Önemlidir?</strong> Bu prensip, sistemdeki modüller arasındaki sıkı bağlılığı (tight coupling) önemli ölçüde azaltır. Yüksek seviyeli modüller, düşük seviyeli modüllerin somut implementasyonlarından bağımsız hale gelir. Bu, sistemin daha esnek, değiştirilebilir ve test edilebilir olmasını sağlar. Örneğin, veritabanı erişim katmanının implementasyonunu (örneğin, SQL Server'dan PostgreSQL'e geçiş) değiştirmek istediğinizde, iş mantığı katmanını (yüksek seviyeli modül) değiştirmenize gerek kalmaz, çünkü iş mantığı sadece soyut bir <code>IRepository</code> arayüzüne bağımlıdır. Ayrıca, test sırasında düşük seviyeli modüllerin yerine sahte (mock) nesneler enjekte etmek kolaylaşır, bu da birim testlerinin (unit testing) daha etkili yapılmasını sağlar.
+                    </p>
+                    <p>
+                        <strong>Pratik Uygulama:</strong> DIP genellikle Dependency Injection (DI - Bağımlılık Enjeksiyonu) ve Inversion of Control (IoC - Kontrolün Tersine Çevrilmesi) prensipleri ve konteynerleri (DI Containers) ile birlikte uygulanır. Yüksek seviyeli bir sınıf, ihtiyaç duyduğu düşük seviyeli bileşenin somut örneğini doğrudan oluşturmak yerine (<code>new DatabaseLogger()</code> gibi), ihtiyaç duyduğu soyutlamayı (örneğin, <code>ILogger</code> arayüzünü) constructor (yapıcı metot), metot parametresi veya property aracılığıyla dışarıdan alır. Hangi somut implementasyonun (<code>DatabaseLogger</code>, <code>FileLogger</code> vb.) enjekte edileceğine karar veren mekanizma (genellikle bir DI konteyneri) kontrolü elinde tutar. Bu sayede bağımlılıklar merkezi bir yerden yönetilir ve sistemin esnekliği artar. Duvar prizi ve elektrikli alet fişi benzetmesi burada sıklıkla kullanılır: Aletler doğrudan elektrik şebekesine bağlanmaz, standart bir prize (soyutlama) takılırlar ve prizin arkasındaki detaylar (şebeke) aleti ilgilendirmez.
+                    </p>
+                </details>
+            </section>
+
+            <section id="ek-prensipler" class="content-section">
+                <h2>SOLID'i Tamamlayan Diğer Önemli İlkeler</h2>
+                <p>SOLID prensipleri nesne yönelimli tasarımın temelini oluştursa da, iyi yazılım geliştirmenin tek anahtarı değildir. SOLID'i tamamlayan ve benzer hedeflere hizmet eden başka önemli prensipler de vardır:</p>
+
+                <details class="question-block">
+                    <summary><h3>KISS (Keep It Simple, Stupid - Basit Tut, Aptalca!)</h3></summary>
+                    <p>
+                        Bu prensip, gereksiz karmaşıklıktan kaçınılması gerektiğini vurgular. Bir sorunun çözümü için genellikle birden fazla yol bulunur. KISS, mümkün olan en basit ve en anlaşılır çözümün tercih edilmesi gerektiğini savunur. Karmaşık çözümler, anlaşılması, test edilmesi ve bakımı zor olan kodlara yol açar. Basitlik, genellikle daha az hata ve daha kolay yönetim anlamına gelir. Kodunuzu yazarken veya gözden geçirirken kendinize sorun: "Bunu daha basit yapabilir miyim?"
+                    </p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>YAGNI (You Aren't Gonna Need It! - Buna İhtiyacın Olmayacak!)</h3></summary>
+                    <p>
+                        Bu ilke, geliştiricileri yalnızca mevcut gereksinimler için kod yazmaya teşvik eder. "Belki ileride lazım olur" düşüncesiyle, henüz ihtiyaç duyulmayan özellikler veya kod blokları eklemekten kaçınılmalıdır. Gelecekteki ihtiyaçları tahmin etmek genellikle zordur ve gereksiz yere eklenen kod, sistemi karmaşıklaştırır, test yükünü artırır ve zaman kaybına neden olur. İhtiyaç ortaya çıktığında ilgili özelliği eklemek, genellikle daha verimli bir yaklaşımdır. Çevik (Agile) metodolojilerin temel taşlarından biridir.
+                    </p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>DRY (Don't Repeat Yourself - Kendini Tekrar Etme)</h3></summary>
+                    <p>
+                        DRY prensibi, sistemdeki her bilginin veya mantığın tek, kesin ve yetkili bir temsilinin olması gerektiğini belirtir. Kod tekrarından (code duplication) kaçınılmalıdır. Aynı kod bloğunu veya mantığı birden fazla yerde kullanmak, bir değişiklik gerektiğinde bu değişikliği tüm kopyalarda yapma zorunluluğu getirir. Bu hem zahmetli hem de hataya açıktır (bir kopyayı güncellemeyi unutmak gibi). Tekrarlayan kodlar, fonksiyonlar, sınıflar, metotlar veya konfigürasyon dosyaları gibi mekanizmalarla merkezileştirilmelidir. DRY prensibine uymak, kodun daha bakımı kolay, daha az hataya açık ve daha anlaşılır olmasını sağlar.
+                    </p>
+                </details>
+
+                <details class="question-block">
+                    <summary><h3>Reuse/Release Equivalence Principle (REP - Yeniden Kullanım/Sürüm Eşdeğerliği Prensibi)</h3></summary>
+                    <p>
+                       Bu prensip, genellikle daha büyük sistemlerde bileşen tabanlı mimarilerde önemlidir. Yeniden kullanılabilir olarak tasarlanan bir yazılım bileşeninin (örneğin, bir kütüphane veya paket), aynı zamanda sürüm kontrolü altında olan ve bağımsız olarak yayınlanabilen bir birim olması gerektiğini söyler. Yani, eğer bir grup sınıfı birlikte yeniden kullanmayı planlıyorsanız, onları birlikte sürümlemeli ve yayınlamalısınız. Bu, bağımlılık yönetimini netleştirir ve tüketicilerin belirli, test edilmiş bir bileşen sürümüne güvenebilmesini sağlar.
+                    </p>
+                </details>
+
+                 <details class="question-block">
+                    <summary><h3>Common Closure Principle (CCP - Ortak Kapanış Prensibi)</h3></summary>
+                    <p>
+                        Bu ilke, bir paket veya bileşen içindeki sınıfların aynı türdeki değişiklikler için birlikte değişmesi gerektiğini savunur. Eğer bir değişiklik genellikle belirli bir grup sınıfı birlikte etkiliyorsa, bu sınıflar aynı pakette veya modülde bulunmalıdır. Bu, Tek Sorumluluk Prensibi'nin paket seviyesindeki bir yansımasıdır. Amaç, bir değişiklik yapıldığında etkilenen paket sayısını en aza indirmektir. Bu, sistemin farklı bölümlerinin bağımsız olarak geliştirilmesini, test edilmesini ve dağıtılmasını kolaylaştırır.
+                    </p>
+                </details>
+            </section>
+
+             <section class="content-section conclusion-section">
+                <h2>Sonuç: İlkeli Yazılım Geliştirme Yolculuğu</h2>
+                <p>
+                    SOLID prensipleri ve tamamlayıcı ilkeler (KISS, YAGNI, DRY vb.), yazılım geliştirme sürecinde karşılaşılan karmaşıklığı yönetmek, kod kalitesini artırmak ve uzun vadede sürdürülebilir sistemler oluşturmak için paha biçilmez araçlardır. Bunlar katı kurallar olmaktan ziyade, daha iyi tasarımlar yapmamıza yardımcı olan yol gösterici fenerlerdir. Her prensibin uygulanması, projenin bağlamına, gereksinimlerine ve ekibin deneyimine göre dengelenmelidir.
+                </p>
+                <p>
+                    Bu ilkeleri anlamak ve pratik kodlama alışkanlıklarımıza entegre etmek, sadece daha iyi yazılımcılar olmamıza değil, aynı zamanda daha etkili ve işbirlikçi ekipler oluşturmamıza da katkı sağlar. Unutmayın ki yazılım geliştirme sürekli bir öğrenme ve iyileştirme yolculuğudur ve bu prensipler, bu yolculukta bize rehberlik eden değerli pusulalardır.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <div class="back-to-top-container">
+        <a href="#pageTop" class="back-to-top" aria-label="Sayfanın başına dön">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+   </div>
+
+    <footer id="mainFooter">
+        <div class="container">
+            <div class="footer-layout">
+                <div class="footer-left-links">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul class="footer-nav-links">
+                        <li><a href="https://abdulkadirgungor86.github.io/">Ana Sayfa</a></li>
+                        <li><a href="https://abdulkadirgungor86.github.io/cv" target="_blank" rel="noopener noreferrer">Özgeçmiş</a></li>
+                        <li><a href="https://abdulkadirgungor86.github.io/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center-content">
+                    <h4 class="sitemap-link-heading">
+                        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
+                    </h4>
+                    <p id="footerTextContent">
+                        <!-- Content will be loaded by script.js -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../assets/js/script.js" defer></script>
+</body>
+</html>
