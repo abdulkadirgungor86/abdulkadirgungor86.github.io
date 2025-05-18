@@ -34,7 +34,7 @@
         "@id": "https://abdulkadirgungor86.github.io/blog/blog_page_10.html"
       },
       "headline": "Kapsamlı JavaScript Öğrenme Rehberi: Web'e Hayat Verin",
-      "name": "Kapsamlı JavaScript Öğrenme Rehberi | Abdulkadir Güngör", 
+      "name": "Kapsamlı JavaScript Öğrenme Rehberi: Web'e Hayat Verin", 
       "author": {
         "@type": "Person",
         "name": "Abdulkadir Güngör"
@@ -288,7 +288,7 @@ console.log("a" &lt; "b"); // true (alfabetik karşılaştırma)
                              <pre><code class="language-javascript">
 let sicaklik = 25;
 let yagisVar = false;
-if (sicaklik &gt; 20 &amp;amp;&amp;amp; !yagisVar) {
+if (sicaklik &gt; 20 &amp;&amp; !yagisVar) {
   console.log("Hava dışarı çıkmak için güzel!");
 }
                             </code></pre>
@@ -666,7 +666,7 @@ if (liste) {
   // Üst elemana (ul) tek bir dinleyici ekle (Event Delegation)
   liste.addEventListener('click', function(event) {
     // Tıklanan elemanın bir LI olup olmadığını kontrol et
-    if (event.target &amp;amp;&amp;amp; event.target.nodeName === 'LI') {
+    if (event.target &amp;&amp; event.target.nodeName === 'LI') {
       console.log('Liste öğesi tıklandı:', event.target.textContent);
       event.target.classList.toggle('secili');
     } else if (event.target.nodeName === 'BUTTON') {

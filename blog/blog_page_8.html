@@ -33,7 +33,7 @@
         "@id": "https://abdulkadirgungor86.github.io/blog/blog_page_8.html"
       },
       "headline": "Kapsamlı HTML Öğrenme Rehberi: Temelden İleri Seviyeye",
-      "name": "Kapsamlı HTML Öğrenme Rehberi | Abdulkadir Güngör", 
+      "name": "Kapsamlı HTML Öğrenme Rehberi: Temelden İleri Seviyeye", 
       "author": {
         "@type": "Person",
         "name": "Abdulkadir Güngör"
@@ -102,58 +102,58 @@
                         Minimal bir HTML belgesi aşağıdaki temel öğeleri içerir:
                     </p>
                     <pre><code class="language-html">
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayfa Başlığı</title>
-</head>
-<body>
-    <!-- Sayfa içeriği buraya gelecek -->
-    <h1>Ana Başlık</h1>
-    <p>Bu bir paragraf.</p>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="tr"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Sayfa Başlığı&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Sayfa içeriği buraya gelecek --&gt;
+    &lt;h1&gt;Ana Başlık&lt;/h1&gt;
+    &lt;p&gt;Bu bir paragraf.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
                     </code></pre>
                     <ul>
-                        <li><strong><code><!DOCTYPE html></code>:</strong> Belge türü bildirimidir. Tarayıcıya bunun bir HTML5 belgesi olduğunu söyler. Her HTML belgesinin en başında yer almalıdır.</li>
-                        <li><strong><code><html></code>:</strong> HTML belgesinin kök (root) elemanıdır. Tüm diğer HTML elemanları bu etiket içinde yer alır. <code>lang="tr"</code> niteliği, sayfanın dilinin Türkçe olduğunu belirtir, bu SEO ve erişilebilirlik için önemlidir.</li>
-                        <li><strong><code><head></code>:</strong> Sayfa hakkında meta bilgileri içerir. Bu bilgiler tarayıcıda doğrudan görüntülenmez (&lt;code>&lt;title>&lt;/code> hariç). Meta veriler, karakter kodlaması, sayfa açıklaması, anahtar kelimeler, CSS dosyalarının bağlantıları gibi bilgileri barındırır.
+                        <li><strong><code>&lt;!DOCTYPE html&gt;</code>:</strong> Belge türü bildirimidir. Tarayıcıya bunun bir HTML5 belgesi olduğunu söyler. Her HTML belgesinin en başında yer almalıdır.</li>
+                        <li><strong><code>&lt;html&gt;</code>:</strong> HTML belgesinin kök (root) elemanıdır. Tüm diğer HTML elemanları bu etiket içinde yer alır. <code>lang="tr"</code> niteliği, sayfanın dilinin Türkçe olduğunu belirtir, bu SEO ve erişilebilirlik için önemlidir.</li>
+                        <li><strong><code>&lt;head&gt;</code>:</strong> Sayfa hakkında meta bilgileri içerir. Bu bilgiler tarayıcıda doğrudan görüntülenmez (<code>&lt;title&gt;</code> hariç). Meta veriler, karakter kodlaması, sayfa açıklaması, anahtar kelimeler, CSS dosyalarının bağlantıları gibi bilgileri barındırır.
                             <ul>
-                                <li><strong><code><meta charset="UTF-8"></code>:</strong> Belgenin karakter kodlamasını belirtir. UTF-8, Türkçe karakterler de dahil olmak üzere dünya dillerinin çoğunu destekleyen evrensel bir standarttır.</li>
-                                <li><strong><code><meta name="viewport" ...></code>:</strong> Mobil cihazlarda sayfanın nasıl görüntüleneceğini kontrol eder. <code>width=device-width</code>, sayfa genişliğini cihazın ekran genişliğine ayarlar. <code>initial-scale=1.0</code>, sayfanın ilk yüklenmedeki yakınlaştırma seviyesini belirler. Responsive tasarım için kritik bir etikettir.</li>
-                                <li>&lt;strong>&lt;code>&lt;title>&lt;/code>:&lt;/strong> Tarayıcı sekmesinde veya pencere başlığında görünen sayfa başlığını tanımlar. SEO için de çok önemlidir.</li>
+                                <li><strong><code>&lt;meta charset="UTF-8"&gt;</code>:</strong> Belgenin karakter kodlamasını belirtir. UTF-8, Türkçe karakterler de dahil olmak üzere dünya dillerinin çoğunu destekleyen evrensel bir standarttır.</li>
+                                <li><strong><code>&lt;meta name="viewport" ...&gt;</code>:</strong> Mobil cihazlarda sayfanın nasıl görüntüleneceğini kontrol eder. <code>width=device-width</code>, sayfa genişliğini cihazın ekran genişliğine ayarlar. <code>initial-scale=1.0</code>, sayfanın ilk yüklenmedeki yakınlaştırma seviyesini belirler. Responsive tasarım için kritik bir etikettir.</li>
+                                <li><strong><code>&lt;title&gt;</code>:</strong> Tarayıcı sekmesinde veya pencere başlığında görünen sayfa başlığını tanımlar. SEO için de çok önemlidir.</li>
                             </ul>
                         </li>
-                        <li><strong><code><body></code>:</strong> Sayfanın kullanıcı tarafından görülebilen tüm içeriğini (metinler, başlıklar, resimler, bağlantılar, tablolar, listeler vb.) içerir.</li>
+                        <li><strong><code>&lt;body&gt;</code>:</strong> Sayfanın kullanıcı tarafından görülebilen tüm içeriğini (metinler, başlıklar, resimler, bağlantılar, tablolar, listeler vb.) içerir.</li>
                     </ul>
                 </details>
 
                 <details class="question-block">
                     <summary><h3>HTML Etiketleri (Tags) Nedir?</h3></summary>
                     <p>
-                        HTML etiketleri, içeriği işaretlemek ve yapılandırmak için kullanılan anahtar kelimelerdir. Genellikle küçüktür (&lt;code>&lt;&lt;/code>) ve büyüktür (<code>></code>) işaretleri arasına yazılırlar. Çoğu etiket çiftler halinde gelir: bir açılış etiketi (örn: <code><p></code>) ve bir kapanış etiketi (örn: <code></p></code>). Kapanış etiketinde etiket adının önünde bir eğik çizgi (<code>/</code>) bulunur. Açılış ve kapanış etiketi arasındaki içerik, o etiketin etki ettiği alandır.
+                        HTML etiketleri, içeriği işaretlemek ve yapılandırmak için kullanılan anahtar kelimelerdir. Genellikle küçüktür (<code>&lt;</code>) ve büyüktür (<code>&gt;</code>) işaretleri arasına yazılırlar. Çoğu etiket çiftler halinde gelir: bir açılış etiketi (örn: <code>&lt;p&gt;</code>) ve bir kapanış etiketi (örn: <code>&lt;/p&gt;</code>). Kapanış etiketinde etiket adının önünde bir eğik çizgi (<code>/</code>) bulunur. Açılış ve kapanış etiketi arasındaki içerik, o etiketin etki ettiği alandır.
                     </p>
                     <pre><code class="language-html">
-<etiket_adı>İçerik buraya gelir</etiket_adı>
+&lt;etiket_adı&gt;İçerik buraya gelir&lt;/etiket_adı&gt;
                     </code></pre>
                     <p>
-                        Bazı etiketler ise "boş" veya "kendiliğinden kapanan" etiketlerdir. Bunlar içerik barındırmazlar ve kapanış etiketleri yoktur (veya açılış etiketinin sonunda <code>/</code> ile belirtilebilir). Örnekler: <code><br></code> (satır atlama), <code><hr></code> (yatay çizgi), <code><img></code> (resim), <code><input></code> (form girişi).
+                        Bazı etiketler ise "boş" veya "kendiliğinden kapanan" etiketlerdir. Bunlar içerik barındırmazlar ve kapanış etiketleri yoktur (veya açılış etiketinin sonunda <code>/</code> ile belirtilebilir). Örnekler: <code>&lt;br&gt;</code> (satır atlama), <code>&lt;hr&gt;</code> (yatay çizgi), <code>&lt;img&gt;</code> (resim), <code>&lt;input&gt;</code> (form girişi).
                     </p>
                     <pre><code class="language-html">
-<br>
-<hr>
-<img src="resim.jpg" alt="Açıklama">
-<input type="text" name="kullanici_adi">
+&lt;br&gt;
+&lt;hr&gt;
+&lt;img src="resim.jpg" alt="Açıklama"&gt;
+&lt;input type="text" name="kullanici_adi"&gt;
 
-<!-- XHTML uyumlu yazım (isteğe bağlı): -->
-<br />
-<hr />
-<img src="resim.jpg" alt="Açıklama" />
-<input type="text" name="kullanici_adi" />
+&lt;!-- XHTML uyumlu yazım (isteğe bağlı): --&gt;
+&lt;br /&gt;
+&lt;hr /&gt;
+&lt;img src="resim.jpg" alt="Açıklama" /&gt;
+&lt;input type="text" name="kullanici_adi" /&gt;
                     </code></pre>
-                    <p>HTML etiketleri büyük/küçük harfe duyarlı değildir (yani <code><p></code> ile <code><P></code> aynıdır), ancak genel kabul görmüş standart ve okunabilirlik açısından küçük harf kullanmak tavsiye edilir.</p>
+                    <p>HTML etiketleri büyük/küçük harfe duyarlı değildir (yani <code>&lt;p&gt;</code> ile <code>&lt;P&gt;</code> aynıdır), ancak genel kabul görmüş standart ve okunabilirlik açısından küçük harf kullanmak tavsiye edilir.</p>
                 </details>
 
                 <details class="question-block">
@@ -162,15 +162,15 @@
                         Nitelikler, HTML etiketlerine ek bilgiler veya özellikler katmak için kullanılır. Her zaman açılış etiketinin içinde yer alırlar ve genellikle <code>isim="değer"</code> çiftleri şeklinde yazılırlar. Değerler her zaman çift tırnak (<code>"</code>) veya tek tırnak (<code>'</code>) içine alınmalıdır (çift tırnak daha yaygındır).
                     </p>
                     <pre><code class="language-html">
-<a href="https://www.example.com">Örnek Siteye Git</a>
-<img src="logo.png" alt="Şirket Logosu" width="150" height="50">
-<p class="uyari" id="ilk-uyari">Bu önemli bir uyarıdır.</p>
+&lt;a href="https://www.example.com"&gt;Örnek Siteye Git&lt;/a&gt;
+&lt;img src="logo.png" alt="Şirket Logosu" width="150" height="50"&gt;
+&lt;p class="uyari" id="ilk-uyari"&gt;Bu önemli bir uyarıdır.&lt;/p&gt;
                     </code></pre>
                     <p>Yukarıdaki örneklerde:</p>
                     <ul>
-                        <li><code><a></code> etiketindeki <code>href</code> niteliği, bağlantının gideceği URL'yi belirtir.</li>
-                        <li><code><img></code> etiketindeki <code>src</code> niteliği resim dosyasının yolunu, <code>alt</code> niteliği resim yüklenemezse veya ekran okuyucu tarafından okunurken gösterilecek alternatif metni, <code>width</code> ve <code>height</code> nitelikleri ise resmin genişliğini ve yüksekliğini belirtir.</li>
-                        <li><code><p></code> etiketindeki <code>class</code> niteliği, CSS ile stil vermek veya JavaScript ile seçmek için kullanılan bir veya daha fazla sınıf adı tanımlar. <code>id</code> niteliği ise elemente benzersiz bir kimlik atar (sayfada her id sadece bir kez kullanılmalıdır).</li>
+                        <li><code>&lt;a&gt;</code> etiketindeki <code>href</code> niteliği, bağlantının gideceği URL'yi belirtir.</li>
+                        <li><code>&lt;img&gt;</code> etiketindeki <code>src</code> niteliği resim dosyasının yolunu, <code>alt</code> niteliği resim yüklenemezse veya ekran okuyucu tarafından okunurken gösterilecek alternatif metni, <code>width</code> ve <code>height</code> nitelikleri ise resmin genişliğini ve yüksekliğini belirtir.</li>
+                        <li><code>&lt;p&gt;</code> etiketindeki <code>class</code> niteliği, CSS ile stil vermek veya JavaScript ile seçmek için kullanılan bir veya daha fazla sınıf adı tanımlar. <code>id</code> niteliği ise elemente benzersiz bir kimlik atar (sayfada her id sadece bir kez kullanılmalıdır).</li>
                     </ul>
                     <p>Her etiketin kendine özgü desteklediği nitelikler vardır, ancak <code>id</code>, <code>class</code>, <code>style</code> (inline CSS için), <code>title</code> (ek bilgi için üzerine gelince çıkan tooltip) gibi bazı genel nitelikler çoğu etikette kullanılabilir.</p>
                 </details>
@@ -181,22 +181,22 @@
                         HTML kodunuza açıklamalar veya notlar eklemek için yorumları kullanabilirsiniz. Yorumlar tarayıcı tarafından işlenmez ve sayfada görüntülenmez. Kodun belirli bölümlerini açıklamak veya geçici olarak kod parçalarını devre dışı bırakmak için kullanışlıdır.
                     </p>
                     <pre><code class="language-html">
-<!-- Bu bir tek satırlık yorumdur -->
+&lt;!-- Bu bir tek satırlık yorumdur --&gt;
 
-<p>Bu paragraf görünecek.</p>
+&lt;p&gt;Bu paragraf görünecek.&lt;/p&gt;
 
-<!--
+&lt;!--
     Bu da çok satırlı
     bir yorum örneğidir.
     Aşağıdaki bölüm geçici olarak devre dışı bırakıldı.
-<div class="eski-bolum">
-    <p>Eski içerik...</p>
-</div>
--->
+&lt;div class="eski-bolum"&gt;
+    &lt;p&gt;Eski içerik...&lt;/p&gt;
+&lt;/div&gt;
+--&gt;
 
-<p>Bu paragraf da görünecek.</p>
+&lt;p&gt;Bu paragraf da görünecek.&lt;/p&gt;
                     </code></pre>
-                    <p>Yorumlar <code><!--</code> ile başlar ve <code>--></code> ile biter.</p>
+                    <p>Yorumlar <code>&lt;!--</code> ile başlar ve <code>--&gt;</code> ile biter.</p>
                 </details>
             </section>
 
@@ -205,37 +205,37 @@
                 <p>HTML, metin içeriğini anlamlı bir şekilde yapılandırmak ve temel biçimlendirme uygulamak için çeşitli etiketler sunar.</p>
 
                 <details class="question-block">
-                    <summary><h3>Başlık Etiketleri (<code><h1></code> - <code><h6></code>)</h3></summary>
+                    <summary><h3>Başlık Etiketleri (<code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code>)</h3></summary>
                     <p>
-                        Başlık etiketleri, belgenin veya bölümlerin başlıklarını tanımlamak için kullanılır. <code><h1></code> en önemli (genellikle sayfanın ana başlığı) ve en büyük başlığı temsil ederken, <code><h6></code> en az önemli ve en küçük başlığı temsil eder. Başlıklar sadece metni büyütmek için değil, aynı zamanda belgenin yapısını ve hiyerarşisini belirtmek için kullanılmalıdır. Arama motorları ve ekran okuyucular bu hiyerarşiyi anlar.
+                        Başlık etiketleri, belgenin veya bölümlerin başlıklarını tanımlamak için kullanılır. <code>&lt;h1&gt;</code> en önemli (genellikle sayfanın ana başlığı) ve en büyük başlığı temsil ederken, <code>&lt;h6&gt;</code> en az önemli ve en küçük başlığı temsil eder. Başlıklar sadece metni büyütmek için değil, aynı zamanda belgenin yapısını ve hiyerarşisini belirtmek için kullanılmalıdır. Arama motorları ve ekran okuyucular bu hiyerarşiyi anlar.
                     </p>
                     <pre><code class="language-html">
-<h1>Ana Sayfa Başlığı</h1>
-<p>Giriş paragrafı...</p>
-<h2>Bölüm 1 Başlığı</h2>
-<p>Bölüm 1 içeriği...</p>
-<h3>Bölüm 1 Alt Başlığı</h3>
-<p>Alt bölüm içeriği...</p>
-<h2>Bölüm 2 Başlığı</h2>
-<p>Bölüm 2 içeriği...</p>
+&lt;h1&gt;Ana Sayfa Başlığı&lt;/h1&gt;
+&lt;p&gt;Giriş paragrafı...&lt;/p&gt;
+&lt;h2&gt;Bölüm 1 Başlığı&lt;/h2&gt;
+&lt;p&gt;Bölüm 1 içeriği...&lt;/p&gt;
+&lt;h3&gt;Bölüm 1 Alt Başlığı&lt;/h3&gt;
+&lt;p&gt;Alt bölüm içeriği...&lt;/p&gt;
+&lt;h2&gt;Bölüm 2 Başlığı&lt;/h2&gt;
+&lt;p&gt;Bölüm 2 içeriği...&lt;/p&gt;
                     </code></pre>
-                     <p>Genellikle bir sayfada yalnızca bir tane <code><h1></code> etiketi kullanılması önerilir.</p>
+                     <p>Genellikle bir sayfada yalnızca bir tane <code>&lt;h1&gt;</code> etiketi kullanılması önerilir.</p>
                 </details>
 
                  <details class="question-block">
                     <summary><h3>Paragraf, Satır Atlama ve Yatay Çizgi</h3></summary>
                     <ul>
-                        <li><strong><code><p></code> (Paragraf):</strong> Metin bloklarını tanımlar. Tarayıcılar genellikle paragraflar arasına otomatik olarak bir miktar boşluk ekler.</li>
-                        <li><strong><code><br></code> (Line Break):</strong> Yeni bir paragrafa başlamadan metin içinde satır atlaması yapar. Şiir veya adres gibi içeriklerde kullanışlıdır. Gereksiz yere paragraflar arası boşluk yaratmak için kullanılmamalıdır (bunun için CSS kullanılmalıdır).</li>
-                        <li><strong><code><hr></code> (Horizontal Rule):</strong> Konu veya tema değişikliğini belirtmek için yatay bir çizgi çizer. Genellikle blok seviyesinde bir ayırıcı olarak kullanılır.</li>
+                        <li><strong><code>&lt;p&gt;</code> (Paragraf):</strong> Metin bloklarını tanımlar. Tarayıcılar genellikle paragraflar arasına otomatik olarak bir miktar boşluk ekler.</li>
+                        <li><strong><code>&lt;br&gt;</code> (Line Break):</strong> Yeni bir paragrafa başlamadan metin içinde satır atlaması yapar. Şiir veya adres gibi içeriklerde kullanışlıdır. Gereksiz yere paragraflar arası boşluk yaratmak için kullanılmamalıdır (bunun için CSS kullanılmalıdır).</li>
+                        <li><strong><code>&lt;hr&gt;</code> (Horizontal Rule):</strong> Konu veya tema değişikliğini belirtmek için yatay bir çizgi çizer. Genellikle blok seviyesinde bir ayırıcı olarak kullanılır.</li>
                     </ul>
                      <pre><code class="language-html">
-<p>Bu birinci paragraf. İçerik burada devam ediyor.</p>
-<p>Bu ikinci paragraf. Adres örneği:<br>
-123 Web Sokak,<br>
-İnternet Şehri, WWW 98765</p>
-<hr>
-<p>Yatay çizgiden sonraki yeni konuyla ilgili paragraf.</p>
+&lt;p&gt;Bu birinci paragraf. İçerik burada devam ediyor.&lt;/p&gt;
+&lt;p&gt;Bu ikinci paragraf. Adres örneği:&lt;br&gt;
+123 Web Sokak,&lt;br&gt;
+İnternet Şehri, WWW 98765&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Yatay çizgiden sonraki yeni konuyla ilgili paragraf.&lt;/p&gt;
                     </code></pre>
                 </details>
 
@@ -243,79 +243,79 @@
                     <summary><h3>Temel Metin Biçimlendirme Etiketleri</h3></summary>
                     <p>Metin içinde belirli kısımlara vurgu yapmak veya farklı anlamlar katmak için kullanılırlar:</p>
                     <ul>
-                        <li>&lt;strong><code>&lt;strong></code> ve <code>&lt;b></code> (Kalın):</strong> <code><strong></code> metnin önemli olduğunu belirtirken (semantik anlam), <code><b></code> sadece metni stilistik olarak kalın yapar (anlamsal önemi yoktur). Genellikle <code><strong></code> tercih edilir.</li>
-                        <li><strong><code><em></code> ve <code><i></code> (Eğik):</strong> <code><em></code> (emphasis) metne vurgu katarken (semantik anlam), <code>&lt;i></code> (italic) metni sadece eğik yapar (teknik terimler, yabancı kelimeler için kullanılabilir). Vurgu için <code><em></code> tercih edilir.</li>
-                        <li><strong><code>&lt;u></code> (Altı Çizili):</strong> Metnin altını çizer. Genellikle bağlantılarla karıştırılabileceği için dikkatli kullanılmalıdır. Yanlış yazımları belirtmek gibi özel durumlar için düşünülebilir.</li>
-                        <li><strong><code>&lt;s></code> veya <code>&lt;strike></code> (Üstü Çizili):</strong> Artık geçerli olmayan veya doğru olmayan metinleri belirtmek için kullanılır.</li>
-                        <li><strong><code><sub></code> (Subscript):</strong> Alt simge metni oluşturur (örn: H<sub>2</sub>O).</li>
-                        <li><strong><code><sup></code> (Superscript):</strong> Üst simge metni oluşturur (örn: x<sup>2</sup>).</li>
-                        <li><strong><code><code></code>:</strong> Bilgisayar kodu parçacıklarını belirtmek için kullanılır. Genellikle tek aralıklı (monospace) bir fontla gösterilir.</li>
-                        <li><strong><code><pre></code> (Preformatted Text):</strong> İçindeki metnin boşluklarını ve satır atlamalarını koruyarak, yazıldığı gibi gösterilmesini sağlar. Genellikle kod blokları için kullanılır (içine <code><code></code> etiketi yerleştirilebilir).</li>
-                        <li><strong><code><blockquote></code>:</strong> Başka bir kaynaktan alıntılanan uzun metin bloklarını belirtir. Genellikle girintili olarak gösterilir. <code>cite</code> niteliği ile kaynak URL'si belirtilebilir.</li>
-                        <li><strong><code><q></code>:</strong> Satır içi kısa alıntıları belirtir. Tarayıcılar genellikle otomatik olarak tırnak işareti ekler. <code>cite</code> niteliği burada da kullanılabilir.</li>
-                        <li><strong><code><mark></code> (HTML5):</strong> Metnin belirli bir bölümünü vurgulamak veya işaretlemek için kullanılır (örneğin arama sonuçlarında eşleşen kelimeler).</li>
-                        <li><strong><code><time></code> (HTML5):</strong> Tarih ve/veya saat bilgisini makine tarafından okunabilir formatta belirtmek için kullanılır. <code>datetime</code> niteliği standart formatta tarih/saat bilgisini içerir.</li>
+                        <li><strong><code>&lt;strong&gt;</code> ve <code>&lt;b&gt;</code> (Kalın):</strong> <code>&lt;strong&gt;</code> metnin önemli olduğunu belirtirken (semantik anlam), <code>&lt;b&gt;</code> sadece metni stilistik olarak kalın yapar (anlamsal önemi yoktur). Genellikle <code>&lt;strong&gt;</code> tercih edilir.</li>
+                        <li><strong><code>&lt;em&gt;</code> ve <code>&lt;i&gt;</code> (Eğik):</strong> <code>&lt;em&gt;</code> (emphasis) metne vurgu katarken (semantik anlam), <code>&lt;i&gt;</code> (italic) metni sadece eğik yapar (teknik terimler, yabancı kelimeler için kullanılabilir). Vurgu için <code>&lt;em&gt;</code> tercih edilir.</li>
+                        <li><strong><code>&lt;u&gt;</code> (Altı Çizili):</strong> Metnin altını çizer. Genellikle bağlantılarla karıştırılabileceği için dikkatli kullanılmalıdır. Yanlış yazımları belirtmek gibi özel durumlar için düşünülebilir.</li>
+                        <li><strong><code>&lt;s&gt;</code> (Üstü Çizili):</strong> (<code>&lt;strike&gt;</code> etiketi eskidir). Artık geçerli olmayan veya doğru olmayan metinleri belirtmek için kullanılır.</li>
+                        <li><strong><code>&lt;sub&gt;</code> (Subscript):</strong> Alt simge metni oluşturur (örn: H<sub>2</sub>O).</li>
+                        <li><strong><code>&lt;sup&gt;</code> (Superscript):</strong> Üst simge metni oluşturur (örn: x<sup>2</sup>).</li>
+                        <li><strong><code>&lt;code&gt;</code>:</strong> Bilgisayar kodu parçacıklarını belirtmek için kullanılır. Genellikle tek aralıklı (monospace) bir fontla gösterilir.</li>
+                        <li><strong><code>&lt;pre&gt;</code> (Preformatted Text):</strong> İçindeki metnin boşluklarını ve satır atlamalarını koruyarak, yazıldığı gibi gösterilmesini sağlar. Genellikle kod blokları için kullanılır (içine <code>&lt;code&gt;</code> etiketi yerleştirilebilir).</li>
+                        <li><strong><code>&lt;blockquote&gt;</code>:</strong> Başka bir kaynaktan alıntılanan uzun metin bloklarını belirtir. Genellikle girintili olarak gösterilir. <code>cite</code> niteliği ile kaynak URL'si belirtilebilir.</li>
+                        <li><strong><code>&lt;q&gt;</code>:</strong> Satır içi kısa alıntıları belirtir. Tarayıcılar genellikle otomatik olarak tırnak işareti ekler. <code>cite</code> niteliği burada da kullanılabilir.</li>
+                        <li><strong><code>&lt;mark&gt;</code> (HTML5):</strong> Metnin belirli bir bölümünü vurgulamak veya işaretlemek için kullanılır (örneğin arama sonuçlarında eşleşen kelimeler).</li>
+                        <li><strong><code>&lt;time&gt;</code> (HTML5):</strong> Tarih ve/veya saat bilgisini makine tarafından okunabilir formatta belirtmek için kullanılır. <code>datetime</code> niteliği standart formatta tarih/saat bilgisini içerir.</li>
                     </ul>
                      <pre><code class="language-html">
-<p><strong>Önemli uyarı:</strong> Lütfen dikkatli olun.</p>
-<p>Bu kelimeye <em>vurgu</em> yapılmıştır.</p>
-<p>Kimyasal formül: H<sub>2</sub>O</p>
-<p>Matematiksel ifade: E = mc<sup>2</sup></p>
-<p>Bir kod parçası: <code>console.log('Merhaba');</code></p>
-<pre><code class="language-javascript">
+&lt;p&gt;&lt;strong&gt;Önemli uyarı:&lt;/strong&gt; Lütfen dikkatli olun.&lt;/p&gt;
+&lt;p&gt;Bu kelimeye &lt;em&gt;vurgu&lt;/em&gt; yapılmıştır.&lt;/p&gt;
+&lt;p&gt;Kimyasal formül: H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;Matematiksel ifade: E = mc&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Bir kod parçası: &lt;code&gt;console.log('Merhaba');&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-javascript"&gt;
 function selamVer(isim) {
   console.log('Merhaba, ' + isim + '!');
 }
-</code></pre>
-<blockquote cite="kaynak_url">
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote cite="kaynak_url"&gt;
   Bu uzun bir alıntı metnidir...
-</blockquote>
-<p>Atasözü der ki: <q>Damlaya damlaya göl olur.</q></p>
-<p>Arama sonucu: metinde <mark>HTML</mark> kelimesi bulundu.</p>
-<p>Toplantı <time datetime="2024-10-26T14:00">yarın saat 2'de</time> yapılacak.</p>
+&lt;/blockquote&gt;
+&lt;p&gt;Atasözü der ki: &lt;q&gt;Damlaya damlaya göl olur.&lt;/q&gt;&lt;/p&gt;
+&lt;p&gt;Arama sonucu: metinde &lt;mark&gt;HTML&lt;/mark&gt; kelimesi bulundu.&lt;/p&gt;
+&lt;p&gt;Toplantı &lt;time datetime="2024-10-26T14:00"&gt;yarın saat 2'de&lt;/time&gt; yapılacak.&lt;/p&gt;
                     </code></pre>
                 </details>
 
                  <details class="question-block">
-                    <summary><h3>Listeler (<code><ul></code>, <code><ol></code>, <code><dl></code>)</h3></summary>
+                    <summary><h3>Listeler (<code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;dl&gt;</code>)</h3></summary>
                     <p>HTML, bilgileri listelemek için üç tür liste sunar:</p>
                     <ul>
-                        <li><strong><code><ul></code> (Unordered List - Sırasız Liste):</strong> Öğelerin sırasının önemli olmadığı listelerdir. Öğeler genellikle madde işaretleri (•, -, *) ile gösterilir. Her liste öğesi <code><li></code> (List Item) etiketi içine alınır.</li>
-                        <li><strong><code><ol></code> (Ordered List - Sıralı Liste):</strong> Öğelerin sırasının önemli olduğu listelerdir. Öğeler genellikle sayılar veya harflerle numaralandırılır. Her liste öğesi yine <code><li></code> etiketi içine alınır. <code>type</code> (1, a, A, i, I) ve <code>start</code> nitelikleri ile numaralandırma stili ve başlangıç değeri değiştirilebilir.</li>
-                        <li><strong><code><dl></code> (Description List - Tanım Listesi):</strong> Terimler ve tanımlarını içeren listeler oluşturmak için kullanılır.
+                        <li><strong><code>&lt;ul&gt;</code> (Unordered List - Sırasız Liste):</strong> Öğelerin sırasının önemli olmadığı listelerdir. Öğeler genellikle madde işaretleri (•, -, *) ile gösterilir. Her liste öğesi <code>&lt;li&gt;</code> (List Item) etiketi içine alınır.</li>
+                        <li><strong><code>&lt;ol&gt;</code> (Ordered List - Sıralı Liste):</strong> Öğelerin sırasının önemli olduğu listelerdir. Öğeler genellikle sayılar veya harflerle numaralandırılır. Her liste öğesi yine <code>&lt;li&gt;</code> etiketi içine alınır. <code>type</code> (1, a, A, i, I) ve <code>start</code> nitelikleri ile numaralandırma stili ve başlangıç değeri değiştirilebilir.</li>
+                        <li><strong><code>&lt;dl&gt;</code> (Description List - Tanım Listesi):</strong> Terimler ve tanımlarını içeren listeler oluşturmak için kullanılır.
                             <ul>
-                                <li><code><dt></code> (Description Term): Tanımlanacak terimi belirtir.</li>
-                                <li><code><dd></code> (Description Details): Terimin tanımını veya açıklamasını belirtir.</li>
+                                <li><code>&lt;dt&gt;</code> (Description Term): Tanımlanacak terimi belirtir.</li>
+                                <li><code>&lt;dd&gt;</code> (Description Details): Terimin tanımını veya açıklamasını belirtir.</li>
                             </ul>
-                           Bir <code><dt></code> birden fazla <code><dd></code> ile veya birden fazla <code><dt></code> tek bir <code><dd></code> ile ilişkilendirilebilir.
+                           Bir <code>&lt;dt&gt;</code> birden fazla <code>&lt;dd&gt;</code> ile veya birden fazla <code>&lt;dt&gt;</code> tek bir <code>&lt;dd&gt;</code> ile ilişkilendirilebilir.
                         </li>
                     </ul>
                     <pre><code class="language-html">
-<h4>Alışveriş Listesi (Sırasız)</h4>
-<ul>
-  <li>Elma</li>
-  <li>Süt</li>
-  <li>Ekmek</li>
-</ul>
+&lt;h4&gt;Alışveriş Listesi (Sırasız)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Elma&lt;/li&gt;
+  &lt;li&gt;Süt&lt;/li&gt;
+  &lt;li&gt;Ekmek&lt;/li&gt;
+&lt;/ul&gt;
 
-<h4>Yapılacaklar (Sıralı)</h4>
-<ol type="1" start="1">
-  <li>E-postaları kontrol et</li>
-  <li>Raporu tamamla</li>
-  <li>Toplantıya katıl</li>
-</ol>
+&lt;h4&gt;Yapılacaklar (Sıralı)&lt;/h4&gt;
+&lt;ol type="1" start="1"&gt;
+  &lt;li&gt;E-postaları kontrol et&lt;/li&gt;
+  &lt;li&gt;Raporu tamamla&lt;/li&gt;
+  &lt;li&gt;Toplantıya katıl&lt;/li&gt;
+&lt;/ol&gt;
 
-<h4>Web Terimleri (Tanım Listesi)</h4>
-<dl>
-  <dt>HTML</dt>
-  <dd>HyperText Markup Language - Web sayfalarının yapısını tanımlar.</dd>
-  <dt>CSS</dt>
-  <dd>Cascading Style Sheets - Web sayfalarının görünümünü biçimlendirir.</dd>
-  <dt>JS</dt>
-  <dd>JavaScript - Web sayfalarına etkileşim ve dinamizm katar.</dd>
-</dl>
+&lt;h4&gt;Web Terimleri (Tanım Listesi)&lt;/h4&gt;
+&lt;dl&gt;
+  &lt;dt&gt;HTML&lt;/dt&gt;
+  &lt;dd&gt;HyperText Markup Language - Web sayfalarının yapısını tanımlar.&lt;/dd&gt;
+  &lt;dt&gt;CSS&lt;/dt&gt;
+  &lt;dd&gt;Cascading Style Sheets - Web sayfalarının görünümünü biçimlendirir.&lt;/dd&gt;
+  &lt;dt&gt;JS&lt;/dt&gt;
+  &lt;dd&gt;JavaScript - Web sayfalarına etkileşim ve dinamizm katar.&lt;/dd&gt;
+&lt;/dl&gt;
                     </code></pre>
-                    <p>Listeler iç içe de kullanılabilir (bir <code><li></code> içine yeni bir <code><ul></code> veya <code><ol></code> başlatılabilir).</p>
+                    <p>Listeler iç içe de kullanılabilir (bir <code>&lt;li&gt;</code> içine yeni bir <code>&lt;ul&gt;</code> veya <code>&lt;ol&gt;</code> başlatılabilir).</p>
                 </details>
             </section>
 
@@ -324,9 +324,9 @@ function selamVer(isim) {
                 <p>Web'in temelini oluşturan bağlantılar (hyperlinks) ve sayfaları zenginleştiren görseller, HTML'in vazgeçilmez elemanlarındandır.</p>
 
                 <details class="question-block">
-                    <summary><h3>Bağlantı Oluşturma (<code><a></code> Etiketi)</h3></summary>
+                    <summary><h3>Bağlantı Oluşturma (<code>&lt;a&gt;</code> Etiketi)</h3></summary>
                     <p>
-                        <code><a></code> (anchor) etiketi, bir sayfadan diğerine veya aynı sayfa içindeki farklı bir bölüme bağlantı oluşturmak için kullanılır. En önemli niteliği <code>href</code> (Hypertext Reference)'dir ve bağlantının hedefini (URL veya sayfa içi ID) belirtir.
+                        <code>&lt;a&gt;</code> (anchor) etiketi, bir sayfadan diğerine veya aynı sayfa içindeki farklı bir bölüme bağlantı oluşturmak için kullanılır. En önemli niteliği <code>href</code> (Hypertext Reference)'dir ve bağlantının hedefini (URL veya sayfa içi ID) belirtir.
                     </p>
                     <ul>
                         <li><strong>Dış Bağlantı:</strong> Başka bir web sitesine yönlendirir. URL tam olarak (<code>http://</code> veya <code>https://</code> ile) belirtilmelidir.</li>
@@ -344,33 +344,33 @@ function selamVer(isim) {
                     </ul>
                      <p><strong><code>title</code> Niteliği:</strong> Kullanıcı fare imlecini bağlantının üzerine getirdiğinde ek bilgi içeren bir araç ipucu gösterir.</p>
                     <pre><code class="language-html">
-<!-- Dış Bağlantı (yeni sekmede) -->
-<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google'a Git</a>
+&lt;!-- Dış Bağlantı (yeni sekmede) --&gt;
+&lt;a href="https://www.google.com" target="_blank" rel="noopener noreferrer"&gt;Google'a Git&lt;/a&gt;
 
-<!-- İç Bağlantı -->
-<a href="/hakkimizda.html">Hakkımızda Sayfası</a>
-<a href="../iletisim.html">İletişim (Üst Klasörde)</a>
+&lt;!-- İç Bağlantı --&gt;
+&lt;a href="/hakkimizda.html"&gt;Hakkımızda Sayfası&lt;/a&gt;
+&lt;a href="../iletisim.html"&gt;İletişim (Üst Klasörde)&lt;/a&gt;
 
-<!-- Sayfa İçi Bağlantı -->
-<a href="#formlar">Formlar Bölümüne Git</a>
-<!-- ... sayfanın ilerleyen kısmında ... -->
-<h2 id="formlar">Formlar</h2>
+&lt;!-- Sayfa İçi Bağlantı --&gt;
+&lt;a href="#formlar"&gt;Formlar Bölümüne Git&lt;/a&gt;
+&lt;!-- ... sayfanın ilerleyen kısmında ... --&gt;
+&lt;h2 id="formlar"&gt;Formlar&lt;/h2&gt;
 
-<!-- E-posta Bağlantısı -->
-<a href="mailto:info@example.com?subject=Bilgi%20Talebi&body=Merhaba,">Bize E-posta Gönderin</a>
+&lt;!-- E-posta Bağlantısı --&gt;
+&lt;a href="mailto:info@example.com?subject=Bilgi%20Talebi&amp;body=Merhaba,"&gt;Bize E-posta Gönderin&lt;/a&gt;
 
-<!-- Telefon Bağlantısı -->
-<a href="tel:+905551234567">Bizi Arayın: 0555 123 4567</a>
+&lt;!-- Telefon Bağlantısı --&gt;
+&lt;a href="tel:+905551234567"&gt;Bizi Arayın: 0555 123 4567&lt;/a&gt;
 
-<!-- Title Nitelikli Bağlantı -->
-<a href="rapor.pdf" title="PDF Raporu İndir (5MB)">Raporu İndir</a>
+&lt;!-- Title Nitelikli Bağlantı --&gt;
+&lt;a href="rapor.pdf" title="PDF Raporu İndir (5MB)"&gt;Raporu İndir&lt;/a&gt;
                     </code></pre>
                 </details>
 
                 <details class="question-block">
-                    <summary><h3>Görsel Ekleme (<code><img></code> Etiketi)</h3></summary>
+                    <summary><h3>Görsel Ekleme (<code>&lt;img&gt;</code> Etiketi)</h3></summary>
                     <p>
-                        <code><img></code> etiketi, web sayfalarına resim eklemek için kullanılır. Bu boş bir etikettir, yani kapanış etiketi yoktur.
+                        <code>&lt;img&gt;</code> etiketi, web sayfalarına resim eklemek için kullanılır. Bu boş bir etikettir, yani kapanış etiketi yoktur.
                     </p>
                     <ul>
                         <li><strong><code>src</code> (Source):</strong> Görüntülenecek resim dosyasının yolunu (URL veya göreli yol) belirtir. Bu nitelik zorunludur.</li>
@@ -380,54 +380,54 @@ function selamVer(isim) {
                          <li><strong><code>loading="lazy"</code> (Modern Nitelik):</strong> Tarayıcıya resmi hemen değil, kullanıcı sayfayı aşağı kaydırıp resmin görünür alana yaklaştığında yüklemesini söyler. Sayfa yükleme performansını artırabilir.</li>
                     </ul>
                     <pre><code class="language-html">
-<img src="images/logo.png" alt="Şirket Logosu" width="200" height="80">
+&lt;img src="images/logo.png" alt="Şirket Logosu" width="200" height="80"&gt;
 
-<img src="https://via.placeholder.com/150" alt="Yer Tutucu Resim">
+&lt;img src="https://via.placeholder.com/150" alt="Yer Tutucu Resim"&gt;
 
-<!-- Dekoratif Resim -->
-<img src="images/arka-plan-deseni.jpg" alt="">
+&lt;!-- Dekoratif Resim --&gt;
+&lt;img src="images/arka-plan-deseni.jpg" alt=""&gt;
 
-<!-- Geç Yükleme -->
-<img src="images/buyuk-resim.jpg" alt="Detaylı Manzara Resmi" loading="lazy">
+&lt;!-- Geç Yükleme --&gt;
+&lt;img src="images/buyuk-resim.jpg" alt="Detaylı Manzara Resmi" loading="lazy"&gt;
 
-<!-- Bağlantılı Resim -->
-<a href="ana-sayfa.html">
-  <img src="images/ana-sayfa-butonu.gif" alt="Ana Sayfaya Dön">
-</a>
+&lt;!-- Bağlantılı Resim --&gt;
+&lt;a href="ana-sayfa.html"&gt;
+  &lt;img src="images/ana-sayfa-butonu.gif" alt="Ana Sayfaya Dön"&gt;
+&lt;/a&gt;
                     </code></pre>
                 </details>
 
                 <details class="question-block">
-                    <summary><h3>Duyarlı Görseller (<code><picture></code> ve <code>srcset</code>)</h3></summary>
+                    <summary><h3>Duyarlı Görseller (<code>&lt;picture&gt;</code> ve <code>srcset</code>)</h3></summary>
                     <p>
                         Farklı ekran boyutları veya çözünürlükleri için farklı resimler sunarak performansı ve kullanıcı deneyimini iyileştirmek mümkündür.
                     </p>
                     <ul>
-                        <li><strong><code>srcset</code> Niteliği (<code><img></code> içinde):</strong> Tarayıcının cihazın piksel yoğunluğuna veya ekran genişliğine göre seçebileceği farklı çözünürlükteki resim dosyalarını tanımlar.
+                        <li><strong><code>srcset</code> Niteliği (<code>&lt;img&gt;</code> içinde):</strong> Tarayıcının cihazın piksel yoğunluğuna veya ekran genişliğine göre seçebileceği farklı çözünürlükteki resim dosyalarını tanımlar.
                             <ul>
                                 <li><strong>Piksel Yoğunluğu (x tanımlayıcısı):</strong> <code>srcset="image-1x.jpg 1x, image-2x.jpg 2x"</code> (Normal ve yüksek çözünürlüklü ekranlar için).</li>
                                 <li><strong>Genişlik (w tanımlayıcısı) ve <code>sizes</code> Niteliği:</strong> Tarayıcıya farklı genişliklerdeki resimleri ve resmin farklı ekran boyutlarında ne kadar yer kaplayacağını bildirir. Tarayıcı en uygun olanı seçer. <code>sizes="(max-width: 600px) 100vw, 50vw"</code> (Ekran 600px'den darsa resim ekran genişliğinin %100'ünü, değilse %50'sini kaplar).</li>
                             </ul>
                         </li>
-                        <li><strong><code><picture></code> Etiketi:</strong> Daha gelişmiş kontrol sağlar. Farklı <code><source></code> elemanları kullanarak, ekran boyutu, yönlendirme veya tarayıcının desteklediği resim formatı (örn: WebP) gibi koşullara göre farklı resim kaynakları belirlemenizi sağlar. En sona her zaman bir <code><img></code> etiketi eklenmelidir (fallback olarak).</li>
+                        <li><strong><code>&lt;picture&gt;</code> Etiketi:</strong> Daha gelişmiş kontrol sağlar. Farklı <code>&lt;source&gt;</code> elemanları kullanarak, ekran boyutu, yönlendirme veya tarayıcının desteklediği resim formatı (örn: WebP) gibi koşullara göre farklı resim kaynakları belirlemenizi sağlar. En sona her zaman bir <code>&lt;img&gt;</code> etiketi eklenmelidir (fallback olarak).</li>
                     </ul>
                     <pre><code class="language-html">
-<!-- srcset ile Piksel Yoğunluğu -->
-<img srcset="kucuk.jpg 480w, orta.jpg 800w, buyuk.jpg 1200w"
+&lt;!-- srcset ile Piksel Yoğunluğu --&gt;
+&lt;img srcset="kucuk.jpg 480w, orta.jpg 800w, buyuk.jpg 1200w"
      sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 33vw"
      src="orta.jpg"
-     alt="Uygun Boyutta Gösterilen Resim">
+     alt="Uygun Boyutta Gösterilen Resim"&gt;
 
-<!-- picture Etiketi ile Format ve Boyut Kontrolü -->
-<picture>
-  <source media="(min-width: 1200px)" srcset="buyuk.webp" type="image/webp">
-  <source media="(min-width: 1200px)" srcset="buyuk.jpg" type="image/jpeg">
-  <source media="(min-width: 768px)" srcset="orta.webp" type="image/webp">
-  <source media="(min-width: 768px)" srcset="orta.jpg" type="image/jpeg">
-  <source srcset="kucuk.webp" type="image/webp">
-  <!-- Fallback Image -->
-  <img src="kucuk.jpg" alt="Farklı Boyut ve Formatlarda Sunulan Resim">
-</picture>
+&lt;!-- picture Etiketi ile Format ve Boyut Kontrolü --&gt;
+&lt;picture&gt;
+  &lt;source media="(min-width: 1200px)" srcset="buyuk.webp" type="image/webp"&gt;
+  &lt;source media="(min-width: 1200px)" srcset="buyuk.jpg" type="image/jpeg"&gt;
+  &lt;source media="(min-width: 768px)" srcset="orta.webp" type="image/webp"&gt;
+  &lt;source media="(min-width: 768px)" srcset="orta.jpg" type="image/jpeg"&gt;
+  &lt;source srcset="kucuk.webp" type="image/webp"&gt;
+  &lt;!-- Fallback Image --&gt;
+  &lt;img src="kucuk.jpg" alt="Farklı Boyut ve Formatlarda Sunulan Resim"&gt;
+&lt;/picture&gt;
                     </code></pre>
                 </details>
             </section>
@@ -440,121 +440,121 @@ function selamVer(isim) {
                     <summary><h3>Temel Tablo Yapısı</h3></summary>
                     <p>Bir tablo şu temel etiketlerle oluşturulur:</p>
                     <ul>
-                        <li><strong><code><table></code>:</strong> Tablonun tamamını kapsayan ana etikettir.</li>
-                        <li><strong><code><tr></code> (Table Row):</strong> Tablo içinde bir satırı tanımlar.</li>
-                        <li><strong><code><th></code> (Table Header):</strong> Bir başlık hücresini tanımlar. İçindeki metin genellikle kalın ve ortalanmış olarak gösterilir. Hem sütun başlıkları hem de satır başlıkları için kullanılabilir. <code>scope</code> niteliği ("col" veya "row") başlığın hangi hücrelere başlık yaptığını belirtmek için erişilebilirlik açısından önemlidir.</li>
-                        <li><strong><code><td></code> (Table Data):</strong> Bir veri hücresini tanımlar. Normal tablo içeriği burada yer alır.</li>
-                        <li><strong><code><caption></code>:</strong> Tabloya bir başlık veya açıklama ekler. Genellikle <code><table></code> etiketinden hemen sonra kullanılır ve tablonun içeriğini özetler. Erişilebilirlik için önemlidir.</li>
+                        <li><strong><code>&lt;table&gt;</code>:</strong> Tablonun tamamını kapsayan ana etikettir.</li>
+                        <li><strong><code>&lt;tr&gt;</code> (Table Row):</strong> Tablo içinde bir satırı tanımlar.</li>
+                        <li><strong><code>&lt;th&gt;</code> (Table Header):</strong> Bir başlık hücresini tanımlar. İçindeki metin genellikle kalın ve ortalanmış olarak gösterilir. Hem sütun başlıkları hem de satır başlıkları için kullanılabilir. <code>scope</code> niteliği ("col" veya "row") başlığın hangi hücrelere başlık yaptığını belirtmek için erişilebilirlik açısından önemlidir.</li>
+                        <li><strong><code>&lt;td&gt;</code> (Table Data):</strong> Bir veri hücresini tanımlar. Normal tablo içeriği burada yer alır.</li>
+                        <li><strong><code>&lt;caption&gt;</code>:</strong> Tabloya bir başlık veya açıklama ekler. Genellikle <code>&lt;table&gt;</code> etiketinden hemen sonra kullanılır ve tablonun içeriğini özetler. Erişilebilirlik için önemlidir.</li>
                     </ul>
                     <pre><code class="language-html">
-<table border="1"> <!-- Not: border niteliği eskidir, CSS tercih edilmeli -->
-  <caption>Aylık Satış Raporu</caption>
-  <tr>
-    <th scope="col">Ay</th>
-    <th scope="col">Ürün A Satış</th>
-    <th scope="col">Ürün B Satış</th>
-  </tr>
-  <tr>
-    <th scope="row">Ocak</th>
-    <td>150</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <th scope="row">Şubat</th>
-    <td>180</td>
-    <td>210</td>
-  </tr>
-  <tr>
-    <th scope="row">Mart</th>
-    <td>210</td>
-    <td>250</td>
-  </tr>
-</table>
+&lt;table border="1"&gt; &lt;!-- Not: border niteliği eskidir, CSS tercih edilmeli --&gt;
+  &lt;caption&gt;Aylık Satış Raporu&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th scope="col"&gt;Ay&lt;/th&gt;
+    &lt;th scope="col"&gt;Ürün A Satış&lt;/th&gt;
+    &lt;th scope="col"&gt;Ürün B Satış&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th scope="row"&gt;Ocak&lt;/th&gt;
+    &lt;td&gt;150&lt;/td&gt;
+    &lt;td&gt;200&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th scope="row"&gt;Şubat&lt;/th&gt;
+    &lt;td&gt;180&lt;/td&gt;
+    &lt;td&gt;210&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th scope="row"&gt;Mart&lt;/th&gt;
+    &lt;td&gt;210&lt;/td&gt;
+    &lt;td&gt;250&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
                     </code></pre>
                      <p><strong>Not:</strong> Örnekteki <code>border="1"</code> niteliği HTML5'te geçerli olsa da, tablo kenarlıklarını ve diğer stilleri CSS ile tanımlamak modern yaklaşımdır.</p>
                 </details>
 
                  <details class="question-block">
-                    <summary><h3>Tablo Yapısını Gruplama (<code><thead></code>, <code><tbody></code>, <code><tfoot></code>)</h3></summary>
+                    <summary><h3>Tablo Yapısını Gruplama (<code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code>)</h3></summary>
                     <p>Daha karmaşık veya uzun tablolarda, içeriği anlamsal olarak gruplamak için bu etiketler kullanılır:</p>
                     <ul>
-                        <li><strong><code><thead></code> (Table Head):</strong> Tablonun başlık satır(lar)ını gruplar. Bir tabloda en fazla bir tane bulunur.</li>
-                        <li><strong><code><tbody></code> (Table Body):</strong> Tablonun ana veri satırlarını gruplar. Bir tabloda birden fazla <code><tbody></code> olabilir.</li>
-                        <li><strong><code><tfoot></code> (Table Foot):</strong> Tablonun alt bilgi veya özet satır(lar)ını gruplar. Bir tabloda en fazla bir tane bulunur.</li>
+                        <li><strong><code>&lt;thead&gt;</code> (Table Head):</strong> Tablonun başlık satır(lar)ını gruplar. Bir tabloda en fazla bir tane bulunur.</li>
+                        <li><strong><code>&lt;tbody&gt;</code> (Table Body):</strong> Tablonun ana veri satırlarını gruplar. Bir tabloda birden fazla <code>&lt;tbody&gt;</code> olabilir.</li>
+                        <li><strong><code>&lt;tfoot&gt;</code> (Table Foot):</strong> Tablonun alt bilgi veya özet satır(lar)ını gruplar. Bir tabloda en fazla bir tane bulunur.</li>
                     </ul>
                     <p>Bu etiketler, tarayıcının tabloyu daha iyi yorumlamasına yardımcı olur. Örneğin, uzun tablolarda sayfa kaydırıldığında başlık (<code>thead</code>) sabit tutulabilir veya yazdırma sırasında her sayfanın başında/sonunda <code>thead</code>/<code>tfoot</code> tekrarlanabilir. Ayrıca CSS ile farklı bölümleri kolayca biçimlendirmeyi sağlar.</p>
                     <pre><code class="language-html">
-<table>
-  <caption>Detaylı Gider Tablosu</caption>
-  <thead>
-    <tr>
-      <th scope="col">Kategori</th>
-      <th scope="col">Açıklama</th>
-      <th scope="col">Tutar (TL)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ofis</td>
-      <td>Kira</td>
-      <td>2500</td>
-    </tr>
-    <tr>
-      <td>Ofis</td>
-      <td>Faturalar</td>
-      <td>450</td>
-    </tr>
-     <tr>
-      <td>Pazarlama</td>
-      <td>Reklam Gideri</td>
-      <td>1200</td>
-    </tr>
-  </tbody>
-   <tfoot>
-    <tr>
-      <td colspan="2"><strong>Toplam Gider</strong></td>
-      <td><strong>4150</strong></td>
-    </tr>
-  </tfoot>
-</table>
+&lt;table&gt;
+  &lt;caption&gt;Detaylı Gider Tablosu&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Kategori&lt;/th&gt;
+      &lt;th scope="col"&gt;Açıklama&lt;/th&gt;
+      &lt;th scope="col"&gt;Tutar (TL)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ofis&lt;/td&gt;
+      &lt;td&gt;Kira&lt;/td&gt;
+      &lt;td&gt;2500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ofis&lt;/td&gt;
+      &lt;td&gt;Faturalar&lt;/td&gt;
+      &lt;td&gt;450&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Pazarlama&lt;/td&gt;
+      &lt;td&gt;Reklam Gideri&lt;/td&gt;
+      &lt;td&gt;1200&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+   &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td colspan="2"&gt;&lt;strong&gt;Toplam Gider&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;4150&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
                     </code></pre>
-                     <p><code><thead></code>, <code><tbody></code>, ve <code><tfoot></code> etiketlerinin sırası HTML kodunda önemli değildir (genellikle thead, tfoot, tbody sırası da kullanılır), ancak tarayıcı her zaman başlık, gövde ve alt bilgi sırasında gösterir.</p>
+                     <p><code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, ve <code>&lt;tfoot&gt;</code> etiketlerinin sırası HTML kodunda önemli değildir (genellikle thead, tfoot, tbody sırası da kullanılır), ancak tarayıcı her zaman başlık, gövde ve alt bilgi sırasında gösterir.</p>
                  </details>
 
                 <details class="question-block">
                     <summary><h3>Hücreleri Birleştirme (<code>colspan</code> ve <code>rowspan</code>)</h3></summary>
                     <p>Bazen bir hücrenin birden fazla sütuna veya satıra yayılması gerekebilir.</p>
                     <ul>
-                        <li><strong><code>colspan</code> (Column Span):</strong> Bir hücrenin yatay olarak kaç sütunluk yer kaplayacağını belirtir. <code><th></code> veya <code><td></code> etiketine nitelik olarak eklenir.</li>
-                        <li><strong><code>rowspan</code> (Row Span):</strong> Bir hücrenin dikey olarak kaç satırlık yer kaplayacağını belirtir. <code><th></code> veya <code><td></code> etiketine nitelik olarak eklenir.</li>
+                        <li><strong><code>colspan</code> (Column Span):</strong> Bir hücrenin yatay olarak kaç sütunluk yer kaplayacağını belirtir. <code>&lt;th&gt;</code> veya <code>&lt;td&gt;</code> etiketine nitelik olarak eklenir.</li>
+                        <li><strong><code>rowspan</code> (Row Span):</strong> Bir hücrenin dikey olarak kaç satırlık yer kaplayacağını belirtir. <code>&lt;th&gt;</code> veya <code>&lt;td&gt;</code> etiketine nitelik olarak eklenir.</li>
                     </ul>
                      <pre><code class="language-html">
-<table border="1">
-  <caption>Zaman Çizelgesi</caption>
-  <tr>
-    <th>Saat</th>
-    <th>Pazartesi</th>
-    <th>Salı</th>
-    <th>Çarşamba</th>
-  </tr>
-  <tr>
-    <td>09:00 - 10:00</td>
-    <td>Toplantı</td>
-    <td rowspan="2">Proje Çalışması</td>
-    <td>Eğitim</td>
-  </tr>
-  <tr>
-    <td>10:00 - 11:00</td>
-    <td>Mola</td>
-    <!-- Salı sütunu rowspan nedeniyle burada boş -->
-    <td>Eğitim</td>
-  </tr>
-  <tr>
-    <td>11:00 - 12:00</td>
-    <td colspan="3">Genel Sunum</td>
-    <!-- Salı ve Çarşamba sütunları colspan nedeniyle burada boş -->
-  </tr>
-</table>
+&lt;table border="1"&gt; &lt;!-- Not: border niteliği eskidir, CSS tercih edilmeli --&gt;
+  &lt;caption&gt;Zaman Çizelgesi&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Saat&lt;/th&gt;
+    &lt;th&gt;Pazartesi&lt;/th&gt;
+    &lt;th&gt;Salı&lt;/th&gt;
+    &lt;th&gt;Çarşamba&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;09:00 - 10:00&lt;/td&gt;
+    &lt;td&gt;Toplantı&lt;/td&gt;
+    &lt;td rowspan="2"&gt;Proje Çalışması&lt;/td&gt;
+    &lt;td&gt;Eğitim&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;10:00 - 11:00&lt;/td&gt;
+    &lt;td&gt;Mola&lt;/td&gt;
+    &lt;!-- Salı sütunu rowspan nedeniyle burada boş --&gt;
+    &lt;td&gt;Eğitim&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;11:00 - 12:00&lt;/td&gt;
+    &lt;td colspan="3"&gt;Genel Sunum&lt;/td&gt;
+    &lt;!-- Salı ve Çarşamba sütunları colspan nedeniyle burada boş --&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
                     </code></pre>
                     <p>Bir hücre birleştirildiğinde, kapladığı alandaki diğer hücreler HTML kodundan çıkarılmalıdır.</p>
                  </details>
@@ -565,22 +565,22 @@ function selamVer(isim) {
                 <p>HTML formları, kullanıcılardan veri toplamak (giriş bilgileri, anketler, iletişim mesajları vb.) ve bu verileri sunucuya göndermek için temel mekanizmadır.</p>
 
                 <details class="question-block">
-                    <summary><h3>Form Oluşturma (<code><form></code> Etiketi)</h3></summary>
+                    <summary><h3>Form Oluşturma (<code>&lt;form&gt;</code> Etiketi)</h3></summary>
                     <p>
-                        Tüm form elemanları <code><form></code> etiketi içine alınır. Bu etiket, formun nasıl davranacağını belirleyen önemli niteliklere sahiptir:
+                        Tüm form elemanları <code>&lt;form&gt;</code> etiketi içine alınır. Bu etiket, formun nasıl davranacağını belirleyen önemli niteliklere sahiptir:
                     </p>
                     <ul>
                         <li><strong><code>action</code>:</strong> Form verilerinin gönderileceği sunucu tarafı betiğin (örn: PHP, ASP.NET, Node.js script) URL'sini belirtir. Boş bırakılırsa veya belirtilmezse, form verileri aynı sayfaya gönderilir.</li>
                         <li><strong><code>method</code>:</strong> Verilerin sunucuya nasıl gönderileceğini belirleyen HTTP metodunu tanımlar.
                             <ul>
-                                <li><strong><code>GET</code>:</strong> Form verilerini URL'nin sonuna ekleyerek gönderir (örn: <code>sayfa.php?isim=Ali&yas=30</code>). Kısa, hassas olmayan veriler (arama sorguları gibi) için uygundur. Veri URL'de göründüğü için güvensizdir ve gönderilebilecek veri miktarı sınırlıdır.</li>
+                                <li><strong><code>GET</code>:</strong> Form verilerini URL'nin sonuna ekleyerek gönderir (örn: <code>sayfa.php?isim=Ali&amp;yas=30</code>). Kısa, hassas olmayan veriler (arama sorguları gibi) için uygundur. Veri URL'de göründüğü için güvensizdir ve gönderilebilecek veri miktarı sınırlıdır.</li>
                                 <li><strong><code>POST</code>:</strong> Form verilerini HTTP isteğinin gövdesinde (body) gönderir. URL'de görünmez. Daha güvenlidir ve daha büyük miktarda veri göndermek için uygundur (dosya yükleme, giriş bilgileri vb.).</li>
                             </ul>
                         </li>
                         <li><strong><code>enctype</code> (Encoding Type):</strong> Form verileri sunucuya gönderilmeden önce nasıl kodlanacağını belirtir. Genellikle <code>method="POST"</code> ile kullanılır.
                             <ul>
                                 <li><code>application/x-www-form-urlencoded</code>: Varsayılan değerdir. Boşluklar '+' ile, özel karakterler ASCII HEX değerleri ile değiştirilir.</li>
-                                <li><code>multipart/form-data</code>: Form dosya yükleme (<code><input type="file"></code>) içeriyorsa bu değer kullanılmalıdır. Veriler parçalar halinde gönderilir.</li>
+                                <li><code>multipart/form-data</code>: Form dosya yükleme (<code>&lt;input type="file"&gt;</code>) içeriyorsa bu değer kullanılmalıdır. Veriler parçalar halinde gönderilir.</li>
                                 <li><code>text/plain</code>: Verileri boşlukları '+'ya çevirmeden, basit metin olarak gönderir. Genellikle hata ayıklama dışında kullanılmaz.</li>
                             </ul>
                         </li>
@@ -590,16 +590,16 @@ function selamVer(isim) {
                         <li><strong><code>novalidate</code>:</strong> Form gönderilirken HTML5'in yerleşik doğrulama mekanizmalarını devre dışı bırakır.</li>
                     </ul>
                     <pre><code class="language-html">
-<form action="/kayit-ol" method="post" enctype="multipart/form-data" name="kayitFormu" autocomplete="on">
-  <!-- Form elemanları buraya gelecek -->
-</form>
+&lt;form action="/kayit-ol" method="post" enctype="multipart/form-data" name="kayitFormu" autocomplete="on"&gt;
+  &lt;!-- Form elemanları buraya gelecek --&gt;
+&lt;/form&gt;
                     </code></pre>
                 </details>
 
                 <details class="question-block">
-                    <summary><h3>Giriş Elemanları (<code><input></code>)</h3></summary>
+                    <summary><h3>Giriş Elemanları (<code>&lt;input&gt;</code>)</h3></summary>
                     <p>
-                        <code><input></code> etiketi, formlardaki en yaygın kullanılan elemandır ve <code>type</code> niteliğine göre farklı türlerde veri girişi sağlar. Boş bir etikettir.
+                        <code>&lt;input&gt;</code> etiketi, formlardaki en yaygın kullanılan elemandır ve <code>type</code> niteliğine göre farklı türlerde veri girişi sağlar. Boş bir etikettir.
                     </p>
                     <ul>
                         <li><strong><code>type="text"</code>:</strong> Tek satırlık metin girişi.</li>
@@ -625,7 +625,7 @@ function selamVer(isim) {
                     <ul>
                          <li><strong><code>name</code>:</strong> Alanın adını belirtir. Sunucu tarafında veriyi almak için kullanılır. Form gönderimi için zorunludur (submit, reset, button hariç).</li>
                          <li><strong><code>value</code>:</strong> Alanın başlangıç değerini veya gönderilecek değeri (radio, checkbox, submit, button için) belirtir.</li>
-                         <li><strong><code>id</code>:</strong> Alana benzersiz bir kimlik atar. <code><label></code> etiketi ile ilişkilendirmek ve JavaScript/CSS ile seçmek için kullanılır.</li>
+                         <li><strong><code>id</code>:</strong> Alana benzersiz bir kimlik atar. <code>&lt;label&gt;</code> etiketi ile ilişkilendirmek ve JavaScript/CSS ile seçmek için kullanılır.</li>
                          <li><strong><code>placeholder</code>:</strong> Alan boşken görünen ipucu metnini belirtir. Kullanıcı yazmaya başlayınca kaybolur.</li>
                          <li><strong><code>required</code> (HTML5):</strong> Alanın doldurulmasının zorunlu olduğunu belirtir. Form gönderilmeden önce tarayıcı kontrol yapar.</li>
                          <li><strong><code>readonly</code>:</strong> Alanın değerinin değiştirilemeyeceğini belirtir (ancak formla gönderilir).</li>
@@ -637,43 +637,43 @@ function selamVer(isim) {
                          <li><strong><code>multiple</code> (HTML5):</strong> <code>type="email"</code> veya <code>type="file"</code> için birden fazla değer/dosya seçimine izin verir.</li>
                     </ul>
                     <pre><code class="language-html">
-<input type="text" id="ad" name="kullanici_adi" placeholder="Adınızı girin" required maxlength="50">
-<br>
-<input type="email" id="eposta" name="kullanici_eposta" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-<br>
-<input type="password" id="sifre" name="kullanici_sifre" required minlength="8">
-<br>
-<input type="number" id="yas" name="kullanici_yas" min="18" max="99">
-<br>
-<input type="radio" id="erkek" name="cinsiyet" value="erkek" checked>
-<label for="erkek">Erkek</label>
-<input type="radio" id="kadin" name="cinsiyet" value="kadin">
-<label for="kadin">Kadın</label>
-<br>
-<input type="checkbox" id="kvkk" name="kvkk_onay" value="1" required>
-<label for="kvkk">KVKK metnini okudum, onaylıyorum.</label>
-<br>
-<input type="file" id="cv" name="cv_dosyasi" accept=".pdf,.doc,.docx">
-<br>
-<input type="hidden" name="form_id" value="kayit_formu_123">
-<br>
-<input type="submit" value="Kaydı Tamamla">
-<input type="reset" value="Temizle">
+&lt;input type="text" id="ad" name="kullanici_adi" placeholder="Adınızı girin" required maxlength="50"&gt;
+&lt;br&gt;
+&lt;input type="email" id="eposta" name="kullanici_eposta" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"&gt;
+&lt;br&gt;
+&lt;input type="password" id="sifre" name="kullanici_sifre" required minlength="8"&gt;
+&lt;br&gt;
+&lt;input type="number" id="yas" name="kullanici_yas" min="18" max="99"&gt;
+&lt;br&gt;
+&lt;input type="radio" id="erkek" name="cinsiyet" value="erkek" checked&gt;
+&lt;label for="erkek"&gt;Erkek&lt;/label&gt;
+&lt;input type="radio" id="kadin" name="cinsiyet" value="kadin"&gt;
+&lt;label for="kadin"&gt;Kadın&lt;/label&gt;
+&lt;br&gt;
+&lt;input type="checkbox" id="kvkk" name="kvkk_onay" value="1" required&gt;
+&lt;label for="kvkk"&gt;KVKK metnini okudum, onaylıyorum.&lt;/label&gt;
+&lt;br&gt;
+&lt;input type="file" id="cv" name="cv_dosyasi" accept=".pdf,.doc,.docx"&gt;
+&lt;br&gt;
+&lt;input type="hidden" name="form_id" value="kayit_formu_123"&gt;
+&lt;br&gt;
+&lt;input type="submit" value="Kaydı Tamamla"&gt;
+&lt;input type="reset" value="Temizle"&gt;
                     </code></pre>
                 </details>
 
                 <details class="question-block">
-                    <summary><h3>Diğer Form Elemanları (<code><label></code>, <code><textarea></code>, <code><select></code>, <code><button></code>)</h3></summary>
-                        <li><strong><code><label></code>:</strong> Bir form elemanı (genellikle <code><input></code>) için etiket tanımlar. Erişilebilirlik için çok önemlidir. <code>for</code> niteliği, ilişkilendirildiği form elemanının <code>id</code>'si ile aynı olmalıdır. Etikete tıklandığında ilişkili form elemanı odaklanır (özellikle radio ve checkbox'lar için kullanışlıdır). Alternatif olarak, form elemanını doğrudan <code><label></code> içine alabilirsiniz (bu durumda <code>for</code> ve <code>id</code> gerekmez).</li>
-                        <li><strong><code><textarea></code>:</strong> Çok satırlı metin girişi alanı oluşturur. <code>rows</code> ve <code>cols</code> nitelikleri ile başlangıç boyutu belirlenebilir (CSS ile kontrol etmek daha yaygındır). <code>name</code>, <code>id</code>, <code>required</code>, <code>readonly</code>, <code>disabled</code>, <code>maxlength</code>, <code>placeholder</code> gibi nitelikleri destekler. Kapanış etiketi <code></textarea></code> gereklidir. Başlangıç değeri etiketler arasına yazılır.</li>
-                        <li><strong><code><select></code>:</strong> Açılır liste (dropdown) oluşturur. İçindeki seçenekler <code><option></code> etiketleri ile tanımlanır.
+                    <summary><h3>Diğer Form Elemanları (<code>&lt;label&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;button&gt;</code>)</h3></summary>
+                        <li><strong><code>&lt;label&gt;</code>:</strong> Bir form elemanı (genellikle <code>&lt;input&gt;</code>) için etiket tanımlar. Erişilebilirlik için çok önemlidir. <code>for</code> niteliği, ilişkilendirildiği form elemanının <code>id</code>'si ile aynı olmalıdır. Etikete tıklandığında ilişkili form elemanı odaklanır (özellikle radio ve checkbox'lar için kullanışlıdır). Alternatif olarak, form elemanını doğrudan <code>&lt;label&gt;</code> içine alabilirsiniz (bu durumda <code>for</code> ve <code>id</code> gerekmez).</li>
+                        <li><strong><code>&lt;textarea&gt;</code>:</strong> Çok satırlı metin girişi alanı oluşturur. <code>rows</code> ve <code>cols</code> nitelikleri ile başlangıç boyutu belirlenebilir (CSS ile kontrol etmek daha yaygındır). <code>name</code>, <code>id</code>, <code>required</code>, <code>readonly</code>, <code>disabled</code>, <code>maxlength</code>, <code>placeholder</code> gibi nitelikleri destekler. Kapanış etiketi <code>&lt;/textarea&gt;</code> gereklidir. Başlangıç değeri etiketler arasına yazılır.</li>
+                        <li><strong><code>&lt;select&gt;</code>:</strong> Açılır liste (dropdown) oluşturur. İçindeki seçenekler <code>&lt;option&gt;</code> etiketleri ile tanımlanır.
                             <ul>
-                                <li><strong><code><option></code>:</strong> Listedeki her bir seçeneği temsil eder. <code>value</code> niteliği, seçenek seçildiğinde sunucuya gönderilecek değeri belirtir. Etiketler arasındaki metin kullanıcıya görünen seçenektir. <code>selected</code> niteliği ile varsayılan olarak seçili gelebilir.</li>
-                                <li><strong><code><optgroup></code>:</strong> Uzun listelerdeki seçenekleri gruplamak için kullanılır. <code>label</code> niteliği grup başlığını belirtir. Seçilemez bir öğedir.</li>
+                                <li><strong><code>&lt;option&gt;</code>:</strong> Listedeki her bir seçeneği temsil eder. <code>value</code> niteliği, seçenek seçildiğinde sunucuya gönderilecek değeri belirtir. Etiketler arasındaki metin kullanıcıya görünen seçenektir. <code>selected</code> niteliği ile varsayılan olarak seçili gelebilir.</li>
+                                <li><strong><code>&lt;optgroup&gt;</code>:</strong> Uzun listelerdeki seçenekleri gruplamak için kullanılır. <code>label</code> niteliği grup başlığını belirtir. Seçilemez bir öğedir.</li>
                             </ul>
-                           <code><select></code> etiketi <code>name</code>, <code>id</code>, <code>required</code>, <code>disabled</code> gibi nitelikleri alır. <code>multiple</code> niteliği eklenirse, kullanıcı birden fazla seçenek seçebilir (genellikle Ctrl/Cmd tuşu ile). <code>size</code> niteliği ile aynı anda görünecek seçenek sayısı belirlenebilir.
+                           <code>&lt;select&gt;</code> etiketi <code>name</code>, <code>id</code>, <code>required</code>, <code>disabled</code> gibi nitelikleri alır. <code>multiple</code> niteliği eklenirse, kullanıcı birden fazla seçenek seçebilir (genellikle Ctrl/Cmd tuşu ile). <code>size</code> niteliği ile aynı anda görünecek seçenek sayısı belirlenebilir.
                         </li>
-                        <li><strong><code><button></code>:</strong> Tıklanabilir bir düğme oluşturur. <code><input type="button/submit/reset"></code>'a göre daha esnektir çünkü içine metin dışında HTML içeriği (örn: <code><img></code>, <code><strong></code>) alabilir.
+                        <li><strong><code>&lt;button&gt;</code>:</strong> Tıklanabilir bir düğme oluşturur. <code>&lt;input type="button/submit/reset"&gt;</code>'a göre daha esnektir çünkü içine metin dışında HTML içeriği (örn: <code>&lt;img&gt;</code>, <code>&lt;strong&gt;</code>) alabilir.
                             <ul>
                                 <li><strong><code>type</code> Niteliği:</strong>
                                     <ul>
@@ -686,64 +686,64 @@ function selamVer(isim) {
                                 <li><code>disabled</code> niteliği ile devre dışı bırakılabilir.</li>
                             </ul>
                         </li>
-                         <li><strong><code><fieldset></code> ve <code><legend></code>:</strong> Form içindeki ilgili elemanları gruplamak için kullanılır. <code><fieldset></code> grubu çevreler (genellikle etrafına bir çerçeve çizer), <code><legend></code> ise bu grubun başlığını belirtir (çerçevenin üzerine yerleşir). Erişilebilirlik ve formun okunabilirliği açısından faydalıdır.</li>
-                         <li><strong><code><datalist></code> (HTML5):</strong> Bir <code><input></code> alanı için önceden tanımlanmış seçenekler listesi sunar. Kullanıcı yazmaya başladığında bu listeden öneriler gösterilir, ancak kullanıcı isterse listede olmayan bir değeri de girebilir (<code><select></code>'ten farkı budur). <code><input></code> elemanının <code>list</code> niteliği, <code><datalist></code>'in <code>id</code>'si ile eşleşmelidir. Seçenekler <code><option></code> ile tanımlanır.</li>
-                         <li><strong><code><output></code> (HTML5):</strong> Bir hesaplama veya kullanıcı eyleminin sonucunu göstermek için kullanılır. Genellikle JavaScript ile değeri güncellenir. <code>for</code> niteliği ile hesaplamada kullanılan giriş elemanlarının ID'lerini listeleyebilir. <code>name</code> niteliği de alabilir.</li>
+                         <li><strong><code>&lt;fieldset&gt;</code> ve <code>&lt;legend&gt;</code>:</strong> Form içindeki ilgili elemanları gruplamak için kullanılır. <code>&lt;fieldset&gt;</code> grubu çevreler (genellikle etrafına bir çerçeve çizer), <code>&lt;legend&gt;</code> ise bu grubun başlığını belirtir (çerçevenin üzerine yerleşir). Erişilebilirlik ve formun okunabilirliği açısından faydalıdır.</li>
+                         <li><strong><code>&lt;datalist&gt;</code> (HTML5):</strong> Bir <code>&lt;input&gt;</code> alanı için önceden tanımlanmış seçenekler listesi sunar. Kullanıcı yazmaya başladığında bu listeden öneriler gösterilir, ancak kullanıcı isterse listede olmayan bir değeri de girebilir (<code>&lt;select&gt;</code>'ten farkı budur). <code>&lt;input&gt;</code> elemanının <code>list</code> niteliği, <code>&lt;datalist&gt;</code>'in <code>id</code>'si ile eşleşmelidir. Seçenekler <code>&lt;option&gt;</code> ile tanımlanır.</li>
+                         <li><strong><code>&lt;output&gt;</code> (HTML5):</strong> Bir hesaplama veya kullanıcı eyleminin sonucunu göstermek için kullanılır. Genellikle JavaScript ile değeri güncellenir. <code>for</code> niteliği ile hesaplamada kullanılan giriş elemanlarının ID'lerini listeleyebilir. <code>name</code> niteliği de alabilir.</li>
                     </ul>
                     <pre><code class="language-html">
-<fieldset>
-  <legend>Kişisel Bilgiler</legend>
+&lt;fieldset&gt;
+  &lt;legend&gt;Kişisel Bilgiler&lt;/legend&gt;
 
-  <label for="isim">Adınız:</label>
-  <input type="text" id="isim" name="ad" required>
-  <br><br>
+  &lt;label for="isim"&gt;Adınız:&lt;/label&gt;
+  &lt;input type="text" id="isim" name="ad" required&gt;
+  &lt;br&gt;&lt;br&gt;
 
-  <label>
+  &lt;label&gt;
     Mesajınız:
-    <textarea id="mesaj" name="mesaj_metni" rows="5" cols="30" placeholder="Buraya yazın..."></textarea>
-  </label>
-</fieldset>
+    &lt;textarea id="mesaj" name="mesaj_metni" rows="5" cols="30" placeholder="Buraya yazın..."&gt;&lt;/textarea&gt;
+  &lt;/label&gt;
+&lt;/fieldset&gt;
 
-<fieldset>
-  <legend>Tercihler</legend>
+&lt;fieldset&gt;
+  &lt;legend&gt;Tercihler&lt;/legend&gt;
 
-  <label for="sehir">Şehir:</label>
-  <select id="sehir" name="sehir_kodu" required>
-    <option value="">-- Seçiniz --</option>
-    <optgroup label="Marmara Bölgesi">
-      <option value="34">İstanbul</option>
-      <option value="16">Bursa</option>
-    </optgroup>
-    <optgroup label="Ege Bölgesi">
-      <option value="35" selected>İzmir</option> <!-- Varsayılan -->
-      <option value="09">Aydın</option>
-    </optgroup>
-  </select>
-  <br><br>
+  &lt;label for="sehir"&gt;Şehir:&lt;/label&gt;
+  &lt;select id="sehir" name="sehir_kodu" required&gt;
+    &lt;option value=""&gt;-- Seçiniz --&lt;/option&gt;
+    &lt;optgroup label="Marmara Bölgesi"&gt;
+      &lt;option value="34"&gt;İstanbul&lt;/option&gt;
+      &lt;option value="16"&gt;Bursa&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label="Ege Bölgesi"&gt;
+      &lt;option value="35" selected&gt;İzmir&lt;/option&gt; &lt;!-- Varsayılan --&gt;
+      &lt;option value="09"&gt;Aydın&lt;/option&gt;
+    &lt;/optgroup&gt;
+  &lt;/select&gt;
+  &lt;br&gt;&lt;br&gt;
 
-  <label for="tarayici">Favori Tarayıcı:</label>
-  <input list="tarayicilar" id="tarayici" name="favori_tarayici">
-  <datalist id="tarayicilar">
-    <option value="Chrome">
-    <option value="Firefox">
-    <option value="Edge">
-    <option value="Safari">
-    <option value="Opera">
-  </datalist>
+  &lt;label for="tarayici"&gt;Favori Tarayıcı:&lt;/label&gt;
+  &lt;input list="tarayicilar" id="tarayici" name="favori_tarayici"&gt;
+  &lt;datalist id="tarayicilar"&gt;
+    &lt;option value="Chrome"&gt;
+    &lt;option value="Firefox"&gt;
+    &lt;option value="Edge"&gt;
+    &lt;option value="Safari"&gt;
+    &lt;option value="Opera"&gt;
+  &lt;/datalist&gt;
 
-</fieldset>
+&lt;/fieldset&gt;
 
-<!-- Hesaplama Örneği -->
-<form oninput="sonuc.value=parseInt(a.value)+parseInt(b.value)">
-  <input type="number" id="a" name="a" value="10"> +
-  <input type="number" id="b" name="b" value="20"> =
-  <output name="sonuc" for="a b">30</output>
-</form>
+&lt;!-- Hesaplama Örneği --&gt;
+&lt;form oninput="sonuc.value=parseInt(a.value)+parseInt(b.value)"&gt;
+  &lt;input type="number" id="a" name="a" value="10"&gt; +
+  &lt;input type="number" id="b" name="b" value="20"&gt; =
+  &lt;output name="sonuc" for="a b"&gt;30&lt;/output&gt;
+&lt;/form&gt;
 
-<button type="submit" name="gonder" value="kaydet">
-  <img src="kaydet-ikon.png" alt="" width="16" height="16"> Formu Gönder
-</button>
-<button type="button" onclick="alert('İptal edildi!')">İptal</button>
+&lt;button type="submit" name="gonder" value="kaydet"&gt;
+  &lt;img src="kaydet-ikon.png" alt="" width="16" height="16"&gt; Formu Gönder
+&lt;/button&gt;
+&lt;button type="button" onclick="alert('İptal edildi!')"&gt;İptal&lt;/button&gt;
                     </code></pre>
                 </details>
 
@@ -762,24 +762,24 @@ function selamVer(isim) {
                     <p>
                         Tarayıcı, form gönderilmeye çalışıldığında bu kuralları kontrol eder ve bir hata varsa kullanıcıya varsayılan bir hata mesajı göstererek formu göndermez. Bu varsayılan davranış ve mesajlar CSS ve JavaScript ile özelleştirilebilir (Constraint Validation API).
                     </p>
-                    <p>Doğrulamayı tamamen devre dışı bırakmak için <code><form></code> etiketine <code>novalidate</code> niteliği veya gönder düğmesine <code>formnovalidate</code> niteliği eklenebilir.</p>
+                    <p>Doğrulamayı tamamen devre dışı bırakmak için <code>&lt;form&gt;</code> etiketine <code>novalidate</code> niteliği veya gönder düğmesine <code>formnovalidate</code> niteliği eklenebilir.</p>
                     <pre><code class="language-html">
-<form action="/islem" method="post">
-  <label for="k-adi">Kullanıcı Adı (En az 5 karakter):</label>
-  <input type="text" id="k-adi" name="username" required minlength="5">
-  <br><br>
+&lt;form action="/islem" method="post"&gt;
+  &lt;label for="k-adi"&gt;Kullanıcı Adı (En az 5 karakter):&lt;/label&gt;
+  &lt;input type="text" id="k-adi" name="username" required minlength="5"&gt;
+  &lt;br&gt;&lt;br&gt;
 
-  <label for="posta-kodu">Posta Kodu (5 haneli):</label>
-  <input type="text" id="posta-kodu" name="zipcode" required pattern="\d{5}" title="Lütfen 5 haneli posta kodunu girin.">
-  <br><br>
+  &lt;label for="posta-kodu"&gt;Posta Kodu (5 haneli):&lt;/label&gt;
+  &lt;input type="text" id="posta-kodu" name="zipcode" required pattern="\d{5}" title="Lütfen 5 haneli posta kodunu girin."&gt;
+  &lt;br&gt;&lt;br&gt;
 
-  <label for="onay">18 yaşından büyüğüm:</label>
-  <input type="checkbox" id="onay" name="age_confirm" required>
-  <br><br>
+  &lt;label for="onay"&gt;18 yaşından büyüğüm:&lt;/label&gt;
+  &lt;input type="checkbox" id="onay" name="age_confirm" required&gt;
+  &lt;br&gt;&lt;br&gt;
 
-  <button type="submit">Gönder</button>
-  <button type="submit" formnovalidate>Doğrulamasız Gönder (Test)</button>
-</form>
+  &lt;button type="submit"&gt;Gönder&lt;/button&gt;
+  &lt;button type="submit" formnovalidate&gt;Doğrulamasız Gönder (Test)&lt;/button&gt;
+&lt;/form&gt;
                     </code></pre>
                     <p><strong>Unutmayın:</strong> İstemci tarafı (HTML5/JavaScript) doğrulama kullanıcı deneyimi için harikadır ancak asla tek başına yeterli değildir. Güvenlik ve veri bütünlüğü için sunucu tarafında da mutlaka doğrulama yapılmalıdır, çünkü istemci tarafı doğrulaması kolayca atlatılabilir.</p>
                 </details>
@@ -788,158 +788,158 @@ function selamVer(isim) {
              <section id="semantik" class="content-section">
                 <h2>Semantik HTML: Anlamlı Yapı Kurmak</h2>
                 <p>HTML5 ile birlikte gelen semantik etiketler, web sayfasının farklı bölümlerinin anlamını ve amacını daha açık bir şekilde belirtmek için kullanılır. Bu, hem arama motorlarının (SEO) hem de yardımcı teknolojilerin (ekran okuyucular gibi, erişilebilirlik için) sayfa içeriğini daha iyi anlamasına yardımcı olur. Ayrıca kodun okunabilirliğini ve yönetilebilirliğini artırır.</p>
-                <p><code><div></code> ve <code><span></code> gibi genel amaçlı etiketler yerine, mümkün olduğunda daha spesifik semantik etiketleri kullanmak iyi bir pratiktir.</p>
+                <p><code>&lt;div&gt;</code> ve <code>&lt;span&gt;</code> gibi genel amaçlı etiketler yerine, mümkün olduğunda daha spesifik semantik etiketleri kullanmak iyi bir pratiktir.</p>
 
                 <details class="question-block">
                     <summary><h3>Temel Sayfa Yapısı İçin Semantik Etiketler</h3></summary>
                     <ul>
-                        <li><strong><code><header></code>:</strong> Genellikle sayfanın veya bir bölümün (<code><article></code>, <code><section></code>) başlık bilgilerini içerir. Logo, ana başlık (<code><h1></code>), navigasyon menüsü gibi öğeleri barındırabilir. Bir sayfada birden fazla <code><header></code> olabilir.</li>
-                        <li><strong><code><nav></code> (Navigation):</strong> Ana gezinme bağlantılarını (menüleri) içeren bölümü tanımlar. Genellikle sayfa başlığında (header) veya kenar çubuğunda (sidebar) bulunur. Sitedeki tüm bağlantı grupları için değil, sadece ana navigasyon blokları için kullanılmalıdır.</li>
-                        <li><strong><code><main></code>:</strong> Belgenin veya uygulamanın ana içeriğini temsil eder. Sayfadaki benzersiz, temel içeriği kapsamalıdır. Bir belgede sadece bir tane <code><main></code> etiketi olmalıdır ve <code><article></code>, <code><aside></code>, <code><footer></code>, <code><header></code>, veya <code><nav></code> etiketlerinin içine yerleştirilemez.</li>
-                        <li><strong><code><footer></code>:</strong> Genellikle sayfanın veya bir bölümün alt bilgi kısmını içerir. Telif hakkı bilgileri, yazar bilgisi, ilgili bağlantılar (gizlilik politikası, kullanım koşulları), iletişim bilgileri gibi öğeleri barındırabilir. Bir sayfada birden fazla <code><footer></code> olabilir.</li>
-                        <li><strong><code><aside></code>:</strong> Ana içerikle dolaylı olarak ilgili olan içeriği temsil eder. Kenar çubukları (sidebar), reklamlar, ilgili yazılar listesi, yazar biyografisi gibi içerikler için kullanılır.</li>
+                        <li><strong><code>&lt;header&gt;</code>:</strong> Genellikle sayfanın veya bir bölümün (<code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>) başlık bilgilerini içerir. Logo, ana başlık (<code>&lt;h1&gt;</code>), navigasyon menüsü gibi öğeleri barındırabilir. Bir sayfada birden fazla <code>&lt;header&gt;</code> olabilir.</li>
+                        <li><strong><code>&lt;nav&gt;</code> (Navigation):</strong> Ana gezinme bağlantılarını (menüleri) içeren bölümü tanımlar. Genellikle sayfa başlığında (header) veya kenar çubuğunda (sidebar) bulunur. Sitedeki tüm bağlantı grupları için değil, sadece ana navigasyon blokları için kullanılmalıdır.</li>
+                        <li><strong><code>&lt;main&gt;</code>:</strong> Belgenin veya uygulamanın ana içeriğini temsil eder. Sayfadaki benzersiz, temel içeriği kapsamalıdır. Bir belgede sadece bir tane <code>&lt;main&gt;</code> etiketi olmalıdır ve <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;header&gt;</code>, veya <code>&lt;nav&gt;</code> etiketlerinin içine yerleştirilemez.</li>
+                        <li><strong><code>&lt;footer&gt;</code>:</strong> Genellikle sayfanın veya bir bölümün alt bilgi kısmını içerir. Telif hakkı bilgileri, yazar bilgisi, ilgili bağlantılar (gizlilik politikası, kullanım koşulları), iletişim bilgileri gibi öğeleri barındırabilir. Bir sayfada birden fazla <code>&lt;footer&gt;</code> olabilir.</li>
+                        <li><strong><code>&lt;aside&gt;</code>:</strong> Ana içerikle dolaylı olarak ilgili olan içeriği temsil eder. Kenar çubukları (sidebar), reklamlar, ilgili yazılar listesi, yazar biyografisi gibi içerikler için kullanılır.</li>
                     </ul>
                      <pre><code class="language-html">
-<body>
-  <header>
-    <img src="logo.png" alt="Site Logosu">
-    <nav>
-      <ul>
-        <li><a href="/">Ana Sayfa</a></li>
-        <li><a href="/hakkimizda">Hakkımızda</a></li>
-        <li><a href="/iletisim">İletişim</a></li>
-      </ul>
-    </nav>
-    <h1>Sayfanın Ana Başlığı</h1>
-  </header>
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;img src="logo.png" alt="Site Logosu"&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/"&gt;Ana Sayfa&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/hakkimizda"&gt;Hakkımızda&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/iletisim"&gt;İletişim&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;h1&gt;Sayfanın Ana Başlığı&lt;/h1&gt;
+  &lt;/header&gt;
 
-  <main>
-    <h2>Ana İçerik Başlığı</h2>
-    <p>Sayfanın temel içeriği burada yer alır...</p>
-    <!-- Diğer article, section vb. etiketler burada olabilir -->
-  </main>
+  &lt;main&gt;
+    &lt;h2&gt;Ana İçerik Başlığı&lt;/h2&gt;
+    &lt;p&gt;Sayfanın temel içeriği burada yer alır...&lt;/p&gt;
+    &lt;!-- Diğer article, section vb. etiketler burada olabilir --&gt;
+  &lt;/main&gt;
 
-  <aside>
-    <h3>Kenar Çubuğu</h3>
-    <p>İlgili bağlantılar veya reklamlar.</p>
-    <nav>
-      <h4>Arşiv</h4>
-      <ul>
-        <li><a href="/arsiv/2024">2024</a></li>
-        <li><a href="/arsiv/2023">2023</a></li>
-      </ul>
-    </nav>
-  </aside>
+  &lt;aside&gt;
+    &lt;h3&gt;Kenar Çubuğu&lt;/h3&gt;
+    &lt;p&gt;İlgili bağlantılar veya reklamlar.&lt;/p&gt;
+    &lt;nav&gt;
+      &lt;h4&gt;Arşiv&lt;/h4&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/arsiv/2024"&gt;2024&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/arsiv/2023"&gt;2023&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/aside&gt;
 
-  <footer>
-    <p>Telif Hakkı © 2024 Site Adı. Tüm hakları saklıdır.</p>
-    <nav>
-      <ul>
-        <li><a href="/gizlilik">Gizlilik Politikası</a></li>
-        <li><a href="/kullanim">Kullanım Koşulları</a></li>
-      </ul>
-    </nav>
-  </footer>
-</body>
+  &lt;footer&gt;
+    &lt;p&gt;Telif Hakkı © 2024 Site Adı. Tüm hakları saklıdır.&lt;/p&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/gizlilik"&gt;Gizlilik Politikası&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/kullanim"&gt;Kullanım Koşulları&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
                     </code></pre>
                 </details>
 
                 <details class="question-block">
-                    <summary><h3>İçerik Bölümlendirme Etiketleri (<code><article></code> ve <code><section></code>)</h3></summary>
+                    <summary><h3>İçerik Bölümlendirme Etiketleri (<code>&lt;article&gt;</code> ve <code>&lt;section&gt;</code>)</h3></summary>
                     <ul>
-                        <li><strong><code><article></code>:</strong> Sayfa içinde bağımsız, kendi kendine yetebilen ve potansiyel olarak yeniden dağıtılabilir (syndication) bir içerik parçasını temsil eder. Forum gönderisi, blog yazısı, gazete makalesi, kullanıcı yorumu gibi içerikler için uygundur. Genellikle kendi başlığını (<code><h2></code>-<code><h6></code>) içerir. <code><article></code>'lar iç içe olabilir (örn: yorumlar içeren bir blog yazısı).</li>
-                        <li><strong><code><section></code>:</strong> Belge veya uygulama içinde genel, tematik bir bölümü temsil eder. Genellikle bir başlık (<code><h2></code>-<code><h6></code>) içerir. <code><article></code>'dan farkı, içeriğin bağımsız olarak anlamlı olmasının gerekmemesidir. Bir sayfanın "Giriş", "Özellikler", "İletişim Bilgileri" gibi mantıksal bölümlerini gruplamak için kullanılır. Eğer daha spesifik bir semantik etiket (<code><nav></code>, <code><aside></code>, <code><article></code>) uygun değilse ve içerik gruplanmaya ihtiyaç duyuyorsa <code><section></code> kullanılabilir. Sadece stil amacıyla gruplama yapmak için <code><div></code> daha uygundur.</li>
+                        <li><strong><code>&lt;article&gt;</code>:</strong> Sayfa içinde bağımsız, kendi kendine yetebilen ve potansiyel olarak yeniden dağıtılabilir (syndication) bir içerik parçasını temsil eder. Forum gönderisi, blog yazısı, gazete makalesi, kullanıcı yorumu gibi içerikler için uygundur. Genellikle kendi başlığını (<code>&lt;h2&gt;</code>-<code>&lt;h6&gt;</code>) içerir. <code>&lt;article&gt;</code>'lar iç içe olabilir (örn: yorumlar içeren bir blog yazısı).</li>
+                        <li><strong><code>&lt;section&gt;</code>:</strong> Belge veya uygulama içinde genel, tematik bir bölümü temsil eder. Genellikle bir başlık (<code>&lt;h2&gt;</code>-<code>&lt;h6&gt;</code>) içerir. <code>&lt;article&gt;</code>'dan farkı, içeriğin bağımsız olarak anlamlı olmasının gerekmemesidir. Bir sayfanın "Giriş", "Özellikler", "İletişim Bilgileri" gibi mantıksal bölümlerini gruplamak için kullanılır. Eğer daha spesifik bir semantik etiket (<code>&lt;nav&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;article&gt;</code>) uygun değilse ve içerik gruplanmaya ihtiyaç duyuyorsa <code>&lt;section&gt;</code> kullanılabilir. Sadece stil amacıyla gruplama yapmak için <code>&lt;div&gt;</code> daha uygundur.</li>
                     </ul>
                     <p><strong>Ne zaman hangisini kullanmalı?</strong></p>
                     <ul>
-                        <li>İçerik tek başına mantıklı ve başka bir yerde (örn: RSS akışı) yayınlanabilir mi? Evet ise <code><article></code>.</li>
-                        <li>İçerik belgenin ana hatlarında (outline) mantıksal bir bölüm mü oluşturuyor ve genellikle bir başlığı var mı? Evet ise <code><section></code>.</li>
-                        <li>Sadece stil veya script amacıyla bir gruplamaya mı ihtiyaç var? Evet ise <code><div></code>.</li>
+                        <li>İçerik tek başına mantıklı ve başka bir yerde (örn: RSS akışı) yayınlanabilir mi? Evet ise <code>&lt;article&gt;</code>.</li>
+                        <li>İçerik belgenin ana hatlarında (outline) mantıksal bir bölüm mü oluşturuyor ve genellikle bir başlığı var mı? Evet ise <code>&lt;section&gt;</code>.</li>
+                        <li>Sadece stil veya script amacıyla bir gruplamaya mı ihtiyaç var? Evet ise <code>&lt;div&gt;</code>.</li>
                     </ul>
                     <pre><code class="language-html">
-<main>
-  <article>
-    <header>
-      <h2>Blog Yazısı Başlığı</h2>
-      <p>Yayınlanma Tarihi: <time datetime="2024-03-15">15 Mart 2024</time></p>
-    </header>
-    <p>Blog yazısının içeriği...</p>
+&lt;main&gt;
+  &lt;article&gt;
+    &lt;header&gt;
+      &lt;h2&gt;Blog Yazısı Başlığı&lt;/h2&gt;
+      &lt;p&gt;Yayınlanma Tarihi: &lt;time datetime="2024-03-15"&gt;15 Mart 2024&lt;/time&gt;&lt;/p&gt;
+    &lt;/header&gt;
+    &lt;p&gt;Blog yazısının içeriği...&lt;/p&gt;
 
-    <section id="yorumlar">
-      <h3>Yorumlar</h3>
-      <article class="yorum">
-        <header>
-          <h4>Yorumcu Adı</h4>
-          <time datetime="2024-03-15T10:30">15 Mart 2024, 10:30</time>
-        </header>
-        <p>Bu harika bir yazı!</p>
-      </article>
-      <article class="yorum">
-        <!-- Başka bir yorum -->
-      </article>
-    </section>
+    &lt;section id="yorumlar"&gt;
+      &lt;h3&gt;Yorumlar&lt;/h3&gt;
+      &lt;article class="yorum"&gt;
+        &lt;header&gt;
+          &lt;h4&gt;Yorumcu Adı&lt;/h4&gt;
+          &lt;time datetime="2024-03-15T10:30"&gt;15 Mart 2024, 10:30&lt;/time&gt;
+        &lt;/header&gt;
+        &lt;p&gt;Bu harika bir yazı!&lt;/p&gt;
+      &lt;/article&gt;
+      &lt;article class="yorum"&gt;
+        &lt;!-- Başka bir yorum --&gt;
+      &lt;/article&gt;
+    &lt;/section&gt;
 
-    <footer>
-       <p>Kategori: Web Geliştirme</p>
-    </footer>
-  </article>
+    &lt;footer&gt;
+       &lt;p&gt;Kategori: Web Geliştirme&lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/article&gt;
 
-  <section>
-      <h2>Hizmetlerimiz</h2>
-      <p>Sunduğumuz hizmetler hakkında genel bilgi...</p>
-      <ul>
-          <li>Web Tasarım</li>
-          <li>Yazılım Geliştirme</li>
-      </ul>
-  </section>
-</main>
+  &lt;section&gt;
+      &lt;h2&gt;Hizmetlerimiz&lt;/h2&gt;
+      &lt;p&gt;Sunduğumuz hizmetler hakkında genel bilgi...&lt;/p&gt;
+      &lt;ul&gt;
+          &lt;li&gt;Web Tasarım&lt;/li&gt;
+          &lt;li&gt;Yazılım Geliştirme&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
                     </code></pre>
                 </details>
 
                 <details class="question-block">
-                    <summary><h3>Diğer Semantik Etiketler (<code><figure></code>, <code><figcaption></code>, <code><time></code>, <code><mark></code>)</h3></summary>
+                    <summary><h3>Diğer Semantik Etiketler (<code>&lt;figure&gt;</code>, <code>&lt;figcaption&gt;</code>, <code>&lt;time&gt;</code>, <code>&lt;mark&gt;</code>)</h3></summary>
                     <ul>
-                        <li><strong><code><figure></code>:</strong> Genellikle bir resim, illüstrasyon, diyagram, kod örneği veya alıntı gibi kendi kendine yeten bir içerik birimini temsil eder. Belgenin ana akışından referans verilebilir ve ana akıştan bağımsız olarak taşınabilir (örn: sayfanın yanına, sonuna).</li>
-                        <li><strong><code><figcaption></code>:</strong> <code><figure></code> elemanının başlığını veya açıklamasını sağlar. <code><figure></code> içinde ilk veya son eleman olarak yerleştirilebilir.</li>
-                        <li><strong><code><time></code>:</strong> Daha önce bahsedildiği gibi, belirli bir zamanı veya tarih/saat aralığını temsil eder. <code>datetime</code> niteliği makine tarafından okunabilir formatı içerir.</li>
-                        <li><strong><code><mark></code>:</strong> Metnin bir bölümünü, okuyucunun dikkatinin çekilmesi gereken bir referans veya işaretleme amacıyla vurgular (sarı arka plan gibi). Önem (<code><strong></code>) veya vurgu (<code><em></code>) belirtmez.</li>
-                        <li><strong><code><details></code> ve <code><summary></code>:</strong> Kullanıcının isteğe bağlı olarak görüntüleyebileceği veya gizleyebileceği ek detaylar veya içerik oluşturur (bu rehberde sıkça kullanıldığı gibi). <code><summary></code> her zaman görünen başlığı veya etiketi içerir. Tıklandığında <code><details></code> içindeki diğer içerik görünür/gizlenir.</li>
-                        <li><strong><code><address></code>:</strong> Belgenin veya bir <code><article></code>'ın yazarı/sahibi için iletişim bilgilerini (isim, adres, e-posta, telefon, sosyal medya bağlantıları vb.) içerir. Genellikle <code><footer></code> içinde kullanılır.</li>
+                        <li><strong><code>&lt;figure&gt;</code>:</strong> Genellikle bir resim, illüstrasyon, diyagram, kod örneği veya alıntı gibi kendi kendine yeten bir içerik birimini temsil eder. Belgenin ana akışından referans verilebilir ve ana akıştan bağımsız olarak taşınabilir (örn: sayfanın yanına, sonuna).</li>
+                        <li><strong><code>&lt;figcaption&gt;</code>:</strong> <code>&lt;figure&gt;</code> elemanının başlığını veya açıklamasını sağlar. <code>&lt;figure&gt;</code> içinde ilk veya son eleman olarak yerleştirilebilir.</li>
+                        <li><strong><code>&lt;time&gt;</code>:</strong> Daha önce bahsedildiği gibi, belirli bir zamanı veya tarih/saat aralığını temsil eder. <code>datetime</code> niteliği makine tarafından okunabilir formatı içerir.</li>
+                        <li><strong><code>&lt;mark&gt;</code>:</strong> Metnin bir bölümünü, okuyucunun dikkatinin çekilmesi gereken bir referans veya işaretleme amacıyla vurgular (sarı arka plan gibi). Önem (<code>&lt;strong&gt;</code>) veya vurgu (<code>&lt;em&gt;</code>) belirtmez.</li>
+                        <li><strong><code>&lt;details&gt;</code> ve <code>&lt;summary&gt;</code>:</strong> Kullanıcının isteğe bağlı olarak görüntüleyebileceği veya gizleyebileceği ek detaylar veya içerik oluşturur (bu rehberde sıkça kullanıldığı gibi). <code>&lt;summary&gt;</code> her zaman görünen başlığı veya etiketi içerir. Tıklandığında <code>&lt;details&gt;</code> içindeki diğer içerik görünür/gizlenir.</li>
+                        <li><strong><code>&lt;address&gt;</code>:</strong> Belgenin veya bir <code>&lt;article&gt;</code>'ın yazarı/sahibi için iletişim bilgilerini (isim, adres, e-posta, telefon, sosyal medya bağlantıları vb.) içerir. Genellikle <code>&lt;footer&gt;</code> içinde kullanılır.</li>
                     </ul>
                      <pre><code class="language-html">
-<figure>
-  <img src="grafik.png" alt="Aylık Büyüme Grafiği">
-  <figcaption>Şekil 1: Son 6 ayın aylık büyüme oranları.</figcaption>
-</figure>
+&lt;figure&gt;
+  &lt;img src="grafik.png" alt="Aylık Büyüme Grafiği"&gt;
+  &lt;figcaption&gt;Şekil 1: Son 6 ayın aylık büyüme oranları.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-<p>Proje <time datetime="2025-01-15">15 Ocak 2025</time> tarihinde tamamlanacak.</p>
+&lt;p&gt;Proje &lt;time datetime="2025-01-15"&gt;15 Ocak 2025&lt;/time&gt; tarihinde tamamlanacak.&lt;/p&gt;
 
-<p>Arama sonuçlarında ilgili terimler <mark>vurgulanmıştır</mark>.</p>
+&lt;p&gt;Arama sonuçlarında ilgili terimler &lt;mark&gt;vurgulanmıştır&lt;/mark&gt;.&lt;/p&gt;
 
-<details>
-  <summary>Teknik Detayları Göster</summary>
-  <p>Burada sadece ilgilenenlerin görmesi gereken teknik detaylar yer alır...</p>
-</details>
+&lt;details&gt;
+  &lt;summary&gt;Teknik Detayları Göster&lt;/summary&gt;
+  &lt;p&gt;Burada sadece ilgilenenlerin görmesi gereken teknik detaylar yer alır...&lt;/p&gt;
+&lt;/details&gt;
 
-<footer>
-  <address>
-    Yazar: Abdulkadir Güngör<br>
-    İletişim: <a href="mailto:abdulkadirgungor.86@outlook.com">abdulkadirgungor.86@outlook.com</a><br>
-    Web: <a href="https://abdulkadirgungor86.github.io/">abdulkadirgungor86.github.io</a>
-  </address>
-</footer>
+&lt;footer&gt;
+  &lt;address&gt;
+    Yazar: Abdulkadir Güngör&lt;br&gt;
+    İletişim: &lt;a href="mailto:abdulkadirgungor.86@outlook.com"&gt;abdulkadirgungor.86@outlook.com&lt;/a&gt;&lt;br&gt;
+    Web: &lt;a href="https://abdulkadirgungor86.github.io/"&gt;abdulkadirgungor86.github.io&lt;/a&gt;
+  &lt;/address&gt;
+&lt;/footer&gt;
                     </code></pre>
                 </details>
             </section>
 
              <section id="multimedya" class="content-section">
                 <h2>HTML5 ile Multimedya: Ses ve Video</h2>
-                <p>HTML5, harici eklentilere (Flash gibi) ihtiyaç duymadan web sayfalarına doğrudan ses ve video içeriği eklemeyi sağlayan <code><audio></code> ve <code><video></code> etiketlerini tanıttı.</p>
+                <p>HTML5, harici eklentilere (Flash gibi) ihtiyaç duymadan web sayfalarına doğrudan ses ve video içeriği eklemeyi sağlayan <code>&lt;audio&gt;</code> ve <code>&lt;video&gt;</code> etiketlerini tanıttı.</p>
 
                 <details class="question-block">
-                    <summary><h3>Ses Ekleme (<code><audio></code> Etiketi)</h3></summary>
+                    <summary><h3>Ses Ekleme (<code>&lt;audio&gt;</code> Etiketi)</h3></summary>
                     <p>
-                        <code><audio></code> etiketi, ses dosyalarını çalmak için kullanılır.
+                        <code>&lt;audio&gt;</code> etiketi, ses dosyalarını çalmak için kullanılır.
                     </p>
                     <ul>
                         <li><strong><code>src</code> Niteliği:</strong> Çalınacak ses dosyasının yolunu belirtir.</li>
@@ -955,64 +955,64 @@ function selamVer(isim) {
                             </ul>
                         </li>
                     </ul>
-                     <p><strong>Farklı Format Desteği (<code><source></code>):</strong> Tüm tarayıcılar aynı ses formatlarını desteklemez (yaygın formatlar: MP3, Ogg Vorbis, WAV). Farklı formatlarda aynı ses dosyasını sunarak tarayıcı uyumluluğunu artırmak için <code><audio></code> içine birden fazla <code><source></code> etiketi eklenir. Tarayıcı desteklediği ilk <code><source></code>'u kullanır. <code><source></code> etiketi <code>src</code> ve <code>type</code> (MIME türü, örn: <code>audio/mpeg</code>, <code>audio/ogg</code>) niteliklerini alır.</p>
-                     <p><code><audio></code> etiketleri arasına, tarayıcının ses etiketini hiç desteklemediği durumlar için bir fallback metni veya bağlantı eklenebilir.</p>
+                     <p><strong>Farklı Format Desteği (<code>&lt;source&gt;</code>):</strong> Tüm tarayıcılar aynı ses formatlarını desteklemez (yaygın formatlar: MP3, Ogg Vorbis, WAV). Farklı formatlarda aynı ses dosyasını sunarak tarayıcı uyumluluğunu artırmak için <code>&lt;audio&gt;</code> içine birden fazla <code>&lt;source&gt;</code> etiketi eklenir. Tarayıcı desteklediği ilk <code>&lt;source&gt;</code>'u kullanır. <code>&lt;source&gt;</code> etiketi <code>src</code> ve <code>type</code> (MIME türü, örn: <code>audio/mpeg</code>, <code>audio/ogg</code>) niteliklerini alır.</p>
+                     <p><code>&lt;audio&gt;</code> etiketleri arasına, tarayıcının ses etiketini hiç desteklemediği durumlar için bir fallback metni veya bağlantı eklenebilir.</p>
                     <pre><code class="language-html">
-<!-- Basit Ses Oynatıcı -->
-<audio controls src="muzik.mp3">
+&lt;!-- Basit Ses Oynatıcı --&gt;
+&lt;audio controls src="muzik.mp3"&gt;
   Tarayıcınız audio etiketini desteklemiyor.
-  <a href="muzik.mp3">Müziği İndir</a>
-</audio>
+  &lt;a href="muzik.mp3"&gt;Müziği İndir&lt;/a&gt;
+&lt;/audio&gt;
 
-<br><br>
+&lt;br&gt;&lt;br&gt;
 
-<!-- Farklı Formatlarla ve Otomatik Oynatma (Sessiz) -->
-<audio controls autoplay muted loop preload="auto">
-  <source src="bildirim.ogg" type="audio/ogg">
-  <source src="bildirim.mp3" type="audio/mpeg">
+&lt;!-- Farklı Formatlarla ve Otomatik Oynatma (Sessiz) --&gt;
+&lt;audio controls autoplay muted loop preload="auto"&gt;
+  &lt;source src="bildirim.ogg" type="audio/ogg"&gt;
+  &lt;source src="bildirim.mp3" type="audio/mpeg"&gt;
   Tarayıcınız audio etiketini desteklemiyor.
-</audio>
+&lt;/audio&gt;
                     </code></pre>
                 </details>
 
                 <details class="question-block">
-                    <summary><h3>Video Ekleme (<code><video></code> Etiketi)</h3></summary>
+                    <summary><h3>Video Ekleme (<code>&lt;video&gt;</code> Etiketi)</h3></summary>
                     <p>
-                        <code><video></code> etiketi, web sayfalarına video içeriği gömmek için kullanılır. <code><audio></code> etiketiyle aynı temel niteliklerin çoğunu paylaşır: <code>src</code>, <code>controls</code>, <code>autoplay</code>, <code>loop</code>, <code>muted</code>, <code>preload</code>.
+                        <code>&lt;video&gt;</code> etiketi, web sayfalarına video içeriği gömmek için kullanılır. <code>&lt;audio&gt;</code> etiketiyle aynı temel niteliklerin çoğunu paylaşır: <code>src</code>, <code>controls</code>, <code>autoplay</code>, <code>loop</code>, <code>muted</code>, <code>preload</code>.
                     </p>
                     <p>Ek olarak şu nitelikler önemlidir:</p>
                     <ul>
                         <li><strong><code>width</code> ve <code>height</code>:</strong> Video oynatıcının boyutlarını piksel cinsinden belirler. CSS ile boyutlandırmak daha esnektir.</li>
                         <li><strong><code>poster</code>:</strong> Video yüklenmeden veya kullanıcı oynat tuşuna basmadan önce gösterilecek bir resmin (kapak resmi) URL'sini belirtir.</li>
                     </ul>
-                     <p><strong>Farklı Format Desteği (<code><source></code>):</strong> Ses gibi, videolar için de tarayıcı uyumluluğu önemlidir (yaygın formatlar: MP4 (H.264 codec ile), WebM (VP8/VP9 codec ile), Ogg Theora). Farklı formatları <code><source></code> etiketleri ile sunmak en iyi yaklaşımdır. <code>type</code> niteliği MIME türünü ve bazen codec bilgisini içerir (örn: <code>video/mp4; codecs="avc1.42E01E, mp4a.40.2"</code>).</p>
+                     <p><strong>Farklı Format Desteği (<code>&lt;source&gt;</code>):</strong> Ses gibi, videolar için de tarayıcı uyumluluğu önemlidir (yaygın formatlar: MP4 (H.264 codec ile), WebM (VP8/VP9 codec ile), Ogg Theora). Farklı formatları <code>&lt;source&gt;</code> etiketleri ile sunmak en iyi yaklaşımdır. <code>type</code> niteliği MIME türünü ve bazen codec bilgisini içerir (örn: <code>video/mp4; codecs="avc1.42E01E, mp4a.40.2"</code>).</p>
                      <p>Yine, desteklenmeyen tarayıcılar için fallback içeriği etiketler arasına eklenebilir.</p>
                      <pre><code class="language-html">
-<!-- Basit Video Oynatıcı -->
-<video controls width="640" height="360" poster="video-kapak.jpg" preload="metadata">
-  <source src="tanitim.mp4" type="video/mp4">
-  <source src="tanitim.webm" type="video/webm">
-  <source src="tanitim.ogv" type="video/ogg">
+&lt;!-- Basit Video Oynatıcı --&gt;
+&lt;video controls width="640" height="360" poster="video-kapak.jpg" preload="metadata"&gt;
+  &lt;source src="tanitim.mp4" type="video/mp4"&gt;
+  &lt;source src="tanitim.webm" type="video/webm"&gt;
+  &lt;source src="tanitim.ogv" type="video/ogg"&gt;
   Tarayıcınız video etiketini desteklemiyor veya sağlanan formatları oynatamıyor.
-  <a href="tanitim.mp4">Videoyu İndir (MP4)</a>
-</video>
+  &lt;a href="tanitim.mp4"&gt;Videoyu İndir (MP4)&lt;/a&gt;
+&lt;/video&gt;
 
-<br><br>
+&lt;br&gt;&lt;br&gt;
 
-<!-- Otomatik Oynayan, Sessiz, Döngüde Arka Plan Videosu (Kontrolsüz) -->
-<video autoplay muted loop playsinline width="100%" height="auto" poster="arka-plan-kapak.jpg">
-  <!-- playsinline mobil cihazlarda tam ekran olmadan oynatmayı deneyebilir -->
-  <source src="arka-plan.mp4" type="video/mp4">
-  <source src="arka-plan.webm" type="video/webm">
+&lt;!-- Otomatik Oynayan, Sessiz, Döngüde Arka Plan Videosu (Kontrolsüz) --&gt;
+&lt;video autoplay muted loop playsinline width="100%" height="auto" poster="arka-plan-kapak.jpg"&gt;
+  &lt;!-- playsinline mobil cihazlarda tam ekran olmadan oynatmayı deneyebilir --&gt;
+  &lt;source src="arka-plan.mp4" type="video/mp4"&gt;
+  &lt;source src="arka-plan.webm" type="video/webm"&gt;
   Tarayıcınız video etiketini desteklemiyor.
-</video>
+&lt;/video&gt;
                     </code></pre>
                 </details>
 
                  <details class="question-block">
-                    <summary><h3>Altyazı ve Açıklama Eklemek (<code><track></code> Etiketi)</h3></summary>
+                    <summary><h3>Altyazı ve Açıklama Eklemek (<code>&lt;track&gt;</code> Etiketi)</h3></summary>
                     <p>
-                        <code><track></code> etiketi, <code><audio></code> veya <code><video></code> elemanları için zamanlanmış metin parçaları (altyazılar, başlıklar, açıklamalar, bölümler) eklemek için kullanılır. Erişilebilirlik (işitme engelliler için) ve farklı dillerde içerik sunmak için çok önemlidir.
+                        <code>&lt;track&gt;</code> etiketi, <code>&lt;audio&gt;</code> veya <code>&lt;video&gt;</code> elemanları için zamanlanmış metin parçaları (altyazılar, başlıklar, açıklamalar, bölümler) eklemek için kullanılır. Erişilebilirlik (işitme engelliler için) ve farklı dillerde içerik sunmak için çok önemlidir.
                     </p>
                     <ul>
                         <li><strong><code>kind</code> Niteliği:</strong> Metin parçasının türünü belirtir:
@@ -1030,18 +1030,18 @@ function selamVer(isim) {
                         <li><strong><code>default</code> Niteliği:</strong> Kullanıcı başka bir tercih yapmazsa varsayılan olarak etkinleştirilecek metin parçasını işaretler. Her <code>kind</code> için sadece bir <code>track</code> <code>default</code> olabilir.</li>
                     </ul>
                      <pre><code class="language-html">
-<video controls poster="film-kapak.jpg">
-  <source src="film.mp4" type="video/mp4">
-  <source src="film.webm" type="video/webm">
-  <!-- Altyazılar ve Açıklamalar -->
-  <track kind="subtitles" src="altyazi_tr.vtt" srclang="tr" label="Türkçe">
-  <track kind="subtitles" src="altyazi_en.vtt" srclang="en" label="English" default>
-  <track kind="captions" src="aciklama_en.vtt" srclang="en" label="English Captions">
-  <track kind="descriptions" src="betimleme_en.vtt" srclang="en" label="Audio Descriptions">
-  <track kind="chapters" src="bolumler_en.vtt" srclang="en" label="Chapters">
-  <!-- Fallback -->
+&lt;video controls poster="film-kapak.jpg"&gt;
+  &lt;source src="film.mp4" type="video/mp4"&gt;
+  &lt;source src="film.webm" type="video/webm"&gt;
+  &lt;!-- Altyazılar ve Açıklamalar --&gt;
+  &lt;track kind="subtitles" src="altyazi_tr.vtt" srclang="tr" label="Türkçe"&gt;
+  &lt;track kind="subtitles" src="altyazi_en.vtt" srclang="en" label="English" default&gt;
+  &lt;track kind="captions" src="aciklama_en.vtt" srclang="en" label="English Captions"&gt;
+  &lt;track kind="descriptions" src="betimleme_en.vtt" srclang="en" label="Audio Descriptions"&gt;
+  &lt;track kind="chapters" src="bolumler_en.vtt" srclang="en" label="Chapters"&gt;
+  &lt;!-- Fallback --&gt;
   Tarayıcınız video etiketini desteklemiyor.
-</video>
+&lt;/video&gt;
                     </code></pre>
                     <p>WebVTT (.vtt) dosyaları, zaman damgaları ile birlikte metinleri içeren basit metin dosyalarıdır.</p>
                  </details>
@@ -1061,11 +1061,11 @@ function selamVer(isim) {
                     </ul>
                     <p>Bu görev ayrımını korumak önemlidir:</p>
                     <ul>
-                        <li><strong>HTML'i sadece yapı için kullanın:</strong> Görsel biçimlendirme için HTML nitelikleri (örn: <code><font></code>, <code>bgcolor</code>, <code>align</code> - çoğu artık geçersizdir) veya gereksiz <code><br></code> etiketleri yerine CSS kullanın.</li>
+                        <li><strong>HTML'i sadece yapı için kullanın:</strong> Görsel biçimlendirme için HTML nitelikleri (örn: <code>&lt;font&gt;</code>, <code>bgcolor</code>, <code>align</code> - çoğu artık geçersizdir) veya gereksiz <code>&lt;br&gt;</code> etiketleri yerine CSS kullanın.</li>
                         <li><strong>CSS'i sadece sunum için kullanın:</strong> İçerik eklemek (CSS <code>content</code> özelliği dikkatli kullanılmalı) veya önemli yapısal bilgileri sadece CSS ile belirtmekten kaçının.</li>
                         <li><strong>JavaScript'i davranış için kullanın:</strong> HTML yapısını veya temel CSS stillerini tamamen JavaScript ile oluşturmaktan kaçının (performans ve erişilebilirlik sorunları olabilir).</li>
                     </ul>
-                    <p>CSS dosyaları <code><link rel="stylesheet" href="stiller.css"></code> ile, JavaScript dosyaları ise genellikle <code><body></code> kapanmadan önce <code><script src="script.js"></script></code> ile HTML'e dahil edilir.</p>
+                    <p>CSS dosyaları <code>&lt;link rel="stylesheet" href="stiller.css"&gt;</code> ile, JavaScript dosyaları ise genellikle <code>&lt;body&gt;</code> kapanmadan önce <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code> ile HTML'e dahil edilir.</p>
                 </details>
 
                  <details class="question-block">
@@ -1087,20 +1087,20 @@ function selamVer(isim) {
                  <details class="question-block">
                     <summary><h3>HTML En İyi Uygulamaları (Best Practices)</h3></summary>
                     <ul>
-                        <li><strong>Doğru DOCTYPE Kullanın:</strong> Her zaman belgenin başına <code><!DOCTYPE html></code> ekleyerek HTML5 modunu etkinleştirin.</li>
-                        <li><strong>Anlamlı (Semantik) Etiketler Kullanın:</strong> <code><div></code> ve <code><span></code> yerine mümkün olduğunda <code><header></code>, <code><nav></code>, <code><main></code>, <code><article></code>, <code><section></code>, <code><footer></code>, <code><aside></code> gibi etiketleri tercih edin.</li>
-                        <li><strong>Mantıklı Başlık Hiyerarşisi Kurun:</strong> <code><h1></code>-<code><h6></code> etiketlerini içeriğin yapısını yansıtacak şekilde, atlama yapmadan kullanın (örn: <code><h1></code>'den sonra <code><h3></code> gelmemeli). Sayfada genellikle tek bir <code><h1></code> olmalıdır.</li>
-                        <li><strong><code>alt</code> Niteliğini Her Zaman Kullanın:</strong> Tüm <code><img></code> etiketlerinde açıklayıcı <code>alt</code> metinleri sağlayın. Dekoratif resimler için <code>alt=""</code> kullanın.</li>
-                        <li><strong>Formlarda <code><label></code> Kullanın:</strong> Her form kontrolünü (input, textarea, select) ilişkili bir <code><label></code> ile eşleştirin (<code>for</code> ve <code>id</code> kullanarak).</li>
-                        <li><strong>Küçük Harf Kullanın:</strong> Etiket ve nitelik adlarında tutarlılık ve okunabilirlik için küçük harf kullanın (örn: <code><img src="..." alt="..."></code>).</li>
+                        <li><strong>Doğru DOCTYPE Kullanın:</strong> Her zaman belgenin başına <code>&lt;!DOCTYPE html&gt;</code> ekleyerek HTML5 modunu etkinleştirin.</li>
+                        <li><strong>Anlamlı (Semantik) Etiketler Kullanın:</strong> <code>&lt;div&gt;</code> ve <code>&lt;span&gt;</code> yerine mümkün olduğunda <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;aside&gt;</code> gibi etiketleri tercih edin.</li>
+                        <li><strong>Mantıklı Başlık Hiyerarşisi Kurun:</strong> <code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code> etiketlerini içeriğin yapısını yansıtacak şekilde, atlama yapmadan kullanın (örn: <code>&lt;h1&gt;</code>'den sonra <code>&lt;h3&gt;</code> gelmemeli). Sayfada genellikle tek bir <code>&lt;h1&gt;</code> olmalıdır.</li>
+                        <li><strong><code>alt</code> Niteliğini Her Zaman Kullanın:</strong> Tüm <code>&lt;img&gt;</code> etiketlerinde açıklayıcı <code>alt</code> metinleri sağlayın. Dekoratif resimler için <code>alt=""</code> kullanın.</li>
+                        <li><strong>Formlarda <code>&lt;label&gt;</code> Kullanın:</strong> Her form kontrolünü (input, textarea, select) ilişkili bir <code>&lt;label&gt;</code> ile eşleştirin (<code>for</code> ve <code>id</code> kullanarak).</li>
+                        <li><strong>Küçük Harf Kullanın:</strong> Etiket ve nitelik adlarında tutarlılık ve okunabilirlik için küçük harf kullanın (örn: <code>&lt;img src="..." alt="..."&gt;</code>).</li>
                         <li><strong>Nitelik Değerlerini Tırnak İçine Alın:</strong> Tüm nitelik değerlerini çift (<code>"</code>) veya tek (<code>'</code>) tırnak içine alın (örn: <code>class="button"</code>, <code>id='main-nav'</code>). Çift tırnak daha yaygındır.</li>
                         <li><strong>Kodunuzu Girintileyin (Indent):</strong> Okunabilirliği artırmak için iç içe geçmiş etiketleri tutarlı bir şekilde girintileyin.</li>
-                        <li><strong>Gereksiz Etiketlerden Kaçının:</strong> Yapıyı veya anlamı gerektirmiyorsa fazladan <code><div></code> veya <code><span></code> kullanmaktan kaçının.</li>
+                        <li><strong>Gereksiz Etiketlerden Kaçının:</strong> Yapıyı veya anlamı gerektirmiyorsa fazladan <code>&lt;div&gt;</code> veya <code>&lt;span&gt;</code> kullanmaktan kaçının.</li>
                         <li><strong>HTML Yorumlarını Akıllıca Kullanın:</strong> Kodun karmaşık bölümlerini açıklamak veya geçici notlar almak için yorumları kullanın, ancak aşırıya kaçmayın.</li>
                         <li><strong>Kodunuzu Doğrulayın:</strong> Düzenli olarak W3C doğrulayıcı gibi araçlarla kodunuzu kontrol edin ve hataları düzeltin.</li>
-                        <li><strong>Karakter Kodlamasını Belirtin:</strong> <code><head></code> içinde <code><meta charset="UTF-8"></code> etiketini kullanın.</li>
-                        <li><strong>Dil Belirtin:</strong> <code><html></code> etiketinde <code>lang</code> niteliğini kullanın (örn: <code>lang="tr"</code>).</li>
-                        <li><strong>CSS ve JavaScript'i Ayrı Dosyalarda Tutun:</strong> Inline stillerden (<code>style</code> niteliği) ve inline scriptlerden (<code>onclick</code> vb. veya <code></script></code> içinde doğrudan kod) mümkün olduğunca kaçının. Kodun ayrıştırılması, bakımı ve önbelleğe alınması daha kolay olur.</li>
+                        <li><strong>Karakter Kodlamasını Belirtin:</strong> <code>&lt;head&gt;</code> içinde <code>&lt;meta charset="UTF-8"&gt;</code> etiketini kullanın.</li>
+                        <li><strong>Dil Belirtin:</strong> <code>&lt;html&gt;</code> etiketinde <code>lang</code> niteliğini kullanın (örn: <code>lang="tr"</code>).</li>
+                        <li><strong>CSS ve JavaScript'i Ayrı Dosyalarda Tutun:</strong> Inline stillerden (<code>style</code> niteliği) ve inline scriptlerden (<code>onclick</code> vb. veya <code>&lt;script&gt;</code> içinde doğrudan kod) mümkün olduğunca kaçının. Kodun ayrıştırılması, bakımı ve önbelleğe alınması daha kolay olur.</li>
                     </ul>
                  </details>
 
@@ -1109,7 +1109,7 @@ function selamVer(isim) {
                     <p>HTML5 sadece yeni etiketler değil, aynı zamanda JavaScript ile kullanılabilecek birçok güçlü API (Application Programming Interface) ve özellik de getirmiştir:</p>
                     <ul>
                         <li><strong>Canvas API:</strong> JavaScript kullanarak 2D grafikler (çizimler, animasyonlar, oyunlar) oluşturmak için bir yüzey sağlar.</li>
-                        <li><strong>SVG (Scalable Vector Graphics):</strong> XML tabanlı vektörel grafik formatıdır. HTML içine doğrudan gömülebilir (<code><svg></code> etiketi) ve CSS/JavaScript ile manipüle edilebilir. Kalite kaybı olmadan ölçeklenebilir.</li>
+                        <li><strong>SVG (Scalable Vector Graphics):</strong> XML tabanlı vektörel grafik formatıdır. HTML içine doğrudan gömülebilir (<code>&lt;svg&gt;</code> etiketi) ve CSS/JavaScript ile manipüle edilebilir. Kalite kaybı olmadan ölçeklenebilir.</li>
                         <li><strong>Geolocation API:</strong> Kullanıcının coğrafi konumunu (izin verirse) almak için kullanılır.</li>
                         <li><strong>Web Storage (localStorage ve sessionStorage):</strong> Kullanıcının tarayıcısında veri depolamak için <code>localStorage</code> (kalıcı) ve <code>sessionStorage</code> (oturum süresince) mekanizmalarını sunar. Çerezlerden (cookies) daha fazla depolama alanı sunar ve veriler sunucuya otomatik gönderilmez.</li>
                         <li><strong>Web Workers:</strong> Arka planda JavaScript kodları çalıştırmak için kullanılır, böylece ana kullanıcı arayüzü (UI) thread'i kilitlenmez ve sayfa yanıt vermeye devam eder.</li>
