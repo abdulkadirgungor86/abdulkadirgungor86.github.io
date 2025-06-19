@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Site haritasının konumunu belirt
-Sitemap: https://abdulkadirgungor86.github.io/sitemap.xml
+Sitemap: https://abdulkadirgungor.com/sitemap.xml
