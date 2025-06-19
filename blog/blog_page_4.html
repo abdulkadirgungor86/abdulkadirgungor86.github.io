@@ -7,7 +7,7 @@
     <meta name="description" content=".NET Framework ve .NET Core'un güçlü ama sıklıkla göz ardı edilen Lazy<T> sınıfı üzerine ultra detaylı bir inceleme. Bu kapsamlı rehber, tembel yükleme (lazy initialization) kavramının temellerinden başlayarak, Lazy<T>'nin neden gerekli olduğunu, tüm yapıcı metotlarını (constructor overloads), kritik LazyThreadSafetyMode seçeneklerini (None, PublicationOnly, ExecutionAndPublication), Value ve IsValueCreated özelliklerinin inceliklerini, iç çalışma mekanizmalarını, Singleton deseni gibi pratik kullanım senaryolarını, performans üzerindeki etkilerini, istisna yönetimini, AsyncLazy<T> gibi alternatifleri ve en iyi uygulama pratiklerini 5000 kelimeyi aşan bir derinlikle ele almaktadır. Performans optimizasyonu, kaynak yönetimi ve temiz kod yazımı için vazgeçilmez bir kaynak.">
     <meta name="keywords" content="Lazy<T>, Lazy Initialization, Tembel Yükleme, .NET, C#, .NET Core, .NET Framework, Performans Optimizasyonu, Performance Optimization, Kaynak Yönetimi, Resource Management, Gecikmeli Başlatma, Deferred Initialization, LazyThreadSafetyMode, None, PublicationOnly, ExecutionAndPublication, Thread Safety, İş Parçacığı Güvenliği, IsValueCreated, Value, Func<T>, valueFactory, Singleton Pattern, Singleton Deseni, Expensive Object Creation, Maliyetli Nesne Oluşturma, Veritabanı Bağlantısı, Database Connection, Yapılandırma Yönetimi, Configuration Management, Caching, Önbellekleme, Dependency Injection, Bağımlılık Enjeksiyonu, DI, IoC, Inversion of Control, AsyncLazy<T>, Asenkron Tembel Yükleme, LazyInitializer, LINQ, Deferred Execution, Yazılım Tasarımı, Software Design, Temiz Kod, Clean Code, Yazılım Mühendisliği, Software Engineering, .NET Mülakat Soruları, Debugging, Hata Ayıklama, İstisna Yönetimi, Exception Handling, Race Condition, Yarış Durumu, Locking, Kilitleme, Double-Checked Locking, Performans Analizi, Profiling, Yazılım Mimarisi">
     <meta name="author" content="Abdulkadir Güngör">
-    <link rel="canonical" href="https://abdulkadirgungor86.github.io/blog/blog_page_4.html" />
+    <link rel="canonical" href="https://abdulkadirgungor.com/blog/blog_page_4.html" />
 
     <link rel="icon" type="image/png" href="../assets/images/icons/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="../assets/images/icons/favicon.svg" />
@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.xml">
-    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor86.github.io/sitemap.html">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://abdulkadirgungor.com/sitemap.xml">
+    <link rel="sitemap" type="text/html" title="HTML Sitemap" href="https://abdulkadirgungor.com/sitemap.html">
     
     <script type="application/ld+json" id="siteData">
     {
@@ -31,7 +31,7 @@
       "@type": "Article", 
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://abdulkadirgungor86.github.io/blog/blog_page_4.html"
+        "@id": "https://abdulkadirgungor.com/blog/blog_page_4.html"
       },
       "headline": ".NET Lazy<T> Sınıfı: Tembel Yüklemenin Derinlikleri ve Performans Optimizasyonu",
       "name": ".NET Lazy<T>: Tembel Yükleme ve Performans | Abdulkadir Güngör", 
@@ -44,7 +44,7 @@
         "name": "Abdulkadir Güngör",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://abdulkadirgungor86.github.io/assets/images/icons/favicon-96x96.png" 
+          "url": "https://abdulkadirgungor.com/assets/images/icons/favicon-96x96.png" 
         }
       },
       "datePublished": "2025-05-13", 
@@ -52,7 +52,7 @@
       "description": ".NET Framework ve .NET Core'un güçlü Lazy<T> sınıfı üzerine ultra detaylı bir inceleme.",
       "isPartOf": {
         "@type": "WebSite",
-        "@id": "https://abdulkadirgungor86.github.io/"
+        "@id": "https://abdulkadirgungor.com/"
       },
       "footerText": "© {YEAR} Abdulkadir Güngör. Tüm Hakları Saklıdır." 
     }
@@ -1192,14 +1192,14 @@ Console.WriteLine(lazyWithClosure.Value); // Çıktı: "Factory çalışıyor, c
                 <div class="footer-left-links">
                     <h4>Hızlı Bağlantılar</h4>
                     <ul class="footer-nav-links">
-                        <li><a href="https://abdulkadirgungor86.github.io/">Ana Sayfa</a></li>
-                        <li><a href="https://abdulkadirgungor86.github.io/cv" target="_blank" rel="noopener noreferrer">Özgeçmiş</a></li>
-                        <li><a href="https://abdulkadirgungor86.github.io/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                        <li><a href="https://abdulkadirgungor.com/">Ana Sayfa</a></li>
+                        <li><a href="https://abdulkadirgungor.com/cv" target="_blank" rel="noopener noreferrer">Özgeçmiş</a></li>
+                        <li><a href="https://abdulkadirgungor.com/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer-center-content">
                     <h4 class="sitemap-link-heading">
-                        <a href="https://abdulkadirgungor86.github.io/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
+                        <a href="https://abdulkadirgungor.com/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
                     </h4>
                     <p id="footerTextContent">
                         <!-- Content will be loaded by script.js -->
