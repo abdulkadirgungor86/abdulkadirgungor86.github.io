@@ -120,8 +120,8 @@
 
     
     
-    <link rel="preload" href="/css/main.min.bf1abae653e202e3848ee2a96d60afeecbc0387c73eba24ce67dcda3509b8819.css" as="style">
-    <link rel="stylesheet" href="/css/main.min.bf1abae653e202e3848ee2a96d60afeecbc0387c73eba24ce67dcda3509b8819.css">
+    <link rel="preload" href="/css/main.min.b1a246f131becfd525a94b003d0883d1dce004f22dadfeaf70580d08d6604e40.css" as="style">
+    <link rel="stylesheet" href="/css/main.min.b1a246f131becfd525a94b003d0883d1dce004f22dadfeaf70580d08d6604e40.css">
     
     <style>
         .calendly-badge-widget .calendly-badge-content{background-color:#006bff!important;color:#fff!important}
@@ -3148,7 +3148,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const formspreeEndpoint = window.FORMSPREE_ENDPOINT;
         
         if (!formspreeEndpoint) {
-          showToast('⚠️ Contact form not configured. Please try again later.');
+          showToast('⚠️ Contact form not configured. Please try again later.', 'bg-yellow-500');
           return;
         }
         
@@ -3164,14 +3164,14 @@ document.addEventListener('DOMContentLoaded', function() {
           });
     
           if (response.ok) {
-            showToast('✅ Mesaj gönderildi. / Message sent.');
+            showToast('✅ Mesaj gönderildi. / Message sent.', 'bg-green-500');
             form.reset();
           } else {
-            showToast('❌ Bilgilerinizi kontrol edin. / Check the information.');
+            showToast('❌ Bilgilerinizi kontrol edin. / Check the information.', 'bg-yellow-500');
           }
         } catch (error) {
           console.error(error);
-          showToast('⚠️ Gönderme başarısız oldu. / Failed to submit.');
+          showToast('⚠️ Gönderme başarısız oldu. / Failed to submit.', 'bg-red-500');
         }
       });
     }
@@ -3210,10 +3210,11 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
   
-    function showToast(message) {
+    function showToast(message, bgColor) {
       const toast = document.createElement('div');
       toast.textContent = message;
-      toast.className = 'fixed bottom-6 right-6 bg-second dark:bg-second-light text-white px-4 py-2 rounded shadow-lg';
+      
+      toast.className = `fixed bottom-6 right-6 ${bgColor} text-white px-4 py-2 rounded shadow-lg z-50`;
       document.body.appendChild(toast);
   
       setTimeout(() => {
@@ -3222,8 +3223,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 </script>
-
-
 </main>
     <footer class="bg-bg-secondary dark:bg-bg-secondary text-text-primary py-12 border-t border-border-primary">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
