@@ -3164,14 +3164,14 @@ document.addEventListener('DOMContentLoaded', function() {
           });
     
           if (response.ok) {
-            showToast('✅ Thank you! I\'ll get back to you soon.');
+            showToast('✅ Mesaj gönderildi. / Message sent.');
             form.reset();
           } else {
-            showToast('❌ Error: Please try again.');
+            showToast('❌ Bilgilerinizi kontrol edin. / Check the information.');
           }
         } catch (error) {
           console.error(error);
-          showToast('⚠️ Failed to submit.');
+          showToast('⚠️ Gönderme başarısız oldu. / Failed to submit.');
         }
       });
     }
