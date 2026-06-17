@@ -18,8 +18,8 @@
         
         if ('scrollRestoration' in history) {
             history.scrollRestoration = 'manual';
-        }    
-	</script>
+        }
+    </script>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -120,14 +120,40 @@
 
     
     
-    <link rel="preload" href="/css/main.min.045a84e68050e33cb504efcf2e9431060cc3ee2f63c424197d885a9697ae38a9.css" as="style">
-    <link rel="stylesheet" href="/css/main.min.045a84e68050e33cb504efcf2e9431060cc3ee2f63c424197d885a9697ae38a9.css">
+    <link rel="preload" href="/css/main.min.b1a246f131becfd525a94b003d0883d1dce004f22dadfeaf70580d08d6604e40.css" as="style">
+    <link rel="stylesheet" href="/css/main.min.b1a246f131becfd525a94b003d0883d1dce004f22dadfeaf70580d08d6604e40.css">
     
     <style>
         .calendly-badge-widget .calendly-badge-content{background-color:#006bff!important;color:#fff!important}
         img{content-visibility:auto;image-rendering:-webkit-optimize-contrast}
         .fade-in{animation:fadeIn 0.4s ease-in forwards}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
-}
+		
+		 
+		.hero-text-element {
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			overflow: hidden;  
+		}
+		
+		.typewriter {
+			width: 100%;
+			font-size: clamp(1.1rem, 4vw, 2rem);  
+			line-height: 1.2;
+			word-wrap: break-word;
+			text-align: center;
+		}
+
+		@media (min-width: 1024px) {
+			.hero-text-element {
+				justify-content: flex-start;
+			}
+			.typewriter {
+				text-align: left;
+			}
+		}
+
     </style>
 </head>
 <body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200 fade-in">
@@ -923,7 +949,7 @@
         </div>
       </div>
 
-      <div id="hero-text-block" class="text-center lg:text-left mt-8 md:mt-0" style="width: 100%; max-width: 600px; min-width: 300px; flex-shrink: 0;">
+      <div id="hero-text-block" class="text-center lg:text-left mt-8 md:mt-0" style="width: 100%; max-width: 600px; min-width: 300px;">
         <div class="mb-4 mt-4 md:mt-0 hero-text-element" data-animation="greeting">
           <span class="hero-text-accent font-medium text-lg block">Hello, I&#39;m</span>
         </div>
@@ -932,8 +958,8 @@
           Abdulkadir Güngör
         </h1>
 
-		<h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 font-light hero-text-accent hero-text-element w-full flex items-center justify-center lg:justify-start flex" 
-			style="min-height: 7.5rem !important; line-height: 1.2;" 
+		<h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 font-light hero-text-accent hero-text-element hero-text-taglin w-full flex items-center justify-center lg:justify-start" 
+			style="min-height: 7.5rem"
 			data-animation="tagline">
 		  <span class="typewriter w-full max-w-full text-center lg:text-left" data-original-text="Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS">Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS</span>
 		</h2>
@@ -979,26 +1005,33 @@
     const p = textBlock.querySelector("p");
 
     function adjustFontsByHeight() {
+      
       if (window.innerWidth >= 1024) {
         const height = window.innerHeight;
 
         if (height >= 700 && height < 800) {
+          
           h1.classList.replace("lg:text-7xl", "lg:text-6xl");
           h2.classList.replace("lg:text-3xl", "lg:text-2xl");
           p.classList.add("lg:text-lg");
         } else if (height >= 800) {
+          
           h1.classList.replace("lg:text-6xl", "lg:text-7xl");
           h2.classList.replace("lg:text-2xl", "lg:text-3xl");
           p.classList.remove("lg:text-lg");
         }
       } else {
+        
         h1.classList.replace("lg:text-6xl", "lg:text-7xl");
         h2.classList.replace("lg:text-2xl", "lg:text-3xl");
         p.classList.remove("lg:text-lg");
       }
     }
 
+    
     adjustFontsByHeight();
+
+    
     window.addEventListener("resize", adjustFontsByHeight);
   });
 </script>

@@ -17,8 +17,8 @@
         
         if ('scrollRestoration' in history) {
             history.scrollRestoration = 'manual';
-        }    
-	</script>
+        }
+    </script>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -133,8 +133,8 @@
 
     
     
-    <link rel="preload" href="/css/main.min.045a84e68050e33cb504efcf2e9431060cc3ee2f63c424197d885a9697ae38a9.css" as="style">
-    <link rel="stylesheet" href="/css/main.min.045a84e68050e33cb504efcf2e9431060cc3ee2f63c424197d885a9697ae38a9.css">
+    <link rel="preload" href="/css/main.min.b1a246f131becfd525a94b003d0883d1dce004f22dadfeaf70580d08d6604e40.css" as="style">
+    <link rel="stylesheet" href="/css/main.min.b1a246f131becfd525a94b003d0883d1dce004f22dadfeaf70580d08d6604e40.css">
     
     <link rel="preload" href="https://abdulkadirgungor.com/images/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri.png" as="image" fetchpriority="high">
     
@@ -142,7 +142,33 @@
         .calendly-badge-widget .calendly-badge-content{background-color:#006bff!important;color:#fff!important}
         img{content-visibility:auto;image-rendering:-webkit-optimize-contrast}
         .fade-in{animation:fadeIn 0.4s ease-in forwards}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
-}
+		
+		 
+		.hero-text-element {
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			overflow: hidden;  
+		}
+		
+		.typewriter {
+			width: 100%;
+			font-size: clamp(1.1rem, 4vw, 2rem);  
+			line-height: 1.2;
+			word-wrap: break-word;
+			text-align: center;
+		}
+
+		@media (min-width: 1024px) {
+			.hero-text-element {
+				justify-content: flex-start;
+			}
+			.typewriter {
+				text-align: left;
+			}
+		}
+
     </style>
 </head>
 <body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200 fade-in">
