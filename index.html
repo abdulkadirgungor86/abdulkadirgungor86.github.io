@@ -3167,11 +3167,11 @@ document.addEventListener('DOMContentLoaded', function() {
             showToast('✅ Mesaj gönderildi. / Message sent.', 'bg-green-500');
             form.reset();
           } else {
-            showToast('❌ Bilgilerinizi kontrol edin. / Check the information.', 'bg-yellow-500');
+            showToast('⚠️ Bilgilerinizi kontrol edin. / Check the information.', 'bg-yellow-500');
           }
         } catch (error) {
           console.error(error);
-          showToast('⚠️ Gönderme başarısız oldu. / Failed to submit.', 'bg-red-500');
+          showToast('❌ Gönderme başarısız oldu. / Failed to submit.', 'bg-red-500');
         }
       });
     }
