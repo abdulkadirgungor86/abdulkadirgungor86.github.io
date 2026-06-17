@@ -7907,32 +7907,14 @@
         </div>
       </div>
 
+
+
 <script>
   const currentLang = 'tr' === 'tr' ? 'tr-TR' : 'en-US';
   const searchInput = document.getElementById('contentSearch');
   let selectedTags = [];
   
   const blogMainPath = '\/blog\/';
-  const hugoOriginalPath = '\/tags\/performans-optimizasyonu\/'; 
-
-  
-  function normalizeString(str) {
-    return str
-      .toLocaleLowerCase(currentLang)
-      .replace(/-/g, ' ')
-      .replace(/ı/g, 'i')
-      .replace(/ğ/g, 'g')
-      .replace(/ü/g, 'u')
-      .replace(/ş/g, 's')
-      .replace(/ö/g, 'o')
-      .replace(/ç/g, 'c')
-      .trim();
-  }
-
-  function createExactRegex(term) {
-    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    return new RegExp(`(?<=^|[^a-zA-ZçÇğĞıİöÖşŞüÜ0-9])${escaped}(?=[^a-zA-ZçÇğĞıİöÖşŞüÜ0-9]|$)`, 'i');
-  }
 
   function performSearch(term) {
     const rawTerm = term.toLocaleLowerCase(currentLang).trim();
@@ -7943,41 +7925,28 @@
       return;
     }
 
-    const exactRegex = createExactRegex(rawTerm);
-    
-    cards.forEach(card => {
+    const cardsArray = Array.from(cards);
+    cardsArray.forEach(card => {
       const title = card.getAttribute('data-title').toLocaleLowerCase(currentLang);
       const desc = card.getAttribute('data-desc').toLocaleLowerCase(currentLang);
-      const isFlexibleMatch = title.includes(rawTerm) || desc.includes(rawTerm);
-
       const section = card.getAttribute('data-section').toLocaleLowerCase(currentLang);
       const tags = card.getAttribute('data-tags').toLocaleLowerCase(currentLang);
-      const isExactMatch = exactRegex.test(section) || exactRegex.test(tags);
       
-      card.style.display = (isFlexibleMatch || isExactMatch) ? 'block' : 'none';
-    });
-  }
-
-  function applyMultiTagFilter() {
-    const cards = document.querySelectorAll('.content-card');
-    if (selectedTags.length === 0) {
-      cards.forEach(card => card.style.display = 'block');
-      return;
-    }
-
-    cards.forEach(card => {
-      const cardTagsStr = card.getAttribute('data-tags').toLocaleLowerCase(currentLang);
-      const isMatch = selectedTags.every(tag => {
-        const regex = createExactRegex(tag.toLocaleLowerCase(currentLang));
-        return regex.test(cardTagsStr);
-      });
+      const isMatch = title.includes(rawTerm) || desc.includes(rawTerm) || section.includes(rawTerm) || tags.includes(rawTerm);
       card.style.display = isMatch ? 'block' : 'none';
     });
   }
 
   function toggleTag(tagName) {
+    
+    if (searchInput) searchInput.value = "";
+    
+    
+    window.history.replaceState({}, document.title, blogMainPath);
+
     const index = selectedTags.indexOf(tagName);
     const targetBtn = document.getElementById(`tag-${tagName}`);
+    
     if (index > -1) {
       selectedTags.splice(index, 1);
       targetBtn.classList.remove('tag-active');
@@ -7985,112 +7954,48 @@
       selectedTags.push(tagName);
       targetBtn.classList.add('tag-active');
     }
-    if (searchInput) {
-      searchInput.value = ""; 
+    
+    const cards = document.querySelectorAll('.content-card');
+    if (selectedTags.length === 0) {
+      cards.forEach(card => card.style.display = 'block');
+    } else {
+      cards.forEach(card => {
+        const cardTagsStr = card.getAttribute('data-tags').toLocaleLowerCase(currentLang);
+        const isMatch = selectedTags.every(t => cardTagsStr.includes(t.toLocaleLowerCase(currentLang)));
+        card.style.display = isMatch ? 'block' : 'none';
+      });
     }
-    applyMultiTagFilter();
-  }
-
-  function updateBrowserURL(targetPath) {
-    requestAnimationFrame(() => {
-      setTimeout(() => {
-        if (window.location.pathname !== targetPath) {
-          window.history.replaceState({}, document.title, targetPath);
-        }
-      }, 0);
-    });
   }
 
   function checkSearchAndTags() {
     const path = window.location.pathname;
     const tagMatch = path.match(/\/tags\/([^/]+)/);
     
-    const navEntries = performance.getEntriesByType('navigation');
-    const isBackForward = navEntries.length > 0 && navEntries[0].type === 'back_forward';
-
-    if (searchInput) {
-      
-      if (isBackForward) {
-        const currentInputValue = searchInput.value.trim();
-        
-        if (currentInputValue === "") {
-          performSearch("");
-          updateBrowserURL(blogMainPath);
-        } else {
-          performSearch(currentInputValue);
-          
-          if (tagMatch) {
-            const urlTagNormalized = normalizeString(decodeURIComponent(tagMatch[1]));
-            const inputValNormalized = normalizeString(currentInputValue);
-            
-            
-            if (urlTagNormalized !== inputValNormalized) {
-              updateBrowserURL(blogMainPath);
-            } else {
-              updateBrowserURL(hugoOriginalPath);
-            }
-          } else {
-            updateBrowserURL(blogMainPath);
-          }
-        }
-        return; 
-      }
-    }
-
-    
     if (tagMatch && searchInput) {
       const urlTagRaw = decodeURIComponent(tagMatch[1]);
-      searchInput.value = urlTagRaw; 
-      
-      const targetSearchWord = normalizeString(urlTagRaw);
-
-      
-      document.querySelectorAll('.content-card').forEach(card => {
-        const cardTagsNormalized = normalizeString(card.getAttribute('data-tags'));
-        const cardTitleNormalized = normalizeString(card.getAttribute('data-title'));
-        
-        
-        if (cardTagsNormalized.includes(targetSearchWord) || cardTitleNormalized.includes(targetSearchWord)) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    } else if (searchInput) {
-      searchInput.value = "";
-      performSearch("");
+      searchInput.value = urlTagRaw;
+      performSearch(urlTagRaw);
     }
   }
 
+  
   window.addEventListener('DOMContentLoaded', checkSearchAndTags);
-  window.addEventListener('pageshow', checkSearchAndTags);
 
   
   searchInput?.addEventListener('input', (e) => {
-    const val = e.target.value.trim();
-    performSearch(val);
     
-    if (val === "") {
-      updateBrowserURL(blogMainPath);
-    } else {
-      const path = window.location.pathname;
-      const tagMatch = path.match(/\/tags\/([^/]+)/);
-      if (tagMatch) {
-        const urlTagNormalized = normalizeString(decodeURIComponent(tagMatch[1]));
-        const inputValNormalized = normalizeString(val);
-        
-        
-        if (urlTagNormalized !== inputValNormalized) {
-          updateBrowserURL(blogMainPath);
-        } else {
-          updateBrowserURL(hugoOriginalPath);
-        }
-      } else {
-        updateBrowserURL(blogMainPath);
-      }
-    }
+    performSearch(e.target.value);
+    
+    
+    window.history.replaceState({}, document.title, blogMainPath);
+    
+    
+    selectedTags = [];
+    document.querySelectorAll('.tag-btn').forEach(btn => btn.classList.remove('tag-active'));
   });
 </script>
+
+
     
   </div>
 </section>

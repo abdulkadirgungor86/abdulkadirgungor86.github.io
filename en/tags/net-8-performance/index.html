@@ -1554,7 +1554,7 @@
              data-title="Veri Analizi Okulu: Data Science and Artificial Intelligence Training" 
              data-desc="Operating under the coordination of Yükseköğretim Kurumu (YÖK), the Veri Analizi Okulu (VAO) combines theoretical knowledge with practice through modules in Basic Statistics, Computational Social Sciences, Panel Data Analysis, Artificial Intelligence, Digital Humanities, and Psychometrics. Check out our blog post for both a high-quality education and your career." 
              data-section="blog"
-             data-tags="blog veri-analizi-okulu vao basic-statistics computational-social-sciences panel-data-analysis artificial-intelligence ai-and-facilitating-tools ai-and-machine-learning digital-humanities psychometrics ">
+             data-tags="blog veri-analizi-okulu vao basic-statistics computational-social-sciences panel-data-analysis artificial-intelligence ai-and-facilitating-tools ai ai-and-machine-learning digital-humanities psychometrics ">
             <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl shadow-md border border-border-primary dark:border-border-primary overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl">
               
               <div class="relative overflow-hidden h-48">
@@ -1607,6 +1607,10 @@
                   
                   <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
                     ai-and-facilitating-tools
+                  </span>
+                  
+                  <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
+                    ai
                   </span>
                   
                   <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
@@ -2316,7 +2320,7 @@
              data-title="Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems" 
              data-desc="A technical review and software integration of modern robotic systems equipped with deep learning architectures, 6-DoF grasping strategies, and real-time object recognition algorithms." 
              data-section="blog"
-             data-tags="blog robotics autonomous ai python pytorch ros2 yolo opencv autonomous-robots machine-learning ">
+             data-tags="blog robotics autonomous ai python pytorch ros2 yolo opencv autonomous-robots deep-learning machine-learning ">
             <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl shadow-md border border-border-primary dark:border-border-primary overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl">
               
               <div class="relative overflow-hidden h-48">
@@ -2377,6 +2381,10 @@
                   
                   <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
                     autonomous-robots
+                  </span>
+                  
+                  <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
+                    deep-learning
                   </span>
                   
                   <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
@@ -3894,7 +3902,7 @@
              data-title="Architectural Foundations and Algorithmic Strategies of Modern Artificial Intelligence" 
              data-desc="[-Veri Analiz Okulu, Notes 3-] A technical paper on the attention mechanism of the Transformer architecture, multimodal data integration, and the mathematical decision strategies of reinforcement learning." 
              data-section="ai"
-             data-tags="ai veri-analizi-okulu vao python deep-learning transformer-architecture multi-modal-ai deep-learning bellman-equation data-science machine-learning ">
+             data-tags="ai veri-analizi-okulu vao python deep-learning transformer-architecture multi-modal-ai bellman-equation data-science machine-learning ">
             <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl shadow-md border border-border-primary dark:border-border-primary overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl">
               
               <div class="relative overflow-hidden h-48">
@@ -3943,10 +3951,6 @@
                   
                   <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
                     multi-modal-ai
-                  </span>
-                  
-                  <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
-                    deep-learning
                   </span>
                   
                   <span class="bg-slate-900 dark:bg-slate-700 text-white px-3 py-1 rounded-full text-[10px] font-bold border border-slate-800 dark:border-slate-600">
@@ -7686,32 +7690,14 @@
         </div>
       </div>
 
+
+
 <script>
   const currentLang = 'en' === 'tr' ? 'tr-TR' : 'en-US';
   const searchInput = document.getElementById('contentSearch');
   let selectedTags = [];
   
   const blogMainPath = '\/en\/blog\/';
-  const hugoOriginalPath = '\/en\/tags\/net-8-performance\/'; 
-
-  
-  function normalizeString(str) {
-    return str
-      .toLocaleLowerCase(currentLang)
-      .replace(/-/g, ' ')
-      .replace(/ı/g, 'i')
-      .replace(/ğ/g, 'g')
-      .replace(/ü/g, 'u')
-      .replace(/ş/g, 's')
-      .replace(/ö/g, 'o')
-      .replace(/ç/g, 'c')
-      .trim();
-  }
-
-  function createExactRegex(term) {
-    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    return new RegExp(`(?<=^|[^a-zA-ZçÇğĞıİöÖşŞüÜ0-9])${escaped}(?=[^a-zA-ZçÇğĞıİöÖşŞüÜ0-9]|$)`, 'i');
-  }
 
   function performSearch(term) {
     const rawTerm = term.toLocaleLowerCase(currentLang).trim();
@@ -7722,41 +7708,28 @@
       return;
     }
 
-    const exactRegex = createExactRegex(rawTerm);
-    
-    cards.forEach(card => {
+    const cardsArray = Array.from(cards);
+    cardsArray.forEach(card => {
       const title = card.getAttribute('data-title').toLocaleLowerCase(currentLang);
       const desc = card.getAttribute('data-desc').toLocaleLowerCase(currentLang);
-      const isFlexibleMatch = title.includes(rawTerm) || desc.includes(rawTerm);
-
       const section = card.getAttribute('data-section').toLocaleLowerCase(currentLang);
       const tags = card.getAttribute('data-tags').toLocaleLowerCase(currentLang);
-      const isExactMatch = exactRegex.test(section) || exactRegex.test(tags);
       
-      card.style.display = (isFlexibleMatch || isExactMatch) ? 'block' : 'none';
-    });
-  }
-
-  function applyMultiTagFilter() {
-    const cards = document.querySelectorAll('.content-card');
-    if (selectedTags.length === 0) {
-      cards.forEach(card => card.style.display = 'block');
-      return;
-    }
-
-    cards.forEach(card => {
-      const cardTagsStr = card.getAttribute('data-tags').toLocaleLowerCase(currentLang);
-      const isMatch = selectedTags.every(tag => {
-        const regex = createExactRegex(tag.toLocaleLowerCase(currentLang));
-        return regex.test(cardTagsStr);
-      });
+      const isMatch = title.includes(rawTerm) || desc.includes(rawTerm) || section.includes(rawTerm) || tags.includes(rawTerm);
       card.style.display = isMatch ? 'block' : 'none';
     });
   }
 
   function toggleTag(tagName) {
+    
+    if (searchInput) searchInput.value = "";
+    
+    
+    window.history.replaceState({}, document.title, blogMainPath);
+
     const index = selectedTags.indexOf(tagName);
     const targetBtn = document.getElementById(`tag-${tagName}`);
+    
     if (index > -1) {
       selectedTags.splice(index, 1);
       targetBtn.classList.remove('tag-active');
@@ -7764,112 +7737,48 @@
       selectedTags.push(tagName);
       targetBtn.classList.add('tag-active');
     }
-    if (searchInput) {
-      searchInput.value = ""; 
+    
+    const cards = document.querySelectorAll('.content-card');
+    if (selectedTags.length === 0) {
+      cards.forEach(card => card.style.display = 'block');
+    } else {
+      cards.forEach(card => {
+        const cardTagsStr = card.getAttribute('data-tags').toLocaleLowerCase(currentLang);
+        const isMatch = selectedTags.every(t => cardTagsStr.includes(t.toLocaleLowerCase(currentLang)));
+        card.style.display = isMatch ? 'block' : 'none';
+      });
     }
-    applyMultiTagFilter();
-  }
-
-  function updateBrowserURL(targetPath) {
-    requestAnimationFrame(() => {
-      setTimeout(() => {
-        if (window.location.pathname !== targetPath) {
-          window.history.replaceState({}, document.title, targetPath);
-        }
-      }, 0);
-    });
   }
 
   function checkSearchAndTags() {
     const path = window.location.pathname;
     const tagMatch = path.match(/\/tags\/([^/]+)/);
     
-    const navEntries = performance.getEntriesByType('navigation');
-    const isBackForward = navEntries.length > 0 && navEntries[0].type === 'back_forward';
-
-    if (searchInput) {
-      
-      if (isBackForward) {
-        const currentInputValue = searchInput.value.trim();
-        
-        if (currentInputValue === "") {
-          performSearch("");
-          updateBrowserURL(blogMainPath);
-        } else {
-          performSearch(currentInputValue);
-          
-          if (tagMatch) {
-            const urlTagNormalized = normalizeString(decodeURIComponent(tagMatch[1]));
-            const inputValNormalized = normalizeString(currentInputValue);
-            
-            
-            if (urlTagNormalized !== inputValNormalized) {
-              updateBrowserURL(blogMainPath);
-            } else {
-              updateBrowserURL(hugoOriginalPath);
-            }
-          } else {
-            updateBrowserURL(blogMainPath);
-          }
-        }
-        return; 
-      }
-    }
-
-    
     if (tagMatch && searchInput) {
       const urlTagRaw = decodeURIComponent(tagMatch[1]);
-      searchInput.value = urlTagRaw; 
-      
-      const targetSearchWord = normalizeString(urlTagRaw);
-
-      
-      document.querySelectorAll('.content-card').forEach(card => {
-        const cardTagsNormalized = normalizeString(card.getAttribute('data-tags'));
-        const cardTitleNormalized = normalizeString(card.getAttribute('data-title'));
-        
-        
-        if (cardTagsNormalized.includes(targetSearchWord) || cardTitleNormalized.includes(targetSearchWord)) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    } else if (searchInput) {
-      searchInput.value = "";
-      performSearch("");
+      searchInput.value = urlTagRaw;
+      performSearch(urlTagRaw);
     }
   }
 
+  
   window.addEventListener('DOMContentLoaded', checkSearchAndTags);
-  window.addEventListener('pageshow', checkSearchAndTags);
 
   
   searchInput?.addEventListener('input', (e) => {
-    const val = e.target.value.trim();
-    performSearch(val);
     
-    if (val === "") {
-      updateBrowserURL(blogMainPath);
-    } else {
-      const path = window.location.pathname;
-      const tagMatch = path.match(/\/tags\/([^/]+)/);
-      if (tagMatch) {
-        const urlTagNormalized = normalizeString(decodeURIComponent(tagMatch[1]));
-        const inputValNormalized = normalizeString(val);
-        
-        
-        if (urlTagNormalized !== inputValNormalized) {
-          updateBrowserURL(blogMainPath);
-        } else {
-          updateBrowserURL(hugoOriginalPath);
-        }
-      } else {
-        updateBrowserURL(blogMainPath);
-      }
-    }
+    performSearch(e.target.value);
+    
+    
+    window.history.replaceState({}, document.title, blogMainPath);
+    
+    
+    selectedTags = [];
+    document.querySelectorAll('.tag-btn').forEach(btn => btn.classList.remove('tag-active'));
   });
 </script>
+
+
     
   </div>
 </section>

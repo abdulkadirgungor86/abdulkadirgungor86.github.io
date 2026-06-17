@@ -23,6 +23,13 @@
       <description>&lt;p&gt;In the world of machine learning, probabilistic approaches offer a robust and computationally efficient foundation, especially for classification problems. Naive Bayes is a &amp;ldquo;generative&amp;rdquo; modeling approach based on Bayes&amp;rsquo; Theorem and the assumption of independence between variables. Its high performance, even on complex datasets, makes it an indispensable tool in fields such as natural language processing (NLP) and spam detection.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/naive-bayes-algoritmasinin-teorik-temelleri-ve-uygulama-stratejileri.png&#34;&#xA;    alt=&#34;Theoretical Foundations and Application Strategies of the Naive Bayes Algorithm&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Theoretical Foundations and Application Strategies of the Naive Bayes Algorithm.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</guid>
+      <description>&lt;p&gt;The core pillars of modern robotic systems—object recognition and grasping processes—are shifting away from traditional computer vision methods and are being built entirely on Deep Learning architectures. For a robot to interact with the physical world, it must not only know the coordinates of an object but also analyze the object&amp;rsquo;s geometric structure, material properties, and approach angles.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri.png&#34;&#xA;    alt=&#34;Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Artificial Neural Networks: A Journey from Biological Inspiration to Mathematical Architecture</title>
       <link>https://abdulkadirgungor.com/en/ai/yapay-sinir-aglari-biyolojik-ilhamdan-matematiksel-mimariye-yolculuk/</link>
       <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
