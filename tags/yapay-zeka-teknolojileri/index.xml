@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yapay-Zeka-Teknolojileri on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/yapay-zeka-teknolojileri/</link>
+    <description>Recent content in Yapay-Zeka-Teknolojileri on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/yapay-zeka-teknolojileri/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yapay Sinir Ağları: Biyolojik İlhamdan Matematiksel Mimariye Yolculuk</title>
+      <link>https://abdulkadirgungor.com/ai/yapay-sinir-aglari-biyolojik-ilhamdan-matematiksel-mimariye-yolculuk/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/yapay-sinir-aglari-biyolojik-ilhamdan-matematiksel-mimariye-yolculuk/</guid>
+      <description>&lt;p&gt;Yapay Sinir Ağları (Artificial Neural Networks - ANN), modern yapay zekanın kalbinde yer alan ve insan beyninin nörofizyolojik yapısını taklit ederek karmaşık veri setlerinden örüntü çıkarma yeteneğine sahip olan hesaplamalı modellerdir. Geleneksel algoritmalar belirli kural setlerine dayalıyken, sinir ağları veriyi deneyimleyerek öğrenir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/yapay-sinir-aglari-biyolojik-ilhamdan-matematiksel-mimariye-yolculuk.png&#34;&#xA;    alt=&#34;Yapay Sinir Ağları: Biyolojik İlhamdan Matematiksel Mimariye Yolculuk&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Yapay Sinir Ağları: Biyolojik İlhamdan Matematiksel Mimariye Yolculuk.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-yapay-sinir-ağlarının-mimari-bileşenleri&#34;&gt;1. Yapay Sinir Ağlarının Mimari Bileşenleri&lt;/h2&gt;&#xA;&lt;p&gt;Bir yapay sinir ağı, birbirine bağlı katmanlar ve bu katmanlar içindeki düğümlerden (nöronlar) oluşur. Bu yapı, bilginin akışını ve dönüşümünü yöneten bir &amp;ldquo;yönlü çizge&amp;rdquo; (directed graph) olarak düşünülebilir.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

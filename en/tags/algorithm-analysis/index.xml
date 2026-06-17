@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm-Analysis on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/algorithm-analysis/</link>
+    <description>Recent content in Algorithm-Analysis on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/algorithm-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delicate Balances and Strategic Approaches in Modern Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;The artificial intelligence ecosystem is built upon two massive pillars in the processes of extracting meaning from data and transforming that meaning into action: supervised learning algorithms that draw geometric boundaries, and reinforcement learning models that act as experience-oriented decision-making mechanisms. In today&amp;rsquo;s complex datasets, making accurate predictions is not enough; it is vital to show resistance against noise and to develop the best strategy in dynamic environments.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Delicate Balances and Strategic Approaches in Modern Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Delicate Balances and Strategic Approaches in Modern Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Analysis of Statistical Approaches and Ensemble Methods in Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi/</guid>
+      <description>&lt;p&gt;The artificial intelligence ecosystem is shaped by algorithms based on different mathematical foundations in the process of extracting meaning from data. Although Deep Learning is popular in modern software architectures, classical machine learning algorithms still form the backbone of the industry in terms of computational cost and explainability.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi.png&#34;&#xA;    alt=&#34;Engineering Analysis of Statistical Approaches and Ensemble Methods in Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Engineering Analysis of Statistical Approaches and Ensemble Methods in Machine Learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

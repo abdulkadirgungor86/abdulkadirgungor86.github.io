@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev-Ops on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/dev-ops/</link>
+    <description>Recent content in Dev-Ops on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/dev-ops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scalability in Software: High-Availability Design with Vertical and Horizontal Scaling</title>
+      <link>https://abdulkadirgungor.com/en/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s software ecosystems characterized by dynamic traffic loads, it is not enough for an application to simply be functional. A system&amp;rsquo;s ability to respond to increasing user counts and data volumes—that is, its &lt;strong&gt;scalability&lt;/strong&gt;—is a critical parameter for the sustainability of a project. This blog post examines vertical and horizontal scaling techniques, load balancing mechanisms, and high-availability design principles in depth.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi.png&#34;&#xA;    alt=&#34;Scalability in Software: High-Availability Design with Vertical and Horizontal Scaling&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Scalability in Software: High-Availability Design with Vertical and Horizontal Scaling&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies</title>
+      <link>https://abdulkadirgungor.com/en/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;In the software world, agility and Time-to-Market often take precedence over engineering excellence. However, this situation causes systems to eventually get stuck in a &amp;ldquo;Technical Debt&amp;rdquo; quagmire. Once maintaining the existing structure becomes more costly than developing new features, &amp;ldquo;Legacy Modernization&amp;rdquo; becomes an inevitable necessity.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-taxonomy-of-technical-debt-and-engineering-impacts&#34;&gt;1. Taxonomy of Technical Debt and Engineering Impacts&lt;/h2&gt;&#xA;&lt;p&gt;Technical debt is not just &amp;ldquo;bad code.&amp;rdquo; This concept, introduced by Ward Cunningham, is the interest that must be paid in the future on technical decisions made consciously or unconsciously.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microservices Orchestration: Containerized System Management with Kubernetes and Docker</title>
+      <link>https://abdulkadirgungor.com/en/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi/</guid>
+      <description>&lt;p&gt;As modern software architectures evolve from monolithic structures to microservices-based distributed systems, the management, scaling, and communication of these services have become one of the most critical challenges. Microservices orchestration is a process that automates the lifecycle of containerized applications. In this article, we will discuss industry standards and advanced technical configurations, specifically focusing on Docker and Kubernetes (K8s).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi.png&#34;&#xA;    alt=&#34;Microservices Orchestration: Containerized System Management with Kubernetes and Docker&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Microservices Orchestration: Containerized System Management with Kubernetes and Docker.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible</title>
+      <link>https://abdulkadirgungor.com/en/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</guid>
+      <description>&lt;p&gt;In the modern software development life cycle (SDLC), traditional manual infrastructure configurations have been replaced by fully automated, versionable, and repeatable processes. &lt;strong&gt;Infrastructure as Code (IaC)&lt;/strong&gt; refers to the management of all infrastructure components—from physical hardware to virtual machines and cloud-based services—using software development principles (coding, testing, CI/CD integration).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/infrastructure-as-code-%28iac%29-terraform-ve-ansible-ile-altyapi-yonetimi.png&#34;&#xA;    alt=&#34;Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

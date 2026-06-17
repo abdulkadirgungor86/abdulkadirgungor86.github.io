@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory-Management on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/memory-management/</link>
+    <description>Recent content in Memory-Management on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/memory-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance Optimization and Latency Management in N-Tier Architecture</title>
+      <link>https://abdulkadirgungor.com/en/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</guid>
+      <description>&lt;p&gt;In modern enterprise software development processes, N-Tier (multi-layered) architecture has become the industry standard for sustainability and code separation. However, dividing an application logically or physically into presentation, business logic, and data access layers inevitably brings the phenomenon of &amp;ldquo;inter-layer latency.&amp;rdquo; The .NET 8.0 ecosystem provides powerful tools to minimize these architectural costs with its low-level improvements and modern runtime capabilities.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi.png&#34;&#xA;    alt=&#34;Performance Optimization and Latency Management in N-Tier Architecture&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Performance Optimization and Latency Management in N-Tier Architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types</title>
+      <link>https://abdulkadirgungor.com/en/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</guid>
+      <description>&lt;p&gt;In modern software architectures, performance optimization and memory management are the most critical factors determining the runtime behavior of code. Although high-level languages (C#, Java, Python) manage memory automatically, understanding the &lt;strong&gt;Stack&lt;/strong&gt; and &lt;strong&gt;Heap&lt;/strong&gt; distinction occurring in the background is essential for preventing memory leaks and efficiently utilizing processor resources.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi.png&#34;&#xA;    alt=&#34;A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Behind the Scenes: Memory Management and Garbage Collector Mechanisms in Python</title>
+      <link>https://abdulkadirgungor.com/en/software/gorunmeyenin-ardi-python-da-bellek-yonetimi-ve-garbage-collector-mekanizmalari/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/gorunmeyenin-ardi-python-da-bellek-yonetimi-ve-garbage-collector-mekanizmalari/</guid>
+      <description>&lt;p&gt;Python quietly handles complex processes like memory management in the background, thanks to the high-level abstraction it offers to the developer. However, in performance-critical applications, understanding how this silent architecture works is vital for resolving &amp;ldquo;Memory Leak&amp;rdquo; issues or optimizing resource consumption. Memory management in Python consists of a layered structure such as &lt;strong&gt;Reference Counting&lt;/strong&gt;, &lt;strong&gt;Generational Garbage Collection&lt;/strong&gt;, and &lt;strong&gt;Memory Pools&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/gorunmeyenin-ardi-python-da-bellek-yonetimi-ve-garbage-collector-mekanizmalari.png&#34;&#xA;    alt=&#34;Behind the Scenes: Memory Management and Garbage Collector Mechanisms in Python&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Behind the Scenes: Memory Management and Garbage Collector Mechanisms in Python&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis</title>
+      <link>https://abdulkadirgungor.com/en/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi/</guid>
+      <description>&lt;p&gt;Memory management is one of the most critical layers in modern software architectures that directly affects system performance and application stability. Garbage Collection (GC) is a mechanism developed to minimize errors that may arise from manual memory management (malloc/free or new/delete) by tracking the lifecycle of dynamically allocated objects.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi.png&#34;&#xA;    alt=&#34;Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-memory-allocation-and-object-lifecycle&#34;&gt;1. Memory Allocation and Object Lifecycle&lt;/h2&gt;&#xA;&lt;p&gt;An object&amp;rsquo;s lifecycle begins with memory allocation at runtime. In modern languages (Java, C#, Go, Python), this process typically occurs in the &lt;strong&gt;Heap&lt;/strong&gt; area.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</guid>
+      <description>&lt;p&gt;In the modern data ecosystem, the ultimate limit to performance is no longer storage capacity, but the speed at which data reaches the processor. Developed to overcome Input/Output (I/O) bottlenecks in traditional disk-based (HDD/SSD) systems, in-memory data processing architectures structure data directly in RAM, reducing data access times to the microsecond level.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri-isleme-stratejileri.png&#34;&#xA;    alt=&#34;In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boxing and Unboxing Costs: Type Conversions in Performance-Critical Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</guid>
+      <description>&lt;p&gt;In modern programming languages, especially managed languages like C# and Java, the &lt;code&gt;Object&lt;/code&gt; type sits at the top of the type system hierarchy. While this structure allows every type to behave like an object, it creates a significant memory management burden in the background. &lt;strong&gt;Boxing&lt;/strong&gt; and &lt;strong&gt;Unboxing&lt;/strong&gt; operations bridge the gap between Value Types and Reference Types. However, in performance-critical systems (high-frequency trading systems, game engines, or real-time data processing units), these operations are referred to as &amp;ldquo;silent performance killers.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

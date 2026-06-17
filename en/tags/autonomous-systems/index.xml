@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autonomous-Systems on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/autonomous-systems/</link>
+    <description>Recent content in Autonomous-Systems on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/autonomous-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis</title>
+      <link>https://abdulkadirgungor.com/en/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi/</guid>
+      <description>&lt;p&gt;The evolution of autonomous systems is shifting from classical control theories and deterministic algorithms towards dynamic structures with cognitive capabilities. Traditional robotics and autonomous systems were limited by predefined decision trees and sensor fusion algorithms. However, the integration of Large Language Models (LLMs) as a systematic &amp;ldquo;architectural layer&amp;rdquo; has fundamentally changed the uncertainty management and complex task planning capacity of these systems.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi.png&#34;&#xA;    alt=&#34;Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Architecture of Autonomous Systems: SLAM, Sensor Fusion, and Reinforcement Learning Processes</title>
+      <link>https://abdulkadirgungor.com/en/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri/</guid>
+      <description>&lt;p&gt;Autonomous systems are more than just mechanical structures; they represent the seamless integration of complex algorithms and high-density data processing with the physical world. Modern robotic architectures provide independent movement capabilities in dynamic environments by combining perception, mapping, and decision-making processes. In this article, we will examine the core pillars of autonomous systems—SLAM, Sensor Fusion, and Reinforcement Learning (RL)—from a deep technical perspective.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri.png&#34;&#xA;    alt=&#34;Engineering Architecture of Autonomous Systems: SLAM, Sensor Fusion, and Reinforcement Learning Processes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Engineering Architecture of Autonomous Systems: SLAM, Sensor Fusion, and Reinforcement Learning Processes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

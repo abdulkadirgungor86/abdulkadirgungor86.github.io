@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reinforcement-Learning on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/reinforcement-learning/</link>
+    <description>Recent content in Reinforcement-Learning on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pekiştirmeli Öğrenme: Dinamik Karar Mekanizmaları ve Otonom Sistemlerin Matematiği</title>
+      <link>https://abdulkadirgungor.com/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi/</guid>
+      <description>&lt;p&gt;Pekiştirmeli Öğrenme (Reinforcement Learning - RL), makine öğrenmesi hiyerarşisinde denetimli ve denetimsiz öğrenmeden keskin hatlarla ayrılan, temelini davranışsal psikolojideki &amp;ldquo;deneme-yanılma&amp;rdquo; mekanizmasından alan bir disiplindir. RL, statik veri kümeleri üzerinde örüntü tanımaktan ziyade, bir ajanın (agent) belirsizlik içeren bir ortamda (environment) kümülatif ödülü maksimize etmek amacıyla gerçekleştirdiği aksiyonlar dizisini optimize eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi.png&#34;&#xA;    alt=&#34;Pekiştirmeli Öğrenme: Dinamik Karar Mekanizmaları ve Otonom Sistemlerin Matematiği&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Pekiştirmeli Öğrenme: Dinamik Karar Mekanizmaları ve Otonom Sistemlerin Matematiği.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

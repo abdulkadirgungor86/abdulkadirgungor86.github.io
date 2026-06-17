@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adapter-Pattern on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/adapter-pattern/</link>
+    <description>Recent content in Adapter-Pattern on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/adapter-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structural Patterns: System Modernization with Adapter and Facade</title>
+      <link>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</guid>
+      <description>&lt;p&gt;Integrating legacy systems that have accumulated technical debt into modern technologies and making them modular is a critical requirement for sustainability. One of the biggest obstacles encountered during the system modernization process is the incompatibility of the existing codebase with new interfaces and the tight coupling between system components.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Adapter&lt;/strong&gt; and &lt;strong&gt;Facade&lt;/strong&gt; structural design patterns, defined by the Gang of Four (GoF), are fundamental tools used to overcome such architectural bottlenecks. This article examines the in-depth technical analysis, roles in modernization projects, and implementation strategies of both patterns.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

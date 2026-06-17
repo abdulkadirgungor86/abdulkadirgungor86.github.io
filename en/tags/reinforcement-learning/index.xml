@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reinforcement-Learning on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/reinforcement-learning/</link>
+    <description>Recent content in Reinforcement-Learning on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delicate Balances and Strategic Approaches in Modern Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;The artificial intelligence ecosystem is built upon two massive pillars in the processes of extracting meaning from data and transforming that meaning into action: supervised learning algorithms that draw geometric boundaries, and reinforcement learning models that act as experience-oriented decision-making mechanisms. In today&amp;rsquo;s complex datasets, making accurate predictions is not enough; it is vital to show resistance against noise and to develop the best strategy in dynamic environments.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Delicate Balances and Strategic Approaches in Modern Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Delicate Balances and Strategic Approaches in Modern Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Layered Architecture and Algorithmic Depth of Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinin-katmanli-mimarisi-ve-algoritmik-derinligi/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinin-katmanli-mimarisi-ve-algoritmik-derinligi/</guid>
+      <description>&lt;p&gt;The artificial intelligence and machine learning ecosystem is built upon a vertical hierarchy that extends from raw data to abstract inferences. This journey begins at the lowest level with hardware and machine language, and concludes at the highest level with philosophical deductions and high-level cognitive modeling. For an engineer, understanding the transition between these layers means not just writing code, but mastering the behavioral mechanics of the system.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinin-katmanli-mimarisi-ve-algoritmik-derinligi.png&#34;&#xA;    alt=&#34;The Layered Architecture and Algorithmic Depth of Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: The Layered Architecture and Algorithmic Depth of Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reinforcement Learning: Dynamic Decision Mechanisms and the Mathematics of Autonomous Systems</title>
+      <link>https://abdulkadirgungor.com/en/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi/</guid>
+      <description>&lt;p&gt;Reinforcement Learning (RL) is a discipline in the machine learning hierarchy that is sharply distinguished from supervised and unsupervised learning, based on the &amp;ldquo;trial-and-error&amp;rdquo; mechanism in behavioral psychology. Rather than recognizing patterns in static datasets, RL optimizes the sequence of actions an agent takes in an uncertain environment to maximize cumulative reward.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi.png&#34;&#xA;    alt=&#34;Reinforcement Learning: Dynamic Decision Mechanisms and the Mathematics of Autonomous Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Reinforcement Learning: Dynamic Decision Mechanisms and the Mathematics of Autonomous Systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Architecture of Autonomous Systems: SLAM, Sensor Fusion, and Reinforcement Learning Processes</title>
+      <link>https://abdulkadirgungor.com/en/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri/</guid>
+      <description>&lt;p&gt;Autonomous systems are more than just mechanical structures; they represent the seamless integration of complex algorithms and high-density data processing with the physical world. Modern robotic architectures provide independent movement capabilities in dynamic environments by combining perception, mapping, and decision-making processes. In this article, we will examine the core pillars of autonomous systems—SLAM, Sensor Fusion, and Reinforcement Learning (RL)—from a deep technical perspective.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri.png&#34;&#xA;    alt=&#34;Engineering Architecture of Autonomous Systems: SLAM, Sensor Fusion, and Reinforcement Learning Processes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Engineering Architecture of Autonomous Systems: SLAM, Sensor Fusion, and Reinforcement Learning Processes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

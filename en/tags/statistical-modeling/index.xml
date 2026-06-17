@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistical-Modeling on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/statistical-modeling/</link>
+    <description>Recent content in Statistical-Modeling on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/statistical-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Data Engineering: Scalable Pipeline Architectures and Analytical Transformation Strategies</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s data ecosystems, the transformation of raw data from an unprocessed heap into a strategic asset relies on the integration of complex systems. This process requires not only moving data from one point to another but also transforming it with low latency and high accuracy, while preserving the semantic structure of the data.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri.png&#34;&#xA;    alt=&#34;Modern Data Engineering: Scalable Pipeline Architectures and Analytical Transformation Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Modern Data Engineering: Scalable Pipeline Architectures and Analytical Transformation Strategies.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

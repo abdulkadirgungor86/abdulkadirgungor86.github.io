@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Free-Rtos on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/free-rtos/</link>
+    <description>Recent content in Free-Rtos on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/free-rtos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architectural Decision Processes in IoT Projects: A Technical Analysis of ESP32 and ESP8266 Microcontrollers</title>
+      <link>https://abdulkadirgungor.com/en/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</guid>
+      <description>&lt;p&gt;In the Internet of Things (IoT) ecosystem, hardware selection plays a decisive role in a project&amp;rsquo;s sustainability, power consumption, and processing capacity. Developed by Espressif Systems, the ESP8266 and its successor, the ESP32, have revolutionized the world of embedded systems by offering low-cost Wi-Fi integration. However, these two platforms represent significantly different spectrums in terms of architecture.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi.png&#34;&#xA;    alt=&#34;Architectural Decision Processes in IoT Projects: Technical Analysis of ESP32 and ESP8266 Microcontrollers&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Architectural Decision Processes in IoT Projects: Technical Analysis of ESP32 and ESP8266 Microcontrollers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

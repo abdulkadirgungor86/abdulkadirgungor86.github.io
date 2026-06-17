@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ros2 on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/ros2/</link>
+    <description>Recent content in Ros2 on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/ros2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sürü Robotik Sistemlerinde Kolektif Zeka ve Dinamik Görev Alokasyonu</title>
+      <link>https://abdulkadirgungor.com/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu/</guid>
+      <description>&lt;p&gt;Sürü robotiği, doğadaki sosyal organizmaların (karıncalar, arılar veya kuşlar) sergilediği kolektif davranışları temel alan, merkezi olmayan kontrol mekanizmalarına odaklanan bir robotik alt dalıdır. Tek bir sofistike robot yerine, sınırlı yeteneklere sahip çok sayıda ajanın etkileşimiyle karmaşık görevlerin yerine getirilmesi hedeflenir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu.png&#34;&#xA;    alt=&#34;Sürü Robotik Sistemlerinde Kolektif Zeka ve Dinamik Görev Alokasyonu&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Sürü Robotik Sistemlerinde Kolektif Zeka ve Dinamik Görev Alokasyonu.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-mimari-temeller-merkeziyetçilikten-dağıtık-sisteme-geçiş&#34;&gt;1. Mimari Temeller: Merkeziyetçilikten Dağıtık Sisteme Geçiş&lt;/h2&gt;&#xA;&lt;p&gt;Klasik robotik yaklaşımlarında &amp;ldquo;Merkezi Kontrol Ünitesi&amp;rdquo; (MCU), tüm verileri toplar ve her bir birime komut gönderir. Ancak sürü sistemlerinde bu durum, tek bir hata noktasının (single point of failure) tüm sistemi çökertmesine neden olur. Dağıtık sistemlerde ise her ajan yerel bilgilerle hareket eder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Robotik Sistemlerin Evrimi ve ROS 2 Ekosistemine Modern Geçiş Stratejileri</title>
+      <link>https://abdulkadirgungor.com/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri/</guid>
+      <description>&lt;p&gt;Robotik dünyası, son on yılda monolitik yapılardan dağıtık ve modüler mimarilere doğru devasa bir evrim geçirdi. Bu evrimin merkezinde yer alan Robot İşletim Sistemi (ROS), özellikle &amp;ldquo;Lush&amp;rdquo; ve &amp;ldquo;Noetic&amp;rdquo; gibi sürümlerle akademik ve endüstriyel standartları belirledi. Ancak, gerçek zamanlı veri işleme gereksinimleri, endüstriyel güvenlik standartları ve çoklu robot koordinasyonu gibi modern ihtiyaçlar, orijinal ROS mimarisinin sınırlarını zorlamaya başladı. Bu noktada ROS 2, Data Distribution Service (DDS) katmanı üzerine inşa edilen yeni mimarisiyle, robotik sistemleri laboratuvar ortamından çıkarıp kritik endüstriyel operasyon sahalarına taşıyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tarım 4.0 ve Otonom Robotik Sistemlerde Yeni Nesil Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar/</guid>
+      <description>&lt;p&gt;Geleneksel tarım metotlarının yerini alan Tarım 4.0, dijitalleşme ve otomasyonun en üst seviyede entegre edildiği bir ekosistemi temsil etmektedir. Bu dönüşümün merkezinde yer alan otonom tarım araçları, yalnızca insan gücüne olan ihtiyacı azaltmakla kalmayıp, operasyonel verimliliği ve hassasiyeti matematiksel bir kesinliğe taşımaktadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar.png&#34;&#xA;    alt=&#34;Tarım 4.0 ve Otonom Robotik Sistemlerde Yeni Nesil Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Tarım 4.0 ve Otonom Robotik Sistemlerde Yeni Nesil Yaklaşımlar.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;otonom-araçlarda-dinamik-yol-planlama-ve-navigasyon&#34;&gt;Otonom Araçlarda Dinamik Yol Planlama ve Navigasyon&lt;/h2&gt;&#xA;&lt;p&gt;Tarım arazileri, yapılandırılmamış doğası gereği otonom sistemler için en zorlu çalışma alanlarından biridir. Engel tespiti, eğim analizi ve değişken zemin yapısı, statik yol planlama algoritmalarının ötesine geçilmesini zorunlu kılar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otonom Robotik Sistemlerde Derin Öğrenme Temelli Nesne Algılama ve Manipülasyon Teknikleri</title>
+      <link>https://abdulkadirgungor.com/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</guid>
+      <description>&lt;p&gt;Modern robotik sistemlerin temel taşını oluşturan nesne tanıma ve kavrama (grasping) süreçleri, geleneksel bilgisayarlı görü yöntemlerinden sıyrılarak tamamen derin öğrenme (Deep Learning) mimarileri üzerine inşa edilmektedir. Bir robotun fiziksel dünyayla etkileşime girmesi, sadece nesnenin koordinatlarını bilmesini değil, aynı zamanda nesnenin geometrik yapısını, materyal özelliklerini ve yaklaşım açılarını analiz etmesini gerektirir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri.png&#34;&#xA;    alt=&#34;Otonom Robotik Sistemlerde Derin Öğrenme Temelli Nesne Algılama ve Manipülasyon Teknikleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Otonom Robotik Sistemlerde Derin Öğrenme Temelli Nesne Algılama ve Manipülasyon Teknikleri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

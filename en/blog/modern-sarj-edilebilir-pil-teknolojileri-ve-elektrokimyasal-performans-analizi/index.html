@@ -1,0 +1,2683 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+	
+	
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5L6M34JW');</script>
+	
+	
+    <script>
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+        }
+        
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+    </script>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis | Abdulkadir Güngör</title>
+<meta name="description" content="This blog post, which details modern battery technologies and the electrochemical operating principles of these systems, examines the technical specifications, performance metrics, and usage advantages of Li-ion, LiFePO4, NiMH, Ni-Cd, and lead-acid batteries from an engineering perspective." />
+<meta name="author" content="Abdulkadir Güngör" />
+<link rel="canonical" href="https://abdulkadirgungor.com/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis | Abdulkadir Güngör" />
+<meta property="og:description" content="This blog post, which details modern battery technologies and the electrochemical operating principles of these systems, examines the technical specifications, performance metrics, and usage advantages of Li-ion, LiFePO4, NiMH, Ni-Cd, and lead-acid batteries from an engineering perspective." />
+<meta property="og:url" content="https://abdulkadirgungor.com/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/" />
+
+
+<meta property="og:image" content="/images/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi.png"><meta property="twitter:image" content="/images/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi.png">
+
+<meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:site_name" content="Abdulkadir Güngör" /><meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="/favicon.ico" />
+
+<link rel="stylesheet" href="/css/vendor/all.min.css">
+
+<link rel="stylesheet" href="/css/vendor/devicon.min.css">
+
+<script defer src="/js/vendor/gsap.min.js"></script>
+<script defer src="/js/vendor/ScrollTrigger.min.js"></script>
+
+
+  <link rel="stylesheet" href="/css/vendor/katex.min.css">
+  <script defer src="/js/vendor/katex.min.js"></script>
+
+  <script defer src="/js/vendor/auto-render.min.js" 
+          onload="renderMathInElement(document.body, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+            ]
+          });">
+  </script>
+
+    <style>
+ 
+:root {
+   
+  
+  
+  --color-primary: #474A51;
+  --color-second: #E52521;
+  --color-third: #3CB043;
+  
+  
+   
+  --color-primary-light: color-mix(in srgb, var(--color-primary) 80%, white);
+  --color-primary-dark: color-mix(in srgb, var(--color-primary) 80%, black);
+  --color-primary-lighter: color-mix(in srgb, var(--color-primary) 20%, white);
+  
+  --color-second-light: color-mix(in srgb, var(--color-second) 80%, white);
+  --color-second-dark: color-mix(in srgb, var(--color-second) 80%, black);
+  --color-second-lighter: color-mix(in srgb, var(--color-second) 20%, white);
+  
+  --color-third-light: color-mix(in srgb, var(--color-third) 80%, white);
+  --color-third-dark: color-mix(in srgb, var(--color-third) 80%, black);
+  --color-third-lighter: color-mix(in srgb, var(--color-third) 20%, white);
+  
+   
+  --color-gray-50: color-mix(in srgb, var(--color-primary) 5%, white);
+  --color-gray-100: color-mix(in srgb, var(--color-primary) 10%, white);
+  --color-gray-300: color-mix(in srgb, var(--color-primary) 20%, white);
+  --color-gray-400: color-mix(in srgb, var(--color-primary) 30%, white);
+  --color-gray-500: color-mix(in srgb, var(--color-primary) 40%, white);
+  --color-gray-600: color-mix(in srgb, var(--color-primary) 50%, black);
+  --color-gray-700: color-mix(in srgb, var(--color-primary) 60%, black);
+  --color-gray-800: color-mix(in srgb, var(--color-primary) 80%, black);
+  --color-gray-900: color-mix(in srgb, var(--color-primary) 90%, black);
+  
+   
+  --color-white: #ffffff;
+  --color-black: #000000;
+  
+   
+  --color-shadow-light: rgba(0, 0, 0, 0.1);
+  --color-shadow-lighter: rgba(0, 0, 0, 0.05);
+  --color-shadow-dark: rgba(0, 0, 0, 0.3);
+  
+   
+  --color-text-muted: var(--color-gray-500);
+  --color-border-secondary: var(--color-gray-300);
+  --color-success: var(--color-second);
+  
+   
+  --color-bg: var(--color-white);
+  --color-bg-secondary: var(--color-gray-100);
+  --color-text-primary: var(--color-gray-900);
+  --color-text-secondary: var(--color-gray-700);
+  --color-border: var(--color-gray-300);
+}
+
+ 
+.dark {
+  --color-bg: color-mix(in srgb, var(--color-primary) 50%, black);
+  --color-bg-secondary: color-mix(in srgb, var(--color-primary) 30%, black);
+  --color-bg-tertiary: color-mix(in srgb, var(--color-primary) 40%, black);
+  --color-text-primary: var(--color-gray-50);
+  --color-text-secondary: var(--color-gray-300);
+  --color-border: var(--color-gray-700);
+  --color-text-muted: var(--color-gray-400);
+  --color-border-secondary: var(--color-gray-600);
+}
+</style>
+
+    
+    
+    <link rel="preload" href="/css/main.min.bf1abae653e202e3848ee2a96d60afeecbc0387c73eba24ce67dcda3509b8819.css" as="style">
+    <link rel="stylesheet" href="/css/main.min.bf1abae653e202e3848ee2a96d60afeecbc0387c73eba24ce67dcda3509b8819.css">
+    
+    <link rel="preload" href="https://abdulkadirgungor.com/images/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi.png" as="image" fetchpriority="high">
+    
+    <style>
+        .calendly-badge-widget .calendly-badge-content{background-color:#006bff!important;color:#fff!important}
+        img{content-visibility:auto;image-rendering:-webkit-optimize-contrast}
+        .fade-in{animation:fadeIn 0.4s ease-in forwards}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+    </style>
+</head>
+<body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200 fade-in">
+    
+	
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L6M34JW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	
+	
+    
+<nav id="main-site-navbar" class="fixed w-full bg-bg dark:bg-bg shadow-md z-[1000]" role="banner">
+  <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
+    <div class="flex justify-between h-16 items-center">
+      <div class="flex items-center">
+        <a href="/en/" class="text-3xl font-bold text-text-primary dark:text-text-primary font-heading">Abdulkadir Güngör</a>
+      </div>
+      
+      <div class="hidden xl:flex items-center space-x-6">
+        
+          
+            
+            <a href="/en/#about" class="nav-link text-text-primary dark:text-text-primary">About</a>
+            
+          
+        
+          
+            
+            <a href="/en/#skills" class="nav-link text-text-primary dark:text-text-primary">Skills</a>
+            
+          
+        
+          
+            
+            <a href="/en/#experience" class="nav-link text-text-primary dark:text-text-primary">Experience</a>
+            
+          
+        
+          
+            
+            <a href="/en/#technical" class="nav-link text-text-primary dark:text-text-primary">Tech Stack</a>
+            
+          
+        
+          
+            
+            <a href="/en/#contact" class="nav-link text-text-primary dark:text-text-primary">Contact</a>
+            
+          
+        
+          
+            
+            <a href="/en/ai/" class="nav-link text-text-primary dark:text-text-primary">AI</a>
+            
+          
+        
+          
+            
+            <a href="/en/software/" class="nav-link text-text-primary dark:text-text-primary">Software</a>
+            
+          
+        
+          
+            
+            <a href="/en/blog/" class="nav-link text-text-primary dark:text-text-primary">Blog</a>
+            
+          
+        
+        
+        
+        
+        
+		
+        
+        <div class="relative group">
+          <a href="#" class="nav-link text-text-primary dark:text-text-primary flex items-center" aria-label="Language switcher">
+            <span class="text-lg mr-1">🇪🇳</span>
+            <i class="fas fa-chevron-down ml-1 text-sm"></i>
+          </a>
+          <div class="submenu absolute right-0 top-full mt-2 bg-bg dark:bg-bg shadow-lg rounded-lg z-50 min-w-[8rem] opacity-0 invisible">
+            
+            
+              
+              
+                
+                
+				
+                
+                
+                <a href="/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/" class="nav-link block px-4 py-2 text-sm text-text-primary dark:text-text-primary ">
+                  <span class="mr-2">🇹🇷 - Türkçe</span>
+                </a>
+              
+            
+              
+              
+                
+                
+				
+                
+                
+                <a href="/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/" class="nav-link block px-4 py-2 text-sm text-text-primary dark:text-text-primary font-semibold">
+                  <span class="mr-2">🇪🇳 - English</span>
+                </a>
+              
+            
+          </div>
+        </div>
+        
+
+        <div class="flex items-center space-x-4" data-animation="social">
+          
+          <a href="https://www.linkedin.com/in/abdulkadir-g%c3%bcng%c3%b6r/" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+            <i class="fab fa-linkedin-in text-xl"></i>
+          </a>
+          
+          
+          <a href="https://github.com/abdulkadirgungor86" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+            <i class="fab fa-github text-xl"></i>
+          </a>
+          
+          
+          
+          <a href="https://calendly.com/a-kadir-gungor-86/30min" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125" aria-label="Book a meeting on Calendly">
+            <img src="/images/calendly-icon.svg" alt="" class="w-6 h-6" width="24" height="24">
+          </a>
+          
+        </div>
+        <button id="darkModeToggle" class="text-text-primary dark:text-text-primary focus:outline-none transition-transform duration-300 hover:scale-125">
+          <i class="fas fa-toggle-on dark:hidden text-xl"></i>
+          <i class="fas fa-toggle-off hidden dark:block text-xl"></i>
+        </button>
+
+        <button id="desktopCookieBtn" title="Cookie Settings" onclick="toggleCookieBanner()" class="cookie-trigger-btn text-text-primary dark:text-text-primary focus:outline-none hover:scale-125 transition-all duration-300 flex items-center justify-center w-9 h-9 flex-shrink-0 rounded-full" aria-label="Cookie settings">
+          <i class="fas fa-cog text-xl transition-transform duration-300"></i>
+        </button>
+      </div>
+
+      <div class="xl:hidden flex items-center space-x-2">
+        <button id="mobileCookieBtn" title="Cookie Settings" onclick="toggleCookieBanner()" class="cookie-trigger-btn text-text-primary dark:text-text-primary focus:outline-none flex items-center justify-center w-9 h-9 flex-shrink-0 rounded-full" aria-label="Cookie settings">
+          <i class="fas fa-cog text-xl transition-transform duration-300"></i>
+        </button>
+        <button id="darkModeToggleMobile" class="text-text-primary dark:text-text-primary focus:outline-none p-2">
+          <i class="fas fa-toggle-on dark:hidden text-2xl"></i>
+          <i class="fas fa-toggle-off hidden dark:block text-2xl"></i>
+        </button>
+        <button id="menu-btn" class="text-text-primary dark:text-text-primary focus:outline-none cursor-pointer p-3 active:scale-95 transition-transform duration-150" type="button" aria-label="Toggle menu">
+          <i class="fas fa-bars text-2xl pointer-events-none"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden xl:hidden w-full bg-white/30 dark:bg-neutral-950/60 backdrop-blur-2xl shadow-xl absolute left-0 top-16 z-[99999] border-t border-border-primary/40 dark:border-border-primary/40 rounded-b-xl transition-all duration-300 transform origin-top overflow-hidden">
+    <div class="px-5 py-4 space-y-4">
+      
+      <div class="flex flex-col space-y-2.5">
+        
+          <div class="w-full py-0.5">
+            <a href="/en/#about" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              About
+            </a>
+            
+          </div>
+        
+          <div class="w-full py-0.5">
+            <a href="/en/#skills" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              Skills
+            </a>
+            
+          </div>
+        
+          <div class="w-full py-0.5">
+            <a href="/en/#experience" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              Experience
+            </a>
+            
+          </div>
+        
+          <div class="w-full py-0.5">
+            <a href="/en/#technical" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              Tech Stack
+            </a>
+            
+          </div>
+        
+          <div class="w-full py-0.5">
+            <a href="/en/#contact" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              Contact
+            </a>
+            
+          </div>
+        
+          <div class="w-full py-0.5">
+            <a href="/en/ai/" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              AI
+            </a>
+            
+          </div>
+        
+          <div class="w-full py-0.5">
+            <a href="/en/software/" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              Software
+            </a>
+            
+          </div>
+        
+          <div class="w-full py-0.5">
+            <a href="/en/blog/" class="nav-link mobile-custom-link inline-block py-1 text-lg font-black relative tracking-wide" >
+              Blog
+            </a>
+            
+          </div>
+        
+      </div>
+      
+      
+      <div class="pt-3 border-t border-border-primary/40 dark:border-border-primary/40">
+        <p class="text-xs font-black uppercase tracking-widest pb-0.5 mb-2.5 border-b border-emerald-500 w-max text-neutral-950 dark:text-white">Dil / Language</p>
+        <div class="flex flex-wrap gap-2 px-0.5">
+          
+          
+            
+            
+              
+              
+			  
+              
+
+              
+              
+                
+                  
+                    
+                  
+                
+              
+              
+              <a href="/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/" class="py-1.5 px-3.5 text-xs font-black transition-all duration-200 rounded-lg flex items-center space-x-2 shadow-sm text-neutral-950 dark:text-white bg-white/30 dark:bg-neutral-800/30 border border-neutral-300/40 dark:border-neutral-700/40 hover:bg-emerald-500/10 dark:hover:bg-emerald-500/10" aria-label="Switch to ">
+                <span>🇹🇷 Türkçe</span>
+              </a>
+            
+          
+            
+            
+              
+              
+			  
+              
+
+              
+              
+                
+                  
+                
+              
+              
+              <a href="/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/" class="py-1.5 px-3.5 text-xs font-black transition-all duration-200 rounded-lg flex items-center space-x-2 shadow-sm text-emerald-600 dark:text-emerald-400 bg-white/80 dark:bg-neutral-900/80 border-2 border-emerald-500 scale-105" aria-label="Switch to ">
+                <span>🇪🇳 English</span>
+              </a>
+            
+          
+        </div>
+      </div>
+      
+
+      <div class="pt-3 border-t border-border-primary/40 dark:border-border-primary/40 flex items-center space-x-6 px-0.5" data-animation="social">
+        
+        <a href="https://www.linkedin.com/in/abdulkadir-g%c3%bcng%c3%b6r/" target="_blank" rel="noopener noreferrer" class="text-neutral-950 dark:text-white transition-all duration-300 hover:scale-110 active:scale-95">
+          <i class="fab fa-linkedin-in text-xl"></i>
+        </a>
+        
+        
+        <a href="https://github.com/abdulkadirgungor86" target="_blank" rel="noopener noreferrer" class="text-neutral-950 dark:text-white transition-all duration-300 hover:scale-110 active:scale-95">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        
+        
+        
+        <a href="https://calendly.com/a-kadir-gungor-86/30min" target="_blank" rel="noopener noreferrer" class="text-neutral-950 dark:text-white transition-all duration-300 hover:scale-110 active:scale-95" aria-label="Book a meeting on Calendly">
+          <img src="/images/calendly-icon.svg" alt="" class="w-6 h-6 inline" style="filter: none !important;" width="24" height="24">
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .mobile-custom-link,
+    .mobile-sub-link {
+      color: #0a0a0a !important;
+      text-decoration: none !important;
+    }
+    
+    .dark .mobile-custom-link,
+    .dark .mobile-sub-link {
+      color: #ffffff !important;
+    }
+
+    .mobile-custom-link:hover, .mobile-custom-link:focus, .mobile-custom-link:active,
+    .mobile-sub-link:hover, .mobile-sub-link:focus, .mobile-sub-link:active {
+      color: #0a0a0a !important;
+    }
+    .dark .mobile-custom-link:hover, .dark .mobile-custom-link:focus, .dark .mobile-custom-link:active,
+    .dark .mobile-sub-link:hover, .dark .mobile-sub-link:focus, .dark .mobile-sub-link:active {
+      color: #ffffff !important;
+    }
+
+    #mobile-menu a.py-1\.5 {
+      color: inherit !important;
+    }
+
+    .group.open .submenu {
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+    
+    .cookie-trigger-btn {
+      will-change: transform, background-color;
+      transform: translateZ(0);
+      pointer-events: auto !important; 
+    }
+
+    .active-cookie-btn {
+      background-color: rgba(156, 163, 175, 0.15) !important;
+      border-radius: 9999px !important;
+    }
+    .dark .active-cookie-btn {
+      background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    .active-cookie-btn i {
+      transform: rotate(45deg);
+    }
+
+    .mobile-custom-link::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2.5px;
+      bottom: -1px;
+      left: 0;
+      background-color: #10b981;
+      transform-origin: bottom left;
+      transition: transform 0.25s ease-out;
+    }
+    .mobile-custom-link:hover::after {
+      transform: scaleX(1);
+    }
+  </style>
+</nav>
+
+<div id="cookie-consent-banner" class="hidden fixed bottom-5 right-5 w-[360px] max-w-[calc(100vw-40px)] bg-white/95 dark:bg-neutral-900/95 backdrop-blur-md p-5 rounded-2xl shadow-2xl border border-neutral-200 dark:border-neutral-800 z-[999995] font-sans text-[14px] leading-relaxed">
+  <div class="border-b-2 border-neutral-300 dark:border-neutral-700 pb-2 mb-3 flex items-start gap-2.5">
+    <div class="w-7 h-[28px] flex items-center justify-start flex-shrink-0">
+      <i class="fas fa-cog text-2xl font-black text-text-primary dark:text-text-primary"></i>
+    </div>
+    <p class="font-black text-lg text-text-primary dark:text-text-primary m-0 p-0 leading-7 flex-1">
+      We use cookies to deliver a better service.
+    </p>
+  </div>
+  <p class="text-neutral-900 dark:text-neutral-100 font-bold mb-4">We use cookies and other tracking technologies to improve your browsing experience on our website, to show you personalized content and targeted ads, to analyze our website traffic, and to understand where our visitors are coming from.</p>
+  <div class="flex flex-col gap-2">
+    <button onclick="handleCookie('accept')" class="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-black rounded-xl transition-colors duration-200 shadow-sm">
+      Accept All
+    </button>
+    <button onclick="handleCookie('reject')" class="w-full py-2.5 px-4 bg-red-600 hover:bg-red-700 text-white font-black rounded-xl transition-colors duration-200 shadow-sm">
+      Reject All
+    </button>
+  </div>
+</div>
+
+<div id="kvkk-block-popup" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] max-w-[calc(100vw-40px)] bg-white/95 dark:bg-neutral-900/95 backdrop-blur-lg p-6 rounded-2xl shadow-2xl border-2 border-red-500 z-[999998] font-sans text-[14px] leading-relaxed">
+  <div class="text-center text-red-600 text-3xl mb-2">⚠️</div>
+  <div class="border-b-2 border-neutral-300 dark:border-neutral-700 pb-2 mb-3 flex items-start justify-center gap-2.5">
+    <div class="w-7 h-[28px] flex items-center justify-center flex-shrink-0">
+      <i class="fas fa-cog text-2xl font-black text-text-primary dark:text-text-primary"></i>
+    </div>
+    <p class="font-black text-xl text-text-primary dark:text-text-primary m-0 p-0 leading-7 text-center">
+      GDPR &amp; Cookie Policy Notice
+    </p>
+  </div>
+  <p class="text-neutral-900 dark:text-neutral-100 font-bold mb-5 text-justify">In accordance with data protection regulations; the use of mandatory cookies is required for the core functions of our website to operate, ensure data security, and perform analytics. If you reject the use of cookies, it is not possible to benefit from the services on our website due to technical limitations and data synchronization interruptions. You must consent to the use of cookies to access the content on our site.</p>
+  <button onclick="returnToConsent()" class="w-full py-3 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-black rounded-xl transition-colors duration-200 shadow-md">
+    Return to Consent &amp; Accept
+  </button>
+</div>
+
+<script>
+  const cookieBanner = document.getElementById('cookie-consent-banner');
+  const kvkkPopup = document.getElementById('kvkk-block-popup');
+  const cookieButtons = document.querySelectorAll('.cookie-trigger-btn');
+  const mainNavbar = document.getElementById('main-site-navbar');
+
+  window.addEventListener('DOMContentLoaded', () => {
+      const consent = localStorage.getItem('cookie-consent');
+      
+      
+      if (!consent) {
+          showFirstPopup();
+      } else if (consent === 'rejected') {
+          showKvkkPopup();
+      }
+  });
+
+  function showFirstPopup() {
+    cookieBanner.classList.remove('hidden');
+    kvkkPopup.classList.add('hidden');
+    highlightCookieButton(true);
+    if(mainNavbar) { mainNavbar.style.pointerEvents = "auto"; }
+    document.body.style.overflow = '';
+  }
+
+  function showKvkkPopup() {
+    kvkkPopup.classList.remove('hidden');
+    cookieBanner.classList.add('hidden');
+    highlightCookieButton(true);
+    if(mainNavbar) { mainNavbar.style.pointerEvents = "auto"; }
+    document.body.style.overflow = '';
+  }
+  
+  function closeAllPopups() { 
+    cookieBanner.classList.add('hidden'); 
+    kvkkPopup.classList.add('hidden'); 
+    highlightCookieButton(false); 
+  }
+  
+  function highlightCookieButton(activate) { 
+    cookieButtons.forEach(btn => { 
+      if (activate) { 
+        btn.classList.add('active-cookie-btn'); 
+      } else { 
+        btn.classList.remove('active-cookie-btn'); 
+      } 
+    }); 
+  }
+  
+  
+  function toggleCookieBanner() { 
+    const isFirstVisible = !cookieBanner.classList.contains('hidden');
+    const isKvkkVisible = !kvkkPopup.classList.contains('hidden');
+
+    
+    if (isFirstVisible || isKvkkVisible) {
+      return; 
+    }
+
+    
+    localStorage.removeItem('cookie-consent');
+
+    
+    showFirstPopup();
+  }
+  
+  function handleCookie(choice) { 
+    if (choice === 'accept') { 
+      localStorage.setItem('cookie-consent', 'accepted'); 
+      closeAllPopups(); 
+    } else if (choice === 'rejected' || choice === 'reject') { 
+      localStorage.setItem('cookie-consent', 'rejected'); 
+      showKvkkPopup();
+    } 
+  }
+
+  function returnToConsent() { 
+    
+    localStorage.removeItem('cookie-consent'); 
+    showFirstPopup();
+  }
+
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    const homePath = '\/en\/';
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    const forceCloseMenu = function() {
+      if (mobileMenu) {
+        mobileMenu.style.display = 'none';
+        mobileMenu.classList.add('hidden');
+      }
+    };
+
+    document.querySelectorAll('#mobile-menu a, .section-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const section = this.getAttribute('data-section');
+        if (section && section.startsWith('#')) {
+          const isHomePage = window.location.pathname === homePath || window.location.pathname === homePath + 'index.html' || window.location.pathname === homePath.replace(/\/$/, '');
+          if (isHomePage) {
+            e.preventDefault();
+            const targetElement = document.querySelector(section);
+            if (targetElement) {
+              targetElement.scrollIntoView({ behavior: 'instant', block: 'start' });
+            }
+            forceCloseMenu();
+          } else {
+            forceCloseMenu();
+          }
+        } else {
+          forceCloseMenu();
+        }
+      });
+    });
+    
+    function handleHashScroll() {
+      if (window.location.hash) {
+        const targetElement = document.querySelector(window.location.hash);
+        if (targetElement) {
+          setTimeout(() => {
+            targetElement.scrollIntoView({ behavior: 'instant', block: 'start' });
+          }, 100);
+        }
+      }
+    }
+    handleHashScroll();
+    window.addEventListener('hashchange', handleHashScroll);
+
+    document.querySelectorAll('.group > a.nav-link, .group > button.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const group = this.closest('.group');
+        const isOpen = group.classList.contains('open');
+        document.querySelectorAll('.group').forEach(g => g.classList.remove('open'));
+        if (!isOpen) { group.classList.add('open'); }
+      });
+    });
+    
+    document.addEventListener('click', function(event) {
+      document.querySelectorAll('.group').forEach(group => {
+        if (!group.contains(event.target)) { group.classList.remove('open'); }
+      });
+    });
+
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (mobileMenu.style.display === 'block') {
+          forceCloseMenu();
+        } else {
+          mobileMenu.style.display = 'block';
+          mobileMenu.classList.remove('hidden');
+        }
+      });
+
+      document.addEventListener('click', function(event) {
+        if (mobileMenu.style.display === 'block') {
+          const isClickOnButton = menuBtn.contains(event.target);
+          if (!isClickOnButton) {
+            forceCloseMenu();
+          }
+        }
+      });
+
+      window.addEventListener('resize', function() {
+        if (mobileMenu.style.display === 'block') { forceCloseMenu(); }
+      });
+    }
+  });
+
+  function toggleDarkMode() {
+    const isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('darkMode', isDark);
+  }
+  document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+  document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
+</script>
+    <div class="w-full h-16"></div>
+    <main class="flex-grow">
+
+<style>
+  .custom-scrollbar::-webkit-scrollbar { width: 5px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb { background: #475569; }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+  .custom-scrollbar { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
+  .dark .custom-scrollbar { scrollbar-color: #475569 transparent; }
+</style>
+
+<section class="pt-8 pb-12 bg-bg dark:bg-bg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row gap-8 lg:items-stretch">
+      
+      <div class="lg:w-2/3">
+        <h1 class="text-3xl font-bold text-center mb-8 text-text-primary dark:text-text-primary">Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis</h1>
+        
+		<div class="mt-2 mb-4 flex flex-col items-center justify-center text-center">
+		  <p class="text-base font-semibold text-gray-800 dark:text-gray-200">
+			<time datetime="2026-05-22">
+			  
+				22 May 2026
+			  
+			</time>
+		  </p>
+		</div>
+						
+        <div class="prose max-w-none dark:prose-invert">
+          <p>Today&rsquo;s energy storage systems form the cornerstone of modern life, ranging from portable electronic devices to electric vehicles and grid-scale energy storage solutions. Unlike primary (single-use) batteries, rechargeable (secondary) batteries have the ability to store and release energy thanks to reversible electrochemical reactions. This process occurs through the controlled movement of ions between the anode and cathode of the battery.</p>
+<figure><img src="/images/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi.png"
+    alt="Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis" width="1200"><figcaption>
+      <p>Figure 1: Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis.</p>
+    </figcaption>
+</figure>
+
+<hr>
+<h2 id="1-lithium-ion-batteries-li-ion">1. Lithium-Ion Batteries (Li-ion)</h2>
+<p>Lithium-ion batteries are the undisputed leaders of the consumer electronics and electric mobility world today. The basic operating principle of these batteries is based on the displacement of lithium ions between the anode and cathode through an intercalation mechanism.</p>
+<h3 id="technical-mechanism-and-components">Technical Mechanism and Components</h3>
+<p>A Li-ion cell consists of four main components:</p>
+<ul>
+<li><strong>Cathode:</strong> Lithium metal oxide compounds (such as LCO, NMC, LFP) are generally used.</li>
+<li><strong>Anode:</strong> Graphite structures are mostly preferred; they offer a very stable structure for storing lithium ions.</li>
+<li><strong>Electrolyte:</strong> Organic solvents containing lithium salts (e.g., $LiPF_6$) that enable ion conduction.</li>
+<li><strong>Separator:</strong> A polymer membrane that prevents short circuits between the anode and cathode but allows ion passage.</li>
+</ul>
+<h3 id="advantages-and-disadvantages">Advantages and Disadvantages</h3>
+<ul>
+<li><strong>Energy Density:</strong> Thanks to their high gravimetric and volumetric energy density (Wh/kg and Wh/L), they are very small.</li>
+<li><strong>Memory Effect:</strong> This technology does not exhibit a &ldquo;memory effect&rdquo;; meaning charging the battery without waiting for it to be fully discharged does not lead to performance loss.</li>
+<li><strong>Self-Discharge:</strong> They have a low discharge rate, but deep discharge and high temperatures significantly reduce their cycle life.</li>
+</ul>
+<hr>
+<h2 id="2-lithium-iron-phosphate-batteries-lifepo4---lfp">2. Lithium Iron Phosphate Batteries (LiFePO4 - LFP)</h2>
+<p>LFP batteries, a special sub-branch of the Li-ion family, have revolutionized the industry, especially in terms of safety and cycle life. Olivine-structured lithium iron phosphate is used as the cathode material.</p>
+<h3 id="thermal-stability-and-safety">Thermal Stability and Safety</h3>
+<p>LFP batteries have much higher thermal stability compared to conventional lithium cobalt oxide batteries. Because their chemical bonds are stronger, oxygen release is minimal in cases of overcharging or mechanical damage; this significantly reduces the risk of &ldquo;thermal runaway.&rdquo;</p>
+<h3 id="performance-analysis">Performance Analysis</h3>
+<ul>
+<li><strong>Cycle Life:</strong> They can offer a life between 3,000 and 5,000 cycles, making them ideal for stationary energy storage systems.</li>
+<li><strong>Power Density:</strong> Their energy density is slightly lower compared to standard Li-ion batteries. However, their tolerance to high current draws is quite high.</li>
+</ul>
+<hr>
+<h2 id="3-nickel-metal-hydride-batteries-nimh">3. Nickel Metal Hydride Batteries (NiMH)</h2>
+<p>NiMH batteries are another important technology that has been used since the 1990s and is particularly preferred in high-capacity applications.</p>
+<h3 id="electrochemical-structure">Electrochemical Structure</h3>
+<p>In NiMH batteries, the negative electrode (anode) is a metal alloy (usually $AB_5$ or $AB_2$ type hydrogen storage alloys), and the positive electrode is nickel oxyhydroxide ($NiOOH$). An aqueous potassium hydroxide ($KOH$) solution is used as the electrolyte.</p>
+<h3 id="technical-specifications">Technical Specifications</h3>
+<ul>
+<li><strong>Memory Effect:</strong> Although much less than Ni-Cd batteries, they can experience capacity loss over time if charged without being fully discharged.</li>
+<li><strong>Environmental Factors:</strong> Since they do not contain heavy metals like cadmium, they are considered more environmentally friendly than nickel-cadmium batteries.</li>
+<li><strong>Discharge Curve:</strong> Their voltage does not follow a path as flat as Li-ion batteries during discharge; the voltage gradually drops over time.</li>
+</ul>
+<hr>
+<h2 id="4-nickel-cadmium-batteries-ni-cd">4. Nickel Cadmium Batteries (Ni-Cd)</h2>
+<p>It is one of the oldest rechargeable technologies still seen in industrial applications. They are known for their resistance to high discharge rates.</p>
+<blockquote>
+<p><strong>Note:</strong> Ni-Cd batteries exhibit a serious memory effect. When the battery is charged before it reaches full capacity, it behaves as if it has lost part of its capacity. For this reason, they need to be fully discharged (shocked) periodically.</p>
+</blockquote>
+<p>Today, due to the toxic nature of cadmium, it has largely been replaced by NiMH and Li-ion technologies. However, they still exhibit reliable operating performance under extreme temperature conditions.</p>
+<hr>
+<h2 id="5-lead-acid-batteries-vrla--agm--gel">5. Lead-Acid Batteries (VRLA / AGM / Gel)</h2>
+<p>Lead-acid batteries are considered the ancestors of rechargeable batteries. They are used in places where high energy density is not required and weight is not a problem (such as UPS systems, vehicle batteries).</p>
+<h3 id="operating-principle">Operating Principle</h3>
+<p>In these batteries, the anode is spongy lead ($Pb$) and the cathode is lead dioxide ($PbO_2$). Dilute sulfuric acid ($H_2SO_4$) is used as the electrolyte. As a result of the chemical reaction, both electrodes turn into lead sulfate ($PbSO_4$).</p>
+<h3 id="technical-limitations">Technical Limitations</h3>
+<ul>
+<li><strong>Low Energy Density:</strong> They store very little energy relative to their weight.</li>
+<li><strong>Deep Discharge Sensitivity:</strong> Models not suitable for deep discharge suffer from sulfation problems in a short time and become unusable.</li>
+<li><strong>Charging Time:</strong> They require quite long periods for a full charge.</li>
+</ul>
+<hr>
+<h2 id="technical-comparison-table">Technical Comparison Table</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Battery Technology</th>
+          <th>Energy Density</th>
+          <th>Cycle Life</th>
+          <th>Memory Effect</th>
+          <th>Field of Use</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Li-ion</strong></td>
+          <td>Very High</td>
+          <td>Medium - High</td>
+          <td>None</td>
+          <td>Smartphones, Laptops</td>
+      </tr>
+      <tr>
+          <td><strong>LiFePO4</strong></td>
+          <td>Medium</td>
+          <td>Very High</td>
+          <td>None</td>
+          <td>Solar Energy Systems, EV</td>
+      </tr>
+      <tr>
+          <td><strong>NiMH</strong></td>
+          <td>Medium</td>
+          <td>Medium</td>
+          <td>Low</td>
+          <td>Hand Tools, Hybrid Vehicles</td>
+      </tr>
+      <tr>
+          <td><strong>Ni-Cd</strong></td>
+          <td>Low</td>
+          <td>High</td>
+          <td>Yes</td>
+          <td>Industrial Backup Power</td>
+      </tr>
+      <tr>
+          <td><strong>Lead-Acid</strong></td>
+          <td>Very Low</td>
+          <td>Low</td>
+          <td>None</td>
+          <td>Automotive, UPS</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="future-technologies-solid-state-batteries">Future Technologies: Solid-State Batteries</h2>
+<p>The most important technology currently in the R&amp;D stage is <strong>Solid-State Batteries</strong>, which use a solid electrolyte instead of a liquid one. This structure, which eliminates risks such as the flammability and potential leakage of liquid electrolytes, promises to offer much higher energy density.</p>
+<h3 id="why-solid-state">Why Solid-State?</h3>
+<ul>
+<li><strong>Safer:</strong> The risk of combustion is negligible.</li>
+<li><strong>Fast Charging:</strong> Since ion transfer occurs much more efficiently, it allows for a full charge in minutes.</li>
+<li><strong>Long Life:</strong> Since electrochemical degradation is minimized, the cycle life can be many times higher than that of classic Li-ion batteries.</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>With the advancement of technology, rechargeable batteries have evolved from being just a &ldquo;container holding electricity&rdquo; to complex electrochemical devices integrated with smart battery management systems (BMS). Choosing the right chemical structure according to your area of application (high power draw, long life, low weight, or cost-efficiency) is a critical engineering decision that directly affects the efficiency and safety of the system. Especially in sustainability-focused projects, the importance of technologies with long life and low environmental impact, such as LFP, is increasing day by day.</p>
+<p>For the correct management of these technologies, keeping parameters such as temperature, depth of discharge (DoD), and charging voltage under strict control will carry the life of each battery technology to its theoretical limits.</p>
+
+        </div>
+		
+		<div class="mt-12 mb-4 flex flex-col items-center justify-center text-center">
+		  
+		  <div class="flex flex-wrap justify-center gap-2 mb-4">
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #blog
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #electronics
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #battery-technologies
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #lithium-ion
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #li-ion
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #battery-performance
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #lifepo4
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #nickel-metal-hydride
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #rechargeable-batteries
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #battery-management-systems
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #ni-cd
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #ni-mh
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #energy-systems
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #battery-analysis
+			</span>
+			
+		  </div>
+		  
+		</div>
+		
+		<div class="mt-8 mb-8 flex flex-col items-center justify-center text-center">
+		  <p class="text-xl tracking-tight">
+			<span class="text-text-secondary dark:text-text-tertiary font-medium">
+			  Author:
+			</span>
+			<a href="https://abdulkadirgungor.com/" 
+			   class="ml-1 font-bold text-text-primary dark:text-text-primary hover:text-primary dark:hover:text-primary-light transition-all duration-300">
+			  Abdulkadir Güngör
+			</a>
+		  </p>
+		  <div class="mt-4 w-12 h-1 bg-primary/30 dark:bg-primary-light/30 rounded-full"></div>
+		</div>
+
+        <div class="mt-12 pt-8 border-t border-border-primary dark:border-border-primary flex flex-col items-center gap-4">
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fabdulkadirgungor.com%2fen%2fblog%2fmodern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi%2f" 
+             target="_blank" rel="noopener"
+             class="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 bg-[#0077b5] hover:bg-[#005582] text-white font-bold rounded-xl transition-all shadow-md">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            Share on LinkedIn
+          </a>
+          
+          <a href="#" 
+             onclick="event.preventDefault(); if (window.history.length > 1 && document.referrer && document.referrer.includes(window.location.hostname)) { window.history.back(); } else { window.location.href = 'https:\/\/abdulkadirgungor.com\/'; }"
+             class="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-2 bg-bg-secondary dark:bg-bg-tertiary text-text-primary dark:text-text-primary border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 font-medium rounded-xl transition-all shadow-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+            Go Back
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:w-1/3 relative">
+        <div class="lg:absolute lg:inset-0 lg:overflow-y-auto pr-3 custom-scrollbar">
+          <h2 class="text-xl font-bold mb-4 text-text-primary dark:text-text-primary border-l-4 border-primary pl-3 sticky top-0 bg-bg dark:bg-bg py-1 z-10">
+            Related Contents
+          </h2>
+          
+          <div class="space-y-4">
+            
+            
+              
+            
+              
+              <a href="/en/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Post-Exploitation Strategies and In-Depth Analysis in Internal Network Penetration Tests
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    This article analyzes post-exploitation techniques in internal network penetration tests, including privilege escalation methods, persistence mechanisms, and lateral movement processes within Active Directory with technical code examples. Professional tools such as Mimikatz, Impacket, and BloodHound are covered.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cyber-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      network-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      information-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cloud-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      network
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      privilege-escalation
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      penetration-testing
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      red-team
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      post-exploitation
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      active-directory
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      lateral-movement
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      intranet
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      internal-network
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      local-network
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        OWASP Top 10 Security Strategies in .NET 8 Projects
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A critical guide for secure coding in .NET 8 projects! Discover how to protect your application using tools like EF Core, Data Protection API, and policy-based authorization against OWASP Top 10 threats with technical examples. Learn fundamental strategies for secure software architecture.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cyber-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      dotnet
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      owasp
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      network-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      information-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cloud-security
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Modern Network Strategies with Zero Trust Architecture
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    Zero Trust architecture is a modern security strategy that dismantles the &#39;default trust&#39; paradigm in today&#39;s hybrid world, where network boundaries have become increasingly blurred. This approach treats every user, device, and service as a potential risk factor—whether inside or outside the network—by subjecting access requests to continuous, contextual, and rigorous verification.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cyber-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      zero-trust
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      network-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      information-security
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cloud-security
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/veri_analizi_okulu/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/vao-ogrenci-karti-71135348-img.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Veri Analizi Okulu: Data Science and Artificial Intelligence Training
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    Operating under the coordination of Yükseköğretim Kurumu (YÖK), the Veri Analizi Okulu (VAO) combines theoretical knowledge with practice through modules in Basic Statistics, Computational Social Sciences, Panel Data Analysis, Artificial Intelligence, Digital Humanities, and Psychometrics. Check out our blog post for both a high-quality education and your career.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      veri-analizi-okulu
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      vao
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      basic-statistics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      computational-social-sciences
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      panel-data-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      artificial-intelligence
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ai-and-facilitating-tools
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ai-and-machine-learning
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      digital-humanities
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      psychometrics
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/github-proje-4-nur-o-link/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/github-proje-4-nur-o-link.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Nur-o-link: Remote-Controlled Robotic Arm and Vehicle System
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    The Nur-o-link project is an innovative robotics study that combines remote-controllable robotic arm and autonomous vehicle features, highlighting the interaction between hardware and software.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotic
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotic-arm
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotik
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      iot
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      embedded
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cplusplus
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      arduino
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esp32
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      remote-control
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      software-hardware
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      rex-8in1-v2
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronic
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/github-proje-3-gungor-robot-car/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/github-proje-3-gungor-robot-car.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Gungor-robot-car: ESP32 Camera-Controlled Robot Car
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A robotic vehicle project capable of live video streaming via WiFi and remote control through a browser-based interface, powered by the ESP32-WROVER module.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotic
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      iot
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      embedded
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      cplusplus
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      arduino
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esp32
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esp32-cam
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esp32-camera
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      remote-control
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotic-car
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronic
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      software-hardware
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/yumusak-robotik-sistemlerde-muhendislik-temelleri-ve-esnek-yapilarin-mekanik-analizi/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/yumusak-robotik-sistemlerde-muhendislik-temelleri-ve-esnek-yapilarin-mekanik-analizi.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Engineering Fundamentals and Mechanical Analysis of Flexible Structures in Soft Robotic Systems
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A high-technical-depth blog post focusing on control algorithms and material mechanics, exploring the transformation of traditional rigid robotic systems through flexible elastomers and bio-mimetic approaches.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      soft-robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      mechatronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      control-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      simulation
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      engineering
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Collective Intelligence and Dynamic Task Allocation in Swarm Robotic Systems
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A technical blog post examining the technical foundations, algorithmic approaches, and software libraries for collective intelligence, dynamic task sharing, and distributed control mechanisms in swarm robotic systems.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      autonomous
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      swarm-robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      multi-agent-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      task-allocation
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ros2
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      collective-decision-making
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      distributed-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      swarm-intelligence
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      intelligent-robots
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        The Evolution of Robotic Systems and Modern Migration Strategies to the ROS 2 Ecosystem
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    This blog post addresses the architectural changes in the transition process from ROS 1 to ROS 2, the technical advantages of the DDS-based communication layer, and system modernization strategies using modern software libraries in a technical language.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotic
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      autonomous
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ros2
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      dds
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      industrial-automation
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      real-time-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      control-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      microservices
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Agriculture 4.0 and Next-Generation Approaches in Autonomous Robotic Systems
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A blog post covering navigation strategies for autonomous vehicles in the Agriculture 4.0 ecosystem, deep learning-based crop monitoring algorithms, and ROS 2-based software architectures.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      autonomous
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      agriculture-4-0
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      path-planning
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      crop-monitoring
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ros2
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      smart-farming
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      precision-agriculture
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ai
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      lidar
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      image-processing
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      sensor-fusion
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      edge-computing
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/veri-biliminde-topolojik-yaklasimlar-ve-gephi-ile-graf-teorisi-temelli-ag-analizi/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/veri-biliminde-topolojik-yaklasimlar-ve-gephi-ile-graf-teorisi-temelli-ag-analizi.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Topological Approaches in Data Science and Graph Theory-Based Network Analysis with Gephi
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    This technical blog post provides an in-depth analysis of how to visualize complex relationships in big data sets using graph theory and the Gephi software, accompanied by mathematical metrics and software libraries.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      gephi
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      network-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      data-visualization
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      graph-theory
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      network-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      python
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      data-science
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      centrality-metrics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      complex-systems
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A technical review and software integration of modern robotic systems equipped with deep learning architectures, 6-DoF grasping strategies, and real-time object recognition algorithms.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      robotics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      autonomous
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ai
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      python
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      pytorch
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ros2
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      yolo
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      opencv
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      autonomous-robots
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      machine-learning
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Deep Dive into the Fundamental Building Blocks of Electronic Design: Engineering Foundations of Passive Component Selection
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    This blog post covers the non-ideal parasitic parameters, frequency-dependent behaviors, and modern engineering selection criteria for capacitors and inductors, which are critical in electronic circuit design, along with Python-based analysis methods.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      passive-components
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      capacitor-selection
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      inductor-parameters
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esr
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esl
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      frequency-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-simulation
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Advanced Spatial Analysis and Data Science Integration in Modern Geographic Information Systems
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A blog post covering data mining in the ArcGIS ecosystem, Python-based automation processes, and spatial statistics methods to transform raw location data into strategic decision support mechanisms.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      arcgis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      spatial-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      geographic-information-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      python
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      arcpy
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      mapping
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      spatial-statistics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      data-science
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      big-data
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A blog post examining the theoretical foundations, mathematical modeling, and Python-based simulation approaches of the Superposition Theorem, which analyzes the effect of each source individually and combines them in linear circuits containing multiple independent sources.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electric
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      superposition-theorem
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      linear-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-solution
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      kirchhoff-laws
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Mathematical Architecture of Complex Circuits and Nodal Analysis Method
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    Theoretical analysis of the nodal analysis method based on Kirchhoff&#39;s Current Law, the supernode concept, and modeling of circuit solutions with computational engineering approaches using the NumPy library.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electric
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronic
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      kirchhoff-laws
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      nodal-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      numpy
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-simulation
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-theory
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      supernode
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/joule-isinmasi-ve-modern-elektronikte-gelismis-termal-yonetim-stratejileri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/joule-isinmasi-ve-modern-elektronikte-gelismis-termal-yonetim-stratejileri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Joule Heating and Advanced Thermal Management Strategies in Modern Electronics
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A blog post covering the physical foundations of Joule heating, advanced PCB design techniques for optimizing thermal management in modern circuits, PID-based cooling algorithms, and embedded software control mechanisms.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electricity
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      joule
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      joule-heating
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      thermal-management
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      heat-distribution
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      power-electronics
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A technical blog post examining critical resistor parameters beyond Ohm&#39;s Law in real-world circuit designs, including parasitic effects and engineering calculations.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electrical
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      ohms-law
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronic-design
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      resistor-selection
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      engineering
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Reduction Methods and Numerical Analysis Approaches in Linear Circuit Analysis
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    This article examines methods for simplifying complex electrical circuits using Thevenin and Norton theorems, mathematical analysis steps, and Python-based numerical analysis techniques from a detailed engineering perspective.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electric
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electrical-circuits
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-analysis
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      thevenin-theorem
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      norton-theorem
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      circuit-reduction
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      linear-circuits
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Professional Debugging Strategies and In-Depth Analysis Techniques in Embedded Systems Development
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A technical article covering professional debugging processes in embedded systems under hardware constraints and real-time requirements, using critical methods such as JTAG/SWD analysis, memory management, and signal integrity.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      embedded-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      debugging
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      troubleshooting
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      jtag
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      rtos
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      microcontroller
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      hardware
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Communication Layers and Protocol Analysis in Modern Smart Home Ecosystems
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    An in-depth analysis of the technical architectures of Wi-Fi, BLE, and Zigbee protocols, mesh network structures, and software integration processes in smart home ecosystems.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      iot
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      zigbee
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      wi-fi
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      bluetooth
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      bluetooth-ble
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      communication-protocols
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      mesh-network
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Power Management and Efficiency Strategies in Arduino Projects
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A comprehensive technical article on reducing energy consumption to the microampere level in Arduino projects through hardware interventions, deep sleep modes, and the use of low-power regulators.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      arduino
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      power-optimization
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      embedded-systems
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      deep-sleep
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      battery-life
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      avr
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/endustriyel-sistemlerde-raspberry-pi-ve-donanim-entegrasyonu/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/endustriyel-sistemlerde-raspberry-pi-ve-donanim-entegrasyonu.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Raspberry Pi and Hardware Integration in Industrial Systems
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A comprehensive article examining the use of Raspberry Pi in industrial automation, covering technical details from hardware isolation to RTOS kernel optimization and Modbus/MQTT communication protocols.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      raspberry-pi
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      iiot
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      iot
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      industrial-automation
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      mqtt
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      rtos
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      plc
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      sensor-data-processing
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      python
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+              
+              <a href="/en/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    
+                    <img src="/images/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi.png" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        Architectural Decision Processes in IoT Projects: A Technical Analysis of ESP32 and ESP8266 Microcontrollers
+                      </h3>
+                    </div>
+                  </div>
+                  
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    A comprehensive guide providing an optimized selection strategy for IoT projects by technically analyzing the architectural differences, connectivity capabilities, and hardware features of ESP32 and ESP8266 microcontrollers.
+                  </p>
+                  
+                  
+                  <div class="flex flex-wrap gap-1">
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      blog
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      iot
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esp32
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      esp8266
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      arduino
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      free-rtos
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      microcontroller
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      electronics
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      wi-fi
+                    </span>
+                    
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      bluetooth
+                    </span>
+                    
+                  </div>
+                  
+                </article>
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+</main>
+    <footer class="bg-bg-secondary dark:bg-bg-secondary text-text-primary py-12 border-t border-border-primary">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+      <div class="mb-4 md:mb-0 w-full md:w-auto">
+        <a href="/#home" class="text-xl font-bold text-text-primary font-heading">Abdulkadir Güngör </a>
+        <p class="text-text-secondary dark:text-text-muted mt-1">Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS</p>
+        <p class="text-text-secondary dark:text-text-muted mt-2">An innovation-oriented solution developer merging high-level engineering vision with broad technical expertise ranging from software architecture and robotics to data science and cybersecurity.</p>
+        <p class="text-text-secondary dark:text-text-muted mt-1">
+          <i class="fas fa-map-marker-alt mr-2"></i>İstanbul, Türkiye
+        </p>
+        <a href="mailto:a.kadir.gungor.86@gmail.com" class="text-text-secondary dark:text-text-muted text-primary dark:text-primary-light mt-1 inline-block">
+          <i class="fas fa-envelope mr-2"></i>a.kadir.gungor.86@gmail.com
+        </a>
+        
+        <div class="flex space-x-8 mt-6 items-center" data-animation="social">
+          
+          <a href="https://www.linkedin.com/in/abdulkadir-g%c3%bcng%c3%b6r/" target="_blank" rel="noopener noreferrer" class="text-text-secondary dark:text-text-muted text-third dark:text-third-light transition-transform duration-300 hover:scale-125">
+            
+            <i class="fab fa-linkedin-in text-3xl text-text-primary dark:text-text-primary"></i>
+            
+          </a>
+          
+          <a href="https://github.com/abdulkadirgungor86" target="_blank" rel="noopener noreferrer" class="text-text-secondary dark:text-text-muted text-third dark:text-third-light transition-transform duration-300 hover:scale-125">
+            
+            <i class="fab fa-github text-3xl text-text-primary dark:text-text-primary"></i>
+            
+          </a>
+          
+          
+          <button type="button" class="calendly-open-trigger text-text-secondary dark:text-text-muted text-third dark:text-third-light transition-transform duration-300 hover:scale-125" aria-label="Book a meeting on Calendly">
+            <img src="/images/calendly-icon.svg" alt="" class="w-8 h-8" width="32" height="32">
+          </button>
+          
+        </div>
+      </div>
+      
+      <div class="flex flex-col items-start md:items-end w-full md:w-auto">
+        <div class="flex flex-wrap gap-2 justify-start md:justify-end w-full">
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 w-[calc(50%-0.25rem)] sm:w-auto max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">
+            FullStack, Software &amp; Cybersecurity
+          </span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 w-[calc(50%-0.25rem)] sm:w-auto max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">
+            AI, DataScience &amp; Robotics
+          </span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 w-[calc(50%-0.25rem)] sm:w-auto max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">
+            DigitalEngineering &amp; Systems
+          </span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 w-[calc(50%-0.25rem)] sm:w-auto max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">
+            CivilEngineering &amp; MScEngineer
+          </span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 w-[calc(50%-0.25rem)] sm:w-auto max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">
+            OccupationalHealth, ISG &amp; Safety
+          </span>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 pt-8 border-t border-border-primary text-center text-text-secondary dark:text-text-muted text-sm">
+      <p>© 2026 | Abdulkadir Güngör</p>
+    </div>
+  </div>
+</footer>
+    
+    
+    
+
+<script>
+  
+  window.HUGO_COLOR_PALETTES = [
+    
+    {
+      name: "professional",
+      main_color: "#474A51",
+      second_color: "#E52521",
+      third_color: "#3CB043"
+    }
+    
+  ];
+  
+  
+  if (window.HUGO_COLOR_PALETTES && window.HUGO_COLOR_PALETTES.length > 0) {
+    console.log('🎨 Using color palettes from Hugo config:', window.HUGO_COLOR_PALETTES.length, 'palettes');
+  }
+</script>
+
+    <script src="/js/bundle.min.0e0d423e63dafe127655743537db16c26cec78c8a89a52306f97e590f8e5ec70.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js" defer></script>
+</body>
+</html>

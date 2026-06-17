@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dds on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/dds/</link>
+    <description>Recent content in Dds on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/dds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Robotic Systems and Modern Migration Strategies to the ROS 2 Ecosystem</title>
+      <link>https://abdulkadirgungor.com/en/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri/</guid>
+      <description>&lt;p&gt;The world of robotics has undergone a massive evolution over the last decade, shifting from monolithic structures to distributed and modular architectures. Robot Operating System (ROS), which sits at the center of this evolution—particularly with versions like &amp;ldquo;Lush&amp;rdquo; and &amp;ldquo;Noetic&amp;rdquo;—has set academic and industrial standards. However, modern needs such as real-time data processing, industrial safety standards, and multi-robot coordination have begun to push the limits of the original ROS architecture. At this point, ROS 2, with its new architecture built upon the Data Distribution Service (DDS) layer, is moving robotic systems out of the laboratory environment and into critical industrial operational fields.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

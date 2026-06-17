@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Denetimli-Ogrenme on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/denetimli-ogrenme/</link>
+    <description>Recent content in Denetimli-Ogrenme on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/denetimli-ogrenme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Denetimli Öğrenme Mimarisinde Matematiksel Optimizasyon ve Uygulamalı Algoritma Stratejileri</title>
+      <link>https://abdulkadirgungor.com/ai/denetimli-ogrenme-mimarisinde-matematiksel-optimizasyon-ve-uygulamali-algoritma-stratejileri/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/denetimli-ogrenme-mimarisinde-matematiksel-optimizasyon-ve-uygulamali-algoritma-stratejileri/</guid>
+      <description>&lt;p&gt;Yapay zeka ve makine öğrenmesi evreninin temel taşını oluşturan &lt;strong&gt;Denetimli Öğrenme (Supervised Learning)&lt;/strong&gt;, özünde bir fonksiyon yaklaşımı (function approximation) problemidir. Sistem, girdi vektörleri ($x$) ile hedef etiketler ($y$) arasındaki gizli ilişkiyi öğrenmek için yapılandırılmış veri setlerini kullanır. Bu süreçte temel amaç, eğitim verisindeki örüntüleri (patterns) yakalayarak, modelin daha önce hiç görmediği veriler üzerinde en düşük hata payı ile genelleme (generalization) yapmasını sağlamaktır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/denetimli-ogrenme-mimarisinde-matematiksel-optimizasyon-ve-uygulamali-algoritma-stratejileri.png&#34;&#xA;    alt=&#34;Denetimli Öğrenme Mimarisinde Matematiksel Optimizasyon ve Uygulamalı Algoritma Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Denetimli Öğrenme Mimarisinde Matematiksel Optimizasyon ve Uygulamalı Algoritma Stratejileri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
-# Tüm arama motoru botlarına izin ver
+# Tüm arama motoru botlarına izin verildi.
 User-agent: *
 Allow: /
 
-# Site haritasının konumunu belirt
+# Site haritasının konumunu belirtildi.
 Sitemap: https://abdulkadirgungor.com/sitemap.xml

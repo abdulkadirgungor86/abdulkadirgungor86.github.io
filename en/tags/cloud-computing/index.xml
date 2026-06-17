@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud-Computing on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/cloud-computing/</link>
+    <description>Recent content in Cloud-Computing on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible</title>
+      <link>https://abdulkadirgungor.com/en/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</guid>
+      <description>&lt;p&gt;In the modern software development life cycle (SDLC), traditional manual infrastructure configurations have been replaced by fully automated, versionable, and repeatable processes. &lt;strong&gt;Infrastructure as Code (IaC)&lt;/strong&gt; refers to the management of all infrastructure components—from physical hardware to virtual machines and cloud-based services—using software development principles (coding, testing, CI/CD integration).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/infrastructure-as-code-%28iac%29-terraform-ve-ansible-ile-altyapi-yonetimi.png&#34;&#xA;    alt=&#34;Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST)</title>
+      <link>https://abdulkadirgungor.com/en/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-grpc-rest/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-grpc-rest/</guid>
+      <description>&lt;p&gt;Traditional server management, infrastructure provisioning, and capacity planning processes are being replaced in the modern Software Development Life Cycle (SDLC) by &lt;strong&gt;Serverless&lt;/strong&gt; architectures, where the operational burden is shifted to the cloud provider. In this article, we will examine the technical depths of the Function as a Service (FaaS) model, event-driven design patterns, and cost optimization strategies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-%28grpc-rest%29.png&#34;&#xA;    alt=&#34;API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

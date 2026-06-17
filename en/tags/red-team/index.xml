@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red-Team on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/red-team/</link>
+    <description>Recent content in Red-Team on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/red-team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post-Exploitation Strategies and In-Depth Analysis in Internal Network Penetration Tests</title>
+      <link>https://abdulkadirgungor.com/en/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz/</guid>
+      <description>&lt;p&gt;Internal network penetration tests derive their true value from the &amp;ldquo;post-exploitation&amp;rdquo; process that begins the moment defensive perimeters are breached. Penetrating the outer shell of a network is merely opening the door; the real challenge lies in deepening one&amp;rsquo;s presence within the network, escalating privileges, and reaching final objectives (Domain Admin rights, critical databases, backup servers). This phase is characterized by the attacker concealing their tracks, establishing persistence, and performing lateral movement.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

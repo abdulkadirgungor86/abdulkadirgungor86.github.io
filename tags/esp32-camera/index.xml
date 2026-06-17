@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esp32-Camera on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/esp32-camera/</link>
+    <description>Recent content in Esp32-Camera on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/esp32-camera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gungor-robot-car: ESP32 Kamera Kontrollü Robot Araba</title>
+      <link>https://abdulkadirgungor.com/blog/github-proje-3-gungor-robot-car/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/github-proje-3-gungor-robot-car/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Gungor-robot-car&lt;/strong&gt;, ESP32-WROVER modülü ve kamera modülü kullanılarak tasarlanmış, tarayıcı üzerinden canlı görüntü izleme ve uzaktan hareket kontrolü sağlayan bir robotik araç projesidir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-3-gungor-robot-car.png&#34;&#xA;    alt=&#34;Gungor Kameralı Robot Araba&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Gungor Kameralı Robot Araba.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-mimari-yaklaşım&#34;&gt;1. Mimari Yaklaşım&lt;/h2&gt;&#xA;&lt;p&gt;Proje, ESP32&amp;rsquo;nin dahili WiFi yeteneklerini kullanarak bir HTTP sunucusu gibi çalışır. Kullanıcılar, yerel ağ üzerinden tarayıcı tabanlı bir arayüze bağlanarak aracı yönetebilir ve canlı video akışını (MJPEG) görüntüleyebilir.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-teknik-özellikler-ve-donanım&#34;&gt;2. Teknik Özellikler ve Donanım&lt;/h2&gt;&#xA;&lt;p&gt;Projenin temel teknik yapısı şu şekilde yapılandırılmıştır:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

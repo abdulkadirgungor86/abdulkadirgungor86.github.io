@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cqrs on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/cqrs/</link>
+    <description>Recent content in Cqrs on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/cqrs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri</title>
+      <link>https://abdulkadirgungor.com/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;Yazılım dünyasında çeviklik ve pazar hızı (Time-to-Market) çoğu zaman mühendislik mükemmeliyetinin önüne geçer. Ancak bu durum, sistemlerin zamanla &amp;ldquo;Technical Debt&amp;rdquo; (Teknik Borç) bataklığına saplanmasına neden olur. Bir noktadan sonra mevcut yapıyı sürdürmek, yeni özellik geliştirmekten daha maliyetli hale geldiğinde ise &amp;ldquo;Legacy Modernization&amp;rdquo; kaçınılmaz bir zorunluluktur.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-teknik-borcun-taksonomisi-ve-mühendislik-etkileri&#34;&gt;1. Teknik Borcun Taksonomisi ve Mühendislik Etkileri&lt;/h2&gt;&#xA;&lt;p&gt;Teknik borç sadece &amp;ldquo;kötü kod&amp;rdquo; demek değildir. Ward Cunningham tarafından ortaya atılan bu kavram, bilinçli veya bilinçsiz alınan teknik kararların gelecekte ödenmesi gereken faizidir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Event Sourcing: Veriyi Değil, Değişim Geçmişini Saklayarak Durum Yönetimi Sağlamak</title>
+      <link>https://abdulkadirgungor.com/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</guid>
+      <description>&lt;p&gt;Geleneksel veri tabanı tasarımlarında &amp;ldquo;State-Oriented&amp;rdquo; (Durum Odaklı) yaklaşım hakimdir. Bu yaklaşımda, bir nesnenin o anki en güncel hali veri tabanında saklanır ve her güncelleme işleminde (UPDATE) eski veri kalıcı olarak silinir veya üzerine yazılır. Ancak karmaşık dağıtık sistemlerde ve denetlenebilirliğin (auditability) kritik olduğu finansal/lojistik yapılarında bu model, verinin &amp;ldquo;neden&amp;rdquo; ve &amp;ldquo;nasıl&amp;rdquo; bu hale geldiğine dair semantik bilgiyi kaybeder. &lt;strong&gt;Event Sourcing (Olay Kaynaklama)&lt;/strong&gt;, bu sorunu çözmek için verinin nihai durumunu değil, o durumu oluşturan tüm değişim olaylarını (events) değişmez (immutable) bir sırada saklamayı esas alan bir mimari desendir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CQRS: Yazma ve Okuma Operasyonlarını Mimari Olarak Ayırmak</title>
+      <link>https://abdulkadirgungor.com/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak/</guid>
+      <description>&lt;p&gt;Modern yazılım mimarilerinde ölçeklenebilirlik ve performans gereksinimleri arttıkça, geleneksel veri erişim modelleri (CRUD) yetersiz kalmaya başlamıştır. &lt;strong&gt;CQRS (Command Query Responsibility Segregation)&lt;/strong&gt;, bir sistemdeki veri güncelleme (Command) ve veri okuma (Query) işlemlerini birbirinden tamamen ayırarak bu darboğazları aşmayı hedefler. Greg Young tarafından popüler hale getirilen bu desen, temelini Bertrand Meyer’in &lt;strong&gt;CQS (Command-Query Separation)&lt;/strong&gt; prensibinden alır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak.png&#34;&#xA;    alt=&#34;CQRS: Yazma ve Okuma Operasyonlarını Mimari Olarak Ayırmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: CQRS: Yazma ve Okuma Operasyonlarını Mimari Olarak Ayırmak.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

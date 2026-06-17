@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solid-Principles on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/solid-principles/</link>
+    <description>Recent content in Solid-Principles on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/solid-principles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes</title>
+      <link>https://abdulkadirgungor.com/en/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</guid>
+      <description>&lt;p&gt;The balance between sustainability and scalability in software architecture often revolves around the question of how granular components should be. While the &lt;strong&gt;Single Responsibility Principle (SRP)&lt;/strong&gt; advocates that a module or class should have only one reason to change, the extreme of this principle—&lt;strong&gt;Micro-Modules&lt;/strong&gt;—reduces code to an atomic level. However, like every engineering decision, breaking classes into microscopic pieces carries costs such as abstraction complexity and runtime overhead.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti.png&#34;&#xA;    alt=&#34;Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)</title>
+      <link>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</guid>
+      <description>&lt;p&gt;One of the cornerstones of building sustainable architecture in software engineering is the &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, which dictates that a system should be open for extension but closed for modification. Popularized by Robert C. Martin, this concept aims to integrate every new feature into the codebase without risking the integrity of already functioning and tested code blocks.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior</title>
+      <link>https://abdulkadirgungor.com/en/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</guid>
+      <description>&lt;p&gt;In software architecture, sustainability and flexibility are measured not just by whether the code works, but by the harmony between its components. The &lt;strong&gt;Liskov Substitution Principle (LSP)&lt;/strong&gt;, the third pillar of the SOLID principles popularized by Robert C. Martin, is one of the most critical rules for ensuring the mathematical and logical consistency of inheritance hierarchies in Object-Oriented Programming (OOP).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak.png&#34;&#xA;    alt=&#34;Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?</title>
+      <link>https://abdulkadirgungor.com/en/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</guid>
+      <description>&lt;p&gt;In the object-oriented programming (OOP) paradigm, one of the most critical decisions shaping architectural design is how to structure the &amp;ldquo;Abstraction&amp;rdquo; layer. Although developers often view &amp;ldquo;Interface&amp;rdquo; and &amp;ldquo;Abstract Class&amp;rdquo; structures as interchangeable, these two structures serve diametrically opposed philosophies regarding software flexibility, maintainability, and extensibility.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/interface-vs-abstract-class-ne-zaman-sozlesme-%28contract%29-ne-zaman-sablon-%28template%29.png&#34;&#xA;    alt=&#34;Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface Segregation: Reducing Client Dependencies by Splitting &#39;Fat&#39; Interfaces</title>
+      <link>https://abdulkadirgungor.com/en/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how precisely the dependencies (coupling) between components are managed. The &lt;strong&gt;Interface Segregation Principle (ISP)&lt;/strong&gt;, the fourth pillar of the SOLID principles defined by Robert C. Martin, is one of the most critical tools for cleaning up the technical debt created by &amp;ldquo;fat&amp;rdquo; (bloated) interfaces.&lt;/p&gt;&#xA;&lt;p&gt;The fundamental motto of ISP is: &lt;strong&gt;&amp;ldquo;No client should be forced to depend on methods it does not use.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers</title>
+      <link>https://abdulkadirgungor.com/en/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how &amp;ldquo;independent&amp;rdquo; the components of the code are. The biggest problem encountered in modern software development processes is that a change made in lower-level modules causes the upper-level business logic to break due to a domino effect. This situation is referred to in software literature as the &lt;strong&gt;Tight Coupling Problematic&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-%28tight-coupling%29-koparmak.png&#34;&#xA;    alt=&#34;Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

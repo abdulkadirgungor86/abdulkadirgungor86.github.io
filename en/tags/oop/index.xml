@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oop on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/oop/</link>
+    <description>Recent content in Oop on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)</title>
+      <link>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</guid>
+      <description>&lt;p&gt;One of the cornerstones of building sustainable architecture in software engineering is the &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, which dictates that a system should be open for extension but closed for modification. Popularized by Robert C. Martin, this concept aims to integrate every new feature into the codebase without risking the integrity of already functioning and tested code blocks.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction</title>
+      <link>https://abdulkadirgungor.com/en/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</guid>
+      <description>&lt;p&gt;Object-Oriented Programming (OOP) is the most fundamental paradigm used to break down complex software systems into manageable, sustainable, and extensible components. In modern system design, these four core principles—Encapsulation, Inheritance, Polymorphism, and Abstraction—form the backbone of software.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/oop-encapsulation-inheritance-polymorphism-ve-abstraction.png&#34;&#xA;    alt=&#34;OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-abstraction-hiding-system-complexity&#34;&gt;1. Abstraction: Hiding System Complexity&lt;/h2&gt;&#xA;&lt;p&gt;Abstraction focuses on the functionality an object presents to the outside world, hiding the internal details of &amp;ldquo;how&amp;rdquo; the object performs that task. In system design, abstraction is the most critical tool for reducing coupling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior</title>
+      <link>https://abdulkadirgungor.com/en/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</guid>
+      <description>&lt;p&gt;In software architecture, sustainability and flexibility are measured not just by whether the code works, but by the harmony between its components. The &lt;strong&gt;Liskov Substitution Principle (LSP)&lt;/strong&gt;, the third pillar of the SOLID principles popularized by Robert C. Martin, is one of the most critical rules for ensuring the mathematical and logical consistency of inheritance hierarchies in Object-Oriented Programming (OOP).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak.png&#34;&#xA;    alt=&#34;Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management</title>
+      <link>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</guid>
+      <description>&lt;p&gt;In software architectures, the process of creating objects and managing their relationships is critical for project scalability and maintainability. In modern software development practices, classes creating their own dependencies (tight coupling) hinders code testability and reduces flexibility. To overcome this, the &lt;strong&gt;Inversion of Control (IoC)&lt;/strong&gt; principle and its most common implementation, &lt;strong&gt;Dependency Injection (DI)&lt;/strong&gt;, delegate object management to a centralized structure.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/inversion-of-control-%28ioc%29-containers-bagimlilik-enjeksiyonu-%28di%29-yasam-dongusu-yonetimi.png&#34;&#xA;    alt=&#34;Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?</title>
+      <link>https://abdulkadirgungor.com/en/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</guid>
+      <description>&lt;p&gt;In the object-oriented programming (OOP) paradigm, one of the most critical decisions shaping architectural design is how to structure the &amp;ldquo;Abstraction&amp;rdquo; layer. Although developers often view &amp;ldquo;Interface&amp;rdquo; and &amp;ldquo;Abstract Class&amp;rdquo; structures as interchangeable, these two structures serve diametrically opposed philosophies regarding software flexibility, maintainability, and extensibility.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/interface-vs-abstract-class-ne-zaman-sozlesme-%28contract%29-ne-zaman-sablon-%28template%29.png&#34;&#xA;    alt=&#34;Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface Segregation: Reducing Client Dependencies by Splitting &#39;Fat&#39; Interfaces</title>
+      <link>https://abdulkadirgungor.com/en/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how precisely the dependencies (coupling) between components are managed. The &lt;strong&gt;Interface Segregation Principle (ISP)&lt;/strong&gt;, the fourth pillar of the SOLID principles defined by Robert C. Martin, is one of the most critical tools for cleaning up the technical debt created by &amp;ldquo;fat&amp;rdquo; (bloated) interfaces.&lt;/p&gt;&#xA;&lt;p&gt;The fundamental motto of ISP is: &lt;strong&gt;&amp;ldquo;No client should be forced to depend on methods it does not use.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delegates and Events: Architectural Foundations of Event-Driven Programming</title>
+      <link>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</guid>
+      <description>&lt;p&gt;In modern software architectures, minimizing the dependencies between system components (loose coupling) and establishing a flexible communication mechanism is the key to sustainable code. In the C# and .NET ecosystem, the core structures providing this flexibility are &lt;strong&gt;Delegates&lt;/strong&gt; and &lt;strong&gt;Events&lt;/strong&gt;. These structures form the core of the event-driven approach, particularly in areas such as asynchronous programming, user interface (UI) interactions, and microservice communication.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/delegates-ve-events-olay-gudumlu-%28event-driven%29-programlamanin-mimari-temelleri.png&#34;&#xA;    alt=&#34;Delegates and Events: Architectural Foundations of Event-Driven Programming&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Delegates and Events: Architectural Foundations of Event-Driven Programming.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder</title>
+      <link>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</guid>
+      <description>&lt;p&gt;In software architecture, object creation processes are a critical threshold for system flexibility and extensibility. &amp;ldquo;Creational Patterns&amp;rdquo; abstract the object creation process, making the system independent of how objects are created, composed, and represented. In this context, the Abstract Factory and Builder patterns stand out as some of the most powerful tools for managing complexity and object hierarchies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi.png&#34;&#xA;    alt=&#34;Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

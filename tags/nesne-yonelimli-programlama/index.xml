@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nesne-Yonelimli-Programlama on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/nesne-yonelimli-programlama/</link>
+    <description>Recent content in Nesne-Yonelimli-Programlama on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/nesne-yonelimli-programlama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi)</title>
+      <link>https://abdulkadirgungor.com/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</guid>
+      <description>&lt;p&gt;Yazılım mühendisliğinde sürdürülebilir bir mimari inşa etmenin temel taşlarından biri olan &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, yani Açık-Kapalı Prensibi, sistemin genişlemeye açık (open for extension) ancak değişime kapalı (closed for modification) olması gerektiğini savunur. Robert C. Martin tarafından popüler hale getirilen bu kavram, kod tabanında yapılacak her yeni özelliğin, halihazırda çalışan ve test edilmiş kod bloklarını riske atmadan sisteme entegre edilmesini hedefler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liskov Substitution: Alt Sınıfların Üst Sınıf Davranışlarını Bozmadığından Emin Olmak</title>
+      <link>https://abdulkadirgungor.com/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve esneklik, kodun sadece çalışmasıyla değil, aynı zamanda bileşenlerin birbirleriyle olan uyumuyla ölçülür. Robert C. Martin tarafından popüler hale getirilen SOLID prensiplerinin üçüncü halkası olan &lt;strong&gt;Liskov Substitution Principle (LSP)&lt;/strong&gt;, nesne yönelimli programlamada (OOP) kalıtım hiyerarşisinin matematiksel ve mantıksal tutarlılığını garanti altına alan en kritik kurallardan biridir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak.png&#34;&#xA;    alt=&#34;Liskov Substitution: Alt Sınıfların Üst Sınıf Davranışlarını Bozmadığından Emin Olmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Liskov Substitution: Alt Sınıfların Üst Sınıf Davranışlarını Bozmadığından Emin Olmak&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yolo on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/yolo/</link>
+    <description>Recent content in Yolo on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/yolo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otonom Robotik Sistemlerde Derin Öğrenme Temelli Nesne Algılama ve Manipülasyon Teknikleri</title>
+      <link>https://abdulkadirgungor.com/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</guid>
+      <description>&lt;p&gt;Modern robotik sistemlerin temel taşını oluşturan nesne tanıma ve kavrama (grasping) süreçleri, geleneksel bilgisayarlı görü yöntemlerinden sıyrılarak tamamen derin öğrenme (Deep Learning) mimarileri üzerine inşa edilmektedir. Bir robotun fiziksel dünyayla etkileşime girmesi, sadece nesnenin koordinatlarını bilmesini değil, aynı zamanda nesnenin geometrik yapısını, materyal özelliklerini ve yaklaşım açılarını analiz etmesini gerektirir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri.png&#34;&#xA;    alt=&#34;Otonom Robotik Sistemlerde Derin Öğrenme Temelli Nesne Algılama ve Manipülasyon Teknikleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Otonom Robotik Sistemlerde Derin Öğrenme Temelli Nesne Algılama ve Manipülasyon Teknikleri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lineer-Devreler on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/lineer-devreler/</link>
+    <description>Recent content in Lineer-Devreler on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/lineer-devreler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lineer Devre Analizinde İndirgeme Metotları ve Sayısal Çözümleme Yaklaşımları</title>
+      <link>https://abdulkadirgungor.com/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</guid>
+      <description>&lt;p&gt;Elektrik devreleri, özellikle modern mikroelektronik ve güç sistemlerinde, binlerce pasif ve aktif bileşenin bir araya gelmesiyle devasa ağlar oluşturur. Bu ağların her bir noktasındaki gerilim ve akım değerlerini klasik Kirchhoff kanunları ile çözmeye çalışmak, devasa lineer denklem sistemleriyle uğraşmak demektir. İşte bu noktada, devrenin geri kalanını tek bir gerilim veya akım kaynağına indirgeyen &lt;strong&gt;Thevenin ve Norton Teoremleri&lt;/strong&gt;, mühendislik disiplininin temel taşı haline gelir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari.png&#34;&#xA;    alt=&#34;Lineer Devre Analizinde İndirgeme Metotları ve Sayısal Çözümleme Yaklaşımları&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Lineer Devre Analizinde İndirgeme Metotları ve Sayısal Çözümleme Yaklaşımları.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dagitik-Hesaplama on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/dagitik-hesaplama/</link>
+    <description>Recent content in Dagitik-Hesaplama on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/dagitik-hesaplama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Veri Mühendisliği: Ölçeklenebilir Pipeline Mimarileri ve Analitik Dönüşüm Stratejileri</title>
+      <link>https://abdulkadirgungor.com/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri/</guid>
+      <description>&lt;p&gt;Günümüz veri ekosistemlerinde ham verinin işlenmemiş bir yığından stratejik bir varlığa dönüşümü, karmaşık mürekkep yapılı sistemlerin (complex systems) entegrasyonuna dayanır. Bu süreç, sadece veriyi bir noktadan diğerine taşımak değil; verinin semantik yapısını koruyarak, düşük gecikme süresiyle (low-latency) ve yüksek doğrulukla dönüştürülmesini gerektirir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri.png&#34;&#xA;    alt=&#34;Modern Veri Mühendisliği: Ölçeklenebilir Pipeline Mimarileri ve Analitik Dönüşüm Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Veri Mühendisliği: Ölçeklenebilir Pipeline Mimarileri ve Analitik Dönüşüm Stratejileri.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;1-veri-ingestion-veri-alımı-ve-kaynak-entegrasyonu&#34;&gt;1. Veri Ingestion (Veri Alımı) ve Kaynak Entegrasyonu&lt;/h4&gt;&#xA;&lt;p&gt;Modern mimarilerde veri alımı iki ana eksende gerçekleşir: &lt;strong&gt;Batch processing&lt;/strong&gt; ve &lt;strong&gt;Stream processing&lt;/strong&gt;. İlişkisel veritabanlarından (PostgreSQL, MS SQL) veya log dosyalarından gelen veriler, genellikle CDC (Change Data Capture) mekanizmalarıyla takip edilir.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

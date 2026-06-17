@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamic-Object-Management on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/dynamic-object-management/</link>
+    <description>Recent content in Dynamic-Object-Management on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/dynamic-object-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management</title>
+      <link>https://abdulkadirgungor.com/en/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</guid>
+      <description>&lt;p&gt;In modern software architectures, flexibility and extensibility are achieved by relaxing the rigid rules imposed by static typing at runtime. Reflection and Meta-Programming are advanced techniques that allow systems to analyze their own structures, modify them, and exhibit new behaviors during execution.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi.png&#34;&#xA;    alt=&#34;Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-reflection-self-discovery-of-the-type-system&#34;&gt;1. Reflection: Self-Discovery of the Type System&lt;/h3&gt;&#xA;&lt;p&gt;Reflection is the ability of a program to examine its own structure (classes, methods, properties, interfaces) at runtime. In static languages (C#, Java), metadata that is normally determined at compile-time becomes queryable at runtime thanks to Reflection.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

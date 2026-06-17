@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecommerce on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/ecommerce/</link>
+    <description>Recent content in Ecommerce on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/ecommerce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BilgeAdamEvimiKur: Hybrid N-Tier E-Commerce Architecture with .NET 8.0 and C#</title>
+      <link>https://abdulkadirgungor.com/en/software/github-proje-1-bilgeadamevimikur/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/github-proje-1-bilgeadamevimikur/</guid>
+      <description>&lt;p&gt;Modern e-commerce systems require strong architectural foundations to improve user experience, perform under high traffic, and provide a sustainable codebase. &lt;strong&gt;BilgeAdamEvimiKur&lt;/strong&gt; is a comprehensive e-commerce solution built using the latest features of the .NET 8.0 ecosystem with a hybrid N-Tier architecture approach.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-1-bilgeadamevimikur.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamEvimiKur&amp;#34;; Hybrid N-Tier E-Commerce Project with .NET 8.0 and C#&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: &amp;ldquo;BilgeAdamEvimiKur&amp;rdquo;; Hybrid N-Tier E-Commerce Project with .NET 8.0 and C#&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach-hybrid-n-tier-structure&#34;&gt;1. Architectural Approach: Hybrid N-Tier Structure&lt;/h2&gt;&#xA;&lt;p&gt;The project adopts the classic N-tier architecture, which completely separates business logic from data access and the user interface, while also integrating modern software principles. Thanks to this structure, the modularity of the system has been increased and technical debt has been minimized.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

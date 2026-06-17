@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circuit-Reduction on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/circuit-reduction/</link>
+    <description>Recent content in Circuit-Reduction on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/circuit-reduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reduction Methods and Numerical Analysis Approaches in Linear Circuit Analysis</title>
+      <link>https://abdulkadirgungor.com/en/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</guid>
+      <description>&lt;p&gt;Electrical circuits, especially in modern microelectronics and power systems, form massive networks by combining thousands of passive and active components. Attempting to solve the voltage and current values at every point in these networks using classical Kirchhoff&amp;rsquo;s laws means dealing with massive systems of linear equations. At this point, &lt;strong&gt;Thevenin and Norton Theorems&lt;/strong&gt;, which reduce the rest of the circuit to a single voltage or current source, become a cornerstone of the engineering discipline.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

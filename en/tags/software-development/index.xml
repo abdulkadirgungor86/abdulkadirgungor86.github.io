@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-Development on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/software-development/</link>
+    <description>Recent content in Software-Development on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lazy, Eager, and Explicit Loading: Avoiding the &#34;N&#43;1 Problem&#34; with Data Loading Strategies</title>
+      <link>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</guid>
+      <description>&lt;p&gt;In modern software architectures, database interactions play a decisive role in the scalability and response time of an application. One of the biggest performance bottlenecks encountered, especially when using Object-Relational Mapping (ORM) tools, is the N+1 Query Problem. To overcome this issue and optimize the data access layer, it is essential to have a deep understanding of Lazy, Eager, and Explicit Loading strategies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&amp;#43;1-probleminden-kacinmak.png&#34;&#xA;    alt=&#34;Lazy, Eager, and Explicit Loading: Avoiding the &amp;#34;N&amp;#43;1 Problem&amp;#34; with Data Loading Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Lazy, Eager, and Explicit Loading: Avoiding the &amp;ldquo;N+1 Problem&amp;rdquo; with Data Loading Strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety</title>
+      <link>https://abdulkadirgungor.com/en/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</guid>
+      <description>&lt;p&gt;Generic programming is one of the cornerstones of modern software engineering. Subjecting code to logical abstraction independent of data types not only reduces development costs but also increases system stability by bringing runtime errors to compile-time.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak.png&#34;&#xA;    alt=&#34;Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-theoretical-foundations-of-generic-programming&#34;&gt;1. Theoretical Foundations of Generic Programming&lt;/h2&gt;&#xA;&lt;p&gt;Generic programming is based on the principle that algorithms and data structures take the data types they will operate on as &amp;ldquo;parameters.&amp;rdquo; This approach is called &lt;strong&gt;Templates&lt;/strong&gt; in the C++ world and &lt;strong&gt;Generics&lt;/strong&gt; in the Java and C# worlds. The main goal is to avoid rewriting the same logic for different types, applying the &amp;ldquo;Don&amp;rsquo;t Repeat Yourself&amp;rdquo; (DRY) principle at the highest level.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

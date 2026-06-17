@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai-Alignment on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/ai-alignment/</link>
+    <description>Recent content in Ai-Alignment on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/ai-alignment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Neural Architecture of Modern Language Models and Their Evolution from Token-Level to Reasoning</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</guid>
+      <description>&lt;p&gt;The greatest disruption in the artificial intelligence ecosystem over the last decade has occurred not just through the processing of data, but through the reconstruction of language in a geometric space. Modern Large Language Models (LLMs) are massive statistical machines that take raw text chunks and transform them into meaningful relationships within high-dimensional vector spaces. However, behind the appearance that these machines are &amp;ldquo;thinking&amp;rdquo; lies the mathematical elegance offered by the Transformer architecture and the emergent capabilities brought about by scaling laws.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

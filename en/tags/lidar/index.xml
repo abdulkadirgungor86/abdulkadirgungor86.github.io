@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lidar on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/lidar/</link>
+    <description>Recent content in Lidar on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/lidar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agriculture 4.0 and Next-Generation Approaches in Autonomous Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar/</guid>
+      <description>&lt;p&gt;Agriculture 4.0, which replaces traditional agricultural methods, represents an ecosystem where digitalization and automation are integrated at the highest level. Autonomous agricultural vehicles, which are at the center of this transformation, not only reduce the need for human labor but also move operational efficiency and precision to mathematical certainty.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar.png&#34;&#xA;    alt=&#34;Agriculture 4.0 and Next-Generation Approaches in Autonomous Robotic Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Agriculture 4.0 and Next-Generation Approaches in Autonomous Robotic Systems.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;dynamic-path-planning-and-navigation-in-autonomous-vehicles&#34;&gt;Dynamic Path Planning and Navigation in Autonomous Vehicles&lt;/h2&gt;&#xA;&lt;p&gt;Agricultural lands are among the most challenging operating environments for autonomous systems due to their unstructured nature. Obstacle detection, slope analysis, and variable terrain structures necessitate going beyond static path planning algorithms.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

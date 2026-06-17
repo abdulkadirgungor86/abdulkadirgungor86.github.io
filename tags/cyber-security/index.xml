@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber-Security on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/cyber-security/</link>
+    <description>Recent content in Cyber-Security on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>İç Ağ Sızma Testlerinde Post Exploitation Stratejileri ve Derinlemesine Analiz</title>
+      <link>https://abdulkadirgungor.com/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz/</guid>
+      <description>&lt;p&gt;İç ağ sızma testleri, savunma hatlarının geçildiği andan itibaren başlayan &amp;ldquo;post-exploitation&amp;rdquo; (istismar sonrası) süreci ile gerçek değerini bulur. Bir ağın dış çevresini aşmak, sadece kapıyı aralamaktır; esas mesele, ağın içinde derinleşmek, yetkileri yükseltmek ve nihai hedeflere (domain admin hakları, kritik veri tabanları, yedekleme sunucuları) ulaşmaktır. Bu aşama, saldırganın ağ üzerindeki izlerini gizlemesi, kalıcılık (persistence) sağlaması ve yanal hareket (lateral movement) gerçekleştirmesi ile karakterize edilir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz.png&#34;&#xA;    alt=&#34;İç Ağ Sızma Testlerinde Post Exploitation Stratejileri ve Derinlemesine Analiz&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: İç Ağ Sızma Testlerinde Post Exploitation Stratejileri ve Derinlemesine Analiz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>.NET 8 Projelerinde OWASP Top 10 Güvenlik Stratejileri</title>
+      <link>https://abdulkadirgungor.com/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri/</guid>
+      <description>&lt;p&gt;Modern yazılım geliştirme süreçlerinde güvenlik, artık projenin sonunda eklenen bir katman değil, geliştirme yaşam döngüsünün (SDLC) en başından itibaren içselleştirilmesi gereken temel bir mimari bileşendir. .NET 8, yüksek performansı ve modern altyapısı ile güvenli uygulamalar geliştirmek için güçlü araçlar sunar. Ancak, platformun sağladığı bu imkanları doğru yapılandırmak, geliştiricinin sorumluluğundadır. Bu makalede, OWASP Top 10 tehdit vektörlerini .NET 8 ekosisteminde nasıl bertaraf edebileceğimizi teknik detayları ve kod örnekleriyle incelenmiştir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri.png&#34;&#xA;    alt=&#34;.NET 8 Projelerinde OWASP Top 10 Güvenlik Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: .NET 8 Projelerinde OWASP Top 10 Güvenlik Stratejileri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sıfır Güven Mimarisi ile Modern Ağ Stratejileri</title>
+      <link>https://abdulkadirgungor.com/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri/</guid>
+      <description>&lt;p&gt;Geleneksel ağ güvenliği yaklaşımları, uzun yıllar boyunca &amp;ldquo;kale ve hendek&amp;rdquo; (castle-and-moat) mantığına dayanıyordu. Bu yaklaşımda, ağın dışındaki her şey güvensiz, ağın içindeki her şey ise güvenilir kabul ediliyordu. Ancak bulut bilişim, uzaktan çalışma ve mobil cihazların yaygınlaşmasıyla birlikte, ağın artık net bir sınırı kalmadı. Sıfır Güven (Zero Trust) mimarisi, bu eski paradigmayı &amp;ldquo;asla güvenme, her zaman doğrula&amp;rdquo; (never trust, always verify) ilkesiyle tamamen değiştiriyor.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri.png&#34;&#xA;    alt=&#34;Sıfır Güven Mimarisi ile Modern Ağ Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Sıfır Güven Mimarisi ile Modern Ağ Stratejileri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

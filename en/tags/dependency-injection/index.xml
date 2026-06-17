@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dependency-Injection on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/dependency-injection/</link>
+    <description>Recent content in Dependency-Injection on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/dependency-injection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)</title>
+      <link>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</guid>
+      <description>&lt;p&gt;One of the cornerstones of building sustainable architecture in software engineering is the &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, which dictates that a system should be open for extension but closed for modification. Popularized by Robert C. Martin, this concept aims to integrate every new feature into the codebase without risking the integrity of already functioning and tested code blocks.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management</title>
+      <link>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</guid>
+      <description>&lt;p&gt;In software architectures, the process of creating objects and managing their relationships is critical for project scalability and maintainability. In modern software development practices, classes creating their own dependencies (tight coupling) hinders code testability and reduces flexibility. To overcome this, the &lt;strong&gt;Inversion of Control (IoC)&lt;/strong&gt; principle and its most common implementation, &lt;strong&gt;Dependency Injection (DI)&lt;/strong&gt;, delegate object management to a centralized structure.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/inversion-of-control-%28ioc%29-containers-bagimlilik-enjeksiyonu-%28di%29-yasam-dongusu-yonetimi.png&#34;&#xA;    alt=&#34;Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews</title>
+      <link>https://abdulkadirgungor.com/en/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;In modern enterprise architectures, the .NET platform holds a critical position due to its high performance, stability, and extensive library support. A .NET developer interview aims to measure a candidate&amp;rsquo;s competence across a wide spectrum, far beyond simple syntax knowledge, ranging from memory management to the depths of asynchronous programming, advanced ORM optimizations, and design patterns in microarchitectures.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

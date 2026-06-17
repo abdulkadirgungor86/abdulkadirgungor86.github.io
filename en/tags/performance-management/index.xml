@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance-Management on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/performance-management/</link>
+    <description>Recent content in Performance-Management on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/performance-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios</title>
+      <link>https://abdulkadirgungor.com/en/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari/</guid>
+      <description>&lt;p&gt;Entity Framework Core (EF Core) employs a highly complex mechanism behind the scenes while managing database operations with an object-oriented approach. The heart of this mechanism is the &lt;strong&gt;Change Tracker&lt;/strong&gt; unit. The scalability and response time of an enterprise application are directly dependent on how efficiently this unit is utilized.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari.png&#34;&#xA;    alt=&#34;Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CQRS: Architecturally Separating Write and Read Operations</title>
+      <link>https://abdulkadirgungor.com/en/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak/</guid>
+      <description>&lt;p&gt;As scalability and performance requirements increase in modern software architectures, traditional data access models (CRUD) have begun to fall short. &lt;strong&gt;CQRS (Command Query Responsibility Segregation)&lt;/strong&gt; aims to overcome these bottlenecks by completely separating the data update (Command) and data read (Query) operations in a system. Popularized by Greg Young, this pattern is based on Bertrand Meyer’s &lt;strong&gt;CQS (Command-Query Separation)&lt;/strong&gt; principle.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak.png&#34;&#xA;    alt=&#34;CQRS: Architecturally Separating Write and Read Operations&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: CQRS: Architecturally Separating Write and Read Operations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

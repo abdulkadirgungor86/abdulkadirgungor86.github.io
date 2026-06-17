@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arcpy on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/arcpy/</link>
+    <description>Recent content in Arcpy on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/arcpy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Coğrafi Bilgi Sistemlerinde İleri Mekansal Analiz ve Veri Bilimi Entegrasyonu</title>
+      <link>https://abdulkadirgungor.com/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu/</guid>
+      <description>&lt;p&gt;Veri odaklı karar verme süreçlerinde lokasyon parametresinin dahil edilmesi, ham verinin stratejik bir içgörüye dönüşmesindeki en kritik aşamalardan biridir. Günümüzde ArcGIS ekosistemi, yalnızca statik haritalama araçları sunmanın ötesine geçerek; Python tabanlı kütüphaneler, derin öğrenme modelleri ve karmaşık mekansal istatistikler ile harmanlanmış devasa bir analiz platformuna evrilmiştir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu.png&#34;&#xA;    alt=&#34;Modern Coğrafi Bilgi Sistemlerinde İleri Mekansal Analiz ve Veri Bilimi Entegrasyonu&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Coğrafi Bilgi Sistemlerinde İleri Mekansal Analiz ve Veri Bilimi Entegrasyonu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

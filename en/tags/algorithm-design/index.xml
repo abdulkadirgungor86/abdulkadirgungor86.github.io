@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm-Design on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/algorithm-design/</link>
+    <description>Recent content in Algorithm-Design on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/algorithm-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety</title>
+      <link>https://abdulkadirgungor.com/en/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</guid>
+      <description>&lt;p&gt;Generic programming is one of the cornerstones of modern software engineering. Subjecting code to logical abstraction independent of data types not only reduces development costs but also increases system stability by bringing runtime errors to compile-time.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak.png&#34;&#xA;    alt=&#34;Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-theoretical-foundations-of-generic-programming&#34;&gt;1. Theoretical Foundations of Generic Programming&lt;/h2&gt;&#xA;&lt;p&gt;Generic programming is based on the principle that algorithms and data structures take the data types they will operate on as &amp;ldquo;parameters.&amp;rdquo; This approach is called &lt;strong&gt;Templates&lt;/strong&gt; in the C++ world and &lt;strong&gt;Generics&lt;/strong&gt; in the Java and C# worlds. The main goal is to avoid rewriting the same logic for different types, applying the &amp;ldquo;Don&amp;rsquo;t Repeat Yourself&amp;rdquo; (DRY) principle at the highest level.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

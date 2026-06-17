@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-Architecture on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/software-architecture/</link>
+    <description>Recent content in Software-Architecture on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/software-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Sistemlerde Olay Güdümlü Mimari ve Asenkron Mesajlaşma</title>
+      <link>https://abdulkadirgungor.com/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</guid>
+      <description>&lt;p&gt;Günümüz dağıtık sistemlerinde, monolitik yapılardan mikro hizmet mimarilerine geçişle birlikte, servisler arası iletişim stratejileri sistemin ölçeklenebilirliği ve dayanıklılığı üzerinde belirleyici bir rol oynamaya başlamıştır. Geleneksel HTTP tabanlı (REST veya gRPC) senkron iletişim modelleri, özellikle yüksek trafikli ve servisler arası bağımlılığın yüksek olduğu senaryolarda &amp;ldquo;darboğaz&amp;rdquo; (bottleneck) oluşturabilir. İşte tam bu noktada, &lt;strong&gt;Event-Driven Architecture (EDA)&lt;/strong&gt; yani Olay Güdümlü Mimari, sistemlerin birbiriyle eşzamansız (asenkron) konuşmasını sağlayarak yüksek performanslı bir çalışma ortamı sunar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma.png&#34;&#xA;    alt=&#34;Modern Sistemlerde Olay Güdümlü Mimari ve Asenkron Mesajlaşma&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Sistemlerde Olay Güdümlü Mimari ve Asenkron Mesajlaşma.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamBanka: .NET 8.0 ile Güvenli ve Katmanlı Bankacılık API Mimarisi</title>
+      <link>https://abdulkadirgungor.com/software/github-proje-2-bilgeadambanka/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/github-proje-2-bilgeadambanka/</guid>
+      <description>&lt;p&gt;Modern finansal sistemler, verilerin güvenliği, işlemlerin doğrulanması ve sistemin sürdürülebilirliği için sağlam mimari temellere ihtiyaç duyar. &lt;strong&gt;BilgeAdamBanka&lt;/strong&gt;, .NET 8.0 ekosisteminin sunduğu güncel imkanları kullanarak, kredi kartı işlemlerini (CRUD operasyonları) yönetmek için kurgulanmış, hibrit N-Katmanlı (N-Tier) bir API çözümüdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-2-bilgeadambanka.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamBanka&amp;#34;; kredi kartı işlemlerini (oluşturma, görüntüleme, güncelleme, silme) yönetmek için katmanlı mimari yapısına sahip bir Banka API sistemini içermektedir.&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: &amp;ldquo;BilgeAdamBanka&amp;rdquo;; kredi kartı işlemlerini (oluşturma, görüntüleme, güncelleme, silme) yönetmek için katmanlı mimari yapısına sahip bir Banka API sistemini içermektedir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamEvimiKur: .NET 8.0 ve C# ile Hibrit N-Katmanlı E-Ticaret Mimarisi</title>
+      <link>https://abdulkadirgungor.com/software/github-proje-1-bilgeadamevimikur/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/github-proje-1-bilgeadamevimikur/</guid>
+      <description>&lt;p&gt;Modern e-ticaret sistemleri, kullanıcı deneyimini iyileştirmek, yüksek trafik altında performanslı çalışmak ve sürdürülebilir bir kod yapısı sunmak için güçlü mimari temellere ihtiyaç duyar. &lt;strong&gt;BilgeAdamEvimiKur&lt;/strong&gt;, .NET 8.0 ekosisteminin en güncel özelliklerini kullanarak, hibrit N-Katmanlı (N-Tier) mimari yaklaşımıyla kurgulanmış kapsamlı bir e-ticaret çözümüdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-1-bilgeadamevimikur.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamEvimiKur&amp;#34;; .NET 8.0 ve C# ile Hibrit N-Katmanlı (N-Tier) E-Ticaret Projesi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: &amp;ldquo;BilgeAdamEvimiKur&amp;rdquo;; .NET 8.0 ve C# ile Hibrit N-Katmanlı (N-Tier) E-Ticaret Projesi&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-mimari-yaklaşım-hibrit-n-katmanlı-yapı&#34;&gt;1. Mimari Yaklaşım: Hibrit N-Katmanlı Yapı&lt;/h2&gt;&#xA;&lt;p&gt;Proje, iş mantığını veri erişiminden ve kullanıcı arayüzünden tamamen ayıran klasik N-katmanlı mimariyi benimserken, modern yazılım prensiplerini de entegre eder. Bu yapı sayesinde, sistemin modülerliği artırılmış ve teknik borç minimize edilmiştir.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
