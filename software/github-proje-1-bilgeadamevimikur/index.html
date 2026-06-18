@@ -662,7 +662,9 @@
             forceCloseMenu();
             if (targetElement) {
               requestAnimationFrame(() => {
-                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                const navHeight = document.getElementById('main-site-navbar')?.offsetHeight || 64;
+                const top = targetElement.getBoundingClientRect().top + window.scrollY - navHeight;
+                window.scrollTo({ top, behavior: 'smooth' });
               });
             }
           } else {
@@ -679,7 +681,9 @@
         const targetElement = document.querySelector(window.location.hash);
         if (targetElement) {
           setTimeout(() => {
-            targetElement.scrollIntoView({ behavior: 'instant', block: 'start' });
+            const navHeight = document.getElementById('main-site-navbar')?.offsetHeight || 64;
+            const top = targetElement.getBoundingClientRect().top + window.scrollY - navHeight;
+            window.scrollTo({ top, behavior: 'instant' });
           }, 100);
         }
       }
