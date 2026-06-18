@@ -149,15 +149,27 @@
 			align-items: center;
 			justify-content: center;
 			width: 100%;
-			overflow: hidden;  
+			overflow: hidden;
 		}
-		
+
+		 
+		h2[data-animation="tagline"] {
+			position: relative;
+		}
+
+		 
 		.typewriter {
-			width: 100%;
-			font-size: clamp(1.1rem, 4vw, 2rem);  
-			line-height: 1.2;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			display: block;
+			word-break: break-word;
 			word-wrap: break-word;
+			white-space: normal;
 			text-align: center;
+			font-size: clamp(1.1rem, 4vw, 2rem);
+			line-height: 1.4;
 		}
 
 		@media (min-width: 1024px) {
@@ -4157,7 +4169,7 @@
   }
 </script>
 
-    <script src="/js/bundle.min.0e0d423e63dafe127655743537db16c26cec78c8a89a52306f97e590f8e5ec70.js" defer></script>
+    <script src="/js/bundle.min.fbe08740dde9da4d45fdf8941912974cf768c4f169c3b8e94eb1cb5f15882639.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js" defer></script>
 </body>
 </html>

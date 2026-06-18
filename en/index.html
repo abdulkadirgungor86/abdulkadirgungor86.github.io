@@ -134,15 +134,27 @@
 			align-items: center;
 			justify-content: center;
 			width: 100%;
-			overflow: hidden;  
+			overflow: hidden;
 		}
-		
+
+		 
+		h2[data-animation="tagline"] {
+			position: relative;
+		}
+
+		 
 		.typewriter {
-			width: 100%;
-			font-size: clamp(1.1rem, 4vw, 2rem);  
-			line-height: 1.2;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			display: block;
+			word-break: break-word;
 			word-wrap: break-word;
+			white-space: normal;
 			text-align: center;
+			font-size: clamp(1.1rem, 4vw, 2rem);
+			line-height: 1.4;
 		}
 
 		@media (min-width: 1024px) {
@@ -962,10 +974,14 @@
           Abdulkadir Güngör
         </h1>
 
-		<h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 font-light hero-text-accent hero-text-element hero-text-taglin w-full flex items-center justify-center lg:justify-start" 
-			style="min-height: 7.5rem"
+		<h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 font-light hero-text-accent hero-text-taglin w-full" 
+			style="height: 7.7rem; position: relative; overflow: hidden;"
 			data-animation="tagline">
-		  <span class="typewriter w-full max-w-full text-center lg:text-left" data-original-text="Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS">Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS</span>
+		  <span class="typewriter" 
+		        data-original-text="Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS"
+		        style="position: absolute; top: 0; left: 0; right: 0;">
+		    Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS
+		  </span>
 		</h2>
 
         <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto lg:mx-0 hero-text-muted leading-relaxed hero-text-element px-4 py-3 rounded-lg" style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(8px);" data-animation="description">
@@ -1039,6 +1055,7 @@
     window.addEventListener("resize", adjustFontsByHeight);
   });
 </script>
+
 <style>
   .about-section, 
   .about-section *, 
@@ -3353,7 +3370,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 </script>
 
-    <script src="/js/bundle.min.0e0d423e63dafe127655743537db16c26cec78c8a89a52306f97e590f8e5ec70.js" defer></script>
+    <script src="/js/bundle.min.fbe08740dde9da4d45fdf8941912974cf768c4f169c3b8e94eb1cb5f15882639.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js" defer></script>
 </body>
 </html>
