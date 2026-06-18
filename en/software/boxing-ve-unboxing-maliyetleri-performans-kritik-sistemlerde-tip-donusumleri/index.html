@@ -659,10 +659,14 @@
           if (isHomePage) {
             e.preventDefault();
             const targetElement = document.querySelector(section);
-            if (targetElement) {
-              targetElement.scrollIntoView({ behavior: 'instant', block: 'start' });
-            }
+            
+            
             forceCloseMenu();
+            if (targetElement) {
+              requestAnimationFrame(() => {
+                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              });
+            }
           } else {
             forceCloseMenu();
           }
