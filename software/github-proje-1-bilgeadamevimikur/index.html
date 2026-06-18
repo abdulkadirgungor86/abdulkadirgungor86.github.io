@@ -140,7 +140,8 @@
 
 		 
 		h2[data-animation="tagline"] {
-			position: relative;
+			    position: relative;
+				min-height: 7.7rem; 
 		}
 
 		 
@@ -159,6 +160,11 @@
 		}
 
 		@media (min-width: 1024px) {
+		    h2[data-animation="tagline"] {
+				height: 7.7rem; 
+				overflow: hidden;
+			}
+	
 			.hero-text-element {
 				justify-content: flex-start;
 			}

@@ -139,7 +139,8 @@
 
 		 
 		h2[data-animation="tagline"] {
-			position: relative;
+			    position: relative;
+				min-height: 7.7rem; 
 		}
 
 		 
@@ -158,6 +159,11 @@
 		}
 
 		@media (min-width: 1024px) {
+		    h2[data-animation="tagline"] {
+				height: 7.7rem; 
+				overflow: hidden;
+			}
+	
 			.hero-text-element {
 				justify-content: flex-start;
 			}
@@ -975,7 +981,7 @@
         </h1>
 
 		<h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 font-light hero-text-accent hero-text-taglin w-full" 
-			style="height: 7.7rem; position: relative; overflow: hidden;"
+			style="position: relative; overflow: hidden;"
 			data-animation="tagline">
 		  <span class="typewriter" 
 		        data-original-text="Full Stack Developer | AI, Data Science &amp; Robotics Specialist | MSc in Civil Engineering, Cybersecurity &amp; OHS"
@@ -1055,7 +1061,6 @@
     window.addEventListener("resize", adjustFontsByHeight);
   });
 </script>
-
 <style>
   .about-section, 
   .about-section *, 
