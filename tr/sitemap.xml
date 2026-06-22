@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://abdulkadirgungor.com/software/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/software/"
+                />
+  </url><url>
     <loc>https://abdulkadirgungor.com/ai/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -15,21 +28,8 @@
                 href="https://abdulkadirgungor.com/ai/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/software/</loc>
-    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/software/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +40,192 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/"
                 />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/acid/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/acid/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/acid/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/base/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/base/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/base/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/buyuk-veri-yonetimi/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/cap/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/cap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/cap/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/dagitik-sistemler/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/db/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/db/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/db/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/no-sql/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/no-sql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/no-sql/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/normalizasyon/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/nosql/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/nosql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/nosql/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/pacelc/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/pacelc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/pacelc/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/postgresql-indeksleme/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/rdbms/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/rdbms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/rdbms/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/software/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/software/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/sql/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/sql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/sql/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/transaction-yonetimi/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/veri-modelleme/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/veri-tutarliligi/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/veritabani/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/veritabani-sistemleri/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/yazilim/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/ai/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
@@ -211,19 +397,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/supervised-learning/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/bayes-theorem/</loc>
@@ -565,19 +738,6 @@
                 href="https://abdulkadirgungor.com/tags/scalability/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/software/</loc>
-    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/software/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/software-architecture/</loc>
     <lastmod>2026-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -603,9 +763,6 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/system-design/"
                 />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/yazilim/</loc>
-    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/automation/</loc>
     <lastmod>2026-05-20T00:00:00+00:00</lastmod>
@@ -1619,9 +1776,6 @@
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/coklu-ajan-sistemleri/</loc>
-    <lastmod>2026-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/dagitik-sistemler/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/gorev-dagilimi/</loc>
@@ -3478,19 +3632,6 @@
                 href="https://abdulkadirgungor.com/tags/pkce/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/nosql/</loc>
-    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/nosql/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/nosql/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/software/nosql-paradigmasi-ve-sharding-dev-veri-setlerini-yonetmek-icin-bolumleme-teknikleri/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -3550,19 +3691,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/software/migrations-ve-veri-guvenligi-uretim-ortaminda-veri-kaybi-yasamadan-sema-guncelleme/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/sql/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/sql/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/sql/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/veri-butunlugu/</loc>
@@ -5036,19 +5164,6 @@
     <loc>https://abdulkadirgungor.com/tags/oznitelik-muhendisligi/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/pacelc/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/pacelc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/pacelc/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/tutarlilik/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -5289,5 +5404,5 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/serverless/"
                 />
-  </url>
+  </url>  
 </urlset>
