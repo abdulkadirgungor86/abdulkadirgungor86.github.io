@@ -6,8 +6,197 @@
     <description>Recent content in Tags on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arduino</title>
+      <link>https://abdulkadirgungor.com/tags/arduino/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/arduino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arduino-Ide</title>
+      <link>https://abdulkadirgungor.com/tags/arduino-ide/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/arduino-ide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://abdulkadirgungor.com/tags/blog/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bluetooth</title>
+      <link>https://abdulkadirgungor.com/tags/bluetooth/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/bluetooth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Derin-Uyku</title>
+      <link>https://abdulkadirgungor.com/tags/derin-uyku/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/derin-uyku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elektronik</title>
+      <link>https://abdulkadirgungor.com/tags/elektronik/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/elektronik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Esp32</title>
+      <link>https://abdulkadirgungor.com/tags/esp32/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/esp32/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Esp8266</title>
+      <link>https://abdulkadirgungor.com/tags/esp8266/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/esp8266/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free-Rtos</title>
+      <link>https://abdulkadirgungor.com/tags/free-rtos/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/free-rtos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gomulu-Sistemler</title>
+      <link>https://abdulkadirgungor.com/tags/gomulu-sistemler/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/gomulu-sistemler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iot</title>
+      <link>https://abdulkadirgungor.com/tags/iot/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/iot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mqtt-Protokolu</title>
+      <link>https://abdulkadirgungor.com/tags/mqtt-protokolu/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/mqtt-protokolu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wi-Fi</title>
+      <link>https://abdulkadirgungor.com/tags/wi-fi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/wi-fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asekron-Programlama</title>
+      <link>https://abdulkadirgungor.com/tags/asekron-programlama/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/asekron-programlama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dom</title>
+      <link>https://abdulkadirgungor.com/tags/dom/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/dom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dom-Manipulasyonu</title>
+      <link>https://abdulkadirgungor.com/tags/dom-manipulasyonu/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/dom-manipulasyonu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Es6</title>
+      <link>https://abdulkadirgungor.com/tags/es6/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/es6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front-End</title>
+      <link>https://abdulkadirgungor.com/tags/front-end/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/front-end/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>https://abdulkadirgungor.com/tags/frontend/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://abdulkadirgungor.com/tags/javascript/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Js</title>
+      <link>https://abdulkadirgungor.com/tags/js/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node-Js</title>
+      <link>https://abdulkadirgungor.com/tags/node-js/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/node-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodejs</title>
+      <link>https://abdulkadirgungor.com/tags/nodejs/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://abdulkadirgungor.com/tags/react/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://abdulkadirgungor.com/tags/software/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yazilim</title>
+      <link>https://abdulkadirgungor.com/tags/yazilim/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/yazilim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yazilim-Mimarisi</title>
+      <link>https://abdulkadirgungor.com/tags/yazilim-mimarisi/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/yazilim-mimarisi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Acid</title>
       <link>https://abdulkadirgungor.com/tags/acid/</link>
@@ -93,13 +282,6 @@
       <description></description>
     </item>
     <item>
-      <title>Software</title>
-      <link>https://abdulkadirgungor.com/tags/software/</link>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/software/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Sql</title>
       <link>https://abdulkadirgungor.com/tags/sql/</link>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
@@ -139,13 +321,6 @@
       <link>https://abdulkadirgungor.com/tags/veritabani-sistemleri/</link>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/veritabani-sistemleri/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yazilim</title>
-      <link>https://abdulkadirgungor.com/tags/yazilim/</link>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/yazilim/</guid>
       <description></description>
     </item>
     <item>
@@ -300,20 +475,6 @@
       <link>https://abdulkadirgungor.com/tags/batarya-yonetim-sistemleri/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/batarya-yonetim-sistemleri/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>https://abdulkadirgungor.com/tags/blog/</link>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Elektronik</title>
-      <link>https://abdulkadirgungor.com/tags/elektronik/</link>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/elektronik/</guid>
       <description></description>
     </item>
     <item>
@@ -807,13 +968,6 @@
       <description></description>
     </item>
     <item>
-      <title>Arduino</title>
-      <link>https://abdulkadirgungor.com/tags/arduino/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/arduino/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cplusplus</title>
       <link>https://abdulkadirgungor.com/tags/cplusplus/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
@@ -825,20 +979,6 @@
       <link>https://abdulkadirgungor.com/tags/embedded/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/embedded/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Esp32</title>
-      <link>https://abdulkadirgungor.com/tags/esp32/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/esp32/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Iot</title>
-      <link>https://abdulkadirgungor.com/tags/iot/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/iot/</guid>
       <description></description>
     </item>
     <item>
@@ -972,13 +1112,6 @@
       <link>https://abdulkadirgungor.com/tags/web-development/</link>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/web-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yazilim-Mimarisi</title>
-      <link>https://abdulkadirgungor.com/tags/yazilim-mimarisi/</link>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/yazilim-mimarisi/</guid>
       <description></description>
     </item>
     <item>
@@ -1542,13 +1675,6 @@
       <description></description>
     </item>
     <item>
-      <title>Gomulu-Sistemler</title>
-      <link>https://abdulkadirgungor.com/tags/gomulu-sistemler/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/gomulu-sistemler/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hata-Ayiklama</title>
       <link>https://abdulkadirgungor.com/tags/hata-ayiklama/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
@@ -1598,13 +1724,6 @@
       <description></description>
     </item>
     <item>
-      <title>Bluetooth</title>
-      <link>https://abdulkadirgungor.com/tags/bluetooth/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/bluetooth/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Bluetooth-Ble</title>
       <link>https://abdulkadirgungor.com/tags/bluetooth-ble/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
@@ -1626,13 +1745,6 @@
       <description></description>
     </item>
     <item>
-      <title>Wi-Fi</title>
-      <link>https://abdulkadirgungor.com/tags/wi-fi/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/wi-fi/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Zigbee</title>
       <link>https://abdulkadirgungor.com/tags/zigbee/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
@@ -1644,13 +1756,6 @@
       <link>https://abdulkadirgungor.com/tags/avr/</link>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/avr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Derin-Uyku</title>
-      <link>https://abdulkadirgungor.com/tags/derin-uyku/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/derin-uyku/</guid>
       <description></description>
     </item>
     <item>
@@ -1700,20 +1805,6 @@
       <link>https://abdulkadirgungor.com/tags/sensor-veri-isleme/</link>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/sensor-veri-isleme/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Esp8266</title>
-      <link>https://abdulkadirgungor.com/tags/esp8266/</link>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/esp8266/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Free-Rtos</title>
-      <link>https://abdulkadirgungor.com/tags/free-rtos/</link>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/free-rtos/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino-Ide on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/arduino-ide/</link>
+    <description>Recent content in Arduino-Ide on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/arduino-ide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi</title>
+      <link>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</guid>
+      <description>&lt;p&gt;Nesnelerin İnterneti (IoT) ekosisteminde donanım seçimi, bir projenin sürdürülebilirliği, güç tüketimi ve işlem kapasitesi üzerinde doğrudan belirleyici bir rol oynar. Espressif Systems tarafından geliştirilen ESP8266 ve halefi ESP32, düşük maliyetli Wi-Fi entegrasyonu sunarak gömülü sistemler dünyasında devrim yaratmıştır. Ancak bu iki platform, mimari açıdan birbirinden oldukça farklı spektrumları temsil eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi.png&#34;&#xA;    alt=&#34;ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

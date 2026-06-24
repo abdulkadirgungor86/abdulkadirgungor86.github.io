@@ -6,8 +6,22 @@
     <description>Recent content on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi</title>
+      <link>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</guid>
+      <description>&lt;p&gt;Nesnelerin İnterneti (IoT) ekosisteminde donanım seçimi, bir projenin sürdürülebilirliği, güç tüketimi ve işlem kapasitesi üzerinde doğrudan belirleyici bir rol oynar. Espressif Systems tarafından geliştirilen ESP8266 ve halefi ESP32, düşük maliyetli Wi-Fi entegrasyonu sunarak gömülü sistemler dünyasında devrim yaratmıştır. Ancak bu iki platform, mimari açıdan birbirinden oldukça farklı spektrumları temsil eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi.png&#34;&#xA;    alt=&#34;ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kapsamlı JavaScript Öğrenme Rehberi: Sıfırdan İleri Seviyeye Web&#39;e Hayat Verin</title>
+      <link>https://abdulkadirgungor.com/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</guid>
+      <description>&lt;p&gt;Dijital dünyanın ham maddesi olan veriyi statik birer iskeletten kurtarıp yaşayan, dinamik ve reaktif sistemlere dönüştüren yegane güç JavaScript’tir. Günümüzde tarayıcı sınırlarını aşarak sunucu mimarilerinden mobil platformlara kadar uzanan bu dil, modern web ekosisteminin tartışmasız en güçlü motoru konumundadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin.png&#34;&#xA;    alt=&#34;Kapsamlı JavaScript Öğrenme Rehberi: Sıfırdan İleri Seviyeye Web&amp;#39;e Hayat Verin&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Kapsamlı JavaScript Öğrenme Rehberi: Sıfırdan İleri Seviyeye Web&amp;rsquo;e Hayat Verin.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-giriş-javascript-nedir-ve-neden-öğrenmelisiniz&#34;&gt;🚀 Giriş: JavaScript Nedir ve Neden Öğrenmelisiniz?&lt;/h2&gt;&#xA;&lt;h3 id=&#34;javascript-betik-dili-nedir&#34;&gt;JavaScript Betik Dili Nedir?&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript, tarayıcı taraflı (client-side) dinamik içerik yönetiminden sunucu mimarilerine (server-side) kadar uzanan geniş bir yelpazede kullanılan, yüksek seviyeli, dinamik, prototip tabanlı ve nesne yönelimli bir programlama dilidir. İlk olarak 1995 yılında Brendan Eich tarafından Netscape tarayıcısı için 10 günde geliştirilen bu dil, günümüzde ECMAScript (ES) standartları altında Ecma International tarafından standardize edilmektedir. Tek iş parçacıklı (single-threaded) yapısına rağmen, asenkron yapısı sayesinde bloklanmayan (non-blocking) I/O işlemlerini mükemmel bir şekilde yönetebilir.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Modern Veritabanı Mimarilerinde Veri Tutarlılığı ve Dağıtık Sistem Paradigmaları</title>
       <link>https://abdulkadirgungor.com/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</link>
@@ -728,41 +742,6 @@
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-grpc-rest/</guid>
       <description>&lt;p&gt;Geleneksel sunucu yönetimi, altyapı provizyonu ve kapasite planlama süreçleri, modern yazılım geliştirme yaşam döngüsünde (SDLC) yerini operasyonel yükün bulut sağlayıcısına devredildiği &lt;strong&gt;Serverless (Sunucusuz)&lt;/strong&gt; mimarilere bırakmaktadır. Bu makalede, Function as a Service (FaaS) modelinin teknik derinliklerini, olay güdümlü (event-driven) tasarım desenlerini ve maliyet optimizasyonu stratejilerini ele alacağız.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-%28grpc-rest%29.png&#34;&#xA;    alt=&#34;API Gateway ve Service Mesh: Karmaşık Ağlarda Trafik, Güvenlik ve Haberleşme (gRPC, REST)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: API Gateway ve Service Mesh: Karmaşık Ağlarda Trafik, Güvenlik ve Haberleşme (gRPC, REST).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://abdulkadirgungor.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/contact/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Deneyimler</title>
-      <link>https://abdulkadirgungor.com/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/experience/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hakkımda</title>
-      <link>https://abdulkadirgungor.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech Stack</title>
-      <link>https://abdulkadirgungor.com/technical/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/technical/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yetenekler</title>
-      <link>https://abdulkadirgungor.com/skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/skills/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abdulkadirgungor.com/software/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +40,329 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/"
                 />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/arduino/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/arduino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/arduino/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/arduino-ide/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/arduino-ide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/arduino-ide/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/blog/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/blog/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/blog/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/blog/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/bluetooth/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/bluetooth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/bluetooth/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/derin-uyku/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/elektronik/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/esp32/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/esp32/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/esp32/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/esp8266/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/esp8266/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/esp8266/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/free-rtos/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/free-rtos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/free-rtos/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/gomulu-sistemler/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/iot/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/iot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/iot/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/mqtt-protokolu/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/wi-fi/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/wi-fi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/wi-fi/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/asekron-programlama/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/dom/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/dom/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/dom/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/dom-manipulasyonu/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/es6/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/es6/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/es6/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/front-end/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/front-end/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/front-end/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/frontend/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/frontend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/frontend/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/javascript/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/javascript/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/js/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/js/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/js/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/node-js/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/node-js/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/node-js/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/nodejs/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/nodejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/nodejs/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/react/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/react/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/react/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/software/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/software/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/yazilim/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/yazilim-mimarisi/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/acid/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
@@ -170,19 +493,6 @@
                 href="https://abdulkadirgungor.com/tags/rdbms/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/software/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/software/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/sql/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -194,19 +504,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/sql/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/transaction-yonetimi/</loc>
@@ -222,9 +519,6 @@
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/veritabani-sistemleri/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/yazilim/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/ai/</loc>
@@ -497,35 +791,6 @@
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/batarya-yonetim-sistemleri/</loc>
-    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/blog/</loc>
-    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/blog/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/blog/</loc>
-    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/blog/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/elektronik/</loc>
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/enerji-sistemleri/</loc>
@@ -1352,19 +1617,6 @@
     <loc>https://abdulkadirgungor.com/tags/yapay-zeka-ve-makine-ogrenmesi/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/arduino/</loc>
-    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/arduino/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/arduino/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/cplusplus/</loc>
     <lastmod>2026-05-14T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -1389,32 +1641,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/embedded/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/esp32/</loc>
-    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/esp32/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/esp32/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/iot/</loc>
-    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/iot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/iot/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/blog/github-proje-4-nur-o-link/</loc>
@@ -1672,9 +1898,6 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/web-development/"
                 />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/yazilim-mimarisi/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/software/github-proje-1-bilgeadamevimikur/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
@@ -2295,9 +2518,6 @@
     <loc>https://abdulkadirgungor.com/tags/elektrik-devreleri/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/gomulu-sistemler/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://abdulkadirgungor.com/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -2365,19 +2585,6 @@
     <loc>https://abdulkadirgungor.com/tags/thevenin-teoremi/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/bluetooth/</loc>
-    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/bluetooth/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/bluetooth/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/bluetooth-ble/</loc>
     <lastmod>2026-04-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -2420,19 +2627,6 @@
                 href="https://abdulkadirgungor.com/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/wi-fi/</loc>
-    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/wi-fi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/wi-fi/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/zigbee/</loc>
     <lastmod>2026-04-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -2471,9 +2665,6 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/avr/"
                 />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/derin-uyku/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/guc-optimizasyonu/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
@@ -2548,32 +2739,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/sensor-veri-isleme/</loc>
     <lastmod>2026-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/esp8266/</loc>
-    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/esp8266/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/esp8266/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/free-rtos/</loc>
-    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/free-rtos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/free-rtos/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
@@ -5404,5 +5569,5 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/serverless/"
                 />
-  </url>  
+  </url>
 </urlset>

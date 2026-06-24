@@ -6,8 +6,22 @@
     <description>Recent content on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide</title>
+      <link>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</guid>
+      <description>&lt;p&gt;In the Internet of Things (IoT) ecosystem, hardware selection plays a directly decisive role in a project&amp;rsquo;s sustainability, power consumption, and processing capacity. Developed by Espressif Systems, the ESP8266 and its successor, the ESP32, have revolutionized the embedded systems world by offering low-cost Wi-Fi integration. However, these two platforms represent architectural spectrums that are quite distinct from each other.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi.png&#34;&#xA;    alt=&#34;Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced</title>
+      <link>https://abdulkadirgungor.com/en/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</guid>
+      <description>&lt;p&gt;JavaScript is the ultimate power that rescues data—the raw material of the digital world—from being a static skeleton and transforms it into living, dynamic, and reactive systems. Today, by transcending browser boundaries and extending from server architectures to mobile platforms, this language stands as the indisputable most powerful engine of the modern web ecosystem.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin.png&#34;&#xA;    alt=&#34;Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Data Consistency and Distributed System Paradigms in Modern Database Architectures</title>
       <link>https://abdulkadirgungor.com/en/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</link>
@@ -728,41 +742,6 @@
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/en/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-grpc-rest/</guid>
       <description>&lt;p&gt;Traditional server management, infrastructure provisioning, and capacity planning processes are being replaced in the modern Software Development Life Cycle (SDLC) by &lt;strong&gt;Serverless&lt;/strong&gt; architectures, where the operational burden is shifted to the cloud provider. In this article, we will examine the technical depths of the Function as a Service (FaaS) model, event-driven design patterns, and cost optimization strategies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-%28grpc-rest%29.png&#34;&#xA;    alt=&#34;API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://abdulkadirgungor.com/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/en/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://abdulkadirgungor.com/en/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/en/contact/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Experience</title>
-      <link>https://abdulkadirgungor.com/en/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/en/experience/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skills</title>
-      <link>https://abdulkadirgungor.com/en/skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/en/skills/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech Stack</title>
-      <link>https://abdulkadirgungor.com/en/technical/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/en/technical/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
