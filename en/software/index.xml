@@ -122,9 +122,9 @@
     </item>
     <item>
       <title>Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)</title>
-      <link>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</link>
+      <link>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</link>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</guid>
+      <guid>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</guid>
       <description>&lt;p&gt;One of the cornerstones of building sustainable architecture in software engineering is the &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, which dictates that a system should be open for extension but closed for modification. Popularized by Robert C. Martin, this concept aims to integrate every new feature into the codebase without risking the integrity of already functioning and tested code blocks.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture).&lt;/p&gt;</description>
     </item>
     <item>
