@@ -1,0 +1,196 @@
+# Temel Kullanıcı Arayüzü çevirileri (temaya hazır). 
+
+[read_more]
+other = "Devamını oku"
+
+[by]
+other = "Yazar:"
+
+[posted_on]
+other = "Yayınlanma tarihi:"
+
+[tags]
+other = "Etiketler"
+
+[contact]
+other = "İletişim"
+
+[contactFormLabel]
+other = "İletişim"
+
+[contactFormLabelNameLabel]
+other = "İsim"
+
+[contactFormLabelEmailLabel]
+other = "E-posta"
+
+[contactFormLabelSubjectLabel]
+other = "Konu"
+
+[contactFormLabelMessageLabel]
+other = "Mesaj"
+
+[contactFormSendBtnLabel]
+other = "Gönder"
+
+[send]
+other = "Gönder"
+
+[skills]
+other = "Yetenekler"
+
+[experience]
+other = "Deneyim"
+
+[about]
+other = "Hakkında"
+
+[blog]
+other = "Blog"
+
+[engineering]
+other = "Mühendislik"
+
+[contributions]
+other = "Katkılar"
+
+[technical]
+other = "Tech Stack"
+
+[language]
+other = "Dil"
+
+[getInTouch]
+other = "İletişime Geç"
+
+[learnMore]
+other = "Devamını Oku"
+
+[sendMeAMessage]
+other = "Mesaj gönder"
+
+[contactInformation]
+other = "İletişim Bilgileri"
+
+[priorityContact]
+other = "Öncelikli İletişim"
+
+[aboutMe]
+other = "Hakkımda"
+
+[connectOnLinkedIn]
+other = "LinkedIn'de bağlan"
+
+[quickFacts]
+other = "Kısa Bilgiler"
+
+[more]
+other = "Daha fazla"
+
+[aboutName]
+other = "Hakkında"
+
+[relatedContent]
+other = "İlgili İçerikler"
+
+[interests]
+other = "İlgi Alanları"
+
+[languages]
+other = "Diller"
+
+[helloIm]
+other = "Merhaba, ben"
+
+[viewCV]
+other = "Özgeçmişi Görüntüle"
+
+[downloadResume]
+other = "Özgeçmişi İndir"
+
+[keyAchievements]
+other = "Temel Başarılar"
+
+[demoImageAlt]
+other = "Demo Görseli"
+
+[galleryNotFound]
+other = "Galeri görselleri burada bulunamadı:"
+
+[viewOnGithub]
+other = "Kaynak kodun tamamını GitHub'da gör"
+
+[iframeIdRequired]
+other = "Hata: iframe kısa kodu için 'id' parametresi gereklidir."
+
+[fullscreen]
+other = "Tam Ekran"
+
+[youtubePlayerTitle]
+other = "YouTube video oynatıcı"
+
+[vimeoPlayerTitle]
+other = "Vimeo video oynatıcı"
+
+[pageNotFound]
+other = "Sayfa Bulunamadı"
+
+[pageNotFoundSubtitle]
+other = "Aradığınız sayfa mevcut değil."
+
+[goHome]
+other = "Ana sayfaya dön"
+
+[certainlyNotHere]
+other = "Kesinlikle burada değil"
+
+[schedule_meeting]
+other = "Calendly hesabımdan bir toplantı randevusu alın."
+
+[shareTitle]
+other = "Bu yazıyı beğendiniz mi?"
+
+[share_linkedin]
+other = "LinkedIn'de Paylaş"
+
+[go_back]
+other = "Geri Dön"
+
+[all_contents]
+other = "Konuyla İlgili Tüm İçerikler"
+
+[site_all_contents]
+other = "Tüm İçerikler"
+
+[other_contents]
+other = "İlgili İçerikler"
+
+[author_label]
+other = "Yazar:"
+
+[cookie_settings]
+other = "Çerez Ayarları"
+
+[cookie_title]
+other = "Size daha iyi hizmet sunabilmek için çerezleri kullanıyoruz."
+
+[cookie_text]
+other = "Web sitemizde gezinme deneyiminizi geliştirmek, size kişiselleştirilmiş içerik ve hedefli reklamlar göstermek, web sitesi trafiğimizi analiz etmek ve ziyaretçilerimizin nereden geldiğini anlamak için çerezleri ve diğer izleme teknolojilerini kullanıyoruz."
+
+[cookie_accept]
+other = "Tümünü Kabul Et"
+
+[cookie_reject]
+other = "Tümünü Reddet"
+
+[kvkk_title]
+other = "KVKK ve Çerez Politikası Bilgilendirmesi"
+
+[kvkk_text]
+other = "6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Aydınlatma Yükümlülüğü kapsamında; web sitemizin temel fonksiyonlarının çalışabilmesi, veri güvenliğinin sağlanması ve performans analizi yapılabilmesi için zorunlu çerezlerin kullanımı gerekmektedir. Çerez kullanımını reddetmeniz halinde, teknik imkansızlıklar ve veri senkronizasyonu kesintileri nedeniyle web sitemizdeki hizmetlerden yararlanmanız mümkün olmamaktadır. Sitemizdeki içeriklere erişebilmek için çerez kullanımını onaylamanız gerekmektedir."
+
+[kvkk_back]
+other = "Onay Ekranına Dön ve Kabul Et"
+
+[software]
+other = "yazilim"

@@ -1,0 +1,127 @@
+{{ define "main" }}
+
+<style>
+  .custom-scrollbar::-webkit-scrollbar { width: 5px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb { background: #475569; }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+  .custom-scrollbar { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
+  .dark .custom-scrollbar { scrollbar-color: #475569 transparent; }
+</style>
+
+<section class="pt-8 pb-12 bg-bg dark:bg-bg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row gap-8 lg:items-stretch">
+      
+      <div class="lg:w-2/3">
+        <h1 class="text-3xl font-bold text-center mb-8 text-text-primary dark:text-text-primary">{{ .Title }}</h1>
+        
+		<div class="mt-2 mb-4 flex flex-col items-center justify-center text-center">
+		  <p class="text-base font-semibold text-gray-800 dark:text-gray-200">
+			<time datetime="{{ .Date.Format "2006-01-02" }}">
+			  {{ if eq .Site.Language.Lang "tr" }}
+				{{ .Date.Format "02" }} 
+				{{ index (slice "Ocak" "Şubat" "Mart" "Nisan" "Mayıs" "Haziran" "Temmuz" "Ağustos" "Eylül" "Ekim" "Kasım" "Aralık") (sub .Date.Month 1) }} 
+				{{ .Date.Format "2006" }}
+			  {{ else }}
+				{{ .Date.Format "02 Jan 2006" }}
+			  {{ end }}
+			</time>
+		  </p>
+		</div>
+						
+        <div class="prose max-w-none dark:prose-invert">
+          {{ .Content }}
+        </div>
+		
+		<div class="mt-12 mb-4 flex flex-col items-center justify-center text-center">
+		  {{ if .Params.tags }}
+		  <div class="flex flex-wrap justify-center gap-2 mb-4">
+			{{ range .Params.tags }}
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #{{ . }}
+			</span>
+			{{ end }}
+		  </div>
+		  {{ end }}
+		</div>
+		
+		<div class="mt-8 mb-8 flex flex-col items-center justify-center text-center">
+		  <p class="text-xl tracking-tight">
+			<span class="text-text-secondary dark:text-text-tertiary font-medium">
+			  {{ i18n "author_label" | default "Yazar:" }}
+			</span>
+			<a href="{{ .Site.BaseURL }}" 
+			   class="ml-1 font-bold text-text-primary dark:text-text-primary hover:text-primary dark:hover:text-primary-light transition-all duration-300">
+			  {{ .Site.Params.author }}
+			</a>
+		  </p>
+		  <div class="mt-4 w-12 h-1 bg-primary/30 dark:bg-primary-light/30 rounded-full"></div>
+		</div>
+
+        <div class="mt-12 pt-8 border-t border-border-primary dark:border-border-primary flex flex-col items-center gap-4">
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | absURL }}" 
+             target="_blank" rel="noopener"
+             class="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 bg-[#0077b5] hover:bg-[#005582] text-white font-bold rounded-xl transition-all shadow-md">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            {{ T "share_linkedin" }}
+          </a>
+          
+          <a href="#" 
+             onclick="event.preventDefault(); if (window.history.length > 1 && document.referrer && document.referrer.includes(window.location.hostname)) { window.history.back(); } else { window.location.href = '{{ .Site.BaseURL }}'; }"
+             class="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-2 bg-bg-secondary dark:bg-bg-tertiary text-text-primary dark:text-text-primary border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 font-medium rounded-xl transition-all shadow-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+            {{ T "go_back" }}
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:w-1/3 relative">
+        <div class="lg:absolute lg:inset-0 lg:overflow-y-auto pr-3 custom-scrollbar">
+          <h2 class="text-xl font-bold mb-4 text-text-primary dark:text-text-primary border-l-4 border-primary pl-3 sticky top-0 bg-bg dark:bg-bg py-1 z-10">
+            {{ i18n "other_contents" }}
+          </h2>
+          
+          <div class="space-y-4">
+            {{ $current := . }}
+            {{ range .CurrentSection.Pages.ByDate.Reverse }}
+              {{ if ne .Permalink $current.Permalink }}
+              <a href="{{ .RelPermalink }}" class="block group">
+                <article class="bg-bg-secondary dark:bg-bg-tertiary rounded-xl p-4 border border-border-primary dark:border-border-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm">
+                  <div class="flex items-center gap-4 mb-2">
+                    {{ if .Params.featured_image }}
+                    <img src="{{ .Params.featured_image }}" class="w-16 h-16 rounded-lg object-cover shadow-sm">
+                    {{ end }}
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-sm font-bold text-text-primary dark:text-text-primary group-hover:text-primary transition-colors line-clamp-2 leading-tight">
+                        {{ .Title }}
+                      </h3>
+                    </div>
+                  </div>
+                  {{ if .Description }}
+                  <p class="text-[11px] text-text-secondary dark:text-text-tertiary mb-3 line-clamp-3 leading-snug">
+                    {{ .Description }}
+                  </p>
+                  {{ end }}
+                  {{ if .Params.tags }}
+                  <div class="flex flex-wrap gap-1">
+                    {{ range .Params.tags }}
+                    <span class="bg-slate-800 dark:bg-slate-700 text-white px-2 py-0.5 rounded text-[10px] font-bold border border-slate-700 dark:border-slate-600 shadow-sm">
+                      {{ . }}
+                    </span>
+                    {{ end }}
+                  </div>
+                  {{ end }}
+                </article>
+              </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+{{ end }}

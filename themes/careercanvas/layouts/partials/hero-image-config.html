@@ -1,0 +1,95 @@
+{{ $imageDir := "static/images/random-hero-images" }}
+{{ $imageList := slice }}
+
+{{ if (fileExists $imageDir) }}
+  {{ range (readDir $imageDir) }}
+    {{ if not .IsDir }}
+      {{ $imageList = $imageList | append (printf "/images/random-hero-images/%s" .Name | relURL) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<style>
+  #home {
+    position: relative !important;
+    background-color: #0f0f0f !important;
+    z-index: 1 !important;
+    overflow: hidden !important;
+    min-height: 100vh; /* CLS (kayma) önlemek için önemli */
+  }
+
+  .hero-bg-container {
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: -10 !important;
+    pointer-events: none !important;
+  }
+
+  .hero-bg-container img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    opacity: 0;
+    /* İstediğin 0.4sn geçiş hızı */
+    transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: brightness(0.7);
+    will-change: opacity; /* GPU optimizasyonu */
+  }
+
+  .bg-ready .hero-bg-container img {
+    opacity: 1 !important;
+  }
+
+  /* İçeriklerin resmin üstünde kalmasını sağlar */
+  .hero-inner-row, .max-w-7xl {
+    position: relative !important;
+    z-index: 20 !important;
+  }
+</style>
+
+<script>
+  (function() {
+    // Hugo listesini direkt JS dizisine çeviriyoruz
+    const images = {{ $imageList | jsonify | safeJS }};
+    
+    function setHeroBackground() {
+      if (!images || images.length === 0) return;
+
+      // Rastgele seçim
+      const randomImg = images[Math.floor(Math.random() * images.length)];
+      
+      // Hem temanın orijinal ID'sini hem de bizim eklediğimiz container'ı hedefliyoruz
+      const heroImgs = document.querySelectorAll('#home #hero-bg-image, .hero-bg-container img');
+      const heroSection = document.getElementById('home');
+
+      if (heroImgs.length === 0) return;
+
+      // Resmi önceden yükle (Preload mantığı)
+      const imgLoader = new Image();
+      imgLoader.src = randomImg;
+
+      const applyStyles = () => {
+        heroImgs.forEach(img => {
+          img.src = randomImg;
+        });
+        // Tarayıcının render döngüsüne uyum sağlamak için
+        requestAnimationFrame(() => {
+          heroSection.classList.add('bg-ready');
+        });
+      };
+
+      if (imgLoader.complete) {
+        applyStyles();
+      } else {
+        imgLoader.onload = applyStyles;
+      }
+    }
+
+    // DOMContentLoaded beklemeden en hızlı şekilde çalıştır
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', setHeroBackground);
+    } else {
+      setHeroBackground();
+    }
+  })();
+</script>

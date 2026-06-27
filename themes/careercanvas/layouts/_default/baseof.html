@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	
+	<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5L6M34JW');</script>
+	<!-- End Google Tag Manager -->
+	
+    <script>
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+        }
+        
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+    </script>
+    {{ partial "head.html" . }}
+    {{ partial "color-variables.html" . }}
+    {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") }}
+    {{ if hugo.IsProduction }}{{ $styles = $styles | minify | fingerprint }}{{ end }}
+    <link rel="preload" href="{{ $styles.RelPermalink }}" as="style">
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+    {{ with .Params.featured_image }}
+    <link rel="preload" href="{{ . | absURL }}" as="image" fetchpriority="high">
+    {{ end }}
+    <style>
+        .calendly-badge-widget .calendly-badge-content{background-color:#006bff!important;color:#fff!important}
+        img{content-visibility:auto;image-rendering:-webkit-optimize-contrast}
+        .fade-in{animation:fadeIn 0.4s ease-in forwards}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+		
+		/* hero-text-element: hizalama */
+		.hero-text-element {
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			overflow: hidden;
+		}
+
+		h2[data-animation="tagline"] {
+			position: relative;
+		}
+
+		.typewriter {
+			display: block;
+			word-break: break-word;
+			word-wrap: break-word;
+			white-space: normal;
+			text-align: center;
+			font-size: clamp(1.1rem, 4vw, 2rem);
+			line-height: 1.4;
+		}
+
+		@media (min-width: 1024px) {
+		
+			.hero-text-element {
+				justify-content: flex-start;
+			}
+			
+			h2[data-animation="tagline"] {
+				height: 7.7rem;
+				overflow: hidden;
+			}
+			.typewriter {
+				text-align: left;
+			}
+		}
+
+    </style>
+</head>
+<body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200 fade-in">
+    
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L6M34JW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+    {{ partial "nav.html" . }}
+    <div class="w-full h-16"></div>
+    <main class="flex-grow">{{ block "main" . }}{{ end }}</main>
+    {{ partial "footer.html" . }}
+    {{ $js := slice (resources.Get "js/scripts.js") (resources.Get "js/devicon-fallback.js") (resources.Get "js/dynamic-colors.js") (resources.Get "js/gsap-animations.js") | resources.Concat "js/bundle.js" }}
+    {{ if hugo.IsProduction }}{{ $js = $js | minify | fingerprint }}{{ end }}
+    {{ partial "color-config.html" . }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js" defer></script>
+</body>
+</html>

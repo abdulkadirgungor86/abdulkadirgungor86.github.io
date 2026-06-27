@@ -1,0 +1,15 @@
+# Keys must match urlize(company) from experience front matter, or use company_key on a position.
+# Each `src` is a URL path; use .svg, .png, or .webp under static/images/companies/.
+# If there is no entry here, all images in static/images/companies/<key>/ are shown (e.g. various-engineering-firms/).
+nida-osgb:
+  src: /images/companies/nida-logo.png
+kutahya-oztas-makina:
+  src: /images/companies/kutahya-oztas-logo.jpg
+nby-insaat:
+  src: /images/companies/nby-logo.jpg
+yapi-teknik:
+  src: /images/companies/yapi-teknik-logo.png
+avrasya-metro:
+  src: /images/companies/avrasya-metro-grubu-logo.jpg
+dsi:
+  src: /images/companies/dsi-logo.jpg

@@ -1,0 +1,132 @@
+# Hugo Site Configuration
+baseURL = "https://abdulkadirgungor.com/"
+
+title = "Abdulkadir Güngör"
+theme = "careercanvas"
+defaultContentLanguage = "tr"
+defaultContentLanguageInSubdir = false
+
+preserveTaxonomyNames = true
+
+[languages]
+  [languages.tr]
+    contentDir = "content/tr"
+    label = "Türkçe"
+    weight = 1
+    [languages.tr.params]
+	profile_image = "/images/website-abdulkadir-gungor-profil-resmi.jpeg"
+      tagline = "Full Stack Geliştirici | Yapay Zeka, Veri Bilimi ve Robotik Uzmanı | Siber Güvenlik, İSG ve İnşaat Yüksek Mühendisi"
+      hero_description = "Yazılım mimarisinden robotik sistemlere, veri biliminden siber güvenliğe uzanan geniş teknik uzmanlığını yüksek mühendislik vizyonuyla birleştiren inovasyon odaklı çözüm geliştirici."
+      hero_location = "İstanbul, Türkiye"
+	  resume_url =  "/files/abdulkadir-gungor-cv-tr.pdf"
+      collab_tags = [
+        "FullStack, Software & Cybersecurity",
+        "AI, DataScience & Robotics",
+		"DigitalEngineering & Systems",
+        "CivilEngineering & MScEngineer",
+        "OccupationalHealth, ISG & Safety"
+      ]
+	  
+  [languages.en]
+    contentDir = "content/en"
+    label = "English"
+    weight = 2
+    [languages.en.params]
+	  profile_image = "/images/website-abdulkadir-gungor-profil-resmi.jpeg"
+      tagline = "Full Stack Developer | AI, Data Science & Robotics Specialist | MSc in Civil Engineering, Cybersecurity & OHS"
+      hero_description = "An innovation-oriented solution developer merging high-level engineering vision with broad technical expertise ranging from software architecture and robotics to data science and cybersecurity."
+      hero_location = "İstanbul, Türkiye"
+      resume_url =  "/files/abdulkadir-gungor-cv-en.pdf"
+      collab_tags = [
+        "FullStack, Software & Cybersecurity",
+        "AI, DataScience & Robotics",
+		"DigitalEngineering & Systems",
+        "CivilEngineering & MScEngineer",
+        "OccupationalHealth, ISG & Safety"
+      ]
+	  
+[build]
+  writeStats = true
+
+[params]
+name = "Abdulkadir Güngör"
+firstName = "Abdulkadir"
+lastName = "Güngör"
+email = "a.kadir.gungor.86@gmail.com"
+profile_image = "/images/website-abdulkadir-gungor-profil-resmi.jpeg"
+author = "Abdulkadir Güngör"
+
+# Değiştir: 1 (OK)
+og_image = "/images/website-abdulkadir-gungor-og-twitter-resmi.png"
+
+description = "Full Stack Geliştirici | Yapay Zeka, Veri Bilimi ve Robotik Uzmanı | Siber Güvenlik, İSG ve İnşaat Yüksek Mühendisi"
+
+linkedin_url = "https://www.linkedin.com/in/abdulkadir-güngör/"
+linkedin_text = "linkedin.com/in/abdulkadir-güngör/"
+github_url = "https://github.com/abdulkadirgungor86"
+github_text = "github.com/abdulkadirgungor86"
+
+calendly_url = "https://calendly.com/a-kadir-gungor-86/30min"
+calendly_height = "700px"
+
+copyright = "Abdulkadir Güngör"
+
+# Değiştir: 2 ()
+resume_url_tr = "/files/abdulkadir-gungor-cv-tr.pdf"
+resume_url_en = "/files/abdulkadir-gungor-cv-en.pdf"
+resume_label = "Özgeçmiş (CV)"
+
+# Değiştir: 3
+formspreeendpoint = "https://formspree.io/f/xwpljvpo"
+  
+[[params.social]]
+icon = "linkedin-in"
+url = "https://www.linkedin.com/in/abdulkadir-güngör/"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/abdulkadirgungor86"
+
+sectionPagesMenu = 'main'
+
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$'], ['\\[', '\\]']]
+          inline = [['$', '$'], ['\\(', '\\)']]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = false
+
+  [markup.highlight]
+    style = "monokai"
+
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
+
+# Dynamic Color Palettes Configuration
+# Multiple color palettes that will be randomly selected on each page load
+# Each palette contains main_color, second_color, and third_color
+[params.color_palettes]
+  [[params.color_palettes.palette]]
+    name = "professional"
+    main_color = "#474A51"    # Graphite Gray – ultra professional, metallic, predominant
+    second_color = "#E52521"  # Mario Red – subtle accent, inspired by Super Mario
+    third_color = "#3CB043"   # Luigi Green – subtle accent, inspired by Luigi
+  
