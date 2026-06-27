@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory-Hierarchy on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/memory-hierarchy/</link>
+    <description>Recent content in Memory-Hierarchy on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/memory-hierarchy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles</title>
+      <link>https://abdulkadirgungor.com/en/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</guid>
+      <description>&lt;p&gt;In software performance optimization, the most critical bottleneck is often not computational power, but the speed at which data is delivered to the processor. While modern CPUs have massive processing capacities measured in microseconds, retrieving data from main memory (RAM) is quite slow by comparison. At this point, &amp;ldquo;Cache Friendly&amp;rdquo; coding is the fundamental factor that determines whether a piece of software can reach its theoretical speed limits.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri.png&#34;&#xA;    alt=&#34;Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

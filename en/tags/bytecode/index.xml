@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bytecode on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/bytecode/</link>
+    <description>Recent content in Bytecode on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/bytecode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JIT (Just-In-Time) Compilation Process: Optimizing Code in Machine Language</title>
+      <link>https://abdulkadirgungor.com/en/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</guid>
+      <description>&lt;p&gt;JIT (Just-In-Time) Compilation, representing the pinnacle of performance in the software world, is a hybrid mechanism that combines the flexibility of interpreted languages with the speed of compiled languages. In modern runtime environments, particularly in structures like the JVM (Java Virtual Machine), .NET CLR (Common Language Runtime), and the V8 Engine, JIT compilers ensure that code is converted into machine language and optimized according to the processor architecture during the execution phase.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

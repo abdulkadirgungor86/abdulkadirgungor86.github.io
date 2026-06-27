@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boyut-Indirgeme on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/boyut-indirgeme/</link>
+    <description>Recent content in Boyut-Indirgeme on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/boyut-indirgeme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Makine Öğrenmesinde Boyut İndirgeme Stratejileri ve Algoritmik Derinlik</title>
+      <link>https://abdulkadirgungor.com/ai/makine-ogrenmesinde-boyut-indirgeme-stratejileri-ve-algoritmik-derinlik/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/makine-ogrenmesinde-boyut-indirgeme-stratejileri-ve-algoritmik-derinlik/</guid>
+      <description>&lt;p&gt;Veri biliminde &amp;ldquo;boyutun laneti&amp;rdquo; (curse of dimensionality), öznitelik sayısı arttıkça verinin uzayda seyrekleşmesi ve modelin karmaşıklığının üstel olarak artması durumunu ifade eder. Özellikle biyoinformatik, görüntü işleme ve doğal dil işleme gibi alanlarda binlerce öznitelikle çalışmak, hem hesaplama maliyetini artırır hem de &lt;strong&gt;overfitting&lt;/strong&gt; (aşırı uyum) riskini tetikler. Bu noktada boyut indirgeme teknikleri, verinin özünü koruyarak gürültüden arındırılmış, daha yönetilebilir bir yapı sunar.&lt;/p&gt;&#xA;&lt;p&gt;Bu yazıda, doğrusal boyut indirgemenin iki dev ismi olan &lt;strong&gt;PCA (Principal Component Analysis)&lt;/strong&gt; ve &lt;strong&gt;LDA (Linear Discriminant Analysis)&lt;/strong&gt; yöntemlerini teknik bir perspektifle, matematiksel temelleri ve Python uygulamalarıyla ele alınmıştır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oop on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/oop/</link>
+    <description>Recent content in Oop on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Class vs Interface: Derinlemesine Teknik Analiz ve Mimari Karar Süreçleri</title>
+      <link>https://abdulkadirgungor.com/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde &amp;ldquo;Soyutlama&amp;rdquo; (Abstraction), karmaşıklığı yönetmek ve sistemin genişletilebilirliğini sağlamak için temel bir mekanizmadır. Nesne yönelimli programlama (OOP) dillerinde bu mekanizmanın iki ana taşıyıcısı &lt;strong&gt;Abstract Class&lt;/strong&gt; ve &lt;strong&gt;Interface&lt;/strong&gt; yapılarıdır. Birçok geliştirici bu iki yapıyı birbirinin alternatifi gibi düşünse de, teknik derinlikte aralarındaki farklar tasarım desenleri (design patterns) ve sistem performansı üzerinde kritik etkilere sahiptir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri.png&#34;&#xA;    alt=&#34;Abstract Class vs Interface: Derinlemesine Teknik Analiz ve Mimari Karar Süreçleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1:  Abstract Class vs Interface: Derinlemesine Teknik Analiz ve Mimari Karar Süreçleri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi)</title>
+      <link>https://abdulkadirgungor.com/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</guid>
+      <description>&lt;p&gt;Yazılım mühendisliğinde sürdürülebilir bir mimari inşa etmenin temel taşlarından biri olan &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, yani Açık-Kapalı Prensibi, sistemin genişlemeye açık (open for extension) ancak değişime kapalı (closed for modification) olması gerektiğini savunur. Robert C. Martin tarafından popüler hale getirilen bu kavram, kod tabanında yapılacak her yeni özelliğin, halihazırda çalışan ve test edilmiş kod bloklarını riske atmadan sisteme entegre edilmesini hedefler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OOP Temelleri: Kapsülleme, Kalıtım, Çok Biçimlilik ve Soyutlama</title>
+      <link>https://abdulkadirgungor.com/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</guid>
+      <description>&lt;p&gt;Nesne Yönelimli Programlama (Object-Oriented Programming - OOP), karmaşık yazılım sistemlerini yönetilebilir, sürdürülebilir ve genişletilebilir parçalara ayırmak için kullanılan en temel paradigmadır. Modern sistem tasarımında bu dört temel ilke—Encapsulation, Inheritance, Polymorphism ve Abstraction—yazılımın iskeletini oluşturur.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/oop-encapsulation-inheritance-polymorphism-ve-abstraction.png&#34;&#xA;    alt=&#34;OOP Temelleri: Kapsülleme, Kalıtım, Çok Biçimlilik ve Soyutlama&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: OOP Temelleri: Kapsülleme, Kalıtım, Çok Biçimlilik ve Soyutlama.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-abstraction-soyutlama-sistemin-karmaşıklığını-gizlemek&#34;&gt;1. Abstraction (Soyutlama): Sistemin Karmaşıklığını Gizlemek&lt;/h2&gt;&#xA;&lt;p&gt;Abstraction, bir nesnenin sadece dış dünyaya sunduğu fonksiyonelliğe odaklanmak, nesnenin bu işi &amp;ldquo;nasıl&amp;rdquo; yaptığına dair içsel detayları gizlemektir. Sistem tasarımında soyutlama, bağımlılıkları (coupling) azaltmak için en kritik araçtır.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liskov Substitution: Alt Sınıfların Üst Sınıf Davranışlarını Bozmadığından Emin Olmak</title>
+      <link>https://abdulkadirgungor.com/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve esneklik, kodun sadece çalışmasıyla değil, aynı zamanda bileşenlerin birbirleriyle olan uyumuyla ölçülür. Robert C. Martin tarafından popüler hale getirilen SOLID prensiplerinin üçüncü halkası olan &lt;strong&gt;Liskov Substitution Principle (LSP)&lt;/strong&gt;, nesne yönelimli programlamada (OOP) kalıtım hiyerarşisinin matematiksel ve mantıksal tutarlılığını garanti altına alan en kritik kurallardan biridir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak.png&#34;&#xA;    alt=&#34;Liskov Substitution: Alt Sınıfların Üst Sınıf Davranışlarını Bozmadığından Emin Olmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Liskov Substitution: Alt Sınıfların Üst Sınıf Davranışlarını Bozmadığından Emin Olmak&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</guid>
+      <description>&lt;p&gt;Yazılım mimarilerinde nesne oluşturma ve bu nesnelerin birbirleriyle olan ilişkilerini yönetme süreci, projenin ölçeklenebilirliği ve sürdürülebilirliği açısından kritik bir öneme sahiptir. Modern yazılım geliştirme pratiklerinde, sınıfların kendi bağımlılıklarını kendilerinin oluşturması (tight coupling), kodun test edilebilirliğini zorlaştırır ve esnekliğini azaltır. Bu sorunu aşmak için kullanılan &lt;strong&gt;Inversion of Control (IoC)&lt;/strong&gt; prensibi ve bu prensibin en yaygın uygulama biçimi olan &lt;strong&gt;Dependency Injection (DI)&lt;/strong&gt;, nesne yönetimini merkezi bir yapıya devreder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/inversion-of-control-%28ioc%29-containers-bagimlilik-enjeksiyonu-%28di%29-yasam-dongusu-yonetimi.png&#34;&#xA;    alt=&#34;Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface vs. Abstract Class: Ne Zaman Sözleşme (Contract), Ne Zaman Şablon (Template)?</title>
+      <link>https://abdulkadirgungor.com/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</guid>
+      <description>&lt;p&gt;Nesne yönelimli programlama (OOP) paradigmasında, mimari tasarımı şekillendiren en kritik kararlardan biri &amp;ldquo;Soyutlama&amp;rdquo; (Abstraction) katmanının nasıl kurgulanacağıdır. Geliştiriciler genellikle &amp;ldquo;Interface&amp;rdquo; (Arayüz) ve &amp;ldquo;Abstract Class&amp;rdquo; (Soyut Sınıf) yapılarını birbirinin yerine geçebilir gibi görse de, bu iki yapı yazılımın esnekliği, sürdürülebilirliği ve genişletilebilirliği açısından taban tabana zıt felsefelere hizmet eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/interface-vs-abstract-class-ne-zaman-sozlesme-%28contract%29-ne-zaman-sablon-%28template%29.png&#34;&#xA;    alt=&#34;Interface vs. Abstract Class: Ne Zaman Sözleşme (Contract), Ne Zaman Şablon (Template)?&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Interface vs. Abstract Class: Ne Zaman Sözleşme (Contract), Ne Zaman Şablon (Template)?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface Segregation: &#34;Yağlı&#34; Arayüzleri Parçalayarak İstemci Bağımlılıklarını Azaltmak</title>
+      <link>https://abdulkadirgungor.com/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve esneklik, bileşenlerin birbirine olan bağımlılıklarının (coupling) ne kadar hassas yönetildiğiyle doğrudan ilişkilidir. Robert C. Martin tarafından tanımlanan SOLID prensiplerinin dördüncü halkası olan &lt;strong&gt;Interface Segregation Principle (ISP)&lt;/strong&gt;, yani Arayüz Ayrımı Prensibi, sistemdeki &amp;ldquo;şişman&amp;rdquo; (fat/bloated) arayüzlerin yarattığı teknik borcu temizlemek için kullanılan en kritik araçlardan biridir.&lt;/p&gt;&#xA;&lt;p&gt;ISP&amp;rsquo;nin temel mottosu şudur: &lt;strong&gt;&amp;ldquo;Hiçbir istemci, kullanmadığı metotlara bağımlı olmaya zorlanmamalıdır.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak.png&#34;&#xA;    alt=&#34;Interface Segregation: &amp;#34;Yağlı&amp;#34; Arayüzleri Parçalayarak İstemci Bağımlılıklarını Azaltmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Interface Segregation: &amp;ldquo;Yağlı&amp;rdquo; Arayüzleri Parçalayarak İstemci Bağımlılıklarını Azaltmak&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delegates ve Events: Olay Güdümlü (Event-Driven) Programlamanın Mimari Temelleri</title>
+      <link>https://abdulkadirgungor.com/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</guid>
+      <description>&lt;p&gt;Modern yazılım mimarilerinde sistem bileşenlerinin birbirleriyle olan bağımlılıklarını minimize etmek (loose coupling) ve esnek bir iletişim mekanizması kurmak, sürdürülebilir kodun anahtarıdır. C# ve .NET ekosisteminde bu esnekliği sağlayan temel yapılar &lt;strong&gt;Delegates&lt;/strong&gt; ve &lt;strong&gt;Events&lt;/strong&gt; mekanizmalarıdır. Bu yapılar, özellikle asenkron programlama, kullanıcı arayüzü (UI) etkileşimleri ve mikroservis haberleşmeleri gibi alanlarda olay güdümlü (event-driven) yaklaşımın çekirdeğini oluşturur.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/delegates-ve-events-olay-gudumlu-%28event-driven%29-programlamanin-mimari-temelleri.png&#34;&#xA;    alt=&#34;Delegates ve Events: Olay Güdümlü (Event-Driven) Programlamanın Mimari Temelleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Delegates ve Events: Olay Güdümlü (Event-Driven) Programlamanın Mimari Temelleri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creational Patterns Derinliği: Abstract Factory ve Builder ile Karmaşık Nesne İnşası</title>
+      <link>https://abdulkadirgungor.com/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde nesne oluşturma süreçleri, sistemin esnekliği ve genişletilebilirliği açısından kritik bir eşiktir. &amp;ldquo;Creational Patterns&amp;rdquo; (Yaratımsal Desenler), nesnelerin nasıl oluşturulacağını soyutlayarak, sistemi nesnenin nasıl yaratıldığından, kompoze edildiğinden ve sunulduğundan bağımsız hale getirir. Bu bağlamda Abstract Factory ve Builder desenleri, karmaşıklık yönetimi ve nesne hiyerarşileri açısından en güçlü araçlar arasında yer alır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi.png&#34;&#xA;    alt=&#34;Creational Patterns Derinliği: Abstract Factory ve Builder ile Karmaşık Nesne İnşası&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Creational Patterns Derinliği: Abstract Factory ve Builder ile Karmaşık Nesne İnşası.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

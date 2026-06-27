@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/github/</link>
+    <description>Recent content in Github on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous CI/CD Pipeline Architecture with GitHub Actions</title>
+      <link>https://abdulkadirgungor.com/en/software/github-actions-ile-kesintisiz-ci-cd-pipeline-mimarisi/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/github-actions-ile-kesintisiz-ci-cd-pipeline-mimarisi/</guid>
+      <description>&lt;p&gt;In the modern software development world, deployment processes are as critical as writing the code itself. In an ecosystem where users can access your application 24/7, traditional methods like &amp;ldquo;maintenance mode&amp;rdquo; or &amp;ldquo;server downtime&amp;rdquo; are no longer acceptable. Zero Downtime Deployment allows you to roll out new features confidently while keeping your infrastructure running continuously.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-actions-ile-kesintisiz-ci-cd-pipeline-mimarisi.png&#34;&#xA;    alt=&#34;Continuous CI/CD Pipeline Architecture with GitHub Actions&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Continuous CI/CD Pipeline Architecture with GitHub Actions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

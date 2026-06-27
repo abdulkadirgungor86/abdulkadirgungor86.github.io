@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev-Ops on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/dev-ops/</link>
+    <description>Recent content in Dev-Ops on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/dev-ops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yazılımda Ölçeklenebilirlik: Dikey ve Yatay Ölçeklendirme ile High-Availability Tasarımı</title>
+      <link>https://abdulkadirgungor.com/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</guid>
+      <description>&lt;p&gt;Günümüzün dinamik trafik yüklerine sahip yazılım ekosistemlerinde, bir uygulamanın sadece işlevsel olması yeterli değildir. Sistemin, artan kullanıcı sayısına ve veri hacmine yanıt verebilme yeteneği, yani &lt;strong&gt;ölçeklenebilirliği (scalability)&lt;/strong&gt;, projenin sürdürülebilirliği açısından kritik bir parametredir. Bu blog yazısında, dikey ve yatay ölçeklendirme tekniklerini, yük dengeleme mekanizmalarını ve yüksek erişilebilirlik (High Availability) tasarım prensiplerini derinlemesine ele alınacaktır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi.png&#34;&#xA;    alt=&#34;Yazılımda Ölçeklenebilirlik: Dikey ve Yatay Ölçeklendirme ile High-Availability Tasarımı&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Yazılımda Ölçeklenebilirlik: Dikey ve Yatay Ölçeklendirme ile High-Availability Tasarımı&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri</title>
+      <link>https://abdulkadirgungor.com/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;Yazılım dünyasında çeviklik ve pazar hızı (Time-to-Market) çoğu zaman mühendislik mükemmeliyetinin önüne geçer. Ancak bu durum, sistemlerin zamanla &amp;ldquo;Technical Debt&amp;rdquo; (Teknik Borç) bataklığına saplanmasına neden olur. Bir noktadan sonra mevcut yapıyı sürdürmek, yeni özellik geliştirmekten daha maliyetli hale geldiğinde ise &amp;ldquo;Legacy Modernization&amp;rdquo; kaçınılmaz bir zorunluluktur.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-teknik-borcun-taksonomisi-ve-mühendislik-etkileri&#34;&gt;1. Teknik Borcun Taksonomisi ve Mühendislik Etkileri&lt;/h2&gt;&#xA;&lt;p&gt;Teknik borç sadece &amp;ldquo;kötü kod&amp;rdquo; demek değildir. Ward Cunningham tarafından ortaya atılan bu kavram, bilinçli veya bilinçsiz alınan teknik kararların gelecekte ödenmesi gereken faizidir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microservices Orchesration: Kubernetes ve Docker ile Konteynerize Sistem Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi/</guid>
+      <description>&lt;p&gt;Modern yazılım mimarileri, monolitik yapılardan mikroservis tabanlı dağıtık sistemlere evrilirken, bu servislerin yönetimi, ölçeklenmesi ve birbirleriyle olan iletişimi en kritik zorluklardan biri haline gelmiştir. Mikroservis orkestrasyonu, konteynerize edilmiş uygulamaların yaşam döngüsünü otomatize eden bir süreçtir. Bu yazıda, Docker ve Kubernetes (K8s) özelinde, endüstri standartlarını ve ileri düzey teknik konfigürasyonları bahsedeceğiz.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi.png&#34;&#xA;    alt=&#34;Microservices Orchesration: Kubernetes ve Docker ile Konteynerize Sistem Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Microservices Orchesration: Kubernetes ve Docker ile Konteynerize Sistem Yönetimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infrastructure as Code (IaC): Terraform ve Ansible ile Altyapı Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</guid>
+      <description>&lt;p&gt;Modern yazılım geliştirme yaşam döngüsünde (SDLC), geleneksel manuel altyapı yapılandırmaları yerini tamamen otomatize edilmiş, versiyonlanabilir ve tekrarlanabilir süreçlere bırakmıştır. &lt;strong&gt;Infrastructure as Code (IaC)&lt;/strong&gt;, fiziksel donanımlardan sanal makinelere ve bulut tabanlı servislere kadar tüm altyapı bileşenlerinin yazılım geliştirme prensipleriyle (kod yazımı, test, CI/CD entegrasyonu) yönetilmesini ifade eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/infrastructure-as-code-%28iac%29-terraform-ve-ansible-ile-altyapi-yonetimi.png&#34;&#xA;    alt=&#34;Infrastructure as Code (IaC): Terraform ve Ansible ile Altyapı Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Infrastructure as Code (IaC): Terraform ve Ansible ile Altyapı Yönetimi.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-iac-paradigmasında-temel-yaklaşımlar-deklaratif-vs-imperatif&#34;&gt;1. IaC Paradigmasında Temel Yaklaşımlar: Deklaratif vs. İmperatif&lt;/h2&gt;&#xA;&lt;p&gt;Altyapıyı kodla yönetirken karşımıza çıkan en kritik ayrım, kodun nasıl icra edildiğidir.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

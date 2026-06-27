@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kod-Optimizasyonu on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/kod-optimizasyonu/</link>
+    <description>Recent content in Kod-Optimizasyonu on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/kod-optimizasyonu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti</title>
+      <link>https://abdulkadirgungor.com/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve ölçeklenebilirlik arasındaki denge, genellikle bileşenlerin ne kadar küçük parçalara ayrılması gerektiği sorusu etrafında döner. &lt;strong&gt;Single Responsibility Principle (SRP)&lt;/strong&gt;, bir modülün veya sınıfın değişim için yalnızca tek bir nedeni olması gerektiğini savunurken, bu ilkenin uç noktası olan &lt;strong&gt;Mikro Modüller&lt;/strong&gt;, kodu atomik seviyeye indirger. Ancak her mühendislik kararı gibi, sınıfları mikroskobik parçalara ayırmanın da soyutlama karmaşıklığı ve çalışma zamanı (runtime) maliyeti gibi bedelleri vardır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti.png&#34;&#xA;    alt=&#34;Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

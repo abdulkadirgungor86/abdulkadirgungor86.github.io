@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>No-Sql on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/no-sql/</link>
+    <description>Recent content in No-Sql on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/no-sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Consistency and Distributed System Paradigms in Modern Database Architectures</title>
+      <link>https://abdulkadirgungor.com/en/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s high-scale software architectures, database selection and design is the most critical decision directly impacting system uptime, data integrity, and end-to-end performance. For a software architect, a database is not just a disk space where data is stored; it is a delicate balance mechanism established between mathematical theories, network constraints, and hardware limitations.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari.png&#34;&#xA;    alt=&#34;Data Consistency and Distributed System Paradigms in Modern Database Architectures&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Data Consistency and Distributed System Paradigms in Modern Database Architectures.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

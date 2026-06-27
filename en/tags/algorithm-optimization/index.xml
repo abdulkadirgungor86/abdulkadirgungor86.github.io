@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm-Optimization on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/algorithm-optimization/</link>
+    <description>Recent content in Algorithm-Optimization on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/algorithm-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Data Preprocessing and Algorithmic Optimization Strategies in Machine Learning Pipelines</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesi-boru-hatlarinda-ileri-duzey-veri-on-isleme-ve-algoritmik-optimizasyon-stratejileri/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesi-boru-hatlarinda-ileri-duzey-veri-on-isleme-ve-algoritmik-optimizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;In modern data science and machine learning pipelines, processing raw data and preparing it for the modeling stage constitutes approximately 80% of the total project time. In this process, it is essential not only to call library functions but also to understand the statistical distribution of the data and the mathematical expectations of the algorithms. Below, advanced data analytics processes are covered comprehensively with technical details and application code.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesi-boru-hatlarinda-ileri-duzey-veri-on-isleme-ve-algoritmik-optimizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Advanced Data Preprocessing and Algorithmic Optimization Strategies in Machine Learning Pipelines&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Advanced Data Preprocessing and Algorithmic Optimization Strategies in Machine Learning Pipelines.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

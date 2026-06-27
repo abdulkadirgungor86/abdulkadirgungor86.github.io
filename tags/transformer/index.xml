@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/transformer/</link>
+    <description>Recent content in Transformer on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Derin Öğrenmenin Anatomisi: Gradyanlardan Dikkat Mekanizmalarına Uzanan Teknik Yolculuk</title>
+      <link>https://abdulkadirgungor.com/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk/</guid>
+      <description>&lt;p&gt;Yapay zekâ dünyasında son on yılda yaşanan devrim, aslında matematiksel optimizasyonun, lineer cebirin ve donanım kabiliyetlerinin mükemmel bir senkronizasyonla bir araya gelmesinin sonucudur. Derin öğrenme, sadece çok katmanlı sinir ağlarından ibaret değildir; o, veriyi temsil etme biçimimizi kökten değiştiren bir mühendislik sanatıdır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk.png&#34;&#xA;    alt=&#34;Modern Derin Öğrenmenin Anatomisi: Gradyanlardan Dikkat Mekanizmalarına Uzanan Teknik Yolculuk&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Derin Öğrenmenin Anatomisi: Gradyanlardan Dikkat Mekanizmalarına Uzanan Teknik Yolculuk&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-lineer-sınıflandırmadan-çok-katmanlı-yapılara-geçiş&#34;&gt;1. Lineer Sınıflandırmadan Çok Katmanlı Yapılara Geçiş&lt;/h2&gt;&#xA;&lt;p&gt;Her şey, girdi vektörlerini ağırlık matrisleriyle çarparak bir skor elde ettiğimiz basit bir lineer denklemle başlar. Matematiksel olarak ifade edersek, bir girdi vektörü $x$ için skor $f(x, W) = Wx + b$ şeklinde hesaplanır. Burada $W$ ağırlık matrisini, $b$ ise sapma (bias) terimini temsil eder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Veri Mühendisliğinden Bilişsel Devrime Yapay Zeka ve Makine Öğrenmesinin Teknik Anatomisi</title>
+      <link>https://abdulkadirgungor.com/ai/veri-muhendisliginden-bilissel-devrime-yapay-zeka-ve-makine-ogrenmesinin-teknik-anatomisi/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/veri-muhendisliginden-bilissel-devrime-yapay-zeka-ve-makine-ogrenmesinin-teknik-anatomisi/</guid>
+      <description>&lt;p&gt;Yapay zeka (AI), modern hesaplama teorisinin en uç noktasını temsil eden, veriyi algoritmik süreçler aracılığıyla anlamlı çıktılara, tahminlere ve otonom kararlara dönüştüren disiplinler arası bir alandır. Günümüzde bu yolculuk, basit kural tabanlı sistemlerden, milyarlarca parametreli devasa transformatör modellerine evrilmiştir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/veri-muhendisliginden-bilissel-devrime-yapay-zeka-ve-makine-ogrenmesinin-teknik-anatomisi.png&#34;&#xA;    alt=&#34;Veri Mühendisliğinden Bilişsel Devrime Yapay Zeka ve Makine Öğrenmesinin Teknik Anatomisi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Veri Mühendisliğinden Bilişsel Devrime Yapay Zeka ve Makine Öğrenmesinin Teknik Anatomisi.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-tarihsel-perspektif-ve-sembolik-yapay-zeka-yaklaşımı&#34;&gt;1. Tarihsel Perspektif ve Sembolik Yapay Zeka Yaklaşımı&lt;/h2&gt;&#xA;&lt;p&gt;Yapay zekanın ilk dönemleri, &amp;ldquo;Sembolik Yapay Zeka&amp;rdquo; veya &amp;ldquo;İyi Eski Moda Yapay Zeka&amp;rdquo; (GOFAI) olarak adlandırılan yaklaşımla şekillenmiştir. 1966 yılında Joseph Weizenbaum tarafından geliştirilen &lt;strong&gt;ELIZA&lt;/strong&gt;, doğal dil işlemenin (NLP) en ilkel ama etkili örneklerinden biridir. ELIZA, örüntü eşleme (pattern matching) ve yer değiştirme metodolojisi kullanarak bir psikoterapisti taklit etmiştir. Teknik olarak ELIZA, bir öğrenme sürecinden ziyade, önceden tanımlanmış script’ler üzerinden çalışan bir string işleme motorudur.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

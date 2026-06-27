@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai-Technologies on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/ai-technologies/</link>
+    <description>Recent content in Ai-Technologies on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/ai-technologies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Neural Networks: A Journey from Biological Inspiration to Mathematical Architecture</title>
+      <link>https://abdulkadirgungor.com/en/ai/yapay-sinir-aglari-biyolojik-ilhamdan-matematiksel-mimariye-yolculuk/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/yapay-sinir-aglari-biyolojik-ilhamdan-matematiksel-mimariye-yolculuk/</guid>
+      <description>&lt;p&gt;Artificial Neural Networks (ANN) are computational models at the heart of modern artificial intelligence that possess the ability to extract patterns from complex datasets by mimicking the neurophysiological structure of the human brain. While traditional algorithms are based on specific rule sets, neural networks learn by experiencing data.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/yapay-sinir-aglari-biyolojik-ilhamdan-matematiksel-mimariye-yolculuk.png&#34;&#xA;    alt=&#34;Artificial Neural Networks: A Journey from Biological Inspiration to Mathematical Architecture&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Artificial Neural Networks: A Journey from Biological Inspiration to Mathematical Architecture.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

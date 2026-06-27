@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Veri-Analizi-Okulu on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/veri-analizi-okulu/</link>
+    <description>Recent content in Veri-Analizi-Okulu on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/veri-analizi-okulu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Veri Analizi Okulu: Data Science and Artificial Intelligence Training</title>
+      <link>https://abdulkadirgungor.com/en/blog/veri_analizi_okulu/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/veri_analizi_okulu/</guid>
+      <description>&lt;p&gt;Data has become the most valuable strategic resource of our time. In this new era where information is equated with power, moving beyond just reading data to understanding, interpreting, and transforming it into innovative solutions has become the most critical competence in the professional world. Established under the auspices of Yükseköğretim Kurumu (YÖK) to cultivate the qualified human resources that will build Turkey&amp;rsquo;s digital future, the Veri Analizi Okulu (VAO) offers a comprehensive learning opportunity precisely for this need.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architectural Depth of Large Language Models: Alignment, Optimization, and Efficient Adaptation</title>
+      <link>https://abdulkadirgungor.com/en/ai/buyuk-dil-modellerinin-mimari-derinligi-hizalama-optimizasyon-ve-verimli-uyarlama/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/buyuk-dil-modellerinin-mimari-derinligi-hizalama-optimizasyon-ve-verimli-uyarlama/</guid>
+      <description>&lt;p&gt;As the artificial intelligence ecosystem evolves from raw transformer blocks to assistant models interacting with users, a massive engineering operation takes place in the background. A Large Language Model (LLM) is more than just billions of parameters; how these parameters are aligned, optimized under hardware constraints, and adapted for specific tasks are the fundamental factors determining a model&amp;rsquo;s success.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/buyuk-dil-modellerinin-mimari-derinligi-hizalama-optimizasyon-ve-verimli-uyarlama.png&#34;&#xA;    alt=&#34;Architectural Depth of Large Language Models: Alignment, Optimization, and Efficient Adaptation&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Architectural Depth of Large Language Models: Alignment, Optimization, and Efficient Adaptation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Neural Architecture of Modern Language Models and Their Evolution from Token-Level to Reasoning</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</guid>
+      <description>&lt;p&gt;The greatest disruption in the artificial intelligence ecosystem over the last decade has occurred not just through the processing of data, but through the reconstruction of language in a geometric space. Modern Large Language Models (LLMs) are massive statistical machines that take raw text chunks and transform them into meaningful relationships within high-dimensional vector spaces. However, behind the appearance that these machines are &amp;ldquo;thinking&amp;rdquo; lies the mathematical elegance offered by the Transformer architecture and the emergent capabilities brought about by scaling laws.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Anatomy of Modern Deep Learning: A Technical Journey from Gradients to Attention Mechanisms</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk/</guid>
+      <description>&lt;p&gt;The revolution in the world of artificial intelligence over the last decade is essentially the result of the perfect synchronization of mathematical optimization, linear algebra, and hardware capabilities. Deep learning is not just about multi-layer neural networks; it is an engineering art that has fundamentally changed how we represent data.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk.png&#34;&#xA;    alt=&#34;The Anatomy of Modern Deep Learning: A Technical Journey from Gradients to Attention Mechanisms&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: The Anatomy of Modern Deep Learning: A Technical Journey from Gradients to Attention Mechanisms&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delicate Balances and Strategic Approaches in Modern Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;The artificial intelligence ecosystem is built upon two massive pillars in the processes of extracting meaning from data and transforming that meaning into action: supervised learning algorithms that draw geometric boundaries, and reinforcement learning models that act as experience-oriented decision-making mechanisms. In today&amp;rsquo;s complex datasets, making accurate predictions is not enough; it is vital to show resistance against noise and to develop the best strategy in dynamic environments.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-makine-ogrenmesinde-hassas-dengeler-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Delicate Balances and Strategic Approaches in Modern Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Delicate Balances and Strategic Approaches in Modern Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Analysis of Statistical Approaches and Ensemble Methods in Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi/</guid>
+      <description>&lt;p&gt;The artificial intelligence ecosystem is shaped by algorithms based on different mathematical foundations in the process of extracting meaning from data. Although Deep Learning is popular in modern software architectures, classical machine learning algorithms still form the backbone of the industry in terms of computational cost and explainability.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi.png&#34;&#xA;    alt=&#34;Engineering Analysis of Statistical Approaches and Ensemble Methods in Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Engineering Analysis of Statistical Approaches and Ensemble Methods in Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dimensionality Reduction Strategies and Algorithmic Depth in Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-boyut-indirgeme-stratejileri-ve-algoritmik-derinlik/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-boyut-indirgeme-stratejileri-ve-algoritmik-derinlik/</guid>
+      <description>&lt;p&gt;In data science, the &amp;ldquo;curse of dimensionality&amp;rdquo; refers to the phenomenon where as the number of features increases, data becomes sparse in the feature space, and model complexity grows exponentially. Particularly in fields like bioinformatics, image processing, and natural language processing, working with thousands of features increases computational costs and triggers the risk of &lt;strong&gt;overfitting&lt;/strong&gt;. At this point, dimensionality reduction techniques offer a more manageable structure that preserves the essence of the data while stripping away noise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Clustering and Classification Strategies in Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri/</guid>
+      <description>&lt;p&gt;In the artificial intelligence and data science ecosystem, the process of transforming raw data into meaningful insights is built upon two fundamental pillars: Supervised and Unsupervised learning. This article will cover everything from linear classification models to the mathematical depth of clustering algorithms, the resolution of overfitting problems via regularization techniques, and practical Python implementations.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri.png&#34;&#xA;    alt=&#34;Modern Clustering and Classification Strategies in Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Modern Clustering and Classification Strategies in Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Quest for Balance in Model Optimization: A Stability Analysis of Machine Learning from Underfitting to Overfitting</title>
+      <link>https://abdulkadirgungor.com/en/ai/model-optimizasyonunda-denge-arayisi-eksik-uyumdan-asiri-uyuma-makine-ogrenmesinin-kararlilik-analizi/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/model-optimizasyonunda-denge-arayisi-eksik-uyumdan-asiri-uyuma-makine-ogrenmesinin-kararlilik-analizi/</guid>
+      <description>&lt;p&gt;In the modern world of computing, while the terms automation and artificial intelligence are often used interchangeably, these two disciplines reside in different layers from an engineering perspective. Automation is built upon a deterministic structure; it executes specific tasks within the framework of predefined code blocks and algorithmic rules without requiring external intervention. However, as the complexity of systems has increased, these rigid rules have been replaced by artificial intelligence (AI) systems that learn from data and develop dynamic decision-making mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architectural Foundations and Algorithmic Strategies of Modern Artificial Intelligence</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler/</link>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler/</guid>
+      <description>&lt;p&gt;The world of artificial intelligence has undergone a massive evolution from static rules to dynamic, learning structures. The success of models like ChatGPT today is not solely due to the volume of raw data, but the mathematical intelligence of the Transformer architecture that processes this data and the decision-making mechanisms optimized through Reinforcement Learning.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler.png&#34;&#xA;    alt=&#34;Architectural Foundations and Algorithmic Strategies of Modern Artificial Intelligence&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Architectural Foundations and Algorithmic Strategies of Modern Artificial Intelligence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Layered Architecture and Algorithmic Depth of Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinin-katmanli-mimarisi-ve-algoritmik-derinligi/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinin-katmanli-mimarisi-ve-algoritmik-derinligi/</guid>
+      <description>&lt;p&gt;The artificial intelligence and machine learning ecosystem is built upon a vertical hierarchy that extends from raw data to abstract inferences. This journey begins at the lowest level with hardware and machine language, and concludes at the highest level with philosophical deductions and high-level cognitive modeling. For an engineer, understanding the transition between these layers means not just writing code, but mastering the behavioral mechanics of the system.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinin-katmanli-mimarisi-ve-algoritmik-derinligi.png&#34;&#xA;    alt=&#34;The Layered Architecture and Algorithmic Depth of Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: The Layered Architecture and Algorithmic Depth of Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Data Engineering to Cognitive Revolution: The Technical Anatomy of AI and Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/veri-muhendisliginden-bilissel-devrime-yapay-zeka-ve-makine-ogrenmesinin-teknik-anatomisi/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/veri-muhendisliginden-bilissel-devrime-yapay-zeka-ve-makine-ogrenmesinin-teknik-anatomisi/</guid>
+      <description>&lt;p&gt;Artificial Intelligence (AI) is an interdisciplinary field representing the cutting edge of modern computation theory, transforming data into meaningful outputs, predictions, and autonomous decisions through algorithmic processes. Today, this journey has evolved from simple rule-based systems to massive transformer models with billions of parameters.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/veri-muhendisliginden-bilissel-devrime-yapay-zeka-ve-makine-ogrenmesinin-teknik-anatomisi.png&#34;&#xA;    alt=&#34;From Data Engineering to Cognitive Revolution: The Technical Anatomy of AI and Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: From Data Engineering to Cognitive Revolution: The Technical Anatomy of AI and Machine Learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

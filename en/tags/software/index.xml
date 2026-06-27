@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/software/</link>
+    <description>Recent content in Software on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes</title>
+      <link>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</guid>
+      <description>&lt;p&gt;In software architecture, &amp;ldquo;Abstraction&amp;rdquo; is a fundamental mechanism for managing complexity and ensuring the extensibility of a system. In object-oriented programming (OOP) languages, the two main carriers of this mechanism are &lt;strong&gt;Abstract Class&lt;/strong&gt; and &lt;strong&gt;Interface&lt;/strong&gt; structures. Although many developers think of these two structures as alternatives to each other, in technical depth, the differences between them have critical effects on design patterns and system performance.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri.png&#34;&#xA;    alt=&#34;Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Development with Python — A Comprehensive Technical Guide from Beginner to Expert</title>
+      <link>https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</guid>
+      <description>&lt;p&gt;Python, published by Guido van Rossum in 1991, has become one of the most widely used programming languages in the world today. It consistently ranks in the top three on the TIOBE index; it is the de facto industry standard in diverse fields such as data science, web development, automation, and artificial intelligence. It is appropriate to start with the syntax that provides this popularity: Python has a readable structure close to English. However, this simplicity does not hide the power underlying the language. Integration with C extensions, support for asynchronous programming, an extensive standard library, and a massive ecosystem—all of these make Python a truly multi-layered language.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced</title>
+      <link>https://abdulkadirgungor.com/en/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</guid>
+      <description>&lt;p&gt;JavaScript is the ultimate power that rescues data—the raw material of the digital world—from being a static skeleton and transforms it into living, dynamic, and reactive systems. Today, by transcending browser boundaries and extending from server architectures to mobile platforms, this language stands as the indisputable most powerful engine of the modern web ecosystem.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin.png&#34;&#xA;    alt=&#34;Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Consistency and Distributed System Paradigms in Modern Database Architectures</title>
+      <link>https://abdulkadirgungor.com/en/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s high-scale software architectures, database selection and design is the most critical decision directly impacting system uptime, data integrity, and end-to-end performance. For a software architect, a database is not just a disk space where data is stored; it is a delicate balance mechanism established between mathematical theories, network constraints, and hardware limitations.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari.png&#34;&#xA;    alt=&#34;Data Consistency and Distributed System Paradigms in Modern Database Architectures&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Data Consistency and Distributed System Paradigms in Modern Database Architectures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Event-Driven Architecture and Asynchronous Messaging in Modern Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s distributed systems, with the transition from monolithic structures to microservice architectures, communication strategies between services have begun to play a decisive role in the scalability and resilience of the system. Traditional HTTP-based (REST or gRPC) synchronous communication models can create a &amp;ldquo;bottleneck,&amp;rdquo; especially in high-traffic scenarios where dependency between services is high. This is precisely where &lt;strong&gt;Event-Driven Architecture (EDA)&lt;/strong&gt; comes in, offering a high-performance working environment by enabling systems to communicate asynchronously.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous CI/CD Pipeline Architecture with GitHub Actions</title>
+      <link>https://abdulkadirgungor.com/en/software/github-actions-ile-kesintisiz-ci-cd-pipeline-mimarisi/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/github-actions-ile-kesintisiz-ci-cd-pipeline-mimarisi/</guid>
+      <description>&lt;p&gt;In the modern software development world, deployment processes are as critical as writing the code itself. In an ecosystem where users can access your application 24/7, traditional methods like &amp;ldquo;maintenance mode&amp;rdquo; or &amp;ldquo;server downtime&amp;rdquo; are no longer acceptable. Zero Downtime Deployment allows you to roll out new features confidently while keeping your infrastructure running continuously.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-actions-ile-kesintisiz-ci-cd-pipeline-mimarisi.png&#34;&#xA;    alt=&#34;Continuous CI/CD Pipeline Architecture with GitHub Actions&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Continuous CI/CD Pipeline Architecture with GitHub Actions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Performance Optimization and Latency Management in N-Tier Architecture</title>
+      <link>https://abdulkadirgungor.com/en/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</guid>
+      <description>&lt;p&gt;In modern enterprise software development processes, N-Tier (multi-layered) architecture has become the industry standard for sustainability and code separation. However, dividing an application logically or physically into presentation, business logic, and data access layers inevitably brings the phenomenon of &amp;ldquo;inter-layer latency.&amp;rdquo; The .NET 8.0 ecosystem provides powerful tools to minimize these architectural costs with its low-level improvements and modern runtime capabilities.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi.png&#34;&#xA;    alt=&#34;Performance Optimization and Latency Management in N-Tier Architecture&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Performance Optimization and Latency Management in N-Tier Architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamBanka: Secure and Layered Banking API Architecture with .NET 8.0</title>
+      <link>https://abdulkadirgungor.com/en/software/github-proje-2-bilgeadambanka/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/github-proje-2-bilgeadambanka/</guid>
+      <description>&lt;p&gt;Modern financial systems require robust architectural foundations for data security, transaction validation, and system sustainability. &lt;strong&gt;BilgeAdamBanka&lt;/strong&gt; is a hybrid N-Tier API solution designed to manage credit card transactions (CRUD operations) using the latest capabilities of the .NET 8.0 ecosystem.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-2-bilgeadambanka.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamBanka&amp;#34;; includes a Bank API system with a layered architecture to manage credit card transactions (creation, viewing, updating, deleting).&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: &amp;ldquo;BilgeAdamBanka&amp;rdquo;; includes a Bank API system with a layered architecture to manage credit card transactions (creation, viewing, updating, deleting).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamEvimiKur: Hybrid N-Tier E-Commerce Architecture with .NET 8.0 and C#</title>
+      <link>https://abdulkadirgungor.com/en/software/github-proje-1-bilgeadamevimikur/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/github-proje-1-bilgeadamevimikur/</guid>
+      <description>&lt;p&gt;Modern e-commerce systems require strong architectural foundations to improve user experience, perform under high traffic, and provide a sustainable codebase. &lt;strong&gt;BilgeAdamEvimiKur&lt;/strong&gt; is a comprehensive e-commerce solution built using the latest features of the .NET 8.0 ecosystem with a hybrid N-Tier architecture approach.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-1-bilgeadamevimikur.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamEvimiKur&amp;#34;; Hybrid N-Tier E-Commerce Project with .NET 8.0 and C#&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: &amp;ldquo;BilgeAdamEvimiKur&amp;rdquo;; Hybrid N-Tier E-Commerce Project with .NET 8.0 and C#&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach-hybrid-n-tier-structure&#34;&gt;1. Architectural Approach: Hybrid N-Tier Structure&lt;/h2&gt;&#xA;&lt;p&gt;The project adopts the classic N-tier architecture, which completely separates business logic from data access and the user interface, while also integrating modern software principles. Thanks to this structure, the modularity of the system has been increased and technical debt has been minimized.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scalability in Software: High-Availability Design with Vertical and Horizontal Scaling</title>
+      <link>https://abdulkadirgungor.com/en/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s software ecosystems characterized by dynamic traffic loads, it is not enough for an application to simply be functional. A system&amp;rsquo;s ability to respond to increasing user counts and data volumes—that is, its &lt;strong&gt;scalability&lt;/strong&gt;—is a critical parameter for the sustainability of a project. This blog post examines vertical and horizontal scaling techniques, load balancing mechanisms, and high-availability design principles in depth.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi.png&#34;&#xA;    alt=&#34;Scalability in Software: High-Availability Design with Vertical and Horizontal Scaling&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Scalability in Software: High-Availability Design with Vertical and Horizontal Scaling&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies</title>
+      <link>https://abdulkadirgungor.com/en/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;In the software world, agility and Time-to-Market often take precedence over engineering excellence. However, this situation causes systems to eventually get stuck in a &amp;ldquo;Technical Debt&amp;rdquo; quagmire. Once maintaining the existing structure becomes more costly than developing new features, &amp;ldquo;Legacy Modernization&amp;rdquo; becomes an inevitable necessity.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-taxonomy-of-technical-debt-and-engineering-impacts&#34;&gt;1. Taxonomy of Technical Debt and Engineering Impacts&lt;/h2&gt;&#xA;&lt;p&gt;Technical debt is not just &amp;ldquo;bad code.&amp;rdquo; This concept, introduced by Ward Cunningham, is the interest that must be paid in the future on technical decisions made consciously or unconsciously.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Structural Patterns: System Modernization with Adapter and Facade</title>
+      <link>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</guid>
+      <description>&lt;p&gt;Integrating legacy systems that have accumulated technical debt into modern technologies and making them modular is a critical requirement for sustainability. One of the biggest obstacles encountered during the system modernization process is the incompatibility of the existing codebase with new interfaces and the tight coupling between system components.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Adapter&lt;/strong&gt; and &lt;strong&gt;Facade&lt;/strong&gt; structural design patterns, defined by the Gang of Four (GoF), are fundamental tools used to overcome such architectural bottlenecks. This article examines the in-depth technical analysis, roles in modernization projects, and implementation strategies of both patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes</title>
+      <link>https://abdulkadirgungor.com/en/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</guid>
+      <description>&lt;p&gt;The balance between sustainability and scalability in software architecture often revolves around the question of how granular components should be. While the &lt;strong&gt;Single Responsibility Principle (SRP)&lt;/strong&gt; advocates that a module or class should have only one reason to change, the extreme of this principle—&lt;strong&gt;Micro-Modules&lt;/strong&gt;—reduces code to an atomic level. However, like every engineering decision, breaking classes into microscopic pieces carries costs such as abstraction complexity and runtime overhead.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti.png&#34;&#xA;    alt=&#34;Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Repository and Unit of Work: Creating a Testable Architecture by Abstracting Data Access</title>
+      <link>https://abdulkadirgungor.com/en/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak/</guid>
+      <description>&lt;p&gt;In modern software development processes, keeping the bond between the application&amp;rsquo;s business logic and the data access layer loose (Loose Coupling) is of vital importance for the sustainability of the system. Repository and Unit of Work patterns are the most powerful design patterns used to ensure this separation and manage database operations from a central structure.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak.png&#34;&#xA;    alt=&#34;Repository and Unit of Work: Creating a Testable Architecture by Abstracting Data Access&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Repository and Unit of Work: Creating a Testable Architecture by Abstracting Data Access.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management</title>
+      <link>https://abdulkadirgungor.com/en/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</guid>
+      <description>&lt;p&gt;In modern software architectures, flexibility and extensibility are achieved by relaxing the rigid rules imposed by static typing at runtime. Reflection and Meta-Programming are advanced techniques that allow systems to analyze their own structures, modify them, and exhibit new behaviors during execution.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi.png&#34;&#xA;    alt=&#34;Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-reflection-self-discovery-of-the-type-system&#34;&gt;1. Reflection: Self-Discovery of the Type System&lt;/h3&gt;&#xA;&lt;p&gt;Reflection is the ability of a program to examine its own structure (classes, methods, properties, interfaces) at runtime. In static languages (C#, Java), metadata that is normally determined at compile-time becomes queryable at runtime thanks to Reflection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis</title>
+      <link>https://abdulkadirgungor.com/en/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi/</guid>
+      <description>&lt;p&gt;The evolution of autonomous systems is shifting from classical control theories and deterministic algorithms towards dynamic structures with cognitive capabilities. Traditional robotics and autonomous systems were limited by predefined decision trees and sensor fusion algorithms. However, the integration of Large Language Models (LLMs) as a systematic &amp;ldquo;architectural layer&amp;rdquo; has fundamentally changed the uncertainty management and complex task planning capacity of these systems.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi.png&#34;&#xA;    alt=&#34;Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)</title>
+      <link>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</guid>
+      <description>&lt;p&gt;One of the cornerstones of building sustainable architecture in software engineering is the &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, which dictates that a system should be open for extension but closed for modification. Popularized by Robert C. Martin, this concept aims to integrate every new feature into the codebase without risking the integrity of already functioning and tested code blocks.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Open-Closed Principle: Adding New Capabilities Without Touching Existing Code (Plugin Architecture).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction</title>
+      <link>https://abdulkadirgungor.com/en/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</guid>
+      <description>&lt;p&gt;Object-Oriented Programming (OOP) is the most fundamental paradigm used to break down complex software systems into manageable, sustainable, and extensible components. In modern system design, these four core principles—Encapsulation, Inheritance, Polymorphism, and Abstraction—form the backbone of software.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/oop-encapsulation-inheritance-polymorphism-ve-abstraction.png&#34;&#xA;    alt=&#34;OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-abstraction-hiding-system-complexity&#34;&gt;1. Abstraction: Hiding System Complexity&lt;/h2&gt;&#xA;&lt;p&gt;Abstraction focuses on the functionality an object presents to the outside world, hiding the internal details of &amp;ldquo;how&amp;rdquo; the object performs that task. In system design, abstraction is the most critical tool for reducing coupling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Observability: System Health via Logging, Metrics, and Tracing</title>
+      <link>https://abdulkadirgungor.com/en/software/observability-izlenebilirlik-loglama-metrikler-ve-tracing-ile-sistem-sagligi/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/observability-izlenebilirlik-loglama-metrikler-ve-tracing-ile-sistem-sagligi/</guid>
+      <description>&lt;p&gt;The complexity of microservice architectures and cloud computing ecosystems has made it impossible to monitor systems merely by checking if they are &amp;ldquo;up&amp;rdquo; or &amp;ldquo;down.&amp;rdquo; Traditional monitoring focuses on the external outputs of a system; &lt;strong&gt;Observability&lt;/strong&gt;, however, is the ability to understand the internal state of a system through the data it produces (telemetry). For a system to be observable, it must rely on three pillars: &lt;strong&gt;Logs, Metrics, and Tracing.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OAuth2, OpenID Connect, and Zero Trust: Modern Authentication and Network Security Architectures</title>
+      <link>https://abdulkadirgungor.com/en/software/oauth2-openid-connect-ve-zero-trust-modern-kimlik-dogrulama-ve-ag-guvenlik-mimarileri/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/oauth2-openid-connect-ve-zero-trust-modern-kimlik-dogrulama-ve-ag-guvenlik-mimarileri/</guid>
+      <description>&lt;p&gt;In the modern digital ecosystem, security is no longer about building a perimeter defense; it is based on the continuous verification of every data packet and identity credential. The traditional &amp;ldquo;trust but verify&amp;rdquo; approach has been replaced by the &amp;ldquo;never trust, always verify&amp;rdquo; principle, known as &lt;strong&gt;Zero Trust&lt;/strong&gt; architecture. The cornerstones of this architecture are the &lt;strong&gt;OAuth 2.0&lt;/strong&gt; and &lt;strong&gt;OpenID Connect (OIDC)&lt;/strong&gt; protocols.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/oauth2-openid-connect-ve-zero-trust-modern-kimlik-dogrulama-ve-ag-guvenlik-mimarileri.png&#34;&#xA;    alt=&#34;OAuth2, OpenID Connect, and Zero Trust: Modern Authentication and Network Security Architectures&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: OAuth2, OpenID Connect, and Zero Trust: Modern Authentication and Network Security Architectures&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NoSQL Paradigm and Sharding: Partitioning Techniques for Managing Massive Datasets</title>
+      <link>https://abdulkadirgungor.com/en/software/nosql-paradigmasi-ve-sharding-dev-veri-setlerini-yonetmek-icin-bolumleme-teknikleri/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/nosql-paradigmasi-ve-sharding-dev-veri-setlerini-yonetmek-icin-bolumleme-teknikleri/</guid>
+      <description>&lt;p&gt;In modern software architectures, the concept of &amp;ldquo;Big Data&amp;rdquo; has evolved from a buzzword into an operational necessity. When traditional RDBMS (Relational Database Management Systems) hit the limits of &lt;em&gt;Vertical Scaling&lt;/em&gt;, the data reaching unmanageable sizes leads to performance bottlenecks. At this point, NoSQL databases and &lt;strong&gt;Sharding&lt;/strong&gt;—the cornerstone of &lt;em&gt;Horizontal Scaling&lt;/em&gt;—come into play.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/nosql-paradigmasi-ve-sharding-dev-veri-setlerini-yonetmek-icin-bolumleme-teknikleri.png&#34;&#xA;    alt=&#34;NoSQL Paradigm and Sharding: Partitioning Techniques for Managing Massive Datasets&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: NoSQL Paradigm and Sharding: Partitioning Techniques for Managing Massive Datasets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migrations and Data Security: Schema Updates Without Data Loss in Production</title>
+      <link>https://abdulkadirgungor.com/en/software/migrations-ve-veri-guvenligi-uretim-ortaminda-veri-kaybi-yasamadan-sema-guncelleme/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/migrations-ve-veri-guvenligi-uretim-ortaminda-veri-kaybi-yasamadan-sema-guncelleme/</guid>
+      <description>&lt;p&gt;In the software development lifecycle (SDLC), the evolution of an application inevitably requires changes to the database schema. However, performing a schema update in a production environment—on a live system containing millions of rows—is akin to &amp;ldquo;changing the engine of an airplane in flight.&amp;rdquo; An incorrect &lt;code&gt;ALTER TABLE&lt;/code&gt; query can lead to table locking, service outages, or irreversible data loss.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/migrations-ve-veri-guvenligi-uretim-ortaminda-veri-kaybi-yasamadan-sema-guncelleme.png&#34;&#xA;    alt=&#34;Migrations and Data Security: Schema Updates Without Data Loss in Production&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Migrations and Data Security: Schema Updates Without Data Loss in Production.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microservices Orchestration: Containerized System Management with Kubernetes and Docker</title>
+      <link>https://abdulkadirgungor.com/en/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi/</guid>
+      <description>&lt;p&gt;As modern software architectures evolve from monolithic structures to microservices-based distributed systems, the management, scaling, and communication of these services have become one of the most critical challenges. Microservices orchestration is a process that automates the lifecycle of containerized applications. In this article, we will discuss industry standards and advanced technical configurations, specifically focusing on Docker and Kubernetes (K8s).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/microservices-orchesration-kubernetes-ve-docker-ile-konteynerize-sistem-yonetimi.png&#34;&#xA;    alt=&#34;Microservices Orchestration: Containerized System Management with Kubernetes and Docker&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Microservices Orchestration: Containerized System Management with Kubernetes and Docker.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Malware Analysis and System Defense: Coding Against Threats at the Operating System Level</title>
+      <link>https://abdulkadirgungor.com/en/software/malware-analizi-ve-sistem-savunmasi-isletim-sistemi-seviyesinde-tehditlere-karsi-kod-yazimi/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/malware-analizi-ve-sistem-savunmasi-isletim-sistemi-seviyesinde-tehditlere-karsi-kod-yazimi/</guid>
+      <description>&lt;p&gt;In the modern cyber security ecosystem, going beyond standard endpoint protection solutions (EDR/AV) requires mastery of the internal structure of the operating system (OS). Malware is no longer just simple scripts running in User Mode; they are complex structures that infiltrate Kernel Mode, manipulate memory, and mask system calls (Syscalls).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/malware-analizi-ve-sistem-savunmasi-isletim-sistemi-seviyesinde-tehditlere-karsi-kod-yazimi.png&#34;&#xA;    alt=&#34;Malware Analysis and System Defense: Coding Against Threats at the Operating System Level&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Malware Analysis and System Defense: Coding Against Threats at the Operating System Level.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior</title>
+      <link>https://abdulkadirgungor.com/en/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak/</guid>
+      <description>&lt;p&gt;In software architecture, sustainability and flexibility are measured not just by whether the code works, but by the harmony between its components. The &lt;strong&gt;Liskov Substitution Principle (LSP)&lt;/strong&gt;, the third pillar of the SOLID principles popularized by Robert C. Martin, is one of the most critical rules for ensuring the mathematical and logical consistency of inheritance hierarchies in Object-Oriented Programming (OOP).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/liskov-substitution-alt-siniflarin-ust-sinif-davranislarini-bozmadigindan-emin-olmak.png&#34;&#xA;    alt=&#34;Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Liskov Substitution: Ensuring Subclasses Do Not Break Superclass Behavior&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lazy, Eager, and Explicit Loading: Avoiding the &#34;N&#43;1 Problem&#34; with Data Loading Strategies</title>
+      <link>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</guid>
+      <description>&lt;p&gt;In modern software architectures, database interactions play a decisive role in the scalability and response time of an application. One of the biggest performance bottlenecks encountered, especially when using Object-Relational Mapping (ORM) tools, is the N+1 Query Problem. To overcome this issue and optimize the data access layer, it is essential to have a deep understanding of Lazy, Eager, and Explicit Loading strategies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&amp;#43;1-probleminden-kacinmak.png&#34;&#xA;    alt=&#34;Lazy, Eager, and Explicit Loading: Avoiding the &amp;#34;N&amp;#43;1 Problem&amp;#34; with Data Loading Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Lazy, Eager, and Explicit Loading: Avoiding the &amp;ldquo;N+1 Problem&amp;rdquo; with Data Loading Strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JIT (Just-In-Time) Compilation Process: Optimizing Code in Machine Language</title>
+      <link>https://abdulkadirgungor.com/en/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</guid>
+      <description>&lt;p&gt;JIT (Just-In-Time) Compilation, representing the pinnacle of performance in the software world, is a hybrid mechanism that combines the flexibility of interpreted languages with the speed of compiled languages. In modern runtime environments, particularly in structures like the JVM (Java Virtual Machine), .NET CLR (Common Language Runtime), and the V8 Engine, JIT compilers ensure that code is converted into machine language and optimized according to the processor architecture during the execution phase.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management</title>
+      <link>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</guid>
+      <description>&lt;p&gt;In software architectures, the process of creating objects and managing their relationships is critical for project scalability and maintainability. In modern software development practices, classes creating their own dependencies (tight coupling) hinders code testability and reduces flexibility. To overcome this, the &lt;strong&gt;Inversion of Control (IoC)&lt;/strong&gt; principle and its most common implementation, &lt;strong&gt;Dependency Injection (DI)&lt;/strong&gt;, delegate object management to a centralized structure.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/inversion-of-control-%28ioc%29-containers-bagimlilik-enjeksiyonu-%28di%29-yasam-dongusu-yonetimi.png&#34;&#xA;    alt=&#34;Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?</title>
+      <link>https://abdulkadirgungor.com/en/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</guid>
+      <description>&lt;p&gt;In the object-oriented programming (OOP) paradigm, one of the most critical decisions shaping architectural design is how to structure the &amp;ldquo;Abstraction&amp;rdquo; layer. Although developers often view &amp;ldquo;Interface&amp;rdquo; and &amp;ldquo;Abstract Class&amp;rdquo; structures as interchangeable, these two structures serve diametrically opposed philosophies regarding software flexibility, maintainability, and extensibility.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/interface-vs-abstract-class-ne-zaman-sozlesme-%28contract%29-ne-zaman-sablon-%28template%29.png&#34;&#xA;    alt=&#34;Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Interface vs. Abstract Class: When to Use a Contract, When to Use a Template?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface Segregation: Reducing Client Dependencies by Splitting &#39;Fat&#39; Interfaces</title>
+      <link>https://abdulkadirgungor.com/en/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how precisely the dependencies (coupling) between components are managed. The &lt;strong&gt;Interface Segregation Principle (ISP)&lt;/strong&gt;, the fourth pillar of the SOLID principles defined by Robert C. Martin, is one of the most critical tools for cleaning up the technical debt created by &amp;ldquo;fat&amp;rdquo; (bloated) interfaces.&lt;/p&gt;&#xA;&lt;p&gt;The fundamental motto of ISP is: &lt;strong&gt;&amp;ldquo;No client should be forced to depend on methods it does not use.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible</title>
+      <link>https://abdulkadirgungor.com/en/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/infrastructure-as-code-iac-terraform-ve-ansible-ile-altyapi-yonetimi/</guid>
+      <description>&lt;p&gt;In the modern software development life cycle (SDLC), traditional manual infrastructure configurations have been replaced by fully automated, versionable, and repeatable processes. &lt;strong&gt;Infrastructure as Code (IaC)&lt;/strong&gt; refers to the management of all infrastructure components—from physical hardware to virtual machines and cloud-based services—using software development principles (coding, testing, CI/CD integration).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/infrastructure-as-code-%28iac%29-terraform-ve-ansible-ile-altyapi-yonetimi.png&#34;&#xA;    alt=&#34;Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Infrastructure as Code (IaC): Infrastructure Management with Terraform and Ansible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types</title>
+      <link>https://abdulkadirgungor.com/en/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</guid>
+      <description>&lt;p&gt;In modern software architectures, performance optimization and memory management are the most critical factors determining the runtime behavior of code. Although high-level languages (C#, Java, Python) manage memory automatically, understanding the &lt;strong&gt;Stack&lt;/strong&gt; and &lt;strong&gt;Heap&lt;/strong&gt; distinction occurring in the background is essential for preventing memory leaks and efficiently utilizing processor resources.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi.png&#34;&#xA;    alt=&#34;A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Behind the Scenes: Memory Management and Garbage Collector Mechanisms in Python</title>
+      <link>https://abdulkadirgungor.com/en/software/gorunmeyenin-ardi-python-da-bellek-yonetimi-ve-garbage-collector-mekanizmalari/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/gorunmeyenin-ardi-python-da-bellek-yonetimi-ve-garbage-collector-mekanizmalari/</guid>
+      <description>&lt;p&gt;Python quietly handles complex processes like memory management in the background, thanks to the high-level abstraction it offers to the developer. However, in performance-critical applications, understanding how this silent architecture works is vital for resolving &amp;ldquo;Memory Leak&amp;rdquo; issues or optimizing resource consumption. Memory management in Python consists of a layered structure such as &lt;strong&gt;Reference Counting&lt;/strong&gt;, &lt;strong&gt;Generational Garbage Collection&lt;/strong&gt;, and &lt;strong&gt;Memory Pools&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/gorunmeyenin-ardi-python-da-bellek-yonetimi-ve-garbage-collector-mekanizmalari.png&#34;&#xA;    alt=&#34;Behind the Scenes: Memory Management and Garbage Collector Mechanisms in Python&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Behind the Scenes: Memory Management and Garbage Collector Mechanisms in Python&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety</title>
+      <link>https://abdulkadirgungor.com/en/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</guid>
+      <description>&lt;p&gt;Generic programming is one of the cornerstones of modern software engineering. Subjecting code to logical abstraction independent of data types not only reduces development costs but also increases system stability by bringing runtime errors to compile-time.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak.png&#34;&#xA;    alt=&#34;Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Generic Programming: Building Flexible and Reusable Structures Without Compromising Type Safety.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-theoretical-foundations-of-generic-programming&#34;&gt;1. Theoretical Foundations of Generic Programming&lt;/h2&gt;&#xA;&lt;p&gt;Generic programming is based on the principle that algorithms and data structures take the data types they will operate on as &amp;ldquo;parameters.&amp;rdquo; This approach is called &lt;strong&gt;Templates&lt;/strong&gt; in the C++ world and &lt;strong&gt;Generics&lt;/strong&gt; in the Java and C# worlds. The main goal is to avoid rewriting the same logic for different types, applying the &amp;ldquo;Don&amp;rsquo;t Repeat Yourself&amp;rdquo; (DRY) principle at the highest level.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis</title>
+      <link>https://abdulkadirgungor.com/en/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi/</guid>
+      <description>&lt;p&gt;Memory management is one of the most critical layers in modern software architectures that directly affects system performance and application stability. Garbage Collection (GC) is a mechanism developed to minimize errors that may arise from manual memory management (malloc/free or new/delete) by tracking the lifecycle of dynamically allocated objects.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi.png&#34;&#xA;    alt=&#34;Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-memory-allocation-and-object-lifecycle&#34;&gt;1. Memory Allocation and Object Lifecycle&lt;/h2&gt;&#xA;&lt;p&gt;An object&amp;rsquo;s lifecycle begins with memory allocation at runtime. In modern languages (Java, C#, Go, Python), this process typically occurs in the &lt;strong&gt;Heap&lt;/strong&gt; area.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Event Sourcing: Ensuring State Management by Storing Change History, Not Data</title>
+      <link>https://abdulkadirgungor.com/en/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</guid>
+      <description>&lt;p&gt;Traditional database designs are dominated by a &amp;ldquo;State-Oriented&amp;rdquo; approach. In this model, the most current state of an object is stored in the database, and every update operation (UPDATE) permanently deletes or overwrites the previous data. However, in complex distributed systems and financial/logistics structures where auditability is critical, this model loses the semantic information regarding &amp;ldquo;why&amp;rdquo; and &amp;ldquo;how&amp;rdquo; the data reached its current state. &lt;strong&gt;Event Sourcing&lt;/strong&gt; is an architectural pattern that solves this problem by basing the system not on the final state of the data, but on storing all change events that created that state in an immutable order.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios</title>
+      <link>https://abdulkadirgungor.com/en/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari/</guid>
+      <description>&lt;p&gt;Entity Framework Core (EF Core) employs a highly complex mechanism behind the scenes while managing database operations with an object-oriented approach. The heart of this mechanism is the &lt;strong&gt;Change Tracker&lt;/strong&gt; unit. The scalability and response time of an enterprise application are directly dependent on how efficiently this unit is utilized.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari.png&#34;&#xA;    alt=&#34;Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domain-Driven Design (DDD): Putting Business Rules at the Core of Software (Value Objects vs. Entities)</title>
+      <link>https://abdulkadirgungor.com/en/software/domain-driven-design-ddd-is-kurallarini-yazilimin-merkezine-koymak-value-objects-vs-entities/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/domain-driven-design-ddd-is-kurallarini-yazilimin-merkezine-koymak-value-objects-vs-entities/</guid>
+      <description>&lt;p&gt;In the world of software, managing complexity is not just about choosing the right algorithms, but about how you place business logic (domain logic) at the heart of your code. &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;, introduced to the literature by Eric Evans, argues that software should focus on the business model rather than technical requirements. Understanding the distinction between &lt;strong&gt;Entities&lt;/strong&gt; and &lt;strong&gt;Value Objects&lt;/strong&gt;, two cornerstones of this approach, is the key to building a sustainable system architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Distributed Caching: Performance Boost at Global Scale with Redis and Memcached</title>
+      <link>https://abdulkadirgungor.com/en/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</guid>
+      <description>&lt;p&gt;In modern microservice architectures and high-traffic web applications, minimizing latency, reducing the load on databases, and ensuring scalability are strategic imperatives. This article examines the technical depths, architectural differences, and implementation strategies of industry-standard technologies: &lt;strong&gt;Redis&lt;/strong&gt; and &lt;strong&gt;Memcached&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi.png&#34;&#xA;    alt=&#34;Distributed Caching: Performance Boost at Global Scale with Redis and Memcached&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Distributed Caching: Performance Boost at Global Scale with Redis and Memcached.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-fundamentals-of-distributed-caching-architecture&#34;&gt;1. Fundamentals of Distributed Caching Architecture&lt;/h2&gt;&#xA;&lt;p&gt;Distributed caching is the storage of data in RAM (Random Access Memory) across multiple server nodes. The difference from traditional &amp;ldquo;in-memory&amp;rdquo; caching is that the data is not tied to the application server and is provided as a centralized service in a clustered structure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DevSecOps and Secure Coding: Security Automation in SDLC Processes and ORM Security</title>
+      <link>https://abdulkadirgungor.com/en/software/devsecops-ve-secure-coding-sdlc-sureclerinde-guvenlik-otomasyonu-ve-orm-guvenligi/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/devsecops-ve-secure-coding-sdlc-sureclerinde-guvenlik-otomasyonu-ve-orm-guvenligi/</guid>
+      <description>&lt;p&gt;In the modern software development world, speed and security are no longer competing concepts, but complementary elements. The DevSecOps approach, shaped by the &amp;ldquo;Shift-Left&amp;rdquo; philosophy, aims to minimize manual errors by integrating security controls into every stage of the Software Development Life Cycle (SDLC).&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/devsecops-ve-secure-coding-sdlc-sureclerinde-guvenlik-otomasyonu-ve-orm-guvenligi.png&#34;&#xA;    alt=&#34;DevSecOps and Secure Coding: Security Automation in SDLC Processes and ORM Security&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: DevSecOps and Secure Coding: Security Automation in SDLC Processes and ORM Security&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers</title>
+      <link>https://abdulkadirgungor.com/en/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how &amp;ldquo;independent&amp;rdquo; the components of the code are. The biggest problem encountered in modern software development processes is that a change made in lower-level modules causes the upper-level business logic to break due to a domino effect. This situation is referred to in software literature as the &lt;strong&gt;Tight Coupling Problematic&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-%28tight-coupling%29-koparmak.png&#34;&#xA;    alt=&#34;Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delegates and Events: Architectural Foundations of Event-Driven Programming</title>
+      <link>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</guid>
+      <description>&lt;p&gt;In modern software architectures, minimizing the dependencies between system components (loose coupling) and establishing a flexible communication mechanism is the key to sustainable code. In the C# and .NET ecosystem, the core structures providing this flexibility are &lt;strong&gt;Delegates&lt;/strong&gt; and &lt;strong&gt;Events&lt;/strong&gt;. These structures form the core of the event-driven approach, particularly in areas such as asynchronous programming, user interface (UI) interactions, and microservice communication.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/delegates-ve-events-olay-gudumlu-%28event-driven%29-programlamanin-mimari-temelleri.png&#34;&#xA;    alt=&#34;Delegates and Events: Architectural Foundations of Event-Driven Programming&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Delegates and Events: Architectural Foundations of Event-Driven Programming.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations</title>
+      <link>https://abdulkadirgungor.com/en/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</guid>
+      <description>&lt;p&gt;In the C# and .NET ecosystem, Data Access Layer (DAL) design typically takes place between two poles: &lt;strong&gt;Entity Framework Core (EF Core)&lt;/strong&gt;, a comprehensive Object-Relational Mapper (ORM), and &lt;strong&gt;Dapper&lt;/strong&gt;, a lightweight &amp;ldquo;Micro-ORM.&amp;rdquo; In enterprise-level, high-traffic applications, rather than choosing between these two technologies, building &lt;strong&gt;hybrid architectures&lt;/strong&gt; that leverage the strengths of both is the most optimized solution for performance and sustainability.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar.png&#34;&#xA;    alt=&#34;Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cross-Cutting Concerns: Logging and Security with Aspect-Oriented Programming (AOP)</title>
+      <link>https://abdulkadirgungor.com/en/software/cross-cutting-concerns-aspect-oriented-programming-aop-ile-loglama-ve-guvenlik/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cross-cutting-concerns-aspect-oriented-programming-aop-ile-loglama-ve-guvenlik/</guid>
+      <description>&lt;p&gt;In modern software architectures, keeping business logic clean and maintainable is one of the greatest challenges. Functionalities such as logging, security checks, error management, and transaction management, which are interspersed among the code performing the primary functions of an application, are called &amp;ldquo;Cross-Cutting Concerns.&amp;rdquo; These structures are repeated across many different modules of the application and significantly reduce the readability, testability, and modularity of the code.&lt;/p&gt;&#xA;&lt;p&gt;This is where &lt;strong&gt;Aspect-Oriented Programming (AOP)&lt;/strong&gt; comes into play as a powerful paradigm designed to manage these scattered structures from a central point.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder</title>
+      <link>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</guid>
+      <description>&lt;p&gt;In software architecture, object creation processes are a critical threshold for system flexibility and extensibility. &amp;ldquo;Creational Patterns&amp;rdquo; abstract the object creation process, making the system independent of how objects are created, composed, and represented. In this context, the Abstract Factory and Builder patterns stand out as some of the most powerful tools for managing complexity and object hierarchies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi.png&#34;&#xA;    alt=&#34;Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CQRS: Architecturally Separating Write and Read Operations</title>
+      <link>https://abdulkadirgungor.com/en/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak/</guid>
+      <description>&lt;p&gt;As scalability and performance requirements increase in modern software architectures, traditional data access models (CRUD) have begun to fall short. &lt;strong&gt;CQRS (Command Query Responsibility Segregation)&lt;/strong&gt; aims to overcome these bottlenecks by completely separating the data update (Command) and data read (Query) operations in a system. Popularized by Greg Young, this pattern is based on Bertrand Meyer’s &lt;strong&gt;CQS (Command-Query Separation)&lt;/strong&gt; principle.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/cqrs-yazma-ve-okuma-operasyonlarini-mimari-olarak-ayirmak.png&#34;&#xA;    alt=&#34;CQRS: Architecturally Separating Write and Read Operations&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: CQRS: Architecturally Separating Write and Read Operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles</title>
+      <link>https://abdulkadirgungor.com/en/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</guid>
+      <description>&lt;p&gt;In software performance optimization, the most critical bottleneck is often not computational power, but the speed at which data is delivered to the processor. While modern CPUs have massive processing capacities measured in microseconds, retrieving data from main memory (RAM) is quite slow by comparison. At this point, &amp;ldquo;Cache Friendly&amp;rdquo; coding is the fundamental factor that determines whether a piece of software can reach its theoretical speed limits.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri.png&#34;&#xA;    alt=&#34;Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments</title>
+      <link>https://abdulkadirgungor.com/en/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</guid>
+      <description>&lt;p&gt;With the increasing performance requirements in the software world, fully utilizing the capacity of multi-core processors has become a necessity. Parallel computing and concurrency are key to leveraging this capacity. However, managing threads that attempt to access shared resources simultaneously brings complex scenarios and potential errors.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi.png&#34;&#xA;    alt=&#34;Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code First vs. Database First: Model Management in Modern and Legacy Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/code-first-vs-database-first-modern-ve-legacy-sistemlerde-model-yonetimi/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/code-first-vs-database-first-modern-ve-legacy-sistemlerde-model-yonetimi/</guid>
+      <description>&lt;p&gt;In software architecture, the design of the Data Access Layer plays a decisive role in the project&amp;rsquo;s sustainability, scalability, and team workflows. Especially with the evolution of Object-Relational Mapping (ORM) tools, model management has been shaped around two main paradigms: &lt;strong&gt;Code First&lt;/strong&gt; and &lt;strong&gt;Database First&lt;/strong&gt;. This article examines both approaches in technical depth and covers implementation strategies across a wide spectrum, from modern microservice architectures to legacy monolithic systems.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/code-first-vs-database-first-modern-ve-legacy-sistemlerde-model-yonetimi.png&#34;&#xA;    alt=&#34;Code First vs. Database First: Model Management in Modern and Legacy Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Code First vs. Database First: Model Management in Modern and Legacy Systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews</title>
+      <link>https://abdulkadirgungor.com/en/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;In modern enterprise architectures, the .NET platform holds a critical position due to its high performance, stability, and extensive library support. A .NET developer interview aims to measure a candidate&amp;rsquo;s competence across a wide spectrum, far beyond simple syntax knowledge, ranging from memory management to the depths of asynchronous programming, advanced ORM optimizations, and design patterns in microarchitectures.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAP Theorem and Database Selection: The Balance Between Consistency and Availability</title>
+      <link>https://abdulkadirgungor.com/en/software/cap-teoremi-ve-veritabani-secimi-tutarlilik-consistency-ve-kullanilabilirlik-availability-dengesi/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cap-teoremi-ve-veritabani-secimi-tutarlilik-consistency-ve-kullanilabilirlik-availability-dengesi/</guid>
+      <description>&lt;p&gt;One of the fundamental building blocks of distributed systems, the &lt;strong&gt;CAP Theorem (Brewer’s Theorem)&lt;/strong&gt;, provides a mathematical framework for the critical trade-offs that must be made when designing systems that communicate over a network. Proposed by Eric Brewer in 2000 and proven by Seth Gilbert and Nancy Lynch in 2002, this principle argues that a distributed data system cannot simultaneously satisfy all three of the following properties to their fullest extent:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boxing and Unboxing Costs: Type Conversions in Performance-Critical Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</guid>
+      <description>&lt;p&gt;In modern programming languages, especially managed languages like C# and Java, the &lt;code&gt;Object&lt;/code&gt; type sits at the top of the type system hierarchy. While this structure allows every type to behave like an object, it creates a significant memory management burden in the background. &lt;strong&gt;Boxing&lt;/strong&gt; and &lt;strong&gt;Unboxing&lt;/strong&gt; operations bridge the gap between Value Types and Reference Types. However, in performance-critical systems (high-frequency trading systems, game engines, or real-time data processing units), these operations are referred to as &amp;ldquo;silent performance killers.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns</title>
+      <link>https://abdulkadirgungor.com/en/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how business logic is organized. Decoupling decision mechanisms from execution mechanisms in complex systems prevents code from evolving into a &amp;ldquo;spaghetti&amp;rdquo; structure. In this context, the &lt;strong&gt;Command&lt;/strong&gt; and &lt;strong&gt;Strategy&lt;/strong&gt; patterns, defined by the Gang of Four (GoF), are the most powerful tools among behavioral patterns for encapsulating business logic.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek.png&#34;&#xA;    alt=&#34;Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Asynchronous and Parallel Programming: Non-blocking Architecture Design with Task Parallel Library (TPL)</title>
+      <link>https://abdulkadirgungor.com/en/software/asenkron-ve-paralel-programlama-task-parallel-library-tpl-ile-non-blocking-mimari-tasarimi/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/asenkron-ve-paralel-programlama-task-parallel-library-tpl-ile-non-blocking-mimari-tasarimi/</guid>
+      <description>&lt;p&gt;In the modern software world, especially when dealing with intensive I/O operations and complex computational algorithms, blocking the main thread is an unacceptable performance bottleneck. The .NET ecosystem offers a &amp;ldquo;Non-blocking&amp;rdquo; architecture that optimizes hardware resources by using the &lt;strong&gt;Task Parallel Library (TPL)&lt;/strong&gt; and &lt;code&gt;async/await&lt;/code&gt; patterns. This structure not only improves the application&amp;rsquo;s responsiveness but also ensures that processor cores are utilized with maximum efficiency in parallel.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/asenkron-ve-paralel-programlama-task-parallel-library-%28tpl%29-ile-non-blocking-mimari-tasarimi.png&#34;&#xA;    alt=&#34;Asynchronous and Parallel Programming: Non-blocking Architecture Design with Task Parallel Library (TPL)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Asynchronous and Parallel Programming: Non-blocking Architecture Design with Task Parallel Library (TPL).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST)</title>
+      <link>https://abdulkadirgungor.com/en/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-grpc-rest/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-grpc-rest/</guid>
+      <description>&lt;p&gt;Traditional server management, infrastructure provisioning, and capacity planning processes are being replaced in the modern Software Development Life Cycle (SDLC) by &lt;strong&gt;Serverless&lt;/strong&gt; architectures, where the operational burden is shifted to the cloud provider. In this article, we will examine the technical depths of the Function as a Service (FaaS) model, event-driven design patterns, and cost optimization strategies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/api-gateway-ve-service-mesh-karmasik-aglarda-trafik-guvenlik-ve-haberlesme-%28grpc-rest%29.png&#34;&#xA;    alt=&#34;API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: API Gateway and Service Mesh: Traffic, Security, and Communication in Complex Networks (gRPC, REST).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

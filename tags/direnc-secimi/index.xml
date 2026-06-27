@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Direnc-Secimi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/direnc-secimi/</link>
+    <description>Recent content in Direnc-Secimi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/direnc-secimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devre Tasarımında Direnç Parametrelerinin Mühendislik Analizi ve Seçim Stratejileri</title>
+      <link>https://abdulkadirgungor.com/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</guid>
+      <description>&lt;p&gt;Elektronik devre tasarımı dendiğinde akla gelen ilk formül şüphesiz $V = I \times R$ eşitliği ile ifade edilen Ohm Kanunu’dur. Ancak profesyonel bir tasarım sürecinde, ideal bir direnç bileşeni sadece bir katsayıdan ibaret değildir. Gerçek dünya senaryolarında; sıcaklık katsayıları, parazitik kapasitans, endüktans, gerilim katsayısı ve güç dağılımı gibi parametreler, devrenin kararlılığını doğrudan etkiler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri.png&#34;&#xA;    alt=&#34;Devre Tasarımında Direnç Parametrelerinin Mühendislik Analizi ve Seçim Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Devre Tasarımında Direnç Parametrelerinin Mühendislik Analizi ve Seçim Stratejileri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

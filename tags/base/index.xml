@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/base/</link>
+    <description>Recent content in Base on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/base/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Veritabanı Mimarilerinde Veri Tutarlılığı ve Dağıtık Sistem Paradigmaları</title>
+      <link>https://abdulkadirgungor.com/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari/</guid>
+      <description>&lt;p&gt;Günümüzün yüksek ölçekli yazılım mimarilerinde veritabanı seçimi ve tasarımı, sistemin ayakta kalma süresini (uptime), veri bütünlüğünü ve uçtan uca performansını doğrudan etkileyen en kritik karardır. Bir sistem mimarı için veritabanı, sadece verilerin depolandığı bir disk alanı değil; matematiksel teoriler, ağ kısıtlamaları ve donanım limitleri arasında kurulan hassas bir denge mekanizmasıdır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/modern-veritabani-mimarilerinde-veri-tutarliligi-ve-dagitik-sistem-paradigmalari.png&#34;&#xA;    alt=&#34;Modern Veritabanı Mimarilerinde Veri Tutarlılığı ve Dağıtık Sistem Paradigmaları&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Veritabanı Mimarilerinde Veri Tutarlılığı ve Dağıtık Sistem Paradigmaları.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

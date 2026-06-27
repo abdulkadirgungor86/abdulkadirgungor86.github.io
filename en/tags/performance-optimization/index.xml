@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance-Optimization on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/performance-optimization/</link>
+    <description>Recent content in Performance-Optimization on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/performance-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lazy, Eager, and Explicit Loading: Avoiding the &#34;N&#43;1 Problem&#34; with Data Loading Strategies</title>
+      <link>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</guid>
+      <description>&lt;p&gt;In modern software architectures, database interactions play a decisive role in the scalability and response time of an application. One of the biggest performance bottlenecks encountered, especially when using Object-Relational Mapping (ORM) tools, is the N+1 Query Problem. To overcome this issue and optimize the data access layer, it is essential to have a deep understanding of Lazy, Eager, and Explicit Loading strategies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&amp;#43;1-probleminden-kacinmak.png&#34;&#xA;    alt=&#34;Lazy, Eager, and Explicit Loading: Avoiding the &amp;#34;N&amp;#43;1 Problem&amp;#34; with Data Loading Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Lazy, Eager, and Explicit Loading: Avoiding the &amp;ldquo;N+1 Problem&amp;rdquo; with Data Loading Strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types</title>
+      <link>https://abdulkadirgungor.com/en/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</guid>
+      <description>&lt;p&gt;In modern software architectures, performance optimization and memory management are the most critical factors determining the runtime behavior of code. Although high-level languages (C#, Java, Python) manage memory automatically, understanding the &lt;strong&gt;Stack&lt;/strong&gt; and &lt;strong&gt;Heap&lt;/strong&gt; distinction occurring in the background is essential for preventing memory leaks and efficiently utilizing processor resources.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi.png&#34;&#xA;    alt=&#34;A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: A Deep Dive into Heap and Stack: Memory Allocation of Value and Reference Types&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis</title>
+      <link>https://abdulkadirgungor.com/en/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi/</guid>
+      <description>&lt;p&gt;Memory management is one of the most critical layers in modern software architectures that directly affects system performance and application stability. Garbage Collection (GC) is a mechanism developed to minimize errors that may arise from manual memory management (malloc/free or new/delete) by tracking the lifecycle of dynamically allocated objects.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/garbage-collection-algoritmalari-nesne-yasam-dongusu-ve-memory-leak-analizi.png&#34;&#xA;    alt=&#34;Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Garbage Collection Algorithms: Object Lifecycle and Memory Leak Analysis&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-memory-allocation-and-object-lifecycle&#34;&gt;1. Memory Allocation and Object Lifecycle&lt;/h2&gt;&#xA;&lt;p&gt;An object&amp;rsquo;s lifecycle begins with memory allocation at runtime. In modern languages (Java, C#, Go, Python), this process typically occurs in the &lt;strong&gt;Heap&lt;/strong&gt; area.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</guid>
+      <description>&lt;p&gt;In the modern data ecosystem, the ultimate limit to performance is no longer storage capacity, but the speed at which data reaches the processor. Developed to overcome Input/Output (I/O) bottlenecks in traditional disk-based (HDD/SSD) systems, in-memory data processing architectures structure data directly in RAM, reducing data access times to the microsecond level.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri-isleme-stratejileri.png&#34;&#xA;    alt=&#34;In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews</title>
+      <link>https://abdulkadirgungor.com/en/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;In modern enterprise architectures, the .NET platform holds a critical position due to its high performance, stability, and extensive library support. A .NET developer interview aims to measure a candidate&amp;rsquo;s competence across a wide spectrum, far beyond simple syntax knowledge, ranging from memory management to the depths of asynchronous programming, advanced ORM optimizations, and design patterns in microarchitectures.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Technical Topics and Strategic Approaches That Make a Difference in Senior .NET Developer Interviews&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

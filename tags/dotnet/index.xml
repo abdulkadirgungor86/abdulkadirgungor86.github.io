@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dotnet on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/dotnet/</link>
+    <description>Recent content in Dotnet on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>.NET 8 Projelerinde OWASP Top 10 Güvenlik Stratejileri</title>
+      <link>https://abdulkadirgungor.com/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri/</guid>
+      <description>&lt;p&gt;Modern yazılım geliştirme süreçlerinde güvenlik, artık projenin sonunda eklenen bir katman değil, geliştirme yaşam döngüsünün (SDLC) en başından itibaren içselleştirilmesi gereken temel bir mimari bileşendir. .NET 8, yüksek performansı ve modern altyapısı ile güvenli uygulamalar geliştirmek için güçlü araçlar sunar. Ancak, platformun sağladığı bu imkanları doğru yapılandırmak, geliştiricinin sorumluluğundadır. Bu makalede, OWASP Top 10 tehdit vektörlerini .NET 8 ekosisteminde nasıl bertaraf edebileceğimizi teknik detayları ve kod örnekleriyle incelenmiştir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri.png&#34;&#xA;    alt=&#34;.NET 8 Projelerinde OWASP Top 10 Güvenlik Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: .NET 8 Projelerinde OWASP Top 10 Güvenlik Stratejileri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamBanka: .NET 8.0 ile Güvenli ve Katmanlı Bankacılık API Mimarisi</title>
+      <link>https://abdulkadirgungor.com/software/github-proje-2-bilgeadambanka/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/github-proje-2-bilgeadambanka/</guid>
+      <description>&lt;p&gt;Modern finansal sistemler, verilerin güvenliği, işlemlerin doğrulanması ve sistemin sürdürülebilirliği için sağlam mimari temellere ihtiyaç duyar. &lt;strong&gt;BilgeAdamBanka&lt;/strong&gt;, .NET 8.0 ekosisteminin sunduğu güncel imkanları kullanarak, kredi kartı işlemlerini (CRUD operasyonları) yönetmek için kurgulanmış, hibrit N-Katmanlı (N-Tier) bir API çözümüdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-2-bilgeadambanka.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamBanka&amp;#34;; kredi kartı işlemlerini (oluşturma, görüntüleme, güncelleme, silme) yönetmek için katmanlı mimari yapısına sahip bir Banka API sistemini içermektedir.&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: &amp;ldquo;BilgeAdamBanka&amp;rdquo;; kredi kartı işlemlerini (oluşturma, görüntüleme, güncelleme, silme) yönetmek için katmanlı mimari yapısına sahip bir Banka API sistemini içermektedir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamEvimiKur: .NET 8.0 ve C# ile Hibrit N-Katmanlı E-Ticaret Mimarisi</title>
+      <link>https://abdulkadirgungor.com/software/github-proje-1-bilgeadamevimikur/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/github-proje-1-bilgeadamevimikur/</guid>
+      <description>&lt;p&gt;Modern e-ticaret sistemleri, kullanıcı deneyimini iyileştirmek, yüksek trafik altında performanslı çalışmak ve sürdürülebilir bir kod yapısı sunmak için güçlü mimari temellere ihtiyaç duyar. &lt;strong&gt;BilgeAdamEvimiKur&lt;/strong&gt;, .NET 8.0 ekosisteminin en güncel özelliklerini kullanarak, hibrit N-Katmanlı (N-Tier) mimari yaklaşımıyla kurgulanmış kapsamlı bir e-ticaret çözümüdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-1-bilgeadamevimikur.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamEvimiKur&amp;#34;; .NET 8.0 ve C# ile Hibrit N-Katmanlı (N-Tier) E-Ticaret Projesi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: &amp;ldquo;BilgeAdamEvimiKur&amp;rdquo;; .NET 8.0 ve C# ile Hibrit N-Katmanlı (N-Tier) E-Ticaret Projesi&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-mimari-yaklaşım-hibrit-n-katmanlı-yapı&#34;&gt;1. Mimari Yaklaşım: Hibrit N-Katmanlı Yapı&lt;/h2&gt;&#xA;&lt;p&gt;Proje, iş mantığını veri erişiminden ve kullanıcı arayüzünden tamamen ayıran klasik N-katmanlı mimariyi benimserken, modern yazılım prensiplerini de entegre eder. Bu yapı sayesinde, sistemin modülerliği artırılmış ve teknik borç minimize edilmiştir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflection ve Meta-Programming: Çalışma Zamanında Kod İnceleme ve Dinamik Nesne Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</guid>
+      <description>&lt;p&gt;Modern yazılım mimarilerinde esneklik ve genişletilebilirlik, statik tiplemenin getirdiği katı kuralların çalışma zamanında (runtime) esnetilmesiyle mümkündür. Reflection (yansıma) ve Meta-Programming (meta-programlama), sistemlerin kendi yapılarını analiz etmesine, değiştirmesine ve çalışma anında yeni davranışlar sergilemesine olanak tanıyan ileri seviye tekniklerdir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi.png&#34;&#xA;    alt=&#34;Reflection ve Meta-Programming: Çalışma Zamanında Kod İnceleme ve Dinamik Nesne Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Reflection ve Meta-Programming: Çalışma Zamanında Kod İnceleme ve Dinamik Nesne Yönetimi&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-reflection-tip-sisteminin-kendi-kendini-keşfi&#34;&gt;1. Reflection: Tip Sisteminin Kendi Kendini Keşfi&lt;/h3&gt;&#xA;&lt;p&gt;Reflection, bir programın çalışma zamanında kendi yapısını (sınıflar, metotlar, özellikler, arayüzler) inceleyebilme yeteneğidir. Statik dillerde (C#, Java) normal şartlarda derleme zamanında (compile-time) belirlenen meta veriler, Reflection sayesinde çalışma anında sorgulanabilir hale gelir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</guid>
+      <description>&lt;p&gt;C# ve .NET ekosisteminde veri erişim katmanı (DAL) tasarımı, genellikle iki kutup arasında gerçekleşir: Tam kapsamlı bir Object-Relational Mapper (ORM) olan &lt;strong&gt;Entity Framework Core (EF Core)&lt;/strong&gt; ve hafif siklet bir &amp;ldquo;Micro-ORM&amp;rdquo; olan &lt;strong&gt;Dapper&lt;/strong&gt;. Kurumsal seviyedeki yüksek trafikli uygulamalarda bu iki teknolojiden birini seçmek yerine, her ikisinin güçlü yönlerinden yararlanan &lt;strong&gt;hibrit mimariler&lt;/strong&gt; kurmak, performans ve sürdürülebilirlik açısından en optimize çözümdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar.png&#34;&#xA;    alt=&#34;Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code First vs. Database First: Modern ve Legacy Sistemlerde Model Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/code-first-vs-database-first-modern-ve-legacy-sistemlerde-model-yonetimi/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/code-first-vs-database-first-modern-ve-legacy-sistemlerde-model-yonetimi/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde veri erişim katmanının (Data Access Layer) tasarımı, projenin sürdürülebilirliği, ölçeklenebilirliği ve ekip içi iş akışları üzerinde belirleyici bir rol oynar. Özellikle Nesne-İlişkisel Eşleme (ORM - Object-Relational Mapping) araçlarının evrimiyle birlikte, model yönetimi iki ana paradigmanın etrafında şekillenmiştir: &lt;strong&gt;Code First&lt;/strong&gt; ve &lt;strong&gt;Database First&lt;/strong&gt;. Bu makale, her iki yaklaşımı teknik derinlikte inceleyerek, modern mikroservis mimarilerinden legacy monolitik sistemlere kadar geniş bir spektrumda uygulama stratejilerini ele almaktadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/code-first-vs-database-first-modern-ve-legacy-sistemlerde-model-yonetimi.png&#34;&#xA;    alt=&#34;Code First vs. Database First: Modern ve Legacy Sistemlerde Model Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Code First vs. Database First: Modern ve Legacy Sistemlerde Model Yönetimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;Modern kurumsal mimarilerde .NET platformu, sunduğu yüksek performans, kararlılık ve geniş kütüphane desteği nedeniyle kritik bir konumdadır. Bir .NET geliştirici mülakatı, basit sözdizimi (syntax) bilgisinin çok ötesine geçerek adayların bellek yönetiminden asenkron programlamanın derinliklerine, gelişmiş ORM optimizasyonlarından mikromimarilerdeki tasarım desenlerine kadar geniş bir yelpazedeki yetkinliğini ölçmeyi hedefler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

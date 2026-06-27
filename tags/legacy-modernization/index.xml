@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legacy-Modernization on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/legacy-modernization/</link>
+    <description>Recent content in Legacy-Modernization on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/legacy-modernization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri</title>
+      <link>https://abdulkadirgungor.com/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;Yazılım dünyasında çeviklik ve pazar hızı (Time-to-Market) çoğu zaman mühendislik mükemmeliyetinin önüne geçer. Ancak bu durum, sistemlerin zamanla &amp;ldquo;Technical Debt&amp;rdquo; (Teknik Borç) bataklığına saplanmasına neden olur. Bir noktadan sonra mevcut yapıyı sürdürmek, yeni özellik geliştirmekten daha maliyetli hale geldiğinde ise &amp;ldquo;Legacy Modernization&amp;rdquo; kaçınılmaz bir zorunluluktur.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Technical Debt ve Legacy Modernization: Hız, Kalite ve Modernizasyon Stratejileri.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-teknik-borcun-taksonomisi-ve-mühendislik-etkileri&#34;&gt;1. Teknik Borcun Taksonomisi ve Mühendislik Etkileri&lt;/h2&gt;&#xA;&lt;p&gt;Teknik borç sadece &amp;ldquo;kötü kod&amp;rdquo; demek değildir. Ward Cunningham tarafından ortaya atılan bu kavram, bilinçli veya bilinçsiz alınan teknik kararların gelecekte ödenmesi gereken faizidir.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

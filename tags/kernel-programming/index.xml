@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kernel-Programming on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/kernel-programming/</link>
+    <description>Recent content in Kernel-Programming on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/kernel-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Malware Analizi ve Sistem Savunması: İşletim Sistemi Seviyesinde Tehditlere Karşı Kod Yazımı</title>
+      <link>https://abdulkadirgungor.com/software/malware-analizi-ve-sistem-savunmasi-isletim-sistemi-seviyesinde-tehditlere-karsi-kod-yazimi/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/malware-analizi-ve-sistem-savunmasi-isletim-sistemi-seviyesinde-tehditlere-karsi-kod-yazimi/</guid>
+      <description>&lt;p&gt;Modern siber güvenlik ekosisteminde, standart uç nokta koruma çözümlerinin (EDR/AV) ötesine geçmek, işletim sisteminin (OS) iç yapısına hakim olmayı gerektirir. Zararlı yazılımlar artık sadece kullanıcı modunda (User Mode) çalışan basit scriptler değil; çekirdek moduna (Kernel Mode) sızan, bellek manipülasyonu yapan ve sistem çağrılarını (Syscalls) maskeleyen karmaşık yapılardır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/malware-analizi-ve-sistem-savunmasi-isletim-sistemi-seviyesinde-tehditlere-karsi-kod-yazimi.png&#34;&#xA;    alt=&#34;Malware Analizi ve Sistem Savunması: İşletim Sistemi Seviyesinde Tehditlere Karşı Kod Yazımı&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Malware Analizi ve Sistem Savunması: İşletim Sistemi Seviyesinde Tehditlere Karşı Kod Yazımı.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

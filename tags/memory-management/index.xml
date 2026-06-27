@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory-Management on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/memory-management/</link>
+    <description>Recent content in Memory-Management on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/memory-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>N Tier Mimaride Performans Optimizasyonu ve Gecikme Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</guid>
+      <description>&lt;p&gt;Modern kurumsal yazılım geliştirme süreçlerinde N-Tier (çok katmanlı) mimari, sürdürülebilirlik ve kodun ayrıştırılması adına endüstri standardı haline gelmiştir. Ancak, uygulamanın mantıksal veya fiziksel olarak sunum (presentation), iş mantığı (business logic) ve veri erişim (data access) katmanlarına ayrılması, kaçınılmaz olarak &amp;ldquo;katmanlar arası gecikme&amp;rdquo; (inter-layer latency) fenomenini beraberinde getirir. .NET 8.0 ekosistemi, sunduğu düşük seviyeli iyileştirmeler ve modern runtime yetenekleriyle bu mimari maliyetleri minimize etmek için güçlü araçlar sağlamaktadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi.png&#34;&#xA;    alt=&#34;N Tier Mimaride Performans Optimizasyonu ve Gecikme Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: N Tier Mimaride Performans Optimizasyonu ve Gecikme Yönetimi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

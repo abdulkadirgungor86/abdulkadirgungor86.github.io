@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lloyd-Algoritmasi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/lloyd-algoritmasi/</link>
+    <description>Recent content in Lloyd-Algoritmasi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/lloyd-algoritmasi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Makine Öğrenmesinde Modern Kümeleme ve Sınıflandırma Stratejileri</title>
+      <link>https://abdulkadirgungor.com/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri/</guid>
+      <description>&lt;p&gt;Yapay zeka ve veri bilimi ekosisteminde, ham verinin anlamlı bir içgörüye dönüştürülmesi süreci iki temel sütun üzerine inşa edilir: Denetimli (Supervised) ve denetimsiz (Unsupervised) öğrenme. Bu yazıda, doğrusal sınıflandırma modellerinden başlayarak, kümeleme algoritmalarının matematiksel derinliklerine, aşırı uyum (overfitting) problemlerinin regülarizasyon teknikleriyle çözümüne ve pratik Python uygulamalarına ele alınacaktır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri.png&#34;&#xA;    alt=&#34;Makine Öğrenmesinde Modern Kümeleme ve Sınıflandırma Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Makine Öğrenmesinde Modern Kümeleme ve Sınıflandırma Stratejileri.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;doğrusal-sınıflandırma-ve-karar-sınırlarının-matematiği&#34;&gt;Doğrusal Sınıflandırma ve Karar Sınırlarının Matematiği&lt;/h2&gt;&#xA;&lt;p&gt;Sınıflandırma, bir veri noktasının öznitelik vektörünü ($x$) girdi olarak alıp, önceden tanımlanmış bir ayrık etikete ($y$) eşleme sürecidir. En temel yaklaşım olan doğrusal sınıflandırmada, model bir &amp;ldquo;karar düzlemi&amp;rdquo; (decision hyperplane) oluşturur.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

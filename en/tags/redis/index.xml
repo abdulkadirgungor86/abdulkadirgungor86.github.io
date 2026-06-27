@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redis on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/redis/</link>
+    <description>Recent content in Redis on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Caching: Performance Boost at Global Scale with Redis and Memcached</title>
+      <link>https://abdulkadirgungor.com/en/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</guid>
+      <description>&lt;p&gt;In modern microservice architectures and high-traffic web applications, minimizing latency, reducing the load on databases, and ensuring scalability are strategic imperatives. This article examines the technical depths, architectural differences, and implementation strategies of industry-standard technologies: &lt;strong&gt;Redis&lt;/strong&gt; and &lt;strong&gt;Memcached&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi.png&#34;&#xA;    alt=&#34;Distributed Caching: Performance Boost at Global Scale with Redis and Memcached&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Distributed Caching: Performance Boost at Global Scale with Redis and Memcached.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-fundamentals-of-distributed-caching-architecture&#34;&gt;1. Fundamentals of Distributed Caching Architecture&lt;/h2&gt;&#xA;&lt;p&gt;Distributed caching is the storage of data in RAM (Random Access Memory) across multiple server nodes. The difference from traditional &amp;ldquo;in-memory&amp;rdquo; caching is that the data is not tied to the application server and is provided as a centralized service in a clustered structure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

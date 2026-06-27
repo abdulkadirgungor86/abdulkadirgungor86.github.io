@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Avr on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/avr/</link>
+    <description>Recent content in Avr on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/avr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Management and Efficiency Strategies in Arduino Projects</title>
+      <link>https://abdulkadirgungor.com/en/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri/</guid>
+      <description>&lt;p&gt;The most critical bottleneck for portable electronic projects is energy consumption. Running a microcontroller with default settings is generally not sustainable for a battery-powered system. Although the Arduino platform provides prototyping ease, it is not energy-efficiency focused out of the box. A true engineering approach covers a wide range, from stripping unnecessary components on the hardware to the effective use of processor sleep modes.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri.png&#34;&#xA;    alt=&#34;Power Management and Efficiency Strategies in Arduino Projects&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Power Management and Efficiency Strategies in Arduino Projects.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

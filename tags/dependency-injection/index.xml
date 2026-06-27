@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dependency-Injection on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/dependency-injection/</link>
+    <description>Recent content in Dependency-Injection on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/dependency-injection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi)</title>
+      <link>https://abdulkadirgungor.com/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi/</guid>
+      <description>&lt;p&gt;Yazılım mühendisliğinde sürdürülebilir bir mimari inşa etmenin temel taşlarından biri olan &lt;strong&gt;Open-Closed Principle (OCP)&lt;/strong&gt;, yani Açık-Kapalı Prensibi, sistemin genişlemeye açık (open for extension) ancak değişime kapalı (closed for modification) olması gerektiğini savunur. Robert C. Martin tarafından popüler hale getirilen bu kavram, kod tabanında yapılacak her yeni özelliğin, halihazırda çalışan ve test edilmiş kod bloklarını riske atmadan sisteme entegre edilmesini hedefler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-%28plugin-mimarisi%29.png&#34;&#xA;    alt=&#34;Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Open-Closed Prensibi: Mevcut Koda Dokunmadan Yeni Yetenek Kazandırmak (Plugin Mimarisi).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</guid>
+      <description>&lt;p&gt;Yazılım mimarilerinde nesne oluşturma ve bu nesnelerin birbirleriyle olan ilişkilerini yönetme süreci, projenin ölçeklenebilirliği ve sürdürülebilirliği açısından kritik bir öneme sahiptir. Modern yazılım geliştirme pratiklerinde, sınıfların kendi bağımlılıklarını kendilerinin oluşturması (tight coupling), kodun test edilebilirliğini zorlaştırır ve esnekliğini azaltır. Bu sorunu aşmak için kullanılan &lt;strong&gt;Inversion of Control (IoC)&lt;/strong&gt; prensibi ve bu prensibin en yaygın uygulama biçimi olan &lt;strong&gt;Dependency Injection (DI)&lt;/strong&gt;, nesne yönetimini merkezi bir yapıya devreder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/inversion-of-control-%28ioc%29-containers-bagimlilik-enjeksiyonu-%28di%29-yasam-dongusu-yonetimi.png&#34;&#xA;    alt=&#34;Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;Modern kurumsal mimarilerde .NET platformu, sunduğu yüksek performans, kararlılık ve geniş kütüphane desteği nedeniyle kritik bir konumdadır. Bir .NET geliştirici mülakatı, basit sözdizimi (syntax) bilgisinin çok ötesine geçerek adayların bellek yönetiminden asenkron programlamanın derinliklerine, gelişmiş ORM optimizasyonlarından mikromimarilerdeki tasarım desenlerine kadar geniş bir yelpazedeki yetkinliğini ölçmeyi hedefler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

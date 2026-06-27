@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Numpy on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/numpy/</link>
+    <description>Recent content in Numpy on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python ile Yazılım Geliştirme — Başlangıçtan Uzmanlığa Kapsamlı Teknik Rehber</title>
+      <link>https://abdulkadirgungor.com/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</guid>
+      <description>&lt;p&gt;Python, 1991 yılında Guido van Rossum tarafından yayımlanan ve bugün dünyanın en yaygın kullanılan programlama dillerinden biri haline gelen bir dil. TIOBE endeksinde sürekli olarak ilk üçte yer alıyor; veri bilimi, web geliştirme, otomasyon, yapay zeka gibi birbirinden farklı alanlarda fiilen endüstri standardı konumunda. Bu popülariteyi sağlayan şeyin sözdizimiyle başlamak doğru olur: Python, İngilizce&amp;rsquo;ye yakın, okunabilir bir yapıya sahip. Ama bu sadelik, dilin altında yatan gücü gizlemez. C uzantılarıyla entegrasyon, asenkron programlama desteği, kapsamlı standart kütüphane ve devasa ekosistem — bunların tamamı Python&amp;rsquo;u gerçek anlamda çok katmanlı bir dil yapıyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karmaşık Devrelerin Matematiksel Mimarisi ve Düğüm Gerilimleri Yöntemi</title>
+      <link>https://abdulkadirgungor.com/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</guid>
+      <description>&lt;p&gt;Elektrik devrelerinin analizi, temel fizik yasalarının lineer cebir ile harmanlandığı disiplinler arası bir süreçtir. Modern mühendislik uygulamalarında, özellikle entegre devre tasarımı ve güç sistemleri simülasyonlarında, devreyi bileşen bazlı incelemek yerine sistematik bir yaklaşım sergilemek gerekir. Bu noktada, Kirchhoff’un Akım Yasası (KCL) üzerine inşa edilen &lt;strong&gt;Düğüm Analizi (Nodal Analysis)&lt;/strong&gt;, devredeki bilinmeyen gerilimleri sistematik bir matris formuna indirgeyerek çözüm kümesine ulaşmamızı sağlar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi.png&#34;&#xA;    alt=&#34;Karmaşık Devrelerin Matematiksel Mimarisi ve Düğüm Gerilimleri Yöntemi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Karmaşık Devrelerin Matematiksel Mimarisi ve Düğüm Gerilimleri Yöntemi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

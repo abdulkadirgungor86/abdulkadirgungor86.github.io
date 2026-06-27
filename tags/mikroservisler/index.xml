@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mikroservisler on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/mikroservisler/</link>
+    <description>Recent content in Mikroservisler on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/mikroservisler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event Sourcing: Veriyi Değil, Değişim Geçmişini Saklayarak Durum Yönetimi Sağlamak</title>
+      <link>https://abdulkadirgungor.com/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</guid>
+      <description>&lt;p&gt;Geleneksel veri tabanı tasarımlarında &amp;ldquo;State-Oriented&amp;rdquo; (Durum Odaklı) yaklaşım hakimdir. Bu yaklaşımda, bir nesnenin o anki en güncel hali veri tabanında saklanır ve her güncelleme işleminde (UPDATE) eski veri kalıcı olarak silinir veya üzerine yazılır. Ancak karmaşık dağıtık sistemlerde ve denetlenebilirliğin (auditability) kritik olduğu finansal/lojistik yapılarında bu model, verinin &amp;ldquo;neden&amp;rdquo; ve &amp;ldquo;nasıl&amp;rdquo; bu hale geldiğine dair semantik bilgiyi kaybeder. &lt;strong&gt;Event Sourcing (Olay Kaynaklama)&lt;/strong&gt;, bu sorunu çözmek için verinin nihai durumunu değil, o durumu oluşturan tüm değişim olaylarını (events) değişmez (immutable) bir sırada saklamayı esas alan bir mimari desendir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domain-Driven Design (DDD): İş Kurallarını Yazılımın Merkezine Koymak (Value Objects vs. Entities)</title>
+      <link>https://abdulkadirgungor.com/software/domain-driven-design-ddd-is-kurallarini-yazilimin-merkezine-koymak-value-objects-vs-entities/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/domain-driven-design-ddd-is-kurallarini-yazilimin-merkezine-koymak-value-objects-vs-entities/</guid>
+      <description>&lt;p&gt;Yazılım dünyasında karmaşıklığı yönetmek, sadece doğru algoritmaları seçmekle değil, iş mantığını (domain logic) kodun kalbine nasıl yerleştirdiğinizle ilgilidir. Eric Evans tarafından literatüre kazandırılan &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;, yazılımın teknik gereksinimlerden ziyade iş modeline odaklanması gerektiğini savunur. Bu yaklaşımın temel taşlarından ikisi olan &lt;strong&gt;Entities&lt;/strong&gt; ve &lt;strong&gt;Value Objects&lt;/strong&gt; arasındaki ayrımı anlamak, sürdürülebilir bir sistem mimarisi inşa etmenin anahtarıdır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/domain-driven-design-%28ddd%29-is-kurallarini-yazilimin-merkezine-koymak-%28value-objects-vs-entities%29.png&#34;&#xA;    alt=&#34;Domain-Driven Design (DDD): İş Kurallarını Yazılımın Merkezine Koymak (Value Objects vs. Entities)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Domain-Driven Design (DDD): İş Kurallarını Yazılımın Merkezine Koymak (Value Objects vs. Entities).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Distributed Caching: Redis ve Memcached ile Küresel Ölçekte Performans Artışı</title>
+      <link>https://abdulkadirgungor.com/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</guid>
+      <description>&lt;p&gt;Modern mikroservis mimarilerinde ve yüksek trafikli web uygulamalarında gecikme süresini (latency) minimize etmek, veritabanı üzerindeki yükü hafifletmek ve ölçeklenebilirliği sağlamak için &lt;strong&gt;Distributed Caching (Dağıtık Önbellekleme)&lt;/strong&gt; stratejik bir zorunluluktur. Bu makalede, sektör standartları olan &lt;strong&gt;Redis&lt;/strong&gt; ve &lt;strong&gt;Memcached&lt;/strong&gt; teknolojilerinin teknik derinlikleri, mimari farkları ve uygulama stratejileri ele alınmıştır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi.png&#34;&#xA;    alt=&#34;Distributed Caching: Redis ve Memcached ile Küresel Ölçekte Performans Artışı&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Distributed Caching: Redis ve Memcached ile Küresel Ölçekte Performans Artışı.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-dağıtık-önbellekleme-mimarisinin-temelleri&#34;&gt;1. Dağıtık Önbellekleme Mimarisinin Temelleri&lt;/h2&gt;&#xA;&lt;p&gt;Dağıtık önbellekleme, verilerin birden fazla sunucu düğümü (node) üzerinde RAM (Random Access Memory) üzerinde tutulmasıdır. Geleneksel &amp;ldquo;In-memory&amp;rdquo; önbelleklemeden farkı, verinin uygulama sunucusuna bağlı olmaması ve kümelenmiş (cluster) bir yapıda merkezi bir hizmet olarak sunulmasıdır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

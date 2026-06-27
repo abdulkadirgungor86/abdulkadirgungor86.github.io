@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-Architecture on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/software-architecture/</link>
+    <description>Recent content in Software-Architecture on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/software-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced</title>
+      <link>https://abdulkadirgungor.com/en/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin/</guid>
+      <description>&lt;p&gt;JavaScript is the ultimate power that rescues data—the raw material of the digital world—from being a static skeleton and transforms it into living, dynamic, and reactive systems. Today, by transcending browser boundaries and extending from server architectures to mobile platforms, this language stands as the indisputable most powerful engine of the modern web ecosystem.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kapsamli-javascript-ogrenme-rehberi-sifirdan-ileri-seviyeye-web-e-hayat-verin.png&#34;&#xA;    alt=&#34;Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Comprehensive JavaScript Learning Guide: Bring the Web to Life from Scratch to Advanced.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Event-Driven Architecture and Asynchronous Messaging in Modern Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s distributed systems, with the transition from monolithic structures to microservice architectures, communication strategies between services have begun to play a decisive role in the scalability and resilience of the system. Traditional HTTP-based (REST or gRPC) synchronous communication models can create a &amp;ldquo;bottleneck,&amp;rdquo; especially in high-traffic scenarios where dependency between services is high. This is precisely where &lt;strong&gt;Event-Driven Architecture (EDA)&lt;/strong&gt; comes in, offering a high-performance working environment by enabling systems to communicate asynchronously.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamBanka: Secure and Layered Banking API Architecture with .NET 8.0</title>
+      <link>https://abdulkadirgungor.com/en/software/github-proje-2-bilgeadambanka/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/github-proje-2-bilgeadambanka/</guid>
+      <description>&lt;p&gt;Modern financial systems require robust architectural foundations for data security, transaction validation, and system sustainability. &lt;strong&gt;BilgeAdamBanka&lt;/strong&gt; is a hybrid N-Tier API solution designed to manage credit card transactions (CRUD operations) using the latest capabilities of the .NET 8.0 ecosystem.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-2-bilgeadambanka.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamBanka&amp;#34;; includes a Bank API system with a layered architecture to manage credit card transactions (creation, viewing, updating, deleting).&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: &amp;ldquo;BilgeAdamBanka&amp;rdquo;; includes a Bank API system with a layered architecture to manage credit card transactions (creation, viewing, updating, deleting).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamEvimiKur: Hybrid N-Tier E-Commerce Architecture with .NET 8.0 and C#</title>
+      <link>https://abdulkadirgungor.com/en/software/github-proje-1-bilgeadamevimikur/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/github-proje-1-bilgeadamevimikur/</guid>
+      <description>&lt;p&gt;Modern e-commerce systems require strong architectural foundations to improve user experience, perform under high traffic, and provide a sustainable codebase. &lt;strong&gt;BilgeAdamEvimiKur&lt;/strong&gt; is a comprehensive e-commerce solution built using the latest features of the .NET 8.0 ecosystem with a hybrid N-Tier architecture approach.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-1-bilgeadamevimikur.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamEvimiKur&amp;#34;; Hybrid N-Tier E-Commerce Project with .NET 8.0 and C#&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: &amp;ldquo;BilgeAdamEvimiKur&amp;rdquo;; Hybrid N-Tier E-Commerce Project with .NET 8.0 and C#&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach-hybrid-n-tier-structure&#34;&gt;1. Architectural Approach: Hybrid N-Tier Structure&lt;/h2&gt;&#xA;&lt;p&gt;The project adopts the classic N-tier architecture, which completely separates business logic from data access and the user interface, while also integrating modern software principles. Thanks to this structure, the modularity of the system has been increased and technical debt has been minimized.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios</title>
+      <link>https://abdulkadirgungor.com/en/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari/</guid>
+      <description>&lt;p&gt;Entity Framework Core (EF Core) employs a highly complex mechanism behind the scenes while managing database operations with an object-oriented approach. The heart of this mechanism is the &lt;strong&gt;Change Tracker&lt;/strong&gt; unit. The scalability and response time of an enterprise application are directly dependent on how efficiently this unit is utilized.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/ef-core-da-change-tracking-ve-performans-state-yonetimi-ve-asnotracking-senaryolari.png&#34;&#xA;    alt=&#34;Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Change Tracking and Performance in EF Core: State Management and AsNoTracking Scenarios.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

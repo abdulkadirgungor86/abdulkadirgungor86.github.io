@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandas on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/pandas/</link>
+    <description>Recent content in Pandas on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python ile Yazılım Geliştirme — Başlangıçtan Uzmanlığa Kapsamlı Teknik Rehber</title>
+      <link>https://abdulkadirgungor.com/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</guid>
+      <description>&lt;p&gt;Python, 1991 yılında Guido van Rossum tarafından yayımlanan ve bugün dünyanın en yaygın kullanılan programlama dillerinden biri haline gelen bir dil. TIOBE endeksinde sürekli olarak ilk üçte yer alıyor; veri bilimi, web geliştirme, otomasyon, yapay zeka gibi birbirinden farklı alanlarda fiilen endüstri standardı konumunda. Bu popülariteyi sağlayan şeyin sözdizimiyle başlamak doğru olur: Python, İngilizce&amp;rsquo;ye yakın, okunabilir bir yapıya sahip. Ama bu sadelik, dilin altında yatan gücü gizlemez. C uzantılarıyla entegrasyon, asenkron programlama desteği, kapsamlı standart kütüphane ve devasa ekosistem — bunların tamamı Python&amp;rsquo;u gerçek anlamda çok katmanlı bir dil yapıyor.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

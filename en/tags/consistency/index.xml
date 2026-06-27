@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consistency on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/consistency/</link>
+    <description>Recent content in Consistency on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/consistency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAP Theorem and Database Selection: The Balance Between Consistency and Availability</title>
+      <link>https://abdulkadirgungor.com/en/software/cap-teoremi-ve-veritabani-secimi-tutarlilik-consistency-ve-kullanilabilirlik-availability-dengesi/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cap-teoremi-ve-veritabani-secimi-tutarlilik-consistency-ve-kullanilabilirlik-availability-dengesi/</guid>
+      <description>&lt;p&gt;One of the fundamental building blocks of distributed systems, the &lt;strong&gt;CAP Theorem (Brewer’s Theorem)&lt;/strong&gt;, provides a mathematical framework for the critical trade-offs that must be made when designing systems that communicate over a network. Proposed by Eric Brewer in 2000 and proven by Seth Gilbert and Nancy Lynch in 2002, this principle argues that a distributed data system cannot simultaneously satisfy all three of the following properties to their fullest extent:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

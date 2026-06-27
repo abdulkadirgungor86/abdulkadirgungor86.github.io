@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Centrality-Metrics on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/centrality-metrics/</link>
+    <description>Recent content in Centrality-Metrics on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/centrality-metrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Topological Approaches in Data Science and Graph Theory-Based Network Analysis with Gephi</title>
+      <link>https://abdulkadirgungor.com/en/blog/veri-biliminde-topolojik-yaklasimlar-ve-gephi-ile-graf-teorisi-temelli-ag-analizi/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/veri-biliminde-topolojik-yaklasimlar-ve-gephi-ile-graf-teorisi-temelli-ag-analizi/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s data ecosystem, identifying relational patterns between the units that make up the data is of strategic importance rather than just the size of the raw data. Traditional relational databases and row-column-based analysis methods are insufficient to express the phenomenon of &amp;ldquo;connectivity.&amp;rdquo; This is where &lt;strong&gt;Graph Theory&lt;/strong&gt; comes into play. This discipline, which models complex systems through nodes and edges, transforms into a massive analytical power that uncovers hidden topologies in big data sets when combined with open-source tools like Gephi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

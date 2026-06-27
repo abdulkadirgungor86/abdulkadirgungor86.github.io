@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legacy-Code on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/legacy-code/</link>
+    <description>Recent content in Legacy-Code on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/legacy-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structural Patterns: Adapter ve Facade ile Sistem Modernizasyonu</title>
+      <link>https://abdulkadirgungor.com/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</guid>
+      <description>&lt;p&gt;Yazılım mimarilerinde teknik borç (technical debt) biriktiren eski sistemlerin (legacy systems), güncel teknolojilerle entegre edilmesi ve modüler hale getirilmesi, sürdürülebilirlik açısından kritik bir gerekliliktir. Sistem modernizasyonu sürecinde karşılaşılan en büyük engellerden biri, mevcut kod tabanının yeni arayüzlerle (interface) uyumsuzluğu ve sistem bileşenleri arasındaki aşırı sıkı bağdır (tight coupling).&lt;/p&gt;&#xA;&lt;p&gt;Gang of Four (GoF) tarafından tanımlanan &lt;strong&gt;Adapter&lt;/strong&gt; ve &lt;strong&gt;Facade&lt;/strong&gt; yapısal tasarım kalıpları, bu tür mimari tıkanıklıkları aşmak için kullanılan temel araçlardır. Bu makalede, her iki kalıbın derinlemesine teknik analizi, modernizasyon projelerindeki rolleri ve uygulama stratejileri ele alınacaktır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

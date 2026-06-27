@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lora on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/lora/</link>
+    <description>Recent content in Lora on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/lora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architectural Depth of Large Language Models: Alignment, Optimization, and Efficient Adaptation</title>
+      <link>https://abdulkadirgungor.com/en/ai/buyuk-dil-modellerinin-mimari-derinligi-hizalama-optimizasyon-ve-verimli-uyarlama/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/buyuk-dil-modellerinin-mimari-derinligi-hizalama-optimizasyon-ve-verimli-uyarlama/</guid>
+      <description>&lt;p&gt;As the artificial intelligence ecosystem evolves from raw transformer blocks to assistant models interacting with users, a massive engineering operation takes place in the background. A Large Language Model (LLM) is more than just billions of parameters; how these parameters are aligned, optimized under hardware constraints, and adapted for specific tasks are the fundamental factors determining a model&amp;rsquo;s success.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/buyuk-dil-modellerinin-mimari-derinligi-hizalama-optimizasyon-ve-verimli-uyarlama.png&#34;&#xA;    alt=&#34;Architectural Depth of Large Language Models: Alignment, Optimization, and Efficient Adaptation&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Architectural Depth of Large Language Models: Alignment, Optimization, and Efficient Adaptation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Csharp on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/csharp/</link>
+    <description>Recent content in Csharp on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Class vs Interface: Derinlemesine Teknik Analiz ve Mimari Karar Süreçleri</title>
+      <link>https://abdulkadirgungor.com/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde &amp;ldquo;Soyutlama&amp;rdquo; (Abstraction), karmaşıklığı yönetmek ve sistemin genişletilebilirliğini sağlamak için temel bir mekanizmadır. Nesne yönelimli programlama (OOP) dillerinde bu mekanizmanın iki ana taşıyıcısı &lt;strong&gt;Abstract Class&lt;/strong&gt; ve &lt;strong&gt;Interface&lt;/strong&gt; yapılarıdır. Birçok geliştirici bu iki yapıyı birbirinin alternatifi gibi düşünse de, teknik derinlikte aralarındaki farklar tasarım desenleri (design patterns) ve sistem performansı üzerinde kritik etkilere sahiptir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri.png&#34;&#xA;    alt=&#34;Abstract Class vs Interface: Derinlemesine Teknik Analiz ve Mimari Karar Süreçleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1:  Abstract Class vs Interface: Derinlemesine Teknik Analiz ve Mimari Karar Süreçleri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamBanka: .NET 8.0 ile Güvenli ve Katmanlı Bankacılık API Mimarisi</title>
+      <link>https://abdulkadirgungor.com/software/github-proje-2-bilgeadambanka/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/github-proje-2-bilgeadambanka/</guid>
+      <description>&lt;p&gt;Modern finansal sistemler, verilerin güvenliği, işlemlerin doğrulanması ve sistemin sürdürülebilirliği için sağlam mimari temellere ihtiyaç duyar. &lt;strong&gt;BilgeAdamBanka&lt;/strong&gt;, .NET 8.0 ekosisteminin sunduğu güncel imkanları kullanarak, kredi kartı işlemlerini (CRUD operasyonları) yönetmek için kurgulanmış, hibrit N-Katmanlı (N-Tier) bir API çözümüdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-2-bilgeadambanka.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamBanka&amp;#34;; kredi kartı işlemlerini (oluşturma, görüntüleme, güncelleme, silme) yönetmek için katmanlı mimari yapısına sahip bir Banka API sistemini içermektedir.&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: &amp;ldquo;BilgeAdamBanka&amp;rdquo;; kredi kartı işlemlerini (oluşturma, görüntüleme, güncelleme, silme) yönetmek için katmanlı mimari yapısına sahip bir Banka API sistemini içermektedir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BilgeAdamEvimiKur: .NET 8.0 ve C# ile Hibrit N-Katmanlı E-Ticaret Mimarisi</title>
+      <link>https://abdulkadirgungor.com/software/github-proje-1-bilgeadamevimikur/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/github-proje-1-bilgeadamevimikur/</guid>
+      <description>&lt;p&gt;Modern e-ticaret sistemleri, kullanıcı deneyimini iyileştirmek, yüksek trafik altında performanslı çalışmak ve sürdürülebilir bir kod yapısı sunmak için güçlü mimari temellere ihtiyaç duyar. &lt;strong&gt;BilgeAdamEvimiKur&lt;/strong&gt;, .NET 8.0 ekosisteminin en güncel özelliklerini kullanarak, hibrit N-Katmanlı (N-Tier) mimari yaklaşımıyla kurgulanmış kapsamlı bir e-ticaret çözümüdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/github-proje-1-bilgeadamevimikur.png&#34;&#xA;    alt=&#34;&amp;#34;BilgeAdamEvimiKur&amp;#34;; .NET 8.0 ve C# ile Hibrit N-Katmanlı (N-Tier) E-Ticaret Projesi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: &amp;ldquo;BilgeAdamEvimiKur&amp;rdquo;; .NET 8.0 ve C# ile Hibrit N-Katmanlı (N-Tier) E-Ticaret Projesi&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-mimari-yaklaşım-hibrit-n-katmanlı-yapı&#34;&gt;1. Mimari Yaklaşım: Hibrit N-Katmanlı Yapı&lt;/h2&gt;&#xA;&lt;p&gt;Proje, iş mantığını veri erişiminden ve kullanıcı arayüzünden tamamen ayıran klasik N-katmanlı mimariyi benimserken, modern yazılım prensiplerini de entegre eder. Bu yapı sayesinde, sistemin modülerliği artırılmış ve teknik borç minimize edilmiştir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</guid>
+      <description>&lt;p&gt;C# ve .NET ekosisteminde veri erişim katmanı (DAL) tasarımı, genellikle iki kutup arasında gerçekleşir: Tam kapsamlı bir Object-Relational Mapper (ORM) olan &lt;strong&gt;Entity Framework Core (EF Core)&lt;/strong&gt; ve hafif siklet bir &amp;ldquo;Micro-ORM&amp;rdquo; olan &lt;strong&gt;Dapper&lt;/strong&gt;. Kurumsal seviyedeki yüksek trafikli uygulamalarda bu iki teknolojiden birini seçmek yerine, her ikisinin güçlü yönlerinden yararlanan &lt;strong&gt;hibrit mimariler&lt;/strong&gt; kurmak, performans ve sürdürülebilirlik açısından en optimize çözümdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar.png&#34;&#xA;    alt=&#34;Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;Modern kurumsal mimarilerde .NET platformu, sunduğu yüksek performans, kararlılık ve geniş kütüphane desteği nedeniyle kritik bir konumdadır. Bir .NET geliştirici mülakatı, basit sözdizimi (syntax) bilgisinin çok ötesine geçerek adayların bellek yönetiminden asenkron programlamanın derinliklerine, gelişmiş ORM optimizasyonlarından mikromimarilerdeki tasarım desenlerine kadar geniş bir yelpazedeki yetkinliğini ölçmeyi hedefler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

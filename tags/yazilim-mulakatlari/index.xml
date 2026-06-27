@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yazilim-Mulakatlari on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/yazilim-mulakatlari/</link>
+    <description>Recent content in Yazilim-Mulakatlari on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/yazilim-mulakatlari/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar/</guid>
+      <description>&lt;p&gt;Modern kurumsal mimarilerde .NET platformu, sunduğu yüksek performans, kararlılık ve geniş kütüphane desteği nedeniyle kritik bir konumdadır. Bir .NET geliştirici mülakatı, basit sözdizimi (syntax) bilgisinin çok ötesine geçerek adayların bellek yönetiminden asenkron programlamanın derinliklerine, gelişmiş ORM optimizasyonlarından mikromimarilerdeki tasarım desenlerine kadar geniş bir yelpazedeki yetkinliğini ölçmeyi hedefler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/kidemli-net-gelistirici-mulakatlarinda-fark-yaratan-derin-teknik-konular-ve-stratejik-yaklasimlar.png&#34;&#xA;    alt=&#34;Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Kıdemli .NET Geliştirici Mülakatlarında Fark Yaratan Derin Teknik Konular ve Stratejik Yaklaşımlar&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

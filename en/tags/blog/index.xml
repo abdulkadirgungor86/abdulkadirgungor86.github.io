@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/blog/</link>
+    <description>Recent content in Blog on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide</title>
+      <link>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</guid>
+      <description>&lt;p&gt;In the Internet of Things (IoT) ecosystem, hardware selection plays a directly decisive role in a project&amp;rsquo;s sustainability, power consumption, and processing capacity. Developed by Espressif Systems, the ESP8266 and its successor, the ESP32, have revolutionized the embedded systems world by offering low-cost Wi-Fi integration. However, these two platforms represent architectural spectrums that are quite distinct from each other.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi.png&#34;&#xA;    alt=&#34;Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis</title>
+      <link>https://abdulkadirgungor.com/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s energy storage systems form the cornerstone of modern life, ranging from portable electronic devices to electric vehicles and grid-scale energy storage solutions. Unlike primary (single-use) batteries, rechargeable (secondary) batteries have the ability to store and release energy thanks to reversible electrochemical reactions. This process occurs through the controlled movement of ions between the anode and cathode of the battery.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi.png&#34;&#xA;    alt=&#34;Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post-Exploitation Strategies and In-Depth Analysis in Internal Network Penetration Tests</title>
+      <link>https://abdulkadirgungor.com/en/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/ic-ag-sizma-testlerinde-post-exploitation-stratejileri-ve-derinlemesine-analiz/</guid>
+      <description>&lt;p&gt;Internal network penetration tests derive their true value from the &amp;ldquo;post-exploitation&amp;rdquo; process that begins the moment defensive perimeters are breached. Penetrating the outer shell of a network is merely opening the door; the real challenge lies in deepening one&amp;rsquo;s presence within the network, escalating privileges, and reaching final objectives (Domain Admin rights, critical databases, backup servers). This phase is characterized by the attacker concealing their tracks, establishing persistence, and performing lateral movement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OWASP Top 10 Security Strategies in .NET 8 Projects</title>
+      <link>https://abdulkadirgungor.com/en/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/net-8-projelerinde-owasp-top-10-guvenlik-stratejileri/</guid>
+      <description>&lt;p&gt;In modern software development processes, security is no longer a layer added at the end of a project, but a fundamental architectural component that must be internalized from the very beginning of the Software Development Life Cycle (SDLC). .NET 8 offers powerful tools for developing secure applications with its high performance and modern infrastructure. However, it is the developer&amp;rsquo;s responsibility to configure the platform&amp;rsquo;s capabilities correctly. In this article, we examine how to eliminate OWASP Top 10 threat vectors in the .NET 8 ecosystem with technical details and code examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Network Strategies with Zero Trust Architecture</title>
+      <link>https://abdulkadirgungor.com/en/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri/</guid>
+      <description>&lt;p&gt;Traditional network security approaches relied on the &amp;ldquo;castle-and-moat&amp;rdquo; mentality for many years. In this approach, everything outside the network was considered untrusted, while everything inside was considered trustworthy. However, with the proliferation of cloud computing, remote work, and mobile devices, the network no longer has a clear boundary. Zero Trust architecture completely replaces this old paradigm with the principle of &amp;ldquo;never trust, always verify.&amp;rdquo;&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri.png&#34;&#xA;    alt=&#34;Modern Network Strategies with Zero Trust Architecture&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Modern Network Strategies with Zero Trust Architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Veri Analizi Okulu: Data Science and Artificial Intelligence Training</title>
+      <link>https://abdulkadirgungor.com/en/blog/veri_analizi_okulu/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/veri_analizi_okulu/</guid>
+      <description>&lt;p&gt;Data has become the most valuable strategic resource of our time. In this new era where information is equated with power, moving beyond just reading data to understanding, interpreting, and transforming it into innovative solutions has become the most critical competence in the professional world. Established under the auspices of Yükseköğretim Kurumu (YÖK) to cultivate the qualified human resources that will build Turkey&amp;rsquo;s digital future, the Veri Analizi Okulu (VAO) offers a comprehensive learning opportunity precisely for this need.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nur-o-link: Remote-Controlled Robotic Arm and Vehicle System</title>
+      <link>https://abdulkadirgungor.com/en/blog/github-proje-4-nur-o-link/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/github-proje-4-nur-o-link/</guid>
+      <description>&lt;p&gt;In the world of robotics, control and mobility are the two most critical factors that determine the functionality of systems. The &lt;strong&gt;Nur-o-link&lt;/strong&gt; project offers a flexible and versatile robotic platform by combining both a precise robotic arm mechanism and a remote-controllable vehicle system.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-4-nur-o-link.png&#34;&#xA;    alt=&#34;Nur-o-link: Remote-Controlled Robotic Arm and Vehicle System&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Nur-o-link: Remote-Controlled Robotic Arm and Vehicle System.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach-hybrid-robotic-design&#34;&gt;1. Architectural Approach: Hybrid Robotic Design&lt;/h2&gt;&#xA;&lt;p&gt;Nur-o-link is not just a tool, but a manipulator system capable of performing tasks in the physical world. The project successfully integrates the vehicle&amp;rsquo;s mobility with the gripping and carrying capabilities of a robotic arm on the same embedded system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gungor-robot-car: ESP32 Camera-Controlled Robot Car</title>
+      <link>https://abdulkadirgungor.com/en/blog/github-proje-3-gungor-robot-car/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/github-proje-3-gungor-robot-car/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Gungor-robot-car&lt;/strong&gt; is a robotic vehicle project designed using the ESP32-WROVER module and a camera module, providing live video monitoring and remote movement control via a browser.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-3-gungor-robot-car.png&#34;&#xA;    alt=&#34;Gungor Camera Robot Car&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Gungor Camera Robot Car.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach&#34;&gt;1. Architectural Approach&lt;/h2&gt;&#xA;&lt;p&gt;The project acts as an HTTP server using the ESP32&amp;rsquo;s internal WiFi capabilities. Users can manage the vehicle and view the live video stream (MJPEG) by connecting to a browser-based interface over the local network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Fundamentals and Mechanical Analysis of Flexible Structures in Soft Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/yumusak-robotik-sistemlerde-muhendislik-temelleri-ve-esnek-yapilarin-mekanik-analizi/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/yumusak-robotik-sistemlerde-muhendislik-temelleri-ve-esnek-yapilarin-mekanik-analizi/</guid>
+      <description>&lt;p&gt;Traditional robotic systems have been built upon rigid linkage elements and metallic bodies that have offered high precision and speed for decades. However, when examining the mechanical advantages of living systems in nature, it is observed that rigid tissues combine with flexible and deformable structures to adapt to complex environments. &lt;strong&gt;Soft Robotics&lt;/strong&gt; represents the transition from rigid bodies to elastomeric and smart material-based structures by integrating this biomimetic approach into the engineering discipline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collective Intelligence and Dynamic Task Allocation in Swarm Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu/</guid>
+      <description>&lt;p&gt;Swarm robotics is a sub-branch of robotics that focuses on decentralized control mechanisms, based on the collective behaviors exhibited by social organisms in nature (ants, bees, or birds). Instead of a single sophisticated robot, the goal is to perform complex tasks through the interaction of a large number of agents with limited capabilities.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu.png&#34;&#xA;    alt=&#34;Collective Intelligence and Dynamic Task Allocation in Swarm Robotic Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Collective Intelligence and Dynamic Task Allocation in Swarm Robotic Systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Evolution of Robotic Systems and Modern Migration Strategies to the ROS 2 Ecosystem</title>
+      <link>https://abdulkadirgungor.com/en/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/robotik-sistemlerin-evrimi-ve-ros-2-ekosistemine-modern-gecis-stratejileri/</guid>
+      <description>&lt;p&gt;The world of robotics has undergone a massive evolution over the last decade, shifting from monolithic structures to distributed and modular architectures. Robot Operating System (ROS), which sits at the center of this evolution—particularly with versions like &amp;ldquo;Lush&amp;rdquo; and &amp;ldquo;Noetic&amp;rdquo;—has set academic and industrial standards. However, modern needs such as real-time data processing, industrial safety standards, and multi-robot coordination have begun to push the limits of the original ROS architecture. At this point, ROS 2, with its new architecture built upon the Data Distribution Service (DDS) layer, is moving robotic systems out of the laboratory environment and into critical industrial operational fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agriculture 4.0 and Next-Generation Approaches in Autonomous Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar/</guid>
+      <description>&lt;p&gt;Agriculture 4.0, which replaces traditional agricultural methods, represents an ecosystem where digitalization and automation are integrated at the highest level. Autonomous agricultural vehicles, which are at the center of this transformation, not only reduce the need for human labor but also move operational efficiency and precision to mathematical certainty.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/tarim-4-0-ve-otonom-robotik-sistemlerde-yeni-nesil-yaklasimlar.png&#34;&#xA;    alt=&#34;Agriculture 4.0 and Next-Generation Approaches in Autonomous Robotic Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Agriculture 4.0 and Next-Generation Approaches in Autonomous Robotic Systems.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;dynamic-path-planning-and-navigation-in-autonomous-vehicles&#34;&gt;Dynamic Path Planning and Navigation in Autonomous Vehicles&lt;/h2&gt;&#xA;&lt;p&gt;Agricultural lands are among the most challenging operating environments for autonomous systems due to their unstructured nature. Obstacle detection, slope analysis, and variable terrain structures necessitate going beyond static path planning algorithms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</guid>
+      <description>&lt;p&gt;The core pillars of modern robotic systems—object recognition and grasping processes—are shifting away from traditional computer vision methods and are being built entirely on Deep Learning architectures. For a robot to interact with the physical world, it must not only know the coordinates of an object but also analyze the object&amp;rsquo;s geometric structure, material properties, and approach angles.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri.png&#34;&#xA;    alt=&#34;Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Topological Approaches in Data Science and Graph Theory-Based Network Analysis with Gephi</title>
+      <link>https://abdulkadirgungor.com/en/blog/veri-biliminde-topolojik-yaklasimlar-ve-gephi-ile-graf-teorisi-temelli-ag-analizi/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/veri-biliminde-topolojik-yaklasimlar-ve-gephi-ile-graf-teorisi-temelli-ag-analizi/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s data ecosystem, identifying relational patterns between the units that make up the data is of strategic importance rather than just the size of the raw data. Traditional relational databases and row-column-based analysis methods are insufficient to express the phenomenon of &amp;ldquo;connectivity.&amp;rdquo; This is where &lt;strong&gt;Graph Theory&lt;/strong&gt; comes into play. This discipline, which models complex systems through nodes and edges, transforms into a massive analytical power that uncovers hidden topologies in big data sets when combined with open-source tools like Gephi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advanced Spatial Analysis and Data Science Integration in Modern Geographic Information Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu/</guid>
+      <description>&lt;p&gt;Incorporating the location parameter into data-driven decision-making processes is one of the most critical stages in transforming raw data into strategic insights. Today, the ArcGIS ecosystem has evolved beyond offering only static mapping tools; it has become a massive analytical platform blended with Python-based libraries, deep learning models, and complex spatial statistics.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/modern-cografi-bilgi-sistemlerinde-ileri-mekansal-analiz-ve-veri-bilimi-entegrasyonu.png&#34;&#xA;    alt=&#34;Advanced Spatial Analysis and Data Science Integration in Modern Geographic Information Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Advanced Spatial Analysis and Data Science Integration in Modern Geographic Information Systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Dive into the Fundamental Building Blocks of Electronic Design: Engineering Foundations of Passive Component Selection</title>
+      <link>https://abdulkadirgungor.com/en/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri/</guid>
+      <description>&lt;p&gt;In electronic circuit design, &amp;ldquo;active&amp;rdquo; components like microcontrollers, FPGAs, or high-speed processors usually steal the spotlight. However, the stability, signal integrity, and energy efficiency of a system depend heavily on the proper selection of &amp;ldquo;passive&amp;rdquo; components: capacitors and inductors.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri.png&#34;&#xA;    alt=&#34;Deep Dive into the Fundamental Building Blocks of Electronic Design: Engineering Foundations of Passive Component Selection&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Dive into the Fundamental Building Blocks of Electronic Design: Engineering Foundations of Passive Component Selection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits</title>
+      <link>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</guid>
+      <description>&lt;p&gt;The Superposition Theorem, one of the cornerstones of electrical and electronics engineering, is a mathematical approach that reduces complex circuit networks into solvable parts. Especially in linear circuits containing multiple independent voltage or current sources, isolating the individual effect of each source on the system is of critical importance in design and analysis processes.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi.png&#34;&#xA;    alt=&#34;Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Architecture of Complex Circuits and Nodal Analysis Method</title>
+      <link>https://abdulkadirgungor.com/en/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</guid>
+      <description>&lt;p&gt;The analysis of electrical circuits is an interdisciplinary process where fundamental physical laws are blended with linear algebra. In modern engineering applications, especially in integrated circuit design and power systems simulation, it is necessary to adopt a systematic approach rather than examining the circuit on a component-by-component basis. At this point, &lt;strong&gt;Nodal Analysis&lt;/strong&gt;, built upon Kirchhoff’s Current Law (KCL), allows us to reach the solution set by reducing unknown voltages in the circuit to a systematic matrix form.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design</title>
+      <link>https://abdulkadirgungor.com/en/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</guid>
+      <description>&lt;p&gt;When it comes to electronic circuit design, the first formula that comes to mind is undoubtedly Ohm&amp;rsquo;s Law, expressed by the equation $V = I \times R$. However, in a professional design process, an ideal resistor component is more than just a coefficient. In real-world scenarios; parameters such as temperature coefficients, parasitic capacitance, inductance, voltage coefficients, and power dissipation directly affect the stability of the circuit.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri.png&#34;&#xA;    alt=&#34;Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Joule Heating and Advanced Thermal Management Strategies in Modern Electronics</title>
+      <link>https://abdulkadirgungor.com/en/blog/joule-isinmasi-ve-modern-elektronikte-gelismis-termal-yonetim-stratejileri/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/joule-isinmasi-ve-modern-elektronikte-gelismis-termal-yonetim-stratejileri/</guid>
+      <description>&lt;p&gt;With the miniaturization of electronic systems and the increase in power density, the conversion of energy into heat has become one of the greatest challenges in the engineering world. The resistance encountered when current flows through a conductor causes a portion of the energy to be converted into thermal energy. This phenomenon is called Joule Heating and, if not managed correctly during the system design phase, leads to critical hardware failures, shortened lifespan, and performance losses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Professional Debugging Strategies and In-Depth Analysis Techniques in Embedded Systems Development</title>
+      <link>https://abdulkadirgungor.com/en/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/</guid>
+      <description>&lt;p&gt;Debugging in the world of embedded systems requires overcoming obstacles such as hardware constraints, real-time requirements, and limited visibility, unlike standard desktop software. The question &amp;ldquo;The code is running, but why is the system locking up?&amp;rdquo; is the nightmare of every embedded software engineer. In this article, advanced techniques, code examples, and hardware architectures used to quickly detect errors and stabilize the system in modern embedded projects are discussed.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri.png&#34;&#xA;    alt=&#34;Professional Debugging Strategies and In-Depth Analysis Techniques in Embedded Systems Development&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Professional Debugging Strategies and In-Depth Analysis Techniques in Embedded Systems Development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reduction Methods and Numerical Analysis Approaches in Linear Circuit Analysis</title>
+      <link>https://abdulkadirgungor.com/en/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</guid>
+      <description>&lt;p&gt;Electrical circuits, especially in modern microelectronics and power systems, form massive networks by combining thousands of passive and active components. Attempting to solve the voltage and current values at every point in these networks using classical Kirchhoff&amp;rsquo;s laws means dealing with massive systems of linear equations. At this point, &lt;strong&gt;Thevenin and Norton Theorems&lt;/strong&gt;, which reduce the rest of the circuit to a single voltage or current source, become a cornerstone of the engineering discipline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Communication Layers and Protocol Analysis in Modern Smart Home Ecosystems</title>
+      <link>https://abdulkadirgungor.com/en/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/</guid>
+      <description>&lt;p&gt;Smart home technologies are not just about connecting devices to each other; they involve the communication of these devices over a network architecture optimized for low latency, high energy efficiency, and scalability. Today, there are three fundamental protocols that shape this ecosystem: Wi-Fi, Bluetooth (specifically BLE), and Zigbee. Each protocol addresses specific use cases by offering advantages at different layers of the OSI model.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi.png&#34;&#xA;    alt=&#34;Communication Layers and Protocol Analysis in Modern Smart Home Ecosystems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Communication Layers and Protocol Analysis in Modern Smart Home Ecosystems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Power Management and Efficiency Strategies in Arduino Projects</title>
+      <link>https://abdulkadirgungor.com/en/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri/</guid>
+      <description>&lt;p&gt;The most critical bottleneck for portable electronic projects is energy consumption. Running a microcontroller with default settings is generally not sustainable for a battery-powered system. Although the Arduino platform provides prototyping ease, it is not energy-efficiency focused out of the box. A true engineering approach covers a wide range, from stripping unnecessary components on the hardware to the effective use of processor sleep modes.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri.png&#34;&#xA;    alt=&#34;Power Management and Efficiency Strategies in Arduino Projects&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Power Management and Efficiency Strategies in Arduino Projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raspberry Pi and Hardware Integration in Industrial Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/endustriyel-sistemlerde-raspberry-pi-ve-donanim-entegrasyonu/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/endustriyel-sistemlerde-raspberry-pi-ve-donanim-entegrasyonu/</guid>
+      <description>&lt;p&gt;The traditional world of industrial automation has long been dominated by the rigid and closed ecosystem of PLC (Programmable Logic Controller) systems. However, with the Industry 4.0 wave, the presence of open-source hardware and high-level programming languages on the field has evolved from a hobby project into a professional necessity. With its Broadcom-based SoC architecture and rich GPIO (General Purpose Input/Output) capabilities, Raspberry Pi offers solutions across a wide scale, from the prototyping phase to edge computing controllers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architectural Decision Processes in IoT Projects: A Technical Analysis of ESP32 and ESP8266 Microcontrollers</title>
+      <link>https://abdulkadirgungor.com/en/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</guid>
+      <description>&lt;p&gt;In the Internet of Things (IoT) ecosystem, hardware selection plays a decisive role in a project&amp;rsquo;s sustainability, power consumption, and processing capacity. Developed by Espressif Systems, the ESP8266 and its successor, the ESP32, have revolutionized the world of embedded systems by offering low-cost Wi-Fi integration. However, these two platforms represent significantly different spectrums in terms of architecture.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi.png&#34;&#xA;    alt=&#34;Architectural Decision Processes in IoT Projects: Technical Analysis of ESP32 and ESP8266 Microcontrollers&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Architectural Decision Processes in IoT Projects: Technical Analysis of ESP32 and ESP8266 Microcontrollers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

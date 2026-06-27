@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circuit-Analysis on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/circuit-analysis/</link>
+    <description>Recent content in Circuit-Analysis on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/circuit-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits</title>
+      <link>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</guid>
+      <description>&lt;p&gt;The Superposition Theorem, one of the cornerstones of electrical and electronics engineering, is a mathematical approach that reduces complex circuit networks into solvable parts. Especially in linear circuits containing multiple independent voltage or current sources, isolating the individual effect of each source on the system is of critical importance in design and analysis processes.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi.png&#34;&#xA;    alt=&#34;Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Architecture of Complex Circuits and Nodal Analysis Method</title>
+      <link>https://abdulkadirgungor.com/en/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</guid>
+      <description>&lt;p&gt;The analysis of electrical circuits is an interdisciplinary process where fundamental physical laws are blended with linear algebra. In modern engineering applications, especially in integrated circuit design and power systems simulation, it is necessary to adopt a systematic approach rather than examining the circuit on a component-by-component basis. At this point, &lt;strong&gt;Nodal Analysis&lt;/strong&gt;, built upon Kirchhoff’s Current Law (KCL), allows us to reach the solution set by reducing unknown voltages in the circuit to a systematic matrix form.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design</title>
+      <link>https://abdulkadirgungor.com/en/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</guid>
+      <description>&lt;p&gt;When it comes to electronic circuit design, the first formula that comes to mind is undoubtedly Ohm&amp;rsquo;s Law, expressed by the equation $V = I \times R$. However, in a professional design process, an ideal resistor component is more than just a coefficient. In real-world scenarios; parameters such as temperature coefficients, parasitic capacitance, inductance, voltage coefficients, and power dissipation directly affect the stability of the circuit.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri.png&#34;&#xA;    alt=&#34;Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reduction Methods and Numerical Analysis Approaches in Linear Circuit Analysis</title>
+      <link>https://abdulkadirgungor.com/en/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</guid>
+      <description>&lt;p&gt;Electrical circuits, especially in modern microelectronics and power systems, form massive networks by combining thousands of passive and active components. Attempting to solve the voltage and current values at every point in these networks using classical Kirchhoff&amp;rsquo;s laws means dealing with massive systems of linear equations. At this point, &lt;strong&gt;Thevenin and Norton Theorems&lt;/strong&gt;, which reduce the rest of the circuit to a single voltage or current source, become a cornerstone of the engineering discipline.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semaphore on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/semaphore/</link>
+    <description>Recent content in Semaphore on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/semaphore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments</title>
+      <link>https://abdulkadirgungor.com/en/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</guid>
+      <description>&lt;p&gt;With the increasing performance requirements in the software world, fully utilizing the capacity of multi-core processors has become a necessity. Parallel computing and concurrency are key to leveraging this capacity. However, managing threads that attempt to access shared resources simultaneously brings complex scenarios and potential errors.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi.png&#34;&#xA;    alt=&#34;Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

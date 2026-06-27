@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine-Learning on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/machine-learning/</link>
+    <description>Recent content in Machine-Learning on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random Forest Algoritmasının Teknik Mimarisi ve Uygulama Prensipleri</title>
+      <link>https://abdulkadirgungor.com/ai/random-forest-algoritmasinin-teknik-mimarisi-ve-uygulama-prensipleri/</link>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/random-forest-algoritmasinin-teknik-mimarisi-ve-uygulama-prensipleri/</guid>
+      <description>&lt;p&gt;Makine öğrenmesi literatüründe &amp;ldquo;Ensemble Learning&amp;rdquo; çatısı altında yer alan Random Forest, hem &amp;ldquo;classification&amp;rdquo; hem de &amp;ldquo;regression&amp;rdquo; görevlerinde yüksek &amp;ldquo;generalization&amp;rdquo; kapasitesi gösteren, &amp;ldquo;supervised learning&amp;rdquo; algoritmasıdır. Algoritma, temelde bir &amp;ldquo;Decision Tree&amp;rdquo; ormanı inşa eder. Ancak bu orman, sıradan bir ağaç kümesi değil, her bir ağacın verinin farklı alt kümeleri ve farklı &amp;ldquo;feature&amp;rdquo; grupları üzerinde eğitildiği, istatistiksel olarak düşük korelasyonlu bir yapıdır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/random-forest-algoritmasinin-teknik-mimarisi-ve-uygulama-prensipleri.png&#34;&#xA;    alt=&#34;Random Forest Algoritmasının Teknik Mimarisi ve Uygulama Prensipleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Random Forest Algoritmasının Teknik Mimarisi ve Uygulama Prensipleri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Naive Bayes Algoritmasının Teorik Temelleri ve Uygulama Stratejileri</title>
+      <link>https://abdulkadirgungor.com/ai/naive-bayes-algoritmasinin-teorik-temelleri-ve-uygulama-stratejileri/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/naive-bayes-algoritmasinin-teorik-temelleri-ve-uygulama-stratejileri/</guid>
+      <description>&lt;p&gt;Makine öğrenmesi dünyasında olasılıksal yaklaşımlar, özellikle sınıflandırma problemlerinde sağlam ve hesaplama açısından verimli bir temel sunar. Naive Bayes, Bayes Teoremi&amp;rsquo;ni temel alan, değişkenler arasındaki bağımsızlık varsayımına dayanan &amp;ldquo;üretici&amp;rdquo; (generative) bir modelleme yaklaşımıdır. Karmaşık veri setlerinde dahi oldukça yüksek performans göstermesi, onu doğal dil işleme (NLP) ve spam tespiti gibi alanlarda vazgeçilmez bir araç haline getirir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/naive-bayes-algoritmasinin-teorik-temelleri-ve-uygulama-stratejileri.png&#34;&#xA;    alt=&#34;Naive Bayes Algoritmasının Teorik Temelleri ve Uygulama Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Naive Bayes Algoritmasının Teorik Temelleri ve Uygulama Stratejileri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
