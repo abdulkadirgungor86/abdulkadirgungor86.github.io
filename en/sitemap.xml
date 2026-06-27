@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abdulkadirgungor.com/en/software/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -39,6 +39,199 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://abdulkadirgungor.com/en/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/abstract-class/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/abstract-class/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/abstract-class/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/coding/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/csharp/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/csharp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/csharp/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/development/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/interface/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/interface/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/interface/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/java/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/java/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/java/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/object-oriented-programming/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/oop/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/oop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/oop/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/software/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/software/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/software-development/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/solid/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/solid/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/solid/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/data-science/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/numpy/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/numpy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/numpy/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/pandas/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/pandas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/pandas/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/programming-language/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/python/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/python/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/python-development/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/python-tutorials/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/arduino/</loc>
@@ -182,19 +375,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/mqtt-protocol/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/wi-fi/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
@@ -343,19 +523,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://abdulkadirgungor.com/en/tags/react/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/software/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/software/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/software-architecture/</loc>
@@ -653,19 +820,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://abdulkadirgungor.com/en/tags/machine-learning/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/python/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/python/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/random-forest/</loc>
@@ -1814,19 +1968,6 @@
                 href="https://abdulkadirgungor.com/en/software/github-proje-2-bilgeadambanka/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/csharp/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/csharp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/csharp/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/n-tier/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -2111,9 +2252,6 @@
     <loc>https://abdulkadirgungor.com/en/tags/complex-systems/</loc>
     <lastmod>2026-05-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/data-science/</loc>
-    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/data-visualization/</loc>
     <lastmod>2026-05-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -2368,19 +2506,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/nodal-analysis/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/numpy/</loc>
-    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/numpy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/numpy/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/supernode/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
@@ -3526,22 +3651,6 @@
                 href="https://abdulkadirgungor.com/en/tags/dependency-injection/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/object-oriented-programming/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/oop/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/oop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/oop/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/en/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</loc>
     <lastmod>2026-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -3998,9 +4107,6 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/performance-optimization/</loc>
-    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/software-development/</loc>
     <lastmod>2026-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/bytecode/</loc>
@@ -4856,9 +4962,6 @@
                 hreflang="en"
                 href="https://abdulkadirgungor.com/en/tags/cross-cutting-concerns/"
                 />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/development/</loc>
-    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/en/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri/</loc>
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>

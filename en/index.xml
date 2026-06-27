@@ -6,8 +6,22 @@
     <description>Recent content on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes</title>
+      <link>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</guid>
+      <description>&lt;p&gt;In software architecture, &amp;ldquo;Abstraction&amp;rdquo; is a fundamental mechanism for managing complexity and ensuring the extensibility of a system. In object-oriented programming (OOP) languages, the two main carriers of this mechanism are &lt;strong&gt;Abstract Class&lt;/strong&gt; and &lt;strong&gt;Interface&lt;/strong&gt; structures. Although many developers think of these two structures as alternatives to each other, in technical depth, the differences between them have critical effects on design patterns and system performance.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri.png&#34;&#xA;    alt=&#34;Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Development with Python — A Comprehensive Technical Guide from Beginner to Expert</title>
+      <link>https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</guid>
+      <description>&lt;p&gt;Python, published by Guido van Rossum in 1991, has become one of the most widely used programming languages in the world today. It consistently ranks in the top three on the TIOBE index; it is the de facto industry standard in diverse fields such as data science, web development, automation, and artificial intelligence. It is appropriate to start with the syntax that provides this popularity: Python has a readable structure close to English. However, this simplicity does not hide the power underlying the language. Integration with C extensions, support for asynchronous programming, an extensive standard library, and a massive ecosystem—all of these make Python a truly multi-layered language.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide</title>
       <link>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>

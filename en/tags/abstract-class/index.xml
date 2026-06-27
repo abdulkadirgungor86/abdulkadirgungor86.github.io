@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abstract-Class on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/abstract-class/</link>
+    <description>Recent content in Abstract-Class on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/abstract-class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes</title>
+      <link>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</guid>
+      <description>&lt;p&gt;In software architecture, &amp;ldquo;Abstraction&amp;rdquo; is a fundamental mechanism for managing complexity and ensuring the extensibility of a system. In object-oriented programming (OOP) languages, the two main carriers of this mechanism are &lt;strong&gt;Abstract Class&lt;/strong&gt; and &lt;strong&gt;Interface&lt;/strong&gt; structures. Although many developers think of these two structures as alternatives to each other, in technical depth, the differences between them have critical effects on design patterns and system performance.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri.png&#34;&#xA;    alt=&#34;Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Abstract Class vs Interface: In-depth Technical Analysis and Architectural Decision Processes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

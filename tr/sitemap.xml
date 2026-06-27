@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abdulkadirgungor.com/software/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +40,199 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/"
                 />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/abstract-class/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/abstract-class/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/abstract-class/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/csharp/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/csharp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/csharp/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/interface/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/interface/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/interface/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/java/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/java/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/java/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/kodlama/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/nesne-yonelimli-programlama/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/oop/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/oop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/oop/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/software/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/software/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/solid/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/solid/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/solid/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/yazilim/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/yazilim-gelistirme/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/numpy/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/numpy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/numpy/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/pandas/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/pandas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/pandas/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/python/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/python/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/python-dersleri/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/python-gelistirme/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/veri-bilimi/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/yazilim-dili/</loc>
+    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/arduino/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
@@ -182,19 +375,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/mqtt-protokolu/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/wi-fi/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
@@ -344,22 +524,6 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/react/"
                 />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/software/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/software/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/yazilim/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/yazilim-mimarisi/</loc>
     <lastmod>2026-06-23T00:00:00+00:00</lastmod>
@@ -640,19 +804,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/makine-ogrenmesi/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/python/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/python/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/ai/random-forest-algoritmasinin-teknik-mimarisi-ve-uygulama-prensipleri/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
@@ -1834,19 +1985,6 @@
                 href="https://abdulkadirgungor.com/software/github-proje-2-bilgeadambanka/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/csharp/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/csharp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/csharp/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/n-tier/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -2240,9 +2378,6 @@
                 href="https://abdulkadirgungor.com/blog/veri-biliminde-topolojik-yaklasimlar-ve-gephi-ile-graf-teorisi-temelli-ag-analizi/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/veri-bilimi/</loc>
-    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/veri-gorsellestirme/</loc>
     <lastmod>2026-05-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -2419,19 +2554,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/kirchhoff-kanunlari/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/numpy/</loc>
-    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/numpy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/numpy/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/super-dugum/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
@@ -3557,22 +3679,6 @@
                 href="https://abdulkadirgungor.com/tags/dependency-injection/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/nesne-yonelimli-programlama/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/oop/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/oop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/oop/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/software/open-closed-prensibi-mevcut-koda-dokunmadan-yeni-yetenek-kazandirmak-plugin-mimarisi./</loc>
     <lastmod>2026-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -4336,9 +4442,6 @@
     <lastmod>2026-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/veri-muhendisligi/</loc>
-    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/yazilim-gelistirme/</loc>
     <lastmod>2026-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/ai/yuksek-boyutlu-veri-uzaylarinda-gelismis-analitik-modelleme-ve-algoritmik-gorsellestirme-stratejileri/</loc>

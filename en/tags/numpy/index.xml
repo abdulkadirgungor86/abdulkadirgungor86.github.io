@@ -6,8 +6,15 @@
     <description>Recent content in Numpy on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/en/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Development with Python — A Comprehensive Technical Guide from Beginner to Expert</title>
+      <link>https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/python-ile-yazilim-gelistirme-baslangictan-uzmanliga-kapsamli-teknik-rehber/</guid>
+      <description>&lt;p&gt;Python, published by Guido van Rossum in 1991, has become one of the most widely used programming languages in the world today. It consistently ranks in the top three on the TIOBE index; it is the de facto industry standard in diverse fields such as data science, web development, automation, and artificial intelligence. It is appropriate to start with the syntax that provides this popularity: Python has a readable structure close to English. However, this simplicity does not hide the power underlying the language. Integration with C extensions, support for asynchronous programming, an extensive standard library, and a massive ecosystem—all of these make Python a truly multi-layered language.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mathematical Architecture of Complex Circuits and Nodal Analysis Method</title>
       <link>https://abdulkadirgungor.com/en/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</link>
