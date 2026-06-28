@@ -753,24 +753,79 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-10 md:mb-0">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-heading leading-tight text-text-primary">
+          <h1 id="js-404-title" class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-heading leading-tight text-text-primary">
             404
           </h1>
-          <h2 class="text-2xl md:text-3xl mb-6 text-text-primary">
-            Sayfa Bulunamadı
-          </h2>
-          <p class="text-lg mb-8 max-w-lg text-text-secondary">
-            Aradığınız sayfa mevcut değil.
-          </p>
+          <h2 id="js-404-tagline" class="text-2xl md:text-3xl mb-6 text-text-primary"></h2>
+          <p id="js-404-subtitle" class="text-lg mb-8 max-w-lg text-text-secondary"></p>
+          
           <div class="flex space-x-4">
-            <a href="/" class="bg-bg dark:bg-bg text-primary dark:text-primary-light px-6 py-3 rounded-lg font-medium hover:bg-bg-secondary dark:hover:bg-bg-secondary transition duration-300">Ana sayfaya dön</a>
+            <a id="js-404-btn" href="/" class="bg-bg dark:bg-bg text-primary dark:text-primary-light px-6 py-3 rounded-lg font-medium hover:bg-bg-secondary dark:hover:bg-bg-secondary transition duration-300"></a>
           </div>
         </div>
         
+        
       </div>
     </div>
-  </section>
-  
+</section>
+
+<script>
+  (function () {
+    
+    const translations = {
+      tr: {
+        tagline: "Sayfa Bulunamadı",
+        subtitle: "Aradığınız sayfa mevcut değil.",
+        btnText: "Ana sayfaya dön",
+        btnUrl: "/",
+        location: "Kesinlikle burada değil"
+      },
+      en: {
+        
+        
+        tagline: "Sayfa Bulunamadı", 
+        subtitle: "Aradığınız sayfa mevcut değil.",
+        btnText: "Ana sayfaya dön",
+        btnUrl: "/en/",
+        location: "Kesinlikle burada değil"
+      }
+    };
+
+    
+    const path = window.location.pathname;
+    
+    const currentLang = path.startsWith('/en/') ? 'en' : 'tr';
+    const lang = translations[currentLang];
+
+    
+    document.getElementById('js-404-tagline').textContent = (currentLang === 'en') ? "Sayfa Bulunamadı" : "Sayfa Bulunamadı";
+    
+    
+    const trData = {
+      tagline: "Sayfa Bulunamadı",
+      subtitle: "Aradığınız sayfa mevcut değil.",
+      btnText: "Ana sayfaya dön",
+      location: "Kesinlikle burada değil"
+    };
+
+    
+    if (currentLang === 'en') {
+      document.getElementById('js-404-tagline').textContent = "Page Not Found";
+      document.getElementById('js-404-subtitle').textContent = "The page you are looking for might have been removed or is temporarily unavailable.";
+      document.getElementById('js-404-btn').textContent = "Go to Homepage";
+      document.getElementById('js-404-btn').setAttribute('href', '/en/');
+      const loc = document.getElementById('js-404-location');
+      if (loc) loc.innerHTML = `<i class="fas fa-map-marker-alt mr-2"></i> Definitely not here!`;
+    } else {
+      document.getElementById('js-404-tagline').textContent = trData.tagline;
+      document.getElementById('js-404-subtitle').textContent = trData.subtitle;
+      document.getElementById('js-404-btn').textContent = trData.btnText;
+      document.getElementById('js-404-btn').setAttribute('href', '/');
+      const loc = document.getElementById('js-404-location');
+      if (loc) loc.innerHTML = `<i class="fas fa-map-marker-alt mr-2"></i> ${trData.location}`;
+    }
+  })();
+</script>
 </main>
     <footer class="bg-bg-secondary dark:bg-bg-secondary text-text-primary py-12 border-t border-border-primary">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
