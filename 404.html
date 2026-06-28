@@ -127,8 +127,8 @@
 
     
     
-    <link rel="preload" href="/css/main.min.8d9f6914a90d4c12b3ec11e33b4b148602b200ef9067775e73d1dcd6fa1792ae.css" as="style">
-    <link rel="stylesheet" href="/css/main.min.8d9f6914a90d4c12b3ec11e33b4b148602b200ef9067775e73d1dcd6fa1792ae.css">
+    <link rel="preload" href="/css/main.min.bc7e6eeed89ab3f999ed2c77c775b351a9dba547d935d382bf1377cdc6cd81d7.css" as="style">
+    <link rel="stylesheet" href="/css/main.min.bc7e6eeed89ab3f999ed2c77c775b351a9dba547d935d382bf1377cdc6cd81d7.css">
     
     <style>
         .calendly-badge-widget .calendly-badge-content{background-color:#006bff!important;color:#fff!important}
@@ -750,140 +750,116 @@
     <div class="w-full h-16"></div>
     <main class="flex-grow">
 <style>
-  html, body {
-    height: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
    
-  main, .main-container, #content {
+  body {
     display: flex !important;
     flex-direction: column !important;
-    height: calc(100vh - 60px) !important;
-    position: relative !important;
-    z-index: 1 !important;
-  }
-  
-   
-  footer {
-    position: relative !important;
-    z-index: 20 !important;
-    margin-top: auto !important;
-    background: transparent !important;
-  }
-  header, nav {
-    position: relative !important;
-    z-index: 20 !important;
-    background: transparent !important;
+    min-height: 100vh !important;
+    min-height: 100dvh !important;
+    margin: 0;
   }
 
    
-  #js-404-title, #js-404-tagline, #js-404-subtitle {
+  :root {
+    --404-text-color: #000000; 
+    --404-btn-bg: #000000;    
+    --404-btn-text: #ffffff;   
+    --404-outline: #ffffff;    
+  }
+
+  .dark {
+    --404-text-color: #ffffff; 
+    --404-btn-bg: #ffffff;     
+    --404-btn-text: #000000;   
+    --404-outline: #000000;    
+  }
+
+   
+  .gradient-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -20;
+     
+    background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
+  }
+
+  .dark .gradient-bg {
+     
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  }
+
+   
+  .text-text-primary {
+    color: var(--404-text-color) !important;
+  }
+
+  h1, h2 {
+    text-shadow: -1px -1px 0 var(--404-outline), 1px -1px 0 var(--404-outline), -1px 1px 0 var(--404-outline), 1px 1px 0 var(--404-outline);
+    font-weight: 800 !important;
+  }
+
+  .fourofour-subtitle { 
     font-weight: 700 !important;
+    opacity: 1 !important;
   }
 
    
-   
-  #js-404-title, #js-404-tagline {
-    color: #000000 !important;
-    text-shadow: 
-      -0.8px -0.8px 0 #fff,  
-       0.8px -0.8px 0 #fff,
-      -0.8px  0.8px 0 #fff,
-       0.8px  0.8px 0 #fff,
-       0px  2px 6px rgba(0, 0, 0, 0.12);
-  }
-  
-  #js-404-subtitle {
-    color: #000000 !important;
-    text-shadow: none !important;
-  }
-
-   
-   
-  .dark #js-404-title, .dark #js-404-tagline {
-    color: #ffffff !important;
-    text-shadow: 
-      -0.8px -0.8px 0 #000,  
-       0.8px -0.8px 0 #000,
-      -0.8px  0.8px 0 #000,
-       0.8px  0.8px 0 #000,
-       0px  3px 8px rgba(0, 0, 0, 0.4);
-  }
-  
-  .dark #js-404-subtitle {
-    color: #ffffff !important;
-    text-shadow: none !important;
-  }
-
-   
-  .dark #js-404-btn {
-    color: #ffffff !important;
+  .fourofour-btn-custom {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: var(--404-btn-bg) !important;
+    color: var(--404-btn-text) !important;
+    border: 2px solid var(--404-text-color);
+    transition: opacity 0.3s;
   }
 </style>
 
-<div class="fixed inset-0 -z-10 gradient-bg dark:gradient-bg-dark w-full h-full pointer-events-none"></div>
+<div class="gradient-bg" aria-hidden="true"></div>
 
-<section id="404" class="flex-1 w-full min-h-0 flex items-start justify-center overflow-y-auto px-4 pt-4 md:pt-10 relative z-10">
-    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 w-full max-h-full flex items-start">
-      <div class="flex flex-col md:flex-row items-start justify-between w-full gap-2 sm:gap-4 md:gap-12">
-        
-        <div class="w-full md:w-1/2 flex flex-col justify-start text-center md:text-left z-10">
-          
-          <h1 id="js-404-title" class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-2 font-heading leading-none">
+<section id="404" class="pt-24 pb-16 md:pt-32 md:pb-24 text-text-primary">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-10 md:mb-0">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-heading leading-tight">
             404
           </h1>
-          
-          <h2 id="js-404-tagline" class="text-lg sm:text-xl md:text-3xl lg:text-5xl mb-3 font-semibold leading-tight"></h2>
-          
-          <p id="js-404-subtitle" class="text-[16px] sm:text-lg lg:text-2xl mb-5 max-w-lg mx-auto md:mx-0"></p>
-          
-          <div class="flex justify-center md:justify-start pb-4">
-            <a id="js-404-btn" href="/" class="bg-bg dark:bg-bg text-primary px-5 py-2 rounded-lg font-medium hover:bg-bg-secondary dark:hover:bg-bg-secondary transition duration-300 text-xs sm:text-sm md:text-base shadow-md inline-block"></a>
+          <h2 class="text-2xl md:text-3xl mb-6">
+            Sayfa Bulunamadı
+          </h2>
+          <p class="text-lg mb-8 max-w-lg fourofour-subtitle">
+            Aradığınız sayfa kaldırılmış veya geçici olarak kullanılamıyor olabilir.
+          </p>
+          <div class="flex space-x-4">
+            <a href="/" class="fourofour-btn-custom">
+              Ana sayfaya dön
+            </a>
           </div>
         </div>
         
-        
-
       </div>
     </div>
 </section>
-
+  
 <script>
-  (function () {
+  (function() {
     const path = window.location.pathname;
-    const currentLang = path.startsWith('/en/') ? 'en' : 'tr';
-
-    const targetPath = currentLang === 'en' ? '/en/404.html' : '/404.html';
-    if (path !== targetPath) {
-      window.history.replaceState({}, document.title, targetPath);
+    if (path === '/404.html' || path === '/en/404.html') {
+      return;
     }
-
-    const trData = {
-      tagline: "Sayfa Bulunamadı",
-      subtitle: "Aradığınız sayfa kaldırılmış veya geçici olarak kullanılamıyor olabilir.",
-      btnText: "Ana sayfaya dön",
-      location: "Kesinlikle burada değil"
-    };
-
-    if (currentLang === 'en') {
-      document.getElementById('js-404-tagline').textContent = "Page Not Found";
-      document.getElementById('js-404-subtitle').textContent = "The page you are looking for might have been removed or is temporarily unavailable.";
-      document.getElementById('js-404-btn').textContent = "Go to Homepage";
-      document.getElementById('js-404-btn').setAttribute('href', '/en/');
-      const loc = document.getElementById('js-404-location');
-      if (loc) loc.innerHTML = `<i class="fas fa-map-marker-alt mr-2"></i> Definitely not here!`;
+    if (path.startsWith('/en/')) {
+      window.location.replace('/en/404.html');
     } else {
-      document.getElementById('js-404-tagline').textContent = trData.tagline;
-      document.getElementById('js-404-subtitle').textContent = trData.subtitle;
-      document.getElementById('js-404-btn').textContent = trData.btnText;
-      document.getElementById('js-404-btn').setAttribute('href', '/');
-      const loc = document.getElementById('js-404-location');
-      if (loc) loc.innerHTML = `<i class="fas fa-map-marker-alt mr-2"></i> ${trData.location}`;
+      window.location.replace('/404.html');
     }
   })();
 </script>
+
 </main>
     <footer class="bg-bg-secondary dark:bg-bg-secondary text-text-primary py-12 border-t border-border-primary">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
