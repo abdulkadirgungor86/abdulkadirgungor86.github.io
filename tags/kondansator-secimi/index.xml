@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kondansator-Secimi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/kondansator-secimi/</link>
+    <description>Recent content in Kondansator-Secimi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/kondansator-secimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elektronik Tasarımın Temel Yapı Taşlarında Derinlik: Pasif Bileşen Seçiminin Mühendislik Temelleri</title>
+      <link>https://abdulkadirgungor.com/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri/</guid>
+      <description>&lt;p&gt;Elektronik devre tasarımında genellikle mikrodenetleyiciler, FPGA&amp;rsquo;lar veya yüksek hızlı işlemciler gibi &amp;ldquo;aktif&amp;rdquo; bileşenler tüm ilgiyi üzerine çeker. Ancak bir sistemin kararlılığı, sinyal bütünlüğü ve enerji verimliliği, büyük oranda &amp;ldquo;pasif&amp;rdquo; olarak nitelendirilen kondansatör (kapasitör) ve endüktörlerin doğru seçimine bağlıdır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri.png&#34;&#xA;    alt=&#34;Elektronik Tasarımın Temel Yapı Taşlarında Derinlik: Pasif Bileşen Seçiminin Mühendislik Temelleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Elektronik Tasarımın Temel Yapı Taşlarında Derinlik: Pasif Bileşen Seçiminin Mühendislik Temelleri.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;kondansatörlerin-dinamik-dünyası-ve-ideal-olmayan-karakteristikler&#34;&gt;Kondansatörlerin Dinamik Dünyası ve İdeal Olmayan Karakteristikler&lt;/h2&gt;&#xA;&lt;p&gt;Bir kondansatör, teorik olarak sadece elektrik yükü depolayan bir elemandır. Ancak yüksek frekanslı bir devrede veya hassas bir analog hatta, kondansatör artık sadece bir $C$ değeri değildir. Gerçek bir kondansatör; eşdeğer seri direnç (ESR), eşdeğer seri endüktans (ESL) ve kaçak dirençlerin birleşimi olan karmaşık bir ağdır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

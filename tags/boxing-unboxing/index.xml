@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boxing-Unboxing on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/boxing-unboxing/</link>
+    <description>Recent content in Boxing-Unboxing on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/boxing-unboxing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boxing ve Unboxing Maliyetleri: Performans Kritik Sistemlerde Tip Dönüşümleri</title>
+      <link>https://abdulkadirgungor.com/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</guid>
+      <description>&lt;p&gt;Modern programlama dillerinde, özellikle C# ve Java gibi yönetilen (managed) dillerde, tip sistemi hiyerarşisinin tepesinde &lt;code&gt;Object&lt;/code&gt; türü yer alır. Bu yapı, her türün bir nesne gibi davranabilmesine olanak tanırken, arka planda ciddi bir bellek yönetimi yükü oluşturur. &lt;strong&gt;Boxing&lt;/strong&gt; (kutulama) ve &lt;strong&gt;Unboxing&lt;/strong&gt; (kutudan çıkarma) işlemleri, değer tipleri (Value Types) ile referans tipleri (Reference Types) arasındaki köprüyü kurar. Ancak performans kritik sistemlerde (yüksek frekanslı işlem sistemleri, oyun motorları veya gerçek zamanlı veri işleme birimleri) bu işlemler &amp;ldquo;sessiz performans katilleri&amp;rdquo; olarak adlandırılır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

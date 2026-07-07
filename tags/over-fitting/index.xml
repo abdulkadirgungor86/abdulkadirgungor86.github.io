@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Over-Fitting on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/over-fitting/</link>
+    <description>Recent content in Over-Fitting on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/over-fitting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Model Optimizasyonunda Denge Arayışı Eksik Uyumdan Aşırı Uyuma Makine Öğrenmesinin Kararlılık Analizi</title>
+      <link>https://abdulkadirgungor.com/ai/model-optimizasyonunda-denge-arayisi-eksik-uyumdan-asiri-uyuma-makine-ogrenmesinin-kararlilik-analizi/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/model-optimizasyonunda-denge-arayisi-eksik-uyumdan-asiri-uyuma-makine-ogrenmesinin-kararlilik-analizi/</guid>
+      <description>&lt;p&gt;Modern bilişim dünyasında otomasyon ve yapay zeka kavramları sıklıkla birbirinin yerine kullanılsa da, mühendislik perspektifinden bakıldığında bu iki disiplin farklı katmanlarda yer alır. Otomasyon, deterministik bir yapı üzerine kuruludur; yani önceden tanımlanmış kod blokları ve algoritmik kurallar çerçevesinde, dış bir müdahaleye ihtiyaç duymadan belirli görevleri icra eder. Ancak sistemlerin karmaşıklığı arttıkça, bu katı kuralların yerini veriden öğrenen ve dinamik karar mekanizmaları geliştiren yapay zeka (AI) sistemleri almıştır.&lt;/p&gt;&#xA;&lt;p&gt;Yapay zeka, sadece talimatları yerine getirmekle kalmaz, aynı zamanda insan bilişsel süreçlerini simüle ederek veriler arasındaki gizil korelasyonları keşfeder. Bu keşif sürecinin kalbinde yer alan &lt;strong&gt;Makine Öğrenmesi (Machine Learning)&lt;/strong&gt;, veriyi bilgiye, bilgiyi ise öngörüye dönüştüren matematiksel bir modelleme sanatıdır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concurrency on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/concurrency/</link>
+    <description>Recent content in Concurrency on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concurrency Patterns: Multi-thread Ortamlarda Lock Mekanizmaları ve Race Condition Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</guid>
+      <description>&lt;p&gt;Yazılım dünyasında performans gereksinimlerinin artmasıyla birlikte, çok çekirdekli (multi-core) işlemcilerin kapasitesinden tam anlamıyla yararlanmak bir zorunluluk haline gelmiştir. Parallel computing (paralel hesaplama) ve concurrency (eşzamanlılık), bu kapasiteyi kullanmanın anahtarıdır. Ancak, paylaşılan kaynaklara (shared resources) aynı anda erişim sağlamaya çalışan thread&amp;rsquo;lerin yönetimi, beraberinde karmaşık senaryolar ve potansiyel hatalar getirir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi.png&#34;&#xA;    alt=&#34;Concurrency Patterns: Multi-thread Ortamlarda Lock Mekanizmaları ve Race Condition Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Concurrency Patterns: Multi-thread Ortamlarda Lock Mekanizmaları ve Race Condition Yönetimi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

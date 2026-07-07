@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polymorphism on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/polymorphism/</link>
+    <description>Recent content in Polymorphism on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/polymorphism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction</title>
+      <link>https://abdulkadirgungor.com/en/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</guid>
+      <description>&lt;p&gt;Object-Oriented Programming (OOP) is the most fundamental paradigm used to break down complex software systems into manageable, sustainable, and extensible components. In modern system design, these four core principles—Encapsulation, Inheritance, Polymorphism, and Abstraction—form the backbone of software.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/oop-encapsulation-inheritance-polymorphism-ve-abstraction.png&#34;&#xA;    alt=&#34;OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: OOP Fundamentals: Encapsulation, Inheritance, Polymorphism, and Abstraction.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-abstraction-hiding-system-complexity&#34;&gt;1. Abstraction: Hiding System Complexity&lt;/h2&gt;&#xA;&lt;p&gt;Abstraction focuses on the functionality an object presents to the outside world, hiding the internal details of &amp;ldquo;how&amp;rdquo; the object performs that task. In system design, abstraction is the most critical tool for reducing coupling.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronics on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/electronics/</link>
+    <description>Recent content in Electronics on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide</title>
+      <link>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</guid>
+      <description>&lt;p&gt;In the Internet of Things (IoT) ecosystem, hardware selection plays a directly decisive role in a project&amp;rsquo;s sustainability, power consumption, and processing capacity. Developed by Espressif Systems, the ESP8266 and its successor, the ESP32, have revolutionized the embedded systems world by offering low-cost Wi-Fi integration. However, these two platforms represent architectural spectrums that are quite distinct from each other.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi.png&#34;&#xA;    alt=&#34;Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis</title>
+      <link>https://abdulkadirgungor.com/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s energy storage systems form the cornerstone of modern life, ranging from portable electronic devices to electric vehicles and grid-scale energy storage solutions. Unlike primary (single-use) batteries, rechargeable (secondary) batteries have the ability to store and release energy thanks to reversible electrochemical reactions. This process occurs through the controlled movement of ions between the anode and cathode of the battery.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/modern-sarj-edilebilir-pil-teknolojileri-ve-elektrokimyasal-performans-analizi.png&#34;&#xA;    alt=&#34;Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Modern Rechargeable Battery Technologies and Electrochemical Performance Analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gungor-robot-car: ESP32 Camera-Controlled Robot Car</title>
+      <link>https://abdulkadirgungor.com/en/blog/github-proje-3-gungor-robot-car/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/github-proje-3-gungor-robot-car/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Gungor-robot-car&lt;/strong&gt; is a robotic vehicle project designed using the ESP32-WROVER module and a camera module, providing live video monitoring and remote movement control via a browser.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-3-gungor-robot-car.png&#34;&#xA;    alt=&#34;Gungor Camera Robot Car&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Gungor Camera Robot Car.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach&#34;&gt;1. Architectural Approach&lt;/h2&gt;&#xA;&lt;p&gt;The project acts as an HTTP server using the ESP32&amp;rsquo;s internal WiFi capabilities. Users can manage the vehicle and view the live video stream (MJPEG) by connecting to a browser-based interface over the local network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Dive into the Fundamental Building Blocks of Electronic Design: Engineering Foundations of Passive Component Selection</title>
+      <link>https://abdulkadirgungor.com/en/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri/</guid>
+      <description>&lt;p&gt;In electronic circuit design, &amp;ldquo;active&amp;rdquo; components like microcontrollers, FPGAs, or high-speed processors usually steal the spotlight. However, the stability, signal integrity, and energy efficiency of a system depend heavily on the proper selection of &amp;ldquo;passive&amp;rdquo; components: capacitors and inductors.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/elektronik-tasarimin-temel-yapi-taslarinda-derinlik-pasif-bilesen-seciminin-muhendislik-temelleri.png&#34;&#xA;    alt=&#34;Deep Dive into the Fundamental Building Blocks of Electronic Design: Engineering Foundations of Passive Component Selection&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Dive into the Fundamental Building Blocks of Electronic Design: Engineering Foundations of Passive Component Selection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits</title>
+      <link>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</guid>
+      <description>&lt;p&gt;The Superposition Theorem, one of the cornerstones of electrical and electronics engineering, is a mathematical approach that reduces complex circuit networks into solvable parts. Especially in linear circuits containing multiple independent voltage or current sources, isolating the individual effect of each source on the system is of critical importance in design and analysis processes.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi.png&#34;&#xA;    alt=&#34;Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design</title>
+      <link>https://abdulkadirgungor.com/en/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</guid>
+      <description>&lt;p&gt;When it comes to electronic circuit design, the first formula that comes to mind is undoubtedly Ohm&amp;rsquo;s Law, expressed by the equation $V = I \times R$. However, in a professional design process, an ideal resistor component is more than just a coefficient. In real-world scenarios; parameters such as temperature coefficients, parasitic capacitance, inductance, voltage coefficients, and power dissipation directly affect the stability of the circuit.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri.png&#34;&#xA;    alt=&#34;Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Engineering Analysis and Selection Strategies for Resistor Parameters in Circuit Design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Joule Heating and Advanced Thermal Management Strategies in Modern Electronics</title>
+      <link>https://abdulkadirgungor.com/en/blog/joule-isinmasi-ve-modern-elektronikte-gelismis-termal-yonetim-stratejileri/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/joule-isinmasi-ve-modern-elektronikte-gelismis-termal-yonetim-stratejileri/</guid>
+      <description>&lt;p&gt;With the miniaturization of electronic systems and the increase in power density, the conversion of energy into heat has become one of the greatest challenges in the engineering world. The resistance encountered when current flows through a conductor causes a portion of the energy to be converted into thermal energy. This phenomenon is called Joule Heating and, if not managed correctly during the system design phase, leads to critical hardware failures, shortened lifespan, and performance losses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Professional Debugging Strategies and In-Depth Analysis Techniques in Embedded Systems Development</title>
+      <link>https://abdulkadirgungor.com/en/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/</guid>
+      <description>&lt;p&gt;Debugging in the world of embedded systems requires overcoming obstacles such as hardware constraints, real-time requirements, and limited visibility, unlike standard desktop software. The question &amp;ldquo;The code is running, but why is the system locking up?&amp;rdquo; is the nightmare of every embedded software engineer. In this article, advanced techniques, code examples, and hardware architectures used to quickly detect errors and stabilize the system in modern embedded projects are discussed.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri.png&#34;&#xA;    alt=&#34;Professional Debugging Strategies and In-Depth Analysis Techniques in Embedded Systems Development&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Professional Debugging Strategies and In-Depth Analysis Techniques in Embedded Systems Development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Communication Layers and Protocol Analysis in Modern Smart Home Ecosystems</title>
+      <link>https://abdulkadirgungor.com/en/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/</guid>
+      <description>&lt;p&gt;Smart home technologies are not just about connecting devices to each other; they involve the communication of these devices over a network architecture optimized for low latency, high energy efficiency, and scalability. Today, there are three fundamental protocols that shape this ecosystem: Wi-Fi, Bluetooth (specifically BLE), and Zigbee. Each protocol addresses specific use cases by offering advantages at different layers of the OSI model.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi.png&#34;&#xA;    alt=&#34;Communication Layers and Protocol Analysis in Modern Smart Home Ecosystems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Communication Layers and Protocol Analysis in Modern Smart Home Ecosystems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Power Management and Efficiency Strategies in Arduino Projects</title>
+      <link>https://abdulkadirgungor.com/en/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri/</guid>
+      <description>&lt;p&gt;The most critical bottleneck for portable electronic projects is energy consumption. Running a microcontroller with default settings is generally not sustainable for a battery-powered system. Although the Arduino platform provides prototyping ease, it is not energy-efficiency focused out of the box. A true engineering approach covers a wide range, from stripping unnecessary components on the hardware to the effective use of processor sleep modes.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/arduino-projelerinde-guc-yonetimi-ve-verimlilik-stratejileri.png&#34;&#xA;    alt=&#34;Power Management and Efficiency Strategies in Arduino Projects&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Power Management and Efficiency Strategies in Arduino Projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raspberry Pi and Hardware Integration in Industrial Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/endustriyel-sistemlerde-raspberry-pi-ve-donanim-entegrasyonu/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/endustriyel-sistemlerde-raspberry-pi-ve-donanim-entegrasyonu/</guid>
+      <description>&lt;p&gt;The traditional world of industrial automation has long been dominated by the rigid and closed ecosystem of PLC (Programmable Logic Controller) systems. However, with the Industry 4.0 wave, the presence of open-source hardware and high-level programming languages on the field has evolved from a hobby project into a professional necessity. With its Broadcom-based SoC architecture and rich GPIO (General Purpose Input/Output) capabilities, Raspberry Pi offers solutions across a wide scale, from the prototyping phase to edge computing controllers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architectural Decision Processes in IoT Projects: A Technical Analysis of ESP32 and ESP8266 Microcontrollers</title>
+      <link>https://abdulkadirgungor.com/en/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</guid>
+      <description>&lt;p&gt;In the Internet of Things (IoT) ecosystem, hardware selection plays a decisive role in a project&amp;rsquo;s sustainability, power consumption, and processing capacity. Developed by Espressif Systems, the ESP8266 and its successor, the ESP32, have revolutionized the world of embedded systems by offering low-cost Wi-Fi integration. However, these two platforms represent significantly different spectrums in terms of architecture.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi.png&#34;&#xA;    alt=&#34;Architectural Decision Processes in IoT Projects: Technical Analysis of ESP32 and ESP8266 Microcontrollers&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Architectural Decision Processes in IoT Projects: Technical Analysis of ESP32 and ESP8266 Microcontrollers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

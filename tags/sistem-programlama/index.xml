@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sistem-Programlama on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/sistem-programlama/</link>
+    <description>Recent content in Sistem-Programlama on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/sistem-programlama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CPU Cache Friendly Kod Yazımı: Spatial ve Temporal Locality Prensipleri</title>
+      <link>https://abdulkadirgungor.com/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</guid>
+      <description>&lt;p&gt;Yazılım performans optimizasyonunda en kritik darboğaz genellikle hesaplama gücü değil, verinin işlemciye ulaştırılma hızıdır. Modern CPU&amp;rsquo;lar mikrosaniye bazında devasa işlem kapasitelerine sahipken, ana bellekten (RAM) veri çekme işlemi bu hıza kıyasla oldukça yavaştır. Bu noktada &amp;ldquo;Cache Friendly&amp;rdquo; (önbellek dostu) kod yazımı, bir yazılımın teorik hız limitlerine ulaşıp ulaşamayacağını belirleyen temel unsurdur.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri.png&#34;&#xA;    alt=&#34;CPU Cache Friendly Kod Yazımı: Spatial ve Temporal Locality Prensipleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: CPU Cache Friendly Kod Yazımı: Spatial ve Temporal Locality Prensipleri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

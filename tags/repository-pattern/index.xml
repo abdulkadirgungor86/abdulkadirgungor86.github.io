@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Repository-Pattern on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/repository-pattern/</link>
+    <description>Recent content in Repository-Pattern on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/repository-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Repository ve Unit of Work: Veri Erişimini Soyutlayarak Test Edilebilir Mimari Oluşturmak</title>
+      <link>https://abdulkadirgungor.com/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak/</guid>
+      <description>&lt;p&gt;Modern yazılım geliştirme süreçlerinde, uygulamanın iş mantığı (Business Logic) ile veri erişim katmanı (Data Access Layer) arasındaki bağın gevşek tutulması (Loose Coupling), sistemin sürdürülebilirliği açısından hayati önem taşır. Repository ve Unit of Work desenleri, bu ayrımı sağlamak ve veritabanı işlemlerini merkezi bir yapıdan yönetmek için kullanılan en güçlü tasarım kalıplarıdır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak.png&#34;&#xA;    alt=&#34;Repository ve Unit of Work: Veri Erişimini Soyutlayarak Test Edilebilir Mimari Oluşturmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Repository ve Unit of Work: Veri Erişimini Soyutlayarak Test Edilebilir Mimari Oluşturmak.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redis on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/redis/</link>
+    <description>Recent content in Redis on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Caching: Redis ve Memcached ile Küresel Ölçekte Performans Artışı</title>
+      <link>https://abdulkadirgungor.com/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi/</guid>
+      <description>&lt;p&gt;Modern mikroservis mimarilerinde ve yüksek trafikli web uygulamalarında gecikme süresini (latency) minimize etmek, veritabanı üzerindeki yükü hafifletmek ve ölçeklenebilirliği sağlamak için &lt;strong&gt;Distributed Caching (Dağıtık Önbellekleme)&lt;/strong&gt; stratejik bir zorunluluktur. Bu makalede, sektör standartları olan &lt;strong&gt;Redis&lt;/strong&gt; ve &lt;strong&gt;Memcached&lt;/strong&gt; teknolojilerinin teknik derinlikleri, mimari farkları ve uygulama stratejileri ele alınmıştır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/distributed-caching-redis-ve-memcached-ile-kuresel-olcekte-performans-artisi.png&#34;&#xA;    alt=&#34;Distributed Caching: Redis ve Memcached ile Küresel Ölçekte Performans Artışı&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Distributed Caching: Redis ve Memcached ile Küresel Ölçekte Performans Artışı.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-dağıtık-önbellekleme-mimarisinin-temelleri&#34;&gt;1. Dağıtık Önbellekleme Mimarisinin Temelleri&lt;/h2&gt;&#xA;&lt;p&gt;Dağıtık önbellekleme, verilerin birden fazla sunucu düğümü (node) üzerinde RAM (Random Access Memory) üzerinde tutulmasıdır. Geleneksel &amp;ldquo;In-memory&amp;rdquo; önbelleklemeden farkı, verinin uygulama sunucusuna bağlı olmaması ve kümelenmiş (cluster) bir yapıda merkezi bir hizmet olarak sunulmasıdır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haberlesme-Protokolleri on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/haberlesme-protokolleri/</link>
+    <description>Recent content in Haberlesme-Protokolleri on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/haberlesme-protokolleri/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Akıllı Ev Ekosistemlerinde Haberleşme Katmanları ve Protokol Analizi</title>
+      <link>https://abdulkadirgungor.com/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi/</guid>
+      <description>&lt;p&gt;Akıllı ev teknolojileri, sadece cihazların birbirine bağlanması değil, bu cihazların düşük gecikme, yüksek enerji verimliliği ve ölçeklenebilirlik ekseninde optimize edilmiş bir ağ mimarisi üzerinde haberleşmesidir. Günümüzde bu ekosistemi şekillendiren üç temel protokol bulunmaktadır: Wi-Fi, Bluetooth (özellikle BLE) ve Zigbee. Her bir protokol, OSI modelinin farklı katmanlarında sunduğu avantajlarla belirli kullanım senaryolarına hitap eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/modern-akilli-ev-ekosistemlerinde-haberlesme-katmanlari-ve-protokol-analizi.png&#34;&#xA;    alt=&#34;Modern Akıllı Ev Ekosistemlerinde Haberleşme Katmanları ve Protokol Analizi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Akıllı Ev Ekosistemlerinde Haberleşme Katmanları ve Protokol Analizi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

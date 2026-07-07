@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nplus1-Problem on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/nplus1-problem/</link>
+    <description>Recent content in Nplus1-Problem on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/nplus1-problem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lazy, Eager ve Explicit Loading: Veri Yükleme Stratejileriyle &#34;N&#43;1 Probleminden&#34; Kaçınmak</title>
+      <link>https://abdulkadirgungor.com/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</guid>
+      <description>&lt;p&gt;Modern yazılım mimarilerinde veri tabanı etkileşimleri, uygulamanın ölçeklenebilirliği ve yanıt süresi üzerinde belirleyici bir rol oynar. Özellikle Nesne-İlişkisel Eşleme (ORM - Object-Relational Mapping) araçları kullanılırken karşılaşılan en büyük performans darboğazlarından biri N+1 Sorgu Problemi&amp;rsquo;dir. Bu sorunu aşmak ve veri erişim katmanını optimize etmek için Lazy, Eager ve Explicit Loading stratejilerinin derinlemesine anlaşılması gerekir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&amp;#43;1-probleminden-kacinmak.png&#34;&#xA;    alt=&#34;Lazy, Eager ve Explicit Loading: Veri Yükleme Stratejileriyle &amp;#34;N&amp;#43;1 Probleminden&amp;#34; Kaçınmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Lazy, Eager ve Explicit Loading: Veri Yükleme Stratejileriyle &amp;ldquo;N+1 Probleminden&amp;rdquo; Kaçınmak.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devre-Analizi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/devre-analizi/</link>
+    <description>Recent content in Devre-Analizi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/devre-analizi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Süperpozisyon Teoremi ve Çok Kaynaklı Lineer Devrelerin Analitik İncelenmesi</title>
+      <link>https://abdulkadirgungor.com/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</guid>
+      <description>&lt;p&gt;Elektrik ve elektronik mühendisliğinin temel taşlarından biri olan Süperpozisyon Teoremi, karmaşık devre ağlarını çözülebilir parçalara indirgeyen matematiksel bir yaklaşımdır. Özellikle birden fazla bağımsız gerilim veya akım kaynağı içeren lineer devrelerde, her bir kaynağın sistem üzerindeki münferit etkisini izole etmek, tasarım ve analiz süreçlerinde kritik bir öneme sahiptir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi.png&#34;&#xA;    alt=&#34;Süperpozisyon Teoremi ve Çok Kaynaklı Lineer Devrelerin Analitik İncelenmesi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Süperpozisyon Teoremi ve Çok Kaynaklı Lineer Devrelerin Analitik İncelenmesi.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-lineerlik-ve-süperpozisyonun-teorik-temelleri&#34;&gt;1. Lineerlik ve Süperpozisyonun Teorik Temelleri&lt;/h2&gt;&#xA;&lt;p&gt;Süperpozisyon Teoremi, sadece &lt;strong&gt;lineer (doğrusal)&lt;/strong&gt; devrelerde geçerlidir. Bir devrenin lineer kabul edilebilmesi için toplamsallık (additivity) ve homojenlik (homogeneity) özelliklerini taşıması gerekir. Matematiksel olarak, bir sistemin girdisi $x$ ve çıktısı $y$ ise, $f(ax_1 + bx_2) = af(x_1) + bf(x_2)$ eşitliği sağlanmalıdır.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karmaşık Devrelerin Matematiksel Mimarisi ve Düğüm Gerilimleri Yöntemi</title>
+      <link>https://abdulkadirgungor.com/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi/</guid>
+      <description>&lt;p&gt;Elektrik devrelerinin analizi, temel fizik yasalarının lineer cebir ile harmanlandığı disiplinler arası bir süreçtir. Modern mühendislik uygulamalarında, özellikle entegre devre tasarımı ve güç sistemleri simülasyonlarında, devreyi bileşen bazlı incelemek yerine sistematik bir yaklaşım sergilemek gerekir. Bu noktada, Kirchhoff’un Akım Yasası (KCL) üzerine inşa edilen &lt;strong&gt;Düğüm Analizi (Nodal Analysis)&lt;/strong&gt;, devredeki bilinmeyen gerilimleri sistematik bir matris formuna indirgeyerek çözüm kümesine ulaşmamızı sağlar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/karmasik-devrelerin-matematiksel-mimarisi-ve-dugum-gerilimleri-yontemi.png&#34;&#xA;    alt=&#34;Karmaşık Devrelerin Matematiksel Mimarisi ve Düğüm Gerilimleri Yöntemi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Karmaşık Devrelerin Matematiksel Mimarisi ve Düğüm Gerilimleri Yöntemi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Devre Tasarımında Direnç Parametrelerinin Mühendislik Analizi ve Seçim Stratejileri</title>
+      <link>https://abdulkadirgungor.com/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri/</guid>
+      <description>&lt;p&gt;Elektronik devre tasarımı dendiğinde akla gelen ilk formül şüphesiz $V = I \times R$ eşitliği ile ifade edilen Ohm Kanunu’dur. Ancak profesyonel bir tasarım sürecinde, ideal bir direnç bileşeni sadece bir katsayıdan ibaret değildir. Gerçek dünya senaryolarında; sıcaklık katsayıları, parazitik kapasitans, endüktans, gerilim katsayısı ve güç dağılımı gibi parametreler, devrenin kararlılığını doğrudan etkiler.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/devre-tasariminda-direnc-parametrelerinin-muhendislik-analizi-ve-secim-stratejileri.png&#34;&#xA;    alt=&#34;Devre Tasarımında Direnç Parametrelerinin Mühendislik Analizi ve Seçim Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Devre Tasarımında Direnç Parametrelerinin Mühendislik Analizi ve Seçim Stratejileri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lineer Devre Analizinde İndirgeme Metotları ve Sayısal Çözümleme Yaklaşımları</title>
+      <link>https://abdulkadirgungor.com/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari/</guid>
+      <description>&lt;p&gt;Elektrik devreleri, özellikle modern mikroelektronik ve güç sistemlerinde, binlerce pasif ve aktif bileşenin bir araya gelmesiyle devasa ağlar oluşturur. Bu ağların her bir noktasındaki gerilim ve akım değerlerini klasik Kirchhoff kanunları ile çözmeye çalışmak, devasa lineer denklem sistemleriyle uğraşmak demektir. İşte bu noktada, devrenin geri kalanını tek bir gerilim veya akım kaynağına indirgeyen &lt;strong&gt;Thevenin ve Norton Teoremleri&lt;/strong&gt;, mühendislik disiplininin temel taşı haline gelir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/lineer-devre-analizinde-indirgeme-metotlari-ve-sayisal-cozumleme-yaklasimlari.png&#34;&#xA;    alt=&#34;Lineer Devre Analizinde İndirgeme Metotları ve Sayısal Çözümleme Yaklaşımları&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Lineer Devre Analizinde İndirgeme Metotları ve Sayısal Çözümleme Yaklaşımları.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lloyd-Algorithm on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/lloyd-algorithm/</link>
+    <description>Recent content in Lloyd-Algorithm on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/lloyd-algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Clustering and Classification Strategies in Machine Learning</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri/</guid>
+      <description>&lt;p&gt;In the artificial intelligence and data science ecosystem, the process of transforming raw data into meaningful insights is built upon two fundamental pillars: Supervised and Unsupervised learning. This article will cover everything from linear classification models to the mathematical depth of clustering algorithms, the resolution of overfitting problems via regularization techniques, and practical Python implementations.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinde-modern-kumeleme-ve-siniflandirma-stratejileri.png&#34;&#xA;    alt=&#34;Modern Clustering and Classification Strategies in Machine Learning&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Modern Clustering and Classification Strategies in Machine Learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

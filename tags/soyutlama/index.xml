@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soyutlama on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/soyutlama/</link>
+    <description>Recent content in Soyutlama on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/soyutlama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interface vs. Abstract Class: Ne Zaman Sözleşme (Contract), Ne Zaman Şablon (Template)?</title>
+      <link>https://abdulkadirgungor.com/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/interface-vs-abstract-class-ne-zaman-sozlesme-contract-ne-zaman-sablon-template/</guid>
+      <description>&lt;p&gt;Nesne yönelimli programlama (OOP) paradigmasında, mimari tasarımı şekillendiren en kritik kararlardan biri &amp;ldquo;Soyutlama&amp;rdquo; (Abstraction) katmanının nasıl kurgulanacağıdır. Geliştiriciler genellikle &amp;ldquo;Interface&amp;rdquo; (Arayüz) ve &amp;ldquo;Abstract Class&amp;rdquo; (Soyut Sınıf) yapılarını birbirinin yerine geçebilir gibi görse de, bu iki yapı yazılımın esnekliği, sürdürülebilirliği ve genişletilebilirliği açısından taban tabana zıt felsefelere hizmet eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/interface-vs-abstract-class-ne-zaman-sozlesme-%28contract%29-ne-zaman-sablon-%28template%29.png&#34;&#xA;    alt=&#34;Interface vs. Abstract Class: Ne Zaman Sözleşme (Contract), Ne Zaman Şablon (Template)?&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Interface vs. Abstract Class: Ne Zaman Sözleşme (Contract), Ne Zaman Şablon (Template)?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generic Programlama: Tip Güvenliğini Kaybetmeden Esnek ve Tekrar Kullanılabilir Yapılar Kurmak</title>
+      <link>https://abdulkadirgungor.com/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak/</guid>
+      <description>&lt;p&gt;Generic programlama, modern yazılım mühendisliğinin temel taşlarından biridir. Kodun veri tipinden bağımsız bir şekilde mantıksal soyutlamaya tabi tutulması, hem geliştirme maliyetlerini düşürür hem de çalışma zamanı (runtime) hatalarını derleme zamanına (compile-time) çekerek sistem kararlılığını artırır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/generic-programlama-tip-guvenligini-kaybetmeden-esnek-ve-tekrar-kullanilabilir-yapilar-kurmak.png&#34;&#xA;    alt=&#34;Generic Programlama: Tip Güvenliğini Kaybetmeden Esnek ve Tekrar Kullanılabilir Yapılar Kurmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Generic Programlama: Tip Güvenliğini Kaybetmeden Esnek ve Tekrar Kullanılabilir Yapılar Kurmak.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-generic-programlamanın-teorik-temelleri&#34;&gt;1. Generic Programlamanın Teorik Temelleri&lt;/h2&gt;&#xA;&lt;p&gt;Generic programlama, algoritmaların ve veri yapılarının, operasyon yapacakları veri tiplerini &amp;ldquo;parametre&amp;rdquo; olarak alması prensibine dayanır. Bu yaklaşım, C++ dünyasında &lt;strong&gt;Templates&lt;/strong&gt;, Java ve C# dünyasında ise &lt;strong&gt;Generics&lt;/strong&gt; olarak adlandırılır. Temel amaç, aynı mantığı farklı tipler için tekrar yazmaktan kaçınarak &amp;ldquo;Don&amp;rsquo;t Repeat Yourself&amp;rdquo; (DRY) prensibini en üst düzeyde uygulamaktır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

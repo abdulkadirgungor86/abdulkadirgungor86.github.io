@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event-Store on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/event-store/</link>
+    <description>Recent content in Event-Store on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/event-store/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event Sourcing: Veriyi Değil, Değişim Geçmişini Saklayarak Durum Yönetimi Sağlamak</title>
+      <link>https://abdulkadirgungor.com/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/event-sourcing-veriyi-degil-degisim-gecmisini-saklayarak-durum-yonetimi-saglamak/</guid>
+      <description>&lt;p&gt;Geleneksel veri tabanı tasarımlarında &amp;ldquo;State-Oriented&amp;rdquo; (Durum Odaklı) yaklaşım hakimdir. Bu yaklaşımda, bir nesnenin o anki en güncel hali veri tabanında saklanır ve her güncelleme işleminde (UPDATE) eski veri kalıcı olarak silinir veya üzerine yazılır. Ancak karmaşık dağıtık sistemlerde ve denetlenebilirliğin (auditability) kritik olduğu finansal/lojistik yapılarında bu model, verinin &amp;ldquo;neden&amp;rdquo; ve &amp;ldquo;nasıl&amp;rdquo; bu hale geldiğine dair semantik bilgiyi kaybeder. &lt;strong&gt;Event Sourcing (Olay Kaynaklama)&lt;/strong&gt;, bu sorunu çözmek için verinin nihai durumunu değil, o durumu oluşturan tüm değişim olaylarını (events) değişmez (immutable) bir sırada saklamayı esas alan bir mimari desendir.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

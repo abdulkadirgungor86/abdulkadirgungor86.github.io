@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Load-Balancing on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/load-balancing/</link>
+    <description>Recent content in Load-Balancing on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/load-balancing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yazılımda Ölçeklenebilirlik: Dikey ve Yatay Ölçeklendirme ile High-Availability Tasarımı</title>
+      <link>https://abdulkadirgungor.com/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi/</guid>
+      <description>&lt;p&gt;Günümüzün dinamik trafik yüklerine sahip yazılım ekosistemlerinde, bir uygulamanın sadece işlevsel olması yeterli değildir. Sistemin, artan kullanıcı sayısına ve veri hacmine yanıt verebilme yeteneği, yani &lt;strong&gt;ölçeklenebilirliği (scalability)&lt;/strong&gt;, projenin sürdürülebilirliği açısından kritik bir parametredir. Bu blog yazısında, dikey ve yatay ölçeklendirme tekniklerini, yük dengeleme mekanizmalarını ve yüksek erişilebilirlik (High Availability) tasarım prensiplerini derinlemesine ele alınacaktır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/yazilimda-olceklenebilirlik-dikey-ve-yatay-olceklendirme-ile-high-availability-tasarimi.png&#34;&#xA;    alt=&#34;Yazılımda Ölçeklenebilirlik: Dikey ve Yatay Ölçeklendirme ile High-Availability Tasarımı&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Yazılımda Ölçeklenebilirlik: Dikey ve Yatay Ölçeklendirme ile High-Availability Tasarımı&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

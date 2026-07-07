@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Confusion-Matrix on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/confusion-matrix/</link>
+    <description>Recent content in Confusion-Matrix on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/confusion-matrix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Makine Öğrenmesinde İstatistiksel Yaklaşımlar ve Topluluk Yöntemlerinin Mühendislik Analizi</title>
+      <link>https://abdulkadirgungor.com/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi/</guid>
+      <description>&lt;p&gt;Yapay zeka ekosistemi, veriden anlam çıkarma sürecinde farklı matematiksel temellere dayanan algoritmalarla şekillenmektedir. Modern yazılım mimarilerinde derin öğrenme (Deep Learning) her ne kadar popüler olsa da, hesaplama maliyeti ve açıklanabilirlik (explainability) açısından klasik makine öğrenmesi algoritmaları hala endüstrinin bel kemiğini oluşturmaktadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesinde-istatistiksel-yaklasimlar-ve-topluluk-yontemlerinin-muhendislik-analizi.png&#34;&#xA;    alt=&#34;Makine Öğrenmesinde İstatistiksel Yaklaşımlar ve Topluluk Yöntemlerinin Mühendislik Analizi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Makine Öğrenmesinde İstatistiksel Yaklaşımlar ve Topluluk Yöntemlerinin Mühendislik Analizi.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-naive-bayes-ve-olasılıksal-sınıflandırmanın-matematiksel-temeli&#34;&gt;1. Naive Bayes ve Olasılıksal Sınıflandırmanın Matematiksel Temeli&lt;/h2&gt;&#xA;&lt;p&gt;Naive Bayes, temelini Thomas Bayes’in olasılık kuramından alan, özellikle yüksek boyutlu metinsel verilerde (NLP) yüksek performans gösteren bir algoritmadır. Algoritmanın ismindeki &amp;ldquo;Naive&amp;rdquo; (Saf/Safdil) ifadesi, özniteliklerin (features) birbirinden tamamen bağımsız olduğu varsayımından gelir. Mühendislik perspektifinden bakıldığında, bu varsayım gerçek hayatta her zaman tutmasa da (örneğin bir cümledeki kelimeler birbirine bağımlıdır), algoritmanın hesaplama hızını inanılmaz derecede artırır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

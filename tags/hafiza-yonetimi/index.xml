@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hafiza-Yonetimi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/hafiza-yonetimi/</link>
+    <description>Recent content in Hafiza-Yonetimi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/hafiza-yonetimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heap ve Stack Derinlemesine Bakış: Değer ve Referans Tiplerinin Bellek Yerleşimi</title>
+      <link>https://abdulkadirgungor.com/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi/</guid>
+      <description>&lt;p&gt;Modern yazılım mimarilerinde performans optimizasyonu ve bellek yönetimi, kodun çalışma zamanı (runtime) davranışını belirleyen en kritik unsurlardır. Yüksek seviyeli diller (C#, Java, Python) belleği otomatik olarak yönetse de, arka planda gerçekleşen &lt;strong&gt;Stack&lt;/strong&gt; ve &lt;strong&gt;Heap&lt;/strong&gt; ayrımını kavramak, bellek sızıntılarını (memory leaks) önlemek ve işlemci kaynaklarını verimli kullanmak için zaruridir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/heap-ve-stack-derinlemesine-bakis-deger-ve-referans-tiplerinin-bellek-yerlesimi.png&#34;&#xA;    alt=&#34;Heap ve Stack Derinlemesine Bakış: Değer ve Referans Tiplerinin Bellek Yerleşimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Heap ve Stack Derinlemesine Bakış: Değer ve Referans Tiplerinin Bellek Yerleşimi&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

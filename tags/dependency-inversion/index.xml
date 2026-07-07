@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dependency-Inversion on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/dependency-inversion/</link>
+    <description>Recent content in Dependency-Inversion on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/dependency-inversion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dependency Inversion ve Abstraction Katmanı: Katmanlar Arası Sıkı Bağları (Tight Coupling) Koparmak</title>
+      <link>https://abdulkadirgungor.com/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve esneklik, kodun ne kadar &amp;ldquo;bağımsız&amp;rdquo; parçalardan oluştuğuyla doğrudan ilişkilidir. Modern yazılım geliştirme süreçlerinde karşılaşılan en büyük problem, alt seviye modüllerde yapılan bir değişikliğin domino taşı etkisiyle üst seviye iş mantığını (Business Logic) bozmasıdır. Bu durum, yazılım literatüründe &lt;strong&gt;Tight Coupling (Sıkı Bağ) Problematiği&lt;/strong&gt; olarak adlandırılır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-%28tight-coupling%29-koparmak.png&#34;&#xA;    alt=&#34;Dependency Inversion ve Abstraction Katmanı: Katmanlar Arası Sıkı Bağları (Tight Coupling) Koparmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Dependency Inversion ve Abstraction Katmanı: Katmanlar Arası Sıkı Bağları (Tight Coupling) Koparmak&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

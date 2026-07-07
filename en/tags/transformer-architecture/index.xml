@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer-Architecture on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/transformer-architecture/</link>
+    <description>Recent content in Transformer-Architecture on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/transformer-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Neural Architecture of Modern Language Models and Their Evolution from Token-Level to Reasoning</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</guid>
+      <description>&lt;p&gt;The greatest disruption in the artificial intelligence ecosystem over the last decade has occurred not just through the processing of data, but through the reconstruction of language in a geometric space. Modern Large Language Models (LLMs) are massive statistical machines that take raw text chunks and transform them into meaningful relationships within high-dimensional vector spaces. However, behind the appearance that these machines are &amp;ldquo;thinking&amp;rdquo; lies the mathematical elegance offered by the Transformer architecture and the emergent capabilities brought about by scaling laws.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Architectural Foundations and Algorithmic Strategies of Modern Artificial Intelligence</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler/</link>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler/</guid>
+      <description>&lt;p&gt;The world of artificial intelligence has undergone a massive evolution from static rules to dynamic, learning structures. The success of models like ChatGPT today is not solely due to the volume of raw data, but the mathematical intelligence of the Transformer architecture that processes this data and the decision-making mechanisms optimized through Reinforcement Learning.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler.png&#34;&#xA;    alt=&#34;Architectural Foundations and Algorithmic Strategies of Modern Artificial Intelligence&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Architectural Foundations and Algorithmic Strategies of Modern Artificial Intelligence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In-Depth Technical Analysis of AI Architecture and Development Processes</title>
+      <link>https://abdulkadirgungor.com/en/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz/</guid>
+      <description>&lt;p&gt;The modern software ecosystem is evolving beyond traditional deterministic algorithms toward structures based on probabilistic computing and deep learning. Entering the &amp;ldquo;kitchen&amp;rdquo; of the models at the center of this evolution requires understanding the underlying mathematical and architectural building blocks, rather than just calling ready-made APIs. This article examines a wide technical spectrum, from Transformer architecture to edge computing, architectural design patterns, and data-driven generation methods.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz.png&#34;&#xA;    alt=&#34;In-Depth Technical Analysis of AI Architecture and Development Processes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: In-Depth Technical Analysis of AI Architecture and Development Processes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

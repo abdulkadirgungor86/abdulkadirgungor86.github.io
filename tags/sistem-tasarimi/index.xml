@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sistem-Tasarimi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/sistem-tasarimi/</link>
+    <description>Recent content in Sistem-Tasarimi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/sistem-tasarimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti</title>
+      <link>https://abdulkadirgungor.com/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve ölçeklenebilirlik arasındaki denge, genellikle bileşenlerin ne kadar küçük parçalara ayrılması gerektiği sorusu etrafında döner. &lt;strong&gt;Single Responsibility Principle (SRP)&lt;/strong&gt;, bir modülün veya sınıfın değişim için yalnızca tek bir nedeni olması gerektiğini savunurken, bu ilkenin uç noktası olan &lt;strong&gt;Mikro Modüller&lt;/strong&gt;, kodu atomik seviyeye indirger. Ancak her mühendislik kararı gibi, sınıfları mikroskobik parçalara ayırmanın da soyutlama karmaşıklığı ve çalışma zamanı (runtime) maliyeti gibi bedelleri vardır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti.png&#34;&#xA;    alt=&#34;Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Veri Mimarilerinde Bellek İçi Hesaplama ve Düşük Gecikmeli Veri İşleme Stratejileri</title>
+      <link>https://abdulkadirgungor.com/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</guid>
+      <description>&lt;p&gt;Modern veri ekosisteminde performansın nihai sınırı artık depolama kapasitesi değil, verinin işlemciye ulaşma hızıdır. Geleneksel disk tabanlı (HDD/SSD) sistemlerdeki Girdi/Çıktı (I/O) darboğazlarını aşmak amacıyla geliştirilen bellek içi (in-memory) veri işleme mimarileri, veriyi doğrudan RAM üzerinde yapılandırarak veri erişim sürelerini mikrosaniye seviyelerine indirmektedir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri-isleme-stratejileri.png&#34;&#xA;    alt=&#34;Modern Veri Mimarilerinde Bellek İçi Hesaplama ve Düşük Gecikmeli Veri İşleme Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Veri Mimarilerinde Bellek İçi Hesaplama ve Düşük Gecikmeli Veri İşleme Stratejileri.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-bellek-yerleşimi-ve-sütun-tabanlı-depolama-mekanizmaları&#34;&gt;1. Bellek Yerleşimi ve Sütun Tabanlı Depolama Mekanizmaları&lt;/h2&gt;&#xA;&lt;p&gt;Analitik sorguların (OLAP) performansını belirleyen en temel faktör, verinin bellekteki fiziksel yerleşimidir. Geleneksel satır tabanlı (Row-oriented) sistemler yazma operasyonlarında başarılı olsa da, büyük veri setlerinde tarama yaparken gereksiz veri yüklemesi yaparlar.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

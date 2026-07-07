@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bagimlilik-Yonetimi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/bagimlilik-yonetimi/</link>
+    <description>Recent content in Bagimlilik-Yonetimi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/bagimlilik-yonetimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti</title>
+      <link>https://abdulkadirgungor.com/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve ölçeklenebilirlik arasındaki denge, genellikle bileşenlerin ne kadar küçük parçalara ayrılması gerektiği sorusu etrafında döner. &lt;strong&gt;Single Responsibility Principle (SRP)&lt;/strong&gt;, bir modülün veya sınıfın değişim için yalnızca tek bir nedeni olması gerektiğini savunurken, bu ilkenin uç noktası olan &lt;strong&gt;Mikro Modüller&lt;/strong&gt;, kodu atomik seviyeye indirger. Ancak her mühendislik kararı gibi, sınıfları mikroskobik parçalara ayırmanın da soyutlama karmaşıklığı ve çalışma zamanı (runtime) maliyeti gibi bedelleri vardır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti.png&#34;&#xA;    alt=&#34;Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Single Responsibility ve Mikro Modüller: Sınıfları Parçalara Ayırmanın Mühendislik Maliyeti.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interface Segregation: &#34;Yağlı&#34; Arayüzleri Parçalayarak İstemci Bağımlılıklarını Azaltmak</title>
+      <link>https://abdulkadirgungor.com/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve esneklik, bileşenlerin birbirine olan bağımlılıklarının (coupling) ne kadar hassas yönetildiğiyle doğrudan ilişkilidir. Robert C. Martin tarafından tanımlanan SOLID prensiplerinin dördüncü halkası olan &lt;strong&gt;Interface Segregation Principle (ISP)&lt;/strong&gt;, yani Arayüz Ayrımı Prensibi, sistemdeki &amp;ldquo;şişman&amp;rdquo; (fat/bloated) arayüzlerin yarattığı teknik borcu temizlemek için kullanılan en kritik araçlardan biridir.&lt;/p&gt;&#xA;&lt;p&gt;ISP&amp;rsquo;nin temel mottosu şudur: &lt;strong&gt;&amp;ldquo;Hiçbir istemci, kullanmadığı metotlara bağımlı olmaya zorlanmamalıdır.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/interface-segregation-yagli-arayuzleri-parcalayarak-istemci-bagimliliklarini-azaltmak.png&#34;&#xA;    alt=&#34;Interface Segregation: &amp;#34;Yağlı&amp;#34; Arayüzleri Parçalayarak İstemci Bağımlılıklarını Azaltmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Interface Segregation: &amp;ldquo;Yağlı&amp;rdquo; Arayüzleri Parçalayarak İstemci Bağımlılıklarını Azaltmak&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dependency Inversion ve Abstraction Katmanı: Katmanlar Arası Sıkı Bağları (Tight Coupling) Koparmak</title>
+      <link>https://abdulkadirgungor.com/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde sürdürülebilirlik ve esneklik, kodun ne kadar &amp;ldquo;bağımsız&amp;rdquo; parçalardan oluştuğuyla doğrudan ilişkilidir. Modern yazılım geliştirme süreçlerinde karşılaşılan en büyük problem, alt seviye modüllerde yapılan bir değişikliğin domino taşı etkisiyle üst seviye iş mantığını (Business Logic) bozmasıdır. Bu durum, yazılım literatüründe &lt;strong&gt;Tight Coupling (Sıkı Bağ) Problematiği&lt;/strong&gt; olarak adlandırılır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-%28tight-coupling%29-koparmak.png&#34;&#xA;    alt=&#34;Dependency Inversion ve Abstraction Katmanı: Katmanlar Arası Sıkı Bağları (Tight Coupling) Koparmak&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Dependency Inversion ve Abstraction Katmanı: Katmanlar Arası Sıkı Bağları (Tight Coupling) Koparmak&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

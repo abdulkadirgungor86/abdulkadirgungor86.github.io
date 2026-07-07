@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mqtt-Protocol on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/mqtt-protocol/</link>
+    <description>Recent content in Mqtt-Protocol on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/mqtt-protocol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide</title>
+      <link>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</guid>
+      <description>&lt;p&gt;In the Internet of Things (IoT) ecosystem, hardware selection plays a directly decisive role in a project&amp;rsquo;s sustainability, power consumption, and processing capacity. Developed by Espressif Systems, the ESP8266 and its successor, the ESP32, have revolutionized the embedded systems world by offering low-cost Wi-Fi integration. However, these two platforms represent architectural spectrums that are quite distinct from each other.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi.png&#34;&#xA;    alt=&#34;Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Introduction to the IoT World with ESP32: From Scratch to Advanced Project Development Guide.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

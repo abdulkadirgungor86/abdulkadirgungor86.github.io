@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Large-Language-Models on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/large-language-models/</link>
+    <description>Recent content in Large-Language-Models on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis</title>
+      <link>https://abdulkadirgungor.com/en/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi/</guid>
+      <description>&lt;p&gt;The evolution of autonomous systems is shifting from classical control theories and deterministic algorithms towards dynamic structures with cognitive capabilities. Traditional robotics and autonomous systems were limited by predefined decision trees and sensor fusion algorithms. However, the integration of Large Language Models (LLMs) as a systematic &amp;ldquo;architectural layer&amp;rdquo; has fundamentally changed the uncertainty management and complex task planning capacity of these systems.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/otonom-sistemler-ve-ai-entegrasyonu-llm-lerin-mimari-bir-katman-olarak-kullanimi-ve-kod-analizi.png&#34;&#xA;    alt=&#34;Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Autonomous Systems and AI Integration: Using LLMs as an Architectural Layer and Code Analysis&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cplusplus on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/cplusplus/</link>
+    <description>Recent content in Cplusplus on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/cplusplus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nur-o-link: Remote-Controlled Robotic Arm and Vehicle System</title>
+      <link>https://abdulkadirgungor.com/en/blog/github-proje-4-nur-o-link/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/github-proje-4-nur-o-link/</guid>
+      <description>&lt;p&gt;In the world of robotics, control and mobility are the two most critical factors that determine the functionality of systems. The &lt;strong&gt;Nur-o-link&lt;/strong&gt; project offers a flexible and versatile robotic platform by combining both a precise robotic arm mechanism and a remote-controllable vehicle system.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-4-nur-o-link.png&#34;&#xA;    alt=&#34;Nur-o-link: Remote-Controlled Robotic Arm and Vehicle System&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Nur-o-link: Remote-Controlled Robotic Arm and Vehicle System.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach-hybrid-robotic-design&#34;&gt;1. Architectural Approach: Hybrid Robotic Design&lt;/h2&gt;&#xA;&lt;p&gt;Nur-o-link is not just a tool, but a manipulator system capable of performing tasks in the physical world. The project successfully integrates the vehicle&amp;rsquo;s mobility with the gripping and carrying capabilities of a robotic arm on the same embedded system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gungor-robot-car: ESP32 Camera-Controlled Robot Car</title>
+      <link>https://abdulkadirgungor.com/en/blog/github-proje-3-gungor-robot-car/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/github-proje-3-gungor-robot-car/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Gungor-robot-car&lt;/strong&gt; is a robotic vehicle project designed using the ESP32-WROVER module and a camera module, providing live video monitoring and remote movement control via a browser.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-3-gungor-robot-car.png&#34;&#xA;    alt=&#34;Gungor Camera Robot Car&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Gungor Camera Robot Car.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-architectural-approach&#34;&gt;1. Architectural Approach&lt;/h2&gt;&#xA;&lt;p&gt;The project acts as an HTTP server using the ESP32&amp;rsquo;s internal WiFi capabilities. Users can manage the vehicle and view the live video stream (MJPEG) by connecting to a browser-based interface over the local network.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

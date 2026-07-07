@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backend-Development on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/backend-development/</link>
+    <description>Recent content in Backend-Development on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/backend-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Sistemlerde Olay Güdümlü Mimari ve Asenkron Mesajlaşma</title>
+      <link>https://abdulkadirgungor.com/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</guid>
+      <description>&lt;p&gt;Günümüz dağıtık sistemlerinde, monolitik yapılardan mikro hizmet mimarilerine geçişle birlikte, servisler arası iletişim stratejileri sistemin ölçeklenebilirliği ve dayanıklılığı üzerinde belirleyici bir rol oynamaya başlamıştır. Geleneksel HTTP tabanlı (REST veya gRPC) senkron iletişim modelleri, özellikle yüksek trafikli ve servisler arası bağımlılığın yüksek olduğu senaryolarda &amp;ldquo;darboğaz&amp;rdquo; (bottleneck) oluşturabilir. İşte tam bu noktada, &lt;strong&gt;Event-Driven Architecture (EDA)&lt;/strong&gt; yani Olay Güdümlü Mimari, sistemlerin birbiriyle eşzamansız (asenkron) konuşmasını sağlayarak yüksek performanslı bir çalışma ortamı sunar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma.png&#34;&#xA;    alt=&#34;Modern Sistemlerde Olay Güdümlü Mimari ve Asenkron Mesajlaşma&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Sistemlerde Olay Güdümlü Mimari ve Asenkron Mesajlaşma.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>N Tier Mimaride Performans Optimizasyonu ve Gecikme Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi/</guid>
+      <description>&lt;p&gt;Modern kurumsal yazılım geliştirme süreçlerinde N-Tier (çok katmanlı) mimari, sürdürülebilirlik ve kodun ayrıştırılması adına endüstri standardı haline gelmiştir. Ancak, uygulamanın mantıksal veya fiziksel olarak sunum (presentation), iş mantığı (business logic) ve veri erişim (data access) katmanlarına ayrılması, kaçınılmaz olarak &amp;ldquo;katmanlar arası gecikme&amp;rdquo; (inter-layer latency) fenomenini beraberinde getirir. .NET 8.0 ekosistemi, sunduğu düşük seviyeli iyileştirmeler ve modern runtime yetenekleriyle bu mimari maliyetleri minimize etmek için güçlü araçlar sağlamaktadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/n-tier-mimaride-performans-optimizasyonu-ve-gecikme-yonetimi.png&#34;&#xA;    alt=&#34;N Tier Mimaride Performans Optimizasyonu ve Gecikme Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: N Tier Mimaride Performans Optimizasyonu ve Gecikme Yönetimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi</title>
+      <link>https://abdulkadirgungor.com/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</guid>
+      <description>&lt;p&gt;Yazılım mimarilerinde nesne oluşturma ve bu nesnelerin birbirleriyle olan ilişkilerini yönetme süreci, projenin ölçeklenebilirliği ve sürdürülebilirliği açısından kritik bir öneme sahiptir. Modern yazılım geliştirme pratiklerinde, sınıfların kendi bağımlılıklarını kendilerinin oluşturması (tight coupling), kodun test edilebilirliğini zorlaştırır ve esnekliğini azaltır. Bu sorunu aşmak için kullanılan &lt;strong&gt;Inversion of Control (IoC)&lt;/strong&gt; prensibi ve bu prensibin en yaygın uygulama biçimi olan &lt;strong&gt;Dependency Injection (DI)&lt;/strong&gt;, nesne yönetimini merkezi bir yapıya devreder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/inversion-of-control-%28ioc%29-containers-bagimlilik-enjeksiyonu-%28di%29-yasam-dongusu-yonetimi.png&#34;&#xA;    alt=&#34;Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Inversion of Control (IoC) Containers: Bağımlılık Enjeksiyonu (DI) Yaşam Döngüsü Yönetimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar</title>
+      <link>https://abdulkadirgungor.com/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</guid>
+      <description>&lt;p&gt;C# ve .NET ekosisteminde veri erişim katmanı (DAL) tasarımı, genellikle iki kutup arasında gerçekleşir: Tam kapsamlı bir Object-Relational Mapper (ORM) olan &lt;strong&gt;Entity Framework Core (EF Core)&lt;/strong&gt; ve hafif siklet bir &amp;ldquo;Micro-ORM&amp;rdquo; olan &lt;strong&gt;Dapper&lt;/strong&gt;. Kurumsal seviyedeki yüksek trafikli uygulamalarda bu iki teknolojiden birini seçmek yerine, her ikisinin güçlü yönlerinden yararlanan &lt;strong&gt;hibrit mimariler&lt;/strong&gt; kurmak, performans ve sürdürülebilirlik açısından en optimize çözümdür.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar.png&#34;&#xA;    alt=&#34;Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Dapper vs. Entity Framework: Yüksek Performanslı Operasyonlar İçin Hibrit Yaklaşımlar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Asenkron ve Paralel Programlama: Task Parallel Library (TPL) ile &#34;Non-blocking&#34; Mimari Tasarımı</title>
+      <link>https://abdulkadirgungor.com/software/asenkron-ve-paralel-programlama-task-parallel-library-tpl-ile-non-blocking-mimari-tasarimi/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/asenkron-ve-paralel-programlama-task-parallel-library-tpl-ile-non-blocking-mimari-tasarimi/</guid>
+      <description>&lt;p&gt;Modern yazılım dünyasında, özellikle yoğun I/O işlemleri ve karmaşık hesaplama algoritmaları söz konusu olduğunda, ana iş parçacığının (Main Thread) bloklanması kabul edilemez bir performans darboğazıdır. .NET ekosistemi, bu sorunu aşmak için &lt;strong&gt;Task Parallel Library (TPL)&lt;/strong&gt; ve &lt;code&gt;async/await&lt;/code&gt; desenlerini kullanarak, donanım kaynaklarını optimize eden &amp;ldquo;Non-blocking&amp;rdquo; (bloklamayan) bir mimari sunar. Bu yapı, sadece uygulamanın yanıt verebilirliğini artırmakla kalmaz, aynı zamanda işlemci çekirdeklerinin paralel olarak en yüksek verimle kullanılmasını sağlar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/asenkron-ve-paralel-programlama-task-parallel-library-%28tpl%29-ile-non-blocking-mimari-tasarimi.png&#34;&#xA;    alt=&#34;Asenkron ve Paralel Programlama: Task Parallel Library (TPL) ile &amp;#34;Non-blocking&amp;#34; Mimari Tasarımı&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Asenkron ve Paralel Programlama: Task Parallel Library (TPL) ile &amp;ldquo;Non-blocking&amp;rdquo; Mimari Tasarımı.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

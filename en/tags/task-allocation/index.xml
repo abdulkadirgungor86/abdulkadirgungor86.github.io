@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task-Allocation on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/task-allocation/</link>
+    <description>Recent content in Task-Allocation on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/task-allocation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collective Intelligence and Dynamic Task Allocation in Swarm Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu/</guid>
+      <description>&lt;p&gt;Swarm robotics is a sub-branch of robotics that focuses on decentralized control mechanisms, based on the collective behaviors exhibited by social organisms in nature (ants, bees, or birds). Instead of a single sophisticated robot, the goal is to perform complex tasks through the interaction of a large number of agents with limited capabilities.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/suru-robotik-sistemlerinde-kolektif-zeka-ve-dinamik-gorev-alokasyonu.png&#34;&#xA;    alt=&#34;Collective Intelligence and Dynamic Task Allocation in Swarm Robotic Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Collective Intelligence and Dynamic Task Allocation in Swarm Robotic Systems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql-Server on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/sql-server/</link>
+    <description>Recent content in Sql-Server on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations</title>
+      <link>https://abdulkadirgungor.com/en/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</guid>
+      <description>&lt;p&gt;In the C# and .NET ecosystem, Data Access Layer (DAL) design typically takes place between two poles: &lt;strong&gt;Entity Framework Core (EF Core)&lt;/strong&gt;, a comprehensive Object-Relational Mapper (ORM), and &lt;strong&gt;Dapper&lt;/strong&gt;, a lightweight &amp;ldquo;Micro-ORM.&amp;rdquo; In enterprise-level, high-traffic applications, rather than choosing between these two technologies, building &lt;strong&gt;hybrid architectures&lt;/strong&gt; that leverage the strengths of both is the most optimized solution for performance and sustainability.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar.png&#34;&#xA;    alt=&#34;Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debugging on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/debugging/</link>
+    <description>Recent content in Debugging on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gömülü Sistem Geliştirmede Profesyonel Hata Ayıklama Stratejileri ve Derinlemesine Analiz Teknikleri</title>
+      <link>https://abdulkadirgungor.com/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri/</guid>
+      <description>&lt;p&gt;Gömülü sistemler dünyasında bir hatayı ayıklamak, standart masaüstü yazılımlardan farklı olarak donanım kısıtları, gerçek zamanlı gereksinimler ve sınırlı görünürlük gibi engellerle mücadele etmeyi gerektirir. &amp;ldquo;Kod çalışıyor ama sistem neden kilitleniyor?&amp;rdquo; sorusu, her gömülü yazılım mühendisinin kabusudur. Bu yazıda, modern gömülü sistem projelerinde hataları hızlıca tespit etmek ve sistemi stabilize etmek için kullanılan ileri düzey teknikleri, kod örnekleri ve donanım mimarileri ele alınmıştır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/gomulu-sistem-gelistirmede-profesyonel-hata-ayiklama-stratejileri-ve-derinlemesine-analiz-teknikleri.png&#34;&#xA;    alt=&#34;Gömülü Sistem Geliştirmede Profesyonel Hata Ayıklama Stratejileri ve Derinlemesine Analiz Teknikleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Gömülü Sistem Geliştirmede Profesyonel Hata Ayıklama Stratejileri ve Derinlemesine Analiz Teknikleri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strangler-Fig on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/strangler-fig/</link>
+    <description>Recent content in Strangler-Fig on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/strangler-fig/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies</title>
+      <link>https://abdulkadirgungor.com/en/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;In the software world, agility and Time-to-Market often take precedence over engineering excellence. However, this situation causes systems to eventually get stuck in a &amp;ldquo;Technical Debt&amp;rdquo; quagmire. Once maintaining the existing structure becomes more costly than developing new features, &amp;ldquo;Legacy Modernization&amp;rdquo; becomes an inevitable necessity.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/technical-debt-ve-legacy-modernization-hiz-kalite-ve-modernizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Technical Debt and Legacy Modernization: Speed, Quality, and Modernization Strategies.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-taxonomy-of-technical-debt-and-engineering-impacts&#34;&gt;1. Taxonomy of Technical Debt and Engineering Impacts&lt;/h2&gt;&#xA;&lt;p&gt;Technical debt is not just &amp;ldquo;bad code.&amp;rdquo; This concept, introduced by Ward Cunningham, is the interest that must be paid in the future on technical decisions made consciously or unconsciously.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Observability on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/observability/</link>
+    <description>Recent content in Observability on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 05 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/observability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observability (İzlenebilirlik): Loglama, Metrikler ve Tracing ile Sistem Sağlığı</title>
+      <link>https://abdulkadirgungor.com/software/observability-izlenebilirlik-loglama-metrikler-ve-tracing-ile-sistem-sagligi/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/observability-izlenebilirlik-loglama-metrikler-ve-tracing-ile-sistem-sagligi/</guid>
+      <description>&lt;p&gt;Mikroservis mimarilerinin ve bulut bilişim ekosistemlerinin karmaşıklığı, sistemlerin sadece &amp;ldquo;çalışıyor&amp;rdquo; veya &amp;ldquo;çalışmıyor&amp;rdquo; şeklinde izlenmesini imkansız hale getirmiştir. Geleneksel izleme (monitoring), sistemin dışarıdan görünen çıktılarına odaklanırken; &lt;strong&gt;Observability (İzlenebilirlik)&lt;/strong&gt;, sistemin dahili durumunu ürettiği veriler (telemetri) üzerinden anlamlandırma yeteneğidir. Bir sistemin izlenebilir olması için üç temel sütuna (The Three Pillars) dayanması gerekir: &lt;strong&gt;Loglar, Metrikler ve Tracing (İzleme).&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/observability-%28izlenebilirlik%29-loglama-metrikler-ve-tracing-ile-sistem-sagligi.png&#34;&#xA;    alt=&#34;Observability (İzlenebilirlik): Loglama, Metrikler ve Tracing ile Sistem Sağlığı&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Observability (İzlenebilirlik): Loglama, Metrikler ve Tracing ile Sistem Sağlığı.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

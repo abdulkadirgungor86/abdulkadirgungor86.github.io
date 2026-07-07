@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>V8-Engine on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/v8-engine/</link>
+    <description>Recent content in V8-Engine on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/v8-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JIT (Just-In-Time) Kompilasyon Süreci: Kodun Makine Dilinde Optimize Edilmesi</title>
+      <link>https://abdulkadirgungor.com/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</guid>
+      <description>&lt;p&gt;Yazılım dünyasında performansın zirvesini temsil eden &lt;strong&gt;JIT (Just-In-Time) Kompilasyon&lt;/strong&gt;, yorumlanan (interpreted) dillerin esnekliği ile derlenen (compiled) dillerin hızını birleştiren hibrit bir mekanizmadır. Modern çalışma zamanı (runtime) ortamlarında, özellikle &lt;strong&gt;JVM (Java Virtual Machine)&lt;/strong&gt;, &lt;strong&gt;.NET CLR (Common Language Runtime)&lt;/strong&gt; ve &lt;strong&gt;V8 Engine&lt;/strong&gt; gibi yapılarda JIT derleyiciler, kodun execution (yürütme) safhasında makine diline dönüştürülmesini ve işlemci mimarisine göre optimize edilmesini sağlar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/jit-%28just-in-time%29-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi.png&#34;&#xA;    alt=&#34;JIT (Just-In-Time) Kompilasyon Süreci: Kodun Makine Dilinde Optimize Edilmesi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: JIT (Just-In-Time) Kompilasyon Süreci: Kodun Makine Dilinde Optimize Edilmesi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

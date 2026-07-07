@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rabbitmq on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/rabbitmq/</link>
+    <description>Recent content in Rabbitmq on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event-Driven Architecture and Asynchronous Messaging in Modern Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s distributed systems, with the transition from monolithic structures to microservice architectures, communication strategies between services have begun to play a decisive role in the scalability and resilience of the system. Traditional HTTP-based (REST or gRPC) synchronous communication models can create a &amp;ldquo;bottleneck,&amp;rdquo; especially in high-traffic scenarios where dependency between services is high. This is precisely where &lt;strong&gt;Event-Driven Architecture (EDA)&lt;/strong&gt; comes in, offering a high-performance working environment by enabling systems to communicate asynchronously.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

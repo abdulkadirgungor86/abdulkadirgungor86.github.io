@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inheritance on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/inheritance/</link>
+    <description>Recent content in Inheritance on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/inheritance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OOP Temelleri: Kapsülleme, Kalıtım, Çok Biçimlilik ve Soyutlama</title>
+      <link>https://abdulkadirgungor.com/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/oop-nin-dort-atlisi-encapsulation-inheritance-polymorphism-ve-abstraction-ile-sistem-tasarimi/</guid>
+      <description>&lt;p&gt;Nesne Yönelimli Programlama (Object-Oriented Programming - OOP), karmaşık yazılım sistemlerini yönetilebilir, sürdürülebilir ve genişletilebilir parçalara ayırmak için kullanılan en temel paradigmadır. Modern sistem tasarımında bu dört temel ilke—Encapsulation, Inheritance, Polymorphism ve Abstraction—yazılımın iskeletini oluşturur.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/oop-encapsulation-inheritance-polymorphism-ve-abstraction.png&#34;&#xA;    alt=&#34;OOP Temelleri: Kapsülleme, Kalıtım, Çok Biçimlilik ve Soyutlama&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: OOP Temelleri: Kapsülleme, Kalıtım, Çok Biçimlilik ve Soyutlama.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-abstraction-soyutlama-sistemin-karmaşıklığını-gizlemek&#34;&gt;1. Abstraction (Soyutlama): Sistemin Karmaşıklığını Gizlemek&lt;/h2&gt;&#xA;&lt;p&gt;Abstraction, bir nesnenin sadece dış dünyaya sunduğu fonksiyonelliğe odaklanmak, nesnenin bu işi &amp;ldquo;nasıl&amp;rdquo; yaptığına dair içsel detayları gizlemektir. Sistem tasarımında soyutlama, bağımlılıkları (coupling) azaltmak için en kritik araçtır.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

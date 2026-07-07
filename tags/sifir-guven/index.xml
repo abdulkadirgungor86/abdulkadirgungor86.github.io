@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sifir-Guven on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/sifir-guven/</link>
+    <description>Recent content in Sifir-Guven on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/sifir-guven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sıfır Güven Mimarisi ile Modern Ağ Stratejileri</title>
+      <link>https://abdulkadirgungor.com/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri/</guid>
+      <description>&lt;p&gt;Geleneksel ağ güvenliği yaklaşımları, uzun yıllar boyunca &amp;ldquo;kale ve hendek&amp;rdquo; (castle-and-moat) mantığına dayanıyordu. Bu yaklaşımda, ağın dışındaki her şey güvensiz, ağın içindeki her şey ise güvenilir kabul ediliyordu. Ancak bulut bilişim, uzaktan çalışma ve mobil cihazların yaygınlaşmasıyla birlikte, ağın artık net bir sınırı kalmadı. Sıfır Güven (Zero Trust) mimarisi, bu eski paradigmayı &amp;ldquo;asla güvenme, her zaman doğrula&amp;rdquo; (never trust, always verify) ilkesiyle tamamen değiştiriyor.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/sifir-guven-mimarisi-ile-modern-ag-stratejileri.png&#34;&#xA;    alt=&#34;Sıfır Güven Mimarisi ile Modern Ağ Stratejileri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Sıfır Güven Mimarisi ile Modern Ağ Stratejileri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

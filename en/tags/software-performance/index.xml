@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-Performance on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/software-performance/</link>
+    <description>Recent content in Software-Performance on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/software-performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structural Patterns: System Modernization with Adapter and Facade</title>
+      <link>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</guid>
+      <description>&lt;p&gt;Integrating legacy systems that have accumulated technical debt into modern technologies and making them modular is a critical requirement for sustainability. One of the biggest obstacles encountered during the system modernization process is the incompatibility of the existing codebase with new interfaces and the tight coupling between system components.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Adapter&lt;/strong&gt; and &lt;strong&gt;Facade&lt;/strong&gt; structural design patterns, defined by the Gang of Four (GoF), are fundamental tools used to overcome such architectural bottlenecks. This article examines the in-depth technical analysis, roles in modernization projects, and implementation strategies of both patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Repository and Unit of Work: Creating a Testable Architecture by Abstracting Data Access</title>
+      <link>https://abdulkadirgungor.com/en/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak/</guid>
+      <description>&lt;p&gt;In modern software development processes, keeping the bond between the application&amp;rsquo;s business logic and the data access layer loose (Loose Coupling) is of vital importance for the sustainability of the system. Repository and Unit of Work patterns are the most powerful design patterns used to ensure this separation and manage database operations from a central structure.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/repository-ve-unit-of-work-veri-erisimini-soyutlayarak-test-edilebilir-mimari-olusturmak.png&#34;&#xA;    alt=&#34;Repository and Unit of Work: Creating a Testable Architecture by Abstracting Data Access&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Repository and Unit of Work: Creating a Testable Architecture by Abstracting Data Access.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management</title>
+      <link>https://abdulkadirgungor.com/en/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi/</guid>
+      <description>&lt;p&gt;In modern software architectures, flexibility and extensibility are achieved by relaxing the rigid rules imposed by static typing at runtime. Reflection and Meta-Programming are advanced techniques that allow systems to analyze their own structures, modify them, and exhibit new behaviors during execution.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/reflection-ve-meta-programming-calisma-zamaninda-kod-inceleme-ve-dinamik-nesne-yonetimi.png&#34;&#xA;    alt=&#34;Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Reflection and Meta-Programming: Runtime Code Inspection and Dynamic Object Management&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-reflection-self-discovery-of-the-type-system&#34;&gt;1. Reflection: Self-Discovery of the Type System&lt;/h3&gt;&#xA;&lt;p&gt;Reflection is the ability of a program to examine its own structure (classes, methods, properties, interfaces) at runtime. In static languages (C#, Java), metadata that is normally determined at compile-time becomes queryable at runtime thanks to Reflection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lazy, Eager, and Explicit Loading: Avoiding the &#34;N&#43;1 Problem&#34; with Data Loading Strategies</title>
+      <link>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&#43;1-probleminden-kacinmak/</guid>
+      <description>&lt;p&gt;In modern software architectures, database interactions play a decisive role in the scalability and response time of an application. One of the biggest performance bottlenecks encountered, especially when using Object-Relational Mapping (ORM) tools, is the N+1 Query Problem. To overcome this issue and optimize the data access layer, it is essential to have a deep understanding of Lazy, Eager, and Explicit Loading strategies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/lazy-eager-ve-explicit-loading-veri-yukleme-stratejileriyle-n&amp;#43;1-probleminden-kacinmak.png&#34;&#xA;    alt=&#34;Lazy, Eager, and Explicit Loading: Avoiding the &amp;#34;N&amp;#43;1 Problem&amp;#34; with Data Loading Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Lazy, Eager, and Explicit Loading: Avoiding the &amp;ldquo;N+1 Problem&amp;rdquo; with Data Loading Strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JIT (Just-In-Time) Compilation Process: Optimizing Code in Machine Language</title>
+      <link>https://abdulkadirgungor.com/en/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/jit-just-in-time-kompilasyon-sureci-kodun-makine-dilinde-optimize-edilmesi/</guid>
+      <description>&lt;p&gt;JIT (Just-In-Time) Compilation, representing the pinnacle of performance in the software world, is a hybrid mechanism that combines the flexibility of interpreted languages with the speed of compiled languages. In modern runtime environments, particularly in structures like the JVM (Java Virtual Machine), .NET CLR (Common Language Runtime), and the V8 Engine, JIT compilers ensure that code is converted into machine language and optimized according to the processor architecture during the execution phase.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management</title>
+      <link>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/inversion-of-control-ioc-containers-bagimlilik-enjeksiyonu-di-yasam-dongusu-yonetimi/</guid>
+      <description>&lt;p&gt;In software architectures, the process of creating objects and managing their relationships is critical for project scalability and maintainability. In modern software development practices, classes creating their own dependencies (tight coupling) hinders code testability and reduces flexibility. To overcome this, the &lt;strong&gt;Inversion of Control (IoC)&lt;/strong&gt; principle and its most common implementation, &lt;strong&gt;Dependency Injection (DI)&lt;/strong&gt;, delegate object management to a centralized structure.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/inversion-of-control-%28ioc%29-containers-bagimlilik-enjeksiyonu-%28di%29-yasam-dongusu-yonetimi.png&#34;&#xA;    alt=&#34;Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Inversion of Control (IoC) Containers: Dependency Injection (DI) Lifetime Management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domain-Driven Design (DDD): Putting Business Rules at the Core of Software (Value Objects vs. Entities)</title>
+      <link>https://abdulkadirgungor.com/en/software/domain-driven-design-ddd-is-kurallarini-yazilimin-merkezine-koymak-value-objects-vs-entities/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/domain-driven-design-ddd-is-kurallarini-yazilimin-merkezine-koymak-value-objects-vs-entities/</guid>
+      <description>&lt;p&gt;In the world of software, managing complexity is not just about choosing the right algorithms, but about how you place business logic (domain logic) at the heart of your code. &lt;strong&gt;Domain-Driven Design (DDD)&lt;/strong&gt;, introduced to the literature by Eric Evans, argues that software should focus on the business model rather than technical requirements. Understanding the distinction between &lt;strong&gt;Entities&lt;/strong&gt; and &lt;strong&gt;Value Objects&lt;/strong&gt;, two cornerstones of this approach, is the key to building a sustainable system architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delegates and Events: Architectural Foundations of Event-Driven Programming</title>
+      <link>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</guid>
+      <description>&lt;p&gt;In modern software architectures, minimizing the dependencies between system components (loose coupling) and establishing a flexible communication mechanism is the key to sustainable code. In the C# and .NET ecosystem, the core structures providing this flexibility are &lt;strong&gt;Delegates&lt;/strong&gt; and &lt;strong&gt;Events&lt;/strong&gt;. These structures form the core of the event-driven approach, particularly in areas such as asynchronous programming, user interface (UI) interactions, and microservice communication.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/delegates-ve-events-olay-gudumlu-%28event-driven%29-programlamanin-mimari-temelleri.png&#34;&#xA;    alt=&#34;Delegates and Events: Architectural Foundations of Event-Driven Programming&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Delegates and Events: Architectural Foundations of Event-Driven Programming.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations</title>
+      <link>https://abdulkadirgungor.com/en/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar/</guid>
+      <description>&lt;p&gt;In the C# and .NET ecosystem, Data Access Layer (DAL) design typically takes place between two poles: &lt;strong&gt;Entity Framework Core (EF Core)&lt;/strong&gt;, a comprehensive Object-Relational Mapper (ORM), and &lt;strong&gt;Dapper&lt;/strong&gt;, a lightweight &amp;ldquo;Micro-ORM.&amp;rdquo; In enterprise-level, high-traffic applications, rather than choosing between these two technologies, building &lt;strong&gt;hybrid architectures&lt;/strong&gt; that leverage the strengths of both is the most optimized solution for performance and sustainability.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dapper-vs-entity-framework-yuksek-performansli-operasyonlar-icin-hibrit-yaklasimlar.png&#34;&#xA;    alt=&#34;Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Dapper vs. Entity Framework: Hybrid Approaches for High-Performance Operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cross-Cutting Concerns: Logging and Security with Aspect-Oriented Programming (AOP)</title>
+      <link>https://abdulkadirgungor.com/en/software/cross-cutting-concerns-aspect-oriented-programming-aop-ile-loglama-ve-guvenlik/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cross-cutting-concerns-aspect-oriented-programming-aop-ile-loglama-ve-guvenlik/</guid>
+      <description>&lt;p&gt;In modern software architectures, keeping business logic clean and maintainable is one of the greatest challenges. Functionalities such as logging, security checks, error management, and transaction management, which are interspersed among the code performing the primary functions of an application, are called &amp;ldquo;Cross-Cutting Concerns.&amp;rdquo; These structures are repeated across many different modules of the application and significantly reduce the readability, testability, and modularity of the code.&lt;/p&gt;&#xA;&lt;p&gt;This is where &lt;strong&gt;Aspect-Oriented Programming (AOP)&lt;/strong&gt; comes into play as a powerful paradigm designed to manage these scattered structures from a central point.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder</title>
+      <link>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</guid>
+      <description>&lt;p&gt;In software architecture, object creation processes are a critical threshold for system flexibility and extensibility. &amp;ldquo;Creational Patterns&amp;rdquo; abstract the object creation process, making the system independent of how objects are created, composed, and represented. In this context, the Abstract Factory and Builder patterns stand out as some of the most powerful tools for managing complexity and object hierarchies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi.png&#34;&#xA;    alt=&#34;Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles</title>
+      <link>https://abdulkadirgungor.com/en/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri/</guid>
+      <description>&lt;p&gt;In software performance optimization, the most critical bottleneck is often not computational power, but the speed at which data is delivered to the processor. While modern CPUs have massive processing capacities measured in microseconds, retrieving data from main memory (RAM) is quite slow by comparison. At this point, &amp;ldquo;Cache Friendly&amp;rdquo; coding is the fundamental factor that determines whether a piece of software can reach its theoretical speed limits.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/cpu-cache-friendly-kod-yazimi-spatial-ve-temporal-locality-prensipleri.png&#34;&#xA;    alt=&#34;Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Writing CPU Cache Friendly Code: Spatial and Temporal Locality Principles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments</title>
+      <link>https://abdulkadirgungor.com/en/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi/</guid>
+      <description>&lt;p&gt;With the increasing performance requirements in the software world, fully utilizing the capacity of multi-core processors has become a necessity. Parallel computing and concurrency are key to leveraging this capacity. However, managing threads that attempt to access shared resources simultaneously brings complex scenarios and potential errors.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/concurrency-patterns-multi-thread-ortamlarda-lock-mekanizmalari-ve-race-condition-yonetimi.png&#34;&#xA;    alt=&#34;Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Concurrency Patterns: Lock Mechanisms and Race Condition Management in Multi-thread Environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boxing and Unboxing Costs: Type Conversions in Performance-Critical Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/boxing-ve-unboxing-maliyetleri-performans-kritik-sistemlerde-tip-donusumleri/</guid>
+      <description>&lt;p&gt;In modern programming languages, especially managed languages like C# and Java, the &lt;code&gt;Object&lt;/code&gt; type sits at the top of the type system hierarchy. While this structure allows every type to behave like an object, it creates a significant memory management burden in the background. &lt;strong&gt;Boxing&lt;/strong&gt; and &lt;strong&gt;Unboxing&lt;/strong&gt; operations bridge the gap between Value Types and Reference Types. However, in performance-critical systems (high-frequency trading systems, game engines, or real-time data processing units), these operations are referred to as &amp;ldquo;silent performance killers.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns</title>
+      <link>https://abdulkadirgungor.com/en/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how business logic is organized. Decoupling decision mechanisms from execution mechanisms in complex systems prevents code from evolving into a &amp;ldquo;spaghetti&amp;rdquo; structure. In this context, the &lt;strong&gt;Command&lt;/strong&gt; and &lt;strong&gt;Strategy&lt;/strong&gt; patterns, defined by the Gang of Four (GoF), are the most powerful tools among behavioral patterns for encapsulating business logic.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek.png&#34;&#xA;    alt=&#34;Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Asynchronous and Parallel Programming: Non-blocking Architecture Design with Task Parallel Library (TPL)</title>
+      <link>https://abdulkadirgungor.com/en/software/asenkron-ve-paralel-programlama-task-parallel-library-tpl-ile-non-blocking-mimari-tasarimi/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/asenkron-ve-paralel-programlama-task-parallel-library-tpl-ile-non-blocking-mimari-tasarimi/</guid>
+      <description>&lt;p&gt;In the modern software world, especially when dealing with intensive I/O operations and complex computational algorithms, blocking the main thread is an unacceptable performance bottleneck. The .NET ecosystem offers a &amp;ldquo;Non-blocking&amp;rdquo; architecture that optimizes hardware resources by using the &lt;strong&gt;Task Parallel Library (TPL)&lt;/strong&gt; and &lt;code&gt;async/await&lt;/code&gt; patterns. This structure not only improves the application&amp;rsquo;s responsiveness but also ensures that processor cores are utilized with maximum efficiency in parallel.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/asenkron-ve-paralel-programlama-task-parallel-library-%28tpl%29-ile-non-blocking-mimari-tasarimi.png&#34;&#xA;    alt=&#34;Asynchronous and Parallel Programming: Non-blocking Architecture Design with Task Parallel Library (TPL)&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Asynchronous and Parallel Programming: Non-blocking Architecture Design with Task Parallel Library (TPL).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

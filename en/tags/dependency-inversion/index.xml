@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dependency-Inversion on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/dependency-inversion/</link>
+    <description>Recent content in Dependency-Inversion on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/dependency-inversion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers</title>
+      <link>https://abdulkadirgungor.com/en/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-tight-coupling-koparmak/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how &amp;ldquo;independent&amp;rdquo; the components of the code are. The biggest problem encountered in modern software development processes is that a change made in lower-level modules causes the upper-level business logic to break due to a domino effect. This situation is referred to in software literature as the &lt;strong&gt;Tight Coupling Problematic&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/dependency-inversion-ve-abstraction-katmani-katmanlar-arasi-siki-baglari-%28tight-coupling%29-koparmak.png&#34;&#xA;    alt=&#34;Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Dependency Inversion and Abstraction Layer: Breaking Tight Coupling Between Layers&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takviyeli-Ogrenme on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/takviyeli-ogrenme/</link>
+    <description>Recent content in Takviyeli-Ogrenme on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/takviyeli-ogrenme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otonom Sistemlerin Mühendislik Mimarisi: SLAM, Sensör Füzyonu ve Reinforcement Learning Süreçleri</title>
+      <link>https://abdulkadirgungor.com/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri/</guid>
+      <description>&lt;p&gt;Otonom sistemler, yalnızca mekanik birer yapı olmanın ötesinde, karmaşık algoritmaların ve yüksek yoğunluklu veri işleme süreçlerinin fiziksel dünyayla kusursuz bir uyum içinde çalışmasıdır. Modern robotik mimarileri; algılama, haritalama ve karar verme süreçlerini bir araya getirerek dinamik ortamlarda bağımsız hareket kabiliyeti sunar. Bu yazıda, otonom sistemlerin temel sütunları olan SLAM, Sensör Füzyonu ve Takviyeli Öğrenme (RL) kavramlarını derinlemesine teknik bir perspektifle inceleyeceğiz.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/otonom-sistemlerin-muhendislik-mimarisi-slam-sensor-fuzyonu-ve-reinforcement-learning-surecleri.png&#34;&#xA;    alt=&#34;Otonom Sistemlerin Mühendislik Mimarisi: SLAM, Sensör Füzyonu ve Reinforcement Learning Süreçleri&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Otonom Sistemlerin Mühendislik Mimarisi: SLAM, Sensör Füzyonu ve Reinforcement Learning Süreçleri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

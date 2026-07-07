@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer-Mimarisi on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/transformer-mimarisi/</link>
+    <description>Recent content in Transformer-Mimarisi on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/transformer-mimarisi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Dil Modellerinin Nöral Mimarisi ve Token Seviyesinden Akıl Yürütmeye Uzanan Evrimi</title>
+      <link>https://abdulkadirgungor.com/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</guid>
+      <description>&lt;p&gt;Yapay zeka ekosisteminde son on yılda yaşanan en büyük kırılma, verinin sadece işlenmesi değil, dilin geometrik bir uzayda yeniden inşa edilmesiyle gerçekleşti. Modern Büyük Dil Modelleri (LLMs), ham metin yığınlarını alıp onları çok boyutlu vektör uzaylarında anlamlı ilişkilere dönüştüren devasa birer istatistiksel makinedir. Ancak bu makinelerin &amp;ldquo;düşünüyor&amp;rdquo; gibi görünmesinin ardında, Transformer mimarisinin sunduğu matematiksel zarafet ve ölçekleme yasalarının getirdiği emergent (ortaya çıkan) kabiliyetler yatar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi.png&#34;&#xA;    alt=&#34;Modern Dil Modellerinin Nöral Mimarisi ve Token Seviyesinden Akıl Yürütmeye Uzanan Evrimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Dil Modellerinin Nöral Mimarisi ve Token Seviyesinden Akıl Yürütmeye Uzanan Evrimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Yapay Zekanın Mimari Temelleri ve Algoritmik Stratejiler</title>
+      <link>https://abdulkadirgungor.com/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler/</link>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler/</guid>
+      <description>&lt;p&gt;Yapay zeka dünyası, statik kurallardan dinamik ve öğrenebilen yapılara doğru devasa bir evrim geçirmiştir. Günümüzde ChatGPT gibi modellerin başarısı, sadece ham veri miktarından değil, bu veriyi işleyen Transformer mimarisinin matematiksel zekasından ve pekiştirmeli öğrenme (Reinforcement Learning) ile optimize edilen karar mekanizmalarından kaynaklanmaktadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-yapay-zekanin-mimari-temelleri-ve-algoritmik-stratejiler.png&#34;&#xA;    alt=&#34;Modern Yapay Zekanın Mimari Temelleri ve Algoritmik Stratejiler&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Yapay Zekanın Mimari Temelleri ve Algoritmik Stratejiler.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;kural-tabanlı-sistemlerden-öğrenen-algoritmalara-geçiş&#34;&gt;Kural Tabanlı Sistemlerden Öğrenen Algoritmalara Geçiş&lt;/h3&gt;&#xA;&lt;p&gt;Yapay zekanın erken dönemlerinde hakim olan kural tabanlı (rule-based) sistemler, &amp;ldquo;Eğer A olursa B yap&amp;rdquo; şeklinde formüle edilen deterministik yapılardı. Ancak bu yöntem, karmaşık dünyayı modellemede yetersiz kaldı. Uzman emeğine bağımlılık, esneklik eksikliği ve mahremiyetin korunmasındaki zorluklar, sistemlerin kendi kurallarını veriden çıkarmasını sağlayan makine öğrenmesi modellerine geçişi zorunlu kıldı. Özellikle Nash Dengesi gibi oyun teorisi kavramları, rekabetçi ortamlarda sistemlerin nasıl stabilize olacağını ve rastgelelik (stochasticity) faktörüyle nasıl daha dayanıklı hale geleceğini gösterdi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yapay Zeka Mimarisi ve Geliştirme Süreçlerinde Derinlemesine Teknik Analiz</title>
+      <link>https://abdulkadirgungor.com/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz/</guid>
+      <description>&lt;p&gt;Modern yazılım ekosistemi, geleneksel deterministik algoritmaların ötesine geçerek, olasılıksal hesaplama ve derin öğrenme temelli yapılara evrilmektedir. Bu evrimin merkezinde yer alan modellerin &amp;ldquo;mutfağına&amp;rdquo; girmek, yalnızca hazır API&amp;rsquo;leri çağırmaktan ziyade, altta yatan matematiksel ve mimari yapı taşlarını anlamayı gerektirir. Bu yazıda, Transformer mimarisinden uç birim (Edge) hesaplamaya, mimari tasarım desenlerinden veriye dayalı üretim yöntemlerine kadar geniş bir teknik yelpaze incelenecektir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz.png&#34;&#xA;    alt=&#34;Yapay Zeka Mimarisi ve Geliştirme Süreçlerinde Derinlemesine Teknik Analiz&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Yapay Zeka Mimarisi ve Geliştirme Süreçlerinde Derinlemesine Teknik Analiz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

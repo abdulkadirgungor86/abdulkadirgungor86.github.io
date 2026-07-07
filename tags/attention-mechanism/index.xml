@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Attention-Mechanism on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/attention-mechanism/</link>
+    <description>Recent content in Attention-Mechanism on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/attention-mechanism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Dil Modellerinin Nöral Mimarisi ve Token Seviyesinden Akıl Yürütmeye Uzanan Evrimi</title>
+      <link>https://abdulkadirgungor.com/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi/</guid>
+      <description>&lt;p&gt;Yapay zeka ekosisteminde son on yılda yaşanan en büyük kırılma, verinin sadece işlenmesi değil, dilin geometrik bir uzayda yeniden inşa edilmesiyle gerçekleşti. Modern Büyük Dil Modelleri (LLMs), ham metin yığınlarını alıp onları çok boyutlu vektör uzaylarında anlamlı ilişkilere dönüştüren devasa birer istatistiksel makinedir. Ancak bu makinelerin &amp;ldquo;düşünüyor&amp;rdquo; gibi görünmesinin ardında, Transformer mimarisinin sunduğu matematiksel zarafet ve ölçekleme yasalarının getirdiği emergent (ortaya çıkan) kabiliyetler yatar.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-dil-modellerinin-noral-mimarisi-ve-token-seviyesinden-akil-yurutmeye-uzanan-evrimi.png&#34;&#xA;    alt=&#34;Modern Dil Modellerinin Nöral Mimarisi ve Token Seviyesinden Akıl Yürütmeye Uzanan Evrimi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Dil Modellerinin Nöral Mimarisi ve Token Seviyesinden Akıl Yürütmeye Uzanan Evrimi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Derin Öğrenmenin Anatomisi: Gradyanlardan Dikkat Mekanizmalarına Uzanan Teknik Yolculuk</title>
+      <link>https://abdulkadirgungor.com/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk/</guid>
+      <description>&lt;p&gt;Yapay zekâ dünyasında son on yılda yaşanan devrim, aslında matematiksel optimizasyonun, lineer cebirin ve donanım kabiliyetlerinin mükemmel bir senkronizasyonla bir araya gelmesinin sonucudur. Derin öğrenme, sadece çok katmanlı sinir ağlarından ibaret değildir; o, veriyi temsil etme biçimimizi kökten değiştiren bir mühendislik sanatıdır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-derin-ogrenmenin-anatomisi-gradyanlardan-dikkat-mekanizmalarina-uzanan-teknik-yolculuk.png&#34;&#xA;    alt=&#34;Modern Derin Öğrenmenin Anatomisi: Gradyanlardan Dikkat Mekanizmalarına Uzanan Teknik Yolculuk&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Modern Derin Öğrenmenin Anatomisi: Gradyanlardan Dikkat Mekanizmalarına Uzanan Teknik Yolculuk&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-lineer-sınıflandırmadan-çok-katmanlı-yapılara-geçiş&#34;&gt;1. Lineer Sınıflandırmadan Çok Katmanlı Yapılara Geçiş&lt;/h2&gt;&#xA;&lt;p&gt;Her şey, girdi vektörlerini ağırlık matrisleriyle çarparak bir skor elde ettiğimiz basit bir lineer denklemle başlar. Matematiksel olarak ifade edersek, bir girdi vektörü $x$ için skor $f(x, W) = Wx + b$ şeklinde hesaplanır. Burada $W$ ağırlık matrisini, $b$ ise sapma (bias) terimini temsil eder.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

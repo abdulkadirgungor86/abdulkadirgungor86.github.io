@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System-Design on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/system-design/</link>
+    <description>Recent content in System-Design on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/system-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event-Driven Architecture and Asynchronous Messaging in Modern Systems</title>
+      <link>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/modern-sistemlerde-olay-gudumlu-mimari-ve-asenkron-mesajlasma/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s distributed systems, with the transition from monolithic structures to microservice architectures, communication strategies between services have begun to play a decisive role in the scalability and resilience of the system. Traditional HTTP-based (REST or gRPC) synchronous communication models can create a &amp;ldquo;bottleneck,&amp;rdquo; especially in high-traffic scenarios where dependency between services is high. This is precisely where &lt;strong&gt;Event-Driven Architecture (EDA)&lt;/strong&gt; comes in, offering a high-performance working environment by enabling systems to communicate asynchronously.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes</title>
+      <link>https://abdulkadirgungor.com/en/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti/</guid>
+      <description>&lt;p&gt;The balance between sustainability and scalability in software architecture often revolves around the question of how granular components should be. While the &lt;strong&gt;Single Responsibility Principle (SRP)&lt;/strong&gt; advocates that a module or class should have only one reason to change, the extreme of this principle—&lt;strong&gt;Micro-Modules&lt;/strong&gt;—reduces code to an atomic level. However, like every engineering decision, breaking classes into microscopic pieces carries costs such as abstraction complexity and runtime overhead.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/single-responsibility-ve-mikro-moduller-siniflari-parcalara-ayirmanin-muhendislik-maliyeti.png&#34;&#xA;    alt=&#34;Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Single Responsibility and Micro-Modules: The Engineering Cost of Decomposing Classes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri--isleme-stratejileri/</guid>
+      <description>&lt;p&gt;In the modern data ecosystem, the ultimate limit to performance is no longer storage capacity, but the speed at which data reaches the processor. Developed to overcome Input/Output (I/O) bottlenecks in traditional disk-based (HDD/SSD) systems, in-memory data processing architectures structure data directly in RAM, reducing data access times to the microsecond level.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-veri-mimarilerinde-bellek-ici-hesaplama-ve-dusuk-gecikmeli-veri-isleme-stratejileri.png&#34;&#xA;    alt=&#34;In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: In-Memory Computing and Low-Latency Data Processing Strategies in Modern Data Architectures.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

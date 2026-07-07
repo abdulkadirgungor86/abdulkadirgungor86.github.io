@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model-Fitting on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/model-fitting/</link>
+    <description>Recent content in Model-Fitting on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/model-fitting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Quest for Balance in Model Optimization: A Stability Analysis of Machine Learning from Underfitting to Overfitting</title>
+      <link>https://abdulkadirgungor.com/en/ai/model-optimizasyonunda-denge-arayisi-eksik-uyumdan-asiri-uyuma-makine-ogrenmesinin-kararlilik-analizi/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/model-optimizasyonunda-denge-arayisi-eksik-uyumdan-asiri-uyuma-makine-ogrenmesinin-kararlilik-analizi/</guid>
+      <description>&lt;p&gt;In the modern world of computing, while the terms automation and artificial intelligence are often used interchangeably, these two disciplines reside in different layers from an engineering perspective. Automation is built upon a deterministic structure; it executes specific tasks within the framework of predefined code blocks and algorithmic rules without requiring external intervention. However, as the complexity of systems has increased, these rigid rules have been replaced by artificial intelligence (AI) systems that learn from data and develop dynamic decision-making mechanisms.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

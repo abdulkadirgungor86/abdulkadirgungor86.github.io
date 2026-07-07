@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esp32 on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/esp32/</link>
+    <description>Recent content in Esp32 on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/esp32/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi</title>
+      <link>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</guid>
+      <description>&lt;p&gt;Nesnelerin İnterneti (IoT) ekosisteminde donanım seçimi, bir projenin sürdürülebilirliği, güç tüketimi ve işlem kapasitesi üzerinde doğrudan belirleyici bir rol oynar. Espressif Systems tarafından geliştirilen ESP8266 ve halefi ESP32, düşük maliyetli Wi-Fi entegrasyonu sunarak gömülü sistemler dünyasında devrim yaratmıştır. Ancak bu iki platform, mimari açıdan birbirinden oldukça farklı spektrumları temsil eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi.png&#34;&#xA;    alt=&#34;ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nur-o-link: Uzaktan Kontrollü Robotik Kol ve Araç Sistemi</title>
+      <link>https://abdulkadirgungor.com/blog/github-proje-4-nur-o-link/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/github-proje-4-nur-o-link/</guid>
+      <description>&lt;p&gt;Robotik dünyasında kontrol ve hareket kabiliyeti, sistemlerin işlevselliğini belirleyen en kritik iki faktördür. &lt;strong&gt;Nur-o-link&lt;/strong&gt; projesi, hem hassas bir robotik kol mekanizmasını hem de uzaktan kontrol edilebilir bir araç sistemini birleştirerek, esnek ve çok yönlü bir robotik platform sunmaktadır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-4-nur-o-link.png&#34;&#xA;    alt=&#34;Nur-o-link: Uzaktan Kontrollü Robotik Kol ve Araç Sistemi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Nur-o-link: Uzaktan Kontrollü Robotik Kol ve Araç Sistemi.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-mimari-yaklaşım-hibrit-robotik-tasarım&#34;&gt;1. Mimari Yaklaşım: Hibrit Robotik Tasarım&lt;/h2&gt;&#xA;&lt;p&gt;Nur-o-link, sadece bir araç değil, aynı zamanda fiziksel dünyada görev yapabilen bir manipülatör sistemidir. Proje, aracın hareketliliği ile robotik kolun kavrama ve taşıma yeteneklerini aynı gömülü sistem üzerinde başarıyla entegre eder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gungor-robot-car: ESP32 Kamera Kontrollü Robot Araba</title>
+      <link>https://abdulkadirgungor.com/blog/github-proje-3-gungor-robot-car/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/github-proje-3-gungor-robot-car/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Gungor-robot-car&lt;/strong&gt;, ESP32-WROVER modülü ve kamera modülü kullanılarak tasarlanmış, tarayıcı üzerinden canlı görüntü izleme ve uzaktan hareket kontrolü sağlayan bir robotik araç projesidir.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/github-proje-3-gungor-robot-car.png&#34;&#xA;    alt=&#34;Gungor Kameralı Robot Araba&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Gungor Kameralı Robot Araba.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;1-mimari-yaklaşım&#34;&gt;1. Mimari Yaklaşım&lt;/h2&gt;&#xA;&lt;p&gt;Proje, ESP32&amp;rsquo;nin dahili WiFi yeteneklerini kullanarak bir HTTP sunucusu gibi çalışır. Kullanıcılar, yerel ağ üzerinden tarayıcı tabanlı bir arayüze bağlanarak aracı yönetebilir ve canlı video akışını (MJPEG) görüntüleyebilir.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-teknik-özellikler-ve-donanım&#34;&gt;2. Teknik Özellikler ve Donanım&lt;/h2&gt;&#xA;&lt;p&gt;Projenin temel teknik yapısı şu şekilde yapılandırılmıştır:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IoT Projelerinde Mimari Karar Süreçleri: ESP32 ve ESP8266 Mikrodenetleyicilerinin Teknik Analizi</title>
+      <link>https://abdulkadirgungor.com/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi/</guid>
+      <description>&lt;p&gt;Nesnelerin İnterneti (IoT) ekosisteminde donanım seçimi, bir projenin sürdürülebilirliği, güç tüketimi ve işlem kapasitesi üzerinde doğrudan belirleyici bir rol oynar. Espressif Systems tarafından geliştirilen ESP8266 ve halefi ESP32, düşük maliyetli Wi-Fi entegrasyonu sunarak gömülü sistemler dünyasında devrim yaratmıştır. Ancak bu iki platform, mimari açıdan birbirinden oldukça farklı spektrumları temsil eder.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/iot-projelerinde-mimari-karar-surecleri-esp32-ve-esp8266-mikrodenetleyicilerinin-teknik-analizi.png&#34;&#xA;    alt=&#34;IoT Projelerinde Mimari Karar Süreçleri: ESP32 ve ESP8266 Mikrodenetleyicilerinin Teknik Analizi&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: IoT Projelerinde Mimari Karar Süreçleri: ESP32 ve ESP8266 Mikrodenetleyicilerinin Teknik Analizi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

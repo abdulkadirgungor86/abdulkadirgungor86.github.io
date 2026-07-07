@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abstract-Factory on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/tags/abstract-factory/</link>
+    <description>Recent content in Abstract-Factory on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/tags/abstract-factory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creational Patterns Derinliği: Abstract Factory ve Builder ile Karmaşık Nesne İnşası</title>
+      <link>https://abdulkadirgungor.com/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</guid>
+      <description>&lt;p&gt;Yazılım mimarisinde nesne oluşturma süreçleri, sistemin esnekliği ve genişletilebilirliği açısından kritik bir eşiktir. &amp;ldquo;Creational Patterns&amp;rdquo; (Yaratımsal Desenler), nesnelerin nasıl oluşturulacağını soyutlayarak, sistemi nesnenin nasıl yaratıldığından, kompoze edildiğinden ve sunulduğundan bağımsız hale getirir. Bu bağlamda Abstract Factory ve Builder desenleri, karmaşıklık yönetimi ve nesne hiyerarşileri açısından en güçlü araçlar arasında yer alır.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi.png&#34;&#xA;    alt=&#34;Creational Patterns Derinliği: Abstract Factory ve Builder ile Karmaşık Nesne İnşası&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Şekil 1: Creational Patterns Derinliği: Abstract Factory ve Builder ile Karmaşık Nesne İnşası.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design-Patterns on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/design-patterns/</link>
+    <description>Recent content in Design-Patterns on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structural Patterns: System Modernization with Adapter and Facade</title>
+      <link>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/structural-patterns-adapter-ve-facade-ile-sistem-modernizasyonu/</guid>
+      <description>&lt;p&gt;Integrating legacy systems that have accumulated technical debt into modern technologies and making them modular is a critical requirement for sustainability. One of the biggest obstacles encountered during the system modernization process is the incompatibility of the existing codebase with new interfaces and the tight coupling between system components.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Adapter&lt;/strong&gt; and &lt;strong&gt;Facade&lt;/strong&gt; structural design patterns, defined by the Gang of Four (GoF), are fundamental tools used to overcome such architectural bottlenecks. This article examines the in-depth technical analysis, roles in modernization projects, and implementation strategies of both patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder</title>
+      <link>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi/</guid>
+      <description>&lt;p&gt;In software architecture, object creation processes are a critical threshold for system flexibility and extensibility. &amp;ldquo;Creational Patterns&amp;rdquo; abstract the object creation process, making the system independent of how objects are created, composed, and represented. In this context, the Abstract Factory and Builder patterns stand out as some of the most powerful tools for managing complexity and object hierarchies.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/creational-patterns-derinligi-abstract-factory-ve-builder-ile-karmasik-nesne-insasi.png&#34;&#xA;    alt=&#34;Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Dive into Creational Patterns: Complex Object Construction with Abstract Factory and Builder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns</title>
+      <link>https://abdulkadirgungor.com/en/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek/</guid>
+      <description>&lt;p&gt;Sustainability and flexibility in software architecture are directly related to how business logic is organized. Decoupling decision mechanisms from execution mechanisms in complex systems prevents code from evolving into a &amp;ldquo;spaghetti&amp;rdquo; structure. In this context, the &lt;strong&gt;Command&lt;/strong&gt; and &lt;strong&gt;Strategy&lt;/strong&gt; patterns, defined by the Gang of Four (GoF), are the most powerful tools among behavioral patterns for encapsulating business logic.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/behavioral-patterns-command-ve-strategy-desenleri-ile-is-mantigini-kapsullemek.png&#34;&#xA;    alt=&#34;Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Behavioral Patterns: Encapsulating Business Logic with Command and Strategy Patterns.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

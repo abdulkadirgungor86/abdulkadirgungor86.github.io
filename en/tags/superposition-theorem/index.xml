@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Superposition-Theorem on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/superposition-theorem/</link>
+    <description>Recent content in Superposition-Theorem on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/superposition-theorem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits</title>
+      <link>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi/</guid>
+      <description>&lt;p&gt;The Superposition Theorem, one of the cornerstones of electrical and electronics engineering, is a mathematical approach that reduces complex circuit networks into solvable parts. Especially in linear circuits containing multiple independent voltage or current sources, isolating the individual effect of each source on the system is of critical importance in design and analysis processes.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/superpozisyon-teoremi-ve-cok-kaynakli-lineer-devrelerin-analitik-incelenmesi.png&#34;&#xA;    alt=&#34;Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Superposition Theorem and Analytical Investigation of Multi-Source Linear Circuits.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

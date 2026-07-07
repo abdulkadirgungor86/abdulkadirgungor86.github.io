@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multicast-Delegate on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/multicast-delegate/</link>
+    <description>Recent content in Multicast-Delegate on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/multicast-delegate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delegates and Events: Architectural Foundations of Event-Driven Programming</title>
+      <link>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/software/delegates-ve-events-olay-gudumlu-event-driven-programlamanin-mimari-temelleri/</guid>
+      <description>&lt;p&gt;In modern software architectures, minimizing the dependencies between system components (loose coupling) and establishing a flexible communication mechanism is the key to sustainable code. In the C# and .NET ecosystem, the core structures providing this flexibility are &lt;strong&gt;Delegates&lt;/strong&gt; and &lt;strong&gt;Events&lt;/strong&gt;. These structures form the core of the event-driven approach, particularly in areas such as asynchronous programming, user interface (UI) interactions, and microservice communication.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/software/delegates-ve-events-olay-gudumlu-%28event-driven%29-programlamanin-mimari-temelleri.png&#34;&#xA;    alt=&#34;Delegates and Events: Architectural Foundations of Event-Driven Programming&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Delegates and Events: Architectural Foundations of Event-Driven Programming.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

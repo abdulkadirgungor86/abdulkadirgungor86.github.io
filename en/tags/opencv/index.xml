@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opencv on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/opencv/</link>
+    <description>Recent content in Opencv on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems</title>
+      <link>https://abdulkadirgungor.com/en/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri/</guid>
+      <description>&lt;p&gt;The core pillars of modern robotic systems—object recognition and grasping processes—are shifting away from traditional computer vision methods and are being built entirely on Deep Learning architectures. For a robot to interact with the physical world, it must not only know the coordinates of an object but also analyze the object&amp;rsquo;s geometric structure, material properties, and approach angles.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/blog/otonom-robotik-sistemlerde-derin-ogrenme-temelli-nesne-algilama-ve-manipulasyon-teknikleri.png&#34;&#xA;    alt=&#34;Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Deep Learning-Based Object Detection and Manipulation Techniques in Autonomous Robotic Systems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

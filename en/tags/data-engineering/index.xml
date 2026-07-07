@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-Engineering on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/data-engineering/</link>
+    <description>Recent content in Data-Engineering on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Analytical Modeling and Algorithmic Visualization Strategies in High-Dimensional Data Spaces</title>
+      <link>https://abdulkadirgungor.com/en/ai/yuksek-boyutlu-veri-uzaylarinda-gelismis-analitik-modelleme-ve-algoritmik-gorsellestirme-stratejileri/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/yuksek-boyutlu-veri-uzaylarinda-gelismis-analitik-modelleme-ve-algoritmik-gorsellestirme-stratejileri/</guid>
+      <description>&lt;p&gt;In the modern data science ecosystem, the process of refining raw data into strategic insights requires the integration of advanced statistical methods, linear algebra operations, and sophisticated software architectures. Data analytics is not just a descriptive process; it is also a computational optimization problem.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/yuksek-boyutlu-veri-uzaylarinda-gelismis-analitik-modelleme-ve-algoritmik-gorsellestirme-stratejileri.png&#34;&#xA;    alt=&#34;Advanced Analytical Modeling and Algorithmic Visualization Strategies in High-Dimensional Data Spaces&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Advanced Analytical Modeling and Algorithmic Visualization Strategies in High-Dimensional Data Spaces.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-data-preprocessing-and-engineering-algorithmic-approaches&#34;&gt;1. Data Preprocessing and Engineering: Algorithmic Approaches&lt;/h3&gt;&#xA;&lt;p&gt;The quality of the dataset is the most fundamental element determining the success of the model. Models built on noisy data are doomed to fail based on the &amp;ldquo;garbage in, garbage out&amp;rdquo; principle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In-Depth Technical Analysis of AI Architecture and Development Processes</title>
+      <link>https://abdulkadirgungor.com/en/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz/</guid>
+      <description>&lt;p&gt;The modern software ecosystem is evolving beyond traditional deterministic algorithms toward structures based on probabilistic computing and deep learning. Entering the &amp;ldquo;kitchen&amp;rdquo; of the models at the center of this evolution requires understanding the underlying mathematical and architectural building blocks, rather than just calling ready-made APIs. This article examines a wide technical spectrum, from Transformer architecture to edge computing, architectural design patterns, and data-driven generation methods.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/yapay-zeka-mimarisi-ve-gelistirme-sureclerinde-derinlemesine-teknik-analiz.png&#34;&#xA;    alt=&#34;In-Depth Technical Analysis of AI Architecture and Development Processes&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: In-Depth Technical Analysis of AI Architecture and Development Processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reinforcement Learning: Dynamic Decision Mechanisms and the Mathematics of Autonomous Systems</title>
+      <link>https://abdulkadirgungor.com/en/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi/</guid>
+      <description>&lt;p&gt;Reinforcement Learning (RL) is a discipline in the machine learning hierarchy that is sharply distinguished from supervised and unsupervised learning, based on the &amp;ldquo;trial-and-error&amp;rdquo; mechanism in behavioral psychology. Rather than recognizing patterns in static datasets, RL optimizes the sequence of actions an agent takes in an uncertain environment to maximize cumulative reward.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/pekistirmeli-ogrenme-dinamik-karar-mekanizmalari-ve-otonom-sistemlerin-matematigi.png&#34;&#xA;    alt=&#34;Reinforcement Learning: Dynamic Decision Mechanisms and the Mathematics of Autonomous Systems&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Reinforcement Learning: Dynamic Decision Mechanisms and the Mathematics of Autonomous Systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Data Engineering: Scalable Pipeline Architectures and Analytical Transformation Strategies</title>
+      <link>https://abdulkadirgungor.com/en/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s data ecosystems, the transformation of raw data from an unprocessed heap into a strategic asset relies on the integration of complex systems. This process requires not only moving data from one point to another but also transforming it with low latency and high accuracy, while preserving the semantic structure of the data.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/modern-veri-muhendisligi-olceklenebilir-pipeline-mimarileri-ve-analitik-donusum-stratejileri.png&#34;&#xA;    alt=&#34;Modern Data Engineering: Scalable Pipeline Architectures and Analytical Transformation Strategies&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Modern Data Engineering: Scalable Pipeline Architectures and Analytical Transformation Strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advanced Data Preprocessing and Algorithmic Optimization Strategies in Machine Learning Pipelines</title>
+      <link>https://abdulkadirgungor.com/en/ai/makine-ogrenmesi-boru-hatlarinda-ileri-duzey-veri-on-isleme-ve-algoritmik-optimizasyon-stratejileri/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/makine-ogrenmesi-boru-hatlarinda-ileri-duzey-veri-on-isleme-ve-algoritmik-optimizasyon-stratejileri/</guid>
+      <description>&lt;p&gt;In modern data science and machine learning pipelines, processing raw data and preparing it for the modeling stage constitutes approximately 80% of the total project time. In this process, it is essential not only to call library functions but also to understand the statistical distribution of the data and the mathematical expectations of the algorithms. Below, advanced data analytics processes are covered comprehensively with technical details and application code.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/makine-ogrenmesi-boru-hatlarinda-ileri-duzey-veri-on-isleme-ve-algoritmik-optimizasyon-stratejileri.png&#34;&#xA;    alt=&#34;Advanced Data Preprocessing and Algorithmic Optimization Strategies in Machine Learning Pipelines&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Advanced Data Preprocessing and Algorithmic Optimization Strategies in Machine Learning Pipelines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advanced Data Science Strategies: Graph Analytics, Synthetic Data, and XAI Architectures</title>
+      <link>https://abdulkadirgungor.com/en/ai/ileri-veri-bilimi-stratejileri-graf-analitigi-sentetik-veri-ve-xai-mimarileri/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/ileri-veri-bilimi-stratejileri-graf-analitigi-sentetik-veri-ve-xai-mimarileri/</guid>
+      <description>&lt;p&gt;In the current data science ecosystem, moving beyond standard regression or classification models to focus on the structural, derived, and explainable dimensions of data forms the foundation of modern analytical strategies. In this article, we will delve into the analysis of complex network structures, synthetic data generation to counter data scarcity, and Explainable AI (XAI) techniques that ensure model transparency.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/ileri-veri-bilimi-stratejileri-graf-analitigi-sentetik-veri-ve-xai-mimarileri.png&#34;&#xA;    alt=&#34;Advanced Data Science Strategies: Graph Analytics, Synthetic Data, and XAI Architectures&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Advanced Data Science Strategies: Graph Analytics, Synthetic Data, and XAI Architectures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unsupervised Learning: The Hidden Geometry of Data and Algorithmic Discovery Techniques</title>
+      <link>https://abdulkadirgungor.com/en/ai/denetimsiz-ogrenme-verinin-gizli-geometrisi-ve-algoritmik-kesif-teknikleri/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/denetimsiz-ogrenme-verinin-gizli-geometrisi-ve-algoritmik-kesif-teknikleri/</guid>
+      <description>&lt;p&gt;Unsupervised Learning is one of the most sophisticated and exploratory fields of data science. Unlike traditional supervised learning methodologies, here the system derives meaningful correlations by analyzing the topological structure and statistical distribution of raw data without the aid of a &amp;ldquo;teacher&amp;rdquo; (target labels). This article examines a broad technical spectrum, from clustering algorithms to dimensionality reduction techniques, and from modern library implementations to the underlying mathematical background.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://abdulkadirgungor.com/images/ai/denetimsiz-ogrenme-verinin-gizli-geometrisi-ve-algoritmik-kesif-teknikleri.png&#34;&#xA;    alt=&#34;Unsupervised Learning: The Hidden Geometry of Data and Algorithmic Discovery Techniques&#34; width=&#34;1200&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Figure 1: Unsupervised Learning: The Hidden Geometry of Data and Algorithmic Discovery Techniques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Optimization and Applied Algorithm Strategies in Supervised Learning Architecture</title>
+      <link>https://abdulkadirgungor.com/en/ai/denetimli-ogrenme-mimarisinde-matematiksel-optimizasyon-ve-uygulamali-algoritma-stratejileri/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/denetimli-ogrenme-mimarisinde-matematiksel-optimizasyon-ve-uygulamali-algoritma-stratejileri/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Supervised Learning&lt;/strong&gt;, the cornerstone of the artificial intelligence and machine learning universe, is essentially a function approximation problem. The system utilizes structured datasets to learn the underlying relationship between input vectors ($x$) and target labels ($y$). In this process, the fundamental goal is to capture patterns in the training data to ensure that the model can make generalizations with the lowest possible error rate on data it has never encountered before.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
