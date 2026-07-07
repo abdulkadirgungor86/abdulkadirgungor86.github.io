@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://abdulkadirgungor.com/sitemap.xml
