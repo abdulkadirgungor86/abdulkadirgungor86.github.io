@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Masaüstünde Bir Davetsiz Misafir: Python ile Sanal Kedi ve Fare Takip Uygulaması</title>
+      <link>https://abdulkadirgungor.com/blog/kedi-top-takibi-python-uygulama/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/blog/kedi-top-takibi-python-uygulama/</guid>
+      <description>&lt;p&gt;Her şey, kız kardeşimin iş yerinde mola verirken izlediği bir videoyu bana göstermesiyle başladı. Videoda masaüstünde pürüzsüz bir odaklanmayla imleci takip eden sevimli bir sanal kedi animasyonu vardı. &amp;ldquo;Bunu bizim bilgisayarlar için yapabilir miyiz?&amp;rdquo; sorusu atılınca, bir yazılımcı olarak kolları sıvamamak olmazdı.&lt;/p&gt;&#xA;&lt;p&gt;Sonuçta ortaya; farenizin ucuna eklenen büyük, beyaz bir topu ekran boyunca bıkmadan usanmadan kovalayan sanal bir kedi simülasyonu çıktı. Tamamen açık kaynaklı ve eğlenceli bir proje oldu ancak en baştan küçük bir uyarı yapmakta fayda var: Ekranda sürekli imlecinizi yakalamaya çalışan dijital bir kedinin varlığı odaklanmayı biraz zorlaştırabilir. Bir de tarafımdan özellikle &lt;strong&gt;iş bilgisayarlarında kurulup kullanılması kesinlikle tavsiye edilmez!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ESP32 ile IoT Dünyasına Giriş Sıfırdan İleri Seviyeye Proje Geliştirme Rehberi</title>
       <link>https://abdulkadirgungor.com/blog/esp32-ile-iot-dunyasina-giris-sifirdan-ileri-seviyeye-proje-gelistirme-rehberi/</link>

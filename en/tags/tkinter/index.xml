@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tkinter on Abdulkadir Güngör</title>
+    <link>https://abdulkadirgungor.com/en/tags/tkinter/</link>
+    <description>Recent content in Tkinter on Abdulkadir Güngör</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abdulkadirgungor.com/en/tags/tkinter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Intruder on the Desktop: Virtual Cat and Mouse Chase Application with Python</title>
+      <link>https://abdulkadirgungor.com/en/blog/kedi-top-takibi-python-uygulama/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/blog/kedi-top-takibi-python-uygulama/</guid>
+      <description>&lt;p&gt;It all started when my sister showed me a video she was watching while taking a break at work. In the video, there was a cute virtual cat animation following the cursor with smooth focus on the desktop. When she threw out the question, &amp;ldquo;Can we make this for our computers?&amp;rdquo;, as a software developer, it was impossible not to roll up my sleeves.&lt;/p&gt;&#xA;&lt;p&gt;The result is a virtual cat simulation that tirelessly chases a large white ball attached to the tip of your mouse across the screen. It turned out to be a completely open-source and fun project, but it&amp;rsquo;s worth giving a small warning right from the start: the presence of a digital cat constantly trying to catch your cursor on the screen might make it a bit difficult to focus. Also, a personal note from me: &lt;strong&gt;it is strictly not recommended to install and use it on work computers!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

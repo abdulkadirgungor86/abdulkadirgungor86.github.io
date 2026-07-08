@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -39,6 +39,93 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://abdulkadirgungor.com/en/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/blog/kedi-top-takibi-python-uygulama/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/blog/kedi-top-takibi-python-uygulama/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/blog/kedi-top-takibi-python-uygulama/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/blog/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/blog/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/blog/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/blog/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/entertainment/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/open-source/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/python/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/python/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/simulation/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/en/tags/tkinter/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/tkinter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/tkinter/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/software/abstract-class-vs-interface-derinlemesine-teknik-analiz-ve-mimari-karar-surecleri/</loc>
@@ -157,19 +244,6 @@
                 href="https://abdulkadirgungor.com/en/tags/solid/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/data-science/</loc>
     <lastmod>2026-06-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -201,19 +275,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/programming-language/</loc>
     <lastmod>2026-06-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/python/</loc>
-    <lastmod>2026-06-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/python/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/python-development/</loc>
     <lastmod>2026-06-25T00:00:00+00:00</lastmod>
@@ -258,32 +319,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://abdulkadirgungor.com/en/tags/arduino-ide/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/blog/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/blog/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/blog/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/blog/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/bluetooth/</loc>
@@ -2076,9 +2111,6 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/mechatronics/</loc>
-    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/en/tags/simulation/</loc>
     <lastmod>2026-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/en/tags/soft-robotics/</loc>
