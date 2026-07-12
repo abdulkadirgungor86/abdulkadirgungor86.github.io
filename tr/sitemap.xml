@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,10 +42,10 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/acik-kaynak/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/blog/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -58,7 +58,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/blog/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -70,11 +70,36 @@
                 href="https://abdulkadirgungor.com/tags/blog/"
                 />
   </url><url>
+    <loc>https://abdulkadirgungor.com/tags/cat/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/cat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/cat/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/catlovers/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/coklu-dil/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdulkadirgungor.com/tags/eglence/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/kedi/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/kediseverler/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/blog/kedi-top-takibi-python-uygulama/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -87,7 +112,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/python/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -100,10 +125,10 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/simulasyon/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -116,7 +141,7 @@
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/tkinter/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

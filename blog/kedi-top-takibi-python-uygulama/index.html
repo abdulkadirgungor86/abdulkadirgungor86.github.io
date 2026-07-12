@@ -26,13 +26,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <title>Masaüstünde Bir Davetsiz Misafir: Python ile Sanal Kedi ve Fare Takip Uygulaması | Abdulkadir Güngör</title>
-<meta name="description" content="Tkinter ve pyautogui ile hayata geçirilen bu zarif simülasyon, fare imlecinizin peşinden koşan 3B efektli bir topu ve onu yumuşak animasyonlarla kovalayan sevimli, Chibi tarzı bir kediyi masaüstünüze konuk eder. Uzun süre hareketsiz kaldığında estetik konuşma balonlarıyla size fısıldayan bu sevimli dost, arkasındaki pencerelere dokunmanızı engellemeyen tıklama geçirgenliği ve asenkron mırlama sesiyle dijital çalışma alanınıza sıcak bir neşe katar." />
+<meta name="description" content="Tkinter ve pyautogui ile hayata geçirilen bu zarif simülasyon, fare imlecinizin peşinden koşan 3B efektli bir topu ve onu yumuşak animasyonlarla kovalayan sevimli, Chibi tarzı bir kediyi masaüstünüze konuk eder. v2.0.0.0 ile artık tüm monitörlerinizde çalışıyor ve dilinizi Türkçe olarak karşılıyor. Uzun süre hareketsiz kaldığında estetik konuşma balonlarıyla size fısıldayan bu sevimli dost, arkasındaki pencerelere dokunmanızı engellemeyen tıklama geçirgenliği ve asenkron mırlama sesiyle dijital çalışma alanınıza sıcak bir neşe katar." />
 <meta name="author" content="Abdulkadir Güngör" />
 <link rel="canonical" href="https://abdulkadirgungor.com/blog/kedi-top-takibi-python-uygulama/" />
 
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Masaüstünde Bir Davetsiz Misafir: Python ile Sanal Kedi ve Fare Takip Uygulaması | Abdulkadir Güngör" />
-<meta property="og:description" content="Tkinter ve pyautogui ile hayata geçirilen bu zarif simülasyon, fare imlecinizin peşinden koşan 3B efektli bir topu ve onu yumuşak animasyonlarla kovalayan sevimli, Chibi tarzı bir kediyi masaüstünüze konuk eder. Uzun süre hareketsiz kaldığında estetik konuşma balonlarıyla size fısıldayan bu sevimli dost, arkasındaki pencerelere dokunmanızı engellemeyen tıklama geçirgenliği ve asenkron mırlama sesiyle dijital çalışma alanınıza sıcak bir neşe katar." />
+<meta property="og:description" content="Tkinter ve pyautogui ile hayata geçirilen bu zarif simülasyon, fare imlecinizin peşinden koşan 3B efektli bir topu ve onu yumuşak animasyonlarla kovalayan sevimli, Chibi tarzı bir kediyi masaüstünüze konuk eder. v2.0.0.0 ile artık tüm monitörlerinizde çalışıyor ve dilinizi Türkçe olarak karşılıyor. Uzun süre hareketsiz kaldığında estetik konuşma balonlarıyla size fısıldayan bu sevimli dost, arkasındaki pencerelere dokunmanızı engellemeyen tıklama geçirgenliği ve asenkron mırlama sesiyle dijital çalışma alanınıza sıcak bir neşe katar." />
 <meta property="og:url" content="https://abdulkadirgungor.com/blog/kedi-top-takibi-python-uygulama/" />
 
 
@@ -41,7 +41,7 @@
 <meta property="twitter:image" content="https://abdulkadirgungor.com/images/blog/kedi-top-takibi-python-uygulama.png">
 
 
-<meta property="article:published_time" content="2026-07-08T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2026-07-12T00:00:00&#43;00:00" />
 
 <meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:site_name" content="Abdulkadir Güngör" /><meta name="twitter:card" content="summary_large_image" />
 
@@ -783,9 +783,9 @@
         
 		<div class="mt-2 mb-4 flex flex-col items-center justify-center text-center">
 		  <p class="text-base font-semibold text-gray-800 dark:text-gray-200">
-			<time datetime="2026-07-08">
+			<time datetime="2026-07-12">
 			  
-				08 
+				12 
 				Temmuz 
 				2026
 			  
@@ -803,10 +803,29 @@
 </figure>
 
 <hr>
+<h2 id="güncelleme-v2000-geldi-">Güncelleme: v2.0.0.0 Geldi 🎉</h2>
+<p>İlk sürümü paylaştıktan sonra gelen geri bildirimlerin başında iki şey vardı: &ldquo;İkinci monitörümde çalışmıyor&rdquo; ve &ldquo;keşke ayarlarını Türkçe görebilseydim.&rdquo; İkisini de dinledim ve projeyi baştan biraz daha olgun bir hale getirdim. İşte v2.0.0.0 ile gelenler:</p>
+<ul>
+<li><strong>🖥️ Tam Çoklu Monitör Desteği:</strong> Artık kedi ve top yalnızca birincil ekranda değil, bilgisayarınıza bağlı <strong>tüm monitörlerde</strong> çalışıyor. Fareniz hangi ekrana geçerse geçsin, ikili sizi kesintisiz takip ediyor.</li>
+<li><strong>🇹🇷 Uygulama Artık Varsayılan Olarak Türkçe:</strong> Bu benim için özellikle keyifli bir detaydı. Uygulamayı hiçbir ayar değiştirmeden çalıştırdığınızda kedi sizinle <strong>Türkçe</strong> konuşuyor, uyarı ve bilgi mesajları da Türkçe geliyor. İngilizce kullanmak isteyenler için de tam destek mevcut; tek yapmanız gereken bir ayar dosyasındaki tek bir satırı değiştirmek (aşağıda anlatıyorum).</li>
+<li><strong>⚙️ Kaynak Koda Dokunmadan Ayar Yapma:</strong> Kedinin hızı, sıkılma süresi, mırlama sıklığı gibi tüm parametreler artık uygulamanın yanındaki bir <code>settings</code> klasöründen düzenlenebiliyor — Python bilmenize gerek yok, düz bir metin dosyası düzenlemek yeterli.</li>
+<li><strong>📦 Derlenmiş Sürümde Bile Özelleştirme:</strong> Bu ayarlar ve dil dosyaları <code>.exe</code> dosyasının içine gömülü değil; yanına bırakılan <code>settings/</code> klasöründen okunuyor. Yani indirdiğiniz hazır sürümde bile dili veya hızı değiştirmek için Python kurmanıza ya da projeyi yeniden derlemenize gerek yok.</li>
+</ul>
+<h3 id="türkçe-kullanıcılar-için-pratik-not">Türkçe Kullanıcılar İçin Pratik Not</h3>
+<p>Uygulamayı v2.0.0.0 olarak indirip açtığınızda hiçbir şey yapmanıza gerek kalmadan kedi sizinle Türkçe konuşacak — çünkü varsayılan dil Türkçe. İsterseniz İngilizceye geçmek için, indirdiğiniz klasördeki <code>settings/settings.json</code> dosyasını Not Defteri gibi basit bir metin editörüyle açıp içindeki <code>&quot;LANGUAGE&quot;: &quot;tr&quot;</code> satırını <code>&quot;LANGUAGE&quot;: &quot;en&quot;</code> olarak değiştirip uygulamayı yeniden başlatmanız yeterli. Aynı klasördeki <code>lang/</code> alt klasörüne kendi dil dosyanızı (örneğin <code>de.json</code>) ekleyip aynı ayardan referans vererek başka diller de tanımlayabilirsiniz.</p>
+<figure><img src="/images/blog/kedi-top-takibi-python-uygulama.png"
+    alt="Kedi Top Takibi v2 Ayarlar ve Dil Dosyaları" width="1200"><figcaption>
+      <p>Şekil 2: settings/ klasörü — ayarlar ve dil dosyaları kaynak koddan bağımsız.</p>
+    </figcaption>
+</figure>
+
+<hr>
 <h2 id="projenin-arkasındaki-mantık-ve-geliştirme-süreci">Projenin Arkasındaki Mantık ve Geliştirme Süreci</h2>
 <p>Ekrandaki bir sanal karakterin, kullanıcının fare hareketlerine gerçek zamanlı ve pürüzsüz bir şekilde tepki vermesini sağlamak projenin en keyifli kısmıydı. Kedinin hareketi sadece farenin koordinatlarına ışınlanmaktan ibaret olsaydı tüm doğallığı kaybolurdu.</p>
 <h3 id="dinamik-takip-algoritması">Dinamik Takip Algoritması</h3>
 <p>Kedinin farenin ucundaki büyük beyaz topa doğru koşarken sergilediği ivmelenme, yavaşlama ve dönüş açıları matematiksel bir takip algoritmasına dayanıyor. Fareyi aniden kaçırdığınızda kedinin de hızlanması, imlece yaklaştığında ise yavaşlayarak durması simülasyona organik bir hava katıyor. Python&rsquo;ın görüntüleme ve arayüz yeteneklerini kullanarak bu pürüzsüz hareket yapısını kurmayı başardım.</p>
+<h3 id="çoklu-monitör-meselesi">Çoklu Monitör Meselesi</h3>
+<p>v1&rsquo;de kedi ve top yalnızca birincil ekranın sınırları içinde kalıyordu; fareyi ikinci monitöre götürdüğünüzde ikili ortada kayboluyordu. v2 ile birlikte, sisteme bağlı tüm ekranların koordinatlarını tarayıp kediyi ve topu farenin bulunduğu monitöre göre konumlandıran bir mantık ekledim. Windows&rsquo;ta bu iş kutudan çıkar çıkmaz çalışıyor; Linux ve macOS&rsquo;ta ise isteğe bağlı <code>screeninfo</code> kütüphanesiyle aynı deneyimi sunuyor.</p>
 <h3 id="açık-kaynak-gücü-ve-github-ailesi">Açık Kaynak Gücü ve GitHub Ailesi</h3>
 <p>Projenin herkes tarafından geliştirilebilmesi, kediye yeni hareket animasyonları eklenmesi veya takip nesnesinin özelleştirilebilmesi için kodları tamamen açık kaynak olarak paylaştım. Kodun ham haline ve mimarisine doğrudan GitHub deposu üzerinden erişebilirsiniz.</p>
 <blockquote>
@@ -814,11 +833,12 @@
 </blockquote>
 <hr>
 <h2 id="kurulum-ve-doğrudan-çalıştırma-hızlı-başlangıç">Kurulum ve Doğrudan Çalıştırma (Hızlı Başlangıç)</h2>
-<p>Projeyi bilgisayarınızda denemek için Python ortamı kurup kütüphanelerle boğuşmanıza gerek yok. Teknik detaylara girmeden doğrudan masaüstüne sanal bir evcil hayvan ortak etmek isteyenler için uygulamanın derlenmiş bir sürümünü hazırladım.</p>
-<p>Aşağıdaki bağlantıdan doğrudan <code>.exe</code> uzantılı çalıştırılabilir dosyayı indirebilir ve tek tıkla oyunu başlatabilirsiniz:</p>
+<p>Projeyi bilgisayarınızda denemek için Python ortamı kurup kütüphanelerle boğuşmanıza gerek yok. Teknik detaylara girmeden doğrudan masaüstüne sanal bir evcil hayvan konuk etmek isteyenler için uygulamanın derlenmiş sürümlerini hazırladım.</p>
 <blockquote>
-<p>🚀 <strong>Doğrudan İndir (v1.0.0.0):</strong> <a href="https://github.com/abdulkadirgungor86/KediTopTakibi/releases/download/v1.0.0.0/KediTopTakibi.exe">KediTopTakibi.exe</a></p>
+<p>🚀 <strong>Doğrudan İndir (v2.0.0.0 — Güncel, Çoklu Monitör &amp; Çoklu Dil Destekli):</strong> <a href="https://github.com/abdulkadirgungor86/KediTopTakibi/releases/download/v2.0.0.0/KediTopTakibi.zip">KediTopTakibi.zip</a></p>
+<p>🕰️ <strong>Önceki Sürüm (v1.0.0.0):</strong> <a href="https://github.com/abdulkadirgungor86/KediTopTakibi/releases/download/v1.0.0.0/KediTopTakibi.exe">KediTopTakibi.exe</a></p>
 </blockquote>
+<p>v2.0.0.0&rsquo;ı indirdiğinizde bir <code>.zip</code> dosyası açılacak; içinde <code>KediTopTakibi.exe</code> ile birlikte bir de <code>settings/</code> klasörü bulacaksınız. Uygulamanın çalışması ve ayarları/dili okuyabilmesi için bu klasörü <strong><code>.exe</code> ile aynı yerde tutmanız</strong> yeterli — başka hiçbir kurulum adımı yok.</p>
 <p><em>(Tekrar hatırlatmakta fayda var; patronunuzun veya iş arkadaşlarınızın arkadan gelip ekranda beyaz bir topun peşinden koşan bir kediyi görmesini istemiyorsanız, bu eğlenceyi evdeki kişisel bilgisayarlarınıza saklamanız daha doğru bir mühendislik kararı olacaktır.)</em></p>
 <hr>
 <h2 id="geliştiriciler-için-kodun-altında-ne-var">Geliştiriciler İçin: Kodun Altında Ne Var?</h2>
@@ -826,9 +846,10 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install pyautogui keyboard
 </span></span><span style="display:flex;"><span>python KediTopTakibi.py
 </span></span></code></pre></div><p>Projede ekran koordinatlarının anlık olarak yakalanması ve yüksek kare hızlarında (FPS) bile kedi figürünün pürüzsüzce çizilmesi için optimizasyonlar uygulandı. Özellikle arka planda çalışırken işlemciyi (CPU) gereksiz yere yormaması ve bilgisayarı kasıp işlerinizi engellememesi adına döngü aralıkları titizlikle optimize edildi.</p>
+<p>Kaynak koddan çalıştıranlar için ayarlar ve diller yine aynı yerde: proje klasöründeki <code>settings/settings.json</code>, <code>settings/lang/tr.json</code> ve <code>settings/lang/en.json</code>. Kodu hiç açmadan, sadece bu dosyaları düzenleyerek kendi sürümünüzü kişiselleştirebilirsiniz.</p>
 <hr>
 <h2 id="sonuç">Sonuç</h2>
-<p>Küçük bir video karesinden ilham alarak başlayan bu minik simülasyon, masaüstünü biraz daha eğlenceli hale getiren tatlı bir projeye dönüştü. Siz de kodu forklayarak projeye yeni mekanikler kazandırabilir, masaüstünüzün yeni misafiriyle olan deneyimlerinizi GitHub, Linkedin ve sosyal medya üzerinden benimle paylaşabilirsiniz!</p>
+<p>Küçük bir video karesinden ilham alarak başlayan bu minik simülasyon, masaüstünü biraz daha eğlenceli hale getiren tatlı bir projeye dönüştü. v2.0.0.0 ile artık hem birden fazla ekranınız olsa da sizi bulabiliyor hem de anadilinizde sizinle sohbet edebiliyor. Siz de kodu forklayarak projeye yeni mekanikler kazandırabilir, masaüstünüzün yeni misafiriyle olan deneyimlerinizi GitHub, Linkedin ve sosyal medya üzerinden benimle paylaşabilirsiniz!</p>
 
         </div>
 		
@@ -858,6 +879,26 @@
 			
 			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
 			  #eglence
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #coklu-dil
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #cat
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #catlovers
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #kedi
+			</span>
+			
+			<span class="bg-slate-200 dark:bg-slate-700 text-text-secondary dark:text-text-tertiary px-3 py-1 rounded-full text-xs font-semibold hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+			  #kediseverler
 			</span>
 			
 		  </div>
