@@ -812,12 +812,6 @@
 <h3 id="for-english-speaking-users-how-to-switch-languages">For English-Speaking Users: How to Switch Languages</h3>
 <p>When you download and run v2.0.0.0, the cat will greet you in Turkish first, since that&rsquo;s the default. To switch to English, open the <code>settings/settings.json</code> file that ships next to the executable in any plain text editor, find the line <code>&quot;LANGUAGE&quot;: &quot;tr&quot;</code>, change it to <code>&quot;LANGUAGE&quot;: &quot;en&quot;</code>, save, and restart the app. That&rsquo;s it — no recompiling, no extra downloads. The English text is already bundled in <code>settings/lang/en.json</code>.</p>
 <p>Want a language other than Turkish or English? Drop a new JSON file into <code>settings/lang/</code> (say, <code>de.json</code> for German), following the same structure as <code>tr.json</code>/<code>en.json</code> — a <code>messages</code> section for in-app text and a <code>bubble_texts</code> section for the cat&rsquo;s 100 idle one-liners — then point <code>LANGUAGE</code> at that file&rsquo;s name in <code>settings.json</code>. The source code doesn&rsquo;t need to change at all.</p>
-<figure><img src="/images/blog/kedi-top-takibi-python-uygulama.png"
-    alt="Kedi Top Takibi v2 settings and language files" width="1200"><figcaption>
-      <p>Figure 2: The settings/ folder — settings and language files, fully decoupled from the source code.</p>
-    </figcaption>
-</figure>
-
 <hr>
 <h2 id="the-logic-behind-the-project-and-the-development-process">The Logic Behind the Project and the Development Process</h2>
 <p>Ensuring that a virtual character on the screen reacts to the user&rsquo;s mouse movements in a real-time and smooth manner was the most enjoyable part of the project. If the cat&rsquo;s movement consisted solely of teleporting to the coordinates of the mouse, all the naturalness would be lost.</p>
