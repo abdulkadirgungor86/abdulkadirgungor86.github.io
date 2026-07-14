@@ -145,9 +145,9 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ## 📄 Lisans / License
 
-**[🇹🇷]** Bu proje kişisel bir portföy sitesidir. Aksi belirtilmedikçe içerik ve tasarım hakları saklıdır.
+[🇹🇷] Bu proje kişisel bir portföy sitesidir. Aksi belirtilmedikçe içerik ve tasarım hakları saklıdır.
 
-**[🇬🇧]** This project is a personal portfolio website. Unless otherwise stated, all content and design rights are reserved.
+[🇬🇧] This project is a personal portfolio website. Unless otherwise stated, all content and design rights are reserved.
 
 ---
 
