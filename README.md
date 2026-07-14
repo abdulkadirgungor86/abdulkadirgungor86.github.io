@@ -151,4 +151,4 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
-<p align="center">⭐ Beğendiyseniz yıldız vermeyi unutmayın! · If you like it, don't forget to star it!</p>
+<p align="center">⭐ Beğendiyseniz yıldız vermeyi unutmayın! / If you like it, don't forget to star it!</p>
