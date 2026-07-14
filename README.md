@@ -12,9 +12,9 @@
 
 [🇬🇧] **Abdulkadir Güngör** — *Full Stack Developer · AI, Data Science & Robotics Specialist · Cybersecurity, OHS & Civil Engineering*
 
-🔗 **[abdulkadirgungor.com](https://abdulkadirgungor.com/)**
+🔗 **[Web site: abdulkadirgungor.com](https://abdulkadirgungor.com/)**
 
-🔗 **[Repo Link](https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io)**
+🔗 **[Repo link: abdulkadirgungor86.github.io](https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io)**
 
 </div>
 
