@@ -14,7 +14,7 @@
 
 🔗 **[abdulkadirgungor.com](https://abdulkadirgungor.com/)**
 
-🔗 **[abdulkadirgungor86.github.io](https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io)**
+🔗 **[Repo Link](https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io)**
 
 </div>
 
