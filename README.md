@@ -115,9 +115,9 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ## 🌍 Yayınlama / Deployment
 
-**[🇹🇷]** Site, `main` dalı üzerinden **GitHub Pages** ile otomatik olarak yayınlanmaktadır. `CNAME` dosyası sayesinde site, özel alan adı olan **[abdulkadirgungor.com](https://abdulkadirgungor.com/)** üzerinden erişilebilir durumdadır.
+[🇹🇷] Site, `main` dalı üzerinden **GitHub Pages** ile otomatik olarak yayınlanmaktadır. `CNAME` dosyası sayesinde site, özel alan adı olan **[abdulkadirgungor.com](https://abdulkadirgungor.com/)** üzerinden erişilebilir durumdadır.
 
-**[🇬🇧]** The site is automatically deployed via **GitHub Pages** from the `main` branch. Thanks to the `CNAME` file, it is accessible through the custom domain **[abdulkadirgungor.com](https://abdulkadirgungor.com/)**.
+[🇬🇧] The site is automatically deployed via **GitHub Pages** from the `main` branch. Thanks to the `CNAME` file, it is accessible through the custom domain **[abdulkadirgungor.com](https://abdulkadirgungor.com/)**.
 
 ---
 
