@@ -14,6 +14,8 @@
 
 🔗 **[abdulkadirgungor.com](https://abdulkadirgungor.com/)**
 
+🔗 **[abdulkadirgungor86.github.io](https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io)**
+
 </div>
 
 ---
@@ -97,29 +99,17 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 | **Barındırma / Hosting** | GitHub Pages (özel alan adı ile / with custom domain) |
 | **Diğer / Other** | Bootstrap, RSS/Atom (`index.xml`), `sitemap.xml` |
 
-> [🇹🇷] **Not:** Bu depo sitenin **derlenmiş çıktısını** içerir (`meta-generator: Hugo`). Hugo kaynak dosyaları (içerik, tema, ayar dosyaları vb.) Abdulkadir Güngör tarafından ayrı, private bir depoda tutulmaktadır.
+> [🇹🇷] **Not:** Bu depo sitenin **derlenmiş çıktısını** içerir (`meta-generator: Hugo`). Go dilinde yazılmış Hugo kaynak dosyaları (içerik, tema, ayar dosyaları vb.) Abdulkadir Güngör tarafından ayrı, private bir depoda tutulmaktadır.
 
-> [🇬🇧] **Note:** *This repository contains the site's **compiled output** (`meta-generator: Hugo`). The Hugo source files (content, theme, configuration, etc.) are maintained by Abdulkadir Güngör in a separate, private repository.*
+> [🇬🇧] **Note:** *This repository contains the compiled output of the site (`meta-generator: Hugo`). The Hugo source files written in Go (content, theme, configuration files, etc.) are kept by Abdulkadir Güngör in a separate, private repository.*
 
 ---
 
 ## 🚀 Yerel Olarak Çalıştırma / Running Locally
 
-[🇹🇷] Bu depo statik HTML/CSS/JS dosyalarından oluştuğu için basit bir HTTP sunucusu ile yerelde önizlenebilir:
+[🇹🇷] Bu depo basit bir HTTP sunucusu ile yerel olarak çalıştırılamaz.
 
-[🇬🇧] *Since this repository consists of static HTML/CSS/JS files, it can be previewed locally with a simple HTTP server:*
-
-```bash
-# Depoyu klonlayın / Clone the repository
-git clone https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io.git
-cd abdulkadirgungor86.github.io
-
-# Python ile basit bir sunucu başlatın / Start a simple server with Python
-python3 -m http.server 8080
-
-# Tarayıcıda açın / Open in your browser
-# http://localhost:8080
-```
+[🇬🇧] *This repository cannot be run locally with a simple HTTP server.*
 
 ---
 
