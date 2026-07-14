@@ -129,7 +129,7 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 [🇹🇷] Full Stack Geliştirici | Yapay Zeka, Veri Bilimi ve Robotik Uzmanı | Siber Güvenlik, İSG ve İnşaat Yüksek Mühendisi
 
-[🇬🇧] Full Stack Developer | AI, Data Science & Robotics Specialist | Cybersecurity, OHS & Civil MSC Engineering
+[🇬🇧] Full Stack Developer | AI, Data Science & Robotics Specialist | Cybersecurity, OHS & MSc in Civil Engineering
 
 📍 İstanbul, Türkiye
 
