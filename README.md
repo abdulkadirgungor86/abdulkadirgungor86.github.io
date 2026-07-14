@@ -44,14 +44,14 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 - 🧰 [🇹🇷] Tech Stack — diller, framework'ler, mühendislik yazılımları
   <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *Tech Stack — languages, frameworks, engineering software*
   
-- 🤖 [🇹🇷] AI bölümü
-  <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *AI section*
+- 🤖 [🇹🇷] AI bölümü - AI hakkında projeler, yazılar ve makaleler
+  <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *AI section - projects, posts and articles about AI*
   
-- 💻 [🇹🇷] Yazılım bölümü — projeler
-  <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *Software section — projects*
+- 💻 [🇹🇷] Yazılım bölümü — Yazılım hakkında projeler, yazılar ve makaleler
+  <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *Software section — projects, posts and articles about Software*
   
-- ✍️ [🇹🇷] Blog — yazılar ve makaleler
-  <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *Blog — posts and articles*
+- ✍️ [🇹🇷] Blog — Tüm konular hakkında projeler, yazılar ve makaleler vb.
+  <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *Blog — projects, posts and articles about all topics*
   
 - 🌍 [🇹🇷] Çok dilli yapı (`/tr`, `/en`)
   <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇬🇧] *Multilingual structure (`/tr`, `/en`)*
