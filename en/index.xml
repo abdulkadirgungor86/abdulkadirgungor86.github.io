@@ -6,8 +6,15 @@
     <description>Recent content on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Engineering vs Loop Engineering: From Single-Shot Answers to Self-Improving Loops in AI</title>
+      <link>https://abdulkadirgungor.com/en/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/</guid>
+      <description>&lt;p&gt;When you ask an AI model a question, you&amp;rsquo;re actually choosing between two different worlds: either you expect the model to produce the correct answer in a single pass, in one breath, or you allow the model to repeatedly review, test, and correct what it has produced. Over the past few years, these two approaches have become separate disciplines known as &amp;ldquo;prompt engineering&amp;rdquo; and &amp;ldquo;loop engineering.&amp;rdquo; The difference between them isn&amp;rsquo;t just a technical preference; it&amp;rsquo;s a balancing act between cost, speed, reliability, and ultimately the quality of the product.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>An Intruder on the Desktop: Virtual Cat and Mouse Chase Application with Python</title>
       <link>https://abdulkadirgungor.com/en/blog/kedi-top-takibi-python-uygulama/</link>

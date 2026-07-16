@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://abdulkadirgungor.com/ai/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/ai/"
+                />
+  </url><url>
     <loc>https://abdulkadirgungor.com/software/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -15,21 +28,8 @@
                 href="https://abdulkadirgungor.com/software/"
                 />
   </url><url>
-    <loc>https://abdulkadirgungor.com/ai/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/ai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/ai/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/</loc>
-    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +40,119 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/"
                 />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/ai/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/ai/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/ai-agents/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/ai-agents/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/ai-agents/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/ai-engineering/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/ai-engineering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/ai-engineering/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/llm/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/llm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/llm/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/loop-engineering/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/loop-engineering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/loop-engineering/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/makine-ogrenmesi/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/otomasyon/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdulkadirgungor.com/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/prompt-engineering/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/prompt-engineering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/prompt-engineering/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://abdulkadirgungor.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://abdulkadirgungor.com/tags/"
+                />
+  </url><url>
+    <loc>https://abdulkadirgungor.com/tags/yapay-zeka/</loc>
+    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/acik-kaynak/</loc>
     <lastmod>2026-07-12T00:00:00+00:00</lastmod>
@@ -126,19 +239,6 @@
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/simulasyon/</loc>
     <lastmod>2026-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/</loc>
-    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/"
-                />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/tkinter/</loc>
     <lastmod>2026-07-12T00:00:00+00:00</lastmod>
@@ -745,32 +845,6 @@
     <loc>https://abdulkadirgungor.com/tags/veritabani-sistemleri/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abdulkadirgungor.com/tags/ai/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/ai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/ai/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/ai-engineering/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/ai-engineering/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/ai-engineering/"
-                />
-  </url><url>
     <loc>https://abdulkadirgungor.com/tags/artificial-intelligence/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -861,9 +935,6 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/machine-learning/"
                 />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/makine-ogrenmesi/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/ai/random-forest-algoritmasinin-teknik-mimarisi-ve-uygulama-prensipleri/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
@@ -1818,9 +1889,6 @@
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/tags/veri-analizi-okulu/"
                 />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/yapay-zeka/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/yapay-zeka-ve-kolaylastirici-araclar/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
@@ -2978,19 +3046,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://abdulkadirgungor.com/ai/buyuk-dil-modellerinin-mimari-derinligi-hizalama-optimizasyon-ve-verimli-uyarlama/"
-                />
-  </url><url>
-    <loc>https://abdulkadirgungor.com/tags/llm/</loc>
-    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://abdulkadirgungor.com/en/tags/llm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://abdulkadirgungor.com/tags/llm/"
                 />
   </url><url>
     <loc>https://abdulkadirgungor.com/tags/lora/</loc>

@@ -6,8 +6,71 @@
     <description>Recent content in Tags on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://abdulkadirgungor.com/tags/ai/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai-Agents</title>
+      <link>https://abdulkadirgungor.com/tags/ai-agents/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/ai-agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai-Engineering</title>
+      <link>https://abdulkadirgungor.com/tags/ai-engineering/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/ai-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://abdulkadirgungor.com/tags/llm/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loop-Engineering</title>
+      <link>https://abdulkadirgungor.com/tags/loop-engineering/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/loop-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Makine-Ogrenmesi</title>
+      <link>https://abdulkadirgungor.com/tags/makine-ogrenmesi/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/makine-ogrenmesi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Otomasyon</title>
+      <link>https://abdulkadirgungor.com/tags/otomasyon/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/otomasyon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Engineering</title>
+      <link>https://abdulkadirgungor.com/tags/prompt-engineering/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yapay-Zeka</title>
+      <link>https://abdulkadirgungor.com/tags/yapay-zeka/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/tags/yapay-zeka/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Acik-Kaynak</title>
       <link>https://abdulkadirgungor.com/tags/acik-kaynak/</link>
@@ -499,20 +562,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>https://abdulkadirgungor.com/tags/ai/</link>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai-Engineering</title>
-      <link>https://abdulkadirgungor.com/tags/ai-engineering/</link>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/ai-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Artificial-Intelligence</title>
       <link>https://abdulkadirgungor.com/tags/artificial-intelligence/</link>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
@@ -559,13 +608,6 @@
       <link>https://abdulkadirgungor.com/tags/machine-learning/</link>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Makine-Ogrenmesi</title>
-      <link>https://abdulkadirgungor.com/tags/makine-ogrenmesi/</link>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/makine-ogrenmesi/</guid>
       <description></description>
     </item>
     <item>
@@ -1112,13 +1154,6 @@
       <link>https://abdulkadirgungor.com/tags/veri-analizi-okulu/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/veri-analizi-okulu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yapay-Zeka</title>
-      <link>https://abdulkadirgungor.com/tags/yapay-zeka/</link>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/yapay-zeka/</guid>
       <description></description>
     </item>
     <item>
@@ -1973,13 +2008,6 @@
       <link>https://abdulkadirgungor.com/tags/yapay-zeka-teknolojileri/</link>
       <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://abdulkadirgungor.com/tags/yapay-zeka-teknolojileri/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>https://abdulkadirgungor.com/tags/llm/</link>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://abdulkadirgungor.com/tags/llm/</guid>
       <description></description>
     </item>
     <item>

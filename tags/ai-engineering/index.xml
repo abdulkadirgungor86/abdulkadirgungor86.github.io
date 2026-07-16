@@ -6,8 +6,15 @@
     <description>Recent content in Ai-Engineering on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/tags/ai-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Engineering vs Loop Engineering: Yapay Zekada Tek Atışlık Yanıttan Kendi Kendini İyileştiren Döngülere</title>
+      <link>https://abdulkadirgungor.com/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/</guid>
+      <description>&lt;p&gt;Bir yapay zeka modeline soru sorduğunuzda aslında iki farklı dünyadan birini seçiyorsunuz: ya modelin tek seferde, tek bir nefeste doğru cevabı üretmesini bekliyorsunuz, ya da modelin kendi ürettiğini tekrar tekrar gözden geçirmesine, sınamasına ve düzeltmesine izin veriyorsunuz. Bu iki yaklaşım son birkaç yıldır &amp;ldquo;prompt engineering&amp;rdquo; ve &amp;ldquo;loop engineering&amp;rdquo; adları altında ayrı disiplinler haline geldi. Aralarındaki fark, sadece teknik bir tercih değil; maliyet, hız, güvenilirlik ve nihayetinde ürünün kalitesi arasında kurulan bir denge meselesi.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Random Forest Algoritmasının Teknik Mimarisi ve Uygulama Prensipleri</title>
       <link>https://abdulkadirgungor.com/ai/random-forest-algoritmasinin-teknik-mimarisi-ve-uygulama-prensipleri/</link>
