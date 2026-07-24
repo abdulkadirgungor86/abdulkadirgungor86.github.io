@@ -20,7 +20,11 @@
 
 ---
 
+<div align="center">
+  
 ## 📌 Hakkında / About
+
+</div>
 
 [🇹🇷]  Bu depo, Go dilinde yazılmış [Hugo](https://gohugo.io/) site derleyicisi ile geliştirilmiş, GitHub Pages üzerinden yayınlanan kişisel portföy/özgeçmiş sitesinin kaynak kodunu barındırır.
 Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber güvenliğe uzanan çok disiplinli bir kariyeri tanıtmak amacıyla tasarlanmıştır. İçerik **Türkçe** ve **İngilizce** olmak üzere iki dilde sunulmaktadır.
@@ -30,7 +34,11 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
+<div align="center">
+  
 ## ✨ Özellikler / Features
+
+</div>
 
 - 🧑‍💻 [🇹🇷] Hakkımda / Özgeçmiş — eğitim, yetkinlikler, yayınlar, deneyim
   <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[🇬🇧] *About / Resume — education, skills, publications, experience*
@@ -64,7 +72,11 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
+<div align="center">
+  
 ## 📁 Klasör Yapısı / Folder Structure
+
+</div>
 
 ```
 .
@@ -90,7 +102,11 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
+<div align="center">
+  
 ## 🛠️ Kullanılan Teknolojiler / Tech Stack
+
+</div>
 
 | Kategori / Category | Teknolojiler / Technologies |
 |---|---|
@@ -105,7 +121,11 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
+<div align="center">
+  
 ## 🚀 Yerel Olarak Çalıştırma / Running Locally
+
+</div>
 
 [🇹🇷] Bu depo basit bir HTTP sunucusu ile yerel olarak çalıştırılamaz.
 
@@ -113,7 +133,11 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
+<div align="center">
+  
 ## 🌍 Yayınlama / Deployment
+
+</div>
 
 [🇹🇷] Site, `main` dalı üzerinden web sunucu sayesinde otomatik olarak yayınlanmaktadır. Özel alan adı olan **[abdulkadirgungor.com](https://abdulkadirgungor.com/)** üzerinden erişilebilir durumdadır.
 
@@ -121,9 +145,9 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
-## 👤 İletişim / Contact
-
 <div align="center">
+  
+## 👤 İletişim / Contact
 
 **Abdulkadir Güngör**
 
@@ -143,7 +167,11 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ---
 
+<div align="center">
+  
 ## 📄 Lisans / License
+
+</div>
 
 [🇹🇷] Bu proje kişisel bir portföy sitesidir. Aksi belirtilmedikçe içerik ve tasarım hakları saklıdır.
 
