@@ -12,9 +12,9 @@
 
 [🇬🇧] **Abdulkadir Güngör** — *Full Stack Developer · AI, Data Science & Robotics Specialist · Cybersecurity, OHS & Civil Engineering*
 
-🔗 **[Web site: abdulkadirgungor.com](https://abdulkadirgungor.com/)**
+🔗 **Web site:** [abdulkadirgungor.com](https://abdulkadirgungor.com)
 
-🔗 **[Repo link: abdulkadirgungor86.github.io](https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io)**
+🔗 **Repo link:** [https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io](https://github.com/abdulkadirgungor86/abdulkadirgungor86.github.io)
 
 </div>
 
@@ -115,9 +115,9 @@ Site; inşaat mühendisliğinden yazılım geliştirmeye, yapay zekadan siber g�
 
 ## 🌍 Yayınlama / Deployment
 
-[🇹🇷] Site, `main` dalı üzerinden **GitHub Pages** ile otomatik olarak yayınlanmaktadır. `CNAME` dosyası sayesinde site, özel alan adı olan **[abdulkadirgungor.com](https://abdulkadirgungor.com/)** üzerinden erişilebilir durumdadır.
+[🇹🇷] Site, `main` dalı üzerinden web sunucu sayesinde otomatik olarak yayınlanmaktadır. Özel alan adı olan **[abdulkadirgungor.com](https://abdulkadirgungor.com/)** üzerinden erişilebilir durumdadır.
 
-[🇬🇧] The site is automatically deployed via **GitHub Pages** from the `main` branch. Thanks to the `CNAME` file, it is accessible through the custom domain **[abdulkadirgungor.com](https://abdulkadirgungor.com/)**.
+[🇬🇧] The site is automatically published via the web server through the `main` branch. It is accessible via the custom domain **[abdulkadirgungor.com](https://abdulkadirgungor.com/)**.
 
 ---
 
