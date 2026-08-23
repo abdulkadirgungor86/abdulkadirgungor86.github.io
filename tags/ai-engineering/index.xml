@@ -6,8 +6,15 @@
     <description>Recent content in Ai-Engineering on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/tags/ai-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yapay Zekâ İçerik İmzaları: SynthID, C2PA, AudioSeal ve Köken Doğrulama Ekosistemi</title>
+      <link>https://abdulkadirgungor.com/ai/yapay-zeka-icerik-imzalari-synthid-c2pa-audioseal-ve-koken-dogrulama-ekosistemi/</link>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/ai/yapay-zeka-icerik-imzalari-synthid-c2pa-audioseal-ve-koken-dogrulama-ekosistemi/</guid>
+      <description>&lt;p&gt;2023–2026 yılları arasında üretken yapay zekâ, metin sentezinden fotogerçekçi video üretimine kadar geniş bir yelpazede dijital medyanın otantikliğini sarsacak bir olgunluğa ulaştı. Yapay zekâ modelleriyle (ör. Imagen veya gelişmiş ses klonlama sistemleri) üretilen çıktılar ile insan eliyle oluşturulmuş özgün içerikler arasındaki ayrım, artık duyusal gözlemle tespit edilemeyecek kadar belirsizleşmiştir.&lt;/p&gt;&#xA;&lt;p&gt;Doğrulama krizine yanıt olarak bilişim sektörü iki tamamlayıcı güvenlik mimarisine odaklanmıştır: &lt;strong&gt;Görünmez İmza Gömme (Watermarking)&lt;/strong&gt; ve &lt;strong&gt;Kriptografik Köken Kaydı (Provenance)&lt;/strong&gt;. Bu çalışma; SynthID, C2PA, AudioSeal, SynthID-Text ve Digimarc gibi öne çıkan standart ve teknolojileri mimari katmanları, matematiksel temelleri ve veri bütünlüğü algoritmaları çerçevesinde incelemektedir.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Prompt Engineering vs Loop Engineering: Yapay Zekada Tek Atışlık Yanıttan Kendi Kendini İyileştiren Döngülere</title>
       <link>https://abdulkadirgungor.com/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/</link>

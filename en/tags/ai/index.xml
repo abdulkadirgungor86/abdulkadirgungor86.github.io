@@ -6,8 +6,15 @@
     <description>Recent content in Ai on Abdulkadir Güngör</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abdulkadirgungor.com/en/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Content Watermarks: SynthID, C2PA, AudioSeal, and the Provenance Verification Ecosystem</title>
+      <link>https://abdulkadirgungor.com/en/ai/yapay-zeka-icerik-imzalari-synthid-c2pa-audioseal-ve-koken-dogrulama-ekosistemi/</link>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://abdulkadirgungor.com/en/ai/yapay-zeka-icerik-imzalari-synthid-c2pa-audioseal-ve-koken-dogrulama-ekosistemi/</guid>
+      <description>&lt;p&gt;Between 2023 and 2026, generative AI reached a level of maturity — spanning everything from text synthesis to photorealistic video generation — that has shaken the authenticity of digital media across the board. The distinction between output produced by AI models (e.g., Imagen or advanced voice-cloning systems) and content created by human hands has become too blurred to detect through sensory observation alone.&lt;/p&gt;&#xA;&lt;p&gt;In response to this verification crisis, the technology sector has focused on two complementary security architectures: &lt;strong&gt;invisible watermarking&lt;/strong&gt; and &lt;strong&gt;cryptographic provenance recording&lt;/strong&gt;. This work examines prominent standards and technologies — SynthID, C2PA, AudioSeal, SynthID-Text, and Digimarc — within the framework of their architectural layers, mathematical foundations, and data-integrity algorithms.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Prompt Engineering vs Loop Engineering: From Single-Shot Answers to Self-Improving Loops in AI</title>
       <link>https://abdulkadirgungor.com/en/ai/prompt-engineering-vs-loop-engineering-yapay-zekada-yeni-paradigma/</link>
